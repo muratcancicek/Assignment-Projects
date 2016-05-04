@@ -12,6 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>HW3</Name>
     <RootNamespace>HW3</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +23,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HW3.py" />
+    <Compile Include="CommonTools.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HW3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KNN_Algorithm.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
