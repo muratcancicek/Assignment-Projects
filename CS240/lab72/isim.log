@@ -1,0 +1,50 @@
+ISim log file
+Running: D:\OneDrive\Projects\CS240\lab72\calc_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/OneDrive/Projects/CS240/lab72/calc_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+True Value at time                  215, expected   0, received   0, data #          1
+True Value at time                  225, expected   3, received   3, data #          2
+True Value at time                  335, expected   0, received   0, data #          3
+True Value at time                  445, expected  12, received  12, data #          4
+True Value at time                  555, expected   5, received   5, data #          5
+True Value at time                  665, expected   6, received   6, data #          6
+True Value at time                  775, expected   9, received   9, data #          7
+True Value at time                  885, expected   2, received   2, data #          8
+Output Error at time                  995, expected   7, received   3, data #          9
+# run all
+Stopped at time : 1100 ns : File "D:/OneDrive/Projects/CS240/lab72/calc_tb.v" Line 88
+# run 1.00us
+True Value at time                 1105, expected   0, received   0, data #         10
+Output Error at time                 1545, expected   0, received   5, data #          1
+Output Error at time                 1655, expected   3, received   6, data #          2
+Output Error at time                 1765, expected   0, received   9, data #          3
+Output Error at time                 1875, expected  12, received   2, data #          4
+Output Error at time                 1985, expected   5, received   3, data #          5
+Output Error at time                 2095, expected   6, received   0, data #          6
+# run 1.00us
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+True Value at time                  215, expected   0, received   0, data #          1
+True Value at time                  225, expected   3, received   3, data #          2
+True Value at time                  335, expected   0, received   0, data #          3
+True Value at time                  445, expected  12, received  12, data #          4
+True Value at time                  555, expected   5, received   5, data #          5
+True Value at time                  665, expected   6, received   6, data #          6
+True Value at time                  775, expected   9, received   9, data #          7
+True Value at time                  885, expected   2, received   2, data #          8
+Output Error at time                  995, expected   7, received   3, data #          9

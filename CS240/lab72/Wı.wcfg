@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/OneDrive/Projects/CS240/lab72/calc_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="calc_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/calc_tb/dataOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/validIn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/dataIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[0:63,7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[0:63,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/data[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10,7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[10,7:0]</obj_property>
+      <wvobject fp_name="/calc_tb/data[10,7]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,7]</obj_property>
+         <obj_property name="ObjectShortName">data[10,7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,6]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,6]</obj_property>
+         <obj_property name="ObjectShortName">data[10,6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,5]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,5]</obj_property>
+         <obj_property name="ObjectShortName">data[10,5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,4]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,4]</obj_property>
+         <obj_property name="ObjectShortName">data[10,4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,3]</obj_property>
+         <obj_property name="ObjectShortName">data[10,3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,2]</obj_property>
+         <obj_property name="ObjectShortName">data[10,2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,1]</obj_property>
+         <obj_property name="ObjectShortName">data[10,1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/calc_tb/data[10,0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,0]</obj_property>
+         <obj_property name="ObjectShortName">data[10,0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[0:63,7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[0:63,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/datasize" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datasize[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datasize[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/resultsize" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">resultsize[7:0]</obj_property>
+      <obj_property name="ObjectShortName">resultsize[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/ii" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ii[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ii[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/jj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">jj[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jj[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/errorFlag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">errorFlag[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errorFlag[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/CNTSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CNTSIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CNTSIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calc_tb/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

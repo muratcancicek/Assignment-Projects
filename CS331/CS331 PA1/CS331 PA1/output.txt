@@ -1,0 +1,38 @@
+Solution found by astar ! 
+Number of nodes the solution path contains: 12 
+Number of the expanded nodes: 20 
+ 
+0 M 0 C ______________\--/_ 3 M 3 C  
+Put two cannibals in the boat 
+ 
+0 M 2 C _\--/______________ 3 M 1 C  
+Put one cannibal in the boat 
+ 
+0 M 1 C ______________\--/_ 3 M 2 C  
+Put two cannibals in the boat 
+ 
+0 M 3 C _\--/______________ 3 M 0 C  
+Put one cannibal in the boat 
+ 
+0 M 2 C ______________\--/_ 3 M 1 C  
+Put two missionaries in the boat 
+ 
+2 M 2 C _\--/______________ 1 M 1 C  
+Put one cannibal and one missionary in the boat 
+ 
+1 M 1 C ______________\--/_ 2 M 2 C  
+Put two missionaries in the boat 
+ 
+3 M 1 C _\--/______________ 0 M 2 C  
+Put one cannibal in the boat 
+ 
+3 M 0 C ______________\--/_ 0 M 3 C  
+Put two cannibals in the boat 
+ 
+3 M 2 C _\--/______________ 0 M 1 C  
+Put one cannibal in the boat 
+ 
+3 M 1 C ______________\--/_ 0 M 2 C  
+Put two cannibals in the boat 
+ 
+3 M 3 C _\--/______________ 0 M 0 C  

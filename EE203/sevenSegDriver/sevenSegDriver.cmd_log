@@ -1,0 +1,52 @@
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf -ucf sevenSegDriver.ucf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf -ucf sevenSegDriver.ucf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf -ucf sevenSegDriver.ucf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf -ucf sevenSegDriver.ucf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Administrator/Desktop/fenfik/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf -ucf sevenSegDriver.ucf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/sevenSegDriver/sevenSegDriver.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/sevenSegDriver/sevenSegDriver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sevenSegDriver.ucf -p xc3s100e-cp132-4 sevenSegDriver.ngc sevenSegDriver.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenSegDriver_map.ncd sevenSegDriver.ngd sevenSegDriver.pcf 
+par -w -intstyle ise -ol high -t 1 sevenSegDriver_map.ncd sevenSegDriver.ncd sevenSegDriver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenSegDriver.twx sevenSegDriver.ncd -o sevenSegDriver.twr sevenSegDriver.pcf -ucf sevenSegDriver.ucf 
+bitgen -intstyle ise -f sevenSegDriver.ut sevenSegDriver.ncd 

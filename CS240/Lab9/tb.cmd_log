@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/OneDrive/Projects/CS240/Lab9/tb.xst" -ofn "D:/OneDrive/Projects/CS240/Lab9/tb.syr" 

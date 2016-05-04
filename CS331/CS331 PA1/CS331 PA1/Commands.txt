@@ -1,0 +1,48 @@
+import sys
+sys.argv = ['start1.txt', 'goal1.txt']
+execfile('pa1.py')
+
+import sys
+sys.argv = ['pa1.py', 'start1.txt', 'goal1.txt', 'dfs', 'output.txt']
+execfile('pa1.py')
+
+python pa1.py start1.txt goal1.txt dfs output.txt
+
+python pa1.py start1.txt goal1.txt astar output.txt
+
+python pa1.py start3.txt goal1.txt astar output.txt
+
+python pa1.py start3.txt goal3.txt astar output.txt
+
+python pa1.py start3.txt goal3.txt bdf output.txt
+ 
+####################      MAIN      #####################
+
+if outputFile == None:
+    outputFile = open(problem['output'], "w+")
+#problem = getStartNGoalStates() 
+#solve(problem)
+#problem = {'initialState': [[0, 0, 0], [3, 3, 1]], 'goalState': [[3, 3, 1], [0, 0, 0]], 'mode': 'bfs', 'output': 'output.txt'}
+#problem = {'initialState': [[0, 0, 0], [7, 6, 1]], 'goalState': [[7, 6, 1], [0, 0, 0]], 'mode': 'iddfs', 'output': 'output.txt'}
+#problem = {'initialState': [[0, 0, 0], [88, 80, 1]], 'goalState': [[88, 80, 1], [0, 0, 0]], 'mode': 'bfs', 'output': 'output.txt'}
+#solve(problem)
+ 
+#problem = {'initialState': [[0, 0, 0], [880, 800, 1]], 'goalState': [[880, 800, 1], [0, 0, 0]], 'mode': 'astar', 'output': 'output.txt'}
+#solve(problem)
+
+problem = {'initialState': [[0, 0, 0], [88, 80, 1]], 'goalState': [[88, 80, 1], [0, 0, 0]], 'mode': 'bfs', 'output': 'output.txt'}
+
+problem['mode'] = 'astar'
+solve(problem)
+
+problem['mode'] = 'iddfs'
+solve(problem)
+
+problem['mode'] = 'dfs'
+solve(problem)
+
+problem['mode'] = 'bfs'
+solve(problem)
+
+if not outputFile == None:
+    outputFile.close()

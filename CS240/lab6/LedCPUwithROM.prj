@@ -1,0 +1,4 @@
+verilog work "Delay.v"
+verilog work "ROM.v"
+verilog work "LedCPUcore.v"
+verilog work "LedCPUwithROM.v"

@@ -1,0 +1,57 @@
+[[0, 0, 0], [3, 3, 1]] [[0, 0, 0], [3, 3, 1]] 
+ 
+Solution found by astar ! 
+Number of nodes the solution path contains: 12 
+Number of the expanded nodes: 17 
+ 
+Solution found by iddfs ! 
+Number of nodes the solution path contains: 12 
+Number of the expanded nodes: 25 
+ 
+Solution found by dfs ! 
+Number of nodes the solution path contains: 18 
+Number of the expanded nodes: 28 
+ 
+Solution found by bfs ! 
+Number of nodes the solution path contains: 12 
+Number of the expanded nodes: 28 
+ 
+ 
+[[0, 0, 0], [7, 6, 1]] [[0, 0, 0], [7, 6, 1]] 
+ 
+Solution found by astar ! 
+Number of nodes the solution path contains: 24 
+Number of the expanded nodes: 28 
+ 
+Solution found by iddfs ! 
+Number of nodes the solution path contains: 30 
+Number of the expanded nodes: 80 
+ 
+Solution found by dfs ! 
+Number of nodes the solution path contains: 42 
+Number of the expanded nodes: 76 
+ 
+Solution found by bfs ! 
+Number of nodes the solution path contains: 24 
+Number of the expanded nodes: 90 
+ 
+ 
+[[0, 0, 0], [88, 80, 1]] [[0, 0, 0], [88, 80, 1]] 
+ 
+Solution found by astar ! 
+Number of nodes the solution path contains: 334 
+Number of the expanded nodes: 497 
+ 
+Solution found by iddfs ! 
+Number of nodes the solution path contains: 2452 
+Number of the expanded nodes: 2848 
+ 
+Solution found by dfs ! 
+Number of nodes the solution path contains: 2488 
+Number of the expanded nodes: 3128 
+ 
+Solution found by bfs ! 
+Number of nodes the solution path contains: 334 
+Number of the expanded nodes: 6589 
+ 
+ 

@@ -1,0 +1,3 @@
+verilog work "calc.v"
+verilog work "calc_tb.v"
+verilog work "D:/Slow_Storage/Program_Files/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

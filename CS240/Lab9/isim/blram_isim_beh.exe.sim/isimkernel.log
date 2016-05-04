@@ -1,0 +1,29 @@
+Command line:
+   blram_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56292
+
+Mon May 25 22:37:52 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 1933.44 Meg
+
+ Total Signals          : 18
+ Total Nets             : 90
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 33034
+Total Line Count : 30
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 2101.05 Meg
+
+Mon May 25 22:38:32 2015
+

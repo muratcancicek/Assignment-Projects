@@ -1,0 +1,46 @@
+﻿  decrompress.cpp
+d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(63): warning C4018: '<': signed/unsigned mismatch
+d:\onedrive\projects\cs222.2\hw5\hw5\decrompress.cpp(87): warning C4018: '<': signed/unsigned mismatch
+d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(140): warning C4018: '>': signed/unsigned mismatch
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(132): note: while compiling class template member function 'void HashTable<std::string>::insert(const HashedObj &)'
+          with
+          [
+              HashedObj=std::string
+          ]
+  d:\onedrive\projects\cs222.2\hw5\hw5\decrompress.cpp(80): note: see reference to function template instantiation 'void HashTable<std::string>::insert(const HashedObj &)' being compiled
+          with
+          [
+              HashedObj=std::string
+          ]
+  d:\onedrive\projects\cs222.2\hw5\hw5\decrompress.cpp(74): note: see reference to class template instantiation 'HashTable<std::string>' being compiled
+d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(215): warning C4018: '<': signed/unsigned mismatch
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(213): note: while compiling class template member function 'void HashTable<std::string>::makeEmpty(void)'
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(123): note: see reference to function template instantiation 'void HashTable<std::string>::makeEmpty(void)' being compiled
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(121): note: while compiling class template member function 'HashTable<std::string>::HashTable(const HashedObj &,int)'
+          with
+          [
+              HashedObj=std::string
+          ]
+  d:\onedrive\projects\cs222.2\hw5\hw5\decrompress.cpp(74): note: see reference to function template instantiation 'HashTable<std::string>::HashTable(const HashedObj &,int)' being compiled
+          with
+          [
+              HashedObj=std::string
+          ]
+d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(179): warning C4018: '>=': signed/unsigned mismatch
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(170): note: while compiling class template member function 'int HashTable<std::string>::findPos(const HashedObj &) const'
+          with
+          [
+              HashedObj=std::string
+          ]
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(204): note: see reference to function template instantiation 'int HashTable<std::string>::findPos(const HashedObj &) const' being compiled
+          with
+          [
+              HashedObj=std::string
+          ]
+d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(154): warning C4018: '<': signed/unsigned mismatch
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(149): note: while compiling class template member function 'void HashTable<std::string>::rehash(void)'
+  d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(141): note: see reference to function template instantiation 'void HashTable<std::string>::rehash(void)' being compiled
+d:\onedrive\projects\cs222.2\hw5\hw5\linearprobing.h(159): warning C4018: '<': signed/unsigned mismatch
+d:\onedrive\projects\cs222.2\hw5\hw5\decrompress.cpp(32): warning C4715: 'isArgsNumberValid': not all control paths return a value
+  HW5.vcxproj -> D:\OneDrive\Projects\CS222.2\HW5\Debug\HW5.exe
+  HW5.vcxproj -> D:\OneDrive\Projects\CS222.2\HW5\Debug\HW5.pdb (Partial PDB)

@@ -1,0 +1,35 @@
+
+Release 14.7 SmartXplorer
+Copyright(c) 1995-2010 Xilinx, Inc. All rights reserved.
+"D:\Slow_Storage\Program_Files\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe" -p xc3s100e-cp132-4 -b -wd smartxplorer_results calc.ngd -to "-v 3 -s 4 -n 3 -fastpaths -xml calc.twx " -host_list hostlistfile.txt -max_runs 7
+
+SmartXplorer Settings: 
+
+designName=D:\OneDrive\Projects\CS240\Lab7\calc.ngd 
+write_dir=D:\OneDrive\Projects\CS240\Lab7\smartxplorer_results 
+host_list=D:\OneDrive\Projects\CS240\Lab7\hostlistfile.txt 
+part=xc3s100e-cp132-4 
+strategy_file=None 
+notify=None 
+source_dir=D:\OneDrive\Projects\CS240\Lab7 
+batch_mode=True 
+run_all_strategies=False 
+list_all_strategies=False 
+remote_command=rsh
+area_report="lut;slice_reg"
+power_options=off
+trce_options="-v 3 -s 4 -n 3 -fastpaths -xml calc.twx "
+max_runs=7
+
+Starting SmartXplorer...
+See file 'smartxplorer.html' for real-time report.
+
+
+Running SmartXplorer strategies...
+
+
+WARNING: No timing constraints found for the design. So, timing scores appear as None in the reports.
+
+INFO: No best strategy!
+
+SmartXplorer Done. See file 'smartxplorer.txt' for detailed report.

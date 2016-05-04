@@ -1,0 +1,13 @@
+START:Strategy:2:MapPhysSynthesis
+REMOTE_PID:11740
+RUNNING:11740:5372:MapPhysSynthesis:map:calc.ngd: -timing -ol high -xe n -register_duplication on -logic_opt on  -p xc3s100e-cp132-4 -o calc_map.ncd  D:cl:bslOneDrive:bslProjects:bslCS240:bslLab7:bslsmartxplorer_results:bslrun2:bslcalc.pcf
+STATUS:MapPhysSynthesis:map:Score:None:lut:None:slice_reg:22 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.07 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:80 (4%):slice_reg:22 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.07 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:80 (4%):slice_reg:22 (1%):slice:43 (4%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.07 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:80 (4%):slice_reg:22 (1%):slice:43 (4%):bram:None:dsp48:None:mult18x18:2 (50%):Power:None:wnsInfo:None:Time:10.07 secs 
+DONE:map:0
+RUNNING:11740:9404:MapPhysSynthesis:par:calc_map.ncd: -ol high  -w calc.ncd  D:cl:bslOneDrive:bslProjects:bslCS240:bslLab7:bslsmartxplorer_results:bslrun2:bslcalc.pcf
+STATUS:MapPhysSynthesis:par:Score:None:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:N/A:Time:20.07 secs 
+DONE:par:0
+RUNNING:11740:3080:MapPhysSynthesis:trce:D:\OneDrive\Projects\CS240\Lab7\smartxplorer_results\run2\calc.ncd:D:cl:bslOneDrive:bslProjects:bslCS240:bslLab7:bslsmartxplorer_results:bslrun2:bslcalc.pcf -xml D:cl:bslOneDrive:bslProjects:bslCS240:bslLab7:bslsmartxplorer_results:bslrun2:bslcalc.twx -v 3 -s 4 -n 3 -fastpaths    -o D:cl:bslOneDrive:bslProjects:bslCS240:bslLab7:bslsmartxplorer_results:bslrun2:bslcalc.twr
+DONE:trce:0

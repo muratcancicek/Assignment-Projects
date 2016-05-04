@@ -1,0 +1,3 @@
+verilog work "SimpleCPU.v"
+verilog work "blram.v"
+verilog work "tb.v"

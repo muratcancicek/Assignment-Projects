@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/OneDrive/Projects/CS240/Lab9/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb/addr_toRAM" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">addr_toRAM[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_toRAM[9:0]</obj_property>
+      <obj_property name="label">addr_toRAM[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_toRAM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_toRAM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_toRAM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_fromRAM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_fromRAM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_fromRAM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wrEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrEn</obj_property>
+      <obj_property name="ObjectShortName">wrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/pCounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pCounter[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pCounter[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

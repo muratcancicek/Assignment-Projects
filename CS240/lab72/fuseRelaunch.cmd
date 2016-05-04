@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/OneDrive/Projects/CS240/lab72/calc_tb_isim_beh.exe" -prj "D:/OneDrive/Projects/CS240/lab72/calc_tb_beh.prj" "work.calc_tb" "work.glbl" 

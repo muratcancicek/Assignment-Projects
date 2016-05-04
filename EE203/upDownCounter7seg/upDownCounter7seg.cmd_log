@@ -1,0 +1,113 @@
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.xst" -ofn "C:/Users/Muratcan/OneDrive/Projects/EE203/upDownCounter7seg/upDownCounter7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc upDownCounter7seg.ucf -p xc3s100e-cp132-4 upDownCounter7seg.ngc upDownCounter7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o upDownCounter7seg_map.ncd upDownCounter7seg.ngd upDownCounter7seg.pcf 
+par -w -intstyle ise -ol high -t 1 upDownCounter7seg_map.ncd upDownCounter7seg.ncd upDownCounter7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml upDownCounter7seg.twx upDownCounter7seg.ncd -o upDownCounter7seg.twr upDownCounter7seg.pcf -ucf upDownCounter7seg.ucf 
+bitgen -intstyle ise -f upDownCounter7seg.ut upDownCounter7seg.ncd 
