@@ -26,6 +26,12 @@
     <Compile Include="CommonTools.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DecisionTreeNode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DecisionTree_Algorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HW3.py">
       <SubType>Code</SubType>
     </Compile>

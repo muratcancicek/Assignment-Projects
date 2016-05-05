@@ -84,15 +84,15 @@ def plotAndSaveResultsOf_KNN_Algorithm(results, fileName = ''):
     plotSingleLine(results[0], results[1], title = fileName, xLabel = ' k values',
                    yLabel = '# of mistakes', xBorder = 1, yBorder = 1)
 
-#############################  PLOTTING KNN ALL ERRORS  ###########################
+#############################  PLOTTING KNN ALL ERRORS  #######################
 
 def plotAndSaveResultsOfAllErrors_KNN_Algorithm(xyList, fileName = '', legendList = []):
     plotMultiLine(xyList, title = fileName, xLabel = ' k values',
                    yLabel = '# of mistakes', xBorder = 1, yBorder = 2, legendList = legendList)
     
-##############################  MAIN FUNCTIONALITIES  #############################
+##############################  MAIN FUNCTIONALITIES  #########################
 
-def readDataForHW3():
+def readKNNDataForHW3():
     trainingData = readDataset('knn_train.csv')
     testData = readDataset('knn_test.csv')
     return trainingData, testData
@@ -124,7 +124,7 @@ def getKNNResultsOnTestData(startingK, endingK = -1, trainingData = ['knn_train.
     return resultsOnTestData 
 
 def getResultsOfAllErrors_KNN_Algorithm(startingK, endingK = -1, trainingData = ['knn_train.csv'], testData = ['knn_test.csv'], plotting = False):
-    trainingData, testData = readDataForHW3()
+    trainingData, testData = readKNNDataForHW3()
     resultsOnTrainingData = getKNNResultsOnTrainingData(startingK, endingK, trainingData)
     resultsOfCrossValidation = getKNNResultsOfCrossValidation(startingK, endingK, trainingData)
     resultsOnTestData = getKNNResultsOnTestData(startingK, endingK, trainingData, testData)
