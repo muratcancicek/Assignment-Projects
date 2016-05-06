@@ -36,6 +36,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="KNN_Algorithm.py" />
+    <Compile Include="Monk.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="knn_test.csv" />
+    <Content Include="knn_train.csv" />
+    <Content Include="monks-1-test.csv" />
+    <Content Include="monks-1-train.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
