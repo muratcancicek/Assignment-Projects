@@ -36,7 +36,6 @@ class DecisionTreeNode(object):
             self.children = []
             self.makeChildren(condition)
             gain = self.getInformationGain()
-            print gain, maxGain
             if gain >= maxGain:
                 bestCondition, maxGain = condition, gain
         self.children = []

@@ -1,6 +1,7 @@
-from CommonTools import *
 import math 
+from CommonTools import *
 from Monk import *
+from DecisionCondition import *
 
 ###################################  READING DATA  ############################
 
@@ -58,11 +59,11 @@ def getAllConditions():
     for i in range(len(valueCounts)):
         count = valueCounts[i]
         for value in range(1, count+1):
-            condition = lambda monk, ind=i, val=value: monk.features[ind] == val
+            condition = DecisionCondition(VALUE_CHECKING, i, value)
             conditions.append(condition)
     for i in range(len(valueCounts)-1):
         for j in range(i+1, len(valueCounts)):
-            condition = lambda monk, ind=i, jj=j: monk.features[ind] == monk.features[jj]
+            condition = DecisionCondition(FEATURE_CHECKING, i, j)
             conditions.append(condition)
     return conditions
 

@@ -18,13 +18,14 @@ def main():
 
     conditions = getAllConditions()
     s = DecisionTreeNode(trainingData)
-    s.findBestCondition(conditions)
+    bestCondition = s.findBestCondition(conditions)
+    print '\n', bestCondition
     print '\n', s.getInformationGain()
 
     #monk = Monk([0,1,2,2,2,3,2])
     #for condition in conditions:
+    #    print condition
     #    print condition(monk)
-        #print inspect.getsource(condition)
 
 ################################  RUNNING SCOPE  ##############################
 

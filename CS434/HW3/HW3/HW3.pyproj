@@ -26,6 +26,9 @@
     <Compile Include="CommonTools.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DecisionCondition.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DecisionTreeNode.py">
       <SubType>Code</SubType>
     </Compile>
