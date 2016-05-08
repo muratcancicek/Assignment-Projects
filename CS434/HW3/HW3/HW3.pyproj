@@ -35,6 +35,9 @@
     <Compile Include="DecisionTree_Algorithm.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DecisionTree_Algorithm_Resulting.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HW3.py">
       <SubType>Code</SubType>
     </Compile>

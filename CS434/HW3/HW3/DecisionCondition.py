@@ -19,6 +19,7 @@ class DecisionCondition(object):
             return monk[self.leftFeatureIndex] == monk[self.rightFeatureIndex]
 
     def __eg__(self, other):
+        if other == None: return False  
         return self.condition == other.condition and self.leftFeatureIndex == other.leftFeatureIndex and self.rightFeatureIndex == other.rightFeatureIndex and self.conditionValue == other.conditionValue 
     def __ne__(self, other):
         return not self.__eg__(other)

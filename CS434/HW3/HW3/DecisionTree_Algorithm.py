@@ -24,6 +24,8 @@ def entropy(*pList):
     for p in pList:
         if p != 0:
             result -= p * math.log(p, 2)
+        else:
+            print p
     return result
 
 ##############################  ENTROPY FROM VALUES  ##########################
@@ -32,7 +34,10 @@ def entropyFromValues(*values):
     sum = 0.0
     for v in values:
         sum += v
-    pList = [v/sum for v in values]
+    pList = []
+    for v in values:
+        if v != 0:
+            pList.append(v/sum)
     return entropy(*pList)
 
 ##############################  COUNTING POSITIVES  ###########################
@@ -61,10 +66,20 @@ def getAllConditions():
         for value in range(1, count+1):
             condition = DecisionCondition(VALUE_CHECKING, i, value)
             conditions.append(condition)
-    for i in range(len(valueCounts)-1):
-        for j in range(i+1, len(valueCounts)):
-            condition = DecisionCondition(FEATURE_CHECKING, i, j)
-            conditions.append(condition)
+    #for i in range(len(valueCounts)-1):
+    #    for j in range(i+1, len(valueCounts)):
+    #        condition = DecisionCondition(FEATURE_CHECKING, i, j)
+    #        conditions.append(condition)
     return conditions
+
+#########################  GETTING # OF ERRORS ON DATA  #######################
+
+def countErrorsOfDecisionTree(root, testData):
+    errorCount = 0
+    for monk in testData:
+        if  root.predict(monk) != monk.classLabel:
+            errorCount += 1
+    return errorCount
+
 
 ##############################  MAIN FUNCTIONALITIES  #########################
