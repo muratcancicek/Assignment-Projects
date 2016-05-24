@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9b402e68-a9c9-4c9b-9f9f-37349ac1d033</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Main.py</StartupFile>
+    <StartupFile>RunKmeans_Algorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,7 +26,7 @@
     <Compile Include="Kmeans_Algorithm.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Main.py" />
+    <Compile Include="RunKmeans_Algorithm.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="cluster-data-for-k-means.csv" />
