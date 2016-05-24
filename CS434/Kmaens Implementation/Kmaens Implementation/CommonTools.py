@@ -136,7 +136,7 @@ def formatPlot(x, y, title = '', xLabel = '', yLabel = '', legendList = [], xBor
     ax = plt.gca()
     ax.set_autoscale_on(False)
     plt.xticks(x)
-    plt.yticks(y) 
+    plt.yticks(y,  fontsize = 8) 
 
 ############################  PLOTTING SINGLE LINE  ###########################
 
