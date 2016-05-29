@@ -1,5 +1,5 @@
 
-##########################  READING FILE AS LINES #############################
+##########################  READING INPUT #####################################
 
 def readTestData(fileName):  
     file = open(fileName, 'rb') 
@@ -15,4 +15,4 @@ def readTestData(fileName):
         transitionFunctions.append(transitionFunction)
         file.readline()
     rewards = [float(x) for x in file.readline()[:-1].split('    ')]
-    return {'stateNumber': m, 'actionNumber': n, 'transitionFunctions': transitionFunctions, 'rewards': rewards}
+    return {'stateNumber': n, 'actionNumber': m, 'transitionFunctions': transitionFunctions, 'rewards': rewards}
