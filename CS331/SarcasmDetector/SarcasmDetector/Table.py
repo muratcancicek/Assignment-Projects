@@ -1,4 +1,5 @@
 from math import log, exp
+from NaiveBayesAlgorithm import *
 from Vocabulary import *
             
 class Table(MyObject):
@@ -8,6 +9,9 @@ class Table(MyObject):
         self.headers = vocabulary.words.values()
         self.initialiseTable()
         self.buildTable() 
+        self.classLabels = self.getClassLabels()
+        self.trueProbability = p(self.classLabels, 1)
+        self.falseProbability = p(self.classLabels, 0)
             
     def initialiseClassLabels(self):
         classLabelWord = Word('classlabel')
@@ -25,53 +29,57 @@ class Table(MyObject):
             word.setFalseCount(self.rowNumber())
             self.table[word.string] = list(emptyRow)
 
+    def initialiseClusterIndices(self):
+        self.positiveClusterIndices, self.negativeClusterIndices = [], []
+        for i in range(self.rowNumber()):
+            if self.table['classlabel'][i] == 1:
+                self.positiveClusterIndices.append(i)
+            else:
+                self.negativeClusterIndices.append(i)
+
     def buildTable(self):
         rowIndex = 0
-                #probability += log((self.getValueCountOfWord(word, 1, indices)) / float(len(indices)))
-                #probability += log((self.getValueCountOfWord(word, 1, indices) + 1) / float(len(indices) + 2))
-                #probability += log((self.getValueCountOfWord(word, 0, indices)) / float(len(indices)))
-                #probability += log((self.getValueCountOfWord(word, 0, indices) + 1) / float(len(indices) + 2))
         for sentence in self.sentences:
             for word in sentence:
                 word.increaseCount()
                 self.table[word.string][rowIndex] = 1
             self.table['classlabel'][rowIndex] = sentence.classLabel 
             rowIndex += 1
-        
-    def getSubTableIndices(self, value):
-        return  [i for i in range(self.rowNumber()) if self.table['classlabel'][i] == value]
+        self.initialiseClusterIndices()
 
     def getValueCountOfWord(self, word, value, indices):
         column = self.table[word.string]
         column = [column[i] for i in indices]
         return column.count(value)
 
-    def calculateProbability(self, sentence, conditionValue, conditionCount):
-        condition = lambda i, word, value: self.table[word.string][i] == value and self.table['classlabel'][i] == conditionValue
-        probability = 0
-        counts = {}
+    def getFilteredColumn(self, word, conditionValue):
+        filteredIndices = self.positiveClusterIndices if conditionValue == 1 else self.negativeClusterIndices
+        return [self.table[word][i] for i in filteredIndices]
+
+    def calculateProbability(self, sentence, conditionValue):
+        probability = log(self.trueProbability if conditionValue else self.falseProbability)
+        count = 0
         for word in self.headers[:-1]:
-            counts[word.string] = 0
-        for word in self.headers[:-1]: 
-            for i in range(self.rowNumber()):
-                if word in sentence:
-                    if condition(i, word, 1):
-                        counts[word.string] += 1
-                else:
-                     if condition(i, word, 0):
-                        counts[word.string] += 1
-            probability += log((counts[word.string] + 1) / float(conditionCount + 2))
-        return probability
+            wordCondition = 0
+            if word in sentence.words:
+                wordCondition = 1
+                count += 1  
+            filteredColumn = self.getFilteredColumn(word.string, conditionValue)
+            pro = p(filteredColumn, wordCondition)
+            #if wordCondition == 1:
+            #    print conditionValue, wordCondition, pro
+            if pro:
+                probability += log(pro) # if prob != 0 else 0
+            #probability += log(p(self.table[word][i], wordCondition, self.getClassLabels(), conditionValue))
+        return exp(probability) #probability #
 
     def predict(self, sentence):
-        classLabel = self.headers[-1] 
-        probabilityTrue = log((classLabel.trueCount + 1) / float(self.rowNumber() + 2))
-        probabilityTrue += self.calculateProbability(sentence, 1, classLabel.trueCount)
-        probabilityTrue = abs(exp(probabilityTrue))
-
-        probabilityFalse = log((classLabel.falseCount + 1) / float(self.rowNumber() + 2)) 
-        probabilityFalse += self.calculateProbability(sentence, 0, classLabel.falseCount)
-        probabilityFalse = abs(exp(probabilityFalse))
+        probabilityTrue = self.calculateProbability(sentence, 1)
+        probabilityFalse = self.calculateProbability(sentence, 0)
+        #difference = int(probabilityTrue - probabilityFalse) 
+        #print difference
+        #if abs(difference) > 17:
+        #    return 1
         return 1 if probabilityTrue > probabilityFalse else 0
 
     def getPredictedClassLabels(self, sentences = None):
@@ -82,7 +90,7 @@ class Table(MyObject):
         return predictions 
 
     def getClassLabels(self):
-        return self.table[self.headers[-1].string]
+        return self.table['classlabel']
 
     def writeCell(self, file, value, columnIndex):
         file.write(str(value))

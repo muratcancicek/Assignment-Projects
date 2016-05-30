@@ -7,7 +7,7 @@ from Table import Table
 ################################  main  #######################################
 
 def main():
-    print '\n'
+    print ''
 
     trainVocabulary = readVocabularyFrom('training_text.txt')
     trainTable = Table(trainVocabulary)
@@ -21,6 +21,7 @@ def main():
     print 'Accuracy:', accuracy
     print actualClassLabels.count(1), predictedClassLabels.count(1)
     print getErrorCount(actualClassLabels, predictedClassLabels)
+
     #table.saveTable('new_preprocessed_train.txt') 
     #data = getTrainedData(saveOutputs = False)
     #actualClassLabels = data['test']['table']['classlabel']

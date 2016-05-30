@@ -4,7 +4,8 @@ import math
 
 def p(featureColumn, featureValue = 1, conditionColumn = [], conditionValue = 1):
     if conditionColumn == []:
-        return featureColumn.count(featureValue)/float(len(featureColumn))
+        #return (featureColumn.count(featureValue))/float(len(featureColumn)) # Uniform Dirichlet Priors
+        return (featureColumn.count(featureValue) + 1)/float(len(featureColumn) + 2) # Uniform Dirichlet Priors
     else: 
         conditionCount = 0
         for i in range(len(conditionColumn)):
