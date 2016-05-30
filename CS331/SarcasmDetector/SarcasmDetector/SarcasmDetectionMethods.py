@@ -1,7 +1,9 @@
 from CommonTools import *
 from NaiveBayesAlgorithm import *
 from Vocabulary import Vocabulary, Sentence
+from Table import Table
 import string 
+import pandas
 
 ##########################  READING raw sentences  ############################
 

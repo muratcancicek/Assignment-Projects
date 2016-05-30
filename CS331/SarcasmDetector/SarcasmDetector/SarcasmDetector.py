@@ -1,12 +1,14 @@
 from CommonTools import *
 from SarcasmDetectionMethods import *
-from Vocabulary import Table
+from Table import Table
 
 #    execfile('SarcasmDetector.py') 
 
 ################################  main  #######################################
 
 def main():
+    print '\n'
+
     trainVocabulary = readVocabularyFrom('training_text.txt')
     trainTable = Table(trainVocabulary)
 
