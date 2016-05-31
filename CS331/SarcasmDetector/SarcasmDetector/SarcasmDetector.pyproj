@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CommonTools.py" />
+    <Compile Include="Dataset.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="NaiveBayesAlgorithm.py">
       <SubType>Code</SubType>
     </Compile>
@@ -30,7 +33,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SarcasmDetector.py" />
-    <Compile Include="Table.py">
+    <Compile Include="NaiveBayesClassifier.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Vocabulary.py">

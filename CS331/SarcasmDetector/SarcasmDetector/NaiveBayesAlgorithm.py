@@ -36,3 +36,25 @@ def predict(trainTable, sentence):
         return 1
     else:
         return 0
+    
+
+def writeCell(self, file, value, columnIndex):
+    file.write(str(value))
+    if columnIndex < self.columnNumber()-1:
+        file.write(',')
+    else:
+        file.write('\n')
+
+def saveTable(self, fileName):
+    file = open(fileName, 'w') 
+    # headers 
+    for columnIndex in range(self.columnNumber()):
+        self.writeCell(file, self.headers[columnIndex].string, columnIndex)
+    # values 
+    for rowIndex in range(self.rowNumber()):
+        columnIndex = 0
+        for word in self.headers:
+            self.writeCell(file, self.table[word.string][rowIndex], columnIndex)
+            columnIndex += 1
+    file.close()
+    print fileName, 'has been saved.\n'
