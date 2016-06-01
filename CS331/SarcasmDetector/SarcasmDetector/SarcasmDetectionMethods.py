@@ -24,12 +24,6 @@ def generateDataset(fileName):
     print 'Dataset has been generated from', fileName + '.\n'
     return dataset
 
-##########################  generating dataset  ###############################
-
-def saveDataset(dataset, fileName):
-    if not os.path.exists(fileName):
-         dataset.saveTo(fileName)
-
 ##########################  Pre-processing  ###################################
 
 def preprocessData(trainingFileName, testFileName):  
@@ -63,12 +57,12 @@ def doClassifications(trainingDataset, testDataset):
 
 def doPredictions(classifier, dataset): 
     print '\n############################ Predicting... ############################\n'
-    print 'The dataset will be classified:', dataset.label, '\n'
+    print 'The following dataset will be classified:', dataset.label, '\n'
     print 'Predicting now...\n'
     actualClassLabels = dataset.getClassLabels()
     predictedClassLabels = classifier.getPredictedClassLabels(dataset.sentences)
     accuracy = getAccuracy(actualClassLabels, predictedClassLabels)
-    print 'Accuracy:', accuracy
+    print 'Accuracy:', accuracy, '\n'
     print 'Actual sarcastic sentences number:', actualClassLabels.count(1)
     print 'Number of sentences predicted as sarcastic:', predictedClassLabels.count(1)
     print 'Number of mistakes in total:', getErrorCount(actualClassLabels, predictedClassLabels), '\n'

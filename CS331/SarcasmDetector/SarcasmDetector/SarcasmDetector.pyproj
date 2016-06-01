@@ -26,9 +26,6 @@
     <Compile Include="Dataset.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="NaiveBayesAlgorithm.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="SarcasmDetectionMethods.py">
       <SubType>Code</SubType>
     </Compile>
@@ -41,9 +38,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="new_preprocessed_train.txt" />
     <Content Include="preprocessed_test.txt" />
-    <Content Include="preprocessed_training.txt" />
     <Content Include="test_text.txt" />
     <Content Include="training_text.txt" />
   </ItemGroup>

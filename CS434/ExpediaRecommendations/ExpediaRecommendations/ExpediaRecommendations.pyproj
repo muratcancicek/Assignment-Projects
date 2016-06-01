@@ -25,6 +25,7 @@
     <Compile Include="average_precision.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CommonTools.py" />
     <Compile Include="GradientMethod.py">
       <SubType>Code</SubType>
     </Compile>

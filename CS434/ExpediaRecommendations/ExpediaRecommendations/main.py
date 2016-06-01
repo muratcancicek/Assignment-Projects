@@ -21,8 +21,9 @@ def main():
     actuals = [[l] for l in t]
     accuracy = ap.mapk(actuals, predictions, k=5)
     print 'Accuracy:', accuracy
-    print 'end of main'
+    
+################################  running scope  ##############################
 
-################################  running scoce  ##############################
-
+print ''
 main()
+print '\nProgram is terminated successfully.\n' 
