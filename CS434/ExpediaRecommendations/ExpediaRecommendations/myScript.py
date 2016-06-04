@@ -54,12 +54,6 @@ def run_my_solution(TrainFile = "train.csv", testFile = "test.csv"):
         if srch_destination_id != '' and hotel_country != '' and hotel_market != '' and book_year == 2014:
             best_hotels_search_dest[(srch_destination_id, hotel_country, hotel_market)][hotel_cluster] += append_1
 #        
-        if user_location_region != '' and hotel_country != '':
-            best_hotels_ul_region_hotel_country[(user_location_region, hotel_country)][hotel_cluster] += 1
-            
-        if user_location_region != '' and srch_destination_id != '':
-            best_hotels_ul_region_hotel_dest[(user_location_region, srch_destination_id)][hotel_cluster] += 1
-#            
         if srch_destination_id != '':
             best_hotels_search_dest1[srch_destination_id][hotel_cluster] += append_1
                 
@@ -179,6 +173,7 @@ def run_my_solution(TrainFile = "train.csv", testFile = "test.csv"):
                 break
             out.write(' ' + topclasters[i][0])
             filled.append(topclasters[i][0])
+
         preds.append(filled)
         out.write("\n")
     out.close()

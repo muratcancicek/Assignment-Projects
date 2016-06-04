@@ -7,7 +7,7 @@ def main():
     trainingDataset.saveTo('preprocessed_train.txt') 
     testDataset.saveTo('preprocessed_test.txt') 
     print 'Data is now ready for the classification.\n'
-    doClassifications(trainingDataset, testDataset)
+    #doClassifications(trainingDataset, testDataset)
 
 
 ################################  running scope  ##############################

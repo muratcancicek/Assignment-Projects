@@ -3,15 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9b34d85d-1636-488b-9f7d-2cc0de8f6725</ProjectGuid>
+    <ProjectGuid>505b5726-c61d-4876-9176-78b4194b78d8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ExpediaRecommendations</Name>
-    <RootNamespace>ExpediaRecommendations</RootNamespace>
+    <Name>KmaensAlgorithm</Name>
+    <RootNamespace>KmaensAlgorithm</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,30 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Algorithms.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="average_precision.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CommonTools.py" />
-    <Compile Include="GradientMethod.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="KaggleTutorial.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="main.py" />
-    <Compile Include="model_based.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="myScript.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="script.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="output.txt" />
+    <Compile Include="CommonToolsForKmaens.py" />
+    <Compile Include="Kmeans_Algorithm.py" />
+    <Compile Include="RunKmeans_Algorithm.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

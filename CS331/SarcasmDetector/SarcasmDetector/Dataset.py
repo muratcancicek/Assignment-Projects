@@ -63,6 +63,8 @@ class Dataset:
         for rowIndex in range(self.rowNumber):
             counter = 0
             for value in self.getRow(rowIndex):
-                file.write(str(value) + (',' if counter < (self.columnNumber - 1) else '\n'))
+                separator = ',' if counter < (self.columnNumber - 1) else '\n'
+                file.write(str(value) + separator)
+                counter += 1
         file.close()
         print fileName, 'has been saved.\n'

@@ -1,0 +1,4125 @@
+
+
+###############################################################################
+
+
+Program starts...
+
+0 379893
+1 452694
+10 404764
+11 350514
+12 259022
+13 335978
+14 192299
+15 324141
+16 477868
+17 349343
+18 545284
+19 282893
+2 434519
+20 304819
+21 550092
+22 290184
+23 259233
+24 164127
+25 530591
+26 384984
+27 105040
+28 507016
+29 408451
+3 225250
+30 489287
+31 257587
+32 290252
+33 407514
+34 311625
+35 139122
+36 426407
+37 496061
+38 269246
+39 343235
+4 351849
+40 433730
+41 772743
+42 551605
+43 253578
+44 295209
+45 241408
+46 534038
+47 438303
+48 754033
+49 240124
+5 620194
+50 489892
+51 377059
+52 334152
+53 134812
+54 250745
+55 425018
+56 394631
+57 312561
+58 483253
+59 570291
+6 384391
+60 217919
+61 397806
+62 518809
+63 299128
+64 704734
+65 670960
+66 273505
+67 255946
+68 503797
+69 341830
+7 252447
+70 545572
+71 216054
+72 457463
+73 335754
+74 48355
+75 165226
+76 319776
+77 405283
+78 375366
+79 287001
+8 331057
+80 220218
+81 350404
+82 503755
+83 534132
+84 278264
+85 367214
+86 209054
+87 260398
+88 107784
+89 243560
+9 488328
+90 403316
+91 1043720
+92 244343
+93 214293
+94 292029
+95 509266
+96 369962
+97 479446
+98 589178
+99 444887
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+cluster with ID: 91 is full
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+Residual sum of squares: 832.33
+Variance score: 0.00
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+Residual sum of squares: 832.33
+Variance score: 0.00
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+Accuracy: 0.0
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+Accuracy: 0.870253164557
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+mapk Accuracy: 0.0226993670886
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [  0.00000000e+00  -3.29799494e+02  -5.96184818e-14  -4.23836310e-01
+   1.91846539e-13  -5.68434189e-14   3.54054730e+00  -1.76782709e-15]
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [  0.00000000e+00  -3.29799494e+02  -5.96184818e-14  -4.23836310e-01
+   1.91846539e-13  -5.68434189e-14   3.54054730e+00  -1.76782709e-15]
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [  0.00000000e+00  -3.29799494e+02  -5.96184818e-14  -4.23836310e-01
+   1.91846539e-13  -5.68434189e-14   3.54054730e+00  -1.76782709e-15]
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ 0.          0.00102729  0.00014835  0.11000585 -0.00712165  0.          0.
+  0.12590906]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ 0.          0.00102729  0.00014835  0.11000585 -0.00712165  0.          0.
+  0.12590906]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ 0.          0.00102729  0.00014835  0.11000585 -0.00712165  0.          0.
+  0.12590906]
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ 0.          0.00102729  0.00014835  0.11000585 -0.00712165  0.          0.
+  0.12590906]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ 0.          0.00102729  0.00014835  0.11000585 -0.00712165  0.          0.
+  0.12590906]
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -7.96963306e-02  -2.37904232e-03   5.65278997e-07   1.19679288e-07
+  -3.48493380e-05  -5.95651377e-02  -1.20160297e-02   2.00689784e-03]
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.0
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.870253164557
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.00870253164557
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 87.0253164557
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 87.0253164557
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 87.0253164557
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -8.12549716e-02  -5.05189759e-03   7.25688419e-07  -5.77781007e-05
+   1.22148619e-07  -3.05123937e+00   5.74393104e-02  -4.21734647e-02]
+1-1 Accuracy: 0.00870253164557
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+
+Program is terminated successfully.
+
+
+###############################################################################
+
+
+###############################################################################
+
+
+Program starts...
+
+
+###############################################################################
+
+
+Program starts...
+
+Coefficients: 
+ [ -2.60026692e-02   6.84670948e-03  -4.27941315e-06   1.98151222e-04
+  -6.11785314e-05   6.08079065e-08  -3.22932540e+00   7.13940539e-02
+   1.23548231e-01]
+1-1 Accuracy: 0.00823575949367
+
+Program is terminated successfully.
+
+
+###############################################################################
+
