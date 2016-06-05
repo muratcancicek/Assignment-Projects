@@ -4,25 +4,32 @@ from sklearn import linear_model
 from sklearn.ensemble import RandomForestClassifier 
 from CommonTools import *
 import numpy as np
+from sklearn.preprocessing import Imputer
 
-def readXYFromFile(fileName, indices = [], labelIndex = 9, dateIndex = 0):  
+def readXYFromFile(fileName, indices = [], labelIndex = -1, dateIndex = 0):  
     featuresMatrix, labels = [], [] 
     def readRow(row):
         features = []
-        for i in range(len(row)):
-            if i == labelIndex:
+        length = len(row)
+        for i in range(length):
+            if i == labelIndex or (labelIndex == -1 and i == length-1):
                 labels.append(float(row[-1])) 
+            elif row[i] == '':
+                features.append(np.NaN)
             else:#if not i == 3:
                 features.append(float(row[i]))
         featuresMatrix.append(features)
     def readOriginalRow(row):
         features = []
+        length = len(row)
         for i in indices: 
-            if i == labelIndex and labelIndex != -1:
+            if i == labelIndex or (labelIndex == -1 and i == length-1):
                 labels.append(int(row[i])) 
-            elif i == dateIndex:
-                year, month = row[i][:4], row[i][5:7]
-                features.extend([int(year), int(month)])
+            #elif i == dateIndex:
+            #    year, month = row[i][:4], row[i][5:7]
+            #    features.extend([int(year), int(month)])
+            elif row[i] == '':
+                features.append(np.NaN)
             else:
                 features.append(float(row[i]))
         featuresMatrix.append(features)
@@ -63,6 +70,15 @@ def linearRegressionMethod(trainFeatures, trainLabels, testFeatures, testLabels)
     #printSave('Linear Regression score: ' + str(regr.score(predictions, testLabels)))  
     return roundToInt(predictions)
 
+def logisticRegressionMethod(trainFeatures, trainLabels, testFeatures, testLabels): 
+    regr = linear_model.LogisticRegression()
+    regr.fit(trainFeatures, trainLabels)
+    predictions = regr.predict(testFeatures)
+    printSave('Coefficients: \n', regr.coef_)
+    #predictions = np.dot(testFeatures, coefficients)
+    #printSave('Linear Regression score: ' + str(regr.score(predictions, testLabels)))  
+    return roundToInt(predictions)
+
 def randomForestMethod(trainFeatures, trainLabels, testFeatures, testLabels): 
     forest = RandomForestClassifier(n_estimators = 100)
     forest = forest.fit(trainFeatures, trainLabels)
@@ -83,9 +99,14 @@ def getData(trainName, testName, submissionFilename, trainIndices, testIndices):
         testFeatures, testLabels = readXYFromFile(testName)#, 1 
     return trainFeatures, trainLabels, testFeatures, testLabels
 
-def runAlgorithm(algorithm, trainName, testName, submissionFilename = '', trainIndices = [], testIndices = []):
+def runAlgorithm(algorithm, trainName, testName, submissionFilename = '', trainIndices = [], testIndices = [], missing = False):
     trainFeatures, trainLabels, testFeatures, testLabels = getData(trainName, testName, submissionFilename, trainIndices, testIndices)
     
+    if missing:
+        imp = Imputer(missing_values=np.NaN) 
+        trainFeatures = imp.fit_transform(trainFeatures)
+        testFeatures = imp.fit_transform(testFeatures)
+
     predictions = algorithm(trainFeatures, trainLabels, testFeatures, testLabels)
     
     return generateOutput(testLabels, predictions, True, submissionFilename)

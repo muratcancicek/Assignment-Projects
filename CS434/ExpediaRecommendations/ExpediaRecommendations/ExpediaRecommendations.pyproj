@@ -29,6 +29,20 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CommonTools.py" />
+    <Compile Include="fancyimpute-0.0.4\auto_encoder.py" />
+    <Compile Include="fancyimpute-0.0.4\bayesian_regression.py" />
+    <Compile Include="fancyimpute-0.0.4\bayesian_ridge_regression.py" />
+    <Compile Include="fancyimpute-0.0.4\common.py" />
+    <Compile Include="fancyimpute-0.0.4\iterative_svd.py" />
+    <Compile Include="fancyimpute-0.0.4\matrix_factorization.py" />
+    <Compile Include="fancyimpute-0.0.4\MICE.py" />
+    <Compile Include="fancyimpute-0.0.4\neuralnet_helpers.py" />
+    <Compile Include="fancyimpute-0.0.4\nuclear_norm_minimization.py" />
+    <Compile Include="fancyimpute-0.0.4\simple_fill.py" />
+    <Compile Include="fancyimpute-0.0.4\soft_impute.py" />
+    <Compile Include="fancyimpute-0.0.4\solver.py" />
+    <Compile Include="fancyimpute-0.0.4\sparse_nearest_columns.py" />
+    <Compile Include="fancyimpute-0.0.4\__init__.py" />
     <Compile Include="GradientMethod.py">
       <SubType>Code</SubType>
     </Compile>
@@ -46,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fancyimpute-0.0.4\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

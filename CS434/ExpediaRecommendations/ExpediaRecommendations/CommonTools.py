@@ -176,7 +176,8 @@ def writeNewTrain(fromFile, newFile, testFile):
     writeNames(testFile)
     indexOf = lambda name: columnNames[name]
     def writeableRow(row):
-        line = row[indexOf(newNames[0])][:7]
+        data = row[indexOf(newNames[0])][:7]
+        line = data[:4] + ',' + data[5:7]
         for name in newNames[1:]:
             line = line + ',' + row[indexOf(name)]
         line = line + '\n'
@@ -190,34 +191,37 @@ def writeNewTrain(fromFile, newFile, testFile):
     
     trainClusterCounters = defaultdict(int)
     def controlTrain(cluster, row):
-        if cluster in trainClusterCounters.keys():
-            if trainClusterCounters[cluster] < 18835:
-               trainClusterCounters[cluster] += 1
-               writeTrain(row)
-        else:
-            trainClusterCounters[cluster] = 1
-            print 'new Train'
+        #if cluster in trainClusterCounters.keys():
+            #if trainClusterCounters[cluster] < 18835:
+            #   trainClusterCounters[cluster] += 1
+        if cluster == '91' or cluster == '41':
             writeTrain(row)
+        #else:
+        #    trainClusterCounters[cluster] = 1
+        #    print 'new Train'
+        #    writeTrain(row)
 
     testClusterCounters = defaultdict(int)
     def controlTest(cluster, row):
-        if cluster in testClusterCounters.keys():
-            if testClusterCounters[cluster] < 2528:
-               testClusterCounters[cluster] += 1
-               writeTest(row)
-        else:
-            testClusterCounters[cluster] = 1
-            print 'new Test'
+        if cluster == '91' or cluster == '41':
             writeTest(row)
+        #if cluster in testClusterCounters.keys():
+        #    if testClusterCounters[cluster] < 2528:
+        #       testClusterCounters[cluster] += 1
+        #       writeTest(row)
+        #else:
+        #    testClusterCounters[cluster] = 1
+        #    print 'new Test'
+        #    writeTest(row)
 
     def filterRows(row):
         global c
         c += 1
-        if c % 3 != 0 or row[columnNames['orig_destination_distance']] == '': return None
+        #if row[columnNames['orig_destination_distance']] == '': return None # c % 3 != 0 or
         date = row[columnNames['date_time']]
         year, month = int(date[:4]), int(date[5:7])
         cluster = row[columnNames['hotel_cluster']]
-        if (year == 2013) or ((year == 2014) and (month < 8)):
+        if (year == 2013):# or ((year == 2014) and (month < 8)):
             controlTrain(cluster, row)
         else:
             controlTest(cluster, row)

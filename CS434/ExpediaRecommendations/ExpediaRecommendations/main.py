@@ -9,11 +9,14 @@ import pandas as pd
 ################################  main  #######################################
 
 def main():
+    indices = [i for i in range(10)]
+    #runAlgorithm(logisticRegressionMethod, 'fakeTrain2.csv', 'fakeTest2.csv', 'sampledSubmissionBinary.csv')
+    runAlgorithm(linearRegressionMethod, 'sampledTrain6.csv', 'sampledTest6.csv', 'sampledSubmissionBinary.csv', indices, indices, True)
+    #runAlgorithm(logisticRegressionMethod, 'sampledTrain4.csv', 'sampledTest4.csv', 'sampledSubmissionBinary.csv')
     
     #runAlgorithm(randomForestMethod, 'sampledTrain.csv', 'sampledTest.csv', 'sampledSubmission.csv')
-    runAlgorithm(randomForestMethod, 'fakeTrain.csv', 'fakeTest.csv', 'fakedSampledSubmission.csv')
-    
-    #writeNewTrain('train.csv', 'sampledTrian2.csv', 'sampledTest2.csv')
+    #runAlgorithm(randomForestMethod, 'fakeTrain.csv', 'fakeTest.csv', 'fakedSampledSubmission.csv'h
+    #writeNewTrain('train.csv', 'sampledTrian3.csv', 'sampledTest3.csv')
 
     #trainIndices = [0, 5, 7, 16, 20, 21, 22, 23]
     #testIndices = [1, 6, 8, 17, 19, 20, 21]
