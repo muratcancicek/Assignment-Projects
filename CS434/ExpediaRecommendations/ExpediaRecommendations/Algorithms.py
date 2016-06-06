@@ -13,7 +13,7 @@ def readXYFromFile(fileName, indices = [], labelIndex = -1, dateIndex = 0):
         length = len(row)
         for i in range(length):
             if i == labelIndex or (labelIndex == -1 and i == length-1):
-                labels.append(float(row[-1])) 
+                labels.append(float(row[i])) 
             elif row[i] == '':
                 features.append(np.NaN)
             else:#if not i == 3:
@@ -99,21 +99,37 @@ def getData(trainName, testName, submissionFilename, trainIndices, testIndices):
         testFeatures, testLabels = readXYFromFile(testName)#, 1 
     return trainFeatures, trainLabels, testFeatures, testLabels
 
+def fillData(trainFeatures, testFeatures, missing_values=np.NaN, strategy='mean', axis=0, verbose=0, copy=True, all = True):
+    imp = Imputer(missing_values, strategy, axis, verbose, copy) 
+    if all:
+        trainCount = len(trainFeatures)
+        full = np.vstack((trainFeatures, testFeatures))
+        full = imp.fit_transform(full)
+        trainFeatures, testFeatures = np.array(full[:trainCount]), np.array(full[trainCount:])
+        return trainFeatures, testFeatures
+    else:
+        return imp.fit_transform(trainFeatures), imp.fit_transform(testFeatures)
+
 def runAlgorithm(algorithm, trainName, testName, submissionFilename = '', trainIndices = [], testIndices = [], missing = False):
     trainFeatures, trainLabels, testFeatures, testLabels = getData(trainName, testName, submissionFilename, trainIndices, testIndices)
     
     if missing:
-        imp = Imputer(missing_values=np.NaN) 
-        trainFeatures = imp.fit_transform(trainFeatures)
-        testFeatures = imp.fit_transform(testFeatures)
+        strategies = ['mean', 'median', 'most_frequent']#]
+        for strategy in strategies:
+            for b in [True, False]:
+                printSave('s:', strategy, 'b:', b)
+                filledTrainFeatures, filledTestFeatures = fillData(trainFeatures, testFeatures, strategy = strategy, all = b)
+                predictions = algorithm(filledTrainFeatures, trainLabels, filledTestFeatures, testLabels)
+                generateOutput(testLabels, predictions, True, submissionFilename)
+    else:
+        predictions = algorithm(trainFeatures, trainLabels, testFeatures, testLabels)
+        generateOutput(testLabels, predictions, True, submissionFilename)
 
-    predictions = algorithm(trainFeatures, trainLabels, testFeatures, testLabels)
-    
-    return generateOutput(testLabels, predictions, True, submissionFilename)
+    return predictions
 
 def generateOutput(testLabels, predictions, singlePrediction, submissionFileName = ''):
     if singlePrediction:
-        predictions = roundToInt(predictions)
+        #predictions = roundToInt(predictions)
         printSave('1-1 Accuracy: ' + str(getAccuracy(testLabels, predictions)/100))
     else:
         predictedRankings = getPredictedRankings(predictions)

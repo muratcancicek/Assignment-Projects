@@ -177,10 +177,16 @@ def writeNewTrain(fromFile, newFile, testFile):
     indexOf = lambda name: columnNames[name]
     def writeableRow(row):
         data = row[indexOf(newNames[0])][:7]
-        line = data[:4] + ',' + data[5:7]
+        line =  data[5:7]#data[:4] + ',' +
         for name in newNames[1:]:
-            line = line + ',' + row[indexOf(name)]
-        line = line + '\n'
+            if name == 'hotel_cluster':
+                if row[indexOf(name)] == '91':
+                    line = line + ',' + '1'
+                elif row[indexOf(name)] == '41':
+                    line = line + ',' + '0'
+            else: 
+                line = line + ',' + row[indexOf(name)]
+        line = line + '\n'  
         return line
     def writeTrain(row):
         with open(newFile, "a") as myfile:
@@ -221,7 +227,7 @@ def writeNewTrain(fromFile, newFile, testFile):
         date = row[columnNames['date_time']]
         year, month = int(date[:4]), int(date[5:7])
         cluster = row[columnNames['hotel_cluster']]
-        if (year == 2013):# or ((year == 2014) and (month < 8)):
+        if (year == 2013) or ((year == 2014) and (month < 7)):
             controlTrain(cluster, row)
         else:
             controlTest(cluster, row)
