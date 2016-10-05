@@ -114,7 +114,7 @@ def runAlgorithm(algorithm, trainName, testName, submissionFilename = '', trainI
     trainFeatures, trainLabels, testFeatures, testLabels = getData(trainName, testName, submissionFilename, trainIndices, testIndices)
     
     if missing:
-        strategies = ['mean', 'median', 'most_frequent']#]
+        strategies = ['mean', 'median']#, 'most_frequent']
         for strategy in strategies:
             for b in [True, False]:
                 printSave('s:', strategy, 'b:', b)
