@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>887590d4-e2e9-4a4e-b894-e24e666ac32f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>GG_Project.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>GG-Project</Name>
+    <RootNamespace>GG-Project</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BsonIO.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GG_Project.py" />
+    <Compile Include="ProductProcesser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quantizer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecsReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Standardizer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data\generated\test\tcProduct.json">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="commonFieldList.bson" />
+    <Content Include="commonFieldValueLists.bson" />
+    <Content Include="commonFieldValueSets.bson" />
+    <Content Include="commonFieldValueType.bson" />
+    <Content Include="commonFieldValueTypeCounts.bson" />
+    <Content Include="groupedProducts.bson" />
+    <Content Include="MeanMap.bson" />
+    <Content Include="data\generated\test\oldSpecsCounts.bson" />
+    <Content Include="data\generated\test\oldSpecsTypes.bson" />
+    <Content Include="data\generated\corrupted\cProducts.bson">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\generated\corrupted\all_specsASCII.bson" />
+    <Content Include="data\generated\corrupted\bilgisayar.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\generated\test\ceket.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\raw\raw_all_specs.bson" />
+    <Content Include="data\raw\categories.bson" />
+    <Content Include="data\raw\codes.txt" />
+    <Content Include="all_specs.bson" />
+    <Content Include="data\generated\corrupted\corruptedProducts.bson" />
+    <Content Include="data\raw\products220.bson" />
+    <Content Include="data\raw\products780.bson" />
+    <Content Include="data\generated\corrupted\tc_specs.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\raw\usb.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="products.bson" />
+    <Content Include="products.json" />
+    <Content Include="ScoresMap.bson" />
+    <Content Include="SDMap.bson" />
+    <Content Include="data\generated\corrupted\corruptedValueMap.bson" />
+    <Content Include="data\generated\test\tcSpecsCounts.bson" />
+    <Content Include="data\generated\produced\SpecsCounts.bson" />
+    <Content Include="data\generated\produced\SpecsTypes.bson" />
+    <Content Include="data\generated\produced\SpecsTypesCounts.bson" />
+    <Content Include="ValueMap.bson" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data\generated\" />
+    <Folder Include="data\generated\corrupted\" />
+    <Folder Include="data\generated\produced\" />
+    <Folder Include="data\generated\test\" />
+    <Folder Include="data\raw\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
