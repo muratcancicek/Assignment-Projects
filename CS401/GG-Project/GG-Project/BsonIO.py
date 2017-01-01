@@ -42,6 +42,33 @@ def printBson(bson, p = True, decoding = 'unicode-escape'):
     if p: print s
     return s 
 
+def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator = ' '):
+    if type(bson) == str:
+        return fixQuotes(bson).encode(decoding)
+    if type(bson) == unicode:
+        return fixQuotes(bson).encode(decoding)
+    text = ''
+    if type(bson) is dict:
+        text = '{' + separator
+        keys = bson.keys()
+        for k, v in keys:
+            bson[k] = bsonToString(bson[k], False, decoding, ' ')
+        if separator == '\n':
+            keys.sort()
+        else:
+            keys.sort(key=lambda k: len(bson[k]))
+        for k in keys:
+            line = ('\"' + fixQuotes(k) + '\": ' + bson[k] + ',' + separator)
+            text += line
+        text = text[:-2] + '}' + separator
+    elif type(bson) is list_iterator:
+        text = '[' + separator
+        for v in bson:
+            text += bsonToString(v, False, decoding) + ',' + separator
+        text = text[:-2] + ']' + separator
+    if printing: print text
+    return text
+
 def evalBson(fileName, decoding = 'utf-8'):
     f = open(fileName, 'rb')
     rawLines = f.read()
@@ -66,12 +93,12 @@ def writeToBson(bson, fileName,  printing = False, printText = False, decoding =
         keys = bson.keys()
         keys.sort()
         for k in keys:
-            line = ('\"' + fixQuotes(k) + '\": ' + printBson(bson[k], printing, 'None') + ',\n')
+            line = ('\"' + fixQuotes(k) + '\": ' + bsonToString(bson[k], printing, 'None') + ',\n')
             if printing: print line
             text += line
     else:
         for v in bson:
-            text += (printBson(v, printing, decoding) + ',\n')
+            text += (bsonToString(v, printing, decoding) + ',\n')
     text = text[:-2] + ('\n}' if type(bson) is dict else '\n]')
     if printText: print text
     f.write(text.encode('utf8')) 

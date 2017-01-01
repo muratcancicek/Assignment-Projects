@@ -19,10 +19,11 @@ def generateCommonFieldStatistics(products = None, printing = False):
     generateCommonFieldValueTypeCounts(products = products, printing = printing)
 
 def main():
-    #generateFieldsExpandedProducts(printing = False)
+    generateFieldsExpandedProducts(printing = False)
     products = readProducts(fileName = 'expandedProducts.bson')
-    #checkCommonFieldsCount(products)
+    checkCommonFieldsCount(products)
     generateCommonFieldStatistics(products)
+    print 'DONE'
 
 main()
 

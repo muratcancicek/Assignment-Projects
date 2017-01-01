@@ -5,11 +5,31 @@ def readProducts(products = None, fileName = 'products.json',  decoding = 'unico
     return evalBson(fileName, decoding) if products == None else products 
 
 def nullCargoInfo(product, field):
-   product[field + '_' + "shippingDate"] = None
-   product[field + '_' + "shippingTime"] = None
-   product[field + '_' + "feeType"] = None
-   product[field + '_' + "cargoFees"] = None
-   return product 
+    product[field + '_' + "shippingDate"] = None
+    product[field + '_' + "shippingTime"] = None
+    product[field + '_' + "feeType"] = None
+    product['cargoInfo_cargoFees_ABROAD_fee'] = None
+    product['cargoInfo_cargoFees_ABROAD_firmCode'] = None
+    product['cargoInfo_cargoFees_DOMESTIC_fee'] = None
+    product['cargoInfo_cargoFees_DOMESTIC_firmCode'] = None
+    return product 
+
+def expandCargoFees(product):
+    cargoFees = product['cargoInfo']['cargoFees']
+    if len(cargoFees) != 0:
+        for fee in cargoFees:
+            if fee['direction'] == 'ABROAD':
+                product['cargoInfo_cargoFees_ABROAD_fee'] = fee['fee']
+                product['cargoInfo_cargoFees_ABROAD_firmCode'] = fee['firmCode']
+            else:
+                product['cargoInfo_cargoFees_DOMESTIC_fee'] = fee['fee']
+                product['cargoInfo_cargoFees_DOMESTIC_firmCode'] = fee['firmCode']
+    else:
+        product['cargoInfo_cargoFees_ABROAD_fee'] = None
+        product['cargoInfo_cargoFees_ABROAD_firmCode'] = None
+        product['cargoInfo_cargoFees_DOMESTIC_fee'] = None
+        product['cargoInfo_cargoFees_DOMESTIC_firmCode'] = None
+    return product 
 
 def expandProductField(product, field):
     if product == None: print field, 'Trouble'
@@ -21,7 +41,9 @@ def expandProductField(product, field):
         for k, v in fieldMap.items():
             if k == 'store':
                 product[field + '_storeId'] = v['storeId'] if v != None else None
-            if not k in ['caddeFeature', 'mostSoldFeature', 'campaigns', 'store']:
+            if k == 'cargoFees':
+                product = expandCargoFees(product)
+            elif not k in ['caddeFeature', 'mostSoldFeature', 'campaigns', 'store', 'cargoFees', 'nick']:
                 product[field + '_' + k] = v
         product.pop(field)
         return product
@@ -32,11 +54,13 @@ def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products
         product = fixQuotesOnProduct(product)
         product.pop('_id')
         product.pop('categories')
+        product.pop('catalog')
+        product.pop('impressionScore')
         product = expandProductField(product, 'feature')
         product = expandProductField(product, 'category')
         product = expandProductField(product, 'cargoInfo')
         product = expandProductField(product, 'member')
-    writeToBson(products, fileName, decoding = 'unicode-escape', printText = True)
+    writeToBson(products, fileName, decoding = 'unicode-escape', printText = printing)
 
 def checkCommonFieldsCount(products = None):
     products = readProducts(products)
