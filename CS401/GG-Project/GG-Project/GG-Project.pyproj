@@ -51,7 +51,13 @@
     <Content Include="commonFieldValueSets.bson" />
     <Content Include="commonFieldValueType.bson" />
     <Content Include="commonFieldValueTypeCounts.bson" />
-    <Content Include="groupedProducts.bson" />
+    <Content Include="data\original_commonFieldStatistics\original_commonFieldList.bson" />
+    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
+    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueSets.bson" />
+    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueType.bson" />
+    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
+    <Content Include="data\generated\produced\groupedProducts.bson" />
+    <Content Include="expandedProducts.bson" />
     <Content Include="MeanMap.bson" />
     <Content Include="data\generated\test\oldSpecsCounts.bson" />
     <Content Include="data\generated\test\oldSpecsTypes.bson" />
@@ -95,6 +101,7 @@
     <Folder Include="data\generated\corrupted\" />
     <Folder Include="data\generated\produced\" />
     <Folder Include="data\generated\test\" />
+    <Folder Include="data\original_commonFieldStatistics\" />
     <Folder Include="data\raw\" />
   </ItemGroup>
   <PropertyGroup>

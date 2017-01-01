@@ -54,9 +54,6 @@ def generateCommonFieldValueTypeCounts(fileName = 'commonFieldValueTypeCounts.bs
     for type in typeSet:
         typeCounts[type] = typeList.count(type)
     writeToBson(typeCounts, fileName, printText = printing, decoding = 'unicode-escape')
-    
-
-
 
 def generateCommonFieldValueSets(fileName = 'commonFieldValueSets.bson',  products = None, printing = False):
     products = readProducts(products)
@@ -69,18 +66,33 @@ def generateCommonFieldValueSets(fileName = 'commonFieldValueSets.bson',  produc
             commonFieldValueSets[field] = fieldList
     writeToBson(commonFieldValueSets, fileName, printText = printing, decoding = 'unicode-escape')
 
-def expandProductFeatureField(product):
-    featureMap = product['feature']
-    for k, v in featureMap.items():
-        product['feature_' + k] = v
-    product.pop('feature')
+def nullCargoInfo(product, field):
+   product[field + '_' + "shippingDate"] = None
+   product[field + '_' + "shippingTime"] = None
+   product[field + '_' + "feeType"] = None
+   product[field + '_' + "cargoFees"] = None
+   return product 
 
-def expandProductCategoryField(product):
-    categoryMap = product['category']
-    for k, v in categoryMap.items():
-        product['category_' + k] = v
-    product.pop('')
+def expandProductField(product, field):
+    if product == None: print field, 'Trouble'
+    if field == 'cargoInfo' and product[field] == None: 
+        product.pop(field)
+        return nullCargoInfo(product, field)
+    else:
+        fieldMap = product[field]
+        for k, v in fieldMap.items():
+            product[field + '_' + k] = v
+        product.pop(field)
+        return product
 
-def generateFieldsExpandedProducts(fileName = 'fieldsExpandedProducts.bson',  products = None, printing = False):
+def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products = None, printing = False):
     products = readProducts(products)
-
+    for product in products:
+        product = fixQuotesOnProduct(product)
+        product.pop('_id')
+        product.pop('categories')
+        product = expandProductField(product, 'feature')
+        product = expandProductField(product, 'category')
+        product = expandProductField(product, 'cargoInfo')
+        product = expandProductField(product, 'member')
+    writeToBson(products, fileName, decoding = 'unicode-escape', printText = True)

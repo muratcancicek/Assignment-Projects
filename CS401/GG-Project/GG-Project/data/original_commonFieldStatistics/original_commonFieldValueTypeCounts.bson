@@ -1,10 +1,10 @@
 {
-"int": 20,
+"int": 10,
 "float": 5,
 "list": 2,
 "long": 4,
-"dict": 1,
-"str": 20,
-"bool": 9,
+"bool": 2,
+"str": 13,
+"dict": 5,
 "NoneType": 3
 }

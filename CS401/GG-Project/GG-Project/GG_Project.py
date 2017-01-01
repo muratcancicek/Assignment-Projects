@@ -9,12 +9,17 @@ def regenerateOutputs():
     generateSpecsStatistics()
     preprocessData()
 
+def generateCommonFieldStatistics(products = None, printing = False):
+    products = readProducts(products, fileName = 'expandedProducts.bson')
+    generateCommonFieldList(products = products, printing = True)
+    generateCommonFieldValueLists(products = products, printing = True)
+    generateCommonFieldValueTypes(products = products, printing = True)
+    generateCommonFieldValueSets(products = products, printing = True)
+    generateCommonFieldValueTypeCounts(products = products, printing = True)
+
 def main(): 
-    #generateCommonFieldList(printing = True)
-    #generateCommonFieldValueLists(printing = True)
-    #generateCommonFieldValueTypes(printing = True)
-    #generateCommonFieldValueSets(printing = True)
-    generateCommonFieldValueTypeCounts(printing = True)
+    #generateFieldsExpandedProducts(printing = True)
+    generateCommonFieldStatistics()
 
 main()
 
