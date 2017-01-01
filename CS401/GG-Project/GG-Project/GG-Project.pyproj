@@ -47,10 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="commonFieldList.bson" />
+    <Content Include="commonFieldValueCounts.bson" />
     <Content Include="commonFieldValueLists.bson" />
     <Content Include="commonFieldValueSets.bson" />
-    <Content Include="commonFieldValueType.bson" />
     <Content Include="commonFieldValueTypeCounts.bson" />
+    <Content Include="commonFieldValueTypes.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldList.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueSets.bson" />

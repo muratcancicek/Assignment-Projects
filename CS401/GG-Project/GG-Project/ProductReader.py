@@ -89,8 +89,9 @@ def mergeProducts():
 def fixQuotesOnProduct(product):
     if '\"' in  product['title']:
         product['title'] = fixQuotes(product['title'])
-    #if '\"' in  product['subTitle']:
-    #    product['subTitle'] = FloatingPointError(product['subTitle'])
+    if product['subTitle'] != None:
+        if '\"' in  product['subTitle']:
+            product['subTitle'] = fixQuotes(product['subTitle'])
     for spec in product['specs']:
         if '\"' in  spec['values'][0]:
             spec['values'][0] = fixQuotes(spec['values'][0])

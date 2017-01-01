@@ -63,8 +63,10 @@ def writeToBson(bson, fileName,  printing = False, printText = False, decoding =
     f = open(fileName, 'wb')
     text = ('{\n' if type(bson) is dict else '[\n')
     if type(bson) is dict:
-        for k, v in bson.items():
-            line = ('\"' + fixQuotes(k) + '\": ' + printBson(v, printing, 'None') + ',\n')
+        keys = bson.keys()
+        keys.sort()
+        for k in keys:
+            line = ('\"' + fixQuotes(k) + '\": ' + printBson(bson[k], printing, 'None') + ',\n')
             if printing: print line
             text += line
     else:

@@ -11,15 +11,18 @@ def regenerateOutputs():
 
 def generateCommonFieldStatistics(products = None, printing = False):
     products = readProducts(products, fileName = 'expandedProducts.bson')
-    generateCommonFieldList(products = products, printing = True)
-    generateCommonFieldValueLists(products = products, printing = True)
-    generateCommonFieldValueTypes(products = products, printing = True)
-    generateCommonFieldValueSets(products = products, printing = True)
-    generateCommonFieldValueTypeCounts(products = products, printing = True)
+    generateCommonFieldList(products = products, printing = printing)
+    generateCommonFieldValueLists(products = products, printing = printing)
+    generateCommonFieldValueTypes(products = products, printing = printing)
+    generateCommonFieldValueSets(products = products, printing = printing)
+    generateCommonFieldValueCounts(products = products, printing = printing)
+    generateCommonFieldValueTypeCounts(products = products, printing = printing)
 
-def main(): 
-    #generateFieldsExpandedProducts(printing = True)
-    generateCommonFieldStatistics()
+def main():
+    #generateFieldsExpandedProducts(printing = False)
+    products = readProducts(fileName = 'expandedProducts.bson')
+    #checkCommonFieldsCount(products)
+    generateCommonFieldStatistics(products)
 
 main()
 
