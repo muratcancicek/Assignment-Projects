@@ -20,7 +20,7 @@ def generateCommonFieldStatistics(products = None, printing = False):
 
 def main():
     generateFieldsExpandedProducts(printing = False)
-    products = readProducts(fileName = 'expandedProducts.bson')
+    products = readProducts(fileName = 'expandedProducts.bson', decoding = None)
     checkCommonFieldsCount(products)
     generateCommonFieldStatistics(products)
     print 'DONE'

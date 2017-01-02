@@ -1,8 +1,8 @@
 from ProductReader import *
 from BsonIO import *
 
-def readProducts(products = None, fileName = 'products.json',  decoding = 'unicode-escape'):
-    return evalBson(fileName, decoding) if products == None else products 
+def readProducts(products = None, fileName = 'products.json', decoding = 'utf-8'):
+    return evalBson(fileName) if products == None else products 
 
 def nullCargoInfo(product, field):
     product[field + '_' + "shippingDate"] = None
@@ -60,7 +60,7 @@ def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products
         product = expandProductField(product, 'category')
         product = expandProductField(product, 'cargoInfo')
         product = expandProductField(product, 'member')
-    writeToBson(products, fileName, decoding = 'unicode-escape', printText = printing)
+    writeToBson(products, fileName, printText = printing)
 
 def checkCommonFieldsCount(products = None):
     products = readProducts(products)
@@ -75,7 +75,7 @@ def checkCommonFieldsCount(products = None):
 def generateCommonFieldList(fileName = 'commonFieldList.bson', products = None, printing = False):
     products = readProducts(products)
     commonFieldList = products[0].keys()
-    writeToBson(commonFieldList, fileName, printing, decoding = 'unicode-escape')
+    writeToBson(commonFieldList, fileName, printing)
     return commonFieldList
 
 def readCommonFieldList(fileName = 'commonFieldList.bson'):
@@ -90,10 +90,10 @@ def generateCommonFieldValueLists(fileName = 'commonFieldValueLists.bson',  prod
     for product in products:
         for field in commonFieldList:
             commonFieldValueLists[field].append(product[field])
-    writeToBson(commonFieldValueLists, fileName, printText = printing, decoding = 'unicode-escape')
+    writeToBson(commonFieldValueLists, fileName, printText = printing)
 
 def readCommonFieldValueLists(fileName = 'commonFieldValueLists.bson'):
-    return evalBson(fileName, decoding = 'unicode-escape')
+    return evalBson(fileName)
 
 def containsType(l, t):
     for e in l:
@@ -122,10 +122,10 @@ def generateCommonFieldValueTypes(fileName = 'commonFieldValueTypes.bson',  prod
     commonFieldValueTypes = {}
     for field, fieldList in commonFieldValueLists.items():
             commonFieldValueTypes[field] = getTypeOfListElement(fieldList)
-    writeToBson(commonFieldValueTypes, fileName, printText = printing, decoding = 'unicode-escape')
+    writeToBson(commonFieldValueTypes, fileName, printText = printing)
 
 def readCommonFieldValueTypes(fileName = 'commonFieldValueTypes.bson'):
-    return evalBson(fileName, decoding = 'unicode-escape')
+    return evalBson(fileName)
 
 def generateCommonFieldValueTypeCounts(fileName = 'commonFieldValueTypeCounts.bson',  products = None, printing = False):
     commonFieldValueTypes = readCommonFieldValueTypes()
@@ -134,7 +134,7 @@ def generateCommonFieldValueTypeCounts(fileName = 'commonFieldValueTypeCounts.bs
     typeSet = list(set(typeList))
     for type in typeSet:
         typeCounts[type] = typeList.count(type)
-    writeToBson(typeCounts, fileName, printText = printing, decoding = 'unicode-escape')
+    writeToBson(typeCounts, fileName, printText = printing)
 
 def generateCommonFieldValueSets(fileName = 'commonFieldValueSets.bson',  products = None, printing = False):
     products = readProducts(products)
@@ -147,14 +147,14 @@ def generateCommonFieldValueSets(fileName = 'commonFieldValueSets.bson',  produc
             commonFieldValueSets[field] = list(set(fieldList))
         else:
             commonFieldValueSets[field] = fieldList
-    writeToBson(commonFieldValueSets, fileName, printText = printing, decoding = 'unicode-escape')
+    writeToBson(commonFieldValueSets, fileName, printText = printing)
     
 def readCommonFieldValueSets(fileName = 'commonFieldValueSets.bson'):
-    return evalBson(fileName, decoding = 'unicode-escape')
+    return evalBson(fileName)
 
 def generateCommonFieldValueCounts(fileName = 'commonFieldValueCounts.bson',  products = None, printing = False):
     commonFieldValueSets = readCommonFieldValueSets()
     valueCounts = {}
     for k, v in commonFieldValueSets.items():
         valueCounts[k] = len(v)
-    writeToBson(valueCounts, fileName, printText = printing, decoding = 'unicode-escape')
+    writeToBson(valueCounts, fileName, printText = printing)

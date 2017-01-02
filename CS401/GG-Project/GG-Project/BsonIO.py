@@ -36,43 +36,46 @@ class JSONEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, o)
 
 def printBson(bson, p = True, decoding = 'unicode-escape'):
-    s = JSONEncoder().encode(bson)
-    if decoding != 'None': s = s.decode(decoding)
+    s = JSONEncoder()
+    if decoding != 'None': s = s.encode(decoding)
     #s =json.dumps(bson).decode('unicode-escape')
     if p: print s
     return s 
 
-def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator = ' '):
+def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator = ' ', lmbda = lambda k: 'zzz' if k in ['title', 'subTitle'] else k):
     if type(bson) == str:
-        return fixQuotes(bson).encode(decoding)
+        v = fixQuotes(bson).decode('utf8')
+        return '\"' + v + '\"'
     if type(bson) == unicode:
-        return fixQuotes(bson).encode(decoding)
+        return '\"' + fixQuotes(bson) + '\"'
     text = ''
     if type(bson) is dict:
         text = '{' + separator
         keys = bson.keys()
-        for k, v in keys:
+        for k in keys:
             bson[k] = bsonToString(bson[k], False, decoding, ' ')
-        if separator == '\n':
-            keys.sort()
-        else:
-            keys.sort(key=lambda k: len(bson[k]))
+        keys.sort(key=lmbda)
         for k in keys:
             line = ('\"' + fixQuotes(k) + '\": ' + bson[k] + ',' + separator)
             text += line
         text = text[:-2] + '}' + separator
-    elif type(bson) is list_iterator:
+    elif type(bson) is list:
         text = '[' + separator
-        for v in bson:
+        for v in bson: 
             text += bsonToString(v, False, decoding) + ',' + separator
-        text = text[:-2] + ']' + separator
+        text = (text[:-2] if len(bson) > 0 else text) + ']' + separator
+    elif bson is None:
+        text += 'null'
+    elif type(bson) is bool:
+        text += 'true' if bson else 'false'
+    else:
+        text += str(bson)
     if printing: print text
     return text
 
-def evalBson(fileName, decoding = 'utf-8'):
-    f = open(fileName, 'rb')
+def evalBson(fileName):
+    f = open(fileName, 'rU')
     rawLines = f.read()
-    if decoding != 'None': rawLines.decode(decoding)
     rawLines = rawLines.replace('null', 'None').replace('true', 'True').replace('false', 'False')
     return eval(rawLines)
 
@@ -82,24 +85,18 @@ def fixQuotes(text):
         index = text.find('\"', index)
         if index == -1:
             break
-        text = text[:index] + '\\' + text[index:] 
+        if index != 0:
+           if text[index-1] != '\\':
+                text = text[:index] + '\\' + text[index:] 
+        else:
+            text = text[:index] + '\\' + text[index:] 
         index += 2
     return text
 #text.encode(decoding) if decoding != 'None' else 
 def writeToBson(bson, fileName,  printing = False, printText = False, decoding = 'utf-8'): 
     f = open(fileName, 'wb')
-    text = ('{\n' if type(bson) is dict else '[\n')
-    if type(bson) is dict:
-        keys = bson.keys()
-        keys.sort()
-        for k in keys:
-            line = ('\"' + fixQuotes(k) + '\": ' + bsonToString(bson[k], printing, 'None') + ',\n')
-            if printing: print line
-            text += line
-    else:
-        for v in bson:
-            text += (bsonToString(v, printing, decoding) + ',\n')
-    text = text[:-2] + ('\n}' if type(bson) is dict else '\n]')
-    if printText: print text
-    f.write(text.encode('utf8')) 
-    f.close()
+    bsonString = bsonToString(bson, printing, decoding, u'\n')
+    bsonString = bsonString.encode(decoding)
+    print bsonString
+    f.write(bsonString) 
+    f.close() 

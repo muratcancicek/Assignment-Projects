@@ -107,7 +107,5 @@ def generateGroupedProductsList(readingFileName = 'products.bson', writingFileNa
     categoryCodes.sort()
     for categoryCode in categoryCodes:
         orderedProductList.extend(categoryProductsMap[categoryCode])
-    for product in orderedProductList:
-        product = fixQuotesOnProduct(product)
     writeToBson(orderedProductList, writingFileName, decoding = 'unicode-escape', printText = True)
     print 'WARNING: Encoding Error' 
