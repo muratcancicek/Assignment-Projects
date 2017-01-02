@@ -56,6 +56,7 @@ def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products
         product.pop('categories')
         product.pop('catalog')
         product.pop('impressionScore')
+        product.pop('productCatalogs')
         product = expandProductField(product, 'feature')
         product = expandProductField(product, 'category')
         product = expandProductField(product, 'cargoInfo')
@@ -158,3 +159,33 @@ def generateCommonFieldValueCounts(fileName = 'commonFieldValueCounts.bson',  pr
     for k, v in commonFieldValueSets.items():
         valueCounts[k] = len(v)
     writeToBson(valueCounts, fileName, printText = printing)
+
+def readCommonFieldValueCounts(fileName = 'commonFieldValueCounts.bson'):
+    return evalBson(fileName)
+
+def generateCommonFieldStatistics(products = None, printing = False):
+    products = readProducts(products, fileName = 'expandedProducts.bson')
+    generateCommonFieldList(products = products, printing = printing)
+    generateCommonFieldValueLists(products = products, printing = printing)
+    generateCommonFieldValueTypes(products = products, printing = printing)
+    generateCommonFieldValueSets(products = products, printing = printing)
+    generateCommonFieldValueCounts(products = products, printing = printing)
+    generateCommonFieldValueTypeCounts(products = products, printing = printing)
+
+def getCommonFieldStatistics(products = None, regenerate = False):
+    if regenerate:
+         products = readProducts(products)
+         generateCommonFieldStatistics(products)
+    statistics = {}
+    statistics["fieldList"] = readCommonFieldList()
+    statistics["fieldValueList"] = readCommonFieldValueLists()
+    statistics["fieldValueSets"] = readCommonFieldValueSets()
+    statistics["fieldValueTypes"] = readCommonFieldValueTypes()
+    statistics["fieldValueCounts"] = readCommonFieldValueCounts()
+    return statistics
+
+
+
+
+     
+

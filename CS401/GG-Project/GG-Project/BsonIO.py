@@ -58,12 +58,12 @@ def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator =
         for k in keys:
             line = ('\"' + fixQuotes(k) + '\": ' + bson[k] + ',' + separator)
             text += line
-        text = text[:-2] + '}' + separator
+        text = text[:-2] + separator + '}' 
     elif type(bson) is list:
         text = '[' + separator
         for v in bson: 
             text += bsonToString(v, False, decoding) + ',' + separator
-        text = (text[:-2] if len(bson) > 0 else text) + ']' + separator
+        text = (text[:-2] if len(bson) > 0 else text) + separator + ']'
     elif bson is None:
         text += 'null'
     elif type(bson) is bool:
@@ -75,8 +75,7 @@ def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator =
 
 def evalBson(fileName):
     f = open(fileName, 'rU')
-    rawLines = f.read()
-    rawLines = rawLines.replace('null', 'None').replace('true', 'True').replace('false', 'False')
+    rawLines = f.read().replace('null', 'None').replace('true', 'True').replace('false', 'False')
     return eval(rawLines)
 
 def fixQuotes(text):
@@ -92,11 +91,9 @@ def fixQuotes(text):
             text = text[:index] + '\\' + text[index:] 
         index += 2
     return text
-#text.encode(decoding) if decoding != 'None' else 
+
 def writeToBson(bson, fileName,  printing = False, printText = False, decoding = 'utf-8'): 
     f = open(fileName, 'wb')
-    bsonString = bsonToString(bson, printing, decoding, u'\n')
-    bsonString = bsonString.encode(decoding)
-    print bsonString
+    bsonString = bsonToString(bson, printing, decoding, u'\n').encode(decoding)
     f.write(bsonString) 
     f.close() 

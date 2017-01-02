@@ -25,6 +25,9 @@
     <Compile Include="BsonIO.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CommonFieldQuantizer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GG_Project.py" />
     <Compile Include="ProductProcesser.py">
       <SubType>Code</SubType>

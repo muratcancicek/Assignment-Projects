@@ -44,7 +44,6 @@
 "member_type": "str",
 "modifiedDate": "long",
 "photos": "int",
-"productCatalogs": "list",
 "productCount": "int",
 "productId": "int",
 "productListingType": "int",
@@ -62,4 +61,5 @@
 "variantFlag": "int",
 "windowOptionFlag": "str",
 "subTitle": "str",
-"title": "str"}
+"title": "str"
+}
