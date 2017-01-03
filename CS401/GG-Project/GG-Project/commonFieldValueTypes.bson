@@ -27,7 +27,6 @@
 "feature_feedable": "bool",
 "feature_mostSold": "bool",
 "fixedPriceFlag": "str",
-"marketPrice": "float",
 "member_feedbackCount": "int",
 "member_feedbackPercentage": "int",
 "member_hasStore": "bool",

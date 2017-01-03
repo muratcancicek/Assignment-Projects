@@ -44,7 +44,7 @@ def printBson(bson, p = True, decoding = 'unicode-escape'):
 
 def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator = ' ', lmbda = lambda k: 'zzz' if k in ['title', 'subTitle'] else k, sort = True, deep = 0):
     if type(bson) == str:
-        v = fixQuotes(bson).decode('utf8')
+        v = fixQuotes(bson.decode('utf8'))
         return '\"' + v + '\"'
     if type(bson) == unicode:
         return '\"' + fixQuotes(bson) + '\"'

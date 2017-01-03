@@ -12,15 +12,23 @@ def regenerateOutputs():
 
 def main():
     #generateFieldsExpandedProducts(printing = False)
-    products = readProducts(fileName = 'expandedProducts.bson', decoding = None)
-
+    #products = readProducts(fileName = 'expandedProducts.bson', decoding = None)
     #generateCommonFieldList(products = products)
     #checkCommonFieldsCount(products)
     #generateCommonFieldStatistics(products)
     #generateCommonFieldsValueMap(products, regenerate = False)
-    generateCommonFieldValueLists(products = products,printing = False)
-    generateNotNullCommonFieldValueLists(products = products)
+    #generateCommonFieldValueLists(products = products,printing = False)
+    #generateNotNullCommonFieldValueLists(products = products)
+    #generateCommonFieldsMeanMap()
+    #generateCommonFieldsSDMap()
+    generateCommonFieldsZ_ScoredMap()
+    categories = evalBson('categories.bson')
+    map = {}
+    for c in categories['data']['categories']:
+        map[c['categoryCode']] = c['categoryName']
+    writeToBson(map, 'categoryCodeNams.json') 
     print 'DONE'
+
 
 main()
 
