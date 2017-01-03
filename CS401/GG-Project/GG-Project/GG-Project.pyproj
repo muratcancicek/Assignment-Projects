@@ -50,8 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="commonFieldList.bson" />
+    <Content Include="commonFieldNotNullValueLists.bson" />
     <Content Include="commonFieldValueCounts.bson" />
     <Content Include="commonFieldValueLists.bson" />
+    <Content Include="commonFieldValueMap.bson" />
     <Content Include="commonFieldValueSets.bson" />
     <Content Include="commonFieldValueTypeCounts.bson" />
     <Content Include="commonFieldValueTypes.bson" />

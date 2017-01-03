@@ -1,8 +1,8 @@
 {
 "bool": 9,
 "float": 7,
-"int": 21,
+"int": 20,
 "list": 1,
 "long": 4,
-"str": 21
+"str": 19
 }

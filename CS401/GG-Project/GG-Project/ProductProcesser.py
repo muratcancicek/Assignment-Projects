@@ -43,7 +43,7 @@ def expandProductField(product, field):
                 product[field + '_storeId'] = v['storeId'] if v != None else None
             if k == 'cargoFees':
                 product = expandCargoFees(product)
-            elif not k in ['caddeFeature', 'mostSoldFeature', 'campaigns', 'store', 'cargoFees', 'nick']:
+            elif not k in ['caddeFeature', 'mostSoldFeature', 'campaigns', 'store', 'cargoFees', 'nick', 'name']:
                 product[field + '_' + k] = v
         product.pop(field)
         return product
@@ -57,6 +57,9 @@ def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products
         product.pop('catalog')
         product.pop('impressionScore')
         product.pop('productCatalogs')
+        product.pop('collapseHash')
+        product.pop('productId')  
+        product.pop('marketPrice')  
         product = expandProductField(product, 'feature')
         product = expandProductField(product, 'category')
         product = expandProductField(product, 'cargoInfo')
@@ -91,7 +94,7 @@ def generateCommonFieldValueLists(fileName = 'commonFieldValueLists.bson',  prod
     for product in products:
         for field in commonFieldList:
             commonFieldValueLists[field].append(product[field])
-    writeToBson(commonFieldValueLists, fileName, printText = printing)
+    writeToBson(commonFieldValueLists, fileName, printText = printing, sort = False)
 
 def readCommonFieldValueLists(fileName = 'commonFieldValueLists.bson'):
     return evalBson(fileName)
@@ -172,17 +175,17 @@ def generateCommonFieldStatistics(products = None, printing = False):
     generateCommonFieldValueCounts(products = products, printing = printing)
     generateCommonFieldValueTypeCounts(products = products, printing = printing)
 
-def getCommonFieldStatistics(products = None, regenerate = False):
+def readCommonFieldStatistics(products = None, regenerate = False):
     if regenerate:
          products = readProducts(products)
          generateCommonFieldStatistics(products)
     statistics = {}
     statistics["fieldList"] = readCommonFieldList()
-    statistics["fieldValueList"] = readCommonFieldValueLists()
+    statistics["fieldValueLists"] = readCommonFieldValueLists()
     statistics["fieldValueSets"] = readCommonFieldValueSets()
     statistics["fieldValueTypes"] = readCommonFieldValueTypes()
     statistics["fieldValueCounts"] = readCommonFieldValueCounts()
-    return statistics
+    return statistics 
 
 
 
