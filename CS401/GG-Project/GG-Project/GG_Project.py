@@ -11,24 +11,18 @@ def regenerateOutputs():
     preprocessData()
 
 def main():
-    #generateFieldsExpandedProducts(printing = False)
-    #products = readProducts(fileName = 'expandedProducts.bson', decoding = None)
-    #generateCommonFieldList(products = products)
-    #checkCommonFieldsCount(products)
-    #generateCommonFieldStatistics(products)
-    #generateCommonFieldsValueMap(products, regenerate = False)
-    #generateCommonFieldValueLists(products = products,printing = False)
-    #generateNotNullCommonFieldValueLists(products = products)
-    #generateCommonFieldsMeanMap()
-    #generateCommonFieldsSDMap()
+    generateFieldsExpandedProducts(printing = False)
+    products = readProducts(fileName = 'expandedProducts.bson', decoding = None)
+    generateCommonFieldList(products = products)
+    checkCommonFieldsCount(products)
+    generateCommonFieldStatistics(products)
+    generateCommonFieldsValueMap(products, regenerate = False)
+    generateCommonFieldValueLists(products = products,printing = False)
+    generateNotNullCommonFieldValueLists(products = products)
+    generateCommonFieldsMeanMap()
+    generateCommonFieldsSDMap()
     generateCommonFieldsZ_ScoredMap()
-    categories = evalBson('categories.bson')
-    cd = getCategoriesFromProducts('products.bson')
-    map = {}
-    for c in categories['data']['categories']:
-        if c['categoryCode'] in cd:
-            map[c['categoryCode']] = c['categoryName']
-    writeToBson(map, 'categoryCodeNams.json') 
+    generateCommonFieldsZ_ScoredValueMap()
     print 'DONE'
 
 

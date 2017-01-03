@@ -78,6 +78,9 @@ def generateCommonFieldsSDMap(products = None, fileName = 'commonFieldSDMap.bson
 def readeCommonFieldsSDMap(fileName = 'commonFieldSDMap.bson'):
     return evalBson(fileName)
 
+def calculateZ_ScoredValue(value, mean, sd):
+    return ((value - mean)/sd) if sd != 0 else 0
+
 def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_ScoredMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
@@ -90,7 +93,25 @@ def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_S
         valueList = fieldValueMap[field]
         if not field in ['title','subTitle', 'specs']:
             for value in valueList:
-                 Z_ScoredMap[field].append(((value - meanMap[field])/SDMap[field]) if SDMap[field] != 0 else 0) 
+                 Z_ScoredMap[field].append(calculateZ_ScoredValue(value, meanMap[field], SDMap[field])) 
         else:
             Z_ScoredMap[field] = valueList
-    writeToBson(Z_ScoredMap, fileName)
+    writeToBson(Z_ScoredMap, fileName, sort = False)
+
+def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFieldsZ_ScoredValueMap.bson', regenerate = False):
+    products = readProducts(products)
+    statistics = readCommonFieldStatistics(products, regenerate)
+    fieldValueMap = readCommonFieldValueMap()
+    meanMap = readeCommonFieldsMeanMap()
+    SDMap = readeCommonFieldsSDMap()
+    Z_ScoredValueMap = {}
+    for field in statistics['fieldList']:
+        if statistics['fieldValueTypes'][field] in ['str', 'bool']:
+            if not field in ['title','subTitle']:
+                valueMap = {}
+                for value in statistics['fieldValueSets'][field]:
+                    if not type(value) is str: 
+                        value = str(value) 
+                    valueMap[value] = calculateZ_ScoredValue(fieldValueMap[field][value], meanMap[field], SDMap[field])
+                Z_ScoredValueMap[field] = valueMap
+    writeToBson(Z_ScoredValueMap, fileName)

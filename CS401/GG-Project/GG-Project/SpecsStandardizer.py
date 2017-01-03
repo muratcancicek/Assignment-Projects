@@ -1,9 +1,10 @@
 ﻿from SpecsReader import * 
-from Quantizer import *
+from SpecsQuantizer import *
 from BsonIO import *
 import math
 
-def generateMeansMap(map, fileName = 'MeanMap.bson'):
+def generateMeansMap(map, fileName = 'MeanMap.bson', products = None):
+    products = readProducts(products)
     meanMap = {}
     for categoryCode, category in map.items():
         axisMeanMap = {}

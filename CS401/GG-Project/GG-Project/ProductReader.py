@@ -74,6 +74,9 @@ def getProductsByCategoryCode(productList):
         productDict[product['category']['code']].append(product)
     return productDict
 
+def getExpandedProductsByCategoryCode(productList, code):
+    return [product for product in productList if product['category_code'] == code] 
+
 def mergeProducts():
     product230 = evalBson('products230.bson')
     product780 = evalBson('products780.bson')
@@ -109,3 +112,13 @@ def generateGroupedProductsList(readingFileName = 'products.bson', writingFileNa
         orderedProductList.extend(categoryProductsMap[categoryCode])
     writeToBson(orderedProductList, writingFileName, decoding = 'unicode-escape', printText = True)
     print 'WARNING: Encoding Error' 
+    
+
+def generateCategoryCodeNameMap():
+    categories = evalBson('categories.bson')
+    cd = getCategoriesFromProducts('products.bson')
+    map = {}
+    for c in categories['data']['categories']:
+        if c['categoryCode'] in cd:
+            map[c['categoryCode']] = c['categoryName']
+    writeToBson(map, 'categoryCodeNams.json') 

@@ -48,6 +48,13 @@ def expandProductField(product, field):
         product.pop(field)
         return product
 
+def expandSpecs(product):
+    specMap = {}
+    for spec in product['specs']:
+        specMap[spec['description']] = spec['values'][0]
+    product['specs'] = specMap
+    return product 
+
 def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products = None, printing = False):
     products = readProducts(products)
     for product in products:
@@ -64,6 +71,7 @@ def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products
         product = expandProductField(product, 'category')
         product = expandProductField(product, 'cargoInfo')
         product = expandProductField(product, 'member')
+        product = expandSpecs(product)
     writeToBson(products, fileName, printText = printing)
 
 def checkCommonFieldsCount(products = None):

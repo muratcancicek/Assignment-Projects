@@ -71,7 +71,7 @@ def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator =
                 strK = str(k)
             line = ('\"' +  strK.decode('utf-8') + '\": ' + strV.decode('utf-8') + ',' + separator)
             text += line
-        text = text[:-2] + separator + '}' 
+        text = (text[:-2] if len(bson) > 0 else text) + separator + '}'
     elif type(bson) is list:
         if deep == 0 or (deep > 0 and sort):
             bson.sort()

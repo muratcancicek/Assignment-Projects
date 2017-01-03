@@ -35,13 +35,13 @@
     <Compile Include="ProductReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Quantizer.py">
+    <Compile Include="SpecsQuantizer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SpecsReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Standardizer.py">
+    <Compile Include="SpecsStandardizer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="data\generated\test\tcProduct.json">
@@ -55,6 +55,7 @@
     <Content Include="commonFieldNotNullValueLists.bson" />
     <Content Include="commonFieldSDMap.bson" />
     <Content Include="commonFieldsZ_ScoredMap.bson" />
+    <Content Include="commonFieldsZ_ScoredValueMap.bson" />
     <Content Include="commonFieldValueCounts.bson" />
     <Content Include="commonFieldValueLists.bson" />
     <Content Include="commonFieldValueMap.bson" />
