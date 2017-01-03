@@ -47,6 +47,9 @@
     <Compile Include="data\generated\test\tcProduct.json">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="VectorGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="categoryCodeNams.json" />
@@ -97,14 +100,16 @@
     </Content>
     <Content Include="products.bson" />
     <Content Include="products.json" />
-    <Content Include="ScoresMap.bson" />
+    <Content Include="ProductVector.json" />
+    <Content Include="SpecsZ_ScoredValueMap.bson" />
     <Content Include="SDMap.bson" />
     <Content Include="data\generated\corrupted\corruptedValueMap.bson" />
     <Content Include="data\generated\test\tcSpecsCounts.bson" />
     <Content Include="data\generated\produced\SpecsCounts.bson" />
     <Content Include="data\generated\produced\SpecsTypes.bson" />
     <Content Include="data\generated\produced\SpecsTypesCounts.bson" />
-    <Content Include="ValueMap.bson" />
+    <Content Include="SpecsValueMap.bson" />
+    <Content Include="standardizedProducts.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />

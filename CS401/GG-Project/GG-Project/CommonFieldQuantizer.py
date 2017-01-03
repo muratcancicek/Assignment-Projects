@@ -41,13 +41,13 @@ def generateNotNullCommonFieldValueLists(products = None, fileName = 'commonFiel
             fieldsValueLists[field] = valueList
     writeToBson(fieldsValueLists,fileName, sort = False) 
 
-def readeNotNullCommonFieldValueLists(fileName = 'commonFieldNotNullValueLists.bson'):
+def readNotNullCommonFieldValueLists(fileName = 'commonFieldNotNullValueLists.bson'):
     return evalBson(fileName)
 
 def generateCommonFieldsMeanMap(products = None, fileName = 'commonFieldMeanMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
-    fieldValueMap = readeNotNullCommonFieldValueLists()
+    fieldValueMap = readNotNullCommonFieldValueLists()
     meanMap = {}
     for field in statistics['fieldList']:
         if not field in ['title','subTitle', 'specs']:
@@ -57,14 +57,14 @@ def generateCommonFieldsMeanMap(products = None, fileName = 'commonFieldMeanMap.
             meanMap[field] = sum / len(valueList)
     writeToBson(meanMap, fileName)
 
-def readeCommonFieldsMeanMap(fileName = 'commonFieldMeanMap.bson'):
+def readCommonFieldsMeanMap(fileName = 'commonFieldMeanMap.bson'):
     return evalBson(fileName)
 
 def generateCommonFieldsSDMap(products = None, fileName = 'commonFieldSDMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
-    fieldValueMap = readeNotNullCommonFieldValueLists()
-    meanMap = readeCommonFieldsMeanMap()
+    fieldValueMap = readNotNullCommonFieldValueLists()
+    meanMap = readCommonFieldsMeanMap()
     SDMap = {}
     for field in statistics['fieldList']:
         if not field in ['title','subTitle', 'specs']:
@@ -84,8 +84,8 @@ def calculateZ_ScoredValue(value, mean, sd):
 def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_ScoredMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
-    fieldValueMap = readeNotNullCommonFieldValueLists()
-    meanMap = readeCommonFieldsMeanMap()
+    fieldValueMap = readNotNullCommonFieldValueLists()
+    meanMap = readCommonFieldsMeanMap()
     SDMap = readeCommonFieldsSDMap()
     Z_ScoredMap = {}
     for field in statistics['fieldList']:
@@ -98,11 +98,14 @@ def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_S
             Z_ScoredMap[field] = valueList
     writeToBson(Z_ScoredMap, fileName, sort = False)
 
+def readCommonFieldsZ_ScoredMap(fileName = 'commonFieldsZ_ScoredMap.bson'):
+    return evalBson(fileName)
+
 def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFieldsZ_ScoredValueMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readCommonFieldValueMap()
-    meanMap = readeCommonFieldsMeanMap()
+    meanMap = readCommonFieldsMeanMap()
     SDMap = readeCommonFieldsSDMap()
     Z_ScoredValueMap = {}
     for field in statistics['fieldList']:
@@ -115,3 +118,19 @@ def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFiel
                     valueMap[value] = calculateZ_ScoredValue(fieldValueMap[field][value], meanMap[field], SDMap[field])
                 Z_ScoredValueMap[field] = valueMap
     writeToBson(Z_ScoredValueMap, fileName)
+
+def readeCommonFieldsZ_ScoredValueMap(fileName = 'commonFieldsZ_ScoredValueMap.bson'):
+    return evalBson(fileName)
+
+def readStandardizedFieldsDetails(products = None, regenerate = False):
+    details = readCommonFieldStatistics(products, regenerate)
+    details['fieldValueMap'] = readCommonFieldValueMap()
+    details['FieldsNotNullValueLists'] = readNotNullCommonFieldValueLists()
+    details['fieldsMeanMap'] = readCommonFieldsMeanMap()
+    details['fieldsSDMap'] = readeCommonFieldsSDMap()
+    details['fieldsZ_ScoredMap'] = readCommonFieldsZ_ScoredMap()
+    details['fieldsZ_ScoredValueMap'] = readeCommonFieldsZ_ScoredValueMap()
+    return details 
+
+
+
