@@ -23,9 +23,11 @@ def main():
     #generateCommonFieldsSDMap()
     generateCommonFieldsZ_ScoredMap()
     categories = evalBson('categories.bson')
+    cd = getCategoriesFromProducts('products.bson')
     map = {}
     for c in categories['data']['categories']:
-        map[c['categoryCode']] = c['categoryName']
+        if c['categoryCode'] in cd:
+            map[c['categoryCode']] = c['categoryName']
     writeToBson(map, 'categoryCodeNams.json') 
     print 'DONE'
 
