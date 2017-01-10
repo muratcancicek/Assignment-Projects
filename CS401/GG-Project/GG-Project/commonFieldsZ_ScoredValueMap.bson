@@ -19,10 +19,10 @@
 "member_hasStore": { "False": -64.04717649, "True": 15.6134907861 },
 "member_smsVerified": { "False": -107.238052948, "True": 9.3250480824 },
 "member_type": { "B": -21.9205253093, "C": 42.9330998662, "None": -86.7741504848 },
-"restricted": { "False": 0 },
 "status": { "ACTIVE": -46.6326406566, "PASSIVE": 21.4442070173 },
 "storeFlag": { "N": -62.4656768498, "Y": 16.0087915545 },
 "storeType": { "CADDE": -44.7493083295, "MEGA_PLUS_STORE": -26.5659242054, "MEGA_STORE": -8.38254008123, "None": -62.9326924537, "PRO_STORE": 9.80084404292, "SHOP": 27.9842281671, "STORE": 46.1676122912 },
 "subtitleFlag": { "N": -12.970131035, "Y": 77.1002233746 },
 "windowOptionFlag": { "N": -9.26155117008, "Y": 107.973273768 }
+"restricted": { "False": 0 },
 }

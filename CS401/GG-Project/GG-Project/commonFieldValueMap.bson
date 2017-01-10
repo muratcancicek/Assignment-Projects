@@ -19,10 +19,10 @@
 "member_hasStore": { "False": 1, "True": 2 },
 "member_smsVerified": { "False": 1, "True": 2 },
 "member_type": { "None": 1, "B": 2, "C": 3 },
-"restricted": { "False": 1, "True": 2 },
 "status": { "ACTIVE": 1, "PASSIVE": 2 },
 "storeFlag": { "N": 1, "Y": 2 },
 "storeType": { "None": 1, "CADDE": 2, "MEGA_PLUS_STORE": 3, "MEGA_STORE": 4, "PRO_STORE": 5, "SHOP": 6, "STORE": 7 },
 "subtitleFlag": { "N": 1, "Y": 2 },
+"restricted": { "False": 1, "True": 2 },
 "windowOptionFlag": { "N": 1, "Y": 2 }
 }
