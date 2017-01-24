@@ -25,7 +25,7 @@ def runKmaens(trainData, testData, clusterCount = 100, sampleCount = 700, n_init
 
 def runRandomForestClassifier(trainData, testData, featureCount, n_estimators = 100, n_jobs = 1):
     rfc = RandomForestClassifier(n_estimators= n_estimators, n_jobs = n_jobs)
-    name = 'RandomForestClassifier on ' + str(featureCount) + ' features with ' + str(n_estimators) + ' estimators'
+    name = 'RandomForestClassifier on ' + ' features with ' + str(n_estimators) + ' estimators'
     bench_estimator(trainData, testData, estimator = rfc, name = name)
 
 def runKNeighborsClassifier(trainData, testData, featureCount, n_neighbors = 3):

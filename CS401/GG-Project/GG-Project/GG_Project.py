@@ -1,6 +1,7 @@
 from CommonFieldQuantizer import *
 from LearningAlgorithms import *
 from SpecsStandardizer import *
+from FirstTermMethods import *
 from ProductProcesser import *
 from VectorGenerator import *
 from SpecsQuantizer import *
