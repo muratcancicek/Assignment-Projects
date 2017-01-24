@@ -75,7 +75,7 @@ def generateCommonFieldsSDMap(products = None, fileName = 'commonFieldSDMap.bson
             SDMap[field] = math.sqrt(sum)/len(valueList)
     writeToBson(SDMap, fileName)
 
-def readeCommonFieldsSDMap(fileName = 'commonFieldSDMap.bson'):
+def readCommonFieldsSDMap(fileName = 'commonFieldSDMap.bson'):
     return evalBson(fileName)
 
 def calculateZ_ScoredValue(value, mean, sd):
@@ -86,7 +86,7 @@ def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_S
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readNotNullCommonFieldValueLists()
     meanMap = readCommonFieldsMeanMap()
-    SDMap = readeCommonFieldsSDMap()
+    SDMap = readCommonFieldsSDMap()
     Z_ScoredMap = {}
     for field in statistics['fieldList']:
         Z_ScoredMap[field] = []
@@ -106,7 +106,7 @@ def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFiel
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readCommonFieldValueMap()
     meanMap = readCommonFieldsMeanMap()
-    SDMap = readeCommonFieldsSDMap()
+    SDMap = readCommonFieldsSDMap()
     Z_ScoredValueMap = {}
     for field in statistics['fieldList']:
         if statistics['fieldValueTypes'][field] in ['str', 'bool']:
@@ -119,7 +119,7 @@ def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFiel
                 Z_ScoredValueMap[field] = valueMap
     writeToBson(Z_ScoredValueMap, fileName)
 
-def readeCommonFieldsZ_ScoredValueMap(fileName = 'commonFieldsZ_ScoredValueMap.bson'):
+def readCommonFieldsZ_ScoredValueMap(fileName = 'commonFieldsZ_ScoredValueMap.bson'):
     return evalBson(fileName)
 
 def readStandardizedFieldsDetails(products = None, regenerate = False):
@@ -127,9 +127,9 @@ def readStandardizedFieldsDetails(products = None, regenerate = False):
     details['fieldValueMap'] = readCommonFieldValueMap()
     details['FieldsNotNullValueLists'] = readNotNullCommonFieldValueLists()
     details['fieldsMeanMap'] = readCommonFieldsMeanMap()
-    details['fieldsSDMap'] = readeCommonFieldsSDMap()
+    details['fieldsSDMap'] = readCommonFieldsSDMap()
     details['fieldsZ_ScoredMap'] = readCommonFieldsZ_ScoredMap()
-    details['fieldsZ_ScoredValueMap'] = readeCommonFieldsZ_ScoredValueMap()
+    details['fieldsZ_ScoredValueMap'] = readCommonFieldsZ_ScoredValueMap()
     return details 
 
 

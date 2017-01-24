@@ -22,6 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FirstTermMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LearningAlgorithms.py" />
     <Compile Include="BsonIO.py">
       <SubType>Code</SubType>
     </Compile>
@@ -45,6 +49,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="data\generated\test\tcProduct.json">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UglyResulting.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="VectorGenerator.py">
@@ -71,6 +78,7 @@
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueType.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
     <Content Include="data\generated\produced\groupedProducts.bson" />
+    <Content Include="data\raw\commonFields_Values.json" />
     <Content Include="expandedProducts.bson" />
     <Content Include="MeanMap.bson" />
     <Content Include="data\generated\test\oldSpecsCounts.bson" />
@@ -100,6 +108,7 @@
     </Content>
     <Content Include="products.bson" />
     <Content Include="products.json" />
+    <Content Include="ProductVector.csv" />
     <Content Include="ProductVector.json" />
     <Content Include="SpecsZ_ScoredValueMap.bson" />
     <Content Include="SDMap.bson" />
