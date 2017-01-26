@@ -1,16 +1,17 @@
 from CommonFieldQuantizer import *
-from LearningAlgorithms import *
-from SpecsStandardizer import *
 from FirstTermMethods import *
 from ProductProcesser import *
 from VectorGenerator import *
-from SpecsQuantizer import *
 from ProductReader import *
-from SpecsReader import *
 from BsonIO import *
-
-def main(): 
-    learnCategories()
+a = 66
+def main(b = a+4): 
+    #c = evalBson('categories.bson')
+    #print c
+    c = b
+    print evalBson('data/commonFieldStatistics/values/commonFieldValueMap.bson')
+    print readCommonFieldValueMap()
+    #learnCategories()
     print 'DONE'
 
 

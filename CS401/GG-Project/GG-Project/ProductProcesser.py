@@ -1,8 +1,10 @@
 from ProductReader import *
 from BsonIO import *
 
-def readProducts(products = None, fileName = 'products.json', decoding = 'utf-8'):
-    return evalBson(fileName) if products == None else products 
+commonFieldFolder = 'data/commonFieldStatistics/'
+valuesFolder = commonFieldFolder + 'values/'
+commonFolder = 'data/common/'
+specsFolder = 'data/specs'
 
 def nullCargoInfo(product, field):
     product[field + '_' + "shippingDate"] = None
@@ -55,7 +57,7 @@ def expandSpecs(product):
     product['specs'] = specMap
     return product 
 
-def generateFieldsExpandedProducts(fileName = 'expandedProducts.bson',  products = None, printing = False):
+def generateFieldsExpandedProducts(fileName = commonFolder + 'expandedProducts.bson',  products = None, printing = False):
     products = readProducts(products)
     for product in products:
         product = fixQuotesOnProduct(product)
@@ -84,7 +86,7 @@ def checkCommonFieldsCount(products = None):
                 if not k in products[0].keys():
                     print k
 
-def generateCommonFieldList(fileName = 'commonFieldList.bson', products = None, printing = False):
+def generateCommonFieldList(fileName = commonFieldFolder + 'commonFieldList.bson', products = None, printing = False):
     products = readProducts(products)
     commonFieldList = products[0].keys()
     writeToBson(commonFieldList, fileName, printing)
@@ -93,7 +95,7 @@ def generateCommonFieldList(fileName = 'commonFieldList.bson', products = None, 
 def readCommonFieldList(fileName = 'commonFieldList.bson'):
     return evalBson(fileName)
 
-def generateCommonFieldValueLists(fileName = 'commonFieldValueLists.bson',  products = None, printing = False):
+def generateCommonFieldValueLists(fileName = valuesFolder + 'commonFieldValueLists.bson',  products = None, printing = False):
     products = readProducts(products)
     commonFieldList = readCommonFieldList()
     commonFieldValueLists = {}
@@ -104,7 +106,7 @@ def generateCommonFieldValueLists(fileName = 'commonFieldValueLists.bson',  prod
             commonFieldValueLists[field].append(product[field])
     writeToBson(commonFieldValueLists, fileName, printText = printing, sort = False)
 
-def readCommonFieldValueLists(fileName = 'commonFieldValueLists.bson'):
+def readCommonFieldValueLists(fileName = valuesFolder + 'commonFieldValueLists.bson'):
     return evalBson(fileName)
 
 def containsType(l, t):
@@ -128,7 +130,7 @@ def getTypeOfListElement(l):
     else:
         return type(li[0]).__name__
 
-def generateCommonFieldValueTypes(fileName = 'commonFieldValueTypes.bson',  products = None, printing = False):
+def generateCommonFieldValueTypes(fileName = valuesFolder + 'commonFieldValueTypes.bson',  products = None, printing = False):
     products = readProducts(products)
     commonFieldValueLists = readCommonFieldValueLists()
     commonFieldValueTypes = {}
@@ -136,10 +138,10 @@ def generateCommonFieldValueTypes(fileName = 'commonFieldValueTypes.bson',  prod
             commonFieldValueTypes[field] = getTypeOfListElement(fieldList)
     writeToBson(commonFieldValueTypes, fileName, printText = printing)
 
-def readCommonFieldValueTypes(fileName = 'commonFieldValueTypes.bson'):
+def readCommonFieldValueTypes(fileName = valuesFolder + 'commonFieldValueTypes.bson'):
     return evalBson(fileName)
 
-def generateCommonFieldValueTypeCounts(fileName = 'commonFieldValueTypeCounts.bson',  products = None, printing = False):
+def generateCommonFieldValueTypeCounts(fileName = valuesFolder + 'commonFieldValueTypeCounts.bson',  products = None, printing = False):
     commonFieldValueTypes = readCommonFieldValueTypes()
     typeCounts = {}
     typeList = commonFieldValueTypes.values()
@@ -148,7 +150,7 @@ def generateCommonFieldValueTypeCounts(fileName = 'commonFieldValueTypeCounts.bs
         typeCounts[type] = typeList.count(type)
     writeToBson(typeCounts, fileName, printText = printing)
 
-def generateCommonFieldValueSets(fileName = 'commonFieldValueSets.bson',  products = None, printing = False):
+def generateCommonFieldValueSets(fileName = valuesFolder + 'commonFieldValueSets.bson',  products = None, printing = False):
     products = readProducts(products)
     commonFieldValueLists = readCommonFieldValueLists()
     commonFieldValueSets = {}
@@ -161,17 +163,17 @@ def generateCommonFieldValueSets(fileName = 'commonFieldValueSets.bson',  produc
             commonFieldValueSets[field] = fieldList
     writeToBson(commonFieldValueSets, fileName, printText = printing)
     
-def readCommonFieldValueSets(fileName = 'commonFieldValueSets.bson'):
+def readCommonFieldValueSets(fileName = valuesFolder + 'commonFieldValueSets.bson'):
     return evalBson(fileName)
 
-def generateCommonFieldValueCounts(fileName = 'commonFieldValueCounts.bson',  products = None, printing = False):
+def generateCommonFieldValueCounts(fileName = valuesFolder + 'commonFieldValueCounts.bson',  products = None, printing = False):
     commonFieldValueSets = readCommonFieldValueSets()
     valueCounts = {}
     for k, v in commonFieldValueSets.items():
         valueCounts[k] = len(v)
     writeToBson(valueCounts, fileName, printText = printing)
 
-def readCommonFieldValueCounts(fileName = 'commonFieldValueCounts.bson'):
+def readCommonFieldValueCounts(fileName = valuesFolder + 'commonFieldValueCounts.bson'):
     return evalBson(fileName)
 
 def generateCommonFieldStatistics(products = None, printing = False):

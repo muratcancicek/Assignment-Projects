@@ -1,7 +1,10 @@
 from LearningAlgorithms import *
+from SpecsStandardizer import *
 from VectorGenerator import *
+from SpecsQuantizer import *
+from SpecsReader import *
 
-def regenerateOutputs(): 
+def regenerateSpecsOutputs(): 
     generateSpecsStatistics()
     preprocessData()
     

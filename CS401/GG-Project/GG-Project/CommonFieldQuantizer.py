@@ -1,7 +1,10 @@
 from ProductProcesser import *
 import math
 
-def generateCommonFieldsValueMap(products = None, fileName = 'commonFieldValueMap.bson', regenerate = False):
+commonFieldFolder = 'data/commonFieldStatistics/'
+valuesFolder = commonFieldFolder + 'values/'
+
+def generateCommonFieldsValueMap(products = None, fileName = valuesFolder + 'commonFieldValueMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldsValueMap = {}
@@ -20,10 +23,10 @@ def generateCommonFieldsValueMap(products = None, fileName = 'commonFieldValueMa
             fieldsValueMap[field] = {False: 1, True: 2}
     writeToBson(fieldsValueMap, fileName)
 
-def readCommonFieldValueMap(fileName = 'commonFieldValueMap.bson'):
+def readCommonFieldValueMap(fileName = valuesFolder + 'commonFieldValueMap.bson'):
     return evalBson(fileName)
 
-def generateNotNullCommonFieldValueLists(products = None, fileName = 'commonFieldNotNullValueLists.bson', regenerate = False):
+def generateNotNullCommonFieldValueLists(products = None, fileName = valuesFolder + 'commonFieldNotNullValueLists.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readCommonFieldValueMap()
@@ -41,10 +44,10 @@ def generateNotNullCommonFieldValueLists(products = None, fileName = 'commonFiel
             fieldsValueLists[field] = valueList
     writeToBson(fieldsValueLists,fileName, sort = False) 
 
-def readNotNullCommonFieldValueLists(fileName = 'commonFieldNotNullValueLists.bson'):
+def readNotNullCommonFieldValueLists(fileName = valuesFolder + 'commonFieldNotNullValueLists.bson'):
     return evalBson(fileName)
 
-def generateCommonFieldsMeanMap(products = None, fileName = 'commonFieldMeanMap.bson', regenerate = False):
+def generateCommonFieldsMeanMap(products = None, fileName = commonFieldFolder + 'commonFieldMeanMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readNotNullCommonFieldValueLists()
@@ -57,10 +60,10 @@ def generateCommonFieldsMeanMap(products = None, fileName = 'commonFieldMeanMap.
             meanMap[field] = sum / len(valueList)
     writeToBson(meanMap, fileName)
 
-def readCommonFieldsMeanMap(fileName = 'commonFieldMeanMap.bson'):
+def readCommonFieldsMeanMap(fileName = commonFieldFolder + 'commonFieldMeanMap.bson'):
     return evalBson(fileName)
 
-def generateCommonFieldsSDMap(products = None, fileName = 'commonFieldSDMap.bson', regenerate = False):
+def generateCommonFieldsSDMap(products = None, fileName = commonFieldFolder + 'commonFieldSDMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readNotNullCommonFieldValueLists()
@@ -75,13 +78,13 @@ def generateCommonFieldsSDMap(products = None, fileName = 'commonFieldSDMap.bson
             SDMap[field] = math.sqrt(sum)/len(valueList)
     writeToBson(SDMap, fileName)
 
-def readCommonFieldsSDMap(fileName = 'commonFieldSDMap.bson'):
+def readCommonFieldsSDMap(fileName = commonFieldFolder + 'commonFieldSDMap.bson'):
     return evalBson(fileName)
 
 def calculateZ_ScoredValue(value, mean, sd):
     return ((value - mean)/sd) if sd != 0 else 0
 
-def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_ScoredMap.bson', regenerate = False):
+def generateCommonFieldsZ_ScoredMap(products = None, fileName = commonFieldFolder + 'commonFieldsZ_ScoredMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readNotNullCommonFieldValueLists()
@@ -101,7 +104,7 @@ def generateCommonFieldsZ_ScoredMap(products = None, fileName = 'commonFieldsZ_S
 def readCommonFieldsZ_ScoredMap(fileName = 'commonFieldsZ_ScoredMap.bson'):
     return evalBson(fileName)
 
-def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFieldsZ_ScoredValueMap.bson', regenerate = False):
+def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = commonFieldFolder + 'commonFieldsZ_ScoredValueMap.bson', regenerate = False):
     products = readProducts(products)
     statistics = readCommonFieldStatistics(products, regenerate)
     fieldValueMap = readCommonFieldValueMap()
@@ -119,7 +122,7 @@ def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = 'commonFiel
                 Z_ScoredValueMap[field] = valueMap
     writeToBson(Z_ScoredValueMap, fileName)
 
-def readCommonFieldsZ_ScoredValueMap(fileName = 'commonFieldsZ_ScoredValueMap.bson'):
+def readCommonFieldsZ_ScoredValueMap(fileName = commonFieldFolder + 'commonFieldsZ_ScoredValueMap.bson'):
     return evalBson(fileName)
 
 def readStandardizedFieldsDetails(products = None, regenerate = False):

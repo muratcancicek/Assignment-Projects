@@ -1,5 +1,6 @@
-import json, re
 from bson import json_util, ObjectId
+import json, re
+import os
 
 def readBson(filename):
     with open(filename, "rU") as f:
@@ -89,7 +90,9 @@ def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator =
     return text
 
 def evalBson(fileName):
-    f = open(fileName, 'rU')
+    script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+    abs_file_path = os.path.join(script_dir, fileName)
+    f = open(abs_file_path, 'rU')
     rawLines = f.read().replace('null', 'None').replace('true', 'True').replace('false', 'False')
     return eval(rawLines)
 

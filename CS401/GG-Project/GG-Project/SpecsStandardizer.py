@@ -3,7 +3,9 @@ from SpecsQuantizer import *
 from BsonIO import *
 import math
 
-def generateMeansMap(map, fileName = 'MeanMap.bson', products = None):
+specsFolder = 'data/specs'
+
+def generateMeansMap(map, fileName = specsFolder + 'SpecsMeanMap.bson', products = None):
     products = readProducts(products)
     meanMap = {}
     for categoryCode, category in map.items():
@@ -17,7 +19,7 @@ def generateMeansMap(map, fileName = 'MeanMap.bson', products = None):
         meanMap[categoryCode] = axisMeanMap
     writeToBson(meanMap, fileName)
     
-def generateSDMap(map,meanMap, fileName = 'SDMap.bson'): 
+def generateSDMap(map,meanMap, fileName = specsFolder + 'SpecsSDMap.bson'): 
     SDMap = {}
     for categoryCode, category in map.items():
         axisSDMap = {}
@@ -30,7 +32,7 @@ def generateSDMap(map,meanMap, fileName = 'SDMap.bson'):
         SDMap[categoryCode] = axisSDMap
     writeToBson(SDMap, fileName)
 
-def generateZ_ScoredMap(map,meanMap,SDMap, fileName = 'ScoresMap.bson'):
+def generateZ_ScoredMap(map,meanMap,SDMap, fileName = specsFolder + 'SpecsZ_ScoredValueMap.bson'):
     ScoresMap = {}
     for categoryCode, category in map.items():
         axisScoresMap = {}
@@ -48,15 +50,15 @@ def generateZ_ScoredMap(map,meanMap,SDMap, fileName = 'ScoresMap.bson'):
         ScoresMap[categoryCode] = axisScoresMap
     writeToBson(ScoresMap, fileName)
 
-def preprocessData(valuesFile = 'ValueMap.bson', meansFile = 'MeanMap.bson', SDFile = 'SDMap.bson', scoresFile = 'ScoresMap.bson'):
+def preprocessSpecsData(valuesFile = 'SpecsValueMap.bson', meansFile = 'SpecsMeanMap.bson', SDFile = 'SpecsSDMap.bson', scoresFile = 'SpecsZ_ScoredValueMap.bson'):
     specsDict = getAllCategorySpecs() 
-    generateQuantizedValuesMap(specsDict, valuesFile)
-    map = evalBson(valuesFile)
-    generateMeansMap(map, meansFile)
-    meanMap = evalBson(meansFile)
-    generateSDMap(map, meanMap, SDFile)
-    SDMap = evalBson(SDFile)
-    generateZ_ScoredMap(map, meanMap, SDMap, scoresFile)
-    ScoresMap = evalBson(scoresFile)
-    print ScoresMap['phda']['Plak Türü']['10" (inch)']
-    print SDMap['tc']['Yüz Algılama']
+    global specsFolder 
+    generateQuantizedValuesMap(specsDict, specsFolder + valuesFile)
+    map = evalBson(specsFolder + valuesFile)
+    generateMeansMap(map, specsFolder + meansFile)
+    meanMap = evalBson(specsFolder + meansFile)
+    generateSDMap(map, meanMap, specsFolder + SDFile)
+    SDMap = evalBson(specsFolder + SDFile)
+    generateZ_ScoredMap(map, meanMap, SDMap, specsFolder + scoresFile)
+    scoresMap = evalBson(specsFolder + scoresFile)
+    return scoresMap

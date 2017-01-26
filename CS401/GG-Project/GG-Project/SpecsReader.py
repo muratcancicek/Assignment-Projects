@@ -1,12 +1,14 @@
 import urllib, json, sys, os
 
+specsFolder = 'data/common/'
+
 def getCategorySpecs(categoryCode, asString = False):
     url = "http://ap-api-java.pool.gittigidiyor.net:8080/gbay/categories/" + categoryCode + "/specs"
     response = urllib.urlopen(url)
     s = response.read()
     return s if asString else json.loads(s)
 
-def saveSpecs(filename = 'all_specs.bson'):
+def saveSpecs(filename = specsFolder + 'raw_all_specs.bson'):
     f = open(filename, 'w')
     f.write('[\n')
     for code in codes[:-1]:
@@ -16,7 +18,7 @@ def saveSpecs(filename = 'all_specs.bson'):
     f.write(' \n]')
     f.close()
 
-def flattenSpecs(readingFileName = 'raw_all_specs.bson', writingFileName = 'all_specs.bson'):
+def flattenSpecs(readingFileName =  specsFolder + 'raw_all_specs.bson', writingFileName =  specsFolder + 'all_specs.bson'):
     readingFile = open(readingFileName, "rU")
     writingFile = open(writingFileName, 'w')
     rawLines = readingFile.read().split('\n')
@@ -31,7 +33,7 @@ def flattenSpecs(readingFileName = 'raw_all_specs.bson', writingFileName = 'all_
             lineToWrite = lineToWrite[:-3] + rawLine
     writingFile.write(']')
 
-def getAllCategorySpecs(fileName = 'all_specs.bson'):
+def getAllCategorySpecs(fileName =  specsFolder + 'all_specs.bson'):
     #dir = os.path.dirname(__file__)
     #print dir
     #fileName = os.path.join('generated', 'produced', 'all_specs.bson')

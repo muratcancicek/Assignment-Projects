@@ -121,4 +121,7 @@ def generateCategoryCodeNameMap():
     for c in categories['data']['categories']:
         if c['categoryCode'] in cd:
             map[c['categoryCode']] = c['categoryName']
-    writeToBson(map, 'categoryCodeNams.json') 
+    writeToBson(map, 'categoryCodeNames.json') 
+
+def readProducts(products = None, fileName = 'products.json', decoding = 'utf-8'):
+    return evalBson(fileName) if products == None else products 

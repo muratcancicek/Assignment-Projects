@@ -1,6 +1,8 @@
 from SpecsReader import *
 from BsonIO import *
 
+specsFolder = 'data/specs'
+
 def getSpecValueCounts(specsDict, categoryCode):
     categorySpecs = specsDict[categoryCode]  
     specList = categorySpecs['categorySpecTypeList']
@@ -11,7 +13,7 @@ def getSpecValueCounts(specsDict, categoryCode):
         specsCounts[name] = len(specD)# if specD != None else 3131322
     return specsCounts
 
-def generateSpecsCountsMap(specsDict, fileName = 'SpecsCounts.bson'):
+def generateSpecsCountsMap(specsDict, fileName = specsFolder + 'SpecsCounts.bson'):
     outerDict = {}
     for code, spec in specsDict.items():
         specMap = getSpecValueCounts(specsDict, code)
@@ -30,14 +32,14 @@ def getSpecsTypes(specsDict, categoryCode):
         specsTypes[name] = specD
     return specsTypes, typeList
 
-def generateSpecsTypesMap(specsDict, fileName = 'SpecsTypes.bson'):
+def generateSpecsTypesMap(specsDict, fileName = specsFolder + 'SpecsTypes.bson'):
     outerDict = {}
     for code, spec in specsDict.items():
         specMap, typeList = getSpecsTypes(specsDict, code)
         outerDict[code] = specMap
     writeToBson(outerDict, fileName)
 
-def generateSpecsTypeCountsMap(specsDict,fileName = 'SpecsTypes.bson'):
+def generateSpecsTypeCountsMap(specsDict,fileName = specsFolder + 'SpecsTypes.bson'):
     outerDict = {}
     typeList = []
     for code, spec in specsDict.items():
@@ -50,10 +52,11 @@ def generateSpecsTypeCountsMap(specsDict,fileName = 'SpecsTypes.bson'):
 
 def generateSpecsStatistics(countsFile = 'SpecsCounts.bson', typesFile = 'SpecsTypes.bson', typesCountsFile = 'SpecsTypesCounts.bson'):
     specsDict = getAllCategorySpecs() 
-    generateSpecsCountsMap(specsDict, countsFile)
-    generateSpecsTypesMap(specsDict, typesFile)
-    generateSpecsTypeCountsMap(specsDict, typesCountsFile) 
-    typeCounts = evalBson(typesCountsFile)
+    global specsFolder 
+    generateSpecsCountsMap(specsDict, specsFolder + countsFile)
+    generateSpecsTypesMap(specsDict, specsFolder + typesFile)
+    generateSpecsTypeCountsMap(specsDict, specsFolder + typesCountsFile) 
+    typeCounts = evalBson(specsFolder + typesCountsFile)
     print typeCounts
 
 def assignQuantizedValues(specsDict, categoryCode):
@@ -74,7 +77,7 @@ def assignQuantizedValues(specsDict, categoryCode):
         specDict[name] = valueDict
     return specDict
 
-def generateQuantizedValuesMap(specsDict, fileName = 'ValueMap.bson'):
+def generateQuantizedValuesMap(specsDict, fileName = specsFolder + 'SpecsValueMap.bson'):
     outerDict = {}
     for code, spec in specsDict.items():
         specMap = assignQuantizedValues(specsDict, code)

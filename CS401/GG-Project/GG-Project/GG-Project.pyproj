@@ -59,28 +59,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="categoryCodeNams.json" />
-    <Content Include="commonFieldList.bson" />
-    <Content Include="commonFieldMeanMap.bson" />
-    <Content Include="commonFieldNotNullValueLists.bson" />
-    <Content Include="commonFieldSDMap.bson" />
-    <Content Include="commonFieldsZ_ScoredMap.bson" />
-    <Content Include="commonFieldsZ_ScoredValueMap.bson" />
-    <Content Include="commonFieldValueCounts.bson" />
-    <Content Include="commonFieldValueLists.bson" />
-    <Content Include="commonFieldValueMap.bson" />
-    <Content Include="commonFieldValueSets.bson" />
-    <Content Include="commonFieldValueTypeCounts.bson" />
-    <Content Include="commonFieldValueTypes.bson" />
+    <Content Include="data\common\categoryCodeNames.json" />
+    <Content Include="data\commonFieldStatistics\commonFieldMeanMap.bson" />
+    <Content Include="data\commonFieldStatistics\commonFieldList.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldNotNullValueLists.bson" />
+    <Content Include="data\commonFieldStatistics\commonFieldSDMap.bson" />
+    <Content Include="data\commonFieldStatistics\commonFieldsZ_ScoredMap.bson" />
+    <Content Include="data\commonFieldStatistics\commonFieldsZ_ScoredValueMap.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldValueCounts.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldValueLists.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldValueMap.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldValueSets.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldValueTypeCounts.bson" />
+    <Content Include="data\commonFieldStatistics\values\commonFieldValueTypes.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldList.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueSets.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueType.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
-    <Content Include="data\generated\produced\groupedProducts.bson" />
+    <Content Include="data\generated\test\groupedProducts.bson" />
     <Content Include="data\raw\commonFields_Values.json" />
-    <Content Include="expandedProducts.bson" />
-    <Content Include="MeanMap.bson" />
+    <Content Include="data\common\expandedProducts.bson" />
+    <Content Include="data\specs\SpecsMeanMap.bson" />
     <Content Include="data\generated\test\oldSpecsCounts.bson" />
     <Content Include="data\generated\test\oldSpecsTypes.bson" />
     <Content Include="data\generated\corrupted\cProducts.bson">
@@ -94,9 +94,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="data\raw\raw_all_specs.bson" />
-    <Content Include="categories.bson" />
+    <Content Include="data\common\categories.bson" />
     <Content Include="data\raw\codes.txt" />
-    <Content Include="all_specs.bson" />
+    <Content Include="data\specs\all_specs.bson" />
     <Content Include="data\generated\corrupted\corruptedProducts.bson" />
     <Content Include="data\raw\products220.bson" />
     <Content Include="data\raw\products780.bson" />
@@ -106,26 +106,29 @@
     <Content Include="data\raw\usb.json">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="products.bson" />
-    <Content Include="products.json" />
-    <Content Include="ProductVector.csv" />
-    <Content Include="ProductVector.json" />
-    <Content Include="SpecsZ_ScoredValueMap.bson" />
-    <Content Include="SDMap.bson" />
+    <Content Include="data\common\products.bson" />
+    <Content Include="data\common\products.json" />
+    <Content Include="data\common\ProductVector.csv" />
+    <Content Include="data\common\ProductVector.json" />
+    <Content Include="data\specs\SpecsZ_ScoredValueMap.bson" />
+    <Content Include="data\specs\SpecsSDMap.bson" />
     <Content Include="data\generated\corrupted\corruptedValueMap.bson" />
     <Content Include="data\generated\test\tcSpecsCounts.bson" />
-    <Content Include="data\generated\produced\SpecsCounts.bson" />
-    <Content Include="data\generated\produced\SpecsTypes.bson" />
-    <Content Include="data\generated\produced\SpecsTypesCounts.bson" />
-    <Content Include="SpecsValueMap.bson" />
-    <Content Include="standardizedProducts.json" />
+    <Content Include="data\specs\SpecsCounts.bson" />
+    <Content Include="data\specs\SpecsTypes.bson" />
+    <Content Include="data\specs\SpecsTypesCounts.bson" />
+    <Content Include="data\specs\SpecsValueMap.bson" />
+    <Content Include="data\common\standardizedProducts.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
+    <Folder Include="data\commonFieldStatistics\values\" />
     <Folder Include="data\generated\" />
     <Folder Include="data\generated\corrupted\" />
-    <Folder Include="data\generated\produced\" />
     <Folder Include="data\generated\test\" />
+    <Folder Include="data\commonFieldStatistics\" />
+    <Folder Include="data\common\" />
+    <Folder Include="data\specs\" />
     <Folder Include="data\original_commonFieldStatistics\" />
     <Folder Include="data\raw\" />
   </ItemGroup>
