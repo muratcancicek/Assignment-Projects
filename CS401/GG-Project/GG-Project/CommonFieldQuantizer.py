@@ -1,8 +1,6 @@
 from ProductProcesser import *
+from paths import *
 import math
-
-commonFieldFolder = 'data/commonFieldStatistics/'
-valuesFolder = commonFieldFolder + 'values/'
 
 def generateCommonFieldsValueMap(products = None, fileName = valuesFolder + 'commonFieldValueMap.bson', regenerate = False):
     products = readProducts(products)
@@ -101,7 +99,7 @@ def generateCommonFieldsZ_ScoredMap(products = None, fileName = commonFieldFolde
             Z_ScoredMap[field] = valueList
     writeToBson(Z_ScoredMap, fileName, sort = False)
 
-def readCommonFieldsZ_ScoredMap(fileName = 'commonFieldsZ_ScoredMap.bson'):
+def readCommonFieldsZ_ScoredMap(fileName = commonFieldFolder + 'commonFieldsZ_ScoredMap.bson'):
     return evalBson(fileName)
 
 def generateCommonFieldsZ_ScoredValueMap(products = None, fileName = commonFieldFolder + 'commonFieldsZ_ScoredValueMap.bson', regenerate = False):

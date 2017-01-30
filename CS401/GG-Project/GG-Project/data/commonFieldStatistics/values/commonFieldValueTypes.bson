@@ -48,7 +48,6 @@
 "restricted": "bool",
 "shipping": "int",
 "soldCount": "int",
-"specs": "list",
 "startDate": "long",
 "status": "str",
 "storeFlag": "str",

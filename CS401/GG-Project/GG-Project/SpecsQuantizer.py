@@ -1,7 +1,6 @@
 from SpecsReader import *
 from BsonIO import *
-
-specsFolder = 'data/specs'
+from paths import *
 
 def getSpecValueCounts(specsDict, categoryCode):
     categorySpecs = specsDict[categoryCode]  

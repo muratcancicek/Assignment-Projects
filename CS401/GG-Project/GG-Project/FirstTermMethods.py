@@ -3,12 +3,13 @@ from SpecsStandardizer import *
 from VectorGenerator import *
 from SpecsQuantizer import *
 from SpecsReader import *
+from paths import *
 
 def regenerateSpecsOutputs(): 
     generateSpecsStatistics()
     preprocessData()
     
-def getLearnableData(fileName = 'ProductVector.csv'):
+def getLearnableData(fileName = commonFolder + 'ProductVector.csv'):
     productVector, labels = readProductVectorCSV(fileName)
     trainData = {'data': [], 'labels': []}
     testData = {'data': [], 'labels': []}
