@@ -33,6 +33,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GG_Project.py" />
+    <Compile Include="paths.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ProductProcesser.py">
       <SubType>Code</SubType>
     </Compile>
@@ -78,7 +81,7 @@
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueType.bson" />
     <Content Include="data\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
     <Content Include="data\generated\test\groupedProducts.bson" />
-    <Content Include="data\raw\commonFields_Values.json" />
+    <Content Include="data\commonFieldStatistics\values\commonFields_Values.json" />
     <Content Include="data\common\expandedProducts.bson" />
     <Content Include="data\specs\SpecsMeanMap.bson" />
     <Content Include="data\generated\test\oldSpecsCounts.bson" />

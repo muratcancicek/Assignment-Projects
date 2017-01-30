@@ -1,4 +1,5 @@
 from BsonIO import *
+from paths import *
 
 def getCategories(filename):
     categoriesData = readBson("categories.bson")
@@ -121,7 +122,10 @@ def generateCategoryCodeNameMap():
     for c in categories['data']['categories']:
         if c['categoryCode'] in cd:
             map[c['categoryCode']] = c['categoryName']
-    writeToBson(map, 'categoryCodeNames.json') 
+    writeToBson(map, commonFolder + 'categoryCodeNames.json') 
 
-def readProducts(products = None, fileName = 'products.json', decoding = 'utf-8'):
+def readProducts(products = None, fileName = commonFolder + 'products.json', decoding = 'utf-8'):
     return evalBson(fileName) if products == None else products 
+
+def readExpandedProducts(products = None, fileName = commonFolder + 'expandedProducts.bson', decoding = 'utf-8'):
+    return readProducts(products, fileName, decoding)

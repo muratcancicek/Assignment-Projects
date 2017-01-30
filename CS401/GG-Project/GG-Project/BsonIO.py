@@ -43,6 +43,24 @@ def printBson(bson, p = True, decoding = 'unicode-escape'):
     if p: print s
     return s 
 
+def fixQuotes(text):
+    if type(text) is bool or text == None:
+        text = str(text) 
+    #elif type(text) is unicode:
+    #    return text.encode('utf-8')
+    index = 0
+    while index < len(text):
+        index = text.find('\"', index)
+        if index == -1:
+            break
+        if index != 0:
+           if text[index-1] != '\\':
+                text = text[:index] + '\\' + text[index:] 
+        else:
+            text = text[:index] + '\\' + text[index:] 
+        index += 2
+    return text
+
 def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator = ' ', lmbda = lambda k: 'zzz' if k in ['title', 'subTitle'] else k, sort = True, deep = 0):
     if type(bson) == str:
         v = fixQuotes(bson.decode('utf8'))
@@ -95,24 +113,6 @@ def evalBson(fileName):
     f = open(abs_file_path, 'rU')
     rawLines = f.read().replace('null', 'None').replace('true', 'True').replace('false', 'False')
     return eval(rawLines)
-
-def fixQuotes(text):
-    if type(text) is bool or text == None:
-        text = str(text) 
-    #elif type(text) is unicode:
-    #    return text.encode('utf-8')
-    index = 0
-    while index < len(text):
-        index = text.find('\"', index)
-        if index == -1:
-            break
-        if index != 0:
-           if text[index-1] != '\\':
-                text = text[:index] + '\\' + text[index:] 
-        else:
-            text = text[:index] + '\\' + text[index:] 
-        index += 2
-    return text
 
 def writeToBson(bson, fileName,  printing = False, printText = False, decoding = 'utf-8', sort = True): 
     f = open(fileName, 'wb')

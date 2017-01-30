@@ -6,6 +6,8 @@ from ProductReader import *
 from BsonIO import *
 
 def main(): 
+    #generateCommonFieldStatistics()
+    #generateProductVectorFromExpandedProducts()
     learnCategories()
     print 'DONE'
 

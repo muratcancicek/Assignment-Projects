@@ -1,9 +1,8 @@
-﻿from SpecsReader import * 
-from SpecsQuantizer import *
+﻿from SpecsQuantizer import *
+from SpecsReader import * 
 from BsonIO import *
+from paths import *
 import math
-
-specsFolder = 'data/specs'
 
 def generateMeansMap(map, fileName = specsFolder + 'SpecsMeanMap.bson', products = None):
     products = readProducts(products)

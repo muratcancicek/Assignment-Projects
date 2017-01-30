@@ -2,8 +2,8 @@
 "boldTitle": { "False": 1, "True": 2 },
 "brandNew": { "": 1, "N": 2, "Y": 3 },
 "buyFlag": { "N": 1, "Y": 2 },
-"cargoInfo_cargoFees_ABROAD_firmCode": { "None": 1, "aras": 2, "mng": 3, "other": 4, "ptt": 5, "surat": 6, "tnt": 7, "ups": 8, "yurtici": 9 },
-"cargoInfo_cargoFees_DOMESTIC_firmCode": { "None": 1, "aras": 2, "mng": 3, "other": 4, "ptt": 5, "surat": 6, "tnt": 7, "ups": 8, "yurtici": 9 },
+"cargoInfo_cargoFees_ABROAD_firmCode": { "None": 1, "aras": 2, "dhl": 3, "fedex": 4, "fillo": 5, "horoz": 6, "mng": 7, "narpost": 8, "other": 9, "ptt": 10, "surat": 11, "tnt": 12, "ups": 13, "varan": 14, "yurtici": 15 },
+"cargoInfo_cargoFees_DOMESTIC_firmCode": { "None": 1, "aras": 2, "dhl": 3, "fedex": 4, "fillo": 5, "horoz": 6, "mng": 7, "narpost": 8, "other": 9, "ptt": 10, "surat": 11, "tnt": 12, "ups": 13, "varan": 14, "yurtici": 15 },
 "cargoInfo_feeType": { "None": 1, "BUYER_PAY": 2, "FREE": 3 },
 "cargoInfo_shippingDate": { "None": 1, "2-3 gün içersinde": 2, "Aynı gün": 3, "Ertesi gün": 4 },
 "cargoInfo_shippingTime": { "None": 1, "00:00": 2, "01:00": 3, "07:15": 4, "09:00": 5, "10:00": 6, "10:45": 7, "11:00": 8, "12:00": 9, "12:30": 10, "13:00": 11, "13:30": 12, "14:00": 13, "15:00": 14, "15:30": 15, "15:45": 16, "16:00": 17, "16:30": 18, "16:45": 19, "17:00": 20, "17:15": 21, "17:30": 22, "17:45": 23, "18:00": 24, "18:45": 25, "1:00": 26, "1:30": 27, "5:00": 28, "7:00": 29, "9:00": 30 },
@@ -19,10 +19,10 @@
 "member_hasStore": { "False": 1, "True": 2 },
 "member_smsVerified": { "False": 1, "True": 2 },
 "member_type": { "None": 1, "B": 2, "C": 3 },
+"restricted": { "False": 1, "True": 2 },
 "status": { "ACTIVE": 1, "PASSIVE": 2 },
 "storeFlag": { "N": 1, "Y": 2 },
-"storeType": { "None": 1, "CADDE": 2, "MEGA_PLUS_STORE": 3, "MEGA_STORE": 4, "PRO_STORE": 5, "SHOP": 6, "STORE": 7 },
+"storeType": { "None": 1, "CADDE": 2, "CRAFTS_STORE": 3, "MEGA_PLUS_STORE": 4, "MEGA_STORE": 5, "PRO_STORE": 6, "SHOP": 7, "STORE": 8 },
 "subtitleFlag": { "N": 1, "Y": 2 },
-"restricted": { "False": 1, "True": 2 },
 "windowOptionFlag": { "N": 1, "Y": 2 }
 }

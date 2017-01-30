@@ -1,6 +1,5 @@
 import urllib, json, sys, os
-
-specsFolder = 'data/common/'
+from paths import *
 
 def getCategorySpecs(categoryCode, asString = False):
     url = "http://ap-api-java.pool.gittigidiyor.net:8080/gbay/categories/" + categoryCode + "/specs"
