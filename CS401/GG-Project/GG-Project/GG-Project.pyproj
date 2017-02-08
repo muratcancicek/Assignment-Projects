@@ -62,6 +62,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\clickstream\part-r-00000" />
     <Content Include="data\common\categoryCodeNames.json" />
     <Content Include="data\commonFieldStatistics\commonFieldMeanMap.bson" />
     <Content Include="data\commonFieldStatistics\commonFieldList.bson" />
@@ -131,6 +132,7 @@
     <Folder Include="data\generated\test\" />
     <Folder Include="data\commonFieldStatistics\" />
     <Folder Include="data\common\" />
+    <Folder Include="data\clickstream\" />
     <Folder Include="data\specs\" />
     <Folder Include="data\original_commonFieldStatistics\" />
     <Folder Include="data\raw\" />
