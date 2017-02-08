@@ -25,39 +25,66 @@
     <Compile Include="FirstTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LearningAlgorithms.py" />
-    <Compile Include="BsonIO.py">
+    <Compile Include="machineLearning\LearningAlgorithms.py" />
+    <Compile Include="productProcesser\BsonIO.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CommonFieldQuantizer.py">
+    <Compile Include="productProcesser\CommonFieldQuantizer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GG_Project.py" />
     <Compile Include="paths.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ProductProcesser.py">
+    <Compile Include="productProcesser\ProductProcesser.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ProductReader.py">
+    <Compile Include="productProcesser\ProductReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SpecsQuantizer.py">
+    <Compile Include="productProcesser\specsProcesser\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SpecsReader.py">
+    <Compile Include="productProcesser\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SpecsStandardizer.py">
+    <Compile Include="scalaToPython\python_codes\BotUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scalaToPython\python_codes\LumberjackConstants.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scalaToPython\python_codes\LumberjackParser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scalaToPython\python_codes\StringUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="productProcesser\specsProcesser\SpecsQuantizer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="productProcesser\specsProcesser\SpecsReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="productProcesser\specsProcesser\SpecsStandardizer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="data\generated\test\tcProduct.json">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="UglyResulting.py">
+    <Compile Include="machineLearning\UglyResulting.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="VectorGenerator.py">
+    <Compile Include="productProcesser\VectorGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scalaToPython\python_codes\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scalaToPython\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -143,6 +170,9 @@
     <Folder Include="data\specs\" />
     <Folder Include="data\original_commonFieldStatistics\" />
     <Folder Include="data\raw\" />
+    <Folder Include="machineLearning\" />
+    <Folder Include="productProcesser\" />
+    <Folder Include="productProcesser\specsProcesser\" />
     <Folder Include="scalaToPython\" />
     <Folder Include="scalaToPython\python_codes\" />
     <Folder Include="scalaToPython\scala_codes\" />

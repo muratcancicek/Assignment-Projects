@@ -1,14 +1,8 @@
-from CommonFieldQuantizer import *
 from FirstTermMethods import *
-from ProductProcesser import *
-from VectorGenerator import *
-from ProductReader import *
-from BsonIO import *
+from SecondTermMethods import run as runSecondTermMethods
 
 def main(): 
-    #generateCommonFieldStatistics()
-    #generateProductVectorFromExpandedProducts()
-    #learnCategories()
+    runSecondTermMethods()
     print 'DONE'
 
 
