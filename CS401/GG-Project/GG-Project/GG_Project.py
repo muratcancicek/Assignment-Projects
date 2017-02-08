@@ -8,7 +8,7 @@ from BsonIO import *
 def main(): 
     #generateCommonFieldStatistics()
     #generateProductVectorFromExpandedProducts()
-    learnCategories()
+    #learnCategories()
     print 'DONE'
 
 

@@ -123,6 +123,13 @@
     <Content Include="data\specs\SpecsTypesCounts.bson" />
     <Content Include="data\specs\SpecsValueMap.bson" />
     <Content Include="data\common\standardizedProducts.json" />
+    <Content Include="scalaToPython\scala_codes\BotUtil.scala" />
+    <Content Include="scalaToPython\scala_codes\DataFrameApp.scala" />
+    <Content Include="scalaToPython\scala_codes\LumberjackConstants.scala" />
+    <Content Include="scalaToPython\scala_codes\LumberjackParser.scala" />
+    <Content Include="scalaToPython\scala_codes\SimpleApp.scala" />
+    <Content Include="scalaToPython\scala_codes\SimpleAppClickstream.scala" />
+    <Content Include="scalaToPython\scala_codes\StringUtil.scala" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -136,6 +143,9 @@
     <Folder Include="data\specs\" />
     <Folder Include="data\original_commonFieldStatistics\" />
     <Folder Include="data\raw\" />
+    <Folder Include="scalaToPython\" />
+    <Folder Include="scalaToPython\python_codes\" />
+    <Folder Include="scalaToPython\scala_codes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
