@@ -16,5 +16,4 @@ def run():
     print log
     map = parseLog(log)
     print map
-    print map['title']
-    #title=Ta%C3%A7+Lisans+Nevresim+Tak%C4%B1m%C4%B1+FB+Fenerbah%C3%A7e+Parlayan+Logo+Tek+Ki%C5%9Filik
+    print '\n', map['title']

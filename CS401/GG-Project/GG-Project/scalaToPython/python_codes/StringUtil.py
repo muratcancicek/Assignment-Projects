@@ -13,20 +13,21 @@ def normalizeKeyword(keyword):
     
 def getFixedEncodingValue(encoded):
     if (encoded == None): return None
-    encoded = encoded.encode('unicode')
+    encoded = encoded.encode('unicode-escape')
     encoded = encoded.replace('%C4%9E', u'?') # ?
     encoded = encoded.replace('%C4%9F', u'?') # ?
-    encoded = encoded.replace('%C3%87', u'Ç') # CH
-    encoded = encoded.replace('%C3%A7', u'ç') # ch
-    encoded = encoded.replace('%C3%96', u'Ö') # O
-    encoded = encoded.replace('%C3%B6', u'ö') # o
-    encoded = encoded.replace('%C3%9C', u'Ü') # U
-    encoded = encoded.replace('%C3%BC', u'ü') # u
-    encoded = encoded.replace('%C4%B0', u'?') # I
-    encoded = encoded.replace('%C4%B1', u'?') # i
-    encoded = encoded.replace('%C5%9E', u'?') # S
-    encoded = encoded.replace('%C5%9F', u'?') # s
-    encoded = encoded.replace('%C5%9F', u'?') # s?
+    encoded = encoded.replace('%C3%87', u'C') # CH
+    encoded = encoded.replace('%C3%A7', u'c') # ch
+    encoded = encoded.replace('%C3%96', u'O') # O
+    encoded = encoded.replace('%C3%B6', u'o') # o
+    encoded = encoded.replace('%C3%9C', u'U') # U
+    encoded = encoded.replace('%C3%BC', u'u') # u
+    encoded = encoded.replace('%C4%B0', u'I') # I
+    encoded = encoded.replace('%C4%B1', u'i') # i
+    encoded = encoded.replace('%C5%9E', u'S') # S
+    encoded = encoded.replace('%C5%9F', u's') # s
+    encoded = encoded.replace('%C5%9F', u's') # s?
+    encoded = encoded.replace('+', u' ') # s?
     return encoded
 
 #def getFixedEncodingValue(encoded):

@@ -9,7 +9,7 @@ def isBotAgent(m):
     return not isMobile(m) and m.contains(KEY_AGENT) and BotUtil.isBotAgent(m[KEY_AGENT])
 
 def parse(input):
-    str = input.split('\t')
+    str = input[:-1].split('\t')
     map = {}
     # time?
     pairList = str[1].split('&')
