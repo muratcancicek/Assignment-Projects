@@ -1,0 +1,8 @@
+VBoxManage modifyvm ubuntu_ --natpf1 "ssh,tcp,,3022,,22"
+VBoxManage showvminfo ubuntu_ | find "Rule"
+bash
+ssh -p 3022 m@127.0.0.1
+ 
+cd Projects/gaia
+yes
+ 
