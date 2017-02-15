@@ -3,6 +3,8 @@ VBoxManage showvminfo ubuntu_ | find "Rule"
 bash
 ssh -p 3022 m@127.0.0.1
  
-cd Projects/gaia
+cd Projects/Fizy_Project/Music_Libraries
 yes
  
+cd D:/OneDrive/Projects/Assignment-Projects/Fizy_Project
+python Fizy_Project.py

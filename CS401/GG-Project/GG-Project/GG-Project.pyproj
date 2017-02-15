@@ -25,60 +25,76 @@
     <Compile Include="FirstTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="machineLearning\LearningAlgorithms.py" />
-    <Compile Include="productProcesser\BsonIO.py">
+    <Compile Include="LogProcesser\LogAnalyzer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\CommonFieldQuantizer.py">
+    <Compile Include="LogProcesser\JsonIO.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogProcesser\LogsReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogProcesser\scalaToPython\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogProcesser\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="machineLearning\LearningAlgorithms.py" />
+    <Compile Include="machineLearning\__init__.py" />
+    <Compile Include="productProcessers\BsonIO.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="productProcessers\CommonFieldQuantizer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GG_Project.py" />
     <Compile Include="paths.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\ProductProcesser.py">
+    <Compile Include="productProcessers\ProductProcesser.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\ProductReader.py">
+    <Compile Include="productProcessers\ProductReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\specsProcesser\__init__.py">
+    <Compile Include="productProcessers\specsProcesser\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\__init__.py">
+    <Compile Include="LogProcesser\scalaToPython\python_codes\BotUtil.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="scalaToPython\python_codes\BotUtil.py">
+    <Compile Include="LogProcesser\scalaToPython\python_codes\LumberjackConstants.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="scalaToPython\python_codes\LumberjackConstants.py">
+    <Compile Include="LogProcesser\scalaToPython\python_codes\LumberjackParser.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="scalaToPython\python_codes\LumberjackParser.py">
+    <Compile Include="LogProcesser\scalaToPython\python_codes\StringUtil.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="scalaToPython\python_codes\StringUtil.py">
+    <Compile Include="productProcessers\specsProcesser\SpecsQuantizer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\specsProcesser\SpecsQuantizer.py">
+    <Compile Include="productProcessers\specsProcesser\SpecsReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\specsProcesser\SpecsReader.py">
+    <Compile Include="productProcessers\specsProcesser\SpecsStandardizer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\specsProcesser\SpecsStandardizer.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="data\generated\test\tcProduct.json">
+    <Compile Include="data\productToPoint\generated\test\tcProduct.json">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="machineLearning\UglyResulting.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcesser\VectorGenerator.py">
+    <Compile Include="productProcessers\VectorGenerator.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="scalaToPython\python_codes\__init__.py">
+    <Compile Include="LogProcesser\scalaToPython\python_codes\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="productProcessers\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="scalaToPython\__init__.py">
@@ -89,67 +105,73 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\clickstream\part-r-00000" />
-    <Content Include="data\common\categoryCodeNames.json" />
-    <Content Include="data\commonFieldStatistics\commonFieldMeanMap.bson" />
-    <Content Include="data\commonFieldStatistics\commonFieldList.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldNotNullValueLists.bson" />
-    <Content Include="data\commonFieldStatistics\commonFieldSDMap.bson" />
-    <Content Include="data\commonFieldStatistics\commonFieldsZ_ScoredMap.bson" />
-    <Content Include="data\commonFieldStatistics\commonFieldsZ_ScoredValueMap.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldValueCounts.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldValueLists.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldValueMap.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldValueSets.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldValueTypeCounts.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFieldValueTypes.bson" />
-    <Content Include="data\original_commonFieldStatistics\original_commonFieldList.bson" />
-    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
-    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueSets.bson" />
-    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueType.bson" />
-    <Content Include="data\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
-    <Content Include="data\generated\test\groupedProducts.bson" />
-    <Content Include="data\commonFieldStatistics\values\commonFields_Values.json" />
-    <Content Include="data\common\expandedProducts.bson" />
-    <Content Include="data\specs\SpecsMeanMap.bson" />
-    <Content Include="data\generated\test\oldSpecsCounts.bson" />
-    <Content Include="data\generated\test\oldSpecsTypes.bson" />
-    <Content Include="data\generated\corrupted\cProducts.bson">
+    <Content Include="data\ranking\clickstream\part-r-00000" />
+    <Content Include="data\productToPoint\common\categoryCodeNames.json" />
+    <Content Include="data\productToPoint\commonFieldStatistics\commonFieldMeanMap.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\commonFieldList.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldNotNullValueLists.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\commonFieldSDMap.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\commonFieldsZ_ScoredMap.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\commonFieldsZ_ScoredValueMap.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueCounts.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueLists.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueMap.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueSets.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueTypeCounts.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueTypes.bson" />
+    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldList.bson" />
+    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
+    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueSets.bson" />
+    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueType.bson" />
+    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
+    <Content Include="data\productToPoint\generated\test\groupedProducts.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\values\commonFields_Values.json" />
+    <Content Include="data\productToPoint\common\expandedProducts.bson" />
+    <Content Include="data\productToPoint\specs\SpecsMeanMap.bson" />
+    <Content Include="data\productToPoint\generated\test\oldSpecsCounts.bson" />
+    <Content Include="data\productToPoint\generated\test\oldSpecsTypes.bson" />
+    <Content Include="data\productToPoint\generated\corrupted\cProducts.bson">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="data\generated\corrupted\all_specsASCII.bson" />
-    <Content Include="data\generated\corrupted\bilgisayar.json">
+    <Content Include="data\productToPoint\generated\corrupted\all_specsASCII.bson" />
+    <Content Include="data\productToPoint\generated\corrupted\bilgisayar.json">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="data\generated\test\ceket.json">
+    <Content Include="data\productToPoint\generated\test\ceket.json">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="data\raw\raw_all_specs.bson" />
-    <Content Include="data\common\categories.bson" />
-    <Content Include="data\raw\codes.txt" />
-    <Content Include="data\specs\all_specs.bson" />
-    <Content Include="data\generated\corrupted\corruptedProducts.bson" />
-    <Content Include="data\raw\products220.bson" />
-    <Content Include="data\raw\products780.bson" />
-    <Content Include="data\generated\corrupted\tc_specs.json">
+    <Content Include="data\productToPoint\raw\raw_all_specs.bson" />
+    <Content Include="data\productToPoint\common\categories.bson" />
+    <Content Include="data\productToPoint\raw\codes.txt" />
+    <Content Include="data\productToPoint\specs\all_specs.bson" />
+    <Content Include="data\productToPoint\generated\corrupted\corruptedProducts.bson" />
+    <Content Include="data\productToPoint\raw\products220.bson" />
+    <Content Include="data\productToPoint\raw\products780.bson" />
+    <Content Include="data\productToPoint\generated\corrupted\tc_specs.json">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="data\raw\usb.json">
+    <Content Include="data\productToPoint\raw\usb.json">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="data\common\products.bson" />
-    <Content Include="data\common\products.json" />
-    <Content Include="data\common\ProductVector.csv" />
-    <Content Include="data\common\ProductVector.json" />
-    <Content Include="data\specs\SpecsZ_ScoredValueMap.bson" />
-    <Content Include="data\specs\SpecsSDMap.bson" />
-    <Content Include="data\generated\corrupted\corruptedValueMap.bson" />
-    <Content Include="data\generated\test\tcSpecsCounts.bson" />
-    <Content Include="data\specs\SpecsCounts.bson" />
-    <Content Include="data\specs\SpecsTypes.bson" />
-    <Content Include="data\specs\SpecsTypesCounts.bson" />
-    <Content Include="data\specs\SpecsValueMap.bson" />
-    <Content Include="data\common\standardizedProducts.json" />
+    <Content Include="data\productToPoint\common\products.bson" />
+    <Content Include="data\productToPoint\common\products.json" />
+    <Content Include="data\productToPoint\common\ProductVector.csv" />
+    <Content Include="data\productToPoint\common\ProductVector.json" />
+    <Content Include="data\productToPoint\specs\SpecsZ_ScoredValueMap.bson" />
+    <Content Include="data\productToPoint\specs\SpecsSDMap.bson" />
+    <Content Include="data\productToPoint\generated\corrupted\corruptedValueMap.bson" />
+    <Content Include="data\productToPoint\generated\test\tcSpecsCounts.bson" />
+    <Content Include="data\productToPoint\specs\SpecsCounts.bson" />
+    <Content Include="data\productToPoint\specs\SpecsTypes.bson" />
+    <Content Include="data\productToPoint\specs\SpecsTypesCounts.bson" />
+    <Content Include="data\productToPoint\specs\SpecsValueMap.bson" />
+    <Content Include="data\productToPoint\common\standardizedProducts.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\countsOfUniqueValues.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\countsOfValues.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\keyList.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\part-r-00000.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\transpose.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\transpose_clean.json" />
     <Content Include="scalaToPython\scala_codes\BotUtil.scala" />
     <Content Include="scalaToPython\scala_codes\DataFrameApp.scala" />
     <Content Include="scalaToPython\scala_codes\LumberjackConstants.scala" />
@@ -160,21 +182,27 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
-    <Folder Include="data\commonFieldStatistics\values\" />
-    <Folder Include="data\generated\" />
-    <Folder Include="data\generated\corrupted\" />
-    <Folder Include="data\generated\test\" />
-    <Folder Include="data\commonFieldStatistics\" />
-    <Folder Include="data\common\" />
-    <Folder Include="data\clickstream\" />
-    <Folder Include="data\specs\" />
-    <Folder Include="data\original_commonFieldStatistics\" />
-    <Folder Include="data\raw\" />
+    <Folder Include="data\productToPoint\commonFieldStatistics\values\" />
+    <Folder Include="data\productToPoint\generated\" />
+    <Folder Include="data\productToPoint\generated\corrupted\" />
+    <Folder Include="data\productToPoint\generated\test\" />
+    <Folder Include="data\productToPoint\commonFieldStatistics\" />
+    <Folder Include="data\productToPoint\common\" />
+    <Folder Include="data\ranking\clickstream\" />
+    <Folder Include="data\ranking\" />
+    <Folder Include="data\productToPoint\" />
+    <Folder Include="data\productToPoint\specs\" />
+    <Folder Include="data\productToPoint\original_commonFieldStatistics\" />
+    <Folder Include="data\productToPoint\raw\" />
+    <Folder Include="data\ranking\logInfo\" />
+    <Folder Include="data\ranking\logInfo\part-r-00000\" />
     <Folder Include="machineLearning\" />
-    <Folder Include="productProcesser\" />
-    <Folder Include="productProcesser\specsProcesser\" />
+    <Folder Include="LogProcesser\" />
+    <Folder Include="productProcessers\" />
+    <Folder Include="productProcessers\specsProcesser\" />
+    <Folder Include="LogProcesser\scalaToPython\" />
+    <Folder Include="LogProcesser\scalaToPython\python_codes\" />
     <Folder Include="scalaToPython\" />
-    <Folder Include="scalaToPython\python_codes\" />
     <Folder Include="scalaToPython\scala_codes\" />
   </ItemGroup>
   <PropertyGroup>

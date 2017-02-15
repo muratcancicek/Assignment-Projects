@@ -3,7 +3,7 @@ from SecondTermMethods import run as runSecondTermMethods
 
 def main(): 
     runSecondTermMethods()
-    print 'DONE'
 
-
+print 'Running...'
 main()
+print 'DONE'

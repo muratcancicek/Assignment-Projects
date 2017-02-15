@@ -1,8 +1,5 @@
-from LearningAlgorithms import *
-from SpecsStandardizer import *
-from VectorGenerator import *
-from SpecsQuantizer import *
-from SpecsReader import *
+from machineLearning.LearningAlgorithms import *
+from productProcessers.VectorGenerator import *
 from paths import *
 
 def regenerateSpecsOutputs(): 

@@ -27,4 +27,6 @@ update-alternatives --remove python /mnt/c/Fast_STORAGE/Anaconda2              1
 
 sudo apt-get install swig update 
 
+cd Projects/Projects/Assignment-Projects/Fizy_Project
+python Fizy_Project.py
 

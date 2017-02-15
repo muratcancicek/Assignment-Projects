@@ -1,0 +1,173 @@
+{
+  "_id": { "$oid": "582d808646e0fb00017684b9" },
+  "productId": 240789222,
+  "status": "PASSIVE",
+  "restricted": false,
+  "brandNew": "N",
+  "variantFlag": 0,
+  "productListingType": 3,
+  "delayed": 0,
+  "specs": [
+    {
+      "description": "Bluetooth",
+      "values": [ "Yok" ]
+    },
+    {
+      "description": "Ekran Boyutu",
+      "values": [ "3.5\" altı" ]
+    },
+    {
+      "description": "Kablosuz Şarj",
+      "values": [ "Yok" ]
+    },
+    {
+      "description": "Durum",
+      "values": [ "İkinci El" ]
+    },
+    {
+      "description": "Seri",
+      "values": [ "GD" ]
+    },
+    {
+      "description": "Garanti",
+      "values": [ "Yok" ]
+    },
+    {
+      "description": "Garanti Süresi",
+      "values": [ "Yok" ]
+    },
+    {
+      "description": "Micro SD Desteği",
+      "values": [ "Yok" ]
+    },
+    {
+      "description": "USB Girişi",
+      "values": [ "Yok" ]
+    },
+    {
+      "description": "Garanti Geçerlilik Yeri",
+      "values": [ "Türkiye" ]
+    },
+    {
+      "description": "Renk",
+      "values": [ "Lacivert" ]
+    },
+    {
+      "description": "Model",
+      "values": [ "90" ]
+    },
+    {
+      "description": "Pakete Dahil Kablolar",
+      "values": [ "30-pin" ]
+    },
+    {
+      "description": "Dahili Hafıza",
+      "values": [ "128 GB üstü" ]
+    },
+    {
+      "description": "Marka",
+      "values": [ "Panasonic" ]
+    },
+    {
+      "description": "Kulaklık",
+      "values": [ "3.5 mm" ]
+    }
+  ],
+  "modifiedDate": 1479754205255,
+  "category": {
+    "name": "Cep Telefonu",
+    "rgCategoryId": 0,
+    "code": "tc",
+    "storeCategoryId": 0
+  },
+  "categories": [
+    {
+      "id": 2124,
+      "name": "Cep Telefonu & Aksesuar",
+      "rgCategoryId": 129,
+      "code": "t",
+      "canonicalUrl": "/cep-telefonu-ve-aksesuar",
+      "parentId": 0,
+      "parentCode": ""
+    },
+    {
+      "id": 2075,
+      "name": "Cep Telefonu",
+      "rgCategoryId": 0,
+      "code": "tc",
+      "canonicalUrl": "/cep-telefonu",
+      "parentId": 2124,
+      "parentCode": "t"
+    }
+  ],
+  "member": {
+    "nick": "crazy-65-2",
+    "hasStore": false,
+    "starPoint": 5,
+    "feedbackCount": 215,
+    "feedbackPercentage": 100,
+    "txCount": 974,
+    "soldCount": 906,
+    "type": "C",
+    "segment": 2,
+    "standard": 4,
+    "smsVerified": true,
+    "store": null,
+    "memberId": 9238913
+  },
+  "catalog": null,
+  "marketPrice": null,
+  "title": "ANTİKA PANASONİC GD90 cep telefonu SORUNSUZ en uygun fiyat",
+  "subTitle": "",
+  "shipping": 1,
+  "soldCount": 1,
+  "photos": 15,
+  "buyPrice": 7.7,
+  "bidHighPrice": 77.0,
+  "reservePrice": 0.0,
+  "bidStartPrice": 77.0,
+  "bidCount": 0,
+  "fixedPriceFlag": "Y",
+  "buyFlag": "Y",
+  "subtitleFlag": "N",
+  "catalogFlag": "Y",
+  "productCount": 1,
+  "windowOptionFlag": "N",
+  "startDate": 1479752939000,
+  "cityCode": 34,
+  "endDate": 1479753915000,
+  "productModifiedDate": 1479753915000,
+  "storeFlag": "N",
+  "storeType": null,
+  "feature": {
+    "affiliate": false,
+    "feedable": true,
+    "dailyOffer": false,
+    "mostSold": false,
+    "campaign": false
+  },
+  "cargoTime": "birGun",
+  "boldTitle": false,
+  "collapseHash": "22562e5f3f9d52a0c600db41b581f78c",
+  "cargoInfo": {
+    "shippingDate": "Ertesi gün",
+    "shippingTime": null,
+    "feeType": "BUYER_PAY",
+    "cargoFees": [
+      {
+        "firm": "Aras Kargo",
+        "firmCode": "aras",
+        "fee": 0.0,
+        "direction": "ABROAD"
+      },
+      {
+        "firm": "Aras Kargo",
+        "firmCode": "aras",
+        "fee": 0.0,
+        "direction": "DOMESTIC"
+      }
+    ]
+  },
+  "impressionScore": null,
+  "productCatalogs": null
+}
