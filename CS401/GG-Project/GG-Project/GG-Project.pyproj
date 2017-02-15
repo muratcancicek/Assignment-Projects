@@ -31,6 +31,9 @@
     <Compile Include="LogProcesser\JsonIO.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="LogProcesser\LogAnalyzerTests.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LogProcesser\LogsReader.py">
       <SubType>Code</SubType>
     </Compile>

@@ -20,9 +20,14 @@ def checkDuplication():
     duplicated = logsCount != deduplicatedLogsCount
     print 'Duplication occurred:', duplicated, duplicationCount, logsCount, deduplicatedLogsCount
 
+lastReadLogs = None
 def getLogs(logs = None, fromFileName = TEST_LOGS):
     if logs == None:
-        return LogsReader.getLogs(fromFileName)
+        if lastReadLogs != None and fromFileName == TEST_LOGS:
+            return lastReadLogs
+        else:
+            return LogsReader.getLogs(fromFileName)
+
     else:
         return logs
 
@@ -48,6 +53,16 @@ def readLogKeys(logs = None, fileName = 'keyList'):
         return extractLogKeys(logs)
     return evalJson(fileName)
 
+def getSnippedLogs(keys, logs = None, fromFileName = TEST_LOGS, toFileName = 'transpose'): 
+    logs = getLogs(logs, fromFileName)
+    snippedLogs = []
+    for log in logs:
+        for key in keys:
+            if key in log.keys():
+                snippedLogs.append(log)
+                break
+    return snippedLogs
+
 transpose = None
 transposeClean = None
 def takeTransposesOfLogs(logs = None, fromFileName = TEST_LOGS, toFileName = 'transpose'):
@@ -69,6 +84,8 @@ def takeTransposesOfLogs(logs = None, fromFileName = TEST_LOGS, toFileName = 'tr
     if LogsReader.WRITING_ALLOWED:
         writeToJson(transpose, joinPath(testFolder, toFileName))
         writeToJson(transposeClean, joinPath(testFolder, toFileName + '_clean'))
+    else:
+        print 'Transposes has been generated' 
     return transpose, transposeClean
     
 def readTransposes(logs = None, fileName = 'transpose'):
@@ -76,6 +93,19 @@ def readTransposes(logs = None, fileName = 'transpose'):
     if not (infoExists(fileName) and LogsReader.WRITING_ALLOWED):
         return takeTransposesOfLogs(logs)
     return evalJson(fileName), evalJson(fileName + '_clean')
+
+def getSubTranspose(keys, logs = None, fromFileName = TEST_LOGS): 
+    if transpose == None:
+        logs = getLogs(logs, fromFileName)
+        subTranspose = {}
+        for key in keys:
+            subTranspose[key] = []
+        for log in logs:
+            for key in keys:
+                subTranspose[key] = log[key] if key in log.keys() else None                
+        return subTranspose
+    else:
+        return  {key: transpose[key] for key in keys}
 
 def extractCounts(logs = None, fromFileName = TEST_LOGS, toFileName = 'counts'):
     logs = getLogs(logs, fromFileName)
@@ -105,6 +135,40 @@ def getLogsColumnAsList(key, logs = None, fromFileName = TEST_LOGS):
     else:
         return transpose[key]
 
-def getIndicesValueOccurs(key, value, logs = None, fromFileName = TEST_LOGS):
-    column = getLogsColumnAsList(key, logs)
-    return [i for i in range(len(column)) if column[i] == value]
+
+
+def isMatching(valueMap, log):
+    for key, value in valueMap.items():
+        if not key in log.keys():
+            return False
+        elif isinstance(value, list) and log[key] in value:
+            return True 
+        elif not key in log.keys() or log[key] != value:
+            return False
+        else:
+            return True
+
+def getLogsWhere(valueMap, logs = None, fromFileName = TEST_LOGS): 
+    logs = getLogs(logs, fromFileName) 
+    selectedLogs = []
+    indices = []
+    for i in range(len(logs)):
+        if isMatching(valueMap, logs[i]):
+            selectedLogs.append(logs[i])
+            indices.append(i)
+    return selectedLogs, indices
+
+def getLogsWhereValue(value, key = None, logs = None, fromFileName = TEST_LOGS):
+    if key == None:
+        logs = getLogs(logs, fromFileName) 
+        selectedLogs = []
+        indices = []
+        for i in range(len(logs)):
+            for logKey in logs[i].keys():
+                if isMatching({logKey: value}, logs[i]):
+                    selectedLogs.append(logs[i])
+                    indices.append(i)
+                    break
+        return selectedLogs, indices
+    else:
+        return getLogsWhere({key: value}, logs, fromFileName)
