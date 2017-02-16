@@ -41,4 +41,11 @@ def mapReduceTests(logs = None): # Running successfully
     print len(selectedLogs), selectedLogs[0]
     
 def newTest(logs = None): # Under development 
+    logs = getLogs(logs)
+    modules = getLogsColumnAsList('module', logs)
+    print list(set(modules))
+    paymentLogs, indices = getLogsWhereValue('payment', 'module', logs = logs)
+    print len(paymentLogs), paymentLogs[0]
+    selectedLogs, indices = getLogsWhereValue(['payment', 'newseasion', 'search', 'chart'], 'module', logs = logs)
+    print len(selectedLogs), selectedLogs[0]
     pass
