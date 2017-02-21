@@ -161,7 +161,7 @@ def getLogsWhere(valueMap, logs = None, fromFileName = TEST_LOGS):
         if isMatching(valueMap, logs[i]):
             selectedLogs.append(logs[i])
             indices.append(i)
-    return selectedLogs, indices
+    return selectedLogs#, indices
 
 def getLogsWhereValue(value, key = None, logs = None, fromFileName = TEST_LOGS):
     if key == None:
@@ -174,7 +174,7 @@ def getLogsWhereValue(value, key = None, logs = None, fromFileName = TEST_LOGS):
                     selectedLogs.append(logs[i])
                     indices.append(i)
                     break
-        return selectedLogs, indices
+        return selectedLogs#, indices
     else:
         return getLogsWhere({key: value}, logs, fromFileName)
     
@@ -208,3 +208,41 @@ def getModuleCounts(logs = None, modules = None):
             else:
                 counts[module] = 0
     return counts
+
+def hasSearchThisItem(searchLog, itemLog):
+    if not 'ids' in searchLog.keys() or not 'id' in itemLog.keys():
+        return False
+    return itemLog['id'] in searchLog['ids'] 
+
+def logsMatching(first, second, keys = None):
+    if keys == None:
+        keys = [key for key in first.keys() if key in second.keys()]
+    elif isinstance(keys, str):
+        keys = [keys]
+    for key in keys:
+        if key in first.keys() and key in second.keys():
+            if first[key] != second[key]:
+                return False
+    return True
+
+def getJourneyFromCookie(cookie, logs = None): 
+    logs = getLogs(logs) 
+    modules = getModuleMap(logs)   
+    paymentIds = getLogsColumnAsList('id', modules['payment'])
+    cartIds = getLogsColumnAsList('id', modules['cart'])    
+    commonIds = [id for id in paymentIds if id in cartIds]
+    paymentIdCookies = getSnippedLogs(['id', '_c'], modules['payment'])
+    focusedModules = ['newsession', 'search', 'item' 'cart', 'payment']
+    focusedLogs = getLogsWhereValue(focusedModules, 'module', logs)
+    myLogs = []
+    for paymentLog in paymentIdCookies:
+        for log in focusedLogs:
+            if log['module'] =='search': 
+                if hasSearchThisItem(log, paymentLog):
+                    myLogs.append(log)
+            else:
+                if logsMatching(log, paymentLog, ['_c']):
+                    myLogs.append(log)
+    sampleJourney = getLogsWhereValue(cookie, '_c', myLogs)
+    sampleJourney.sort(key = lambda log: log['timestamp'])
+    return sampleJourney
