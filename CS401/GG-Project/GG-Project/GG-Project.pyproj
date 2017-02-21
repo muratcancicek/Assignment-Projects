@@ -45,6 +45,9 @@
     </Compile>
     <Compile Include="machineLearning\LearningAlgorithms.py" />
     <Compile Include="machineLearning\__init__.py" />
+    <Compile Include="Printing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="productProcessers\BsonIO.py">
       <SubType>Code</SubType>
     </Compile>

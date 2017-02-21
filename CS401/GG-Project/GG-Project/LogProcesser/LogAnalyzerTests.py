@@ -116,15 +116,17 @@ def newTest(logs = None): # Under development
     #        if hasSearchThisItem(search, log):
     #            print 'item clicked', log['id'] 
     for log in modules['cart'] + modules['payment']:
+        loved = False
         for search in sampleJourney:
             if hasSearchThisItem(search, log):
-                print search['time'], search
-                print 'item loved', log['time'], log['id'], log['module'],  log['_c']
+                print blue(search['time']), log['_c'], search
+                loved = True
+        if loved:
+            print red(log['time']), log['id'], log['module'],  log['_c'], log
     #for log in sampleJourney:
     #    if '_c' in log.keys():
     #        print log['_c']
     #    else:
     #        print 'no cookie'
     for log in sampleJourney:
-        print log['time']
-        print log['module'], log
+        print green(log['time']), log['_c'] if '_c' in log.keys() else None, log

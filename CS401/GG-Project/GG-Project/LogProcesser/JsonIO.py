@@ -1,4 +1,5 @@
 from bson import json_util, ObjectId
+from Printing import *
 import json, re
 
 class JSONEncoder(json.JSONEncoder):
@@ -90,3 +91,4 @@ def writeToJson(json, fileName,  printing = False, printText = False, decoding =
     f.write(jsonString) 
     print fileName + '.json has been written successfully.'
     f.close() 
+
