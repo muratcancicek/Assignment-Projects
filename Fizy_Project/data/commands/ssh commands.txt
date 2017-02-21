@@ -1,0 +1,16 @@
+VBoxManage modifyvm ubuntu_ --natpf1 "ssh,tcp,,3022,,22"
+VBoxManage showvminfo ubuntu_ | find "Rule"
+ssh -p 3022 m@127.0.0.1
+VBoxManage modifyvm ubuntu14.04 --natpf1 "ssh,tcp,,3022,,22"
+VBoxManage showvminfo ubuntu14.04 | find "Rule"
+bash
+ssh -X -p 3022 m@127.0.0.2
+ssh -p 3022 m@127.0.0.2
+ 
+cd Projects/Fizy_Project/Music_Libraries
+yes
+
+sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) Projects ~/Projects
+D:/OneDrive
+cd /Projects/Assignment-Projects/Fizy_Project
+python Fizy_Project.py

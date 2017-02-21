@@ -1,0 +1,11 @@
+D:\OneDrive\Projects\Fizy_Project\Music_Libraries\gaia
+cd ~/Projects/Fizy_Project/Music_Libraries/gaia
+
+cd ~/Downloads
+cd ~/
+
+bash
+ssh -X -p 3022 m@127.0.0.2
+
+cd ~/Projects/Assignment-Projects/Fizy_Project
+python Fizy_Project.py

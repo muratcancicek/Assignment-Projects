@@ -1,18 +1,38 @@
 import scalaToPython.python_codes.LumberjackParser as LumberjackParser
-from paths import * 
 from JsonIO import *
+from paths import * 
+import datetime
 
 WRITING_ALLOWED = False
 
 def readLogs(fileName, duplicated = False):
-    print fileName + '.json has been read successfully.'
+    print fileName + ' has been read successfully.'
     f = open(fileName, 'rb')
     logs = f.readlines() if duplicated else list(set(f.readlines())) 
     f.close() 
     return logs
 
+def convertPossibleType(value):
+    if isinstance(value, list):
+        return map(convertPossibleType, value)
+    try:
+        value = float(value)
+    except ValueError:
+        return value
+    return value if value - int(value) > 0 else int(value)
+
 def parseLog(log):
-    return LumberjackParser.parse(log)
+    log = LumberjackParser.parse(log)
+    if 'ids' in log.keys():
+            if '%2C' in log['ids']:
+                log['ids'] = log['ids'].split('%2C')
+            else:
+                log['ids'] = [log['ids']]
+    for key, value in log.items():            
+       log[key] = convertPossibleType(value)
+    if 'timestamp' in log.keys():
+        log["time"] = str(datetime.datetime.fromtimestamp(int(log["timestamp"])/ 1e3))
+    return log
 
 def parseAllLogs(logs):
     return map(parseLog, logs)

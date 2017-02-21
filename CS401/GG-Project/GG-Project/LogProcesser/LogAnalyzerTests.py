@@ -1,5 +1,4 @@
 from LogProcesser.LogAnalyzer import *
-import datetime
 
 def basicTests(): # Running successfully
     logs = readLogs(TEST_LOGS)
@@ -41,42 +40,61 @@ def mapReduceTests(logs = None): # Running successfully
     selectedLogs, indices = getLogsWhere({'_ip': sampleIp, "abvar": ["BMF2%2CMPO2", 'BMF2%2CMPO2%2CRCP6']}, logs = logs)
     print len(selectedLogs), selectedLogs[0]
     
-def newTest(logs = None): # Under development 
+def moduleTests(logs = None): # Running successfully
     logs = getLogs(logs)
-    #modules = getLogsColumnAsList('module', logs)
-    #print list(set(modules))
-    paymentLogs, indices = getLogsWhereValue('payment', 'module', logs = logs)
-    searchLogs, indices = getLogsWhereValue('search', 'module', logs = logs)
-    itemLogs, indices = getLogsWhereValue('item', 'module', logs = logs)
-    cartLogs, indices = getLogsWhereValue('cart', 'module', logs = logs)
-    print len(paymentLogs), len(searchLogs), len(itemLogs), len(cartLogs)
-    for log in searchLogs:
-        if 'ids' in log.keys():
-            log['ids'] = log['ids'].split('%2C')
-        else:
-          searchLogs.remove(log)
-   
-    paymentIds = [log['id'] for log in paymentLogs]
+    modules = getModuleMap(logs)
+    print modules.keys()
+    focusedModules = ['newsession', 'search', 'cart', 'payment']
+    modules = getModuleMap(logs, focusedModules)
+    print modules.keys()
+    for module in modules.values():
+        print module[0]
+    counts = getModuleCounts(logs)
+    print counts.items()
+    modules = getModuleMap(logs)
+    counts = getModuleCounts(modules)
+    print counts.items()
+    counts = getModuleCounts(modules, focusedModules)
+    print counts.items()
     
-    #for log in cartLogs :
+def snippingTests(logs = None): # Running successfully
+    logs = getLogs(logs)
+    ids = getSnippedLogs('id', logs)
+    print ids, '\n', len(ids)
+    ids = getSnippedLogs(['id', '_c'], logs)
+    print ids, '\n', len(ids)
+    modules = getModuleMap(logs)
+    ids = getSnippedLogs(['id', '_c'], modules['payment'])
+    print ids, '\n', len(ids)
+
+def idCookieTests(logs = None): # Under development 
+    logs = getLogs(logs)
+    modules = getModuleMap(logs)   
+    paymentIds = getLogsColumnAsList('id', modules['payment'])
+    print len(modules['payment']), len(paymentIds) 
+    print modules['payment'][0], '\n', paymentIds[0]
+
+    #for log in modules['cart']:
     #    print log
    
-    cookies = [log['_c'] for log in cartLogs]
+    cookies = getLogsColumnAsList('_c', modules['cart'])#[log['_c'] for log in cartLogs]
     cookiesSet = list(set(cookies))
-    print len(cookies) , len(cookiesSet) 
+    print len(cookies), len(cookiesSet) 
 
     for cookie in cookiesSet:
         cookies.remove(cookie)
 
-    #for cookie in cookies:
-    #    print(cookie)
+    print len(cookies)
 
+def newTest(logs = None): # Under development 
+    logs = getLogs(logs)    
+    modules = getModuleMap(logs)   
+    paymentIds = getLogsColumnAsList('id', modules['payment'])
     print  len(paymentIds)
-    cartIds = [log['id'] for log in cartLogs]
-    
+    cartIds = getLogsColumnAsList('id', modules['cart'])    
     print len(cartIds)
     commonIds = [id for id in paymentIds if id in cartIds]
-    print len( commonIds)
+    print len(commonIds)
 
     paymentCookies = []
 

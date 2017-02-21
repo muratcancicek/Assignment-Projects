@@ -1,0 +1,21 @@
+chmod +x ./qt-unified-linux-x64-2.0.5-online.run
+export PATH=/mnt/c/Fast_STORAGE/Anaconda2:$PATH
+update-alternatives --install /usr/bin/python python /mnt/c/Fast_STORAGE/Anaconda2/python.exe 1
+sudo update-alternatives --install /usr/bin/python python /home/cicekm/anaconda2/bin/python2.7 1
+update-alternatives --remove python /mnt/c/Fast_STORAGE/Anaconda2/python.exe
+sudo chown -R usr foldername
+sudo chown -R cicekm ~/anaconda2
+vim ~/.bashrc
+cicekm@MSI:/mnt/d/Slow_Storage/Program_Files/Qt$ 
+
+export PATH="home/cicekm/anaconda2/bin:$PATH"
+/mnt/c/Fast_STORAGE/Anaconda2              1         auto mode
+sudo update-alternatives --remove python /home/cicekm/anaconda2/bin                 1         manual mode
+update-alternatives --remove python /mnt/c/Fast_STORAGE/Anaconda2              1         manual mode
+3            /mnt/c/Fast_STORAGE/Anaconda2/python.exe   1
+
+sudo apt-get install swig update 
+
+cd Projects/Projects/Assignment-Projects/Fizy_Project
+python Fizy_Project.py
+

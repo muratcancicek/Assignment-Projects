@@ -31,7 +31,7 @@ def getLogs(logs = None, fromFileName = TEST_LOGS):
     else:
         return logs
 
-def generateParsedTestFile(fromFileName = TEST_LOGS, toFileName = joinPath(logInfoFolder, TEST_LOGS_FILE)):
+def generateParsedTestFile(fromFileName = TEST_LOGS, toFileName = joinPath(testFolder, TEST_LOGS_FILE)):
     LogsReader.generateParsedLogs(fromFileName, toFileName)
 
 def infoExists(fileName):
@@ -56,11 +56,16 @@ def readLogKeys(logs = None, fileName = 'keyList'):
 def getSnippedLogs(keys, logs = None, fromFileName = TEST_LOGS, toFileName = 'transpose'): 
     logs = getLogs(logs, fromFileName)
     snippedLogs = []
+    if isinstance(keys, str):
+        keys = [keys]
     for log in logs:
+        snippedLog = {}
         for key in keys:
             if key in log.keys():
-                snippedLogs.append(log)
-                break
+                snippedLog[key] = log[key]
+            else:
+                snippedLog[key] = None
+        snippedLogs.append(snippedLog)
     return snippedLogs
 
 transpose = None
@@ -172,3 +177,34 @@ def getLogsWhereValue(value, key = None, logs = None, fromFileName = TEST_LOGS):
         return selectedLogs, indices
     else:
         return getLogsWhere({key: value}, logs, fromFileName)
+    
+def getModuleMap(logs = None, modules = None): 
+    logs = getLogs(logs)
+    moduleMap = {}
+    if modules == None:
+        for log in logs:
+            if log['module'] in moduleMap.keys():
+                moduleMap[log['module']].append(log)
+            else:
+                moduleMap[log['module']] = [log]
+    else:
+        for module in modules:
+            moduleMap[module], indices = getLogsWhereValue(module, 'module', logs = logs)
+    return moduleMap
+
+def getModuleCounts(logs = None, modules = None): 
+    if logs == None:
+        logs = getLogs(logs)
+    if isinstance(logs, list):
+        logs = getModuleMap(logs)
+    counts = {}
+    if modules == None:
+        for key, logLists in logs.items():
+            counts[key] = len(logLists)
+    else:
+        for module in modules:
+            if module in logs.keys():
+                counts[module] = len(logs[module])
+            else:
+                counts[module] = 0
+    return counts
