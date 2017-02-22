@@ -26,8 +26,12 @@ def getLogs(logs = None, fromFileName = TEST_LOGS):
         if lastReadLogs != None and fromFileName == TEST_LOGS:
             return lastReadLogs
         else:
-            return LogsReader.getLogs(fromFileName)
-
+            logs = LogsReader.getLogs(fromFileName)
+            logs2 = []
+            for log in logs:
+                if '_bot' in log.keys() and log['_bot'] == 0:
+                    logs2.append(log)
+            return logs2 
     else:
         return logs
 
@@ -212,7 +216,10 @@ def getModuleCounts(logs = None, modules = None):
 def hasSearchThisItem(searchLog, itemLog):
     if not 'ids' in searchLog.keys() or not 'id' in itemLog.keys():
         return False
-    return itemLog['id'] in searchLog['ids'] 
+    if isinstance(searchLog['ids'], str):
+        return str(itemLog['id']) == searchLog['ids']
+    else:
+        return itemLog['id'] in searchLog['ids'] 
 
 def logsMatching(first, second, keys = None):
     if keys == None:
@@ -246,3 +253,35 @@ def getJourneyFromCookie(cookie, logs = None):
     sampleJourney = getLogsWhereValue(cookie, '_c', myLogs)
     sampleJourney.sort(key = lambda log: log['timestamp'])
     return sampleJourney
+
+def getProductLogs(modules):
+    return  modules['cart'] + modules['payment'] + modules['item']
+
+def getInterestingCookiesFromKeyword(modules, keyword):
+    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
+    productCookies = getLogsColumnAsList('_c', getProductLogs(modules))
+    interestingCookies = []
+    searchCookies = getLogsColumnAsList('_c', searches)
+    for c in productCookies:
+        if c in searchCookies and c != None:#
+            interestingCookies.append(c)
+    return list(set(interestingCookies))
+
+def getIdsFromSearches(searches):
+    if isinstance(searches, dict): searches = [searches]
+    ids = []
+    for search in searches:
+        if 'ids' in search.keys():
+            ids.extend(search['ids'])
+    return ids
+
+def getInterestingLogsFromKeyword(modules, keyword):
+    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
+    ids = getIdsFromSearches(searches)
+    interestingCookies = getInterestingCookiesFromKeyword(modules, keyword)
+    logs = getLogsWhereValue(interestingCookies, '_c', getProductLogs(modules) + modules['newsession'])
+    interestingLogs = []
+    for log in logs:
+        if 'id' in log.keys() and log['id'] in ids:
+            interestingLogs.append(log)
+    return interestingLogs

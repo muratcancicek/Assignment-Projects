@@ -3,7 +3,7 @@ from JsonIO import *
 from paths import * 
 import datetime
 
-WRITING_ALLOWED = False
+WRITING_ALLOWED = True
 
 def readLogs(fileName, duplicated = False):
     print fileName + ' has been read successfully.'
@@ -77,3 +77,56 @@ def getLogs(fileName):
         return getLogsFromLocal(fileName)
     else:
         return readParseLogs(fileName)   
+
+def logToStr(log, orderedKeys = None, colorMap = {}, logColor = None):
+    firstKeys = ['time', 'module', 'keyword', 'id', 'orderBy', 'pageNum', '_c', 'ids', 'title']
+    if orderedKeys == None:
+        orderedKeys = firstKeys
+    elif isinstance(orderedKeys, str):
+        orderedKeys = firstKeys + [orderedKeys]
+    else:
+        for key in firstKeys:
+            if key in orderedKeys:
+                orderedKeys.remove(key)
+        orderedKeys = firstKeys + orderedKeys 
+    line = '{ '
+    keys = log.keys()
+    for key in orderedKeys:
+        if key in keys:
+            keys.remove(key)
+            pair = str(key) + ': ' + str(log[key]) + ', '
+            if key in ['time', 'module']:
+                pair = str(log[key]) + ', '
+            if key in colorMap.keys():
+                pair = colorMap[key](pair)
+            line += pair
+    keys.sort()
+    for key in keys:
+        pair = str(key) + ': ' + str(log[key]) + ', '
+        if key in colorMap.keys():
+            pair = colorMap[key](pair) 
+        line += pair
+    line = line[:-2] + '}'
+    if logColor != None:
+        line = logColor(line)
+    return line
+
+def printLog(log, orderedKeys = None, colorMap = {}, logColor = None):
+    print logToStr(log, orderedKeys, colorMap, logColor)
+
+def printJourney(logs, orderedKeys = None, colorMap = {}):
+    print 'Journey begins...'
+    logs.sort(key = lambda log: log['timestamp'])    
+    for log in logs:
+        if 'module' in log.keys():
+            if log['module'] in ['cart', 'payment']:
+                print logToStr(log, orderedKeys, colorMap, blue)
+            elif log['module'] == 'item':
+                print logToStr(log, orderedKeys, colorMap, pink)
+            elif log['module'] == 'newsession':
+                print logToStr(log, orderedKeys, colorMap, green)
+            elif not log['module'] in ['newsession', 'search', 'item' 'cart', 'payment']:
+                print logToStr(log, orderedKeys, colorMap, darkCyan)
+            else:
+                print logToStr(log, orderedKeys, colorMap)
+    print 'Journey end.'

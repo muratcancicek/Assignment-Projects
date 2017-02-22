@@ -93,8 +93,29 @@ def cookieJourneyTest(logs = None, cookie = None): # Running successfully
         
 def cookieJourneyTest2(logs = None): # Under development 
     cookieJourneyTest(logs, '9b3c7d6da4fbae9a258c36f8bb9bb40e8d29d963547a539ddd2e998336daf234')
+    
+def coloredPrintingTests(): # Running successfully
+    print red('po['), 9, blue('time'), 'kj'
+    print red('po[') + str(9) + blue('time') + 'kj'
+    print red('po[') + bcolors.DEFAULT + str(9) + blue('time') + bcolors.DEFAULT + 'kj'
+    print bcolors.RED + 'po[' + str(9) + bcolors.BLUE + 'time' + 'kj'
+    print bcolors.PINK + 'po[' + str(9) + bcolors.BLUE + 'time' + 'kj'
+    print bcolors.PINK + 'po[' + bcolors.END + str(9) + bcolors.BLUE + 'time' + bcolors.END + 'kj'
+    
+def coloredLogPrintingTests(logs = None): # Running successfully
+    logs = getLogs(logs) 
+    log = logs[0]
+    print logToStr(log)
+    print logToStr(log, ['_c'])
+    print logToStr(log, colorMap = {'time': red, '_c': blue})
+    
+def coloredJourneyPrintingTest(logs = None): # Running successfully
+    logs = getLogs(logs) 
+    cookie = '9b3c7d6da4fbae9a258c36f8bb9bb40e8d29d963547a539ddd2e998336daf234'
+    sampleJourney = getJourneyFromCookie(cookie, logs)
+    printJourney(sampleJourney)
 
-def newTest(logs = None): # Under development 
+def newTest0(logs = None): # Under development 
     logs = getLogs(logs) 
     modules = getModuleMap(logs)   
     keyword = 'lg g4'
@@ -111,22 +132,36 @@ def newTest(logs = None): # Under development
     richCookies = list(set(paymentCookies+cartCookies)) 
     cookie = '9b3c7d6da4fbae9a258c36f8bb9bb40e8d29d963547a539ddd2e998336daf234'
     #sampleJourney = getLogsWhereValue(cookie, '_c', modules['cart'] + modules['payment'])
-    #for log in modules['item']:
-    #    for search in sampleJourney:
-    #        if hasSearchThisItem(search, log):
-    #            print 'item clicked', log['id'] 
+    colorMap = {'time': blue, '_c': darkCyan, 'id': red}
+    for log in modules['item']:
+        for search in sampleJourney:
+            if hasSearchThisItem(search, log):
+                printLog(log) 
     for log in modules['cart'] + modules['payment']:
         loved = False
         for search in sampleJourney:
             if hasSearchThisItem(search, log):
-                print blue(search['time']), log['_c'], search
+                printLog(search)
                 loved = True
         if loved:
-            print red(log['time']), log['id'], log['module'],  log['_c'], log
+            printLog(log)
     #for log in sampleJourney:
     #    if '_c' in log.keys():
     #        print log['_c']
     #    else:
     #        print 'no cookie'
-    for log in sampleJourney:
-        print green(log['time']), log['_c'] if '_c' in log.keys() else None, log
+    printJourney(sampleJourney)
+
+def newTest(logs = None): # Under development 
+    modules = getModuleMap(logs)   
+    keyword = 'lg g4'
+    #for c in interestingCookies:
+    #    print c + carts
+    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
+    interestingLogs = getInterestingLogsFromKeyword(modules, keyword)
+    carts = getLogsWhereValue(241000265, 'id', modules['cart'] + modules['payment'])
+    printJourney(interestingLogs + searches)
+
+    cookie = '97bdbb65c35e56def96dbed95d4f48f2e6ee02382d943ba5c9d98b1764e5ba29'
+    sampleJourney = getLogsWhereValue(cookie, '_c', logs)
+    printJourney(sampleJourney)

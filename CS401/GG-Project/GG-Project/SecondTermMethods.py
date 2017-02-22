@@ -1,5 +1,6 @@
 from LogProcesser.LogAnalyzer import *
 from LogProcesser.LogAnalyzerTests import *
+from Printing import *
 
 def run(): 
     #generateParsedTestFile()
@@ -13,4 +14,6 @@ def run():
     #idCookieTests(logs) 
     #cookieJourneyTest(logs)
     #cookieJourneyTest2(logs)
+    #coloredLogPrintingTests(logs)
+    #coloredJourneyPrintingTest(logs)
     newTest(logs)
