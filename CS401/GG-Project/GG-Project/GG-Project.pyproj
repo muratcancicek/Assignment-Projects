@@ -25,6 +25,9 @@
     <Compile Include="FirstTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="LogProcesser\Actions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LogProcesser\LogAnalyzer.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,7 +37,7 @@
     <Compile Include="LogProcesser\LogAnalyzerTests.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LogProcesser\LogsReader.py">
+    <Compile Include="LogProcesser\LogReader.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LogProcesser\scalaToPython\__init__.py">

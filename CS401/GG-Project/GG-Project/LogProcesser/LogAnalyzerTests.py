@@ -115,7 +115,13 @@ def coloredJourneyPrintingTest(logs = None): # Running successfully
     sampleJourney = getJourneyFromCookie(cookie, logs)
     printJourney(sampleJourney)
 
-def newTest0(logs = None): # Under development 
+def journeyByKeywordTest(logs = None): # Running successfully
+    logs = getLogs(logs) 
+    keyword = 'lg g4'
+    journey = getJourneyByKeyword(logs, keyword)
+    printJourney(journey)
+
+def newTest(logs = None): # Under development 
     logs = getLogs(logs) 
     modules = getModuleMap(logs)   
     keyword = 'lg g4'
@@ -135,12 +141,12 @@ def newTest0(logs = None): # Under development
     colorMap = {'time': blue, '_c': darkCyan, 'id': red}
     for log in modules['item']:
         for search in sampleJourney:
-            if hasSearchThisItem(search, log):
+            if hasSearchThisProduct(search, log):
                 printLog(log) 
     for log in modules['cart'] + modules['payment']:
         loved = False
         for search in sampleJourney:
-            if hasSearchThisItem(search, log):
+            if hasSearchThisProduct(search, log):
                 printLog(search)
                 loved = True
         if loved:
@@ -150,18 +156,4 @@ def newTest0(logs = None): # Under development
     #        print log['_c']
     #    else:
     #        print 'no cookie'
-    printJourney(sampleJourney)
-
-def newTest(logs = None): # Under development 
-    modules = getModuleMap(logs)   
-    keyword = 'lg g4'
-    #for c in interestingCookies:
-    #    print c + carts
-    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
-    interestingLogs = getInterestingLogsFromKeyword(modules, keyword)
-    carts = getLogsWhereValue(241000265, 'id', modules['cart'] + modules['payment'])
-    printJourney(interestingLogs + searches)
-
-    cookie = '97bdbb65c35e56def96dbed95d4f48f2e6ee02382d943ba5c9d98b1764e5ba29'
-    sampleJourney = getLogsWhereValue(cookie, '_c', logs)
     printJourney(sampleJourney)

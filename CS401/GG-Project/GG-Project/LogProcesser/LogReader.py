@@ -2,6 +2,7 @@ import scalaToPython.python_codes.LumberjackParser as LumberjackParser
 from JsonIO import *
 from paths import * 
 import datetime
+import Actions
 
 WRITING_ALLOWED = True
 
@@ -114,11 +115,13 @@ def logToStr(log, orderedKeys = None, colorMap = {}, logColor = None):
 def printLog(log, orderedKeys = None, colorMap = {}, logColor = None):
     print logToStr(log, orderedKeys, colorMap, logColor)
 
-def printJourney(logs, orderedKeys = None, colorMap = {}):
+def printJourney(logs, printActions = True, orderedKeys = None, colorMap = {}):
     print 'Journey begins...'
     logs.sort(key = lambda log: log['timestamp'])    
-    for log in logs:
+    for i, log in enumerate(logs):
         if 'module' in log.keys():
+            if printActions:
+                    Actions.printAction(i, logs)
             if log['module'] in ['cart', 'payment']:
                 print logToStr(log, orderedKeys, colorMap, blue)
             elif log['module'] == 'item':

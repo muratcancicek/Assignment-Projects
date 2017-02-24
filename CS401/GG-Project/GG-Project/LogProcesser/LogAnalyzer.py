@@ -1,6 +1,6 @@
 from JsonIO import *
-from LogsReader import *
-import LogsReader 
+from LogReader import *
+import LogReader 
 
 TEST_LOGS_FILE = 'part-r-00000'
 TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
@@ -12,7 +12,7 @@ def setTestFile(testFile):
     testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
 
 def checkDuplication():
-    logs = LogsReader.readLogs(TEST_LOGS, duplicated = True)
+    logs = LogReader.readLogs(TEST_LOGS, duplicated = True)
     deduplicatedLogs = list(set(logs))
     logsCount = len(logs)
     deduplicatedLogsCount = len(deduplicatedLogs)
@@ -26,7 +26,7 @@ def getLogs(logs = None, fromFileName = TEST_LOGS):
         if lastReadLogs != None and fromFileName == TEST_LOGS:
             return lastReadLogs
         else:
-            logs = LogsReader.getLogs(fromFileName)
+            logs = LogReader.getLogs(fromFileName)
             logs2 = []
             for log in logs:
                 if '_bot' in log.keys() and log['_bot'] == 0:
@@ -36,7 +36,7 @@ def getLogs(logs = None, fromFileName = TEST_LOGS):
         return logs
 
 def generateParsedTestFile(fromFileName = TEST_LOGS, toFileName = joinPath(testFolder, TEST_LOGS_FILE)):
-    LogsReader.generateParsedLogs(fromFileName, toFileName)
+    LogReader.generateParsedLogs(fromFileName, toFileName)
 
 def infoExists(fileName):
     return os.path.exists(fileName + '.json')
@@ -47,13 +47,13 @@ def extractLogKeys(logs = None, fromFileName = TEST_LOGS, toFileName = 'keyList'
     for log in logs:
         keys.update(log.keys())
     keys = list(keys)
-    if LogsReader.WRITING_ALLOWED:
+    if LogReader.WRITING_ALLOWED:
         writeToJson(keys, joinPath(testFolder, toFileName))
     return keys   
     
 def readLogKeys(logs = None, fileName = 'keyList'):
     fileName = joinPath(testFolder, fileName)
-    if not (infoExists(fileName) and LogsReader.WRITING_ALLOWED):
+    if not (infoExists(fileName) and LogReader.WRITING_ALLOWED):
         return extractLogKeys(logs)
     return evalJson(fileName)
 
@@ -90,7 +90,7 @@ def takeTransposesOfLogs(logs = None, fromFileName = TEST_LOGS, toFileName = 'tr
                 transposeClean[key].append(log[key])
             else:
                 transpose[key].append(None)
-    if LogsReader.WRITING_ALLOWED:
+    if LogReader.WRITING_ALLOWED:
         writeToJson(transpose, joinPath(testFolder, toFileName))
         writeToJson(transposeClean, joinPath(testFolder, toFileName + '_clean'))
     else:
@@ -99,7 +99,7 @@ def takeTransposesOfLogs(logs = None, fromFileName = TEST_LOGS, toFileName = 'tr
     
 def readTransposes(logs = None, fileName = 'transpose'):
     fileName = joinPath(testFolder, fileName)
-    if not (infoExists(fileName) and LogsReader.WRITING_ALLOWED):
+    if not (infoExists(fileName) and LogReader.WRITING_ALLOWED):
         return takeTransposesOfLogs(logs)
     return evalJson(fileName), evalJson(fileName + '_clean')
 
@@ -125,7 +125,7 @@ def extractCounts(logs = None, fromFileName = TEST_LOGS, toFileName = 'counts'):
     for key in logKeys:
         totalCounts[key] = len(cleenTranspose[key])
         valueCounts[key] = len(list(set(cleenTranspose[key])))
-    if LogsReader.WRITING_ALLOWED:
+    if LogReader.WRITING_ALLOWED:
         writeToJson(totalCounts, joinPath(testFolder, toFileName + 'OfValues'))
         writeToJson(valueCounts, joinPath(testFolder, toFileName + 'OfUniqueValues'))
     return totalCounts, valueCounts
@@ -133,7 +133,7 @@ def extractCounts(logs = None, fromFileName = TEST_LOGS, toFileName = 'counts'):
 def readCounts(logs = None, fileName = 'counts'):
     totalCountsFileName = joinPath(testFolder, fileName + 'OfValues')
     valueCountsFileName = joinPath(testFolder, fileName + 'OfUniqueValues')
-    if not (infoExists(fileName) and LogsReader.WRITING_ALLOWED):
+    if not (infoExists(fileName) and LogReader.WRITING_ALLOWED):
         return extractCounts(logs)
     return evalJson(totalCountsFileName), evalJson(valueCountsFileName)
 
@@ -143,9 +143,7 @@ def getLogsColumnAsList(key, logs = None, fromFileName = TEST_LOGS):
         return map(lambda log: log[key] if key in log.keys() else None, logs)
     else:
         return transpose[key]
-
-
-
+    
 def isMatching(valueMap, log):
     for key, value in valueMap.items():
         if not key in log.keys():
@@ -213,13 +211,21 @@ def getModuleCounts(logs = None, modules = None):
                 counts[module] = 0
     return counts
 
-def hasSearchThisItem(searchLog, itemLog):
-    if not 'ids' in searchLog.keys() or not 'id' in itemLog.keys():
+def hasSearchThisProduct(searchLog, productLog):
+    if not 'ids' in searchLog.keys() or not 'id' in productLog.keys():
         return False
     if isinstance(searchLog['ids'], str):
-        return str(itemLog['id']) == searchLog['ids']
+        return str(productLog['id']) == searchLog['ids']
     else:
-        return itemLog['id'] in searchLog['ids'] 
+        return productLog['id'] in searchLog['ids'] 
+
+def findProductIndexOnSearch(searchLog, productLog):
+    if not 'ids' in searchLog.keys() or not 'id' in productLog.keys():
+        return -1
+    if isinstance(searchLog['ids'], str):
+        return 0 if str(productLog['id']) == searchLog['ids'] else -1
+    else:
+        return searchLog['ids'].index(productLog['id'])
 
 def logsMatching(first, second, keys = None):
     if keys == None:
@@ -232,6 +238,7 @@ def logsMatching(first, second, keys = None):
                 return False
     return True
 
+focusedModules = ['newsession', 'search', 'item' 'cart', 'payment']
 def getJourneyFromCookie(cookie, logs = None): 
     logs = getLogs(logs) 
     modules = getModuleMap(logs)   
@@ -239,13 +246,12 @@ def getJourneyFromCookie(cookie, logs = None):
     cartIds = getLogsColumnAsList('id', modules['cart'])    
     commonIds = [id for id in paymentIds if id in cartIds]
     paymentIdCookies = getSnippedLogs(['id', '_c'], modules['payment'])
-    focusedModules = ['newsession', 'search', 'item' 'cart', 'payment']
     focusedLogs = getLogsWhereValue(focusedModules, 'module', logs)
     myLogs = []
     for paymentLog in paymentIdCookies:
         for log in focusedLogs:
             if log['module'] =='search': 
-                if hasSearchThisItem(log, paymentLog):
+                if hasSearchThisProduct(log, paymentLog):
                     myLogs.append(log)
             else:
                 if logsMatching(log, paymentLog, ['_c']):
@@ -254,8 +260,18 @@ def getJourneyFromCookie(cookie, logs = None):
     sampleJourney.sort(key = lambda log: log['timestamp'])
     return sampleJourney
 
+productModules = ['cart', 'payment', 'item']
 def getProductLogs(modules):
-    return  modules['cart'] + modules['payment'] + modules['item']
+    logs = []
+    for module in productModules:
+        logs.extend( modules[module])
+    return logs
+
+def isProductLog(log):
+    return 'module' in log.keys() and log['module'] in productModules
+
+def isSearchLog(log):
+    return 'module' in log.keys() and log['module'] == 'search'
 
 def getInterestingCookiesFromKeyword(modules, keyword):
     searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
@@ -272,7 +288,7 @@ def getIdsFromSearches(searches):
     ids = []
     for search in searches:
         if 'ids' in search.keys():
-            ids.extend(search['ids'])
+            ids.extend(search['ids'] if isinstance(search['ids'], list) else [search['ids']])
     return ids
 
 def getInterestingLogsFromKeyword(modules, keyword):
@@ -284,4 +300,24 @@ def getInterestingLogsFromKeyword(modules, keyword):
     for log in logs:
         if 'id' in log.keys() and log['id'] in ids:
             interestingLogs.append(log)
-    return interestingLogs
+    return interestingLogs 
+
+def findLastSearchContainsProduct(productLog, journey):
+    searches = getLogsWhereValue('search', 'module', journey)
+    searches.reverse()
+    for i, search in enumerate(searches):
+        if hasSearchThisProduct(search, productLog):
+            return i, findProductIndexOnSearch(search, productLog)
+    return -1, -1
+
+def sortedLogs(logs, key = 'timestamp'):
+    logs.sort(key = lambda log: log[key])  
+    return logs  
+
+def getJourneyByKeyword(logs, keyword):
+    if isinstance(logs, list):
+        modules = getModuleMap(logs)   
+    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
+    interestingLogs = getInterestingLogsFromKeyword(modules, keyword)
+    journey = searches + interestingLogs
+    return sortedLogs(journey)
