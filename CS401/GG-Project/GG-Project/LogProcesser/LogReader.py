@@ -115,21 +115,28 @@ def logToStr(log, orderedKeys = None, colorMap = {}, logColor = None):
 def printLog(log, orderedKeys = None, colorMap = {}, logColor = None):
     print logToStr(log, orderedKeys, colorMap, logColor)
 
-def printJourney(logs, printActions = True, orderedKeys = None, colorMap = {}):
+def printJourney(logs, printActions = True, printLogs = True, orderedKeys = None, colorMap = {}):
     print 'Journey begins...'
     logs.sort(key = lambda log: log['timestamp'])    
     for i, log in enumerate(logs):
         if 'module' in log.keys():
-            if printActions:
-                    Actions.printAction(i, logs)
+            color = None
             if log['module'] in ['cart', 'payment']:
-                print logToStr(log, orderedKeys, colorMap, blue)
+                color = blue
             elif log['module'] == 'item':
-                print logToStr(log, orderedKeys, colorMap, pink)
+                color = pink
             elif log['module'] == 'newsession':
-                print logToStr(log, orderedKeys, colorMap, green)
+                color = green
             elif not log['module'] in ['newsession', 'search', 'item' 'cart', 'payment']:
-                print logToStr(log, orderedKeys, colorMap, darkCyan)
-            else:
-                print logToStr(log, orderedKeys, colorMap)
+                color = darkCyan
+            if printActions:
+                Actions.printAction(i, logs, color, not printLogs)
+            if printLogs:
+                print logToStr(log, orderedKeys, colorMap, color)
     print 'Journey end.'
+
+def printLogs(logs, orderedKeys = None, colorMap = {}):
+    printJourney(logs, printActions = False)
+
+def printActions(logs, orderedKeys = None, colorMap = {}):
+    printJourney(logs, printLogs = False)

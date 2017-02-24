@@ -16,4 +16,5 @@ def run():
     #cookieJourneyTest2(logs)
     #coloredLogPrintingTests(logs)
     #coloredJourneyPrintingTest(logs)
+    printingActionsTest(logs)
     newTest(logs)

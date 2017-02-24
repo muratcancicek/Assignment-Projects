@@ -121,39 +121,29 @@ def journeyByKeywordTest(logs = None): # Running successfully
     journey = getJourneyByKeyword(logs, keyword)
     printJourney(journey)
 
+def printingActionsTest(logs = None): # Running successfully
+    logs = getLogs(logs) 
+    modules = getModuleMap(logs)   
+    keyword = 'Lenovo 710'
+    journey = getJourneyByKeyword(modules, keyword)
+    print 'Printing logs as journey...'
+    printLogs(journey)
+    print 'Printing actions as journey...'
+    printActions(journey)
+    print 'Printing detailed journey...'
+    printJourney(journey)
+
 def newTest(logs = None): # Under development 
     logs = getLogs(logs) 
     modules = getModuleMap(logs)   
-    keyword = 'lg g4'
-    #sampleJourney = getLogsWhereValue(2, 'pageNum', modules['search'])
-    sampleJourney = getLogsWhereValue(keyword, 'keyword', modules['search'])
-    sampleJourney.sort(key = lambda log: log['timestamp'])    
-    paymentCookies = getLogsColumnAsList('_c', modules['payment'])
-    cartCookies = getLogsColumnAsList('_c', modules['cart'])    
-    richCookies = list(set(paymentCookies+cartCookies))
-    cookies = getLogsColumnAsList('_c', sampleJourney)
-    cookies = list(set(cookies)) 
-    print cookies
-    print [c for c in richCookies if c in cookies]
-    richCookies = list(set(paymentCookies+cartCookies)) 
-    cookie = '9b3c7d6da4fbae9a258c36f8bb9bb40e8d29d963547a539ddd2e998336daf234'
-    #sampleJourney = getLogsWhereValue(cookie, '_c', modules['cart'] + modules['payment'])
-    colorMap = {'time': blue, '_c': darkCyan, 'id': red}
-    for log in modules['item']:
-        for search in sampleJourney:
-            if hasSearchThisProduct(search, log):
-                printLog(log) 
-    for log in modules['cart'] + modules['payment']:
-        loved = False
-        for search in sampleJourney:
-            if hasSearchThisProduct(search, log):
-                printLog(search)
-                loved = True
-        if loved:
-            printLog(log)
-    #for log in sampleJourney:
-    #    if '_c' in log.keys():
-    #        print log['_c']
-    #    else:
-    #        print 'no cookie'
-    printJourney(sampleJourney)
+    keywords = getLogsColumnAsList('keyword', modules['search'])
+    counts = []
+    for key in unique(keywords):
+        counts.append((key, keywords.count(key)))
+    counts.sort(key=lambda x: x[1], reverse=True)
+    #print counts[:5]
+    #keyword = counts[0][0]
+    #print keyword
+    #cookie = '9b3c7d6da4fbae9a258c36f8bb9bb40e8d29d963547a539ddd2e998336daf234'
+    #logsC = getLogsWhereValue(cookie, '_c', logs)
+    #printJourney(logsC), False

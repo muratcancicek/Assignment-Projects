@@ -6,6 +6,9 @@ TEST_LOGS_FILE = 'part-r-00000'
 TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
 testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
 
+def unique(list1):
+    return list(set(list1))
+
 def setTestFile(testFile):
     TEST_LOGS_FILE = testFile
     TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
@@ -262,10 +265,15 @@ def getJourneyFromCookie(cookie, logs = None):
 
 productModules = ['cart', 'payment', 'item']
 def getProductLogs(modules):
+    if isinstance(modules, list):
+        modules = getModuleMap(modules)   
     logs = []
     for module in productModules:
-        logs.extend( modules[module])
+        logs.extend(modules[module])
     return logs
+
+def getSearchLogs(logs):
+    return getLogsWhereValue('search', 'module', logs)
 
 def isProductLog(log):
     return 'module' in log.keys() and log['module'] in productModules
@@ -314,9 +322,9 @@ def sortedLogs(logs, key = 'timestamp'):
     logs.sort(key = lambda log: log[key])  
     return logs  
 
-def getJourneyByKeyword(logs, keyword):
-    if isinstance(logs, list):
-        modules = getModuleMap(logs)   
+def getJourneyByKeyword(modules, keyword):
+    if isinstance(modules, list):
+        modules = getModuleMap(modules)   
     searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
     interestingLogs = getInterestingLogsFromKeyword(modules, keyword)
     journey = searches + interestingLogs
