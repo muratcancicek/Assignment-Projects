@@ -3,6 +3,7 @@ from LogReader import *
 import LogReader 
 
 TEST_LOGS_FILE = 'part-r-00000'
+TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'
 TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
 testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
 
@@ -10,9 +11,13 @@ def unique(list1):
     return list(set(list1))
 
 def setTestFile(testFile):
+    global TEST_LOGS_FILE, TEST_LOGS, testFolder
     TEST_LOGS_FILE = testFile
     TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
     testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
+
+#setTestFile(TEST_LOGS_FILE_ORINAL) 
+setTestFile('part-r-00000_iphone_6') 
 
 def checkDuplication():
     logs = LogReader.readLogs(TEST_LOGS, duplicated = True)
@@ -25,6 +30,7 @@ def checkDuplication():
 
 lastReadLogs = None
 def getLogs(logs = None, fromFileName = TEST_LOGS):
+    global lastReadLogs
     if logs == None:
         if lastReadLogs != None and fromFileName == TEST_LOGS:
             return lastReadLogs

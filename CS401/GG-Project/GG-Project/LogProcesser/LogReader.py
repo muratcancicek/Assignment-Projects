@@ -3,8 +3,9 @@ from JsonIO import *
 from paths import * 
 import datetime
 import Actions
+import math
 
-WRITING_ALLOWED = True
+WRITING_ALLOWED = False
 
 def readLogs(fileName, duplicated = False):
     print fileName + ' has been read successfully.'
@@ -19,6 +20,8 @@ def convertPossibleType(value):
     try:
         value = float(value)
     except ValueError:
+        return value
+    if math.isinf(value) and value > 0:
         return value
     return value if value - int(value) > 0 else int(value)
 

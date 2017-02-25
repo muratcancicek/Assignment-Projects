@@ -141,9 +141,14 @@ def newTest(logs = None): # Under development
     for key in unique(keywords):
         counts.append((key, keywords.count(key)))
     counts.sort(key=lambda x: x[1], reverse=True)
-    #print counts[:5]
-    #keyword = counts[0][0]
-    #print keyword
-    #cookie = '9b3c7d6da4fbae9a258c36f8bb9bb40e8d29d963547a539ddd2e998336daf234'
-    #logsC = getLogsWhereValue(cookie, '_c', logs)
-    #printJourney(logsC), False
+    counts = counts[1:6]
+    print counts[:5]
+    keyword = counts[3][0]
+    for keyword,  c in counts:
+        print keyword
+        journey = getJourneyByKeyword(modules, keyword)
+        #rintLogs(journey)
+        printActions(journey)
+    #printJourney(journey)
+
+#[(None, 1619), ('erkek kol saati', 336), ('nike air max', 204), ('iphone 6', 186), ('hali', 180)]

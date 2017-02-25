@@ -114,6 +114,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\ranking\clickstream\part-r-00000_iphone_6.json" />
     <Content Include="data\ranking\clickstream\part-r-00000" />
     <Content Include="data\productToPoint\common\categoryCodeNames.json" />
     <Content Include="data\productToPoint\commonFieldStatistics\commonFieldMeanMap.bson" />
