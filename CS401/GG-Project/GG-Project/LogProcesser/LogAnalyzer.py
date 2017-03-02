@@ -1,11 +1,37 @@
 from JsonIO import *
 from LogReader import *
 import LogReader 
+import sys
 
 TEST_LOGS_FILE = 'part-r-00000'
 TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'
 TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
-testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
+testFolder = joinPath(logInfoFolder, 'part-r-00000')
+    #folder = 'D:\\OneDrive\\Projects\\Assignment-Projects\\CS401\\GG-Project\\GG-Project\\data\\ranking\\clickstream\\'
+entireDayLogsfolder = 'D:\\Slow_Storage\\Senior_Data\\session\\2016-09-27\\'
+allLogsfolder = entireDayLogsfolder
+
+class Logger(object):
+    def __init__(self, outputFileName = 'output.txt', outputFolder = testFolder):
+        self.terminal = sys.stdout
+        outputFileName = joinPath(outputFolder, outputFileName)
+        self.log = open(outputFileName, 'a') #open("logfile.log", "a")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)  
+
+    def flush(self):
+        #this flush method is needed for python 3 compatibility.
+        #this handles the flush command by doing nothing.
+        #you might want to specify some extra behavior here.
+        pass    
+
+sys.stdout = Logger()
+
+def saveOutput():
+    outputFileName = joinPath(outputFolder, outputFileName)
+    sys.stdout = open(outputFileName, 'w')
 
 def unique(list1):
     return list(set(list1))
@@ -14,10 +40,11 @@ def setTestFile(testFile):
     global TEST_LOGS_FILE, TEST_LOGS, testFolder
     TEST_LOGS_FILE = testFile
     TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
-    testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
-
-#setTestFile(TEST_LOGS_FILE_ORINAL) 
-setTestFile('part-r-00000_iphone_6') 
+    #testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
+    
+#saveOutput()
+setTestFile(TEST_LOGS_FILE_ORINAL) 
+#setTestFile('part-r-00000_iphone_6') 
 
 def checkDuplication():
     logs = LogReader.readLogs(TEST_LOGS, duplicated = True)
@@ -29,6 +56,19 @@ def checkDuplication():
     print 'Duplication occurred:', duplicated, duplicationCount, logsCount, deduplicatedLogsCount
 
 lastReadLogs = None
+def getAllLogs(logs = None, folder = entireDayLogsfolder):
+    global lastReadLogs
+    if logs == None:
+        if lastReadLogs != None and folder == entireDayLogsfolder:
+            return lastReadLogs
+        else:
+            logs = LogReader.readAllLogFiles(folder)
+            logs = LogReader.parseAllLogs(logs)
+            return logs 
+    else:
+        return logs
+    return logs
+
 def getLogs(logs = None, fromFileName = TEST_LOGS):
     global lastReadLogs
     if logs == None:
@@ -324,14 +364,30 @@ def findLastSearchContainsProduct(productLog, journey):
             return i, findProductIndexOnSearch(search, productLog)
     return -1, -1
 
-def sortedLogs(logs, key = 'timestamp'):
-    logs.sort(key = lambda log: log[key])  
-    return logs  
-
 def getJourneyByKeyword(modules, keyword):
+    if isinstance(keyword, str): 
+        keyword = [keyword] 
     if isinstance(modules, list):
         modules = getModuleMap(modules)   
     searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
     interestingLogs = getInterestingLogsFromKeyword(modules, keyword)
     journey = searches + interestingLogs
     return sortedLogs(journey)
+
+def cookieChanged(previousLog, currentLog):
+    if previousLog == None or \
+        ('_c' in previousLog.keys() and not '_c' in currentLog.keys()) or \
+        (not '_c' in previousLog.keys() and '_c' in currentLog.keys()) or \
+        (not '_c' in previousLog.keys() and not '_c' in currentLog.keys()):
+        return False
+    else:
+        return previousLog['_c'] != currentLog['_c']
+
+def groupLogsByCookie(logs):
+    logs = sortedLogs(logs)    
+    groupedLogs = []
+    for i, log in enumerate(logs):
+        if i == 0 or cookieChanged(logs[i-1], log):
+            groupedLogs.append([])
+        groupedLogs[-1].append(log) 
+    return groupedLogs

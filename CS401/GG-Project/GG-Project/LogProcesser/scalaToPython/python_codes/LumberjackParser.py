@@ -12,6 +12,8 @@ def parse(input):
     str = input[:-1].split('\t')
     map = {}
     # time?
+    if len(str) < 2:
+        return {}
     pairList = str[1].split('&')
     for p in pairList:
         pair = p.split('=')

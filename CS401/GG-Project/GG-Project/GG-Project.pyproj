@@ -177,13 +177,17 @@
     <Content Include="data\productToPoint\specs\SpecsValueMap.bson" />
     <Content Include="data\productToPoint\common\standardizedProducts.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\journeys.txt" />
+    <Content Include="data\ranking\logInfo\part-r-00000\Part0_Journey.txt" />
+    <Content Include="data\ranking\logInfo\part-r-00000\output.txt" />
     <Content Include="data\ranking\logInfo\part-r-00000\part-r-00000.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfUniqueValues.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfValues.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\keyList.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\notes.txt" />
+    <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.csv" />
     <Content Include="data\ranking\logInfo\part-r-00000\transpose.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\transpose_clean.json" />
+    <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.xlsx" />
     <Content Include="scalaToPython\scala_codes\BotUtil.scala" />
     <Content Include="scalaToPython\scala_codes\DataFrameApp.scala" />
     <Content Include="scalaToPython\scala_codes\LumberjackConstants.scala" />

@@ -1,0 +1,59 @@
+########################################################################################
+########################################################################################
+########################################################################################
+Running...
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00000 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00001 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00002 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00003 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00004 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00005 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00006 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00007 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00008 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00009 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00010 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00011 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00012 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00013 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00014 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00015 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00016 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00017 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00018 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00019 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00020 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00021 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00022 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00023 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\_SUCCESS has been read successfully.
+All logs have been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+Running...
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00000 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00001 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00002 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00003 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00004 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00005 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00006 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00007 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00008 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00009 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00010 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00011 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00012 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00013 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00014 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00015 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00016 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00017 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00018 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00019 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00020 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00021 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00022 has been read successfully.
+D:\Slow_Storage\Senior_Data\session\2016-09-27\part-r-00023 has been read successfully.
+All logs have been read successfully.

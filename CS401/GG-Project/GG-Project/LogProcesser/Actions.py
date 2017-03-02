@@ -22,6 +22,7 @@ class Action:
     SEARCH_EXTENDED = 14
     SEARCH_NARROWED = 15
 
+
 def isProductClickedAfterSearch(previousLog, currentLog):
     return LA.isProductLog(currentLog) and LA.isSearchLog(previousLog)
 
@@ -48,20 +49,21 @@ def getActionForProductLog(log, productIndex, lastSearchIndexWithId):
     return action
 
 def getActionStringForProductLog(log, productIndex, lastSearchIndexWithId):
+    title = (' (%s)' % (log['title'])) if 'title' in log.keys() else ''
     action = 'clicked%s.'
     if log['module'] == 'payment':
         action = 'paid%s.'
     elif log['module'] == 'cart':
         action = 'added to the cart%s.'
-    sentence = 'Product with id %i %s'
+    sentence = 'Product with id %i %s%s'
     if lastSearchIndexWithId == -1 or productIndex == -1:
-        return sentence % (log['id'], action % (' not from the searches so far'))
+        return sentence % (log['id'], action % (' not from the searches so far'), title)
     sentence = '%i. ' + sentence
     if lastSearchIndexWithId == 0:
         action = action % ('')
     else:
         action = action % (' from the recent %i. search' % (lastSearchIndexWithId + 1))
-    return sentence % (productIndex, log['id'], action)
+    return sentence % (productIndex + 1, log['id'], action, title)
 
 def getActionForSearch(search, previousLog):
     action = Action.SEARCH_NEW
@@ -89,39 +91,58 @@ def getActionStringForSearch(search, previousLog):
     action = 'Showing %i products with order %s on page %i for %s.'
     if previousLog == None or not LA.isSearchLog(previousLog):
         action = 'Searching, ' + action
-    elif search['orderBy'] != previousLog['orderBy']:
+    elif 'orderBy' in search.keys() and 'orderBy' in previousLog.keys() \
+        and search['orderBy'] != previousLog['orderBy']:
         action = 'Order changed, ' + action
-    elif search['pageNum'] > previousLog['pageNum']:
+    elif 'pageNum' in search.keys() and 'pageNum' in previousLog.keys() \
+        and search['pageNum'] > previousLog['pageNum']:
         action = 'Next Page, ' + action
-    elif search['pageNum'] < previousLog['pageNum']:
+    elif 'pageNum' in search.keys() and 'pageNum' in previousLog.keys() \
+        and search['pageNum'] < previousLog['pageNum']:
         action = 'Previous Page, ' + action
     elif 'catCode' in search.keys() and not 'catCode' in previousLog.keys():
         action = ('Category set as %s, ' % search['catCode']) + action
-    elif not 'catCode' in search.keys() and 'catCode' in previousLog.keys():
+    elif 'catCode' in search.keys() and 'catCode' in previousLog.keys() \
+        and not 'catCode' in search.keys() and 'catCode' in previousLog.keys():
         action = 'Category unset, ' + action
-    elif search['totfound'] > previousLog['totfound']:
+    elif 'totfound' in search.keys() and 'totfound' in previousLog.keys() \
+        and search['totfound'] > previousLog['totfound']:
         action = 'Page extended, ' + action
-    elif search['totfound'] < previousLog['totfound']:
+    elif 'totfound' in search.keys() and 'totfound' in previousLog.keys() \
+        and search['totfound'] < previousLog['totfound']:
         action = 'Page narrowed, ' + action
     else:
         action = 'Refreshed, ' + action
-    return action % (len(search['ids']), search['orderBy'], search['pageNum'], search['keyword'])
+    ids = len(search['ids']) if 'ids' in search.keys() else 0
+    order = search['orderBy'] if 'orderBy' in search.keys() else 'None'
+    pageNum = search['pageNum'] if 'pageNum' in search.keys() else -1
+    keyword = search['keyword'] if 'keyword' in search.keys() else 'None'
+    return action % (ids, order, pageNum, keyword)
 
 def getActionString(i, logs, showDetails = False):
-    searchIds = LA.getIdsFromSearches(logs[:i])
+    #searchIds = LA.getIdsFromSearches(logs[:i])
     previousLog = logs[i-1] if i > 0 else None   
     currentLog = logs[i]
-    sentence = ''
+    previousJourney = logs[:i]
+    sentence = '' 
+    if LA.cookieChanged(previousLog, currentLog):
+        previousLog = None
+        previousJourney = []
+        print LA.green('COOKIE CHANGED.')
     if LA.isProductLog(currentLog): 
-        if currentLog['id'] in searchIds:
-            lastSearchIndexWithId, productIndex = LA.findLastSearchContainsProduct(currentLog, logs[:i])
+        #if currentLog['id'] in searchIds:
+            lastSearchIndexWithId, productIndex = LA.findLastSearchContainsProduct(currentLog, previousJourney)
             sentence = getActionStringForProductLog(currentLog, productIndex, lastSearchIndexWithId)
+
     elif LA.isSearchLog(currentLog):
              sentence = getActionStringForSearch(currentLog, previousLog)
+    else:
+        sentence = currentLog['module']
     if showDetails:
         sentence = currentLog['time'] + ': ' + sentence
         if '_c' in currentLog.keys():
             sentence = sentence[:-1] + ' for cookie ' + currentLog['_c'] + '.'
+        
     return sentence  
 
 def printAction(i, logs, color, showDetails = False):

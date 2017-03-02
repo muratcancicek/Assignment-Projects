@@ -9,8 +9,9 @@ from Printing import *
 def run(): 
     #generateParsedTestFile()
     #logs = readParseLogs(joinPath(clickstreamFolder, TEST_LOGS_FILE))
-    #ogs = getLogs()
-    logs = evalJson(joinPath(clickstreamFolder, TEST_LOGS_FILE))
+    #logs = getLogs()
+    logs = getAllLogs()
+    #logs = evalJson(joinPath(clickstreamFolder, TEST_LOGS_FILE))
     #basicTests()
     #countTestsForTransposes(logs)
     #mapReduceTests(logs)
