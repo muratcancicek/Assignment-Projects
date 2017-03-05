@@ -1,4 +1,5 @@
 import os
+import sys
 
 def joinPath(prePath, path):
     return os.path.join(prePath, path)
@@ -19,16 +20,9 @@ valuesFolder = joinPath(commonFieldFolder, 'values') + os.path.sep
 commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
-   
-#dataFolder = getAbsolutePath('data/')
+# ON MSI 
+entireDayRawLogsfolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Raw\\2016-09-27\\'
+allRawLogsfolder = entireDayRawLogsfolder
 
-#rankingFolder = dataFolder + 'ranking/'
-#clickstreamFolder = rankingFolder + 'clickstream/'
-#logInfoFolder = rankingFolder + 'logInfo/'
-
-#productToPointFolder = dataFolder + 'productToPoint/'
-#commonFieldFolder = productToPointFolder + 'commonFieldStatistics/'
-#valuesFolder = commonFieldFolder + 'values/'
-#commonFolder = productToPointFolder + 'common/'
-#specsFolder = productToPointFolder + 'specs/'
-
+entireDayParsedLogsFolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Parsed\\2016-09-27\\'
+allParsedLogsFolder = entireDayParsedLogsFolder

@@ -1,12 +1,8 @@
-from LogProcesser.LogAnalyzer import *
+from LogProcesser.LogOperatorTests import *
 from LogProcesser.LogAnalyzerTests import *
 from Printing import *
 
-#ALOT = 1e6
-#vals = [max(min(x, ALOT), -ALOT) for x in (valueWI, valueHI, valueWF, valueHF)]
-#dc.DrawLine(*vals)
-
-def run(): 
+def runLogAnalyzerTests():
     #generateParsedTestFile()
     #logs = readParseLogs(joinPath(clickstreamFolder, TEST_LOGS_FILE))
     #logs = getLogs()
@@ -23,4 +19,6 @@ def run():
     #coloredLogPrintingTests(logs)
     #coloredJourneyPrintingTest(logs)
     #printingActionsTest(logs)
-    newTest(logs)
+
+def run(): 
+    newTest()

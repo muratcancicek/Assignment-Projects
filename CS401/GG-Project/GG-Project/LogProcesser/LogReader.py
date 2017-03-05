@@ -5,6 +5,7 @@ from paths import *
 import datetime
 import Actions
 import math
+import time
 
 WRITING_ALLOWED = False
 
@@ -36,6 +37,7 @@ def convertPossibleType(value):
         return value
     return value if value - int(value) > 0 else int(value)
 
+parseCounter = 0
 def parseLog(log):
     log = LumberjackParser.parse(log)
     if 'ids' in log.keys():
@@ -47,6 +49,10 @@ def parseLog(log):
        log[key] = convertPossibleType(value)
     if 'timestamp' in log.keys():
         log["time"] = str(datetime.datetime.fromtimestamp(int(log["timestamp"])/ 1e3))
+    global parseCounter
+    parseCounter += 1
+    if parseCounter % 100000 == 0: 
+        print '%i logs have been parsed by %s' % (parseCounter, str(datetime.datetime.now()))
     return log
 
 def parseAllLogs(logs):

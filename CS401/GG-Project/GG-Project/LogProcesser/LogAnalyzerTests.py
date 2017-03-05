@@ -1,5 +1,4 @@
 from LogProcesser.LogAnalyzer import *
-import pandas as pd 
 
 def basicTests(): # Running successfully
     logs = readLogs(TEST_LOGS)
@@ -133,48 +132,3 @@ def printingActionsTest(logs = None): # Running successfully
     printActions(journey)
     print 'Printing detailed journey...'
     printJourney(journey)
-
-def newTest0(logs = None): # Under development 
-    logs = getLogs(logs) 
-    modules = getModuleMap(logs)   
-    keywords = getLogsColumnAsList('keyword', modules['search'])
-    counts = []
-    for key in unique(keywords):
-        counts.append((key, keywords.count(key)))
-    counts.sort(key=lambda x: x[1], reverse=True)
-    counts = counts[1:6]
-    print counts[:5]
-    keyword = counts[3][0]
-    #for keyword,  c in counts:
-    #    print keyword
-    #    journey = getJourneyByKeyword(modules, keyword)
-    #    #rintLogs(journey)
-    #    printActions(journey)
-    #printJourney(journey)
-    #printActions(logs)
-    printJourney(logs)
-
-#[(None, 1619), ('erkek kol saati', 336), ('nike air max', 204), ('iphone 6', 186), ('hali', 180)]
-def getKeywords():
-    keywords = []
-    fileName = joinPath(testFolder, 'TcDominantKwyowrds.csv')
-    f = open(fileName, 'rb')
-    logs = f.readlines()
-    # get number of columns
-    for line in logs:
-        array = line.split(',')
-        keywords.append(array[0])
-    return keywords 
-
-def newTest(logs = None): # Under development 
-    logs = getAllLogs(logs) 
-    modules = getModuleMap(logs)  
-    keywords = getKeywords()
-    #print keywords
-    print 'Keywords read'
-    journey = getJourneyByKeyword(modules, keywords)
-    #printJourney(journey)
-    print journey
-
-def newTest1(logs = None): # Under development 
-    readAllLogFiles()

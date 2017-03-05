@@ -137,7 +137,7 @@ def getActionString(i, logs, showDetails = False):
     elif LA.isSearchLog(currentLog):
              sentence = getActionStringForSearch(currentLog, previousLog)
     else:
-        sentence = currentLog['module']
+        sentence = currentLog['module'] + '.'
     if showDetails:
         sentence = currentLog['time'] + ': ' + sentence
         if '_c' in currentLog.keys():

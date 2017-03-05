@@ -1,88 +1,19 @@
-from JsonIO import *
 from LogReader import *
-import LogReader 
-import sys
-
-TEST_LOGS_FILE = 'part-r-00000'
-TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'
-TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
-testFolder = joinPath(logInfoFolder, 'part-r-00000')
-    #folder = 'D:\\OneDrive\\Projects\\Assignment-Projects\\CS401\\GG-Project\\GG-Project\\data\\ranking\\clickstream\\'
-entireDayLogsfolder = 'D:\\Slow_Storage\\Senior_Data\\session\\2016-09-27\\'
-allLogsfolder = entireDayLogsfolder
-
-class Logger(object):
-    def __init__(self, outputFileName = 'output.txt', outputFolder = testFolder):
-        self.terminal = sys.stdout
-        outputFileName = joinPath(outputFolder, outputFileName)
-        self.log = open(outputFileName, 'a') #open("logfile.log", "a")
-
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)  
-
-    def flush(self):
-        #this flush method is needed for python 3 compatibility.
-        #this handles the flush command by doing nothing.
-        #you might want to specify some extra behavior here.
-        pass    
-
-sys.stdout = Logger()
-
-def saveOutput():
-    outputFileName = joinPath(outputFolder, outputFileName)
-    sys.stdout = open(outputFileName, 'w')
+from JsonIO import *
+from paths import *
+from LogFileHandler import *
 
 def unique(list1):
     return list(set(list1))
 
-def setTestFile(testFile):
-    global TEST_LOGS_FILE, TEST_LOGS, testFolder
-    TEST_LOGS_FILE = testFile
-    TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
-    #testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
-    
-#saveOutput()
-setTestFile(TEST_LOGS_FILE_ORINAL) 
-#setTestFile('part-r-00000_iphone_6') 
-
 def checkDuplication():
     logs = LogReader.readLogs(TEST_LOGS, duplicated = True)
-    deduplicatedLogs = list(set(logs))
+    deduplicatedLogs = unique(logs)
     logsCount = len(logs)
     deduplicatedLogsCount = len(deduplicatedLogs)
     duplicationCount = logsCount - deduplicatedLogsCount
     duplicated = logsCount != deduplicatedLogsCount
     print 'Duplication occurred:', duplicated, duplicationCount, logsCount, deduplicatedLogsCount
-
-lastReadLogs = None
-def getAllLogs(logs = None, folder = entireDayLogsfolder):
-    global lastReadLogs
-    if logs == None:
-        if lastReadLogs != None and folder == entireDayLogsfolder:
-            return lastReadLogs
-        else:
-            logs = LogReader.readAllLogFiles(folder)
-            logs = LogReader.parseAllLogs(logs)
-            return logs 
-    else:
-        return logs
-    return logs
-
-def getLogs(logs = None, fromFileName = TEST_LOGS):
-    global lastReadLogs
-    if logs == None:
-        if lastReadLogs != None and fromFileName == TEST_LOGS:
-            return lastReadLogs
-        else:
-            logs = LogReader.getLogs(fromFileName)
-            logs2 = []
-            for log in logs:
-                if '_bot' in log.keys() and log['_bot'] == 0:
-                    logs2.append(log)
-            return logs2 
-    else:
-        return logs
 
 def generateParsedTestFile(fromFileName = TEST_LOGS, toFileName = joinPath(testFolder, TEST_LOGS_FILE)):
     LogReader.generateParsedLogs(fromFileName, toFileName)
@@ -205,7 +136,7 @@ def isMatching(valueMap, log):
             return True
 
 def getLogsWhere(valueMap, logs = None, fromFileName = TEST_LOGS): 
-    logs = getLogs(logs, fromFileName) 
+    #logs = getLogs(logs, fromFileName) 
     selectedLogs = []
     indices = []
     for i in range(len(logs)):
@@ -230,7 +161,7 @@ def getLogsWhereValue(value, key = None, logs = None, fromFileName = TEST_LOGS):
         return getLogsWhere({key: value}, logs, fromFileName)
     
 def getModuleMap(logs = None, modules = None): 
-    logs = getLogs(logs)
+    #logs = getLogs(logs)
     moduleMap = {}
     if modules == None:
         for log in logs:

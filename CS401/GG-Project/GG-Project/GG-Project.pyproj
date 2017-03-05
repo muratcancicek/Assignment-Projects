@@ -37,7 +37,19 @@
     <Compile Include="LogProcesser\LogAnalyzerTests.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="LogProcesser\LogFileHandler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogProcesser\LogOperator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogProcesser\LogOperatorTests.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LogProcesser\LogReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogProcesser\OutputLogger.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LogProcesser\scalaToPython\__init__.py">
