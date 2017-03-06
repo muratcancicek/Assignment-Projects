@@ -31,18 +31,25 @@ def parseSingleLogFile(rawFileName, parsedFileName):
     parsedFileName = joinPath(allParsedLogsFolder, parsedFileName)
     generateParsedTestFile(rawFileName, parsedFileName)
 
-def extractAllTCJourneysSeparately(rawFileName, inputFolder, outputFolder, printAllSteps = False):
+def getPartsFolder(inputFolder): # Running, do not modify! 
+    parsedFileFolder = inputFolder
+    for folder in ['TC_Journeys', 'parts']:
+        parsedFileFolder = joinPath(parsedFileFolder, folder)
+        if not os.path.exists(parsedFileFolder):
+            os.mkdir(parsedFileFolder)
+    return parsedFileFolder
+
+def extractAllTCJourneysSeparately(rawFileName, inputFolder, outputFolder, printAllSteps = False): # Running, do not modify! 
     rawFile = joinPath(inputFolder, rawFileName)
     logs = LogFileHandler.getLogs(None, rawFile)
     toc = time.time()
     print 'Reading and parsing', rawFileName, 'are done by', nowStr()
     modules = getModuleMap(logs)  
     keywords = getKeywords()
-    parsedFileFolder = outputFolder
-    for folder in ['TC_Journeys', 'parts']:
-        parsedFileFolder = joinPath(parsedFileFolder, folder)
-        if not os.path.exists(parsedFileFolder):
-            os.mkdir(parsedFileFolder)
+    parsedFileFolder = getPartsFolder(outputFolder)
+    parsedFileFolder = joinPath(parsedFileFolder, rawFileName)
+    if not os.path.exists(parsedFileFolder):
+        os.mkdir(parsedFileFolder)
     for i, keyword in enumerate(keywords):
         tic = time.time()
         parsedFileName = joinPath(parsedFileFolder, rawFileName + ('_keyword%05d' % (i)))
@@ -53,7 +60,7 @@ def extractAllTCJourneysSeparately(rawFileName, inputFolder, outputFolder, print
         if printAllSteps:
             print 'Writing the journey', keyword, 'took', toc - tic
 
-def mergeAllTCJourneys(fileName, inputFolder, outputFolder): 
+def mergeAllTCJourneys(fileName, inputFolder, outputFolder):  # Running, do not modify! 
     outputFile = joinPath(joinPath(outputFolder, 'TC_Journeys'), fileName + '_TC_Journeys')
     inputFolder = joinPath(inputFolder, fileName)
     mergeAllParsedLogFiles(inputFolder, outputFile, False)
@@ -67,12 +74,13 @@ def readAllTCJourneysFromPart(inputFolder, fileName):
     logs = evalJson(fileName)
     printActions(logs)
 
-def extractAllTCJourneysStepByStep(folder): 
+def extractAllTCJourneysStepByStep(folder, outputFolder): # Running, do not modify! 
     for rawFileName in os.listdir(folder):
-        if rawFileName in ['_SUCCESS']:
+        if rawFileName in ['_SUCCESS', 'part-r-00000', 'part-r-00001']:
             continue        
-        extractAllTCJourneysSeparately(rawFileName)
-        mergeAllTCJourneys(rawFileName)
+        extractAllTCJourneysSeparately(rawFileName, folder, outputFolder)
+        partsFolder = getPartsFolder(outputFolder)
+        mergeAllTCJourneys(rawFileName, partsFolder, outputFolder)
         print rawFileName, 'has been processed by %s.' % nowStr()
 
 def mergeAllTCJourneysFromPart(inputFolder, fileName): 

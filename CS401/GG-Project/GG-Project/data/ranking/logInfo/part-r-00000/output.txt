@@ -35,3 +35,938 @@ D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00020_T
 D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00021_TC_Journeys.json has been read successfully.
 D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00022_TC_Journeys.json has been read successfully.
 D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00023_TC_Journeys.json has been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 14:40:39.449000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 14:40:57.698000
+200000 logs have been parsed by 2017-03-06 14:41:10.408000
+300000 logs have been parsed by 2017-03-06 14:41:23.430000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 14:55:32.716000: Running...
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00000.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00001.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00002.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00003.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00004.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00005.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00006.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00007.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00008.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00009.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00010.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00011.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00012.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00013.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00014.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00015.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00016.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00017.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000_keyword00018.json has been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 14:57:10.320000: Running...
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00000_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00001_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00002_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00003_TC_Journeys.json has been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 14:42:29.356000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 14:42:43.643000
+200000 logs have been parsed by 2017-03-06 14:42:56.344000
+300000 logs have been parsed by 2017-03-06 14:43:09.652000
+400000 logs have been parsed by 2017-03-06 14:43:22.742000
+500000 logs have been parsed by 2017-03-06 14:43:35.935000
+600000 logs have been parsed by 2017-03-06 14:43:48.473000
+Reading and parsing part-r-00000 are done by 2017-03-06 14:44:01.233000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00800.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01600.json has been written successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 15:16:06.518000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 15:16:21.094000
+200000 logs have been parsed by 2017-03-06 15:16:34.160000
+300000 logs have been parsed by 2017-03-06 15:16:47.290000
+400000 logs have been parsed by 2017-03-06 15:16:59.965000
+500000 logs have been parsed by 2017-03-06 15:17:13.324000
+600000 logs have been parsed by 2017-03-06 15:17:25.571000
+Reading and parsing part-r-00000 are done by 2017-03-06 15:17:37.937000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00800.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01600.json has been written successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 16:24:11.532000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 16:25:17.372000: Running...
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00000_TC_Journeys.json has been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 16:26:02.570000: Running...
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00000_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00001_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00002_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00003_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00004_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00005_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00006_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00007_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00008_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00009_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00010_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00011_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00012_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00013_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00014_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00015_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00016_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00017_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00018_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00019_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00020_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00021_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00022_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00023_TC_Journeys.json has been read successfully.
+All_TC_Journey.json has been written successfully.
+2017-03-06 16:26:38.073000: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 16:34:06.624000: Running...
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00000_TC_Journeys.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00001_TC_Journeys.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\All_TC_Journey.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\part-r-00002_TC_Journeys.json has been read successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 15:54:32.711000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 15:54:48.658000
+200000 logs have been parsed by 2017-03-06 15:55:01.933000
+300000 logs have been parsed by 2017-03-06 15:55:15.835000
+400000 logs have been parsed by 2017-03-06 15:55:29.550000
+500000 logs have been parsed by 2017-03-06 16:38:36.419000
+600000 logs have been parsed by 2017-03-06 16:38:49.018000
+Reading and parsing part-r-00000 are done by 2017-03-06 16:39:01.979000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00800.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword01600.json has been written successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 17:44:26.688000: Running...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 17:45:12.623000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 17:45:27.253000
+200000 logs have been parsed by 2017-03-06 17:45:40.009000
+300000 logs have been parsed by 2017-03-06 17:45:53.207000
+400000 logs have been parsed by 2017-03-06 17:46:06.235000
+500000 logs have been parsed by 2017-03-06 17:46:19.491000
+600000 logs have been parsed by 2017-03-06 17:46:39.016000
+Reading and parsing part-r-00000 are done by 2017-03-06 17:46:59.260000
+Keywords read
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 17:56:09.710000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 17:56:24.742000
+200000 logs have been parsed by 2017-03-06 17:56:37.602000
+300000 logs have been parsed by 2017-03-06 17:56:50.809000
+400000 logs have been parsed by 2017-03-06 17:57:03.970000
+500000 logs have been parsed by 2017-03-06 17:57:17.214000
+600000 logs have been parsed by 2017-03-06 17:57:30.027000
+Reading and parsing part-r-00000 are done by 2017-03-06 17:57:42.848000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000_keyword00000.json has been written successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 18:02:09.993000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 18:02:25.035000
+200000 logs have been parsed by 2017-03-06 18:02:38.332000
+300000 logs have been parsed by 2017-03-06 18:02:51.780000
+400000 logs have been parsed by 2017-03-06 18:03:04.999000
+500000 logs have been parsed by 2017-03-06 18:03:18.354000
+600000 logs have been parsed by 2017-03-06 18:03:31.091000
+Reading and parsing part-r-00000 are done by 2017-03-06 18:03:43.961000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00000.json has been written successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-06 18:05:42.644000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00000 has been read successfully.
+100000 logs have been parsed by 2017-03-06 18:05:57.420000
+200000 logs have been parsed by 2017-03-06 18:06:10.308000
+300000 logs have been parsed by 2017-03-06 18:06:23.907000
+400000 logs have been parsed by 2017-03-06 18:06:37.186000
+500000 logs have been parsed by 2017-03-06 18:06:50.520000
+600000 logs have been parsed by 2017-03-06 18:07:03.198000
+Reading and parsing part-r-00000 are done by 2017-03-06 18:07:16.069000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00800.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00000.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00200.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00400.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-07 00:26:13.790000: Running...
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00000.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00200.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00400.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00600.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00800.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01000.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01200.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01400.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00000\part-r-00000_keyword01600.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00000_TC_Journeys.json has been written successfully.
+part-r-00000 has been processed by 2017-03-07 00:26:21.167000.
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00001 has been read successfully.
+100000 logs have been parsed by 2017-03-07 00:26:38.834000
+200000 logs have been parsed by 2017-03-07 00:26:51.777000
+300000 logs have been parsed by 2017-03-07 00:27:05.007000
+400000 logs have been parsed by 2017-03-07 00:27:17.534000
+500000 logs have been parsed by 2017-03-07 00:27:30.294000
+600000 logs have been parsed by 2017-03-07 00:27:42.638000
+Reading and parsing part-r-00001 are done by 2017-03-07 00:27:50.405000
+Keywords read
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-07 00:32:08.784000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00001 has been read successfully.
+100000 logs have been parsed by 2017-03-07 00:32:22.817000
+200000 logs have been parsed by 2017-03-07 00:32:35.847000
+300000 logs have been parsed by 2017-03-07 00:32:49.057000
+400000 logs have been parsed by 2017-03-07 00:33:02.206000
+500000 logs have been parsed by 2017-03-07 00:33:15.275000
+600000 logs have been parsed by 2017-03-07 00:33:27.558000
+Reading and parsing part-r-00001 are done by 2017-03-07 00:33:35.448000
+Keywords read
+########################################################################################
+########################################################################################
+########################################################################################
+2017-03-07 00:34:52.680000: Running...
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00001 has been read successfully.
+100000 logs have been parsed by 2017-03-07 00:35:07.207000
+200000 logs have been parsed by 2017-03-07 00:35:19.775000
+300000 logs have been parsed by 2017-03-07 00:35:32.675000
+400000 logs have been parsed by 2017-03-07 00:35:45.826000
+500000 logs have been parsed by 2017-03-07 00:35:58.731000
+600000 logs have been parsed by 2017-03-07 00:36:11.200000
+Reading and parsing part-r-00001 are done by 2017-03-07 00:36:19.021000
+Keywords read
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00800.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01000.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01200.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01400.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01600.json has been written successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00000.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00200.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00400.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00600.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00800.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01000.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01200.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01400.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\parts\part-r-00001\part-r-00001_keyword01600.json has been read successfully.
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-28\TC_Journeys\part-r-00001_TC_Journeys.json has been written successfully.
+part-r-00001 has been processed by 2017-03-07 01:00:10.307000.
+D:\Slow_Storage\Senior_Data\session\Raw\2016-09-28\part-r-00002 has been read successfully.
+700000 logs have been parsed by 2017-03-07 01:00:23.353000
+800000 logs have been parsed by 2017-03-07 01:00:35.809000
+900000 logs have been parsed by 2017-03-07 01:00:48.385000
+1000000 logs have been parsed by 2017-03-07 01:01:01.046000

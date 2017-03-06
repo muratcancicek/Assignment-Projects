@@ -23,9 +23,16 @@ def extractPopularKeywordsTest(logs = None): # Under development
     printJourney(logs)
 
 def newTest(logs = None): # Under development 
-    #extractAllTCJourneysStepByStep()
-    logs = readAllLogFiles(joinPath(entireDayParsedLogsFolder1, 'TC_Journeys'))
-    print logs
+    extractAllTCJourneysStepByStep(entireDayRawLogsfolder2, entireDayParsedLogsFolder2) # Running on part 02
+    #logs = readAllLogFiles(joinPath(entireDayParsedLogsFolder1, 'TC_Journeys'))
+    #print logs
+
+    #inputFolder = joinPath(entireDayParsedLogsFolder1, 'TC_Journeys')
+    #outputFile = joinPath(entireDayParsedLogsFolder1, 'All_TC_Journey')
+    #mergeAllParsedLogFiles(inputFolder, outputFile)
+    #partsFolder = getPartsFolder(outputFolder)
+    #mergeAllTCJourneys('part-r-00000', partsFolder, outputFolder)
+
     #mergeAllTCJourneysFromPart(entireDayParsedLogsFolder1, 'All_TC_Journey')
     #readAllTCJourneysFromPart('part-r-00000')
     #readAllTCJourneysFromPart('part-r-00001')
