@@ -53,12 +53,13 @@ def getLogs(logs = None, fromFileName = TEST_LOGS):
     else:
         return logs
 
-def mergeAllParsedLogFiles(inputFolder, outputFileName):
+def mergeAllParsedLogFiles(inputFolder, outputFileName, printing = True):
     logs = [] 
-    for filename in os.listdir(inputFolder):
+    for i, filename in enumerate(os.listdir(inputFolder)):
         if filename[-5:] != '.json':
             continue
         filename = joinPath(inputFolder, filename[:-5])
-        logs.extend(evalJson(filename))
+        printing1 = printing or i % 200 == 0
+        logs.extend(evalJson(filename, printing1))
     writeToJson(logs, outputFileName)
     return logs

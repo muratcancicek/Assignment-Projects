@@ -52,7 +52,7 @@ def parseLog(log):
     global parseCounter
     parseCounter += 1
     if parseCounter % 100000 == 0: 
-        print '%i logs have been parsed by %s' % (parseCounter, str(datetime.datetime.now()))
+        print '%i logs have been parsed by %s' % (parseCounter, nowStr())
     return log
 
 def parseAllLogs(logs):

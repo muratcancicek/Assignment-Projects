@@ -79,16 +79,19 @@ def jsonToString(json, printing = True, decoding = 'unicode-escape', separator =
     if printing: print text
     return text
 
-def evalJson(fileName):
+def evalJson(fileName, printing = True):
     f = open(fileName + '.json', 'rU')
     rawLines = f.read().replace('null', 'None').replace('true', 'True').replace('false', 'False')
-    print fileName + '.json has been read successfully.'
-    return eval(rawLines)
+    data = eval(rawLines)
+    if printing:
+        print fileName + '.json has been read successfully.'
+    return data
 
-def writeToJson(json, fileName,  printing = False, printText = False, decoding = 'utf-8', sort = True): 
+def writeToJson(json, fileName,  printing = False, printText = False, decoding = 'utf-8', sort = True, printLog = True): 
     f = open(fileName + '.json', 'wb')
     jsonString = jsonToString(json, printing, decoding, u'\n', sort = sort).encode(decoding)
     f.write(jsonString) 
-    print fileName + '.json has been written successfully.'
+    if printLog:
+        print fileName + '.json has been written successfully.'
     f.close() 
 

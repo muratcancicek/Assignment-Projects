@@ -23,8 +23,12 @@ def extractPopularKeywordsTest(logs = None): # Under development
     printJourney(logs)
 
 def newTest(logs = None): # Under development 
-    readAllTCJourneysFromPart('part-r-00000')
-    readAllTCJourneysFromPart('part-r-00001')
+    #extractAllTCJourneysStepByStep()
+    logs = readAllLogFiles(joinPath(entireDayParsedLogsFolder1, 'TC_Journeys'))
+    print logs
+    #mergeAllTCJourneysFromPart(entireDayParsedLogsFolder1, 'All_TC_Journey')
+    #readAllTCJourneysFromPart('part-r-00000')
+    #readAllTCJourneysFromPart('part-r-00001')
     #extractAllTCJourneysFromPart('part-r-00001')
     #parseSingleLogFile('part-r-00000', 'part-r-00000')
     #parseSingleLogFile('part-r-00001', 'part-r-00001')

@@ -1,6 +1,5 @@
 from FirstTermMethods import *
 from SecondTermMethods import run as runSecondTermMethods
-from datetime import datetime
 
 def printSeparater():
     for n in range(3):
@@ -9,9 +8,9 @@ def main():
     runSecondTermMethods()
 
 printSeparater()
-print '%s:' % str(datetime.now()), 'Running...'
+print '%s:' % nowStr(), 'Running...'
 main()
-print '%s:' % str(datetime.now()), 'DONE'
+print '%s:' % nowStr(), 'DONE'
 printSeparater()
 
 import sys

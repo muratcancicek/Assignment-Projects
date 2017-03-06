@@ -21,8 +21,21 @@ commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
 # ON MSI 
-entireDayRawLogsfolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Raw\\2016-09-27\\'
-allRawLogsfolder = entireDayRawLogsfolder
+allRawLogsfolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Raw\\'
+entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, '2016-09-27')
+entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, '2016-09-28')
 
-entireDayParsedLogsFolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Parsed\\2016-09-27\\'
-allParsedLogsFolder = entireDayParsedLogsFolder
+allParsedLogsFolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Parsed\\'
+entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, '2016-09-27')
+entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, '2016-09-28')
+
+def setFolder2():
+    allRawLogsfolder = entireDayRawLogsfolder2
+    allParsedLogsFolder = entireDayParsedLogsFolder2
+
+setFolder2()
+
+import time
+from datetime import datetime
+def nowStr():
+    return str(datetime.now())
