@@ -64,13 +64,24 @@ def mergeAllParsedLogFiles(inputFolder, outputFileName, printing = True):  # Run
     writeToJson(logs, outputFileName)
     return logs
 
-def appendAllParsedLogsToFile(inputFolder, outputFileName, printing = True):
-    logs = [] 
-    for i, filename in enumerate(os.listdir(inputFolder)):
-        if filename[-5:] != '.json':
+def mergeAllParsedLogLines(inputFolder, outputFileName, printing = True):
+    f = open(outputFileName + '.json', 'w')
+    f.write('[\n') 
+    inputFolderList = os.listdir(inputFolder)
+    last = len(inputFolderList) - 1
+    for i, fileName in enumerate(inputFolderList):
+        if fileName[-5:] != '.json':
             continue
-        filename = joinPath(inputFolder, filename[:-5])
+        fileName = joinPath(inputFolder, fileName)        
+        part = open(fileName, 'r')
+        for line in part:
+            if not line[0] in ['[', ']']:
+                if line[-2] != ',' and i != last:
+                    line = line[:-1] + ',\n'
+                f.write(line) 
         printing1 = printing or i % 200 == 0
-        logs.extend(evalJson(filename, printing1))
-    writeToJson(logs, outputFileName)
-    return logs
+        if printing:
+            print fileName + '.json has been appended successfully.'
+    f.write(']') 
+    f.close() 
+    print outputFileName + '.json has been written successfully.'

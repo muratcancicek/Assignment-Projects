@@ -22,21 +22,16 @@ def extractPopularKeywordsTest(logs = None): # Under development
     #printActions(logs)
     printJourney(logs)
 
-def newTest(logs = None): # Under development 
-    extractAllTCJourneysStepByStep(entireDayRawLogsfolder2, entireDayParsedLogsFolder2) # Running on part 02
-    #logs = readAllLogFiles(joinPath(entireDayParsedLogsFolder1, 'TC_Journeys'))
-    #print logs
+def extractAllTCJourneysTest(logs = None): # Running on part 02
+    extractAllTCJourneysStepByStep(entireDayRawLogsfolder2, entireDayParsedLogsFolder2) 
 
-    #inputFolder = joinPath(entireDayParsedLogsFolder1, 'TC_Journeys')
-    #outputFile = joinPath(entireDayParsedLogsFolder1, 'All_TC_Journey')
-    #mergeAllParsedLogFiles(inputFolder, outputFile)
+def mergeAllTCJourneysTest(logs = None): # Running successfully
+    mergeAllTCJourneysFromPart(entireDayParsedLogsFolder1, '2016-09-27')
+
+def newTest(logs = None): # Under development 
+    inputFile = joinPath(entireDayParsedLogsFolder1, '2016-09-27_All_TC_Journeys')
+    logs = evalJson(inputFile)
+    printActions(logs)
+
     #partsFolder = getPartsFolder(outputFolder)
     #mergeAllTCJourneys('part-r-00000', partsFolder, outputFolder)
-
-    #mergeAllTCJourneysFromPart(entireDayParsedLogsFolder1, 'All_TC_Journey')
-    #readAllTCJourneysFromPart('part-r-00000')
-    #readAllTCJourneysFromPart('part-r-00001')
-    #extractAllTCJourneysFromPart('part-r-00001')
-    #parseSingleLogFile('part-r-00000', 'part-r-00000')
-    #parseSingleLogFile('part-r-00001', 'part-r-00001')
-    #parseSingleLogFile('part-r-00002', 'part-r-00002')

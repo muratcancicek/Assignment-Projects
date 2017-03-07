@@ -84,7 +84,6 @@ def extractAllTCJourneysStepByStep(folder, outputFolder): # Running, do not modi
         print rawFileName, 'has been processed by %s.' % nowStr()
 
 def mergeAllTCJourneysFromPart(inputFolder, fileName): 
-    outputFile = joinPath(inputFolder, fileName)
+    outputFile = joinPath(inputFolder, fileName + '_All_TC_Journeys')
     inputFolder = joinPath(inputFolder, 'TC_Journeys')
-    mergeAllParsedLogFiles(inputFolder, outputFile)
-    
+    mergeAllParsedLogLines(inputFolder, outputFile)
