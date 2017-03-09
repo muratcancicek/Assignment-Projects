@@ -95,8 +95,6 @@ def writeToJson(json, fileName,  printing = False, printText = False, decoding =
         print fileName + '.json has been written successfully.'
     f.close() 
 
-
-
 def appendToJson(data, fileName,  printing = False, printText = False, decoding = 'utf-8', sort = True, printLog = True): 
     f = open(fileName + '.json', 'a')
     jsonString = json.dumps(data)

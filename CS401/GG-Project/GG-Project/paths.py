@@ -20,12 +20,19 @@ valuesFolder = joinPath(commonFieldFolder, 'values') + os.path.sep
 commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
-# ON MSI 
-allRawLogsfolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Raw\\'
+# Machine based
+COMPUTERNAME = os.getenv('COMPUTERNAME') 
+allLogsPath = ''
+if COMPUTERNAME == 'MSI':
+    allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\' 
+elif COMPUTERNAME == 'L-IST-14500667':
+    allLogsPath = 'C:\\session\\'
+
+allRawLogsfolder = joinPath(allLogsPath, 'Raw')
 entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, '2016-09-27')
 entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, '2016-09-28')
 
-allParsedLogsFolder = 'D:\\Slow_Storage\\Senior_Data\\session\\Parsed\\'
+allParsedLogsFolder = joinPath(allLogsPath, 'Parsed')
 entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, '2016-09-27')
 entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, '2016-09-28')
 
