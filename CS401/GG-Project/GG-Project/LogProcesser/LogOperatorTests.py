@@ -22,16 +22,14 @@ def extractPopularKeywordsTest(logs = None): # Under development
     #printActions(logs)
     printJourney(logs)
 
-def extractAllTCJourneysTest(logs = None): # Running on part 02
+def extractAllTCJourneysTest(logs = None): # Running successfully
     extractAllTCJourneysStepByStep(entireDayRawLogsfolder2, entireDayParsedLogsFolder2) 
 
 def mergeAllTCJourneysTest(logs = None): # Running successfully
     mergeAllTCJourneysFromPart(entireDayParsedLogsFolder2, '2016-09-28')
 
 def newTest(logs = None): # Under development 
-    inputFile = joinPath(entireDayParsedLogsFolder1, '2016-09-27_All_TC_Journeys')
+    #inputFile = joinPath(entireDayParsedLogsFolder1, '2016-09-27_All_TC_Journeys') # MemoryError on Dell
+    inputFile = joinPath(joinPath(entireDayParsedLogsFolder1, 'TC_Journeys'), 'part-r-00000_TC_Journeys')
     logs = evalJson(inputFile)
     printActions(logs)
-
-    #partsFolder = getPartsFolder(outputFolder)
-    #mergeAllTCJourneys('part-r-00000', partsFolder, outputFolder)
