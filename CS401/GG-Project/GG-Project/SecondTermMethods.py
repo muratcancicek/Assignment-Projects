@@ -19,6 +19,7 @@ def runLogAnalyzerTests():
     #coloredLogPrintingTests(logs)
     #coloredJourneyPrintingTest(logs)
     #printingActionsTest(logs)
+    logs = getAllLogs()
 
 def run(): 
     newTest()

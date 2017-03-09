@@ -26,7 +26,7 @@ def extractAllTCJourneysTest(logs = None): # Running on part 02
     extractAllTCJourneysStepByStep(entireDayRawLogsfolder2, entireDayParsedLogsFolder2) 
 
 def mergeAllTCJourneysTest(logs = None): # Running successfully
-    mergeAllTCJourneysFromPart(entireDayParsedLogsFolder1, '2016-09-27')
+    mergeAllTCJourneysFromPart(entireDayParsedLogsFolder2, '2016-09-28')
 
 def newTest(logs = None): # Under development 
     inputFile = joinPath(entireDayParsedLogsFolder1, '2016-09-27_All_TC_Journeys')

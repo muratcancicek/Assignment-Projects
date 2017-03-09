@@ -49,7 +49,7 @@
     <Compile Include="LogProcesser\LogReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LogProcesser\OutputLogger.py">
+    <Compile Include="productProcessers\specsProcesser\OutputLogger.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LogProcesser\scalaToPython\__init__.py">
@@ -188,8 +188,6 @@
     <Content Include="data\productToPoint\specs\SpecsTypesCounts.bson" />
     <Content Include="data\productToPoint\specs\SpecsValueMap.bson" />
     <Content Include="data\productToPoint\common\standardizedProducts.json" />
-    <Content Include="data\ranking\logInfo\part-r-00000\journeys.txt" />
-    <Content Include="data\ranking\logInfo\part-r-00000\Part0_Journey.txt" />
     <Content Include="data\ranking\logInfo\part-r-00000\output.txt" />
     <Content Include="data\ranking\logInfo\part-r-00000\part-r-00000.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfUniqueValues.json" />
