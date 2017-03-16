@@ -14,3 +14,7 @@ sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) Projects ~/Projects
 D:/OneDrive
 cd /Projects/Assignment-Projects/Fizy_Project
 python Fizy_Project.py
+
+ssh -p 22 miek@127.0.0.1
+eBay@2017
+eBay@2016

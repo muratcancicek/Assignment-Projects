@@ -121,9 +121,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="runGG_Project.py" />
-    <Compile Include="scalaToPython\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="SecondTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
@@ -201,12 +198,6 @@
     <Content Include="data\ranking\logInfo\part-r-00000\transpose.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\transpose_clean.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.xlsx" />
-    <Content Include="scalaToPython\scala_codes\DataFrameApp.scala" />
-    <Content Include="scalaToPython\scala_codes\LumberjackConstants.scala" />
-    <Content Include="scalaToPython\scala_codes\LumberjackParser.scala" />
-    <Content Include="scalaToPython\scala_codes\SimpleApp.scala" />
-    <Content Include="scalaToPython\scala_codes\SimpleAppClickstream.scala" />
-    <Content Include="scalaToPython\scala_codes\StringUtil.scala" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -230,8 +221,6 @@
     <Folder Include="productProcessers\specsProcesser\" />
     <Folder Include="LogProcesser\scalaToPython\" />
     <Folder Include="LogProcesser\scalaToPython\python_codes\" />
-    <Folder Include="scalaToPython\" />
-    <Folder Include="scalaToPython\scala_codes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
