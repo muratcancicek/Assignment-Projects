@@ -1,4 +1,4 @@
-import LumberjackConstants
+import LogProcesser.scalaToPython.python_codes.LumberjackConstants
 
 #BOT_REGEX = "bot|index|spider|crawl|wget|slurp|mediapartners|httpclient|" + \
 #    "facebookexternalhit|nagios|pingdom|qualysguard|winhttp|twitterbot|httprequest|pinterest|appengine|internetseer"

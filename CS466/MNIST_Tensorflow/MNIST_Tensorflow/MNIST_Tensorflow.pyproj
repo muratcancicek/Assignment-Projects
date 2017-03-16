@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>58c627c3-c1e8-43a2-a581-53e35f957260</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MNIST_Tensorflow.py</StartupFile>
+    <StartupFile>runMNIST_Tensorflow.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,7 +30,7 @@
     <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MNIST_Tensorflow.py" />
+    <Compile Include="runMNIST_Tensorflow.py" />
     <Compile Include="myMnist.py">
       <SubType>Code</SubType>
     </Compile>

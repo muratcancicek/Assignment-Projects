@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>887590d4-e2e9-4a4e-b894-e24e666ac32f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GG_Project.py</StartupFile>
+    <StartupFile>PySpark.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -69,7 +69,6 @@
     <Compile Include="productProcessers\CommonFieldQuantizer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GG_Project.py" />
     <Compile Include="paths.py">
       <SubType>Code</SubType>
     </Compile>
@@ -118,6 +117,10 @@
     <Compile Include="productProcessers\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PySpark.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runGG_Project.py" />
     <Compile Include="scalaToPython\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -198,7 +201,6 @@
     <Content Include="data\ranking\logInfo\part-r-00000\transpose.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\transpose_clean.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.xlsx" />
-    <Content Include="scalaToPython\scala_codes\BotUtil.scala" />
     <Content Include="scalaToPython\scala_codes\DataFrameApp.scala" />
     <Content Include="scalaToPython\scala_codes\LumberjackConstants.scala" />
     <Content Include="scalaToPython\scala_codes\LumberjackParser.scala" />

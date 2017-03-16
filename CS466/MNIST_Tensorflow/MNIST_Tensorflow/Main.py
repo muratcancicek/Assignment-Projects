@@ -1,5 +1,5 @@
 
-from myMnist import DataSet, load_mnist
+from myMnist import load_mnist
 from SoftmaxTutorial import runSoftmax
 from CNNTutorial import runCNNTutorial
 from VersionHandler import *
@@ -19,3 +19,4 @@ def main():
     x, y_ = getXY_()
     runSoftmax(mnist, x, y_)
     runCNNTutorial(mnist, x, y_)
+

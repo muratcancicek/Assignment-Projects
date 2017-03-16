@@ -1,6 +1,7 @@
 from LogProcesser.LogOperatorTests import *
 from LogProcesser.LogAnalyzerTests import *
 from Printing import *
+from PySpark import *
 
 def runLogAnalyzerTests():
     #generateParsedTestFile()
@@ -22,4 +23,5 @@ def runLogAnalyzerTests():
     logs = getAllLogs()
 
 def run(): 
-    newTest()
+    wordCount()
+    #newTest()

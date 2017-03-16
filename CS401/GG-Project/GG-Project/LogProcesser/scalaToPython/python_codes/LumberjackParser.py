@@ -1,15 +1,18 @@
-from LumberjackConstants import * 
-import StringUtil
-import BotUtil
+from LogProcesser.scalaToPython.python_codes.LumberjackConstants import * 
+import LogProcesser.scalaToPython.python_codes.StringUtil as StringUtil
+import LogProcesser.scalaToPython.python_codes.BotUtil as BotUtil
 
 def isMobile(m):
     return KEY_TYPE in m.keys() and (m[KEY_TYPE] == KEY_TYPE_MOBILE_SITE or m[KEY_TYPE] == KEY_TYPE_MOBILE_DEVICE)
 
 def isBotAgent(m):
     return not isMobile(m) and KEY_AGENT in m and BotUtil.isBotAgent(m[KEY_AGENT])
-
+a =0
 def parse(input):
     str = input[:-1].split('\t')
+    #global a
+    #a += 1
+    #print(a)
     map = {}
     # time?
     if len(str) < 2:
@@ -27,10 +30,10 @@ def parse(input):
             map[len(map.keys())] = pair[0]
 
     memberId = '0'
-    if (map.has_key(KEY_USER_ID)):
+    if (KEY_USER_ID in map):
         memberId = map[KEY_USER_ID]
-    elif (map.has_key(KEY_USER_ID_FROM_COOKIE)):
-        if (',' in map[KEY_USER_ID_FROM_COOKIE]):
+    elif ((KEY_USER_ID_FROM_COOKIE) in map):
+        if (b',' in map[KEY_USER_ID_FROM_COOKIE]):
             values = map[KEY_USER_ID_FROM_COOKIE].split(',')
             if (len(values) == 2):
                 memberId = values[1]
