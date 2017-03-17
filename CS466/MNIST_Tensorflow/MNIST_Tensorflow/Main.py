@@ -2,7 +2,7 @@
 from myMnist import load_mnist
 from SoftmaxTutorial import runSoftmax
 from CNNTutorial import runCNNTutorial
-from VersionHandler import *
+from PythonVersionHandler import *
 import tensorflow as tf
 import numpy as np
 import struct

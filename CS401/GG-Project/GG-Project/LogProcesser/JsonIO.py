@@ -1,5 +1,6 @@
+from MainSrc.PythonVersionHandler import *
 from bson import json_util, ObjectId
-from Printing import *
+from MainSrc.Printing import *
 import json, re
 
 class JSONEncoder(json.JSONEncoder):
@@ -12,7 +13,7 @@ def printJson(json, p = True, decoding = 'unicode-escape'):
     s = JSONEncoder()
     if decoding != 'None': s = s.encode(decoding)
     #s =json.dumps(json).decode('unicode-escape')
-    if p: print s
+    if p: print_(s)
     return s 
 
 def fixQuotes(text):
@@ -76,7 +77,7 @@ def jsonToString(json, printing = True, decoding = 'unicode-escape', separator =
         text += 'true' if json else 'false'
     else:
         text += str(json)
-    if printing: print text
+    if printing: print_(text)
     return text
 
 def evalJson(fileName, printing = True):
@@ -84,7 +85,7 @@ def evalJson(fileName, printing = True):
     rawLines = f.read().replace('null', 'None').replace('true', 'True').replace('false', 'False')
     data = eval(rawLines)
     if printing:
-        print fileName + '.json has been read successfully.'
+        print_(fileName + '.json has been read successfully.')
     return data
 
 def writeToJson(json, fileName,  printing = False, printText = False, decoding = 'utf-8', sort = True, printLog = True): 
@@ -92,7 +93,7 @@ def writeToJson(json, fileName,  printing = False, printText = False, decoding =
     jsonString = jsonToString(json, printing, decoding, u'\n', sort = sort).encode(decoding)
     f.write(jsonString) 
     if printLog:
-        print fileName + '.json has been written successfully.'
+        print_(fileName + '.json has been written successfully.')
     f.close() 
 
 def appendToJson(data, fileName,  printing = False, printText = False, decoding = 'utf-8', sort = True, printLog = True): 
@@ -100,6 +101,6 @@ def appendToJson(data, fileName,  printing = False, printText = False, decoding 
     jsonString = json.dumps(data)
     f.write(jsonString) 
     if printLog:
-        print fileName + '.json has been written successfully.'
+        print_(fileName + '.json has been written successfully.')
     f.close() 
 

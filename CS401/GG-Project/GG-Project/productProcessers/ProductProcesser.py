@@ -1,5 +1,6 @@
-from ProductReader import *
-from BsonIO import *
+from MainSrc.PythonVersionHandler import *
+from .ProductReader import *
+from .BsonIO import *
 from paths import *
 
 def nullCargoInfo(product, field):
@@ -30,7 +31,7 @@ def expandCargoFees(product):
     return product 
 
 def expandProductField(product, field):
-    if product == None: print field, 'Trouble'
+    if product == None: print_(field, 'Trouble')
     if field == 'cargoInfo' and product[field] == None: 
         product.pop(field)
         return nullCargoInfo(product, field)
@@ -75,12 +76,12 @@ def generateFieldsExpandedProducts(fileName = commonFolder + 'expandedProducts.b
 def checkCommonFieldsCount(products = None):
     products = readProducts(products)
     length = len(products[0])
-    print length
+    print_(length)
     for product in products:
         if length != len(product):
             for k in product.keys():
                 if not k in products[0].keys():
-                    print k
+                    print_(k)
 
 def generateCommonFieldList(fileName = commonFieldFolder + 'commonFieldList.bson', products = None, printing = False):
     products = readExpandedProducts(products)

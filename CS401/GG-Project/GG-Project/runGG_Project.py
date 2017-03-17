@@ -1,17 +1,19 @@
-from FirstTermMethods import *
-from SecondTermMethods import run as runSecondTermMethods
+from MainSrc.SecondTermMethods import run as runSecondTermMethods
+from MainSrc.FirstTermMethods import run as runFirstTermMethods
+from MainSrc.SparkerMethods import run as runSparkerMethods
+from MainSrc.PythonVersionHandler import *
 
 def printSeparater():
     for n in range(3):
-        print '#' * 88
+        print_('#' * 88)
 
 def main(): 
-    runSecondTermMethods()
+    runSparkerMethods()
 
 printSeparater()
-print '%s:' % nowStr(), 'Running...'
+print_('%s:' % nowStr(), 'Running...')
 main()
-print '%s:' % nowStr(), 'DONE'
+print_('%s:' % nowStr(), 'DONE')
 printSeparater()
 
 import sys

@@ -23,7 +23,7 @@ def parse(input):
         if (len(pair) > 1):
             #map[pair[0]] = pair[1].decode('utf-8')
             #encoded = encoded.replace('%C3%83%C2%87'.encode('utf-8'), '%C3%87') # c
-            map[pair[0]] = StringUtil.getFixedEncodingValue(pair[1]).encode('utf-8')
+            map[pair[0]] = StringUtil.getFixedEncodingValue(pair[1])#.encode('utf-8')
             #keyword = URLDecoder.decode(StringUtil.getFixedEncodingValue(pair[1])), 'utf-8')
             #(pair(0) -> keyword)
         else:
@@ -33,7 +33,7 @@ def parse(input):
     if (KEY_USER_ID in map):
         memberId = map[KEY_USER_ID]
     elif ((KEY_USER_ID_FROM_COOKIE) in map):
-        if (b',' in map[KEY_USER_ID_FROM_COOKIE]):
+        if (',' in map[KEY_USER_ID_FROM_COOKIE]):
             values = map[KEY_USER_ID_FROM_COOKIE].split(',')
             if (len(values) == 2):
                 memberId = values[1]

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>887590d4-e2e9-4a4e-b894-e24e666ac32f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PySpark.py</StartupFile>
+    <StartupFile>runGG_Project.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FirstTermMethods.py">
+    <Compile Include="LogProcesser\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MainSrc\FirstTermMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainSrc\SparkerMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainSrc\__init__.py" />
+    <Compile Include="Sparker\LogisticRegressionFromCS434_HW2.py" />
     <Compile Include="LogProcesser\Actions.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,18 +57,15 @@
     <Compile Include="LogProcesser\LogReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="productProcessers\specsProcesser\OutputLogger.py">
+    <Compile Include="LogProcesser\OutputLogger.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LogProcesser\scalaToPython\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LogProcesser\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="machineLearning\LearningAlgorithms.py" />
-    <Compile Include="machineLearning\__init__.py" />
-    <Compile Include="Printing.py">
+    <Compile Include="productProcessers\machineLearning\LearningAlgorithms.py" />
+    <Compile Include="productProcessers\machineLearning\__init__.py" />
+    <Compile Include="MainSrc\Printing.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="productProcessers\BsonIO.py">
@@ -105,7 +110,7 @@
     <Compile Include="data\productToPoint\generated\test\tcProduct.json">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="machineLearning\UglyResulting.py">
+    <Compile Include="productProcessers\machineLearning\UglyResulting.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="productProcessers\VectorGenerator.py">
@@ -117,13 +122,21 @@
     <Compile Include="productProcessers\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PySpark.py">
+    <Compile Include="Sparker\LogisticRegressionWithSpark.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\PySparkImports.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sparker\PySparkTutorial1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainSrc\PythonVersionHandler.py" />
     <Compile Include="runGG_Project.py" />
-    <Compile Include="SecondTermMethods.py">
+    <Compile Include="MainSrc\SecondTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\ranking\clickstream\part-r-00000_iphone_6.json" />
@@ -198,6 +211,8 @@
     <Content Include="data\ranking\logInfo\part-r-00000\transpose.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\transpose_clean.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.xlsx" />
+    <Content Include="data\spark\usps-4-9-test.csv" />
+    <Content Include="data\spark\usps-4-9-train.csv" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -215,7 +230,10 @@
     <Folder Include="data\productToPoint\raw\" />
     <Folder Include="data\ranking\logInfo\" />
     <Folder Include="data\ranking\logInfo\part-r-00000\" />
-    <Folder Include="machineLearning\" />
+    <Folder Include="data\spark\" />
+    <Folder Include="MainSrc\" />
+    <Folder Include="Sparker\" />
+    <Folder Include="productProcessers\machineLearning\" />
     <Folder Include="LogProcesser\" />
     <Folder Include="productProcessers\" />
     <Folder Include="productProcessers\specsProcesser\" />

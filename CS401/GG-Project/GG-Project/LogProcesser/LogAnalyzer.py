@@ -1,7 +1,8 @@
-from LogReader import *
-from JsonIO import *
+from MainSrc.PythonVersionHandler import *
+from .LogFileHandler import *
+from .LogReader import *
+from .JsonIO import *
 from paths import *
-from LogFileHandler import *
 
 def unique(list1):
     return list(set(list1))
@@ -13,7 +14,7 @@ def checkDuplication():
     deduplicatedLogsCount = len(deduplicatedLogs)
     duplicationCount = logsCount - deduplicatedLogsCount
     duplicated = logsCount != deduplicatedLogsCount
-    print 'Duplication occurred:', duplicated, duplicationCount, logsCount, deduplicatedLogsCount
+    print_('Duplication occurred:', duplicated, duplicationCount, logsCount, deduplicatedLogsCount)
 
 def generateParsedTestFile(fromFileName = TEST_LOGS, toFileName = joinPath(testFolder, TEST_LOGS_FILE)):
     LogReader.generateParsedLogs(fromFileName, toFileName)
@@ -74,7 +75,7 @@ def takeTransposesOfLogs(logs = None, fromFileName = TEST_LOGS, toFileName = 'tr
         writeToJson(transpose, joinPath(testFolder, toFileName))
         writeToJson(transposeClean, joinPath(testFolder, toFileName + '_clean'))
     else:
-        print 'Transposes has been generated' 
+        print_('Transposes has been generated' )
     return transpose, transposeClean
     
 def readTransposes(logs = None, fileName = 'transpose'):

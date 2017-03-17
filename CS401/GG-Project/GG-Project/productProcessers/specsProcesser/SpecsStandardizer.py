@@ -1,6 +1,6 @@
 ﻿from SpecsQuantizer import *
 from SpecsReader import * 
-from BsonIO import *
+from productProcessers.BsonIO import *
 from paths import *
 import math
 

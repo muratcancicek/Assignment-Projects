@@ -20,6 +20,8 @@ valuesFolder = joinPath(commonFieldFolder, 'values') + os.path.sep
 commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
+sparkFolder = joinPath(dataFolder, 'spark') + os.path.sep
+
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
 allLogsPath = ''
@@ -41,8 +43,3 @@ def setFolder2():
     allParsedLogsFolder = entireDayParsedLogsFolder2
 
 setFolder2()
-
-import time
-from datetime import datetime
-def nowStr():
-    return str(datetime.now())

@@ -1,19 +1,19 @@
-import scalaToPython.python_codes.LumberjackParser as LumberjackParser
-import LogAnalyzer as LA
-from JsonIO import *
+import LogProcesser.scalaToPython.python_codes.LumberjackParser as LumberjackParser
+from MainSrc.PythonVersionHandler import *
+from . import LogAnalyzer as LA
 from paths import * 
+from . import Actions
+from .JsonIO import *
 import datetime
-import Actions
 import math
 import time
 
 WRITING_ALLOWED = False
-
 def readLogs(fileName, duplicated = False):
     f = open(fileName, 'r')
     logs = f.read().split('\n') if duplicated else list(set(f.read().split('\n'))) 
     f.close() 
-    print fileName + ' has been read successfully.'
+    print_(fileName + ' has been read successfully.')
     return logs
 
 def readAllLogFiles(folder):
@@ -23,7 +23,7 @@ def readAllLogFiles(folder):
             continue
         filename = joinPath(folder, filename)
         logs.extend(readLogs(filename))
-    print 'All logs have been read successfully.'
+    print_('All logs have been read successfully.')
     return logs
 
 def convertPossibleType(value):
@@ -52,7 +52,7 @@ def parseLog(log):
     global parseCounter
     parseCounter += 1
     if parseCounter % 100000 == 0: 
-        print '%i logs have been parsed by %s' % (parseCounter, nowStr())
+        print_('%i logs have been parsed by %s' % (parseCounter, nowStr()))
     return log
 
 def parseAllLogs(logs):
@@ -133,7 +133,7 @@ def logToStr(log, orderedKeys = None, colorMap = {}, logColor = None):
     return line
 
 def printLog(log, orderedKeys = None, colorMap = {}, logColor = None):
-    print logToStr(log, orderedKeys, colorMap, logColor)
+    print_(logToStr(log, orderedKeys, colorMap, logColor))
     
 def sortedLogs(logs, key = 'timestamp'):
     #logs.sort(key = lambda log: log[key])  
@@ -146,7 +146,7 @@ def printJourney(logs, printActions = True, printLogs = True, orderedKeys = None
         for journey in groupedLogs:
             printJourney(journey, printActions, printLogs, orderedKeys, colorMap, group = False)
         return
-    print green('Journey begins...')
+    print_(green('Journey begins...'))
     logs = sortedLogs(logs)    
     for i, log in enumerate(logs):
         if 'module' in log.keys():
@@ -162,9 +162,9 @@ def printJourney(logs, printActions = True, printLogs = True, orderedKeys = None
             if printActions:
                 Actions.printAction(i, logs, color, not printLogs)
             if printLogs:
-                #print logToStr(log, orderedKeys, colorMap, color)
-                print logToStr(log, orderedKeys, colorMap, color)
-    print green('Journey end.')
+                #print_(logToStr(log, orderedKeys, colorMap, color))
+                print_(logToStr(log, orderedKeys, colorMap, color))
+    print_(green('Journey end.'))
 
 def printLogs(logs, orderedKeys = None, colorMap = {}, group = True):
     printJourney(logs, printActions = False, group = group)

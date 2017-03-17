@@ -1,4 +1,4 @@
-from VersionHandler import *
+from PythonVersionHandler import *
 import tensorflow as tf
 
 def runSoftmax(mnist, x, y_):
@@ -33,7 +33,7 @@ def runSoftmax(mnist, x, y_):
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     accuracyValue = sess.run(accuracy, feed_dict={x: mnist.test.images,
                                         y_: mnist.test.labels})
-    prnt('The accuracy of sofmax on local files = ', accuracyValue)
+    print_('The accuracy of sofmax on local files = ', accuracyValue)
     print(' ')
     #a = True
     #if a:#__name__ == '__main__':

@@ -1,7 +1,8 @@
-from OutputLogger import OutputLogger
+from MainSrc.PythonVersionHandler import *
+from .OutputLogger import OutputLogger
 from paths import *
-from JsonIO import *
-import LogReader 
+from .JsonIO import *
+from . import LogReader 
 
 TEST_LOGS_FILE = 'part-r-00000'
 TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'
@@ -81,7 +82,7 @@ def mergeAllParsedLogLines(inputFolder, outputFileName, printing = True):
                 f.write(line) 
         printing1 = printing or i % 200 == 0
         if printing:
-            print fileName + '.json has been appended successfully.'
+            print_(fileName + '.json has been appended successfully.')
     f.write(']') 
     f.close() 
-    print outputFileName + '.json has been written successfully.'
+    print_(outputFileName + '.json has been written successfully.')

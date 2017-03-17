@@ -37,7 +37,7 @@
     <Compile Include="SoftmaxTutorial.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="VersionHandler.py">
+    <Compile Include="PythonVersionHandler.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

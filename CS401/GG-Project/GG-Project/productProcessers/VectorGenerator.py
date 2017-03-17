@@ -1,4 +1,5 @@
-from CommonFieldQuantizer import *
+from MainSrc.PythonVersionHandler import *
+from .CommonFieldQuantizer import *
 from paths import *
 import csv
 

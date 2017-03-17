@@ -1,5 +1,6 @@
+from MainSrc.PythonVersionHandler import *
 #from LogAnalyzer import *
-import LogAnalyzer as LA
+from . import LogAnalyzer as LA
 
 class Action:
     PRODUCT_REFRESHED = 111 
@@ -128,7 +129,7 @@ def getActionString(i, logs, showDetails = False):
     if LA.cookieChanged(previousLog, currentLog):
         previousLog = None
         previousJourney = []
-        print LA.green('COOKIE CHANGED.')
+        print_(LA.green('COOKIE CHANGED.'))
     if LA.isProductLog(currentLog): 
         #if currentLog['id'] in searchIds:
             lastSearchIndexWithId, productIndex = LA.findLastSearchContainsProduct(currentLog, previousJourney)
@@ -148,6 +149,6 @@ def getActionString(i, logs, showDetails = False):
 def printAction(i, logs, color, showDetails = False):
     actionString = getActionString(i, logs, showDetails)
     if color == None:
-        print actionString
+        print_(actionString)
     else:
-        print color(actionString)
+        print_(color(actionString))

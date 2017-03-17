@@ -25,7 +25,7 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-from VersionHandler import *
+from PythonVersionHandler import *
 
 import gzip
 
@@ -53,7 +53,7 @@ def extract_images(f):
   Raises:
     ValueError: If the bytestream does not start with 2051.
   """
-  prnt('Extracting', f.name)
+  print_('Extracting', f.name)
   #with gzip.GzipFile(fileobj=f) as bytestream:
   if True:
     bytestream = f#.read()
@@ -90,7 +90,7 @@ def extract_labels(f, one_hot=False, num_classes=10):
   Raises:
     ValueError: If the bystream doesn't start with 2049.
   """
-  prnt('Extracting', f.name)
+  print_('Extracting', f.name)
   #with gzip.GzipFile(fileobj=f) as bytestream:
   if True:
     bytestream = f#.read()

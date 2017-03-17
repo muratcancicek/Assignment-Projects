@@ -1,4 +1,4 @@
-from ProductProcesser import *
+from .ProductProcesser import *
 from paths import *
 import math
 

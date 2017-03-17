@@ -1,9 +1,10 @@
-from LogProcesser.LogAnalyzer import *
-from LogFileHandler import *
-from LogReader import *
-from JsonIO import *
-import LogFileHandler 
-import LogReader 
+from MainSrc.PythonVersionHandler import *
+from .LogFileHandler import *
+from .LogAnalyzer import *
+from .LogReader import *
+from . import LogFileHandler 
+from .JsonIO import *
+from . import LogReader 
 
 def getKeywords():
     keywords = []
@@ -14,7 +15,7 @@ def getKeywords():
     for line in logs:
         array = line.split(',')
         keywords.append(array[0])
-    print 'Keywords read'
+    print_('Keywords read')
     return keywords 
 
 def extractAllTCJourneys(logs = None): # Under development, not working 
@@ -24,7 +25,7 @@ def extractAllTCJourneys(logs = None): # Under development, not working
     #print keywords
     journey = getJourneyByKeyword(modules, keywords)
     #printJourney(journey)
-    print journey
+    print_(journey)
 
 def parseSingleLogFile(rawFileName, parsedFileName):
     rawFileName = joinPath(allRawLogsfolder, rawFileName)
@@ -43,7 +44,7 @@ def extractAllTCJourneysSeparately(rawFileName, inputFolder, outputFolder, print
     rawFile = joinPath(inputFolder, rawFileName)
     logs = LogFileHandler.getLogs(None, rawFile)
     toc = time.time()
-    print 'Reading and parsing', rawFileName, 'are done by', nowStr()
+    print_('Reading and parsing', rawFileName, 'are done by', nowStr())
     modules = getModuleMap(logs)  
     keywords = getKeywords()
     parsedFileFolder = getPartsFolder(outputFolder)
@@ -58,7 +59,7 @@ def extractAllTCJourneysSeparately(rawFileName, inputFolder, outputFolder, print
         writeToJson(journey, parsedFileName, printLog = output) 
         toc = time.time()
         if printAllSteps:
-            print 'Writing the journey', keyword, 'took', toc - tic
+            print_('Writing the journey', keyword, 'took', toc - tic)
 
 def mergeAllTCJourneys(fileName, inputFolder, outputFolder):  # Running, do not modify! 
     outputFile = joinPath(joinPath(outputFolder, 'TC_Journeys'), fileName + '_TC_Journeys')
@@ -81,7 +82,7 @@ def extractAllTCJourneysStepByStep(folder, outputFolder): # Running, do not modi
         extractAllTCJourneysSeparately(rawFileName, folder, outputFolder)
         partsFolder = getPartsFolder(outputFolder)
         mergeAllTCJourneys(rawFileName, partsFolder, outputFolder)
-        print rawFileName, 'has been processed by %s.' % nowStr()
+        print_(rawFileName, 'has been processed by %s.' % nowStr())
 
 def mergeAllTCJourneysFromPart(inputFolder, fileName): 
     outputFile = joinPath(inputFolder, fileName + '_All_TC_Journeys')

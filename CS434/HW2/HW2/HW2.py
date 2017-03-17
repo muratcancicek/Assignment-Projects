@@ -9,7 +9,8 @@ def readFile(fileName):
     file = open(fileName, 'rb') 
     xs, ys = [], []
     for rawLine in file: 
-        row = str.split(rawLine, ',') 
+        rawLine = rawLine.decode('utf-8')
+        row = rawLine.split(',') 
         x = []
         for i in range(len(row[:-1])):
             x.append(float(row[i]))
@@ -88,25 +89,34 @@ def experienceOn(x, y, experienceCount, initialIterationNumber, initialAlpha, on
             iterationNumber *= 10
             experience[1].append(iterationNumber)
         LOSS = L(x, y, w)
-        experience[2].append(LOSS)          if LOSS == 0: return experience
+        experience[2].append(LOSS)  
+        if LOSS == 0: return experience
     return experience
  
 def experience(x, y, experienceCount, initialIterationNumber, initialAlpha): 
     iterationNumber = initialIterationNumber
     mainExperience = [[], [], [], []]
     for e in range(experienceCount):
-        subExperience = experienceOn(x, y, experienceCount, iterationNumber, initialAlpha, True)        minLOSS = min(subExperience[2])        optimalAlpha = subExperience[1][subExperience[2].index(minLOSS)] 
+        subExperience = experienceOn(x, y, experienceCount, iterationNumber, initialAlpha, True)
+        minLOSS = min(subExperience[2])
+        optimalAlpha = subExperience[1][subExperience[2].index(minLOSS)] 
         w = subExperience[0][subExperience[2].index(minLOSS)]
         mainExperience[0].append(w) 
         mainExperience[1].append(iterationNumber)
         mainExperience[2].append(optimalAlpha)
         mainExperience[3].append(minLOSS) 
         plotResults(w, optimalAlpha, iterationNumber, 'exp' + str(e + 1))
-        iterationNumber *= 10        if minLOSS == 0: return mainExperience
+        iterationNumber *= 10
+        if minLOSS == 0: return mainExperience
     return mainExperience
 
 def getOptimalParameters(x, y):
-    mainExperience = experience(x, y, 5, 1, 1)     minError = min(mainExperience[3])    bestExperienceIndex = mainExperience[3].index(minError)    optimalW = mainExperience[0][bestExperienceIndex]     optimalAlpha = mainExperience[2][bestExperienceIndex]     optimalIterationNumber = mainExperience[1][bestExperienceIndex]  
+    mainExperience = experience(x, y, 5, 1, 1) 
+    minError = min(mainExperience[3])
+    bestExperienceIndex = mainExperience[3].index(minError)
+    optimalW = mainExperience[0][bestExperienceIndex] 
+    optimalAlpha = mainExperience[2][bestExperienceIndex] 
+    optimalIterationNumber = mainExperience[1][bestExperienceIndex]  
     return optimalW, optimalIterationNumber, optimalAlpha
 
 def removezeros(number):
@@ -157,7 +167,8 @@ def experienceLambdaValues(minPower, maxPower, optimalAlpha, optimalIterationNum
         experience[1].append(lmbda)
         LOSS = L(x, y, w)
         experience[2].append(LOSS)  
-        plotResults(w, optimalAlpha, optimalIterationNumber, 'expWithLambda' + str(lambdaPower-minPower+1), lmbda)        #if LOSS == 0: return experience
+        plotResults(w, optimalAlpha, optimalIterationNumber, 'expWithLambda' + str(lambdaPower-minPower+1), lmbda)
+        #if LOSS == 0: return experience
     0
 ####################      MAIN      #####################
 
@@ -169,8 +180,17 @@ optimalIterationNumber, optimalAlpha = 1000, 0.05
 #    print optimalIterationNumber, optimalAlpha
 #else: 
 optimalW = gradientDescentWithLRL2(x, y, optimalAlpha, 0.0001, optimalIterationNumber)  
-print 'OPTIMAL W:'
-print optimalW
-print 'CHANGE THE CODE FOR THE PLOTS'
+print('OPTIMAL W:')
+print(optimalW.shape)
+print('CHANGE THE CODE FOR THE PLOTS')
+
+[tx, ty] = readFile('usps-4-9-test.csv') 
+testP = test(tx, ty, optimalW)
+
+a = 1.0 
+for i in range(len(testP)):
+    if testP[i] == ty[i]: a += 1
+
+print(' accuracy', a/len(testP))
 #plotResults(optimalW)  
 #experienceLambdaValues(-5, 2, optimalAlpha, optimalIterationNumber)

@@ -1,5 +1,6 @@
+from PythonVersionHandler import *
 from SpecsReader import *
-from BsonIO import *
+from productProcessers.BsonIO import *
 from paths import *
 
 def getSpecValueCounts(specsDict, categoryCode):
@@ -56,7 +57,7 @@ def generateSpecsStatistics(countsFile = 'SpecsCounts.bson', typesFile = 'SpecsT
     generateSpecsTypesMap(specsDict, specsFolder + typesFile)
     generateSpecsTypeCountsMap(specsDict, specsFolder + typesCountsFile) 
     typeCounts = evalBson(specsFolder + typesCountsFile)
-    print typeCounts
+    print_(typeCounts)
 
 def assignQuantizedValues(specsDict, categoryCode):
     categorySpecs = specsDict[categoryCode]  

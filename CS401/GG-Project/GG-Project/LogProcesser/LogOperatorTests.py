@@ -1,5 +1,6 @@
-from LogProcesser.LogAnalyzer import *
-from LogProcesser.LogOperator import *
+from MainSrc.PythonVersionHandler import *
+from .LogAnalyzer import *
+from .LogOperator import *
 
 #[(None, 1619), ('erkek kol saati', 336), ('nike air max', 204), ('iphone 6', 186), ('hali', 180)]
 def extractPopularKeywordsTest(logs = None): # Under development 
@@ -11,7 +12,7 @@ def extractPopularKeywordsTest(logs = None): # Under development
         counts.append((key, keywords.count(key)))
     counts.sort(key=lambda x: x[1], reverse=True)
     counts = counts[1:6]
-    print counts[:5]
+    print_(counts[:5])
     keyword = counts[3][0]
     #for keyword,  c in counts:
     #    print keyword

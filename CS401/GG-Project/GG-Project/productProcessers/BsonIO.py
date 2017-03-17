@@ -1,3 +1,4 @@
+from MainSrc.PythonVersionHandler import *
 from bson import json_util, ObjectId
 import json, re
 import os
@@ -40,7 +41,7 @@ def printBson(bson, p = True, decoding = 'unicode-escape'):
     s = JSONEncoder()
     if decoding != 'None': s = s.encode(decoding)
     #s =json.dumps(bson).decode('unicode-escape')
-    if p: print s
+    if p: print_(s)
     return s 
 
 def fixQuotes(text):
@@ -104,7 +105,7 @@ def bsonToString(bson, printing = True, decoding = 'unicode-escape', separator =
         text += 'true' if bson else 'false'
     else:
         text += str(bson)
-    if printing: print text
+    if printing: print_(text)
     return text
 
 def evalBson(fileName):
