@@ -1,6 +1,7 @@
-import numpy as np
+from MainSrc.PythonVersionHandler import *
 import matplotlib.pyplot as plt 
 from paths import *
+import numpy as np
 
 np.seterr(divide='ignore', invalid='ignore', over='ignore')
 #execfile('externalSource.py')
@@ -179,20 +180,21 @@ def main():
     #runningExperiments = False # True # Takes time and return 1000, 0.05 for usps-4-9-train.csv
     #if runningExperiments: 
     #    optimalW, optimalIterationNumber, optimalAlpha = getOptimalParameters(x, y)
-    #    print optimalIterationNumber, optimalAlpha
+    #    print_(optimalIterationNumber, optimalAlpha)
     #else: 
     optimalW = gradientDescentWithLRL2(x, y, optimalAlpha, 0.0001, optimalIterationNumber)  
-    print('OPTIMAL W:')
-    print(optimalW.shape, optimalW.tolist())
-    print('CHANGE THE CODE FOR THE PLOTS')
+    print_('OPTIMAL W:')
+    print_(optimalW.shape, optimalW.tolist())
+    print_('CHANGE THE CODE FOR THE PLOTS')
 
     [tx, ty] = readFile(joinPath(sparkFolder, 'usps-4-9-test.csv'))
+    print_(len(tx), tx[0].shape)
     testP = test(tx, ty, optimalW)
 
     a = 1.0 
     for i in range(len(testP)):
         if testP[i] == ty[i]: a += 1
 
-    print(' accuracy', a/len(testP))
+    print_(' accuracy', a/len(testP))
     #plotResults(optimalW)  
     #experienceLambdaValues(-5, 2, optimalAlpha, optimalIterationNumber)

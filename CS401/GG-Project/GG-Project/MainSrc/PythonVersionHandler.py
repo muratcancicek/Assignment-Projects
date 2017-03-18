@@ -15,9 +15,9 @@ def print_(*args):
     
 def myXrange(i):
     if PYTHON_VERSION == 2:
-        return xrange(id)
+        return xrange(i)
     else:
-        range(id)
+        return range(i)
         
 def nowStr():
     return str(datetime.now())

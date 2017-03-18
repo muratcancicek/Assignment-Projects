@@ -30,8 +30,12 @@
     <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MNISTDatasetGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="myMnistHandler.py" />
     <Compile Include="runMNIST_Tensorflow.py" />
-    <Compile Include="myMnist.py">
+    <Compile Include="myOldMnistHandler.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SoftmaxTutorial.py">

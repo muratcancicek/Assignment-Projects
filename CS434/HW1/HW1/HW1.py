@@ -65,9 +65,9 @@ def spaces(n):
     return s[digits:]
 
 def printWeightListAsTable(w): 
-    print "\n{0:10}{1}{2}\n".format('Features' , spaces(-10), 'Estimated Coefficients')  
+    print("\n{0:10}{1}{2}\n".format('Features' , spaces(-10), 'Estimated Coefficients'))
     for i in range(len(w)): 
-        print "{0:10}{1}{2}".format(feature_names[i], spaces(w[i]), w[i])   
+        print("{0:10}{1}{2}".format(feature_names[i], spaces(w[i]), w[i]))
     
 #################### SSE CALCULATOR ##################### 
 def sseCalculator(x, y, w):
@@ -79,11 +79,11 @@ def sseCalculator(x, y, w):
 ################## REPORTING W & SSE ####################
 def reportW(withDummy = True, wVariant = 1, lmbda = 1):
     if wVariant != 1:
-        print '\nWeight Vector [2nd variant] with lambda =', lmbda
+        print('\nWeight Vector [2nd variant] with lambda =', lmbda)
     elif withDummy:
-        print '\nWeight Vector with dummy variable' 
+        print('\nWeight Vector with dummy variable')
     else:
-        print '\nWeight Vector WITHOUT dummy variable'  
+        print('\nWeight Vector WITHOUT dummy variable')
     w = getWeightList(withDummy, wVariant, lmbda)
     printWeightListAsTable(w)  
     return w
@@ -94,19 +94,19 @@ def reportSSE(withDummy = True, w = None, wVariant = 1, lmbda = 1):
     [x, y] = getDataAsListFrom('housing_test.txt', withDummy) 
     SSE = sseCalculator(x, y, w)
     if wVariant != 1:
-        print '\nthe SSE on housing_test:', SSE, ' with lambda =', lmbda
+        print('\nthe SSE on housing_test:', SSE, ' with lambda =', lmbda)
     else:
-        print '\nthe SSE on housing_test:', SSE
+        print('\nthe SSE on housing_test:', SSE)
     return SSE
 
 def reportWnSSE(withDummy = True, wVariant = 1, lmbda = 1):
     w = reportW(withDummy, wVariant, lmbda)
     sse = reportSSE(withDummy, w, wVariant, lmbda)
-    print '#########################################################\n'
+    print('#########################################################\n')
     return sse
 
 ####################      MAIN      ##################### 
-print '\n################# CS434 HW1 by cicekm ###################'
+print('\n################# CS434 HW1 by cicekm ###################')
 
 reportWnSSE()
 reportWnSSE(withDummy = False)
