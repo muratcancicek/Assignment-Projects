@@ -17,4 +17,3 @@ print_('%s:' % nowStr(), 'DONE')
 printSeparater()
 
 sys.exit() 
-#   C:\Fast_STORAGE\tensorflowGPU0p12\Scripts\activate tensorflowGPU0p12

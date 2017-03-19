@@ -1,9 +1,9 @@
 from PythonVersionHandler import *
 import tensorflow as tf
 
-def runSoftmax(mnist, x, y_):
+def runSoftmax(mnist, x, y_, xSize = 784, clusters = 10, iterations = 1000):
     print('\nSoftmaxTutorial running...')
-    W = tf.Variable(tf.zeros([784, 10]))
+    W = tf.Variable(tf.zeros([xSize, clusters]))
     b = tf.Variable(tf.zeros([10]))
     y = tf.matmul(x, W) + b
     # The raw formulation of cross-entropy,
@@ -22,10 +22,8 @@ def runSoftmax(mnist, x, y_):
     sess = tf.InteractiveSession()
     tf.global_variables_initializer().run()
     # Train
-    for _ in range(1000):
+    for _ in range(iterations):
         batch_xs, batch_ys = mnist.train.next_batch(100)
-        #batch_xs = np.reshape(batch_xs, (-1, 784))
-        #batch_ys = np.reshape(batch_ys, (-1, 10))
         sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
 
     # Test trained model
@@ -35,10 +33,3 @@ def runSoftmax(mnist, x, y_):
                                         y_: mnist.test.labels})
     print_('The accuracy of sofmax on local files = ', accuracyValue)
     print(' ')
-    #a = True
-    #if a:#__name__ == '__main__':
-    #    parser = argparse.ArgumentParser()
-    #    parser.add_argument('--data_dir', type=str, default='/tmp/tensorflow/mnist/input_data',
-    #                        help='Directory for storing input data')
-    #    FLAGS, unparsed = parser.parse_known_args()
-    #    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)

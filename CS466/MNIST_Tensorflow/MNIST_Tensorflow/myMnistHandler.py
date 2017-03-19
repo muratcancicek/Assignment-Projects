@@ -173,9 +173,7 @@ class DataSet(object):
 def generateDatasetsWithValidation(train_images, train_labels, test_images, test_labels, 
                                    dtype=dtypes.float32, reshape=False, validation_size=0): 
   if not 0 <= validation_size <= len(train_images):
-    raise ValueError(
-        'Validation size should be between 0 and {}. Received: {}.'
-        .format(len(train_images), validation_size))
+    raise ValueError('Validation size should be between 0 and {}. Received: {}.'.format(len(train_images), validation_size))
 
   validation_images = train_images[:validation_size]
   validation_labels = train_labels[:validation_size]
@@ -191,7 +189,7 @@ def generateDatasetsWithValidation(train_images, train_labels, test_images, test
 def fakeProcess(images):
     return images
 
-def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float32, reshape=True,
+def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float32, reshape=False,
                    validation_size=0, preprocess = fakeProcess):
 
   if fake_data:

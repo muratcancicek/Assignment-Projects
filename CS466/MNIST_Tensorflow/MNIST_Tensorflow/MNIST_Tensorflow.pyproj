@@ -27,6 +27,9 @@
     <Compile Include="CNNTutorial.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FirstCustomCNNetwork.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
