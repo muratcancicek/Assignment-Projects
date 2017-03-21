@@ -57,8 +57,6 @@ def runCNNTutorial(mnist, x, y_, xSize = 784, iterations = 1000):
 
     for i in range(iterations):
       batch = mnist.train.next_batch(50)
-      #print_(batch[0].shape)
-      #print_(batch[1].shape)
       if i%100 == 0:
         train_accuracy = accuracy.eval(feed_dict={
             x:batch[0], y_: batch[1], keep_prob: 1.0})

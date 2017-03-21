@@ -55,7 +55,7 @@ def loadOriginalMNIST():
     return load_mnist('t10k')
     
 def generateDownsampledMNIST():
-    return load_mnist('t10k', downsample)
+    return load_mnist('t10k', downsample, reshape = False)
     
 def generateAugmentedMNIST():
     return load_mnist('t10k', augment)

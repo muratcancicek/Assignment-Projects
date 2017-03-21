@@ -11,12 +11,12 @@ def getXY_(n = 784, clusters = 10):
     y_ = tf.placeholder(tf.float32, [None, clusters])
     return x, y_
 
-def learn(mnist, iterations = 1000): # LocalMnist()
+def learn(mnist, iterations = 300): # LocalMnist()
     xSize = mnist.train.images.shape[1]
     x, y_ = getXY_(xSize)
     #runSoftmax(mnist, x, y_, xSize, iterations = iterations)
-    runCNNTutorial(mnist, x, y_, xSize, iterations = iterations)
-    #runCFirstCustomCNN(mnist, x, y_, xSize, iterations = iterations)
+    #runCNNTutorial(mnist, x, y_, xSize, iterations = iterations)
+    runCFirstCustomCNN(mnist, x, y_, xSize, iterations = iterations)
 
 def main(): 
     #original_mnist, downsampled_mnist, augmented_mnist = generateThreeMNIST()
@@ -29,3 +29,5 @@ def main():
 
     #original_mnist = load_mnist('t10k')
     #downsample(original_mnist.train.images)
+
+    #cd Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow

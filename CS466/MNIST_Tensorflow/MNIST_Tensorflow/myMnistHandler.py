@@ -232,5 +232,5 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float
                                    dtype=dtype, reshape=reshape, validation_size=validation_size)
 
 
-def load_mnist(train_dir='MNIST-data', preprocess = fakeProcess):
-  return read_data_sets(train_dir, one_hot=True, preprocess = preprocess, reshape = True)
+def load_mnist(train_dir='MNIST-data', preprocess = fakeProcess, reshape = True):
+  return read_data_sets(train_dir, one_hot=True, reshape = reshape, preprocess = preprocess)
