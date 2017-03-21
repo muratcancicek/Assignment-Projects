@@ -1,5 +1,6 @@
 from myMnistHandler import generateDatasetsWithValidation, DataSet, load_mnist
 from PythonVersionHandler import *
+from Transforms import *
 import numpy as np
 
 def subMatrix(img, colBgn, colEnd, colStep, rowBgn, rowEnd, rowStep):
@@ -46,10 +47,29 @@ def downsample(images):
     images = images.reshape(images.shape[0], 784)
     return np.apply_along_axis(takeSquareMeans, 1, images) 
 
-def augment(images):
-    images = downsample(images)
+def augment(images, labels):
+    #images = downsample(images)
+    augmented = []
+    l = []
+    for i, img in enumerate(images):
+        c = 1
+        augmented.append(img)
+        ##rotated
+        #augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(1.0, 1.0),
+        #            rotation=15, shear=0., translation=(0, 0), flip_lr=False,
+        #            flip_ud=False, warp_kwargs=None)); c += 1
+        ## scaled
+        augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(.95, 1.0),
+                    rotation=.0, shear=0., translation=(0, 0), flip_lr=False,
+                    flip_ud=False, warp_kwargs=None)); c += 1
+        # rotated & scaled / hope making italic
+        augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(.9, 1.0),
+                    rotation=-15, shear=0., translation=(0, 0), flip_lr=False,
+                    flip_ud=False, warp_kwargs=None)); c += 1
+        for j in range(c):
+            l.append(labels[i])
     print_('Aaugmenting...')
-    return images
+    return np.array(augmented), np.array(l)
 
 def loadOriginalMNIST():
     return load_mnist('t10k')

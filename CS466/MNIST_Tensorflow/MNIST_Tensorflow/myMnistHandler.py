@@ -186,8 +186,8 @@ def generateDatasetsWithValidation(train_images, train_labels, test_images, test
 
   return base.Datasets(train=train, validation=validation, test=test)
 
-def fakeProcess(images):
-    return images
+def fakeProcess(images, l):
+    return images, l
 
 def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float32, reshape=False,
                    validation_size=0, preprocess = fakeProcess):
@@ -223,10 +223,8 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float
     test_labels = extract_labels(f, one_hot=one_hot)
 
   if train_dir == 't10k':
-     train_images = preprocess(test_images[:9000])
-     train_labels = test_labels[:9000]
-     test_images = preprocess(test_images[9000:])
-     test_labels = test_labels[9000:]
+     train_images, train_labels = preprocess(test_images[:9000], test_labels[:9000])
+     test_images, test_labels = preprocess(test_images[9000:], test_labels[9000:])
      validation_size = 0
   return generateDatasetsWithValidation(train_images, train_labels, test_images, test_labels, 
                                    dtype=dtype, reshape=reshape, validation_size=validation_size)

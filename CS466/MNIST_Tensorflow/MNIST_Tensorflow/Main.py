@@ -20,14 +20,15 @@ def learn(mnist, iterations = 300): # LocalMnist()
 
 def main(): 
     #original_mnist, downsampled_mnist, augmented_mnist = generateThreeMNIST()
-    original_mnist = loadOriginalMNIST()
-    learn(original_mnist)
+    #original_mnist = loadOriginalMNIST()
+    #learn(original_mnist)
     #downsampled_mnist= generateDownsampledMNIST()
     #learn(downsampled_mnist)
-    #augmented_mnist = generateAugmentedMNIST()
-    #learn(augmented_mnist)
+    augmented_mnist = generateAugmentedMNIST()
+    learn(augmented_mnist)
 
     #original_mnist = load_mnist('t10k')
+    #print_(transform_image(original_mnist.train.images[0].reshape((28, 28))).shape)
     #downsample(original_mnist.train.images)
 
     #cd Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow

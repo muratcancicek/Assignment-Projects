@@ -32,7 +32,11 @@ def buildConvReluMaxPoolLayers(input, patch, inputChannel, outputChannel, poolSi
     output = max_pool(h_conv, n = poolSize)
     print_('MaxPool Output shape:', output.shape)
     return output
-    
+     
+def dropoutLayer(x):
+    keep_prob = tf.placeholder(tf.float32)
+    return tf.nn.dropout(x, keep_prob)
+
 def buildFullyConnectedLayers(input, inputChannel, outputChannel):
     shape = [inputChannel, outputChannel]
     flat_input = tf.reshape(input, [-1, shape[0]])
@@ -43,7 +47,7 @@ def buildFullyConnectedLayers(input, inputChannel, outputChannel):
 def inputLayer(x, xSize, downsampling = False):
     initialSize = int(math.sqrt(xSize))
     input = tf.reshape(x, [-1, initialSize, initialSize, 1])
-    outputBridge = 128; poolSize = 2
+    outputBridge = 32; poolSize = 2
     if downsampling:
         output = downsample(input, poolSize)
     else:
@@ -54,7 +58,7 @@ def inputLayer(x, xSize, downsampling = False):
     return output, outputBridge, n
 
 def hiddenLayer1(input, inputBridge, n, poolSize = 2):
-    outputBridge = 1024
+    outputBridge = 64
     output = buildConvReluMaxPoolLayers(input, 9, inputBridge, outputBridge, poolSize) 
     #output = buildFullyConnectedLayers(input, n * n * inputBridge, outputBridge) 
     n = int(n/poolSize)
@@ -62,7 +66,7 @@ def hiddenLayer1(input, inputBridge, n, poolSize = 2):
     return output, outputBridge, n
 
 def hiddenLayer2(input, inputBridge, n, poolSize = 1):
-    outputBridge = 32
+    outputBridge = 1024
     shape = [poolSize, poolSize, inputBridge, outputBridge]
     #output = buildBiasedLayers(input, shape, conv2d)
     output = buildFullyConnectedLayers(input, n * n * inputBridge, outputBridge) 
@@ -71,15 +75,14 @@ def hiddenLayer2(input, inputBridge, n, poolSize = 1):
     return output, outputBridge, n
 
 def lastLayer(input, inputBridge, n, poolSize = 1):
+    output = dropoutLayer(input)
     output = buildFullyConnectedLayers(input, n * n * inputBridge, 10)
     return output
 
 
 def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, downsampling = False):
-    config = tf.ConfigProto()
-    config.gpu_options.allocator_type = 'BFC'
     #with tf.Session(config = config) as s:
-    sess = tf.InteractiveSession(config = config)
+    sess = tf.InteractiveSession()
     tf.global_variables_initializer().run()
 
     print('\nFirst Custom CNN running...')
