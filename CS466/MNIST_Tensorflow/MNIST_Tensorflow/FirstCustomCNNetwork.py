@@ -19,7 +19,7 @@ def downsample(x, n = 2):
 def max_pool(x, n = 2):
   return tf.nn.max_pool(x, ksize=[1, n, n, 1], strides=[1, n, n, 1], padding='SAME')
 
-def buildBiasedLayers(input, shape, transaction, activationFunction = lambda x: x): # activationFunction = None 
+def buildBiasedLayers(input, shape, transaction = conv2d, activationFunction = lambda x: x): # activationFunction = None 
     weight = weight_variable(shape)
     bias = bias_variable([shape[-1]])
     output = activationFunction(transaction(input, weight) + bias)
@@ -40,48 +40,71 @@ def buildFullyConnectedLayers(input, inputChannel, outputChannel):
     print_('Fully Connected Output shape:', output.shape)
     return output
      
+def inputLayer(x, xSize, downsampling = False):
+    initialSize = int(math.sqrt(xSize))
+    input = tf.reshape(x, [-1, initialSize, initialSize, 1])
+    outputBridge = 128; poolSize = 2
+    if downsampling:
+        output = downsample(input, poolSize)
+    else:
+        output = buildConvReluMaxPoolLayers(input, 7, 1, outputBridge, poolSize) 
+        #output = max_pool(x_image, poolSize) 
+    n = int(initialSize/poolSize)
+    print_('Output:', output, outputBridge, n)
+    return output, outputBridge, n
+
+def hiddenLayer1(input, inputBridge, n, poolSize = 2):
+    outputBridge = 1024
+    output = buildConvReluMaxPoolLayers(input, 9, inputBridge, outputBridge, poolSize) 
+    #output = buildFullyConnectedLayers(input, n * n * inputBridge, outputBridge) 
+    n = int(n/poolSize)
+    print_('Output:', output, outputBridge, n)
+    return output, outputBridge, n
+
+def hiddenLayer2(input, inputBridge, n, poolSize = 1):
+    outputBridge = 32
+    shape = [poolSize, poolSize, inputBridge, outputBridge]
+    #output = buildBiasedLayers(input, shape, conv2d)
+    output = buildFullyConnectedLayers(input, n * n * inputBridge, outputBridge) 
+    n = 1#int(n/poolSize)
+    print_('Output:', output, outputBridge, n)
+    return output, outputBridge, n
+
+def lastLayer(input, inputBridge, n, poolSize = 1):
+    output = buildFullyConnectedLayers(input, n * n * inputBridge, 10)
+    return output
+
+
 def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, downsampling = False):
-    sess = tf.InteractiveSession()
+    config = tf.ConfigProto()
+    config.gpu_options.allocator_type = 'BFC'
+    #with tf.Session(config = config) as s:
+    sess = tf.InteractiveSession(config = config)
     tf.global_variables_initializer().run()
 
     print('\nFirst Custom CNN running...')
 
-    initialSize = int(math.sqrt(xSize))
-    x_image = tf.reshape(x, [-1, initialSize, initialSize, 1])
-    downsamplingSize = 1
-    if downsampling:
-        outputBridge1 = 1; downsamplingSize = 2; poolSize1 = downsamplingSize
-        h_pool1 = downsample(x_image, downsamplingSize)
-    else:
-        outputBridge1 = 64; poolSize1 = 2
-        h_pool1 = buildConvReluMaxPoolLayers(x_image, 5, 1, outputBridge1, poolSize1) 
-    
-    #outputBridge1 = 64; poolSize1 = 2
-    #h_pool1 = buildConvReluMaxPoolLayers(h_pool1, 5, 1, outputBridge1, poolSize1) 
+    output, outputBridge, n = inputLayer(x, xSize, downsampling = downsampling)
 
-    outputBridge2 = 64; poolSize2 = 2
-    h_pool2 = buildConvReluMaxPoolLayers(h_pool1, 5, outputBridge1, outputBridge2, poolSize2)
-    
-    outputBridge3 = 32
-    finalSize = int(int(int(initialSize / poolSize1) / poolSize2 ) / downsamplingSize)
-   
-    h_fc1 = buildFullyConnectedLayers(h_pool2, finalSize * finalSize * outputBridge2, outputBridge3)
+    output, outputBridge, n = hiddenLayer1(output, outputBridge, n)
 
-    y_conv = buildFullyConnectedLayers(h_fc1, outputBridge3, 10)
+    #output, outputBridge, n = hiddenLayer2(output, outputBridge, n)
 
-    cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=y_conv))
+    final_y = lastLayer(output, outputBridge, n)
+
+    cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=final_y))
     
-    correct_prediction = tf.equal(tf.argmax(y_conv,1), tf.argmax(y_,1))
+    correct_prediction = tf.equal(tf.argmax(final_y,1), tf.argmax(y_,1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
  
     global_step = tf.Variable(0)
 
-    starter_learning_rate = 1e-4 #0.9#, trainable=False
+    starter_learning_rate = 1e-4 #0.9#, trainable=Falselearning_rate
     learning_rate = tf.train.exponential_decay(starter_learning_rate, global_step,
                                                    1, 0.9999, staircase=True)
-    train_step = tf.train.AdamOptimizer(learning_rate).minimize(cross_entropy, global_step = global_step)
+    train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy, global_step = global_step)
         
-    BATCH_SIZE = 50
+    BATCH_SIZE = 200
     keep_prob = tf.placeholder(tf.float32)
     sess.run(tf.global_variables_initializer())
     for batchCount in range(iterations):
