@@ -54,18 +54,21 @@ def augment(images, labels):
     for i, img in enumerate(images):
         c = 1
         augmented.append(img)
-        ##rotated
-        #augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(1.0, 1.0),
-        #            rotation=15, shear=0., translation=(0, 0), flip_lr=False,
-        #            flip_ud=False, warp_kwargs=None)); c += 1
+        #rotated
+        augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(1.0, 1.0),
+                    rotation=15, shear=0., translation=(0, 0), flip_lr=False,
+                    flip_ud=False, warp_kwargs=None)); c += 1
         ## scaled
         augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(.95, 1.0),
                     rotation=.0, shear=0., translation=(0, 0), flip_lr=False,
                     flip_ud=False, warp_kwargs=None)); c += 1
+
+        #on my GPU with there of them
         # rotated & scaled / hope making italic
         augmented.append(transform_image(img, output_shape=None, tf=None, zoom=(.9, 1.0),
                     rotation=-15, shear=0., translation=(0, 0), flip_lr=False,
                     flip_ud=False, warp_kwargs=None)); c += 1
+
         for j in range(c):
             l.append(labels[i])
     print_('Aaugmenting...')

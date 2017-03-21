@@ -30,7 +30,7 @@ def buildConvReluMaxPoolLayers(input, patch, inputChannel, outputChannel, poolSi
     shape = [patch, patch, inputChannel, outputChannel]
     h_conv = buildBiasedLayers(input, shape, conv2d, tf.nn.relu)
     output = max_pool(h_conv, n = poolSize)
-    print_('MaxPool Output shape:', output.shape)
+    #print_('MaxPool Output shape:', output.shape)
     return output
      
 def dropoutLayer(x):
@@ -41,59 +41,72 @@ def buildFullyConnectedLayers(input, inputChannel, outputChannel):
     shape = [inputChannel, outputChannel]
     flat_input = tf.reshape(input, [-1, shape[0]])
     output = buildBiasedLayers(flat_input, shape, tf.matmul)
-    print_('Fully Connected Output shape:', output.shape)
+    #print_('Fully Connected Output shape:', output.shape)
     return output
      
-def inputLayer(x, xSize, downsampling = False):
+def inputLayer(x, xSize, downsampling = False, poolSize = 2, patch = 5, outputBridge = 196):
     initialSize = int(math.sqrt(xSize))
     input = tf.reshape(x, [-1, initialSize, initialSize, 1])
-    outputBridge = 32; poolSize = 2
     if downsampling:
         output = downsample(input, poolSize)
+        shape = [patch, patch, 1, outputBridge]
+        #output = buildBiasedLayers(input, shape, conv2d, tf.nn.relu)
+        outputBridge = 1
+        #output = buildConvReluMaxPoolLayers(output, patch, 1, outputBridge, poolSize) 
     else:
-        output = buildConvReluMaxPoolLayers(input, 7, 1, outputBridge, poolSize) 
+        output = buildConvReluMaxPoolLayers(input, patch, 1, outputBridge, poolSize) 
         #output = max_pool(x_image, poolSize) 
     n = int(initialSize/poolSize)
-    print_('Output:', output, outputBridge, n)
+    #print_('Output:', output, outputBridge, n)
     return output, outputBridge, n
 
-def hiddenLayer1(input, inputBridge, n, poolSize = 2):
-    outputBridge = 64
-    output = buildConvReluMaxPoolLayers(input, 9, inputBridge, outputBridge, poolSize) 
+def hiddenLayer1(input, inputBridge, n, patch = 5, poolSize = 2, outputBridge = 64):
+    output = buildConvReluMaxPoolLayers(input, patch, inputBridge, outputBridge, poolSize) 
     #output = buildFullyConnectedLayers(input, n * n * inputBridge, outputBridge) 
     n = int(n/poolSize)
-    print_('Output:', output, outputBridge, n)
+    #print_('Output:', output, outputBridge, n)
     return output, outputBridge, n
 
-def hiddenLayer2(input, inputBridge, n, poolSize = 1):
-    outputBridge = 1024
-    shape = [poolSize, poolSize, inputBridge, outputBridge]
-    #output = buildBiasedLayers(input, shape, conv2d)
+def hiddenLayer2(input, inputBridge, n, outputBridge = 1024):
     output = buildFullyConnectedLayers(input, n * n * inputBridge, outputBridge) 
-    n = 1#int(n/poolSize)
-    print_('Output:', output, outputBridge, n)
+    n = 1
     return output, outputBridge, n
 
-def lastLayer(input, inputBridge, n, poolSize = 1):
+def lastLayer(input, inputBridge, n):
     output = dropoutLayer(input)
     output = buildFullyConnectedLayers(input, n * n * inputBridge, 10)
     return output
 
+def firstCNN(x, xSize, downsampling = False):
 
-def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, downsampling = False):
-    #with tf.Session(config = config) as s:
+    output, outputBridge, n = inputLayer(x, xSize, downsampling = downsampling,
+                                         poolSize = 2, patch = 5, outputBridge = 32)
+
+    output, outputBridge, n = hiddenLayer1(output, outputBridge, n, 
+                                           poolSize = 2, patch = 5, outputBridge = 64)
+
+    output, outputBridge, n = hiddenLayer2(output, outputBridge, n, outputBridge = 512)
+
+    return lastLayer(output, outputBridge, n)
+
+def secondCNN(x, xSize, downsampling = False):
+
+    output, outputBridge, n = inputLayer(x, xSize, downsampling = downsampling,
+                                          poolSize = 2, patch = 7, outputBridge = 64)
+
+    output, outputBridge, n = hiddenLayer1(output, outputBridge, n, 
+                                           poolSize = 2, patch = 9, outputBridge = 128)
+
+    output, outputBridge, n = hiddenLayer2(output, outputBridge, n, outputBridge = 1024)
+
+    return lastLayer(output, outputBridge, n)
+
+def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, cnn = firstCNN, downsampling = False, text = 'First Custom CNN running...'):
     sess = tf.InteractiveSession()
     tf.global_variables_initializer().run()
+    print_('\n' + text + ' running...\n')
 
-    print('\nFirst Custom CNN running...')
-
-    output, outputBridge, n = inputLayer(x, xSize, downsampling = downsampling)
-
-    output, outputBridge, n = hiddenLayer1(output, outputBridge, n)
-
-    #output, outputBridge, n = hiddenLayer2(output, outputBridge, n)
-
-    final_y = lastLayer(output, outputBridge, n)
+    final_y = cnn(x, xSize, downsampling = downsampling)
 
     cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=final_y))
     
@@ -120,10 +133,12 @@ def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, downsamplin
         sess.run(train_step, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
 
     feed_dict = {x: mnist.train.images, y_: mnist.train.labels, keep_prob: 1.0}
-    print("The train accuracy of CNNTutorial on local files = %g" % accuracy.eval(feed_dict = feed_dict))
-    print(' ')
+    #print("The train accuracy of CNNTutorial on local files = %g" % accuracy.eval(feed_dict = feed_dict))
+    #print(' ')
 
-
+    #for i in xrange(10):
+    #testSet = mnist.test.next_batch(50)
+    #print("test accuracy %g"%accuracy.eval(feed_dict={ x: testSet[0], y_: testSet[1], keep_prob: 1.0}))
     feed_dict = {x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}
-    print("The test accuracy of CNNTutorial on local files = %g" % accuracy.eval(feed_dict = feed_dict))
-    print(' ')
+    print_("\nThe test accuracy = %g" % accuracy.eval(feed_dict = feed_dict))
+    print_(' ')

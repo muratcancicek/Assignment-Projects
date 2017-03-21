@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>58c627c3-c1e8-43a2-a581-53e35f957260</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>runMNIST_Tensorflow.py</StartupFile>
+    <StartupFile>muratcan_cicek_training.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,7 @@
     <Compile Include="CNNTutorial.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FirstCustomCNNetwork.py">
+    <Compile Include="CNNetworkHandler.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Main.py">
@@ -37,7 +37,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="myMnistHandler.py" />
-    <Compile Include="runMNIST_Tensorflow.py" />
+    <Compile Include="muratcan_cicek_training.py" />
     <Compile Include="myOldMnistHandler.py">
       <SubType>Code</SubType>
     </Compile>
