@@ -25,7 +25,9 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
+
 from PythonVersionHandler import *
+import os
 
 import numpy
 #from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -126,6 +128,12 @@ class DataSet(object):
   def epochs_completed(self):
     return self._epochs_completed
 
+  def shuffle(self):
+    all_data = numpy.c_[self._images.reshape(len(self._images), -1), self._labels.reshape(len(self._labels), -1)]
+    numpy.random.shuffle(all_data)
+    self._images = all_data[:, :self._images.size//len(self._images)].reshape(self._images.shape)
+    self._labels = all_data[:, self._images.size//len(self._images):].reshape(self._labels.shape)
+
   def next_batch(self, batch_size, fake_data=False, shuffle=True):
     """Return the next `batch_size` examples from this data set."""
     if fake_data:
@@ -142,8 +150,8 @@ class DataSet(object):
     if self._epochs_completed == 0 and start == 0 and shuffle:
       perm0 = numpy.arange(self._num_examples)
       numpy.random.shuffle(perm0)
-      self._images = self.images[perm0]
-      self._labels = self.labels[perm0]
+      self._images = self._images[perm0]
+      self._labels = self._labels[perm0]
     # Go to the next epoch
     if start + batch_size > self._num_examples:
       # Finished epoch
@@ -156,8 +164,8 @@ class DataSet(object):
       if shuffle:
         perm = numpy.arange(self._num_examples)
         numpy.random.shuffle(perm)
-        self._images = self.images[perm]
-        self._labels = self.labels[perm]
+        self._images = self._images[perm]
+        self._labels = self._labels[perm]
       # Start next epoch
       start = 0
       self._index_in_epoch = batch_size - rest_num_examples
@@ -200,10 +208,10 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float
     validation = fake()
     test = fake()
     return base.Datasets(train=train, validation=validation, test=test)
-  TRAIN_IMAGES = 'train-images.idx3-ubyte'
-  TRAIN_LABELS = 'train-labels.idx1-ubyte'
-  TEST_IMAGES = 't10k-images.idx3-ubyte'
-  TEST_LABELS = 't10k-labels.idx1-ubyte'
+  TRAIN_IMAGES = sys.argv[3] + os.path.sep + 'train-images.idx3-ubyte'
+  TRAIN_LABELS = sys.argv[3] + os.path.sep + 'train-labels.idx1-ubyte'
+  TEST_IMAGES = sys.argv[3] + os.path.sep + 't10k-images.idx3-ubyte'
+  TEST_LABELS = sys.argv[3] + os.path.sep + 't10k-labels.idx1-ubyte'
 
   if train_dir == 'MNIST-data':
       local_file = TRAIN_IMAGES
@@ -230,5 +238,5 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float
                                    dtype=dtype, reshape=reshape, validation_size=validation_size)
 
 
-def load_mnist(train_dir='MNIST-data', preprocess = fakeProcess, reshape = True):
+def load_mnist(train_dir='MNIST-data', path = '', preprocess = fakeProcess, reshape = True):
   return read_data_sets(train_dir, one_hot=True, reshape = reshape, preprocess = preprocess)

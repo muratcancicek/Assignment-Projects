@@ -1,3 +1,7 @@
+#   
+#   By Muratcan Cicek,  S004233, Computer Science at Ozyegin University
+#   
+
 from myMnistHandler import generateDatasetsWithValidation, DataSet, load_mnist
 from PythonVersionHandler import *
 from Transforms import *

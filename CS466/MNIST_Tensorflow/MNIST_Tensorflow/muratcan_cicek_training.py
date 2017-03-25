@@ -1,3 +1,7 @@
+#   
+#   By Muratcan Cicek,  S004233, Computer Science at Ozyegin University
+#   
+
 from datetime import datetime
 from PythonVersionHandler import *
 from Main import main
@@ -9,14 +13,10 @@ def printSeparater():
         
 def nowStr():
     return str(datetime.now())
-total = len(sys.argv)
-if total != 3:
-    print_('wrong argument count')
-    sys.exit() 
-cmdargs =sys.argv
+
 printSeparater()
 print_('%s:' % nowStr(), 'Running...')
-main(cmdargs)
+main()
 print_('%s:' % nowStr(), 'DONE')
 printSeparater()
 

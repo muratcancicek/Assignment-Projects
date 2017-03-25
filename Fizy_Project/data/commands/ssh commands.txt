@@ -15,6 +15,7 @@ D:/OneDrive
 cd /Projects/Assignment-Projects/Fizy_Project
 python Fizy_Project.py
 
-ssh -p 22 miek@127.0.0.1
+ssh -p 2222 miek@127.0.0.1
+ssh -p 2222 miek@10.200.161.237
 eBay@2017
 eBay@2016

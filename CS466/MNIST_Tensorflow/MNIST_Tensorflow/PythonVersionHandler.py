@@ -1,3 +1,7 @@
+#   
+#   By Muratcan Cicek,  S004233, Computer Science at Ozyegin University
+#   
+
 import sys
 
 PYTHON_VERSION = sys.version_info[0]
