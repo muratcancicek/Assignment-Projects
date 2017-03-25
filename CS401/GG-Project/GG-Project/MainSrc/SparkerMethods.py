@@ -1,7 +1,7 @@
-from Sparker.LogisticRegressionImpOnSpark import runLogisticRegressionImplementationOnSpark
-from Sparker.LogisticRegressionWithSpark import runLogisticRegressionWithSpark
-from Sparker.HousingTutorialWithFM import runHousingTutorialWithFM
-from Sparker.LogisticRegressionFromCS434_HW2 import main as hw2Main
+from Sparker.MLlibTests.LogisticRegressionImpOnSpark import runLogisticRegressionImplementationOnSpark
+from Sparker.MLlibTests.LogisticRegressionWithSpark import runLogisticRegressionWithSpark
+from Sparker.MLlibTests.HousingTutorialWithFM import runHousingTutorialWithFM
+from Sparker.MLlibTests.LogisticRegressionFromCS434_HW2 import main as hw2Main
 from Sparker.PySparkTutorial1 import *
 from Sparker.MlLibHelper import *
 

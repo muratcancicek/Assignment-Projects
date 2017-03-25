@@ -31,13 +31,13 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainSrc\__init__.py" />
-    <Compile Include="Sparker\fm_parallel_sgd.py">
+    <Compile Include="Sparker\MLlibTests\fm_parallel_sgd.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Sparker\HousingTutorialWithFM.py">
+    <Compile Include="Sparker\MLlibTests\HousingTutorialWithFM.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Sparker\LogisticRegressionFromCS434_HW2.py" />
+    <Compile Include="Sparker\MLlibTests\LogisticRegressionFromCS434_HW2.py" />
     <Compile Include="LogProcesser\Actions.py">
       <SubType>Code</SubType>
     </Compile>
@@ -127,14 +127,15 @@
     <Compile Include="productProcessers\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Sparker\LogisticRegressionWithSpark.py" />
-    <Compile Include="Sparker\LogisticRegressionImpOnSpark.py">
+    <Compile Include="Sparker\MLlibTests\LogisticRegressionWithSpark.py" />
+    <Compile Include="Sparker\MLlibTests\LogisticRegressionImpOnSpark.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Sparker\MlLibHelper.py">
+    <Compile Include="Sparker\MLlibTests\MlLibHelper.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Sparker\ParallelStochasticGradientDescent.py">
+    <Compile Include="Sparker\MLlibTests\__init__.py" />
+    <Compile Include="Sparker\MLlibTests\ParallelStochasticGradientDescent.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Sparker\PySparkImports.py">
@@ -251,6 +252,8 @@
     <Folder Include="productProcessers\specsProcesser\" />
     <Folder Include="LogProcesser\scalaToPython\" />
     <Folder Include="LogProcesser\scalaToPython\python_codes\" />
+    <Folder Include="Sparker\MLlibTests\" />
+    <Folder Include="Sparker\SparkLogProcesser\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
