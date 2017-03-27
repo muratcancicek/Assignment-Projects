@@ -29,6 +29,8 @@ if COMPUTERNAME == 'MSI':
     allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\' 
 elif COMPUTERNAME == 'L-IST-14500667':
     allLogsPath = 'C:\\session\\'
+elif COMPUTERNAME == 'LM-IST-00UBFVH8':
+    allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
 
 allRawLogsfolder = joinPath(allLogsPath, 'Raw')
 entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, '2016-09-27')
@@ -38,8 +40,21 @@ allParsedLogsFolder = joinPath(allLogsPath, 'Parsed')
 entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, '2016-09-27')
 entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, '2016-09-28')
 
+allSparkParsedLogsFolder = joinPath(allParsedLogsFolder, 'Spark')
+entireDaySparkParsedLogsFolder1 = joinPath(allSparkParsedLogsFolder, '2016-09-27')
+entireDaySparkParsedLogsFolder2 = joinPath(allSparkParsedLogsFolder, '2016-09-28')
+
 def setFolder2():
     allRawLogsfolder = entireDayRawLogsfolder2
     allParsedLogsFolder = entireDayParsedLogsFolder2
 
 setFolder2()
+
+#   cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+#   sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
+#   sshpass -p 'eBay@2017' ssh miek@10.200.133.227
+#   sshpass -p 3022 'eBay@2017' ssh miek@10.200.133.227
+#   shh -p 22 miek@10.200.133.227   
+#   10.200.133.227:5900
+#   ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
+#   export SPARK_HOME="/opt/spark"

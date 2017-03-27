@@ -1,5 +1,5 @@
-from .MlLibHelper import *
-from . import LogisticRegressionFromCS434_HW2
+from .MLlibTests.MlLibHelper import *
+from .MLlibTests import LogisticRegressionFromCS434_HW2
 
 def countModule(sc, module = 'item'):
     if sc == None: sc = SparkContext() 

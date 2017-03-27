@@ -2,8 +2,13 @@ from Sparker.MLlibTests.LogisticRegressionImpOnSpark import runLogisticRegressio
 from Sparker.MLlibTests.LogisticRegressionWithSpark import runLogisticRegressionWithSpark
 from Sparker.MLlibTests.HousingTutorialWithFM import runHousingTutorialWithFM
 from Sparker.MLlibTests.LogisticRegressionFromCS434_HW2 import main as hw2Main
+from Sparker.MLlibTests.MlLibHelper import *
+
+from Sparker.SparkLogProcesser.SparkLogOperatorTests import *
+from Sparker.SparkLogProcesser.SparkLogAnalyzerTests import *
+from Sparker.SparkLogProcesser.SparkLogOperator import *
+from Sparker.SparkLogProcesser.SparkLogAnalyzer import *
 from Sparker.PySparkTutorial1 import *
-from Sparker.MlLibHelper import *
 
 def runSparkerTests(sc):
     countModule(sc)
@@ -12,14 +17,26 @@ def runSparkerTests(sc):
     testToTrainFM_parallel_sgd(sc)
     runLogisticRegressionImplementationOnSpark(sc)
 
-def run(): 
-    sc = SparkContext()
-    runHousingTutorialWithFM(sc)
-    #runSparkerTests(sc)
-    
+def runSparkLogProcesserTests(logs):
+    logs = getLogs()
+    basicTests()
+    countTestsForTransposes(logs)
+    mapReduceTests(logs)
+    moduleTests(logs)
+    snippingTests(logs)
+    idCookieTests(logs)
+    cookieJourneyTest(logs)
+    coloredLogPrintingTests(logs)
+    coloredJourneyPrintingTest(logs)
+    journeyByKeywordTest(logs)
+    printingActionsTest(logs)
 
-#   sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
-#   sshpass -p 'eBay@2017' ssh miek@10.200.133.227
-#   sshpass -p 3022 'eBay@2017' ssh miek@10.200.133.227
-#   shh -p 22 miek@10.200.133.227   
-#   10.200.133.227:5900
+def runSparkLogOperatorTests(logs):
+    logs = getLogs()
+    writeRDDToJsonTest(logs)
+    readTextFileTest(logs)
+
+def run(): 
+    setSparkContext(SparkContext())
+    #extractAllTCJourneysTest()
+    print_()

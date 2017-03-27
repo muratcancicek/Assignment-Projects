@@ -6,7 +6,7 @@ import json, re
 class JSONEncoder(json.JSONEncoder):
     def default(self, o):
         if isinstance(o, ObjectId):
-            return str(o)
+            return bytes(o)
         return json.JSONEncoder.default(self, o)
 
 def printJson(json, p = True, decoding = 'unicode-escape'):
@@ -18,7 +18,7 @@ def printJson(json, p = True, decoding = 'unicode-escape'):
 
 def fixQuotes(text):
     if type(text) is bool or text == None:
-        text = str(text) 
+        text = bytes(text) 
     #elif type(text) is unicode:
     #    return text.encode('utf-8')
     index = 0
@@ -35,10 +35,10 @@ def fixQuotes(text):
     return text
 
 def jsonToString(json, printing = True, decoding = 'unicode-escape', separator = ' ', lmbda = lambda k: 'zzz' if k in ['title', 'subTitle'] else k, sort = True, deep = 0):
-    if type(json) == str:
+    if type(json) == bytes:
         v = fixQuotes(json.decode('utf8'))
         return '\"' + v + '\"'
-    if type(json) == unicode:
+    if type(json) == str:
         return '\"' + fixQuotes(json) + '\"'
     text = ''
     if type(json) is dict:
@@ -50,17 +50,17 @@ def jsonToString(json, printing = True, decoding = 'unicode-escape', separator =
         for k in keys:
             strK = '' 
             strV = '' 
-            if type(json[k]) is unicode:
+            if type(json[k]) is str:
                 #print('I am an unicode!', json[k]) 
                 strV = json[k].encode('utf-8')
             else:
                 strV = json[k] 
-            if type(k) is str:
+            if type(k) is bytes:
                 strK = fixQuotes(k)
-            elif type(k) is unicode:
+            elif type(k) is str:
                 strK = k.encode('utf-8')
             else:
-                strK = str(k)
+                strK = bytes(k)
             line = ('\"' +  strK.decode('utf-8') + '\": ' + strV.decode('utf-8') + ',' + separator)
             text += line
         text = (text[:-2] if len(json) > 0 else text) + separator + '}'
@@ -76,7 +76,7 @@ def jsonToString(json, printing = True, decoding = 'unicode-escape', separator =
     elif type(json) is bool:
         text += 'true' if json else 'false'
     else:
-        text += str(json)
+        text += bytes(json)
     if printing: print_(text)
     return text
 

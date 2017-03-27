@@ -11,7 +11,7 @@ def main():
     runSparkerMethods()
 
 printSeparater()
-print_('%s:' % nowStr(), 'Running...')
+print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
 main()
 print_('%s:' % nowStr(), 'DONE')
 printSeparater()

@@ -31,6 +31,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainSrc\__init__.py" />
+    <Compile Include="Sparker\Logic\LogicTests.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sparker\Logic\ProductPreferrer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Sparker\MLlibTests\fm_parallel_sgd.py">
       <SubType>Code</SubType>
     </Compile>
@@ -149,6 +155,14 @@
     <Compile Include="MainSrc\SecondTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\SparkLogProcesser\ActionsWithSpark.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogOperator.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogOperatorTests.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogAnalyzer.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogAnalyzerTests.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogFileHandler.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogReader.py" />
+    <Compile Include="Sparker\SparkLogProcesser\__init__.py" />
     <Compile Include="Sparker\__init__.py" />
   </ItemGroup>
   <ItemGroup>
@@ -253,7 +267,9 @@
     <Folder Include="LogProcesser\scalaToPython\" />
     <Folder Include="LogProcesser\scalaToPython\python_codes\" />
     <Folder Include="Sparker\MLlibTests\" />
+    <Folder Include="Sparker\Logic\" />
     <Folder Include="Sparker\SparkLogProcesser\" />
+    <Folder Include="Sparker\SparkLogProcesser\SparkTests\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
