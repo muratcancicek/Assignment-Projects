@@ -16,7 +16,7 @@ def getKeywords():
         array = str(line).split(',')
         keywords.append(array[0])
     print_('Keywords read')
-    return keywords[]
+    return keywords
 
 def extractAllTCJourneys(logs = None): # Under development, not working 
     logs = getAllLogs(logs) 

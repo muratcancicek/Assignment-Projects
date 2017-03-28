@@ -1,0 +1,198 @@
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-03-29 00:52:04.883529: Running on MSI... 
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/03/29 00:52:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00000\part-r-00000_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00001\part-r-00001_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00002\part-r-00002_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00002\part-r-00002_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00003\part-r-00003_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00003\part-r-00003_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00004\part-r-00004_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00004\part-r-00004_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00005\part-r-00005_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00005\part-r-00005_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00006\part-r-00006_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00006\part-r-00006_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00007\part-r-00007_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00007\part-r-00007_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00008\part-r-00008_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00008\part-r-00008_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00009\part-r-00009_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00009\part-r-00009_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00010\part-r-00010_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00010\part-r-00010_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00011\part-r-00011_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00011\part-r-00011_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00012\part-r-00012_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00012\part-r-00012_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00013\part-r-00013_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00013\part-r-00013_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00014\part-r-00014_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00014\part-r-00014_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00015\part-r-00015_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00015\part-r-00015_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00016\part-r-00016_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00016\part-r-00016_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00017\part-r-00017_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00017\part-r-00017_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00018\part-r-00018_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00018\part-r-00018_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00019\part-r-00019_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00019\part-r-00019_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00020\part-r-00020_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00020\part-r-00020_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00021\part-r-00021_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00021\part-r-00021_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00022\part-r-00022_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00022\part-r-00022_keyword00000.json has been read successfully. 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00023\part-r-00023_keyword00000.json 
+D:\Slow_Storage\Senior_Data\session\Parsed\2016-09-27\TC_Journeys\parts\part-r-00023\part-r-00023_keyword00000.json has been read successfully. 
+
+[Stage 0:>                                                        (0 + 0) / 192]
+[Stage 0:>                                                        (0 + 8) / 192]
+[Stage 0:=>                                                       (6 + 8) / 192]
+[Stage 0:==>                                                      (8 + 8) / 192]
+[Stage 0:===>                                                    (13 + 8) / 192]
+[Stage 0:====>                                                   (14 + 8) / 192]
+[Stage 0:====>                                                   (15 + 8) / 192]
+[Stage 0:=====>                                                  (20 + 8) / 192]
+[Stage 0:======>                                                 (21 + 8) / 192]
+[Stage 0:=======>                                                (26 + 8) / 192]
+[Stage 0:=======>                                                (27 + 8) / 192]
+[Stage 0:========>                                               (28 + 8) / 192]
+[Stage 0:=========>                                              (32 + 8) / 192]
+[Stage 0:=========>                                              (34 + 8) / 192]
+[Stage 0:==========>                                             (35 + 8) / 192]
+[Stage 0:===========>                                            (38 + 8) / 192]
+[Stage 0:===========>                                            (41 + 8) / 192]
+[Stage 0:=============>                                          (45 + 8) / 192]
+[Stage 0:=============>                                          (47 + 8) / 192]
+[Stage 0:==============>                                         (48 + 8) / 192]
+[Stage 0:==============>                                         (51 + 8) / 192]
+[Stage 0:===============>                                        (52 + 8) / 192]
+[Stage 0:===============>                                        (54 + 8) / 192]
+[Stage 0:================>                                       (55 + 8) / 192]
+[Stage 0:================>                                       (57 + 8) / 192]
+[Stage 0:=================>                                      (59 + 8) / 192]
+[Stage 0:==================>                                     (62 + 8) / 192]
+[Stage 0:==================>                                     (63 + 8) / 192]
+[Stage 0:==================>                                     (65 + 8) / 192]
+[Stage 0:====================>                                   (69 + 8) / 192]
+[Stage 0:====================>                                   (70 + 8) / 192]
+[Stage 0:====================>                                   (71 + 8) / 192]
+[Stage 0:=====================>                                  (72 + 8) / 192]
+[Stage 0:=====================>                                  (75 + 8) / 192]
+[Stage 0:======================>                                 (77 + 8) / 192]
+[Stage 0:======================>                                 (78 + 8) / 192]
+[Stage 0:=======================>                                (79 + 8) / 192]
+[Stage 0:=======================>                                (81 + 8) / 192]
+[Stage 0:========================>                               (84 + 8) / 192]
+[Stage 0:========================>                               (85 + 8) / 192]
+[Stage 0:=========================>                              (86 + 8) / 192]
+[Stage 0:=========================>                              (87 + 8) / 192]
+[Stage 0:==========================>                             (91 + 8) / 192]
+[Stage 0:===========================>                            (93 + 8) / 192]
+[Stage 0:===========================>                            (94 + 8) / 192]
+[Stage 0:============================>                           (97 + 8) / 192]
+[Stage 0:============================>                           (98 + 8) / 192]
+[Stage 0:============================>                           (99 + 8) / 192]
+[Stage 0:============================>                          (101 + 8) / 192]
+[Stage 0:==============================>                        (105 + 8) / 192]
+[Stage 0:==============================>                        (106 + 8) / 192]
+[Stage 0:==============================>                        (107 + 8) / 192]
+[Stage 0:==============================>                        (108 + 8) / 192]
+[Stage 0:===============================>                       (111 + 8) / 192]
+[Stage 0:================================>                      (113 + 8) / 192]
+[Stage 0:================================>                      (114 + 8) / 192]
+[Stage 0:================================>                      (115 + 8) / 192]
+[Stage 0:=================================>                     (117 + 8) / 192]
+[Stage 0:==================================>                    (120 + 8) / 192]
+[Stage 0:==================================>                    (121 + 8) / 192]
+[Stage 0:==================================>                    (122 + 8) / 192]
+[Stage 0:===================================>                   (123 + 8) / 192]
+[Stage 0:====================================>                  (127 + 8) / 192]
+[Stage 0:====================================>                  (129 + 8) / 192]
+[Stage 0:=====================================>                 (130 + 8) / 192]
+[Stage 0:======================================>                (133 + 8) / 192]
+[Stage 0:======================================>                (134 + 8) / 192]
+[Stage 0:======================================>                (135 + 8) / 192]
+[Stage 0:=====================================>                (135 + 10) / 192]
+[Stage 0:=======================================>               (137 + 8) / 192]
+[Stage 0:========================================>              (141 + 8) / 192]
+[Stage 0:========================================>              (142 + 8) / 192]
+[Stage 0:========================================>              (143 + 8) / 192]
+[Stage 0:=========================================>             (144 + 8) / 192]
+[Stage 0:==========================================>            (147 + 8) / 192]
+[Stage 0:==========================================>            (149 + 8) / 192]
+[Stage 0:==========================================>            (150 + 8) / 192]
+[Stage 0:===========================================>           (151 + 8) / 192]
+[Stage 0:===========================================>           (153 + 8) / 192]
+[Stage 0:============================================>          (156 + 8) / 192]
+[Stage 0:============================================>          (157 + 8) / 192]
+[Stage 0:=============================================>         (158 + 8) / 192]
+[Stage 0:=============================================>         (159 + 8) / 192]
+[Stage 0:==============================================>        (163 + 8) / 192]
+[Stage 0:===============================================>       (165 + 8) / 192]
+[Stage 0:===============================================>       (166 + 8) / 192]
+[Stage 0:================================================>      (169 + 8) / 192]
+[Stage 0:================================================>      (170 + 8) / 192]
+[Stage 0:================================================>      (171 + 8) / 192]
+[Stage 0:=================================================>     (173 + 8) / 192]
+[Stage 0:==================================================>    (177 + 8) / 192]
+[Stage 0:==================================================>    (178 + 8) / 192]
+[Stage 0:===================================================>   (179 + 8) / 192]
+[Stage 0:===================================================>   (180 + 8) / 192]
+[Stage 0:====================================================>  (183 + 8) / 192]
+[Stage 0:====================================================>  (184 + 8) / 192]
+[Stage 0:=====================================================> (186 + 6) / 192]
+[Stage 0:=====================================================> (187 + 5) / 192]
+[Stage 0:======================================================>(190 + 2) / 192]
+                                                                                
+2017-03-29 00:55:09.748705: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-03-29 01:07:26.658318: Running on MSI... 
+2017-03-29 01:07:29.081698: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-03-29 01:16:40.434257: Running on MSI... 
+2017-03-29 01:16:42.848541: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-03-29 01:26:18.220376: Running on MSI... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-03-29 01:27:20.057874: Running on MSI... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-03-29 01:30:53.390757: Running on MSI... 
+6225 
+2017-03-29 01:32:31.664149: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 

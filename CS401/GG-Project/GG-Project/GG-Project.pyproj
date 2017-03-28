@@ -21,9 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LogProcesser\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="LogProcesser\Actions.py" />
+    <Compile Include="LogProcesser\JsonIO.py" />
+    <Compile Include="LogProcesser\LogAnalyzer.py" />
+    <Compile Include="LogProcesser\LogAnalyzerTests.py" />
+    <Compile Include="LogProcesser\LogFileHandler.py" />
+    <Compile Include="LogProcesser\LogOperator.py" />
+    <Compile Include="LogProcesser\LogOperatorTests.py" />
+    <Compile Include="LogProcesser\LogReader.py" />
+    <Compile Include="LogProcesser\__init__.py" />
     <Compile Include="MainSrc\FirstTermMethods.py">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +43,7 @@
     <Compile Include="Sparker\Logic\ProductPreferrer.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\Logic\__init__.py" />
     <Compile Include="Sparker\MLlibTests\fm_parallel_sgd.py">
       <SubType>Code</SubType>
     </Compile>
@@ -44,34 +51,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Sparker\MLlibTests\LogisticRegressionFromCS434_HW2.py" />
-    <Compile Include="LogProcesser\Actions.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\LogAnalyzer.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\JsonIO.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\LogAnalyzerTests.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\LogFileHandler.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\LogOperator.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\LogOperatorTests.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\LogReader.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\OutputLogger.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LogProcesser\scalaToPython\__init__.py">
+    <Compile Include="MainSrc\OutputLogger.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="productProcessers\machineLearning\LearningAlgorithms.py" />
@@ -228,7 +208,7 @@
     <Content Include="data\productToPoint\specs\SpecsTypesCounts.bson" />
     <Content Include="data\productToPoint\specs\SpecsValueMap.bson" />
     <Content Include="data\productToPoint\common\standardizedProducts.json" />
-    <Content Include="data\ranking\logInfo\part-r-00000\output.txt" />
+    <Content Include="data\output.txt" />
     <Content Include="data\ranking\logInfo\part-r-00000\part-r-00000.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfUniqueValues.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfValues.json" />

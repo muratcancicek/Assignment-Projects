@@ -229,11 +229,13 @@ def getJourneyFromCookie(cookie, logs = None):
 
 productModules = ['cart', 'payment', 'item']
 def getProductLogs(modules):
-    if isinstance(modules, PipelinedRDD):
-        modules = getModuleMap(modules)   
-    logs = sc_().emptyRDD()
-    for module in productModules:
-        logs.union(modules[module])
+    if isinstance(modules, dict):
+        logs = sc_().emptyRDD()
+        for module in productModules:
+            logs = logs.union(modules[module])
+    else:
+        logs = modules
+        logs = logs.filter(isProductLog)
     return logs
 
 def getSearchLogs(logs):
@@ -256,20 +258,15 @@ def getInterestingCookiesFromKeyword(modules, keyword):
     return unique(interestingCookies)
 
 def getIdsFromSearches(searches):
-    if isinstance(searches, dict): searches = [searches]
-    ids = []
-    def searchId(search):
-        if 'ids' in list(search.keys()):
-            ids.extend(search['ids'] if isinstance(search['ids'], list) else [search['ids']])
-    searches.foreach(searchId)
-    return ids
+    def extender(a, b): a.extend(b); return a
+    return searches.map(lambda log: log['ids']).reduce(extender)
 
 def getInterestingLogsFromKeyword(modules, keyword):
     searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
     ids = getIdsFromSearches(searches)
     interestingCookies = getInterestingCookiesFromKeyword(modules, keyword)
-    logs = getLogsWhereValue(interestingCookies, '_c', getProductLogs(modules) + modules['newsession'])
-    return logs.filter(lambda log: log.keys() and log['id'] in ids)
+    logs = getLogsWhereValue(interestingCookies, '_c', getProductLogs(modules).union(modules['newsession']))
+    return logs.filter(lambda log: 'id' in list(log.keys()) and log['id'] in ids)
 
 def findLastSearchContainsProduct(productLog, journey):
     searches = getLogsWhereValue('search', 'module', journey)

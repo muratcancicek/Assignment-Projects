@@ -1,5 +1,6 @@
-import os
+from MainSrc.OutputLogger import OutputLogger
 import sys
+import os
 
 def joinPath(prePath, path):
     return os.path.join(prePath, path)
@@ -31,24 +32,28 @@ elif COMPUTERNAME == 'L-IST-14500667':
     allLogsPath = 'C:\\session\\'
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
-
+    
+    
+entireDay1 = '2016-09-27'
+entireDay2 = '2016-09-28'    
 allRawLogsfolder = joinPath(allLogsPath, 'Raw')
-entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, '2016-09-27')
-entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, '2016-09-28')
+entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, entireDay1)
+entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, entireDay2)
 
 allParsedLogsFolder = joinPath(allLogsPath, 'Parsed')
-entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, '2016-09-27')
-entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, '2016-09-28')
+entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, entireDay1)
+entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, entireDay2)
 
 allSparkParsedLogsFolder = joinPath(allParsedLogsFolder, 'Spark')
-entireDaySparkParsedLogsFolder1 = joinPath(allSparkParsedLogsFolder, '2016-09-27')
-entireDaySparkParsedLogsFolder2 = joinPath(allSparkParsedLogsFolder, '2016-09-28')
+entireDaySparkParsedLogsFolder1 = joinPath(allSparkParsedLogsFolder, entireDay1)
+entireDaySparkParsedLogsFolder2 = joinPath(allSparkParsedLogsFolder, entireDay2)
 
 def setFolder2():
     allRawLogsfolder = entireDayRawLogsfolder2
     allParsedLogsFolder = entireDayParsedLogsFolder2
 
 setFolder2()
+sys.stdout = OutputLogger(dataFolder) 
 
 #   cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 #   sshpass -p 'eBay@2017' ssh miek@127.0.0.1 

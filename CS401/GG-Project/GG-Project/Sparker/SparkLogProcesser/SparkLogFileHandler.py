@@ -1,5 +1,4 @@
 from MainSrc.PythonVersionHandler import *
-from LogProcesser.OutputLogger import OutputLogger
 from paths import *
 from LogProcesser.JsonIO import *
 from . import SparkLogReader as LogReader
@@ -30,8 +29,6 @@ def setSparkContext(scInstance):
 
 def sc_():
     return _sc
-
-sys.stdout = OutputLogger(testFolder) 
 
 lastReadLogs = None
 def getAllLogs(logs = None, folder = allRawLogsfolder):
@@ -93,3 +90,15 @@ def mergeAllParsedLogLines(inputFolder, outputFileName, printing = True):
     f.write(']') 
     f.close() 
     print_(outputFileName + '.json has been written successfully.')
+
+def merge2016_09_27_iphone_6():
+    path = joinPath(entireDayParsedLogsFolder1, 'TC_Journeys\\parts\\part-r-%05d\\part-r-%05d_keyword00000.json')#part-r-00000
+    logs = sc_().emptyRDD()
+    for i in range(24):
+        filePath = path % (i, i)
+        print_(filePath)
+        logs = logs.union(readParsedLogs(filePath))
+    logs.saveAsTextFile(joinPath(sparkFolder, '2016-09-27_iphone_6'))
+    
+def load2016_09_27_iphone_6():
+    return sc_().textFile(joinPath(sparkFolder, '2016-09-27_iphone_6'))

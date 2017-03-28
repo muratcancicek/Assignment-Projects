@@ -6,6 +6,7 @@ from Sparker.MLlibTests.MlLibHelper import *
 
 from Sparker.SparkLogProcesser.SparkLogOperatorTests import *
 from Sparker.SparkLogProcesser.SparkLogAnalyzerTests import *
+from Sparker.Logic.LogicTests import *
 from Sparker.SparkLogProcesser.SparkLogOperator import *
 from Sparker.SparkLogProcesser.SparkLogAnalyzer import *
 from Sparker.PySparkTutorial1 import *
@@ -35,8 +36,10 @@ def runSparkLogOperatorTests(logs):
     logs = getLogs()
     writeRDDToJsonTest(logs)
     readTextFileTest(logs)
+    #extractAllTCJourneysTest()
 
 def run(): 
     setSparkContext(SparkContext())
-    #extractAllTCJourneysTest()
-    print_()
+    #logs = getLogs()
+    logs = load2016_09_27_iphone_6()
+    getIdsTest(logs)

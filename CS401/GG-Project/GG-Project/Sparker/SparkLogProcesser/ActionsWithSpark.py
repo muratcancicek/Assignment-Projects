@@ -132,7 +132,7 @@ def getActionString(i, logs, showDetails = False):
         print_(LA.green('COOKIE CHANGED.'))
     if LA.isProductLog(currentLog): 
         #if currentLog['id'] in searchIds:
-            previousJourney = LA.sc().parallelize(previousJourney)
+            previousJourney = LA.sc_().parallelize(previousJourney)
             lastSearchIndexWithId, productIndex = LA.findLastSearchContainsProduct(currentLog, previousJourney)
             sentence = getActionStringForProductLog(currentLog, productIndex, lastSearchIndexWithId)
     elif LA.isSearchLog(currentLog):

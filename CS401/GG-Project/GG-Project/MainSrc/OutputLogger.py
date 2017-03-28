@@ -6,6 +6,7 @@ class OutputLogger(object):
         self.terminal = sys.stdout
         outputFileName = paths.joinPath(outputFolder, outputFileName)
         self.log = open(outputFileName, 'a') #open("logfile.log", "a")
+        self.log.write('\n')  
 
     def write(self, message):
         self.terminal.write(message)

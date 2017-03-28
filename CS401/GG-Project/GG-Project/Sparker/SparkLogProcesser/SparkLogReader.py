@@ -66,12 +66,10 @@ def generateParsedLogs(_sc, fromFileName, toFileName): # for development only
     writeToJson(logs.collect(), toFileName) 
 
 def readParsedLogs(fileName):
-    fileName = fileName.split(os.path.sep)[-1]
-    fileName = joinPath(joinPath(logInfoFolder, fileName), fileName + '.json')
-    if os.path.exists(fileName):
-        return evalJson(fileName[:-5])
-    else:
-        return [] 
+    #fileName = fileName.split(os.path.sep)[-1]
+    #fileName = joinPath(joinPath(logInfoFolder, fileName), fileName + '.json')
+    #if os.path.exists(fileName):
+        return LA.sc_().parallelize(evalJson(fileName[:-5]))
 
 def readParsedLogsFromTextFile(_sc, folder):
     return readAllLogFiles(_sc, folder)

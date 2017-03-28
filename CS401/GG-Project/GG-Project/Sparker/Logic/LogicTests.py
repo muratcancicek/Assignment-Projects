@@ -1,9 +1,14 @@
-from Sparker.Logic.ProductPreferrer import *
+from .ProductPreferrer import *
 
 def getSampleJourney(logs):
-    keyword = getKeywords()[0]
+    keyword = 'lg g4'#'iphone 6'# getKeywords()[1]
     return getJourneyByKeyword(logs, keyword)
 
 
 def getIdsTest(logs):
-    keyword = getSampleJourney(logs)
+    #journey = sc_().textFile(joinPath(sparkFolder, 'lg_g4_journey')).map(lambda l: eval(l)) 
+    #getSampleJourney(logs)
+    #journey.saveAsTextFile(joinPath(sparkFolder, 'lg_g4_journey'))
+    journey = logs
+    #printActions(journey)
+    getInterestingIds(journey)

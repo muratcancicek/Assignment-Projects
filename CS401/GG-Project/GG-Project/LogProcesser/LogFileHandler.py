@@ -1,5 +1,4 @@
 from MainSrc.PythonVersionHandler import *
-from .OutputLogger import OutputLogger
 from paths import *
 from .JsonIO import *
 from . import LogReader 
@@ -20,10 +19,8 @@ def setTestFile(testFile):
     #testFolder = joinPath(logInfoFolder, TEST_LOGS_FILE)
     
 #saveOutput()
-setTestFile(TEST_LOGS_FILE_ORINAL) 
+#setTestFile(TEST_LOGS_FILE_ORINAL) 
 #setTestFile('part-r-00000_iphone_6') 
-
-sys.stdout = OutputLogger(testFolder) 
 
 lastReadLogs = None
 def getAllLogs(logs = None, folder = allRawLogsfolder):
