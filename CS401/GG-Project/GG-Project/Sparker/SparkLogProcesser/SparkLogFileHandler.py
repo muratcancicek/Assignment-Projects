@@ -101,4 +101,4 @@ def merge2016_09_27_iphone_6():
     logs.saveAsTextFile(joinPath(sparkFolder, '2016-09-27_iphone_6'))
     
 def load2016_09_27_iphone_6():
-    return sc_().textFile(joinPath(sparkFolder, '2016-09-27_iphone_6'))
+    return sc_().textFile(joinPath(sparkFolder, '2016-09-27_iphone_6\\part-00151')).map(eval)

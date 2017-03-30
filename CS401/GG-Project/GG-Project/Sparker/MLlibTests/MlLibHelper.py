@@ -22,7 +22,7 @@ def getSparseVectorsAsLabeledPoints(data, labelIndex = -1):
     getLabeledPoint = lambda vector: LabeledPoint(lbl(vector[labelIndex]), sv(vector[:labelIndex] + vector[labelIndex+1:]))
     return data.map(getLabeledPoint)
 
-def readCSVDataAsSparseVectors(sc, fileName):
+def readCSVDataAsDenseVectors(sc, fileName):
     fileName = joinPath(sparkFolder, fileName)
     data = sc.textFile(fileName).map(csvLineToLabeledPoint)
     data = getSparseVectorsAsLabeledPoints(data)

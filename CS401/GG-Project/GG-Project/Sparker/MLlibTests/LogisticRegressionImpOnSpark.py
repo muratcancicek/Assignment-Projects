@@ -79,8 +79,8 @@ def trainFM_sgd(data, iterations=300, alpha=0.01, regParam=0.01, factorLength=1)
 
 def runLogisticRegressionImplementationOnSpark(sc = None):
     if sc == None: sc = SparkContext()
-    trainData = readCSVDataAsSparseVectors(sc, trainUSPSFileName)
-    testData = readCSVDataAsSparseVectors(sc, testUSPSFileName)
+    trainData = readCSVDataAsDenseVectors(sc, trainUSPSFileName)
+    testData = readCSVDataAsDenseVectors(sc, testUSPSFileName)
     
     optimalW = trainFM_parallel_sgd(sc, trainData, iterations=1, evalTraining=False)
     evaluateFM_SGD(testData, optimalW)

@@ -31,8 +31,8 @@ def getDataAsListFrom(filename, withDummy = True):
 
 def runHousingTutorialWithFM(sc = None):
     if sc == None: sc = SparkContext()
-    trainData = readCSVDataAsSparseVectors(sc, 'housing_train.txt')
-    testData = readCSVDataAsSparseVectors(sc, 'housing_test.txt')
+    trainData = readCSVDataAsDenseVectors(sc, 'housing_train.txt')
+    testData = readCSVDataAsDenseVectors(sc, 'housing_test.txt')
     testData.foreach(print_)
 
     # Build the model

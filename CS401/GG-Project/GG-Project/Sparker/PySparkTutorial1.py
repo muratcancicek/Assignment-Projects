@@ -12,8 +12,8 @@ def countModule(sc, module = 'item'):
     print(lines.count(), module, 'found.') 
 
 def testToTrainFM_parallel_sgd(sc = None):
-    trainData = readCSVDataAsSparseVectors(sc, trainUSPSFileName)
-    testData = readCSVDataAsSparseVectors(sc, testUSPSFileName)
+    trainData = readCSVDataAsDenseVectors(sc, trainUSPSFileName)
+    testData = readCSVDataAsDenseVectors(sc, testUSPSFileName)
         
     optimalW = fm_parallel_sgd.trainFM_parallel_sgd(sc, trainData, iterations=1, evalTraining=False)
     evaluateFM_SGD(testData, optimalW)

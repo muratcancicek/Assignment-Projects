@@ -39,7 +39,6 @@ def runSparkLogOperatorTests(logs):
     #extractAllTCJourneysTest()
 
 def run(): 
-    setSparkContext(SparkContext())
-    #logs = getLogs()
-    logs = load2016_09_27_iphone_6()
-    getIdsTest(logs)
+    sc = ps.SparkContext('local[8]', '', ) 
+    setSparkContext(sc)
+    getIdsTest(None)

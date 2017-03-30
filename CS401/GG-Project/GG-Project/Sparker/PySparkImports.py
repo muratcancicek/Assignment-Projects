@@ -5,6 +5,8 @@ SPARK_HOME = os.environ['SPARK_HOME']
 # Add the PySpark\\py4j to the Python Path
 sys.path.insert(0, os.path.join(SPARK_HOME, "python", "lib"))
 sys.path.insert(0, os.path.join(SPARK_HOME, "python"))
+import pyspark as ps
+
 
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
