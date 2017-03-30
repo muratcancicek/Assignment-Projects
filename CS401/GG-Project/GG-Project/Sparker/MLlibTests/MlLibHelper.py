@@ -3,6 +3,7 @@ from sklearn.metrics import auc, roc_curve, average_precision_score, log_loss, m
 from pyspark.mllib.classification import LogisticRegressionWithLBFGS, LogisticRegressionModel
 from pyspark.mllib.regression import LabeledPoint, LinearRegressionWithSGD
 from MainSrc.PythonVersionHandler import *
+from pyspark.mllib.classification import SVMWithSGD, SVMModel
 from pyspark.mllib.linalg import DenseVector, SparseVector, Vectors 
 from pyspark.mllib.common import *
 from . import fm_parallel_sgd

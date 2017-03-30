@@ -55,7 +55,7 @@ def generateTrainData(labeledPairs, products):
 
 def getTrainData():
     trainData = sc_().textFile(joinPath(sparkFolder, 'iPhone_6_TrainData'))
-    return trainData.map(eval).map(lambda x: LabeledPoint(x[0], x[1])) 
+    return trainData.map(eval).map(lambda x: LabeledPoint(1.0 if x[0] >0 else 0.0, x[1])) 
 
 def trainPairWiseData(data):
     # Build the model
