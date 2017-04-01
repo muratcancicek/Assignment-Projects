@@ -60,11 +60,11 @@ def getTrainData():
 def trainPairWiseData(data):
     # Build the model
     model = SVMWithSGD.train(data, iterations=100)
-
     # Evaluating the model on training data
     labelsAndPreds = data.map(lambda p: (p.label, model.predict(p.features)))
     trainErr = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count() / float(data.count())
-    print("Accuracy = " + str(trainErr))
+    print_('\nAccuracy = ' + str(trainErr))
+    print_('\nFirst weights = ' + str(model.weights) + '\n')
 
 
 def getIdsTest(logs):
@@ -72,7 +72,7 @@ def getIdsTest(logs):
     #products = getProducts(ids)
     #print(products.first())
     trainData = getTrainData()#generateTrainData(labeledPairs, products)
-    print(trainData.first())
+    #print(trainData.first())
     trainPairWiseData(trainData)
 
 def testAlgorithm():
@@ -86,3 +86,13 @@ def testAlgorithm():
     ##printActions(journey)
     labeledPairs = getInterestingIds(logs)
     #sc_().parallelize(labeledPairs.items()).saveAsTextFile(joinPath(sparkFolder, 'labels'))
+
+def extractJourneyLogsFromDay(keyword = "iphone 6", path = entireDayRawLogsfolder1):
+    logs = getLogs(None, path+'/part-r-00000.gz')
+    print_(logs.count(), 'Log have been read and parsed on', nowStr())
+    journey = getJourneyByKeyword(logs, 'iphone 6')
+    print_(journey.count(), 'Log have been extracted for ' + keyword + ' journeys on', nowStr())
+    journey.saveAsTextFile(joinPath(hdfsOutputFolder, keyword+'_part0_journey'))
+    print_(keyword+'_part0_journey has been saved successfully')
+    #labeledPairs = getLabeledPairs(journey)
+    #return labeledPairs

@@ -2,6 +2,9 @@ from MainSrc.OutputLogger import OutputLogger
 import sys
 import os
 
+# Machine based
+COMPUTERNAME = os.getenv('COMPUTERNAME') 
+
 def joinPath(prePath, path):
     return os.path.join(prePath, path)
 
@@ -10,6 +13,8 @@ def getAbsolutePath(fileName):
     return joinPath(script_dir, fileName)
    
 dataFolder = getAbsolutePath('data')
+if COMPUTERNAME == 'osldevptst02':
+    dataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/data'
 
 rankingFolder = joinPath(dataFolder, 'ranking')
 clickstreamFolder = joinPath(rankingFolder, 'clickstream')
@@ -22,9 +27,8 @@ commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
 sparkFolder = joinPath(dataFolder, 'spark') + os.path.sep
+hdfsOutputFolder = sparkFolder
 
-# Machine based
-COMPUTERNAME = os.getenv('COMPUTERNAME') 
 allLogsPath = ''
 if COMPUTERNAME == 'MSI':
     allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\' 
@@ -32,6 +36,9 @@ elif COMPUTERNAME == 'L-IST-14500667':
     allLogsPath = 'C:\\session\\'
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
+else:
+    allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
+    hdfsOutputFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/'
     
     
 entireDay1 = '2016-09-27'
@@ -56,6 +63,7 @@ setFolder2()
 sys.stdout = OutputLogger(dataFolder) 
 
 #   cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+#   cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 #   sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
 #   sshpass -p 'eBay@2017' ssh miek@10.200.133.227
 #   sshpass -p 3022 'eBay@2017' ssh miek@10.200.133.227

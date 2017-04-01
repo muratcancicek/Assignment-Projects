@@ -41,4 +41,4 @@ def runSparkLogOperatorTests(logs):
 def run(): 
     sc = ps.SparkContext('local[8]', '', ) 
     setSparkContext(sc)
-    getIdsTest(None)
+    extractJourneyLogsFromDay()
