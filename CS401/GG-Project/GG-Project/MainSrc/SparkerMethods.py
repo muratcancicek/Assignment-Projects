@@ -43,4 +43,4 @@ def run():
     setSparkContext(sc)
     #getIdsTest(None)
     #extractJourneyLogsFromDay()
-    extractLabeledPairsFromJourney()
+    #extractLabeledPairsFromJourney()
