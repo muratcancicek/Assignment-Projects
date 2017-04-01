@@ -7,7 +7,7 @@ from Sparker.PySparkImports import *
 import Sparker.SparkLogProcesser.SparkLogAnalyzer as SLA
 
 def getListedIdsFromJourney(journey):
-    #searches = journey.filter(SLA.isSearchLog)
+    searches = journey.filter(SLA.isSearchLog)
     print_(searches.count())
     def extender(a, b): a.extend(b); return a
     ids = searches.map(lambda log: (log['ids'] if log['ids'] != None else []) if 'ids' in list(log.keys()) else []).reduce(extender)
