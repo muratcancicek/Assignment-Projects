@@ -111,7 +111,7 @@ def evalLog(logText):
     return log
 
 def readJourneyFromHDFS(fileName):
-    journey = scc_().textFile(fileName)
+    journey = sc_().textFile(fileName)
     global evalCounter 
     evalCounter = 0
     journey = journey.map(evalLog)
