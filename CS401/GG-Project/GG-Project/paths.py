@@ -7,6 +7,7 @@ import git
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
 
 def joinPath(*args):
+    return os.path.join(args[0], args[1])
     if isinstance(args[0], list): args = args[0]
     if len(args) < 1: return args
     else:
