@@ -1,9 +1,9 @@
-from Sparker.SparkLogProcesser.SparkLogAnalyzer import *
 from Sparker.SparkLogProcesser.SparkLogOperator import *
 from Sparker.SparkLogProcesser.SparkLogReader import *
 from Sparker.SparkLogProcesser.SparkLogFileHandler import *
 from MainSrc.PythonVersionHandler import *
 from Sparker.PySparkImports import *
+from Sparker.SparkLogProcesser.SparkLogAnalyzer import *
 
 def getListedIdsFromJourney(journey):
     searches = journey.filter(isSearchLog)

@@ -22,12 +22,25 @@ def getAbsolutePath(fileName):
 def gitPull(gitDir):   
     g = git.cmd.Git(gitDir)
     g.pull()
+    
+def gitPush(gitDir):
+    repo = git.Repo(gitDir)
+    origin = repo.remote(name='origin')
+    index = repo.index
+    #author = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
+    #committer = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
+    # commit by commit message and author and committer
+    index.commit("Auto-commit")
+    origin.push()
+    print('Pushed')
+    sys.exit()
 
 gitDir = ''
 allLogsPath = ''
 if COMPUTERNAME == 'MSI': 
     gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
     allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
+    #gitPush(gitDir)
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
