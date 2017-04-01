@@ -13,8 +13,8 @@ def getAbsolutePath(fileName):
     return joinPath(script_dir, fileName)
    
 dataFolder = getAbsolutePath('data')
-if COMPUTERNAME == 'osldevptst02':
-    dataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/data'
+#if COMPUTERNAME == 'osldevptst02':
+#    dataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/data'
 
 rankingFolder = joinPath(dataFolder, 'ranking')
 clickstreamFolder = joinPath(rankingFolder, 'clickstream')
@@ -43,6 +43,9 @@ else:
     
 entireDay1 = '2016-09-27'
 entireDay2 = '2016-09-28'    
+if COMPUTERNAME == 'osldevptst02':
+    entireDay1 = '2016-12-25'
+    entireDay2 = '2016-12-26'  
 allRawLogsfolder = joinPath(allLogsPath, 'Raw')
 entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, entireDay1)
 entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, entireDay2)
