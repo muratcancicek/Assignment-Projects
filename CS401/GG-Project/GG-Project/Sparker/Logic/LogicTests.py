@@ -97,7 +97,7 @@ def extractJourneyLogsFromDay(keyword = "iphone 6", path = entireDayRawLogsfolde
     #labeledPairs = getLabeledPairs(journey)
     #return labeledPairs
 
-def extractLabeledPairsFromJourney():
+def extractLabeledPairsFromJourney(keyword = "iphone 6"):
     journey = readJourneyFromHDFS(joinPath(hdfsOutputFolder, keyword+'_part0_journey'))
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
     products =  getProducts(modulizedIds['listed'])
