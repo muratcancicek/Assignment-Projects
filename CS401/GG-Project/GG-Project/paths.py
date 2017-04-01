@@ -66,7 +66,7 @@ commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
 sparkFolder = joinPath(dataFolder, 'spark') + os.path.sep
-hdfsOutputFolder = sparkFolder
+#hdfsOutputFolder = sparkFolder
     
 entireDay1 = '2016-09-27'
 entireDay2 = '2016-09-28'    
