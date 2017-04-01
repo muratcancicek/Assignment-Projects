@@ -146,6 +146,7 @@
     <Compile Include="Sparker\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="commands.txt" />
     <Content Include="data\ranking\clickstream\part-r-00000_iphone_6.json" />
     <Content Include="data\ranking\clickstream\part-r-00000" />
     <Content Include="data\productToPoint\common\categoryCodeNames.json" />

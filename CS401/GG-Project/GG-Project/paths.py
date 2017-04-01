@@ -61,13 +61,3 @@ def setFolder2():
 
 setFolder2()
 sys.stdout = OutputLogger(dataFolder) 
-
-#   cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
-#   cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
-#   sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
-#   sshpass -p 'eBay@2017' ssh miek@10.200.133.227
-#   sshpass -p 3022 'eBay@2017' ssh miek@10.200.133.227
-#   shh -p 22 miek@10.200.133.227   
-#   10.200.133.227:5900
-#   ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
-#   export SPARK_HOME="/opt/spark"

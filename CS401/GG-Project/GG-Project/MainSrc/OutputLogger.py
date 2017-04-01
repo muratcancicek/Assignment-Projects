@@ -1,11 +1,13 @@
 import paths
-import sys
 
 class OutputLogger(object):
     def __init__(self, outputFolder, outputFileName = 'output.txt'):
-        self.terminal = sys.stdout
+        self.terminal = paths.sys.stdout
         outputFileName = paths.joinPath(outputFolder, outputFileName)
-        self.log = open(outputFileName, 'a') #open("logfile.log", "a")
+        if paths.os.path.isfile(outputFileName):
+            self.log = open(outputFileName, 'a') #open("logfile.log", "a")
+        else:
+            self.log = open(outputFileName, 'r')
         self.log.write('\n')  
 
     def write(self, message):
