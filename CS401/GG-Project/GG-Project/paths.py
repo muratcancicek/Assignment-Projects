@@ -43,10 +43,12 @@ else:
     
 entireDay1 = '2016-09-27'
 entireDay2 = '2016-09-28'    
+allRawLogsfolder = allLogsPath
 if COMPUTERNAME == 'osldevptst02':
     entireDay1 = '2016-12-25'
     entireDay2 = '2016-12-26'  
-allRawLogsfolder = joinPath(allLogsPath, 'Raw')
+else:
+    allRawLogsfolder = joinPath(allLogsPath, 'Raw')
 entireDayRawLogsfolder1 = joinPath(allRawLogsfolder, entireDay1)
 entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, entireDay2)
 
