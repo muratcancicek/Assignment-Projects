@@ -113,6 +113,7 @@ def evalLog(logText):
     return log
 
 def readJourneyFromHDFS(fileName):
+    print_(fileName)
     journey = sc_().textFile(fileName)
     global evalCounter 
     evalCounter = 0
@@ -130,6 +131,7 @@ def evalProduct(productText):
     return log
 
 def readProductsFromHDFS(fileName = None):
+    print_(fileName)
     if fileName == None:
         fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
     products = sc_().textFile(fileName)
