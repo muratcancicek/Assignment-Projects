@@ -5,6 +5,11 @@ from .SparkLogFileHandler import *
 from LogProcesser.JsonIO import *
 from paths import *
 
+TEST_LOGS_FILE = 'part-r-00000'
+TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'
+TEST_LOGS = joinPath(clickstreamFolder, TEST_LOGS_FILE)
+testFolder = joinPath(logInfoFolder, 'part-r-00000')
+
 def unique(list1):
     return list(set(list1))
 
