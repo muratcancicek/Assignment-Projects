@@ -101,6 +101,7 @@ def extractLabeledPairsFromJourney(keyword = "iphone 6"):
     print_(hdfsOutputFolder)
     journey = readJourneyFromHDFS(joinPath(hdfsOutputFolder, keyword+'_part0_journey'))
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
+    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(hdfsOutputFolder, 'iPhone_6_part0_labeledPairs'))
     products =  getProducts(modulizedIds['listed'])
     products.saveAsTextFile(joinPath(hdfsOutputFolder, 'iPhone_6_part0_journey_products'))
     print_('iPhone_6_part0_journey_products has been saved successfully')

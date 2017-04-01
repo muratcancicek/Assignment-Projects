@@ -126,12 +126,11 @@ def evalProduct(productText):
     log = eval(productText)
     global evalCounterForProducts
     evalCounterForProducts += 1
-    if evalCounterForProducts % 1000000 == 0: 
+    if evalCounterForProducts % 100000 == 0: 
         print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
     return log
 
 def readProductsFromHDFS(fileName = None):
-    print_(fileName)
     if fileName == None:
         fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
     products = sc_().textFile(fileName)
