@@ -42,3 +42,4 @@ def run():
     sc = SparkContext() 
     setSparkContext(sc)
     extractJourneyLogsFromDay()
+    #getIdsTest(None)

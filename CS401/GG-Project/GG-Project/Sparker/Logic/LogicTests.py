@@ -83,8 +83,9 @@ def testAlgorithm():
         #logs = getLogs()
         #logs = load2016_09_27_iphone_6()
         logs = readParsedLogs(joinPath(sparkFolder, 'part-r-00000_keyword00000.json'))
+    print_(logs.count(), 'Logs have been read and parsed on', nowStr())
     ##printActions(journey)
-    labeledPairs = getInterestingIds(logs)
+    #labeledPairs = getInterestingIds(logs)
     #sc_().parallelize(labeledPairs.items()).saveAsTextFile(joinPath(sparkFolder, 'labels'))
 
 def extractJourneyLogsFromDay(keyword = "iphone 6", path = entireDayRawLogsfolder1):
