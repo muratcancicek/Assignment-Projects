@@ -1,17 +1,42 @@
 from MainSrc.OutputLogger import OutputLogger
 import sys
 import os
+import git
 
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
 
-def joinPath(prePath, path):
-    return os.path.join(prePath, path)
+def joinPath(*args):
+    if isinstance(args[0], list): args = args[0]
+    if len(args) < 1: return args
+    else:
+        path = args[0]
+        for arg in args[1:]:
+            os.path.join(path, arg)
+        return path
 
 def getAbsolutePath(fileName):
-    script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+    script_dir = os.path.dirname(__file__) 
     return joinPath(script_dir, fileName)
-   
+
+def gitDir(gitDir):   
+    g = git.cmd.Git(gitDir)
+    g.pull()
+
+gitDir = ''
+allLogsPath = ''
+if COMPUTERNAME == 'MSI': 
+    gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
+    allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
+elif COMPUTERNAME == 'LM-IST-00UBFVH8':
+    gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
+    allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
+else:
+    gitDir = '/root/Projects/Assignment-Projects'
+    gitDir(gitDir)
+    allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
+    hdfsOutputFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/'
+    
 dataFolder = getAbsolutePath('data')
 #if COMPUTERNAME == 'osldevptst02':
 #    dataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/data'
@@ -28,18 +53,6 @@ specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
 sparkFolder = joinPath(dataFolder, 'spark') + os.path.sep
 hdfsOutputFolder = sparkFolder
-
-allLogsPath = ''
-if COMPUTERNAME == 'MSI':
-    allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\' 
-elif COMPUTERNAME == 'L-IST-14500667':
-    allLogsPath = 'C:\\session\\'
-elif COMPUTERNAME == 'LM-IST-00UBFVH8':
-    allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
-else:
-    allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
-    hdfsOutputFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/'
-    
     
 entireDay1 = '2016-09-27'
 entireDay2 = '2016-09-28'    
@@ -65,4 +78,4 @@ def setFolder2():
     allParsedLogsFolder = entireDayParsedLogsFolder2
 
 setFolder2()
-sys.stdout = OutputLogger(dataFolder) 
+#sys.stdout = OutputLogger(dataFolder) 

@@ -7,6 +7,7 @@ from Sparker.PySparkImports import *
 
 def getListedIdsFromJourney(journey):
     searches = journey.filter(isSearchLog)
+    print_(searches.count())
     def extender(a, b): a.extend(b); return a
     ids = searches.map(lambda log: (log['ids'] if log['ids'] != None else []) if 'ids' in log else []).reduce(extender)
     return ids#sc_().parallelize().distinct()#unique()
@@ -65,9 +66,9 @@ def labelByValues(v1, v2):
 
 def getLabeledPairsWithModulizedIds(journey):
     ids = modulizeIds(journey)
-    ids['paid'] = ids['paid'].toLocalIterator()
-    ids['cart'] = ids['cart'].toLocalIterator()
-    ids['clicked'] = ids['clicked'].toLocalIterator()
+    ids['paid'] = ids['paid'].collect()
+    ids['cart'] = ids['cart'].collect()
+    ids['clicked'] = ids['clicked'].collect()
     labeledPairs = {}
     def addPairByValue(id1, id2, v1, v2): 
         if id1 != id2:

@@ -24,3 +24,4 @@ export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip
 
 git reset --hard
 git pull
+python runGG_Project.py
