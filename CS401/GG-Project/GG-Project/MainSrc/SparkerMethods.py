@@ -39,6 +39,6 @@ def runSparkLogOperatorTests(logs):
     #extractAllTCJourneysTest()
 
 def run(): 
-    sc = ps.SparkContext('local[8]', '', ) 
+    sc = SparkContext() 
     setSparkContext(sc)
     extractJourneyLogsFromDay()

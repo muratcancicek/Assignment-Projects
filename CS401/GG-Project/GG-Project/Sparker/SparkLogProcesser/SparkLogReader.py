@@ -56,7 +56,7 @@ def parseLog(log):
 
 def parseAllLogs(logs):
     logs = logs.map(parseLog)
-    print_('All logs have been parsed on ', nowStr())
+    #print_('All logs have been parsed on ', nowStr())
     return logs
 
 def readParseLogs(_sc, fileName):

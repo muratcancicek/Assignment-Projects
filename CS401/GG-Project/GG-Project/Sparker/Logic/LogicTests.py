@@ -89,7 +89,7 @@ def testAlgorithm():
 
 def extractJourneyLogsFromDay(keyword = "iphone 6", path = entireDayRawLogsfolder1):
     logs = getLogs(None, path+'/part-r-00000.gz')
-    print_(logs.count(), 'Log have been read and parsed on', nowStr())
+    print_(logs.count(), 'Logs have been read and parsed on', nowStr())
     journey = getJourneyByKeyword(logs, 'iphone 6')
     print_(journey.count(), 'Log have been extracted for ' + keyword + ' journeys on', nowStr())
     journey.saveAsTextFile(joinPath(hdfsOutputFolder, keyword+'_part0_journey'))
