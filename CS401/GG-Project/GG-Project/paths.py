@@ -91,5 +91,5 @@ def setFolder2():
     allRawLogsfolder = entireDayRawLogsfolder2
     allParsedLogsFolder = entireDayParsedLogsFolder2
 
-setFolder2()
+#setFolder2()
 #sys.stdout = OutputLogger(dataFolder) 
