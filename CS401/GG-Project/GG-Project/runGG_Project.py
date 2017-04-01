@@ -9,8 +9,7 @@ def printSeparater():
         print_('#' * 88)
 
 def main():
-    print_()
-    #runSparkerMethods()
+    runSparkerMethods()
 
 printSeparater()
 print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
