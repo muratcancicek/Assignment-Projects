@@ -106,6 +106,8 @@ def load2016_09_27_iphone_6():
 evalCounter = 0
 def evalLog(logText):
     log = eval(logText)
+    global evalCounter 
+    evalCounter += 1
     if evalCounter % 100000 == 0: 
         print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
     return log
@@ -119,8 +121,10 @@ def readJourneyFromHDFS(fileName):
     return journey
 
 evalCounterForProducts = 0
-def evalProduct(logText):
-    log = eval(logText)
+def evalProduct(productText):
+    log = eval(productText)
+    global evalCounterForProducts
+    evalCounterForProducts += 1
     if evalCounterForProducts % 1000000 == 0: 
         print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
     return log
