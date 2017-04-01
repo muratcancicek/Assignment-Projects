@@ -102,3 +102,32 @@ def merge2016_09_27_iphone_6():
     
 def load2016_09_27_iphone_6():
     return sc_().textFile(joinPath(sparkFolder, '2016-09-27_iphone_6\\part-00151')).map(eval)
+
+evalCounter = 0
+def evalLog(logText):
+    log = eval(logText)
+    if evalCounter % 100000 == 0: 
+        print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
+    return log
+
+def readJourneyFromHDFS(fileName):
+    journey = scc_().textFile(fileName)
+    global evalCounter 
+    evalCounter = 0
+    journey = journey.map(evalLog)
+    print_(fileName, ' has been read as journey by', nowStr())
+    return journey
+
+evalCounterForProducts = 0
+def evalProduct(logText):
+    log = eval(logText)
+    if evalCounterForProducts % 1000000 == 0: 
+        print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
+    return log
+
+def readProductsFromHDFS(fileName = None):
+    if fileName == None:
+        fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
+    products = sc_().textFile(fileName)
+    products = products.map(evalProduct)
+    return products

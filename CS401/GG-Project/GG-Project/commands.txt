@@ -13,8 +13,13 @@ ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
 export SPARK_HOME="/opt/spark"
 
 /usr/local/spark
-export SPARK_HOME=/opt/spark
 export SPARK_HOME=/usr/local/spark
+
+export SPARK_HOME=/opt/spark
+PATH=~/anaconda/bin:"$PATH"
+export COMPUTERNAME=osldevptst02
+source /etc/environment 
+
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip:$PYTHONPATH
 
 git reset --hard
