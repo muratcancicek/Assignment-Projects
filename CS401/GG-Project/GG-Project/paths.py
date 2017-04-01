@@ -19,7 +19,7 @@ def getAbsolutePath(fileName):
     script_dir = os.path.dirname(__file__) 
     return joinPath(script_dir, fileName)
 
-def gitDir(gitDir):   
+def gitPull(gitDir):   
     g = git.cmd.Git(gitDir)
     g.pull()
 
@@ -33,7 +33,7 @@ elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
 else:
     gitDir = '/root/Projects/Assignment-Projects'
-    gitDir(gitDir)
+    gitPull(gitDir)
     allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
     hdfsOutputFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/'
     
