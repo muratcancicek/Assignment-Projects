@@ -10,7 +10,7 @@ def getListedIdsFromJourney(journey):
     #searches = journey.filter(SLA.isSearchLog)
     print_(searches.count())
     def extender(a, b): a.extend(b); return a
-    ids = searches.map(lambda log: (log['ids'] if log['ids'] != None else []) if 'ids' in log else []).reduce(extender)
+    ids = searches.map(lambda log: (log['ids'] if log['ids'] != None else []) if 'ids' in list(log.keys()) else []).reduce(extender)
     return ids#sc_().parallelize().distinct()#unique()
 
 def getLoggedIds(journey, module):
