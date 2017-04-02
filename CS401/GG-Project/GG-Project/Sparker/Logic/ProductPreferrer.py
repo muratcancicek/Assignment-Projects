@@ -24,7 +24,7 @@ def countIds(ids):
     return ids
 
 def summaryIds(ids):
-    print_('Listed counts =', len(ids['listedCnt']), 'Paid counts =', ids['paidCnt'].count(), 
+    print_('Listed counts =', ids['listedCnt'].count(), 'Paid counts =', ids['paidCnt'].count(), 
            'Cart counts =', ids['cartCnt'].count(), 'Clicked counts =', ids['clickedCnt'].count())
     
 def cleanCount(ids):
