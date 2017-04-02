@@ -39,7 +39,7 @@ def trainIPhone6DataTest():
     
     keyword = keyword.replace(' ', '_')
     labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    modulizedIds = {'labeledPairs': sc_().textFile(joinPath(outputFolder, labeledPairsFile))}
+    modulizedIds = {'labeledPairs': sc_().textFile(joinPath(outputFolder, labeledPairsFile)).map(eval)}
     print_(modulizedIds['labeledPairs'].count(), 'labeledPairs have been read successfully by', nowStr())
     #products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile))
     #products = getProducts(modulizedIds['listed'], productsFile)
