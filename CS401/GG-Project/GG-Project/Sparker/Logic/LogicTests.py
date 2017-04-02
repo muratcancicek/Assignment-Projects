@@ -34,6 +34,7 @@ def trainIPhone6DataTest():
     #productsFile = None\\part-00045
     journey = readJourneyFromHDFS(journeyFile)
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
+    print_( modulizedIds['labeledPairs'].take(40))
     #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def trainLocalLG_G4DataTest(): 
