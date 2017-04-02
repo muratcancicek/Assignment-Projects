@@ -36,7 +36,8 @@ def trainIPhone6DataTest():
     #modulizedIds = getLabeledPairsWithModulizedIds(journey)
     #print_( modulizedIds['labeledPairs'].take(40))
     #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
-
+    
+    keyword = keyword.replace(' ', '_')
     labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
     modulizedIds = {'labeledPairs': sc_().textFile(joinPath(outputFolder, labeledPairsFile))}
     print_(modulizedIds['labeledPairs'].count(), 'labeledPairs have been read successfully by', nowStr())
