@@ -15,12 +15,14 @@ def getListedIdsFromJourney(journey):
 
 def getLoggedIds(journey, module):
     interestingLogs = journey.filter(lambda log: log['module'] == module).sortBy(lambda log: log['timestamp'])
-    return interestingLogs.map(lambda log: (log['id']))
-
+    return interestingLogs.map(lambda log:log['id'] )
+#(, log['timestamp'])
 def countIds(ids):
     for process in ['paid', 'cart', 'clicked']:
-        ids[process+'Cnt'] =  sc_().parallelize(ids[process].countByKey().items())
-    ids['listedCnt'] = sc_().parallelize(listed).countByKey().items()
+        ids[process+'Cnt'] =  sc_().parallelize(ids[process].countByValue().items())
+    ids['listedCnt'] = sc_().parallelize(sc_().parallelize([id for id in ids['listed']]).countByValue().items())
+    #    ids[process+'Cnt'] =  sc_().parallelize(ids[process].map(lambda log: (log, 1)).countByKey().items())
+    #ids['listedCnt'] = sc_().parallelize([(id) for id in ids['listed']]).countByKey().items()
     return ids
 
 def summaryIds(ids):
@@ -28,9 +30,11 @@ def summaryIds(ids):
            'Cart counts =', ids['cartCnt'].count(), 'Clicked counts =', ids['clickedCnt'].count())
     
 def cleanCount(ids):
-    ids['paidCnt'] = ids['paidCnt'].filter(lambda l: l[0] in ids['listed'])
-    ids['cartCnt'] = ids['cartCnt'].filter(lambda l: l[0] in ids['listed']).subtractByKey(ids['paidCnt'])
-    ids['clickedCnt'] = ids['clickedCnt'].filter(lambda l: l[0] in ids['listed']).subtractByKey(ids['paidCnt']).subtractByKey(ids['cartCnt'])
+    def clearUnListedIds(rdd):
+        return rdd.subtractByKey(ids['listedCnt'].subtractByKey(rdd))
+    ids['paidCnt'] = clearUnListedIds(ids['paidCnt'])
+    ids['cartCnt'] = clearUnListedIds(ids['cartCnt']).subtractByKey(ids['paidCnt'])
+    ids['clickedCnt'] = clearUnListedIds(ids['clickedCnt']).subtractByKey(ids['paidCnt']).subtractByKey(ids['cartCnt'])
     return ids 
 
 def modulizeIds(journey):
@@ -57,8 +61,9 @@ def getLabeledPairsWithModulizedIds(journey):
     paidCnt = ids['paidCnt'].collect()
     cartCnt = ids['cartCnt'].collect()
     clickedCnt = ids['clickedCnt'].collect()
+    listedCnt = ids['listedCnt'].collect()
     clickedIds = [id for id, v in clickedCnt]
-    levels = [paidCnt, cartCnt, clickedCnt, ids['listedCnt']]
+    levels = [paidCnt, cartCnt, clickedCnt, listedCnt]
     labeledPairs = {}
 
     def addDominantPair(id1, id2): 
@@ -74,6 +79,7 @@ def getLabeledPairsWithModulizedIds(journey):
             v1 = clickedIds.index(id1)
             v2 = clickedIds.index(id2)
             addPairByValue(id1, id2, v1, v2, level)
+            return
         cnts = levels[level]  
         v1, v2 = None, None
         for id, v in cnts:
