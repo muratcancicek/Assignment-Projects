@@ -66,7 +66,7 @@ def trainTestOnIPhone6Data():
     inputName = 'Day1_Part0'
     keyword = keyword.replace(' ', '_')
     trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
-    trainData = readTrainDataFromHDFS(fileName)
+    trainData = readTrainDataFromHDFS(trainDataFile)
     trainPairWiseData(trainData)
     
 def trainLocalDataTest():
