@@ -35,7 +35,7 @@ def trainIPhone6DataTest():
     #journey = readJourneyFromHDFS(journeyFile)
     #modulizedIds = getLabeledPairsWithModulizedIds(journey)
     #print_( modulizedIds['labeledPairs'].take(40))
-    #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
+    extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def trainLocalLG_G4DataTest(): 
     keyword = 'lg g4'
