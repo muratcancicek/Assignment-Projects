@@ -14,7 +14,7 @@ def getListedIdsFromJourney(journey):
     return getIdsFromSearches(searches)
 
 def getLoggedIds(journey, module):
-    interestingLogs = journey.filter(lambda log: log['module'] == module).sortBy(lambda log: log['timestemp'])
+    interestingLogs = journey.filter(lambda log: log['module'] == module).sortBy(lambda log: log['timestamp'])
     return interestingLogs.map(lambda log: (log['id']))
 
 def countIds(ids):
