@@ -263,8 +263,15 @@ def getInterestingCookiesFromKeyword(modules, keyword):
     return unique(interestingCookies)
 
 def getIdsFromSearches(searches):
+    def getIdsList(log):
+        if 'ids' in log.keys():
+            if log['ids'] != None:
+                return log['ids']
+            else:
+                return []
+        return []
     def extender(a, b): a.extend(b); return a
-    return searches.map(lambda log: log['ids']).reduce(extender)
+    return searches.map(getIdsList).reduce(extender)
 
 def getInterestingLogsFromKeyword(modules, keyword):
     searches = getLogsWhereValue(keyword, 'keyword', modules['search'])

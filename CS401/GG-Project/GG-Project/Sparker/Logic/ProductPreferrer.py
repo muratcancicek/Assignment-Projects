@@ -8,10 +8,7 @@ import Sparker.SparkLogProcesser.SparkLogAnalyzer as SLA
 
 def getListedIdsFromJourney(journey):
     searches = journey.filter(SLA.isSearchLog)
-    print_(searches.count())
-    def extender(a, b): a.extend(b); return a
-    ids = searches.map(lambda log: (log['ids'] if log['ids'] != None else []) if 'ids' in list(log.keys()) else []).reduce(extender)
-    return ids#sc_().parallelize().distinct()#unique()
+    return getIdsFromSearches(searches)#sc_().parallelize().distinct()#unique()
 
 def getLoggedIds(journey, module):
     interestingLogs = sortedLogs(journey.filter(lambda log: log['module'] == module))
@@ -21,26 +18,26 @@ def printActionsByModule(logs, module):
     printActions(logs.filter(lambda log: log['module'] == module))
 
 def summaryIds(ids):
-    print_('Listed counts =', len(['listed']), 'Paid counts =', ids['paid'].count(), 
-           'Cart counts =', ids['cart'].count(), 'Clicked counts =', ids['clicked'].count())# ids['listed'].count(), 
-    #print_(ids['paid'].collect())
-    #print_(ids['cart'].collect())
-    #print_(ids['clicked'].collect())
-
-def cleanIds(ids):
-    s = ids['listed']#.map(lambda id: (id, id))
-    #ids['paid'] = ids['paid'].filter(lambda l: l in s)
-    ids['cart'] = ids['cart'].subtractByKey(ids['paid'])
-    ids['clicked'] = ids['clicked'].subtractByKey(ids['paid']).subtractByKey(ids['cart'])
-    return ids 
-    #ids['paid'] = ids['paid'].filter(lambda l: l in s)
-    #ids['cart'] = ids['cart'].filter(lambda l: l in s).subtractByKey(ids['paid'])
-    #ids['clicked'] = ids['clicked'].filter(lambda l: l in s).subtractByKey(ids['paid']).subtractByKey(ids['cart'])
+    #print_(ids['listed'])
+    #print_(ids['paidCnt'].collect())
+    #print_(ids['cartCnt'].collect())
+    #print_(ids['clickedCnt'].collect())
+    print_('Listed counts =', len(ids['listed']), 'Paid counts =', ids['paidCnt'].count(), 
+           'Cart counts =', ids['cartCnt'].count(), 'Clicked counts =', ids['clickedCnt'].count())# ids['listed'].count(), 
+    
+def cleanCount(ids):
+    #ids['cartCnt'] = ids['cartCnt'].subtractByKey(ids['paidCnt'])
+    #ids['clickedCnt'] = ids['clickedCnt'].subtractByKey(ids['paidCnt']).subtractByKey(ids['cartCnt'])
     #return ids 
+    s = ids['listed']
+    ids['paidCnt'] = ids['paidCnt'].filter(lambda l: l[0] in s)
+    ids['cartCnt'] = ids['cartCnt'].filter(lambda l: l[0] in s).subtractByKey(ids['paidCnt'])
+    ids['clickedCnt'] = ids['clickedCnt'].filter(lambda l: l[0] in s).subtractByKey(ids['paidCnt']).subtractByKey(ids['cartCnt'])
+    return ids 
 
 def countIds(ids):
     for process in ['paid', 'cart', 'clicked']:
-        ids[process] =  sc_().parallelize(ids[process].countByValue().items())
+        ids[process+'Cnt'] =  sc_().parallelize(ids[process].countByValue().items())
     return ids
 
 def modulizeIds(journey):
@@ -53,7 +50,7 @@ def modulizeIds(journey):
     #summaryIds(ids)
     ids = countIds(ids)
     summaryIds(ids)
-    ids = cleanIds(ids)
+    ids = cleanCount(ids)
     summaryIds(ids)
     return ids
 
@@ -62,41 +59,44 @@ def keyPairIds(id1, id2):
 
 positive = 1
 negative = -1
-def labelByValues(v1, v2):
-    return positive if v1 >= v2 else negative
 
 def getLabeledPairsWithModulizedIds(journey):
     ids = modulizeIds(journey)
-    ids['paid'] = ids['paid'].collect()
-    ids['cart'] = ids['cart'].collect()
-    ids['clicked'] = ids['clicked'].collect()
+    paidCnt = ids['paidCnt'].collect()
+    cartCnt = ids['cartCnt'].collect()
+    clickedCnt = ids['clickedCnt'].collect()
     labeledPairs = {}
-    def addPairByValue(id1, id2, v1, v2): 
-        if id1 != id2:
-            labeledPairs[keyPairIds(id1, id2)] = labelByValues(v1, v2)
-            labeledPairs[keyPairIds(id2, id1)] = labelByValues(v2, v1)
 
     def addDominantPair(id1, id2): 
         if id1 != id2:
             labeledPairs[keyPairIds(id1, id2)] = positive
             labeledPairs[keyPairIds(id2, id1)] = negative
 
-    for paidId, pCount in ids['paid']:
-        for paidId2, pCount2 in ids['paid']:
+    def labelByValues(v1, v2):
+        return positive if v1 > v2 else negative
+
+    def addPairByValue(id1, id2, v1, v2): 
+        #if v1 == v2: return 
+        if id1 != id2:
+            labeledPairs[keyPairIds(id1, id2)] = labelByValues(v1, v2)
+            labeledPairs[keyPairIds(id2, id1)] = labelByValues(v2, v1)
+
+    for paidId, pCount in paidCnt:
+        for paidId2, pCount2 in paidCnt:
              addPairByValue(paidId, paidId2, pCount, pCount2)
-        for cartId, cartCount in ids['cart']:
+        for cartId, cartCount in cartCnt:
              addDominantPair(paidId, cartId)
-        for clickedId, clickedCount in ids['clicked']:
+        for clickedId, clickedCount in clickedCnt:
              addDominantPair(paidId, clickedId)
              
-    for cartId, cartCount in ids['cart']:
-        for cartId2, cartCount2 in ids['cart']:
+    for cartId, cartCount in cartCnt:
+        for cartId2, cartCount2 in cartCnt:
              addPairByValue(cartId, cartId2, cartCount, cartCount2)
-        for clickedId, clickedCount in ids['clicked']:
+        for clickedId, clickedCount in clickedCnt:
              addDominantPair(cartId, clickedId)
              
-    for clickedId, clickedCount in ids['clicked']:
-        for clickedId2, clickedCount2 in ids['clicked']:
+    for clickedId, clickedCount in clickedCnt:
+        for clickedId2, clickedCount2 in clickedCnt:
              addPairByValue(clickedId, clickedId2, clickedCount, clickedCount2)
     #labeledPairs.saveAsTextFile('hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/part0&1_iphone_6')
     ids['labeledPairs'] = sc_().parallelize([(key, v) for key, v in labeledPairs.items()])

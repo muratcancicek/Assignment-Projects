@@ -35,21 +35,6 @@ def gitPush(gitDir):
     origin.push()
     print('Pushed')
     sys.exit()
-
-gitDir = ''
-allLogsPath = ''
-if COMPUTERNAME == 'MSI': 
-    gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
-    allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
-    #gitPush(gitDir)
-elif COMPUTERNAME == 'LM-IST-00UBFVH8':
-    gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
-    allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
-else:
-    gitDir = '/root/Projects/Assignment-Projects'
-    gitPull(gitDir)
-    allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
-    hdfsOutputFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/'
     
 dataFolder = getAbsolutePath('data')
 #if COMPUTERNAME == 'osldevptst02':
@@ -66,7 +51,23 @@ commonFolder = joinPath(productToPointFolder, 'common') + os.path.sep
 specsFolder = joinPath(productToPointFolder, 'specs') + os.path.sep
 
 sparkFolder = joinPath(dataFolder, 'spark') + os.path.sep
-#hdfsOutputFolder = sparkFolder
+
+Day1_iPhone_6_DataFolder = joinPath(sparkFolder, 'Day1_iPhone_6_Data')
+Day1_lg_g4_DataFolder = joinPath(sparkFolder, 'Day1_lg_g4_Data')
+gitDir = ''
+allLogsPath = ''
+if COMPUTERNAME == 'MSI': 
+    gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
+    allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
+    #gitPush(gitDir)
+elif COMPUTERNAME == 'LM-IST-00UBFVH8':
+    gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
+    allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
+else:
+    gitDir = '/root/Projects/Assignment-Projects'
+    gitPull(gitDir)
+    allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
+    Day1_iPhone_6_DataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data'
     
 entireDay1 = '2016-09-27'
 entireDay2 = '2016-09-28'    

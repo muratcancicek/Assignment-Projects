@@ -37,10 +37,16 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainSrc\__init__.py" />
+    <Compile Include="Sparker\Logic\FakeProductGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Sparker\Logic\LogicTests.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Sparker\Logic\ProductPreferrer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sparker\Logic\Trainer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Sparker\Logic\__init__.py" />
@@ -221,6 +227,7 @@
     <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.xlsx" />
     <Content Include="data\spark\usps-4-9-test.csv" />
     <Content Include="data\spark\usps-4-9-train.csv" />
+    <Content Include="notes.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />

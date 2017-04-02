@@ -99,9 +99,6 @@ def merge2016_09_27_iphone_6():
         print_(filePath)
         logs = logs.union(readParsedLogs(filePath))
     logs.saveAsTextFile(joinPath(sparkFolder, '2016-09-27_iphone_6'))
-    
-def load2016_09_27_iphone_6():
-    return sc_().textFile(joinPath(sparkFolder, '2016-09-27_iphone_6\\part-00151')).map(eval)
 
 evalCounter = 0
 def evalLog(logText):
@@ -112,13 +109,12 @@ def evalLog(logText):
         print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
     return log
 
-def readJourneyFromHDFS(fileName):
-    print_(fileName)
+def readJourneyFromHDFS(fileName): 
     journey = sc_().textFile(fileName)
     global evalCounter 
     evalCounter = 0
     journey = journey.map(evalLog)
-    print_(fileName, ' has been read as journey by', nowStr())
+    print_(fileName, 'has been read as journey by', nowStr())
     return journey
 
 evalCounterForProducts = 0
@@ -136,3 +132,13 @@ def readProductsFromHDFS(fileName = None):
     products = sc_().textFile(fileName)
     products = products.map(evalProduct)
     return products
+
+def readLabeledIdsFromHDFS(fileName):
+    labeledPairs = sc_().textFile(fileName)
+    labeledPairs = labeledPairs.map(eval)
+    ids = labeledPairs.map(lambda x: x[0].split('_'))
+    def extender(a, b): a.extend(b); return a
+    ids = unique(ids.reduce(extender))
+    #print_(labeledPairs.count())
+    #print_(len(ids))
+    return labeledPairs, [int(id) for id in ids]

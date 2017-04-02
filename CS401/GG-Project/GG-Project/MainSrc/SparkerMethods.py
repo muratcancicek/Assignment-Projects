@@ -41,6 +41,4 @@ def runSparkLogOperatorTests(logs):
 def run(): 
     sc = SparkContext() 
     setSparkContext(sc)
-    #getIdsTest(None)
-    #extractJourneyLogsFromDay()
-    extractLabeledPairsFromJourney()
+    trainLocalDataTest()
