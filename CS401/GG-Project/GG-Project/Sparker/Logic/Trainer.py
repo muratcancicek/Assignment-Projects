@@ -5,7 +5,7 @@ from Sparker.MLlibTests.MlLibHelper import *
 def getProducts(ids, fileName = None):
     products = readProductsFromHDFS(fileName)
     products = products.filter(lambda x: x[0] in ids).map(lambda x: (x[0], DenseVector(x[1:])))
-    print_(products.count(), 'products has been found to train by', nowStr())
+    print_(products.count(), 'products has been found in database to train by', nowStr())
     return products
 
 def generateTrainData(labeledPairs, products):
