@@ -21,12 +21,10 @@ def countIds(ids):
     for process in ['paid', 'cart', 'clicked']:
         ids[process+'Cnt'] =  sc_().parallelize(ids[process].countByValue().items())
     ids['listedCnt'] = sc_().parallelize(sc_().parallelize([id for id in ids['listed']]).countByValue().items())
-    #    ids[process+'Cnt'] =  sc_().parallelize(ids[process].map(lambda log: (log, 1)).countByKey().items())
-    #ids['listedCnt'] = sc_().parallelize([(id) for id in ids['listed']]).countByKey().items()
     return ids
 
 def summaryIds(ids):
-    print_('Listed counts =', len(ids['listed']), 'Paid counts =', ids['paidCnt'].count(), 
+    print_('Listed counts =', len(ids['listedCnt']), 'Paid counts =', ids['paidCnt'].count(), 
            'Cart counts =', ids['cartCnt'].count(), 'Clicked counts =', ids['clickedCnt'].count())
     
 def cleanCount(ids):
@@ -75,30 +73,35 @@ def getLabeledPairsWithModulizedIds(journey):
         return positive if v1 > v2 else negative
 
     def labelBySubValues(id1, id2, level):
-        if level == len(levels):
-            v1 = clickedIds.index(id1)
-            v2 = clickedIds.index(id2)
-            addPairByValue(id1, id2, v1, v2, level)
+        if id1 == id2: 
             return
-        cnts = levels[level]  
-        v1, v2 = None, None
-        for id, v in cnts:
-            if id == id1: v1 = v
-            if id == id2: v2 = v
-        if v1 == None:
-            if v2 == None:
-                labelBySubValues(id1, id2, level + 1)
-            else:   
-                addPairByValue(id1, id2, -1, v2, level)
-        elif v2 == None:
-            addPairByValue(id1, id2, v1, -1, level)
+        elif level == len(levels):
+            v1 = clickedIds.index(id1) if id1 in clickedIds else -1
+            v2 = clickedIds.index(id2) if id1 in clickedIds else -1
+            if v1 == v2:
+                addDominantPair(id1, id2)
+            else:
+                addPairByValue(id1, id2, v1, v2, level)
         else:
-            addPairByValue(id1, id2, v1, v2, level)
+            cnts = levels[level]  
+            v1, v2 = None, None
+            for id, v in cnts:
+                if id == id1: v1 = v
+                if id == id2: v2 = v
+            if v1 == None:
+                if v2 == None:
+                    labelBySubValues(id1, id2, level + 1)
+                else:   
+                    addPairByValue(id1, id2, -1, v2, level)
+            elif v2 == None:
+                addPairByValue(id1, id2, v1, -1, level)
+            else:
+                addPairByValue(id1, id2, v1, v2, level)
 
-    def addPairByValue(id1, id2, v1, v2, level): 
-        if v1 == v2: 
-            labelBySubValues(id1, id2, level + 1)
-        if id1 != id2:
+    def addPairByValue(id1, id2, v1, v2, level):
+        if id1 != id2: 
+            if v1 == v2: 
+                labelBySubValues(id1, id2, level + 1)
             labeledPairs[keyPairIds(id1, id2)] = labelByValues(v1, v2)
             labeledPairs[keyPairIds(id2, id1)] = labelByValues(v2, v1)
 
