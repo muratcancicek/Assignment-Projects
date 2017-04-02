@@ -143,3 +143,7 @@ def readLabeledIdsFromHDFS(fileName):
     #print_(labeledPairs.count())
     #print_(len(ids))
     return labeledPairs, [int(id) for id in ids]
+
+def readTrainDataFromHDFS(fileName):
+    trainData = sc_().textFile(fileName)
+    return trainData.map(eval).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1])) 

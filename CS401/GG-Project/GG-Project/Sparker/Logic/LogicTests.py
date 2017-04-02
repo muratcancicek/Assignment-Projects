@@ -25,7 +25,7 @@ def testAlgorithm():
     ## sc_().textFile(joinPath(sparkFolder, 'sampleProducts'))
     print_(logs.count(), 'Logs have been read and parsed on', nowStr())
 
-def trainIPhone6DataTest():  
+def trainIPhone6DataGenerationTest(): 
     keyword = 'iphone 6'
     inputName = 'Day1_Part0'
     outputFolder = Day1_iPhone_6_DataFolder
@@ -60,6 +60,14 @@ def trainLocalLG_G4DataTest():
     journeyFile = joinPath(outputFolder, 'lg_g4_journey')
     productsFile = joinPath(sparkFolder, 'sampleProducts')
     extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
+
+def trainTestOnIPhone6Data():  
+    keyword = 'iphone 6'
+    inputName = 'Day1_Part0'
+    keyword = keyword.replace(' ', '_')
+    trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
+    trainData = readTrainDataFromHDFS(fileName)
+    trainPairWiseData(trainData)
     
 def trainLocalDataTest():
-    trainIPhone6DataTest()
+    trainTestOnIPhone6Data()

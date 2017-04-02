@@ -44,10 +44,6 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
     print_(trainDataFile, 'has been saved successfully by', nowStr())
     return trainData
 
-def getTrainData(fileName):
-    trainData = sc_().textFile(fileName)
-    return trainData.map(eval).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1])) 
-
 def trainPairWiseData(data):
     # Build the model
     model = SVMWithSGD.train(data, iterations=100)
