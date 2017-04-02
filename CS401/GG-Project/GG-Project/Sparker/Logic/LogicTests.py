@@ -45,7 +45,7 @@ def trainIPhone6DataTest():
     #products = getProducts(modulizedIds['listed'], productsFile)
     journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
     products = readProductsFromHDFS(joinPath(outputFolder, journeyProductsFile))
-    print_(products.first())
+    print_(type(products.first()), products.first())
     print_(products.count(), 'products have been read successfully by', nowStr())
     trainData = generateTrainData(modulizedIds['labeledPairs'], products)
     trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
