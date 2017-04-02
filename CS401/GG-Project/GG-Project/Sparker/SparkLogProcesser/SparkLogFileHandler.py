@@ -2,6 +2,7 @@ from MainSrc.PythonVersionHandler import *
 from paths import *
 from LogProcesser.JsonIO import *
 from . import SparkLogReader as LogReader
+from Sparker.MLlibTests.MlLibHelper import DenseVector
 
 TEST_LOGS_FILE = 'part-r-00000'
 TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'
