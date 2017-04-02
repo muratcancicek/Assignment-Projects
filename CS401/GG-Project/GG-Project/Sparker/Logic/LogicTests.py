@@ -30,11 +30,11 @@ def trainIPhone6DataTest():
     inputName = 'Day1_Part0'
     outputFolder = Day1_iPhone_6_DataFolder
     journeyFile = joinPath(outputFolder, 'iphone_6_part0_journey')
-    productsFile = joinPath(sparkFolder, 'sampleProducts')
-    #productsFile = None\\part-00045
-    journey = readJourneyFromHDFS(journeyFile)
-    modulizedIds = getLabeledPairsWithModulizedIds(journey)
-    print_( modulizedIds['labeledPairs'].take(40))
+    #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
+    productsFile = None
+    #journey = readJourneyFromHDFS(journeyFile)
+    #modulizedIds = getLabeledPairsWithModulizedIds(journey)
+    #print_( modulizedIds['labeledPairs'].take(40))
     #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def trainLocalLG_G4DataTest(): 
