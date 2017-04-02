@@ -1,6 +1,5 @@
 
 cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
-cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 
 sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
 sshpass -p 'eBay@2017' ssh miek@10.200.133.227
@@ -24,4 +23,5 @@ export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip
 
 git reset --hard
 git pull
+cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 python runGG_Project.py
