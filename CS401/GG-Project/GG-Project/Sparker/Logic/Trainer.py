@@ -52,4 +52,4 @@ def trainPairWiseData(data):
     trainErr = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count() / float(data.count())
     print_('\nAccuracy = ' + str(trainErr))
     print_('\nFirst weights = ' + str(model.weights) + '\n')
-    return productTuples
+    return model
