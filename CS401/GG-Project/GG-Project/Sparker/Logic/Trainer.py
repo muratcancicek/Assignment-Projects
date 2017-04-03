@@ -56,8 +56,8 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     truePredictionCount = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count()
     instanceCount = data.count()
     accuracy = 100 * truePredictionCount / float(instanceCount)
-    print_('\n', modelName, 'has been evaluated on', dataName, 'by', nowStr())
-    print_('The result accuracy is %' + '%.3f' % (accuracy))
+    print_('\n'+modelName, 'has been evaluated on', dataName, 'by', nowStr())
+    print_('The result accuracy is %' + '%.3f\n' % (accuracy))
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     model = SVMWithSGD.train(data, iterations=100)
