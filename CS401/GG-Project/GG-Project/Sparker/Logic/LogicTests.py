@@ -79,7 +79,7 @@ def trainTestOnIPhone6Data():
     
 def extractJourneyLogsFromDay0():
     keyword = 'iphone 6'
-    logsFile = entireDayRawLogsfolder1 + '/ part-r-00001.gz'
+    logsFile = entireDayRawLogsfolder1 + '/part-r-00001.gz'
     journeyFile = 'iphone_6_part1_journey'
     extractJourneyLogsFromDay(keyword, logsFile, journeyFile)
 
