@@ -34,29 +34,29 @@ def trainIPhone6DataGenerationTest():
     #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
     #productsFile = None
 
-    journey = readJourneyFromHDFS(journeyFile)
-    modulizedIds = getLabeledPairsWithModulizedIds(journey)
-    labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
+    #journey = readJourneyFromHDFS(journeyFile)
+    #modulizedIds = getLabeledPairsWithModulizedIds(journey)
+    #labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
+    #modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
 
     #print_( modulizedIds['labeledPairs'].take(40))
-    #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
+    extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
     
-    labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    modulizedIds = {}
-    modulizedIds['labeledPairs'] = readLabeledIdsFromHDFS(joinPath(outputFolder, labeledPairsFile))
-    print_(modulizedIds['labeledPairs'].count(), 'labeledPairs have been read successfully by', nowStr())
-    ##products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile)), modulizedIds['listed'] 
-    ##products = getProducts(modulizedIds['listed'], productsFile)
-    journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
-    products = readProductsFromHDFS(joinPath(outputFolder, journeyProductsFile))
-    #print_(type(products.first()), products.first())
-    print_(products.count(), 'products have been read successfully by', nowStr())
-    trainData = generateTrainData(modulizedIds['labeledPairs'], products)
-    trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
-    trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
-    print_(trainDataFile, 'has been saved successfully by', nowStr())
-    return trainData
+    #labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
+    #modulizedIds = {}
+    #modulizedIds['labeledPairs'] = readLabeledIdsFromHDFS(joinPath(outputFolder, labeledPairsFile))
+    #print_(modulizedIds['labeledPairs'].count(), 'labeledPairs have been read successfully by', nowStr())
+    ###products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile)), modulizedIds['listed'] 
+    ###products = getProducts(modulizedIds['listed'], productsFile)
+    #journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
+    #products = readProductsFromHDFS(joinPath(outputFolder, journeyProductsFile))
+    ##print_(type(products.first()), products.first())
+    #print_(products.count(), 'products have been read successfully by', nowStr())
+    #trainData = generateTrainData(modulizedIds['labeledPairs'], products)
+    #trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
+    #trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
+    #print_(trainDataFile, 'has been saved successfully by', nowStr())
+    #return trainData
 
 def trainLocalLG_G4DataTest(): 
     keyword = 'lg g4'
@@ -68,7 +68,7 @@ def trainLocalLG_G4DataTest():
 
 def trainTestOnIPhone6Data():  
     keyword = 'iphone 6'
-    inputName = 'Day1_Part0'
+    inputName = 'train'
     keyword = keyword.replace(' ', '_')
     trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
     trainData = readTrainDataFromHDFS(joinPath(Day1_iPhone_6_DataFolder, trainDataFile))
