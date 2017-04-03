@@ -31,7 +31,7 @@ def extractJourneyLogsFromDay(keyword, logsFile, journeyFile):
     journey = getJourneyByKeyword(logs, keyword)
     print_(journey.count(), 'Logs have been extracted for ' + keyword + ' journeys by', nowStr())
     journey.saveAsTextFile(journeyFile)
-    print_(keyword, 'journey has been saved successfully by', nowStr())
+    print_(journeyFile, 'as', keyword, 'journey has been saved successfully by', nowStr())
     return journey
 
 def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder):
