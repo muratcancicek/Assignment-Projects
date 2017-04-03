@@ -55,8 +55,10 @@ def trainTestOnIPhone6Data():
     trainData = readTestingTrainData(inputName = 'train')
     testData = readTestingTrainData(inputName = 'test')
     modelName = 'Model_v04'
+    modelPath = joinPath(Day1_iPhone_6_DataFolder, modelName)
     model = trainPairWiseData(trainData, 'trainData', modelName)
-    model.save(sc_(), joinPath(Day1_iPhone_6_DataFolder, modelName))
+    model.save(sc_(), modelPath)
+    print_(modelPath, 'has been saved successfully by', nowStr())
     evaluateModelOnData(model, testData, 'testData')
     
 def extractJourneyLogsFromDay0(part):
