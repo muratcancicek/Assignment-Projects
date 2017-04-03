@@ -32,31 +32,7 @@ def trainIPhone6DataGenerationTest():
     outputFolder = Day1_iPhone_6_DataFolder
     journeyFile = joinPath(outputFolder, 'iphone_6_test_journey')
     productsFile = None
-    #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
-
-    #journey = readJourneyFromHDFS(journeyFile)
-    #modulizedIds = getLabeledPairsWithModulizedIds(journey)
-    #labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    #modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
-
-    #print_( modulizedIds['labeledPairs'].take(40))
-    extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
-    
-    #labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    #modulizedIds = {}
-    #modulizedIds['labeledPairs'] = readLabeledIdsFromHDFS(joinPath(outputFolder, labeledPairsFile))
-    #print_(modulizedIds['labeledPairs'].count(), 'labeledPairs have been read successfully by', nowStr())
-    ###products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile)), modulizedIds['listed'] 
-    ###products = getProducts(modulizedIds['listed'], productsFile)
-    #journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
-    #products = readProductsFromHDFS(joinPath(outputFolder, journeyProductsFile))
-    ##print_(type(products.first()), products.first())
-    #print_(products.count(), 'products have been read successfully by', nowStr())
-    #trainData = generateTrainData(modulizedIds['labeledPairs'], products)
-    #trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
-    #trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
-    #print_(trainDataFile, 'has been saved successfully by', nowStr())
-    #return trainData
+    return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def trainLocalLG_G4DataTest(): 
     keyword = 'lg g4'
@@ -66,16 +42,22 @@ def trainLocalLG_G4DataTest():
     productsFile = joinPath(sparkFolder, 'sampleProducts')
     extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
-def trainTestOnIPhone6Data():  
-    keyword = 'iphone 6'
-    inputName = 'train'
+def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
     keyword = keyword.replace(' ', '_')
-    trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
+    trainDataFile = inputName + '_' + keyword + '_TrainData'
     trainData = readTrainDataFromHDFS(joinPath(Day1_iPhone_6_DataFolder, trainDataFile))
-    print_(type(trainData.first()), trainData.first())
+    #print_(type(trainData.first()), trainData.first())
     trainData = scaleTrainData(trainData)
-    print_(type(trainData.first()), trainData.first())
-    trainPairWiseData(trainData)
+    #print_(type(trainData.first()), trainData.first())
+    return trainData
+
+def trainTestOnIPhone6Data():  
+    trainData = readTestingTrainData(inputName = 'train')
+    testData = readTestingTrainData(inputName = 'test')
+    modelName = 'Model_v04'
+    model = trainPairWiseData(trainData, 'trainData', modelName)
+    model.save(sc_(), joinPath(Day1_iPhone_6_DataFolder, modelName))
+    evaluateModelOnData(model, testData, 'testData')
     
 def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'
