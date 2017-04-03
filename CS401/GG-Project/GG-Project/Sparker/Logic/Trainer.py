@@ -55,12 +55,12 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     labelsAndPreds = data.map(lambda p: (p.label, model.predict(p.features)))
     trainErr = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count() / float(data.count())
     print_('\n', modelName, 'has been evaluated on', dataName, 'by', nowStr())
-    print_('The result accuracy is %.3f.' % (str(trainErr*10)))
+    print_('The result accuracy is %.3f.' % (trainErr*10))
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     model = SVMWithSGD.train(data, iterations=100)
     print_('\n', modelName, 'has been trained on', dataName, 'by', nowStr())
-    print_('The learned weights:\n' + str(model.weights) + '\n')
+    print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
     if evaluate:
         evaluateModelOnData(model, data, dataName, modelName)
     return model
