@@ -28,9 +28,9 @@ def testAlgorithm():
 def trainIPhone6DataGenerationTest(): 
     keyword = 'iphone 6'
     keyword = keyword.replace(' ', '_')
-    inputName = 'train'
+    inputName = 'test'
     outputFolder = Day1_iPhone_6_DataFolder
-    journeyFile = joinPath(outputFolder, 'iphone_6_train_journey')
+    journeyFile = joinPath(outputFolder, 'iphone_6_test_journey')
     productsFile = None
     #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
 

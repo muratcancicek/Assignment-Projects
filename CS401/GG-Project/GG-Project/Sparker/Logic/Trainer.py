@@ -39,14 +39,14 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
     journey = readJourneyFromHDFS(journeyFile)
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
     labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    #modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
+    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
     print_(labeledPairsFile, 'have been saved successfully by', nowStr())
     products = getProducts(modulizedIds['listed'], productsFile)
     journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
     products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile))
     print_(journeyProductsFile, 'have been saved successfully by', nowStr())
     trainData = generateTrainData(modulizedIds['labeledPairs'], products)
-    trainDataFile = inputName + '_' + keyword + '_' + '_TrainData'
+    trainDataFile = inputName + '_' + keyword + '_TrainData'
     trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
     print_(trainDataFile, 'has been saved successfully by', nowStr())
     return trainData
