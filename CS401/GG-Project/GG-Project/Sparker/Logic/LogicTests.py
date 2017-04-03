@@ -80,6 +80,7 @@ def trainTestOnIPhone6Data():
 def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'
     logsFile = joinPath(entireDayRawLogsfolder1, 'part-r-0000' + str(part) + '.gz')
+    outputFolder = Day1_iPhone_6_DataFolder
     journeyFile = joinPath(outputFolder, 'iphone_6_part' + str(part) + '_journey')
     extractJourneyLogsFromDay(keyword, logsFile, journeyFile)
 
