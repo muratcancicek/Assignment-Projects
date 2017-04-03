@@ -31,8 +31,8 @@ def trainIPhone6DataGenerationTest():
     inputName = 'train'
     outputFolder = Day1_iPhone_6_DataFolder
     journeyFile = joinPath(outputFolder, 'iphone_6_train_journey')
+    productsFile = None
     #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
-    #productsFile = None
 
     #journey = readJourneyFromHDFS(journeyFile)
     #modulizedIds = getLabeledPairsWithModulizedIds(journey)
