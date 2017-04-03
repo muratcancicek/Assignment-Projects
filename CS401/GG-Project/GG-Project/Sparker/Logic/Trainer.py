@@ -22,7 +22,7 @@ def scaleTrainData(data):
     label = data.map(lambda x: x.label)
     features = data.map(lambda x: x.features)
     scaler = StandardScaler(withMean=True, withStd=True).fit(features)
-    return label.zip(scaler.transform(features.map(lambda x: Vectors.dense(x.toArray()))))
+    return label.zip(scaler.transform(features.map(lambda x: Vectors.dense(x.toArray())))).map(lambda x: LabeledPoint(x[0], x[1]))
 
 
 def extractJourneyLogsFromDay(keyword, logsFile, journeyFile):
