@@ -142,7 +142,7 @@ def readLabeledIdsFromHDFS(fileName):
     ids = unique(ids.reduce(extender))
     #print_(labeledPairs.count())
     #print_(len(ids))
-    return labeledPairs, [int(id) for id in ids]
+    return labeledPairs, unique([int(id) for id in ids])
 
 def readTrainDataFromHDFS(fileName):
     trainData = sc_().textFile(fileName)
