@@ -29,7 +29,7 @@ def extractJourneyLogsFromDay(keyword, logsFile, journeyFile):
     logs = getLogs(None, logsFile)
     print_(logs.count(), 'Logs have been read successfully by', nowStr())
     journey = getJourneyByKeyword(logs, keyword)
-    print_(journey.count(), 'Log have been extracted for ' + keyword + ' journeys by', nowStr())
+    print_(journey.count(), 'Logs have been extracted for ' + keyword + ' journeys by', nowStr())
     journey.saveAsTextFile(journeyFile)
     print_(keyword, 'journey has been saved successfully by', nowStr())
     return journey
