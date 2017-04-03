@@ -71,10 +71,40 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-25/part
 16000000 logs have been parsed by 2017-04-03 18:14:55.794036 
 17000000 logs have been parsed by 2017-04-03 18:18:08.807002 
 18000000 logs have been parsed by 2017-04-03 18:21:21.150839 
-
 1342 Logs have been extracted for iphone 6 journeys by 2017-04-03 18:47:39.516222 
 iphone 6 journey has been saved successfully by 2017-04-03 18:47:40.184983 
 2017-04-03 18:47:40.185174: DONE 
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+[root@osldevptst02 GG-Project]# python runGG_Project.py 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-03 19:45:46.509401: Running on osldevptst02... 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-25/part-r-00003.gz has been read successfully. 
+1000000 logs have been parsed by 2017-04-03 19:53:11.351171 
+2000000 logs have been parsed by 2017-04-03 19:56:22.666100 
+3000000 logs have been parsed by 2017-04-03 19:59:35.058747 
+1482397 Logs have been read successfully by 2017-04-03 20:00:01.133790 
+4000000 logs have been parsed by 2017-04-03 20:04:05.333835 
+5000000 logs have been parsed by 2017-04-03 20:07:16.815744 
+6000000 logs have been parsed by 2017-04-03 20:10:29.230755 
+7000000 logs have been parsed by 2017-04-03 20:15:18.422467 
+8000000 logs have been parsed by 2017-04-03 20:18:30.948469 
+9000000 logs have been parsed by 2017-04-03 20:21:43.538332 
+10000000 logs have been parsed by 2017-04-03 20:26:13.582753 
+11000000 logs have been parsed by 2017-04-03 20:29:25.107136 
+12000000 logs have been parsed by 2017-04-03 20:32:38.232725 
+13000000 logs have been parsed by 2017-04-03 20:37:36.415006                    
+14000000 logs have been parsed by 2017-04-03 20:40:49.576457 
+15000000 logs have been parsed by 2017-04-03 20:43:57.575427 
+16000000 logs have been parsed by 2017-04-03 20:48:36.878104 
+17000000 logs have been parsed by 2017-04-03 20:51:49.722303 
+18000000 logs have been parsed by 2017-04-03 20:55:02.977538 
+1114 Logs have been extracted for iphone 6 journeys by 2017-04-03 21:21:25.484346 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/iphone_6_part3_journey as iphone 6 journey has been saved successfully by 2017-04-03 21:21:26.174534 
+2017-04-03 21:21:26.174751: DONE 
+######################################################################################## 
+######################################################################################## 
+########################################################################################

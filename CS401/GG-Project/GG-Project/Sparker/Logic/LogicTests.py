@@ -87,4 +87,4 @@ def extractJourneyLogsFromDay0(part):
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
     #trainTestOnIPhone6Data()
-    extractJourneyLogsFromDay0(3)
+    extractJourneyLogsFromDay0(4)
