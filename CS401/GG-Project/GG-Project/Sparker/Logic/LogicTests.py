@@ -28,9 +28,9 @@ def testAlgorithm():
 def trainIPhone6DataGenerationTest(): 
     keyword = 'iphone 6'
     keyword = keyword.replace(' ', '_')
-    inputName = 'Day1_Part0'
+    inputName = 'train'
     outputFolder = Day1_iPhone_6_DataFolder
-    journeyFile = joinPath(outputFolder, 'iphone_6_part0_journey')
+    journeyFile = joinPath(outputFolder, 'iphone_6_train_journey')
     #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
     #productsFile = None
 
@@ -91,8 +91,9 @@ def mergeJourneys(outputFolder = Day1_iPhone_6_DataFolder):
         journey = readJourneyFromHDFS(journeyFile)
         print_('%i logs have been parsed by %s' % (journey.count(), nowStr()))
         mergedJourney = mergedJourney.union(journey)
-    print_('%i logs have been merged by %s' % (mergedJourney.count(), nowStr()))
-    mergedJourneyFile = joinPath(outputFolder, 'iphone_6_train_journey')
+    fileName = 'iphone_6_train_journey'
+    print_('%i logs have been merged and saved into %s by %s' % (mergedJourney.count(), fileName, nowStr()))
+    mergedJourneyFile = joinPath(outputFolder, fileName)
     mergedJourney.saveAsTextFile(mergedJourneyFile)
 
 def trainLocalDataTest():

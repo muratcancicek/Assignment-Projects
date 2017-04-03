@@ -108,3 +108,22 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data
 ######################################################################################## 
 ######################################################################################## 
 ########################################################################################
+[root@osldevptst02 GG-Project]# python runGG_Project.py
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-03 23:22:30.095101: Running on osldevptst02... 
+17/04/03 23:22:33 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/iphone_6_part0_journey has been read as journey by 2017-04-03 23:22:35.252627 
+1337 logs have been parsed by 2017-04-03 23:22:38.659484                        
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/iphone_6_part1_journey has been read as journey by 2017-04-03 23:22:38.815332 
+1296 logs have been parsed by 2017-04-03 23:22:39.013294 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/iphone_6_part2_journey has been read as journey by 2017-04-03 23:22:39.097706 
+1342 logs have been parsed by 2017-04-03 23:22:39.301485 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/iphone_6_part3_journey has been read as journey by 2017-04-03 23:22:39.379218 
+1114 logs have been parsed by 2017-04-03 23:22:39.563399 
+5089 logs have been merged into iphone_6_train_journey by 2017-04-03 23:22:42.074060                        
+2017-04-03 23:22:44.310333: DONE                                                
+######################################################################################## 
+######################################################################################## 
+########################################################################################
