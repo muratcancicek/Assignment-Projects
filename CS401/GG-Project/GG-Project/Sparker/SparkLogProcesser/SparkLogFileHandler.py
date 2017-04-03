@@ -137,12 +137,12 @@ def readProductsFromHDFS(fileName = None):
 def readLabeledIdsFromHDFS(fileName):
     labeledPairs = sc_().textFile(fileName)
     labeledPairs = labeledPairs.map(eval)
-    ids = labeledPairs.map(lambda x: x[0].split('_'))
-    def extender(a, b): a.extend(b); return a
-    ids = list(set(ids.reduce(extender)))
+    #ids = labeledPairs.map(lambda x: x[0].split('_'))
+    #def extender(a, b): a.extend(b); return a
+    #ids = list(set(ids.reduce(extender)))
     #print_(labeledPairs.count())
     #print_(len(ids))
-    return labeledPairs, [int(id) for id in ids]
+    return labeledPairs#, [int(id) for id in ids]
 
 def readTrainDataFromHDFS(fileName):
     trainData = sc_().textFile(fileName)

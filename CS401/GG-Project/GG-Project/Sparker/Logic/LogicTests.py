@@ -27,6 +27,7 @@ def testAlgorithm():
 
 def trainIPhone6DataGenerationTest(): 
     keyword = 'iphone 6'
+    keyword = keyword.replace(' ', '_')
     inputName = 'Day1_Part0'
     outputFolder = Day1_iPhone_6_DataFolder
     journeyFile = joinPath(outputFolder, 'iphone_6_part0_journey')
@@ -41,12 +42,11 @@ def trainIPhone6DataGenerationTest():
     #print_( modulizedIds['labeledPairs'].take(40))
     #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
     
-    keyword = keyword.replace(' ', '_')
     labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
     modulizedIds = {}
-    modulizedIds['labeledPairs'], modulizedIds['listed'] = readLabeledIdsFromHDFS(joinPath(outputFolder, labeledPairsFile))
+    modulizedIds['labeledPairs'] = readLabeledIdsFromHDFS(joinPath(outputFolder, labeledPairsFile))
     print_(modulizedIds['labeledPairs'].count(), 'labeledPairs have been read successfully by', nowStr())
-    ##products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile))
+    ##products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile)), modulizedIds['listed'] 
     ##products = getProducts(modulizedIds['listed'], productsFile)
     journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
     products = readProductsFromHDFS(joinPath(outputFolder, journeyProductsFile))
