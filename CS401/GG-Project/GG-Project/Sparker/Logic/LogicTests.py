@@ -34,10 +34,10 @@ def trainIPhone6DataGenerationTest():
     #productsFile = joinPath(sparkFolder, 'sampleProducts')\\part-00045
     #productsFile = None
 
-    #journey = readJourneyFromHDFS(journeyFile)
-    #modulizedIds = getLabeledPairsWithModulizedIds(journey)
-    #labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    #modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
+    journey = readJourneyFromHDFS(journeyFile)
+    modulizedIds = getLabeledPairsWithModulizedIds(journey)
+    labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
+    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
 
     #print_( modulizedIds['labeledPairs'].take(40))
     #extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
