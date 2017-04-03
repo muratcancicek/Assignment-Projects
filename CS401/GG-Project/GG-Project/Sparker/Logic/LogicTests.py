@@ -77,13 +77,13 @@ def trainTestOnIPhone6Data():
     print_(type(trainData.first()), trainData.first())
     trainPairWiseData(trainData)
     
-def extractJourneyLogsFromDay0():
+def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'
-    logsFile = entireDayRawLogsfolder1 + '/part-r-00001.gz'
-    journeyFile = 'iphone_6_part1_journey'
+    logsFile = joinPath(entireDayRawLogsfolder1, 'part-r-0000' + str(part) + '.gz')
+    journeyFile = joinPath(outputFolder, 'iphone_6_part' + str(part) + '_journey')
     extractJourneyLogsFromDay(keyword, logsFile, journeyFile)
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
     #trainTestOnIPhone6Data()
-    extractJourneyLogsFromDay0()
+    extractJourneyLogsFromDay0(2)
