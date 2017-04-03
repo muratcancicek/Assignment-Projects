@@ -84,7 +84,19 @@ def extractJourneyLogsFromDay0(part):
     journeyFile = joinPath(outputFolder, 'iphone_6_part' + str(part) + '_journey')
     extractJourneyLogsFromDay(keyword, logsFile, journeyFile)
 
+def mergeJourneys():
+    mergedJourney = sc_().emptyRDD()
+    for part in range(4):
+        journeyFile = joinPath(outputFolder, 'iphone_6_part' + str(part) + '_journey')
+        journey = readJourneyFromHDFS(journeyFile)
+        print_('%i logs have been parsed by %s' % (journey.count(), nowStr()))
+        mergedJourney.union(journey)
+    print_('%i logs have been merged by %s' % (mergeJourneys.count(), nowStr()))
+    mergedJourneyFile = joinPath(outputFolder, 'iphone_6_train_journey')
+    mergedJourney.saveAsTextFile(mergedJourneyFile)
+
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
     #trainTestOnIPhone6Data()
-    extractJourneyLogsFromDay0(4)
+    #extractJourneyLogsFromDay0(4)
+    mergeJourneys()
