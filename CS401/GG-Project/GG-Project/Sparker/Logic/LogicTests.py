@@ -79,7 +79,7 @@ def mergeJourneys(outputFolder = Day1_iPhone_6_DataFolder):
     mergedJourney.saveAsTextFile(mergedJourneyFile)
 
 def trainLocalDataTest():
-    trainIPhone6DataGenerationTest()
-    #trainTestOnIPhone6Data()
+    #trainIPhone6DataGenerationTest()
+    trainTestOnIPhone6Data()
     #extractJourneyLogsFromDay0(4)
     #mergeJourneys()
