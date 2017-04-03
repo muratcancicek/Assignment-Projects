@@ -39,7 +39,7 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
     journey = readJourneyFromHDFS(journeyFile)
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
     labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
+    #modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
     print_(labeledPairsFile, 'have been saved successfully by', nowStr())
     products = getProducts(modulizedIds['listed'], productsFile)
     journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'

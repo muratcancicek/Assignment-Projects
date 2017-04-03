@@ -19,8 +19,9 @@ def joinPath(*args):
 def getAbsolutePath(fileName):
     script_dir = os.path.dirname(__file__) 
     return joinPath(script_dir, fileName)
-
+pulled = False
 def gitPull(gitDir):   
+    if pulled: return
     g = git.cmd.Git(gitDir)
     g.pull()
     
