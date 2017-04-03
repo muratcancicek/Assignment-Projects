@@ -4,6 +4,7 @@ from pyspark.mllib.classification import LogisticRegressionWithLBFGS, LogisticRe
 from pyspark.mllib.regression import LabeledPoint, LinearRegressionWithSGD
 from MainSrc.PythonVersionHandler import *
 from pyspark.mllib.classification import SVMWithSGD, SVMModel
+from pyspark.mllib.feature import StandardScaler, StandardScalerModel
 from pyspark.mllib.linalg import DenseVector, SparseVector, Vectors 
 from pyspark.mllib.common import *
 from . import fm_parallel_sgd
