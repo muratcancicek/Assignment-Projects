@@ -54,10 +54,10 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
 def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     labelsAndPreds = data.map(lambda p: (p.label, model.predict(p.features)))
     truePredictionCount = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count()
-    instanceCount = float(data.count()
-    trainErr = 100 * truePredictionCount / float(instanceCount)
+    instanceCount = data.count()
+    accuracy = 100 * truePredictionCount / float(instanceCount)
     print_('\n', modelName, 'has been evaluated on', dataName, 'by', nowStr())
-    print_('The result accuracy is %%.3f' % (trainErr))
+    print_('The result accuracy is %%.3f' % (accuracy))
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     model = SVMWithSGD.train(data, iterations=100)
