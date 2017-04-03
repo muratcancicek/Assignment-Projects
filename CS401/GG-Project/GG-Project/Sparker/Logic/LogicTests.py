@@ -84,10 +84,10 @@ def extractJourneyLogsFromDay0(part):
     journeyFile = joinPath(outputFolder, 'iphone_6_part' + str(part) + '_journey')
     extractJourneyLogsFromDay(keyword, logsFile, journeyFile)
 
-def mergeJourneys():
+def mergeJourneys(outputFolder = Day1_iPhone_6_DataFolder):
     mergedJourney = sc_().emptyRDD()
     for part in range(4):
-        journeyFile = joinPath(Day1_iPhone_6_DataFolder, 'iphone_6_part' + str(part) + '_journey')
+        journeyFile = joinPath(outputFolder, 'iphone_6_part' + str(part) + '_journey')
         journey = readJourneyFromHDFS(journeyFile)
         print_('%i logs have been parsed by %s' % (journey.count(), nowStr()))
         mergedJourney.union(journey)
