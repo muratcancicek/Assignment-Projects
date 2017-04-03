@@ -91,7 +91,7 @@ def mergeJourneys():
         journey = readJourneyFromHDFS(journeyFile)
         print_('%i logs have been parsed by %s' % (journey.count(), nowStr()))
         mergedJourney.union(journey)
-    print_('%i logs have been merged by %s' % (mergedJourneys.count(), nowStr()))
+    print_('%i logs have been merged by %s' % (mergedJourney.count(), nowStr()))
     mergedJourneyFile = joinPath(outputFolder, 'iphone_6_train_journey')
     mergedJourney.saveAsTextFile(mergedJourneyFile)
 
