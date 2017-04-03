@@ -147,3 +147,4 @@ def readLabeledIdsFromHDFS(fileName):
 def readTrainDataFromHDFS(fileName):
     trainData = sc_().textFile(fileName)
     return trainData.map(eval).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1])) 
+    print_(fileName, 'has been read successfully by', nowStr())

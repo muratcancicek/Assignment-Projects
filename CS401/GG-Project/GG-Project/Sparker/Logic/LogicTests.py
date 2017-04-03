@@ -59,7 +59,7 @@ def trainTestOnIPhone6Data():
     model = trainPairWiseData(trainData, 'trainData', modelName)
     model.save(sc_(), modelPath)
     print_(modelPath, 'has been saved successfully by', nowStr())
-    evaluateModelOnData(model, testData, 'testData')
+    evaluateModelOnData(model, testData, 'testData', modelName)
     
 def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'
