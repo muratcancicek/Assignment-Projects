@@ -1,7 +1,7 @@
 from Sparker.MLlibTests.MlLibHelper import DenseVector, LabeledPoint
 from .ProductPreferrer import *
 from .FakeProductGenerator import *
-from .TrainHandler import *
+from .TrainDataHandler import *
 from .Trainer import *
     
 def trainLocalLG_G4DataTest(): 
