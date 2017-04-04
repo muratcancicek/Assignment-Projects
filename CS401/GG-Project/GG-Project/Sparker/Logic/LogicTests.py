@@ -1,3 +1,4 @@
+from Sparker.MLlibTests.MlLibHelper import DenseVector, LabeledPoint
 from .ProductPreferrer import *
 from .FakeProductGenerator import *
 from .Trainer import *
