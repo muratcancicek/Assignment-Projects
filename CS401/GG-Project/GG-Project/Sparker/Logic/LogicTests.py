@@ -51,8 +51,8 @@ def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
     #print_(type(trainData.first()), trainData.first())
     return trainData
 
-def mergeLabeledPairs(trainDataPrefix, testDataPrefix):
-    outputFolder = Day1_iPhone_6_DataFolder
+def mergeLabeledPairs(trainDataPrefix, testDataPrefix, outputFolder = Day1_iPhone_6_DataFolder):
+    
     trainLabeledPairsFile = joinPath(outputFolder, trainDataPrefix + '_labeledPairs')
     trainLabeledPairs = readLabeledPairsFromHDFS(trainLabeledPairsFile)
     print_(trainLabeledPairs.count(), 'LabeledPairs have been found in the original train data by', nowStr())
@@ -66,7 +66,7 @@ def mergeLabeledPairs(trainDataPrefix, testDataPrefix):
     print_(labeledPairsFile, 'have been saved successfully by', nowStr())
     return labeledPairs
 
-def mergeJourneyProducts(trainDataPrefix, testDataPrefix):
+def mergeJourneyProducts(trainDataPrefix, testDataPrefix, outputFolder = Day1_iPhone_6_DataFolder):
     trainProductsFile = joinPath(outputFolder, trainDataPrefix +  '_journey_products')
     trainProducts = readProductsFromHDFS(trainProductsFile)
     print_(trainProducts.count(), 'products have been found in the original train data by', nowStr())
