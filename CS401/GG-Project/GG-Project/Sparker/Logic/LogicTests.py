@@ -52,7 +52,6 @@ def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
     return trainData
 
 def mergeLabeledPairs(trainDataPrefix, testDataPrefix, outputFolder = Day1_iPhone_6_DataFolder):
-    
     trainLabeledPairsFile = joinPath(outputFolder, trainDataPrefix + '_labeledPairs')
     trainLabeledPairs = readLabeledPairsFromHDFS(trainLabeledPairsFile)
     print_(trainLabeledPairs.count(), 'LabeledPairs have been found in the original train data by', nowStr())
@@ -70,22 +69,26 @@ def mergeJourneyProducts(trainDataPrefix, testDataPrefix, outputFolder = Day1_iP
     trainProductsFile = joinPath(outputFolder, trainDataPrefix +  '_journey_products')
     trainProducts = readProductsFromHDFS(trainProductsFile)
     print_(trainProducts.count(), 'products have been found in the original train data by', nowStr())
-    
     testProductsFile = joinPath(outputFolder, testDataPrefix +  '_journey_products')
     testProducts = readProductsFromHDFS(testProductsFile)
     print_(testProducts.count(), 'products have been found in the original test data by', nowStr())
-
-    productsFile = joinPath(outputFolder, 'all_journey_products')
     products = trainProducts.union(testProducts).distinct()
-    #products = products.map(lambda p: 
     print_(products.count(), 'distinct products have  been merged by', nowStr())
+    productsFile = joinPath(outputFolder, 'all_journey_products')
     saveRDDToHDFS(products, productsFile)
     return products
 
-def splitDataScientifically(trainDataPrefix, testDataPrefix, save = True):
-    
+def generateAllTrainData(outputFolder = Day1_iPhone_6_DataFolder):
+    labeledPairsFile = joinPath(outputFolder, 'all_labeledPairs')
+    labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
+    productsFile = joinPath(outputFolder, 'all_journey_products')
+    products = readLabeledPairsFromHDFS(productsFile)
+    data = generateTrainData(labeledPairs, products)
+    dataFile = joinPath(outputFolder, 'all_TrainData')
+    saveRDDToHDFS(data, dataFile)
+    return data
 
-    data = trainData.union(testData)
+def splitDataScientifically(trainDataPrefix, testDataPrefix, outputFolder = Day1_iPhone_6_DataFolder, save = True):
     print_(data.count(), 'instances have been found in the original data by', nowStr())
     data = data.map(lambda p: (p.features, p)).distinct().map(lambda p: p[1])
     #data = data.distinct()
@@ -105,7 +108,7 @@ def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True,
 
 
 def trainTestOnIPhone6Data():  
-    mergeJourneyProducts('train_iphone_6', 'test_iphone_6')
+    generateAllTrainData()
     #trainData = readTestingTrainData(inputName = 'train')
     #testData = readTestingTrainData(inputName = 'test')
     #trainData, testData = splitDataScientifically(trainData, testData)
