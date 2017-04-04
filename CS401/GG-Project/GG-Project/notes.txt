@@ -232,22 +232,37 @@ test_iphone_6_TrainData has been saved successfully by 2017-04-04 01:06:08.51912
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
-2017-04-04 02:47:33.774408: Running on osldevptst02... 
+2017-04-04 02:52:22.839078: Running on osldevptst02... 
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/04/04 02:52:24 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/04/04 02:52:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/04/04 02:52:25 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
 
- Model_v04 has been trained on trainData by 2017-04-04 02:48:16.694095 
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+        
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/train_iphone_6_TrainData has been read successfully by 2017-04-04 02:52:27.756354 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/test_iphone_6_TrainData has been read successfully by 2017-04-04 02:52:35.921568 
+
+ Model_v04 has been trained on trainData by 2017-04-04 02:53:06.173394 
 The learned weights:
 [-0.270665850986, 0.672177898747, 0.115752922635, -0.326345719818, -0.0643082163182, 0.361389507092, -1.38790705069, 0.263683667837, 0.353896465837, 0.433753446373]
  
                                                                                 
-Model_v04 has been evaluated on trainData by 2017-04-04 02:48:41.524150 
+Model_v04 has been evaluated on trainData by 2017-04-04 02:53:31.035627 
 The result accuracy is %83.534
-
-hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/Model_v04 has been saved successfully by 2017-04-04 02:48:46.538118 
-                                                                                
-Model_v04 has been evaluated on testData by 2017-04-04 02:48:51.473624 
+                  
+Model_v04 has been evaluated on testData by 2017-04-04 02:53:41.143215 
 The result accuracy is %81.136
  
-2017-04-04 02:48:51.473792: DONE 
+2017-04-04 02:53:41.143481: DONE 
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+[root@osldevptst02 GG-Project]# 

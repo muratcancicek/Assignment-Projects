@@ -51,15 +51,33 @@ def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
     #print_(type(trainData.first()), trainData.first())
     return trainData
 
+def splitDataScientifically(trainData, testData, save = True):
+    data = trainData.union(testData)
+    #data = data.map(lambda p: (p.features, p))
+    data = data.distinct()
+    print_(data.count(), 'distinct instances have been found in the all data by', nowStr())
+    trainData, testData = data.randomSplit([0.75, 0.25])
+    print_(trainData.count(), 'distinct instances have been selected to be trained', nowStr())
+    print_(testData.count(), 'distinct instances have been selected to be tested', nowStr())
+    return trainData, testData
+
+def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder): 
+    model = trainPairWiseData(trainData, 'trainData', modelName)
+    if save:
+        modelPath = joinPath(Day1_iPhone_6_DataFolder, modelName)
+        model.save(sc_(), modelPath)
+        print_(modelPath, 'has been saved successfully by', nowStr())
+    evaluateModelOnData(model, testData, 'testData', modelName)
+
+
 def trainTestOnIPhone6Data():  
     trainData = readTestingTrainData(inputName = 'train')
     testData = readTestingTrainData(inputName = 'test')
-    modelName = 'Model_v04'
-    modelPath = joinPath(Day1_iPhone_6_DataFolder, modelName)
-    model = trainPairWiseData(trainData, 'trainData', modelName)
-    model.save(sc_(), modelPath)
-    print_(modelPath, 'has been saved successfully by', nowStr())
-    evaluateModelOnData(model, testData, 'testData', modelName)
+    trainData, testData = splitDataScientifically(trainData, testData)
+    saveTrainDataToHDFS(trainData, Day1_iPhone_6_DataFolder, 'clean_train', 'iphone_6')
+    saveTrainDataToHDFS(testData, Day1_iPhone_6_DataFolder, 'clean_test', 'iphone_6')
+    modelName = 'Model_v04_2'
+    runTrainingExperiment(trainData, testData, modelName)
     
 def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'

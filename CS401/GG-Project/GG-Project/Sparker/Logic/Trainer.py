@@ -46,9 +46,7 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
     products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile))
     print_(journeyProductsFile, 'have been saved successfully by', nowStr())
     trainData = generateTrainData(modulizedIds['labeledPairs'], products)
-    trainDataFile = inputName + '_' + keyword + '_TrainData'
-    trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
-    print_(trainDataFile, 'has been saved successfully by', nowStr())
+    saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
 
 def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
