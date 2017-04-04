@@ -33,9 +33,16 @@ def trainTestOnIPhone6Data():
     labelsAndPreds = labelsAndPreds.take(50)
     print_(labelsAndPreds)
     
+def rankingTestOnIPhone6Data():  
+    outputFolder = Day1_iPhone_6_DataFolder
+    productsFile = joinPath(outputFolder, 'all_day_iphone_6_journey_products')
+    products = readProductsFromHDFS(productsFile)
+    rankProducts(products, outputFolder, model = None, modelName = 'Model_v04_4')
+
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
     #generateAllTrainData()
-    trainTestOnIPhone6Data()
+    #trainTestOnIPhone6Data()
+    rankingTestOnIPhone6Data()
     #extractJourneyLogsFromDay0(4)
     #mergeJourneys()

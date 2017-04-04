@@ -84,3 +84,23 @@ def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True,
         model.save(sc_(), modelPath)
         print_(modelPath, 'has been saved successfully by', nowStr())
     return evaluateModelOnData(model, testData, 'testData', modelName)
+
+def rankProducts(products, outputFolder, model = None, modelName = 'Model_v04_4'):
+    if model == None:
+        modelPath = joinPath(outputFolder, modelName)
+        model = SVMModel.load(sc_(), modelPath)
+    print_(products.first())
+    if isinstance(products.first()[1], list):
+        products = products.map(lambda x: (x[0], DenseVector(x[1])))
+    products = products.map(lambda x: (-x[1].dot(model.weights), x[0]))
+    print_(products.first())
+    products = products.sortByKey()
+    print_(products.first())
+    products = products.zipWithIndex().map(lambda x: (x[0] + 1, x[1]))
+    print_(products.count(), 'products have been ranked successfully by', nowStr())
+    print_(products.first())
+    productsPath = joinPath(outputFolder, 'all_day_iphone_6_journey_rankedProducts')
+    saveRDDToHDFS(products, productsPath)
+    productsList = products.map(lambda x: x[1][0]).top(50)
+    print_(productsList)
+    return products
