@@ -1,5 +1,6 @@
 from .ProductPreferrer import *
 from Sparker.MLlibTests.MlLibHelper import *
+from pyspark.mllib.feature import Normalizer
 
 
 def getProducts(ids, fileName = None):
