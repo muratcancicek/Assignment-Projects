@@ -33,6 +33,7 @@ def trainTestOnIPhone6Data():
     
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
-    trainTestOnIPhone6Data()
+    generateAllTrainData()
+    #trainTestOnIPhone6Data()
     #extractJourneyLogsFromDay0(4)
     #mergeJourneys()

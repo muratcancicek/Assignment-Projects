@@ -39,13 +39,13 @@ def mergeJourneyProducts(trainDataPrefix, testDataPrefix, outputFolder = Day1_iP
     saveRDDToHDFS(products, productsFile)
     return products
 
-def generateAllTrainData(outputFolder = Day1_iPhone_6_DataFolder):
+def generateAllTrainData(outputFolder = Day1_iPhone_6_DataFolder, dataName = 'all_TrainData_with_ids'):
     labeledPairsFile = joinPath(outputFolder, 'all_labeledPairs')
     labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
     productsFile = joinPath(outputFolder, 'all_journey_products')
     products = readProductsFromHDFS(productsFile)
     data = generateTrainData(labeledPairs, products)
-    dataFile = joinPath(outputFolder, 'all_TrainData')
+    dataFile = joinPath(outputFolder, dataName)
     saveRDDToHDFS(data, dataFile)
     return data
 
