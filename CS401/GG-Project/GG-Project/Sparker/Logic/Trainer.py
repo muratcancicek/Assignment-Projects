@@ -96,7 +96,7 @@ def rankProducts(products, outputFolder, model = None, modelName = 'Model_v04_4'
     print_(products.take(2))
     products = products.sortByKey()
     print_(products.take(2))
-    products = products.zipWithIndex().map(lambda x: (x[0] + 1, x[1]))
+    products = products.zipWithIndex().map(lambda x: (x[1] + 1, x[0]))
     print_(products.count(), 'products have been ranked successfully by', nowStr())
     print_(products.take(2))
     productsPath = joinPath(outputFolder, 'all_day_iphone_6_journey_rankedProducts')
