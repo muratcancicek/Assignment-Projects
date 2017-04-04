@@ -40,6 +40,6 @@ def runSparkLogOperatorTests(logs):
 
 def run(): 
     sc = SparkContext() 
-    sc.setLocalProperty('spark.executor.instances', 24) 
+    sc.setSystemProperty('spark.executor.instances', 24) 
     setSparkContext(sc)
     trainLocalDataTest()
