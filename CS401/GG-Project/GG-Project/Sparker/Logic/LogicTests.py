@@ -62,6 +62,7 @@ def mergeLabeledPairs(trainDataPrefix, testDataPrefix):
     labeledPairs = trainLabeledPairs.union(testLabeledPairs).distinct()
     labeledPairsFile = joinPath(outputFolder, 'all_labeledPairs')
     labeledPairs.saveAsTextFile(labeledPairsFile)
+    print_(labeledPairs.count(), 'distinct labeled pairs has been merged by', nowStr())
     print_(labeledPairsFile, 'have been saved successfully by', nowStr())
     return labeledPairs
 
