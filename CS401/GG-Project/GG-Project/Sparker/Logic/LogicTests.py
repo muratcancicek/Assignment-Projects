@@ -54,8 +54,8 @@ def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
 def splitDataScientifically(trainData, testData, save = True):
     data = trainData.union(testData)
     print_(data.count(), 'instances have been found in the original data by', nowStr())
-    #data = data.map(lambda p: (p.features, p))
-    data = data.distinct()
+    data = data.map(lambda p: (p.features, p)).distinct().map(lambda p: p[1])
+    #data = data.distinct()
     print_(data.count(), 'distinct instances have been found in the original data by', nowStr())
     trainData, testData = data.randomSplit([0.75, 0.25])
     print_(trainData.count(), 'distinct instances have been selected to be trained', nowStr())
@@ -77,8 +77,8 @@ def trainTestOnIPhone6Data():
     trainData, testData = splitDataScientifically(trainData, testData)
     #saveTrainDataToHDFS(trainData, Day1_iPhone_6_DataFolder, 'clean_train', 'iphone_6')
     #saveTrainDataToHDFS(testData, Day1_iPhone_6_DataFolder, 'clean_test', 'iphone_6')
-    modelName = 'Model_v04_2'
-    runTrainingExperiment(trainData, testData, modelName, False)
+    #modelName = 'Model_v04_2'
+    #runTrainingExperiment(trainData, testData, modelName, False)
     
 def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'
