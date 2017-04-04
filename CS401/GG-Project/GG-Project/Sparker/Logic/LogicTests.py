@@ -84,40 +84,47 @@ def generateAllTrainData(outputFolder = Day1_iPhone_6_DataFolder):
     labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
     productsFile = joinPath(outputFolder, 'all_journey_products')
     products = readProductsFromHDFS(productsFile)
-#    products = sc_().textFile(productsFile).map(eval)all_journey_products'
     data = generateTrainData(labeledPairs, products)
     dataFile = joinPath(outputFolder, 'all_TrainData')
     saveRDDToHDFS(data, dataFile)
     return data
 
-def splitDataScientifically(trainDataPrefix, testDataPrefix, outputFolder = Day1_iPhone_6_DataFolder, save = True):
+def splitDataScientifically(data, outputFolder = Day1_iPhone_6_DataFolder, weights = [0.70, 0.30]):
     print_(data.count(), 'instances have been found in the original data by', nowStr())
     data = data.map(lambda p: (p.features, p)).distinct().map(lambda p: p[1])
     #data = data.distinct()
     print_(data.count(), 'distinct instances have been found in the original data by', nowStr())
-    trainData, testData = data.randomSplit([0.75, 0.25])
+    trainData, testData = data.randomSplit(weights)
     print_(trainData.count(), 'distinct instances have been selected to be trained', nowStr())
     print_(testData.count(), 'distinct instances have been selected to be tested', nowStr())
     return trainData, testData
 
-def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder): 
+def generateExperimentData(data = None, outputFolder = Day1_iPhone_6_DataFolder, weights = [0.70, 0.30]): 
+    if data == None:
+        dataFile = joinPath(outputFolder, 'all_TrainData')
+        data = readTrainDataFromHDFS(dataFile)
+    trainData, testData = splitDataScientifically(data, outputFolder, weights)
+    trainDataFile = joinPath(outputFolder, 'all_train_70_TrainData')
+    saveRDDToHDFS(trainData, trainDataFile)
+    testDataFile = joinPath(outputFolder, 'all_test_30_TrainData')
+    saveRDDToHDFS(testData, testDataFile)
+    return trainData, testData
+
+def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder):
+
     model = trainPairWiseData(trainData, 'trainData', modelName)
     if save:
-        modelPath = joinPath(Day1_iPhone_6_DataFolder, modelName)
+        modelPath = joinPath(outputFolder, modelName)
         model.save(sc_(), modelPath)
         print_(modelPath, 'has been saved successfully by', nowStr())
     evaluateModelOnData(model, testData, 'testData', modelName)
 
-
 def trainTestOnIPhone6Data():  
-    generateAllTrainData()
     #trainData = readTestingTrainData(inputName = 'train')
     #testData = readTestingTrainData(inputName = 'test')
-    #trainData, testData = splitDataScientifically(trainData, testData)
-    #saveTrainDataToHDFS(trainData, Day1_iPhone_6_DataFolder, 'clean_train', 'iphone_6')
-    #saveTrainDataToHDFS(testData, Day1_iPhone_6_DataFolder, 'clean_test', 'iphone_6')
-    #modelName = 'Model_v04_2'
-    #runTrainingExperiment(trainData, testData, modelName, False)
+    trainData, testData = generateExperimentData()
+    modelName = 'Model_v04_3'
+    runTrainingExperiment(trainData, testData, modelName, True)
     
 def extractJourneyLogsFromDay0(part):
     keyword = 'iphone 6'
