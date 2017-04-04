@@ -17,7 +17,7 @@ def trainIPhone6DataGenerationTest():
     keyword = keyword.replace(' ', '_')
     inputName = 'all_day'
     outputFolder = Day1_iPhone_6_DataFolder
-    journeyFile = joinPath(outputFolder, 'iphone_6_test_journey')
+    journeyFile = joinPath(outputFolder, inputName + '_journey')
     productsFile = None
     return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
