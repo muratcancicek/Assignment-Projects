@@ -121,6 +121,7 @@ def readJourneyFromHDFS(fileName):
 evalCounterForProducts = 0
 def evalProduct(productText):
     productText = productText.replace('DenseVector(', '')[:-1]
+    #print_(productText)
     product = eval(productText)
     product = (product[0], DenseVector(product[1]))
     global evalCounterForProducts

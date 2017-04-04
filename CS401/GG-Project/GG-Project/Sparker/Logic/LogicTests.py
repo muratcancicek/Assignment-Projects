@@ -83,8 +83,8 @@ def generateAllTrainData(outputFolder = Day1_iPhone_6_DataFolder):
     labeledPairsFile = joinPath(outputFolder, 'all_labeledPairs')
     labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
     productsFile = joinPath(outputFolder, 'all_journey_products')
-#    products = readProductsFromHDFS(productsFile)all_journey_products'
-    products = sc_().textFile(productsFile).map(eval)
+    products = readProductsFromHDFS(productsFile)
+#    products = sc_().textFile(productsFile).map(eval)all_journey_products'
     data = generateTrainData(labeledPairs, products)
     dataFile = joinPath(outputFolder, 'all_TrainData')
     saveRDDToHDFS(data, dataFile)
