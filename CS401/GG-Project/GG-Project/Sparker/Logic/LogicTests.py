@@ -15,7 +15,7 @@ def trainLocalLG_G4DataTest():
 def trainIPhone6DataGenerationTest(): 
     keyword = 'iphone 6'
     keyword = keyword.replace(' ', '_')
-    inputName = 'test'
+    inputName = 'all_day'
     outputFolder = Day1_iPhone_6_DataFolder
     journeyFile = joinPath(outputFolder, 'iphone_6_test_journey')
     productsFile = None
@@ -29,7 +29,7 @@ def trainTestOnIPhone6Data():
     runTrainingExperiment(trainData, testData, modelName, True)
     
 def trainLocalDataTest():
-    mergeJourneys()
+    trainIPhone6DataGenerationTest()
     #trainTestOnIPhone6Data()
     #extractJourneyLogsFromDay0(4)
     #mergeJourneys()

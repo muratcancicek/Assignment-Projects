@@ -40,5 +40,6 @@ def runSparkLogOperatorTests(logs):
 
 def run(): 
     sc = SparkContext() 
+    sc.setExecutorEnv(key=None, value=None, pairs=None) 
     setSparkContext(sc)
     trainLocalDataTest()

@@ -295,10 +295,29 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+[root@osldevptst02 GG-Project]# python runGG_Project.py 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-04 16:14:50.664507: Running on osldevptst02... 
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/journey_parts/iphone_6_part0_journey has been read as journey by 2017-04-04 16:14:57.814053 
+1337 logs have been parsed by 2017-04-04 16:15:03.460297                        
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/journey_parts/iphone_6_part1_journey has been read as journey by 2017-04-04 16:15:03.745437 
+1296 logs have been parsed by 2017-04-04 16:15:04.084601 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/journey_parts/iphone_6_part2_journey has been read as journey by 2017-04-04 16:15:04.207478 
+1342 logs have been parsed by 2017-04-04 16:15:04.496301 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/journey_parts/iphone_6_part3_journey has been read as journey by 2017-04-04 16:15:04.627078 
+1114 logs have been parsed by 2017-04-04 16:15:04.869945 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/journey_parts/iphone_6_part4_journey has been read as journey by 2017-04-04 16:15:04.963073 
+1374 logs have been parsed by 2017-04-04 16:15:05.213809 
+6463 logs have been merged and saved into all_day_journey by 2017-04-04 16:15:11.710701 
+2017-04-04 16:15:11.710874: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
 
 
 
 
 
-
-Experiment3
