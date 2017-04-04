@@ -62,17 +62,28 @@ def mergeLabeledPairs(trainDataPrefix, testDataPrefix):
     labeledPairs = trainLabeledPairs.union(testLabeledPairs).distinct()
     labeledPairsFile = joinPath(outputFolder, 'all_labeledPairs')
     labeledPairs.saveAsTextFile(labeledPairsFile)
-    print_(labeledPairs.count(), 'distinct labeled pairs has been merged by', nowStr())
+    print_(labeledPairs.count(), 'distinct labeled pairs have been merged by', nowStr())
     print_(labeledPairsFile, 'have been saved successfully by', nowStr())
     return labeledPairs
 
+def mergeJourneyProducts(trainDataPrefix, testDataPrefix):
+    trainProductsFile == joinPath(outputFolder, trainDataPrefix +  '_journey_products')
+    trainProducts = readProductsFromHDFS(trainProductsFile)
+    print_(trainProducts.count(), 'products have been found in the original train data by', nowStr())
+    
+    testProductsFile == joinPath(outputFolder, testDataPrefix +  '_journey_products')
+    testProducts = readProductsFromHDFS(testProductsFile)
+    print_(testProducts.count(), 'products have been found in the original test data by', nowStr())
+
+    productsFile == joinPath(outputFolder, 'all_journey_products')
+    products = trainProducts.union(testProducts).distinct()
+    #products = products.map(lambda p: 
+    print_(products.count(), 'distinct products have  been merged by', nowStr())
+    saveRDDToHDFS(products, productsFile)
+    return products
+
 def splitDataScientifically(trainDataPrefix, testDataPrefix, save = True):
     
-    trainProductsFile == joinPath(outputFolder, trainDataPrefix +  '_journey_products')
-    trainProducts = readProductsFromHDFS(trainProductsFile)
-    
-    trainProductsFile == joinPath(outputFolder, trainDataPrefix +  '_journey_products')
-    trainProducts = readProductsFromHDFS(trainProductsFile)
 
     data = trainData.union(testData)
     print_(data.count(), 'instances have been found in the original data by', nowStr())
@@ -94,7 +105,7 @@ def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True,
 
 
 def trainTestOnIPhone6Data():  
-    mergeLabeledPairs('train_iphone_6', 'test_iphone_6')
+    mergeJourneyProducts('train_iphone_6', 'test_iphone_6')
     #trainData = readTestingTrainData(inputName = 'train')
     #testData = readTestingTrainData(inputName = 'test')
     #trainData, testData = splitDataScientifically(trainData, testData)

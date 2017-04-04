@@ -153,3 +153,7 @@ def saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword):
     trainDataFile = inputName + '_' + keyword + '_TrainData'
     trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
     print_(trainDataFile, 'has been saved successfully by', nowStr())
+
+def saveRDDToHDFS(rdd, fileName):
+    rdd.saveAsTextFile(fileName)
+    print_(fileName, 'has been saved successfully by', nowStr())
