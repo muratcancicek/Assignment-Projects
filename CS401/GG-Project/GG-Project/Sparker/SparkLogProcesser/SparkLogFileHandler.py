@@ -120,6 +120,7 @@ def readJourneyFromHDFS(fileName):
 
 evalCounterForProducts = 0
 def evalProduct(productText):
+    print_(productText)
     log = eval(productText)
     global evalCounterForProducts
     evalCounterForProducts += 1
