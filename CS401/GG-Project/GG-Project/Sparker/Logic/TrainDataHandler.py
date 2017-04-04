@@ -61,7 +61,7 @@ def splitDataScientifically(data, outputFolder = Day1_iPhone_6_DataFolder, weigh
 
 def generateExperimentData(data = None, outputFolder = Day1_iPhone_6_DataFolder, weights = [0.70, 0.30]): 
     if data == None:
-        dataFile = joinPath(outputFolder, 'all_day_TrainData')
+        dataFile = joinPath(outputFolder, 'all_day_iphone_6_TrainData')
         data = readTrainDataFromHDFS(dataFile)
     trainData, testData = splitDataScientifically(data, outputFolder, weights)
     trainDataFile = joinPath(outputFolder, 'all_day_train_70_TrainData')
