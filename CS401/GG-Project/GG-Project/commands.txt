@@ -8,6 +8,7 @@ shh -p 22 miek@10.200.133.227
 10.200.133.227:5900
 
 ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
+eBay@2017
 
 export SPARK_HOME="/opt/spark"
 

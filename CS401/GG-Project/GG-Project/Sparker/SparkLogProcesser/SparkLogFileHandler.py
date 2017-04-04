@@ -120,25 +120,26 @@ def readJourneyFromHDFS(fileName):
 
 evalCounterForProducts = 0
 def evalProduct(productText):
-    print_(productText)
-    log = eval(productText)
+    productText = productText.replace('DenseVector(', '')[:-1]
+    product = eval(productText)
+    product = (product[0], DenseVector(product[1]))
     global evalCounterForProducts
     evalCounterForProducts += 1
     if evalCounterForProducts % 100000 == 0: 
         print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
-    return log
+    return product
 
 def readProductsFromHDFS(fileName = None):
     if fileName == None:
         fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
     products = sc_().textFile(fileName)
-    products = sc_().parallelize(products.map(evalProduct).collect())
+    products = products.map(evalProduct)
     return products
 
 def readLabeledPairsFromHDFS(fileName):
     labeledPairs = sc_().textFile(fileName)
     labeledPairs = labeledPairs.map(eval)
-    #ids = labeledPairs.map(lambda x: x[0].split('_'))
+    #ids = labeledPairs.map(lambda x: x[0].split('_'))sc_().parallelize(.collect())
     #def extender(a, b): a.extend(b); return a
     #ids = list(set(ids.reduce(extender)))
     #print_(labeledPairs.count())
