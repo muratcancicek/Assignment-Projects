@@ -131,7 +131,7 @@ def readProductsFromHDFS(fileName = None):
     if fileName == None:
         fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
     products = sc_().textFile(fileName)
-    products = products.map(evalProduct)
+    products = sc_().parallelize(products.map(evalProduct).collect())
     return products
 
 def readLabeledPairsFromHDFS(fileName):
