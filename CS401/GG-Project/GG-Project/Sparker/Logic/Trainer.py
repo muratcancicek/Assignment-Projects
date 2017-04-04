@@ -64,3 +64,11 @@ def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = T
     if evaluate:
         evaluateModelOnData(model, data, dataName, modelName)
     return model
+
+def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder):
+    model = trainPairWiseData(trainData, 'trainData', modelName)
+    if save:
+        modelPath = joinPath(outputFolder, modelName)
+        model.save(sc_(), modelPath)
+        print_(modelPath, 'has been saved successfully by', nowStr())
+    evaluateModelOnData(model, testData, 'testData', modelName)

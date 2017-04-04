@@ -46,6 +46,9 @@
     <Compile Include="Sparker\Logic\ProductPreferrer.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\Logic\TrainDataHandler.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Sparker\Logic\Trainer.py">
       <SubType>Code</SubType>
     </Compile>
