@@ -22,9 +22,11 @@ def trainIPhone6DataGenerationTest():
     return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def trainTestOnIPhone6Data():  
-    #trainData = readTestingTrainData(inputName = 'train')
-    #testData = readTestingTrainData(inputName = 'test')
-    trainData, testData = generateExperimentData()
+    trainDataFile = joinPath(outputFolder, 'all_day_train_70_TrainData')
+    trainData = readTrainDataFromHDFS(trainDataFile)
+    testDataFile = joinPath(outputFolder, 'all_day_test_30_TrainData')
+    testData = readTrainDataFromHDFS(testDataFile)
+    #trainData, testData = generateExperimentData()
     modelName = 'Model_v04_4'
     runTrainingExperiment(trainData, testData, modelName, True)
     
