@@ -316,9 +316,212 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 346, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in <lambda>
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in <genexpr>
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/Trainer.py", line 8, in <lambda>
+    products = products.filter(lambda x: x[0] in ids).map(lambda x: (x[0], DenseVector(x[1:])))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/mllib/linalg/__init__.py", line 286, in __init__
+    ar = np.array(ar, dtype=np.float64)
+ValueError: setting an array element with a sequence.
 
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:193)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:234)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:152)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:63)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
 
+17/04/04 16:47:26 ERROR TaskSetManager: Task 11 in stage 50.0 failed 1 times; aborting job
+Traceback (most recent call last):
+  File "runGG_Project.py", line 16, in <module>
+    main()
+  File "runGG_Project.py", line 12, in main
+    runSparkerMethods()
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/MainSrc/SparkerMethods.py", line 45, in run
+    trainLocalDataTest()
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/LogicTests.py", line 32, in trainLocalDataTest
+    trainIPhone6DataGenerationTest()
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/LogicTests.py", line 22, in trainIPhone6DataGenerationTest
+    return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/Trainer.py", line 44, in extractLabeledPairsFromJourney
+    products = getProducts(modulizedIds['listed'], productsFile)
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/Trainer.py", line 9, in getProducts
+    print_(products.count(), 'products has been found in database to train by', nowStr())
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in count
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/opt/spark/python/pyspark/rdd.py", line 1032, in sum
+    return self.mapPartitions(lambda x: [sum(x)]).fold(0, operator.add)
+  File "/opt/spark/python/pyspark/rdd.py", line 906, in fold
+    vals = self.mapPartitions(func).collect()
+  File "/opt/spark/python/pyspark/rdd.py", line 809, in collect
+    port = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "/root/anaconda3/lib/python3.5/site-packages/py4j/java_gateway.py", line 1133, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/root/anaconda3/lib/python3.5/site-packages/py4j/protocol.py", line 319, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 11 in stage 50.0 failed 1 times, most recent failure: Lost task 11.0 in stage 50.0 (TID 790, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 174, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 169, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/opt/spark/python/pyspark/rdd.py", line 2407, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2407, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2407, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 346, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in <lambda>
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in <genexpr>
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/Trainer.py", line 8, in <lambda>
+    products = products.filter(lambda x: x[0] in ids).map(lambda x: (x[0], DenseVector(x[1:])))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/mllib/linalg/__init__.py", line 286, in __init__
+    ar = np.array(ar, dtype=np.float64)
+ValueError: setting an array element with a sequence.
 
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:193)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:234)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:152)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:63)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
 
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1435)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1423)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1422)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1422)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:802)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:802)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:802)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:1650)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1605)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1594)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:628)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1918)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1931)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1944)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1958)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:935)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:362)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:934)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:453)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:280)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:214)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 174, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 169, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/opt/spark/python/pyspark/rdd.py", line 2407, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2407, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2407, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 346, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in <lambda>
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/opt/spark/python/pyspark/rdd.py", line 1041, in <genexpr>
+    return self.mapPartitions(lambda i: [sum(1 for _ in i)]).sum()
+  File "/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/Logic/Trainer.py", line 8, in <lambda>
+    products = products.filter(lambda x: x[0] in ids).map(lambda x: (x[0], DenseVector(x[1:])))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/mllib/linalg/__init__.py", line 286, in __init__
+    ar = np.array(ar, dtype=np.float64)
+ValueError: setting an array element with a sequence.
 
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:193)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:234)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:152)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:63)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
 
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 12.0 in stage 50.0 (TID 791, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 0.0 in stage 50.0 (TID 779, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 3.0 in stage 50.0 (TID 782, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 8.0 in stage 50.0 (TID 787, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 2.0 in stage 50.0 (TID 781, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 9.0 in stage 50.0 (TID 788, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 10.0 in stage 50.0 (TID 789, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 6.0 in stage 50.0 (TID 785, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 7.0 in stage 50.0 (TID 786, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 5.0 in stage 50.0 (TID 784, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 4.0 in stage 50.0 (TID 783, localhost, executor driver): TaskKilled (killed intentionally)
+17/04/04 16:47:26 WARN TaskSetManager: Lost task 1.0 in stage 50.0 (TID 780, localhost, executor driver): TaskKilled (killed intentionally)
+[root@osldevptst02 GG-Project]# python runGG_Project.py 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-04 16:51:14.669923: Running on osldevptst02... 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data/all_day_journey has been read as journey by 2017-04-04 16:51:19.737945 
+17/04/04 16:51:27 WARN TaskSetManager: Stage 11 contains a task of very large size (111 KB). The maximum recommended task size is 100 KB.
+Listed counts = 2875 Paid counts = 0 Cart counts = 21 Clicked counts = 167 
+Listed counts = 2875 Paid counts = 0 Cart counts = 21 Clicked counts = 146      
+17/04/04 16:51:41 WARN TaskSetManager: Stage 48 contains a task of very large size (2838 KB). The maximum recommended task size is 100 KB.
+932194 labeled pairs have been generated by 2017-04-04 16:51:41.487671 
+17/04/04 16:51:41 WARN TaskSetManager: Stage 49 contains a task of very large size (2838 KB). The maximum recommended task size is 100 KB.
+all_day_iphone_6_labeledPairs have been saved successfully by 2017-04-04 16:51:43.461191 
+2757 products has been found in database to train by 2017-04-04 16:54:15.612584 
+17/04/04 16:59:13 WARN TaskSetManager: Stage 53 contains a task of very large size (2838 KB). The maximum recommended task size is 100 KB.
+835692 train instances has been generated by 2017-04-04 16:59:22.335329         
+17/04/04 16:59:22 WARN TaskSetManager: Stage 54 contains a task of very large size (2838 KB). The maximum recommended task size is 100 KB.
+all_day_iphone_6_TrainData has been saved successfully by 2017-04-04 16:59:35.804280 
+2017-04-04 16:59:35.811893: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+  

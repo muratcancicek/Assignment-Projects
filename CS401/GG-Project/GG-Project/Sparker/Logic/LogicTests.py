@@ -29,7 +29,7 @@ def trainTestOnIPhone6Data():
     runTrainingExperiment(trainData, testData, modelName, True)
     
 def trainLocalDataTest():
-    trainIPhone6DataGenerationTest()
-    #trainTestOnIPhone6Data()
+    #trainIPhone6DataGenerationTest()
+    trainTestOnIPhone6Data()
     #extractJourneyLogsFromDay0(4)
     #mergeJourneys()
