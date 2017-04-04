@@ -22,6 +22,7 @@ def trainIPhone6DataGenerationTest():
     return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def trainTestOnIPhone6Data():  
+    outputFolder = Day1_iPhone_6_DataFolder
     trainDataFile = joinPath(outputFolder, 'all_day_train_70_TrainData')
     trainData = readTrainDataFromHDFS(trainDataFile)
     testDataFile = joinPath(outputFolder, 'all_day_test_30_TrainData')
