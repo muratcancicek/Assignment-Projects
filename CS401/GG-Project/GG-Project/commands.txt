@@ -26,3 +26,5 @@ git reset --hard
 git pull
 cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 python runGG_Project.py
+
+/opt/spark/bin/spark-submit --num-executors 24
