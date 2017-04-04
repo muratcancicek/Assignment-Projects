@@ -134,7 +134,7 @@ def readProductsFromHDFS(fileName = None):
     products = products.map(evalProduct)
     return products
 
-def readLabeledIdsFromHDFS(fileName):
+def readLabeledPairsFromHDFS(fileName):
     labeledPairs = sc_().textFile(fileName)
     labeledPairs = labeledPairs.map(eval)
     #ids = labeledPairs.map(lambda x: x[0].split('_'))

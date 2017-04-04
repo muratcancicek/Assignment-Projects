@@ -25,6 +25,14 @@ def testAlgorithm():
     ## sc_().textFile(joinPath(sparkFolder, 'sampleProducts'))
     print_(logs.count(), 'Logs have been read and parsed on', nowStr())
 
+def trainLocalLG_G4DataTest(): 
+    keyword = 'lg g4'
+    inputName = 'fake'
+    outputFolder = Day1_lg_g4_DataFolder
+    journeyFile = joinPath(outputFolder, 'lg_g4_journey')
+    productsFile = joinPath(sparkFolder, 'sampleProducts')
+    extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
+
 def trainIPhone6DataGenerationTest(): 
     keyword = 'iphone 6'
     keyword = keyword.replace(' ', '_')
@@ -33,14 +41,6 @@ def trainIPhone6DataGenerationTest():
     journeyFile = joinPath(outputFolder, 'iphone_6_test_journey')
     productsFile = None
     return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
-
-def trainLocalLG_G4DataTest(): 
-    keyword = 'lg g4'
-    inputName = 'fake'
-    outputFolder = Day1_lg_g4_DataFolder
-    journeyFile = joinPath(outputFolder, 'lg_g4_journey')
-    productsFile = joinPath(sparkFolder, 'sampleProducts')
-    extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
     keyword = keyword.replace(' ', '_')
@@ -51,7 +51,28 @@ def readTestingTrainData(keyword = 'iphone 6', inputName = 'train'):
     #print_(type(trainData.first()), trainData.first())
     return trainData
 
-def splitDataScientifically(trainData, testData, save = True):
+def mergeLabeledPairs(trainDataPrefix, testDataPrefix):
+    outputFolder = Day1_iPhone_6_DataFolder
+    trainLabeledPairsFile = joinPath(outputFolder, trainDataPrefix + '_labeledPairs')
+    trainLabeledPairs = readLabeledPairsFromHDFS(trainLabeledPairsFile)
+    print_(trainLabeledPairs.count(), 'LabeledPairs have been found in the original train data by', nowStr())
+    testLabeledPairsFile = joinPath(outputFolder, testDataPrefix + '_labeledPairs')
+    testLabeledPairs = readLabeledPairsFromHDFS(testLabeledPairsFile)
+    print_(testLabeledPairs.count(), 'LabeledPairs have been found in the original test data by', nowStr())
+    labeledPairs = trainLabeledPairs.union(testLabeledPairs).distinct()
+    labeledPairsFile = joinPath(outputFolder, 'all_labeledPairs')
+    labeledPairs.saveAsTextFile(labeledPairsFile)
+    print_(labeledPairsFile, 'have been saved successfully by', nowStr())
+    return labeledPairs
+
+def splitDataScientifically(trainDataPrefix, testDataPrefix, save = True):
+    
+    trainProductsFile == joinPath(outputFolder, trainDataPrefix +  '_journey_products')
+    trainProducts = readProductsFromHDFS(trainProductsFile)
+    
+    trainProductsFile == joinPath(outputFolder, trainDataPrefix +  '_journey_products')
+    trainProducts = readProductsFromHDFS(trainProductsFile)
+
     data = trainData.union(testData)
     print_(data.count(), 'instances have been found in the original data by', nowStr())
     data = data.map(lambda p: (p.features, p)).distinct().map(lambda p: p[1])
@@ -72,9 +93,10 @@ def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True,
 
 
 def trainTestOnIPhone6Data():  
-    trainData = readTestingTrainData(inputName = 'train')
-    testData = readTestingTrainData(inputName = 'test')
-    trainData, testData = splitDataScientifically(trainData, testData)
+    mergeLabeledPairs('train_iphone_6', 'test_iphone_6')
+    #trainData = readTestingTrainData(inputName = 'train')
+    #testData = readTestingTrainData(inputName = 'test')
+    #trainData, testData = splitDataScientifically(trainData, testData)
     #saveTrainDataToHDFS(trainData, Day1_iPhone_6_DataFolder, 'clean_train', 'iphone_6')
     #saveTrainDataToHDFS(testData, Day1_iPhone_6_DataFolder, 'clean_test', 'iphone_6')
     #modelName = 'Model_v04_2'
