@@ -65,6 +65,7 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     accuracy = 100 * truePredictionCount / float(instanceCount)
     print_('\n'+modelName, 'has been evaluated on', dataName, 'by', nowStr())
     print_('The result accuracy is %' + '%.3f\n' % (accuracy))
+    return labelsAndPreds
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     model = SVMWithSGD.train(data, iterations=100)
@@ -82,4 +83,4 @@ def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True,
         modelPath = joinPath(outputFolder, modelName)
         model.save(sc_(), modelPath)
         print_(modelPath, 'has been saved successfully by', nowStr())
-    evaluateModelOnData(model, testData, 'testData', modelName)
+    return evaluateModelOnData(model, testData, 'testData', modelName)

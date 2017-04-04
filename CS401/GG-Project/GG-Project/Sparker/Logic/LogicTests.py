@@ -29,11 +29,13 @@ def trainTestOnIPhone6Data():
     testData = readTrainDataFromHDFS(testDataFile)
     #trainData, testData = generateExperimentData()
     modelName = 'Model_v04_4'
-    runTrainingExperiment(trainData, testData, modelName, True)
+    labelsAndPreds = runTrainingExperiment(trainData, testData, modelName, False)
+    labelsAndPreds = labelsAndPreds.take(50)
+    print_(labelsAndPreds)
     
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
-    generateAllTrainData()
-    #trainTestOnIPhone6Data()
+    #generateAllTrainData()
+    trainTestOnIPhone6Data()
     #extractJourneyLogsFromDay0(4)
     #mergeJourneys()
