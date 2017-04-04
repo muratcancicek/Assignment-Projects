@@ -67,15 +67,15 @@ def mergeLabeledPairs(trainDataPrefix, testDataPrefix):
     return labeledPairs
 
 def mergeJourneyProducts(trainDataPrefix, testDataPrefix):
-    trainProductsFile == joinPath(outputFolder, trainDataPrefix +  '_journey_products')
+    trainProductsFile = joinPath(outputFolder, trainDataPrefix +  '_journey_products')
     trainProducts = readProductsFromHDFS(trainProductsFile)
     print_(trainProducts.count(), 'products have been found in the original train data by', nowStr())
     
-    testProductsFile == joinPath(outputFolder, testDataPrefix +  '_journey_products')
+    testProductsFile = joinPath(outputFolder, testDataPrefix +  '_journey_products')
     testProducts = readProductsFromHDFS(testProductsFile)
     print_(testProducts.count(), 'products have been found in the original test data by', nowStr())
 
-    productsFile == joinPath(outputFolder, 'all_journey_products')
+    productsFile = joinPath(outputFolder, 'all_journey_products')
     products = trainProducts.union(testProducts).distinct()
     #products = products.map(lambda p: 
     print_(products.count(), 'distinct products have  been merged by', nowStr())
