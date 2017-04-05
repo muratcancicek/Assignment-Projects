@@ -41,7 +41,7 @@ def rankingTestOnIPhone6Data():
     
 def userBehaviorTestOnIPhone6Data():  
     journey = readJourneyFromHDFS(joinPath(Day1_iPhone_6_DataFolder, 'all_day_journey'))
-    printActions(journey.take(700))
+    printActions(journey)
 
 
 def trainLocalDataTest():
