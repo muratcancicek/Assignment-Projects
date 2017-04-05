@@ -143,7 +143,7 @@ def printJourney(logs, printActions = True, printLogs = True, orderedKeys = None
         for journey in groupedLogs:
             printJourney(journey, printActions, printLogs, orderedKeys, colorMap, group = False)
         return
-    if isinstance(logs, PipelinedRDD):
+    if isinstance(logs, PipelinedRDD) or isinstance(logs, RDD):
         logs = logs.collect()
     print_(green('Journey begins...'))
     logs = sortedLogs(logs)   
