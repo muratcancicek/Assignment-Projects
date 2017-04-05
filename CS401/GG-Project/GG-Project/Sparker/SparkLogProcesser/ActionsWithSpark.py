@@ -80,9 +80,9 @@ def getActionForSearch(search, previousLog):
         action = Action.SEARCH_CATEGORY_SET
     elif not 'catCode' in search.keys() and 'catCode' in previousLog.keys():
         action = Action.SEARCH_CATEGORY_UNSET
-    elif search['totfound'] > previousLog['totfound']:
+    elif int(search['totfound']) > int(previousLog['totfound']):
         action = 'Page extended, ' + action
-    elif search['totfound'] < previousLog['totfound']:
+    elif int(search['totfound']) < int(previousLog['totfound']):
         action = 'Page narrowed, ' + action
     else:
         action = Action.SEARCH_REFRESHED
