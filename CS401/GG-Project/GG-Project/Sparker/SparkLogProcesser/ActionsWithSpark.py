@@ -107,10 +107,10 @@ def getActionStringForSearch(search, previousLog):
         and not 'catCode' in search.keys() and 'catCode' in previousLog.keys():
         action = 'Category unset, ' + action
     elif 'totfound' in search.keys() and 'totfound' in previousLog.keys() \
-        and search['totfound'] > previousLog['totfound']:
+        and int(search['totfound']) > int(previousLog['totfound']):
         action = 'Page extended, ' + action
     elif 'totfound' in search.keys() and 'totfound' in previousLog.keys() \
-        and search['totfound'] < previousLog['totfound']:
+        and int(search['totfound']) < int(previousLog['totfound']):
         action = 'Page narrowed, ' + action
     else:
         action = 'Refreshed, ' + action
