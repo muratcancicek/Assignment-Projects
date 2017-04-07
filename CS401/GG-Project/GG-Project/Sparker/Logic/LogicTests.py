@@ -44,7 +44,7 @@ def userBehaviorTestOnIPhone6Data():
     printJourney(journey)
 
 def parseAllDayTest():
-    allDayPath, outputPath = entireDayRawLogsfolder1+'/part-r-00000.gz', joinPath(allParsedLogsFolder, entireDay1 + '_parsed')
+    allDayPath, outputPath = entireDayRawLogsfolder1, joinPath(allParsedLogsFolder, entireDay1 + '_parsed')
     parseAllDay(allDayPath, outputPath)
 
 def trainLocalDataTest():
