@@ -162,5 +162,5 @@ def saveRDDToHDFS(rdd, fileName):
     print_(fileName, 'has been saved successfully by', nowStr())
 
 def parseAllDay(allDayPath, outputPath):
-    logs = getLogs(None, allLogsPath).sortBy(lambda log: log['timestamp'])
+    logs = sc_().textFile(allLogsPath).sortBy(lambda log: log['timestamp'])
     saveRDDToHDFS(logs, outputPath)
