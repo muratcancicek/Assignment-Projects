@@ -43,6 +43,9 @@ def userBehaviorTestOnIPhone6Data():
     journey = readJourneyFromHDFS(joinPath(Day1_iPhone_6_DataFolder, 'all_day_journey'))
     printJourney(journey)
 
+def parseAllDayTest():
+    allDayPath, outputPath = entireDayRawLogsfolder1, joinPath(allParsedLogsFolder, entireDay1 + '_parsed')
+    parseAllDay(allDayPath, outputPath)
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()

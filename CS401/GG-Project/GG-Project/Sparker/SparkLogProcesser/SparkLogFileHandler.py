@@ -160,3 +160,7 @@ def saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword):
 def saveRDDToHDFS(rdd, fileName):
     rdd.saveAsTextFile(fileName)
     print_(fileName, 'has been saved successfully by', nowStr())
+
+def parseAllDay(allDayPath, outputPath):
+    logs = getLogs(None, allLogsPath).sortBy(lambda log: log['timestamp'])
+    saveRDDToHDFS(logs, outputPath)
