@@ -1,0 +1,1 @@
+streaming_extractor_music.exe "..\data\first_outputs\002. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Erbarme Dich.mp3" "..\data\first_outputs\002. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Erbarme Dich.json"

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Fizy_Project", "Fizy_Project.pyproj", "{A9F33CE1-0832-44BB-9A06-7FA8BB749459}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Fizy_Project_V01", "Fizy_Project_V01.pyproj", "{A9F33CE1-0832-44BB-9A06-7FA8BB749459}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "essentia", "..\..\Fizy_Project\essentia\essentia.pyproj", "{2AD0513D-CA83-4AC6-BB83-9A7D2E144364}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Music_Learning", "..\Music_Learning\Music_Learning.pyproj", "{70FB72D6-6993-40A8-8A12-7E33A2DCAC47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,8 @@ Global
 		{A9F33CE1-0832-44BB-9A06-7FA8BB749459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD0513D-CA83-4AC6-BB83-9A7D2E144364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2AD0513D-CA83-4AC6-BB83-9A7D2E144364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FB72D6-6993-40A8-8A12-7E33A2DCAC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FB72D6-6993-40A8-8A12-7E33A2DCAC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
