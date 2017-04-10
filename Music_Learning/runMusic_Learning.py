@@ -1,4 +1,5 @@
 from Extractor.ExtractorRunner import run as runExtractor 
+from Tests.MusicTraverserTest import runtraverseMusicTest
 from paths import *
 
 def printSeparater():
@@ -6,7 +7,7 @@ def printSeparater():
         print_('#' * 88)
 
 def main():
-    runExtractor()
+    runtraverseMusicTest()
 
 printSeparater()
 print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')

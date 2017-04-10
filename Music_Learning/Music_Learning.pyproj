@@ -36,12 +36,17 @@
     <Compile Include="SystemHelpers\Printing.py" />
     <Compile Include="SystemHelpers\PythonVersionHandler.py" />
     <Compile Include="SystemHelpers\__init__.py" />
+    <Compile Include="Tests\MusicTraverserTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tests\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="data\first_outputs\" />
     <Folder Include="Extractor\" />
     <Folder Include="data\Notes\" />
+    <Folder Include="Tests\" />
     <Folder Include="SystemHelpers\" />
   </ItemGroup>
   <ItemGroup>

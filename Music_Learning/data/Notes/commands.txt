@@ -1,1 +1,14 @@
 streaming_extractor_music.exe "..\data\first_outputs\002. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Erbarme Dich.mp3" "..\data\first_outputs\002. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Erbarme Dich.json"
+streaming_extractor_music.exe "D:\OneDrive\Music\WORLD HITz\CARLOS LIBEDINSKY   OTRA LUNA  (Tango).mp3" "..\data\first_outputs\CARLOS LIBEDINSKY   OTRA LUNA  (Tango).json"
+streaming_extractor_music.exe "D:\OneDrive\Music\Lana Del Rey - Discography (2008 - 2015) [iTunes-M4A] [H4CKUS] [GloDLS]\Singles\2013 - Dark Paradise (Parov Stelar Remix) - Single\01 Dark Paradise (Parov Stelar Remix).m4a" "..\data\first_outputs\01 Dark Paradise (Parov Stelar Remix).json"
+streaming_extractor_music.exe "D:\OneDrive\Music\MEGAMIX HITz\Scream & Shout (Remix).mp4" "..\data\first_outputs\Scream & Shout (Remix).json"
+- streaming_extractor_music.exe "D:\OneDrive\Music\MEGAMIX HITz\Pepsi-we Will Rock U.avi" "..\data\first_outputs\Pepsi-we Will Rock U.json"
+streaming_extractor_music.exe "D:\OneDrive\Music\2Pac\Eminem - Smoke Weed [f Dr. Dre, Tupac, Jay Z, Puff Daddy, TLC, DMX, Big Pun, Eminem, Sisqo, Ice Cube, Missy Elliot & Eve]~1.wav" "..\data\first_outputs\Eminem - Smoke Weed [f Dr. Dre, Tupac, Jay Z, Puff Daddy, TLC, DMX, Big Pun, Eminem, Sisqo, Ice Cube, Missy Elliot & Eve]~1.json"
+streaming_extractor_music.exe "\" "..\data\first_outputs\.json"
+streaming_extractor_music.exe "\" "..\data\first_outputs\.json"
+
+50278
+ssh -p 50278 miek@10.200.161.237
+ssh -p 50278 miek@95.143.193.193
+
+
