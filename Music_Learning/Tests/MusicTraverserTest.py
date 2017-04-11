@@ -17,6 +17,9 @@ def isFileIn(dir, item):
 
 def getSubDirs(dir):
     return [item for item in listDir(dir) if isSubDir(dir, item)]
+
+def getFilesIn(dir):
+    return [item for item in listDir(dir) if isFileIn(dir, item)]
    
 def printListVertical(list, indent = 0):
     indent = indent * '  '
@@ -28,9 +31,18 @@ def printDirTree(dir, indent = 0):
         print_(indentStr + subDir)
         printDirTree(joinPath(dir, subDir), indent + 1)
 
+def traverseDirTree(dir, method):
+    method(dir)
+    for subDir in getSubDirs(dir): 
+        traverseDirTree(joinPath(dir, subDir), method)
+
+def countFiles(dir):
+    files = getFilesIn(dir)
+    print_(dir, '=', len(files))
+
 def printFilesTest():
     #subFoldersubFolderss = getSubDirs(musicFolder)
-    printDirTree(musicFolder)
+    traverseDirTree(musicFolder, countFiles)
 
 
 def runtraverseMusicTest():
