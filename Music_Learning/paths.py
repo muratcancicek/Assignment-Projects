@@ -33,6 +33,8 @@ extractorExe = joinPath(extractorFolder, 'streaming_extractor_music.exe')
 
 first_outputs = joinPath(dataFolder, 'first_outputs')
 
+musicFolder = 'D:\\OneDrive\\Music\\'
+
 gitDir = ''
 if COMPUTERNAME == 'MSI': 
     gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
