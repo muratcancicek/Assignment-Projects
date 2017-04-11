@@ -46,7 +46,7 @@ def userBehaviorTestOnIPhone6Data():
 def parseAllDayTest():
    allDayPath, outputPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-25', joinPath('/user/root/Parsed', entireDay1 + '_parsed')
    print_('Output Folder:', outputPath)
-    parseAllDay(allDayPath, outputPath)
+   parseAllDay(allDayPath, outputPath)
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
