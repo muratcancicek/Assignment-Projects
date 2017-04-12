@@ -34,6 +34,7 @@ extractorExe = joinPath(extractorFolder, 'streaming_extractor_music.exe')
 first_outputs = joinPath(dataFolder, 'first_outputs')
 
 musicFolder = 'D:\\OneDrive\\Music\\'
+trainDataFolder = 'D:\\OneDrive\\Projects\\Fizy_Project\\Acoustic_Features_of_My_Music\\'
 
 gitDir = ''
 if COMPUTERNAME == 'MSI': 
@@ -48,3 +49,6 @@ sys.stdout = OutputLogger(notesFolder)
 
 from SystemHelpers.PythonVersionHandler import *
 from SystemHelpers.Printing import *
+
+def unique(list1):
+    return list(set(list1))

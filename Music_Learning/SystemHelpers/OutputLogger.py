@@ -11,8 +11,15 @@ class OutputLogger(object):
         self.log.write('\n')  
 
     def write(self, message):
-        self.terminal.write(message)
-        self.log.write(str(message.encode('utf-8')))
+        try:
+            self.terminal.write(message)
+        except UnicodeEncodeError:
+            self.terminal.write(str(message.encode('unicode-escape')))
+        try:
+            self.log.write(message)
+        except UnicodeEncodeError:
+            print('WARNING: UnicodeEncodeError on output.txt')
+            self.log.write(str(message.encode('unicode-escape')))
 
     def flush(self):
         #this flush method is needed for python 3 compatibility.
