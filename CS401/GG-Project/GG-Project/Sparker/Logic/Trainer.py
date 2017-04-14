@@ -58,6 +58,16 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
     saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
 
+def generateTrainData(logs, keyword, outputFolder): 
+    rawKeyword = keyword
+    keyword = keyword.replace(' ', '_')
+    inputName = 'all_day'
+    journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
+    journey = getJourneyByKeyword(logs, rawKeyword)
+    saveRDDToHDFS(journey, journeyFile)
+    productsFile = None
+    return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
+
 def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     labelsAndPreds = data.map(lambda p: (p.label, model.predict(p.features)))
     truePredictionCount = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count()

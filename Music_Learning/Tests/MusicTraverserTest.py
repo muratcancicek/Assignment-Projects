@@ -89,7 +89,8 @@ def printFilesTest():
     #print_({t: allTypes.count(t) for t in unique(allTypes) if t in supportedTypes})
     #makeTrainFolder(musicFolder, trainDataFolder)
     #print_('Acoustic features will be extracted.')
-    extractFeaturesFromFolder(testInputFolder, testOutputFolder)
+    #extractFeaturesFromFolder(testInputFolder, testOutputFolder)
+    extractFeaturesFromFolder(musicFolder,trainDataFolder)
 
 def runtraverseMusicTest():
     printFilesTest()

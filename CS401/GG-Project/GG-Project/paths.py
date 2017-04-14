@@ -57,6 +57,9 @@ Day1_iPhone_6_DataFolder = joinPath(sparkFolder, 'Day1_iPhone_6_Data')
 Day1_lg_g4_DataFolder = joinPath(sparkFolder, 'Day1_lg_g4_Data')
 gitDir = ''
 allLogsPath = ''
+HDFSRootFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/'
+HDFSDataFolder = joinPath(HDFSRootFolder, 'data')
+
 if COMPUTERNAME == 'MSI': 
     gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
     allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
@@ -83,7 +86,7 @@ entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, entireDay2)
 
 allParsedLogsFolder = joinPath(allLogsPath, 'Parsed')
 if COMPUTERNAME == 'osldevptst02':
-   allParsedLogsFolder = '/mnt/Parsed/'
+   allParsedLogsFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/Parsed/'
 entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, entireDay1)
 entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, entireDay2)
 

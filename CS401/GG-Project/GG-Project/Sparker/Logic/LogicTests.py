@@ -47,6 +47,12 @@ def parseAllDayTest():
    allDayPath, outputPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-25', joinPath('/user/root/Parsed', entireDay1 + '_parsed')
    print_('Output Folder:', outputPath)
    parseAllDay(allDayPath, outputPath)
+   
+def trainDataGenerationTest():
+    logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
+    keyword = 'jant'
+    outputFolder = joinPath(HDFSDataFolder, 'Day1_jant_Data')
+    generateTrainData(keyword, outputFolder)
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
@@ -54,4 +60,5 @@ def trainLocalDataTest():
     #trainTestOnIPhone6Data()
     #rankingTestOnIPhone6Data()
     #userBehaviorTestOnIPhone6Data()
-    parseAllDayTest()
+    #parseAllDayTest()
+    trainDataGenerationTest()
