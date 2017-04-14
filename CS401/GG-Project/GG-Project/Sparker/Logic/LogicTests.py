@@ -51,8 +51,8 @@ def parseAllDayTest():
 def trainDataGenerationTest():
     logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
     keyword = 'jant'
-    outputFolder = joinPath(logs, HDFSDataFolder, 'Day1_jant_Data')
-    generateTrainData(keyword, outputFolder)
+    outputFolder = joinPath(HDFSDataFolder, 'Day1_jant_Data')
+    generateTrainData(logs, keyword, outputFolder)
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
