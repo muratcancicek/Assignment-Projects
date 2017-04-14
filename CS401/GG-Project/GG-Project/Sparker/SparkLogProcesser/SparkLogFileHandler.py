@@ -110,6 +110,14 @@ def evalLog(logText):
         print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
     return log
 
+def readParsedLogsFromHDFS(fileName): 
+    journey = sc_().textFile(fileName)
+    global evalCounter 
+    evalCounter = 0
+    journey = journey.map(evalLog)
+    print_(fileName, 'has been read by', nowStr())
+    return journey
+
 def readJourneyFromHDFS(fileName): 
     journey = sc_().textFile(fileName)
     global evalCounter 
