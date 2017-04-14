@@ -87,8 +87,8 @@ entireDayRawLogsfolder2 = joinPath(allRawLogsfolder, entireDay2)
 allParsedLogsFolder = joinPath(allLogsPath, 'Parsed')
 if COMPUTERNAME == 'osldevptst02':
    allParsedLogsFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/Parsed/'
-entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, entireDay1)
-entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, entireDay2)
+entireDayParsedLogsFolder1 = joinPath(allParsedLogsFolder, entireDay1 + '_parsed')
+entireDayParsedLogsFolder2 = joinPath(allParsedLogsFolder, entireDay2 + '_parsed')
 
 allSparkParsedLogsFolder = joinPath(allParsedLogsFolder, 'Spark')
 entireDaySparkParsedLogsFolder1 = joinPath(allSparkParsedLogsFolder, entireDay1)
