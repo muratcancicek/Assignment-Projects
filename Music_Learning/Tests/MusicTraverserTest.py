@@ -54,7 +54,7 @@ def listFileTypes(dir):
 
 def makeTrainFolder(inputFolder, outputFolder):
     def makeFolder(dir):
-        newFolder = dir.replace(inputFolder, outputFolder)
+        newFolder = getFixedEncodingValue(dir.replace(inputFolder, outputFolder))
         if not os.path.exists(newFolder):
             os.mkdir(newFolder)
     traverseDirTree(inputFolder, makeFolder)
@@ -64,21 +64,25 @@ def extractFeaturesFromFolder(inputFolder, outputFolder):
         fileType = getFileType(path)
         if not fileType in supportedTypes: return
         features = path.replace(inputFolder, outputFolder).replace('.'+fileType, '.json')
-        if not os.path.exists(features):
+        features = getFixedEncodingValue(features)
+        if os.path.exists(features):
+            print_(features, 'already exists, will be skipped.')
+        else:
             runExtractor(path,features)
          
     def processFolder(dir):
-        newFolder = dir.replace(inputFolder, outputFolder)
+        newFolder = getFixedEncodingValue(dir.replace(inputFolder, outputFolder))
         if not os.path.exists(newFolder):
             os.mkdir(newFolder)
+            print_(newFolder, 'cannot be found, will be created now.')
         for file in getFilesIn(dir):
             processFile(joinPath(dir, file))
     traverseDirTree(inputFolder, processFolder)
     
-testInputFolder = 'D:\\OneDrive\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\incesaz - 7 Yollar & Roads (2011)\\'
-testOutputFolder = joinPath(trainDataFolder, 'Classical Music Top 100\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\incesaz - 7 Yollar & Roads (2011)\\')
-testInputFolder = 'D:\\OneDrive\Music\\GWEN STEFANI\\'
-testOutputFolder = joinPath(trainDataFolder, 'GWEN STEFANI')
+testInputFolder = 'D:\\OneDrive\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\İncesaz - 7 Yollar & Roads (2011)\\'
+testOutputFolder = joinPath(trainDataFolder, 'Classical Music Top 100\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\İncesaz - 7 Yollar & Roads (2011)\\')
+#testInputFolder = 'D:\\OneDrive\Music\\GWEN STEFANI\\'
+#testOutputFolder = joinPath(trainDataFolder, 'GWEN STEFANI').replace('\\', '\\\\')[:87].encode( sys.getfilesystemencoding() 
 def printFilesTest():
     #subFoldersubFolderss = getSubDirs(musicFolder)
     #traverseDirTree(musicFolder, listFileTypes)

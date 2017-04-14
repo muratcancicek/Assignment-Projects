@@ -35,6 +35,7 @@
     <Compile Include="SystemHelpers\OutputLogger.py" />
     <Compile Include="SystemHelpers\Printing.py" />
     <Compile Include="SystemHelpers\PythonVersionHandler.py" />
+    <Compile Include="SystemHelpers\StringUtil.py" />
     <Compile Include="SystemHelpers\__init__.py" />
     <Compile Include="Tests\MusicTraverserTest.py">
       <SubType>Code</SubType>

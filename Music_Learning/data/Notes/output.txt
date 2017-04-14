@@ -68,3 +68,394 @@ D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\GWEN STEFANIPhar
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:28:15.702980: Running on MSI... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:29:05.117304: Running on MSI... 
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 is being processed... '
+  
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 is being processed... '
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:36:22.711635: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 is being processed... '
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:48:33.433621: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+2Dope b'D:\\OneDrive\\Music' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+2Dope b'D:\\OneDrive\\Music' 
+
+WARNING: UnicodeEncodeError on output.txt
+b"Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+2Dope b'D:\\OneDrive\\Music' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+2Dope b'D:\\OneDrive\\Music' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+2Dope b'D:\\OneDrive\\Music' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+2Dope b'D:\\OneDrive\\Music' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2Dope b'D:\\OneDrive\\Music' 
+2017-04-14 12:48:33.444129: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:48:55.525257: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+
+WARNING: UnicodeEncodeError on output.txt
+b"Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top' 
+2017-04-14 12:48:55.535264: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:49:11.875895: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b"Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2017-04-14 12:49:11.886403: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:50:52.711567: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b"Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+
+WARNING: UnicodeEncodeError on output.txt
+b'Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2017-04-14 12:50:52.717559: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:51:13.310717: Running on MSI... 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2Dope b'D:\\OneDrive\\Music\\Classical Music Top 100\\ncesaz_-_7_Yollar___Roads' 
+2017-04-14 12:51:13.313718: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:56:12.062705: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b"2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2017-04-14 12:56:12.067708: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:56:22.802489: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b"2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2017-04-14 12:56:22.807480: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:58:59.562350: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b"2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\03. Kral Yolu - The King's Road.mp3 "
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\04. Baharat Yolu - The Spice Road.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\05. \\u0130pek Yolu - The Silk Road.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\06. Hac Yolu - The Hajj Route.mp3 '
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\07. Hazarfen.mp3 '
+2017-04-14 12:58:59.568854: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 12:59:41.342226: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'2Dope D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\Incesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 '
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\02. Göç Yolu - Migratory Routes.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\03. Kral Yolu - The King's Road.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\04. Baharat Yolu - The Spice Road.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\05. Ipek Yolu - The Silk Road.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\06. Hac Yolu - The Hajj Route.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\07. Hazarfen.mp3 
+2017-04-14 12:59:41.345717: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:02:18.094249: Running on MSI... 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\01. Gunes Yolu - The Sun Route.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\02. Goc Yolu - Migratory Routes.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\03. Kral Yolu - The King's Road.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\04. Baharat Yolu - The Spice Road.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\05. Ipek Yolu - The Silk Road.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\06. Hac Yolu - The Hajj Route.mp3 
+2Dope D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\07. Hazarfen.mp3 
+2017-04-14 13:02:18.097251: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:03:30.223806: Running on MSI... 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\01. G\\xfcne\\u015f Yolu - The Sun Route.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\Classical Music Top 100\\\\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\\\\\\u0130ncesaz - 7 Yollar & Roads (2011)\\\\02. G\\xf6\\xe7 Yolu - Migratory Routes.mp3 is being processed... '
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:09:41.737852: Running on MSI... 
+2017-04-14 13:09:45.274451: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:11:29.165082: Running on MSI... 
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\01. Gunes Yolu - The Sun Route.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\02. Goc Yolu - Migratory Routes.mp3 is being processed... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:15:11.869444: Running on MSI... 
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\01. Gunes Yolu - The Sun Route.mp3 is being processed... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:15:38.777963: Running on MSI... 
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\01. Gunes Yolu - The Sun Route.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\02. Goc Yolu - Migratory Routes.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\03. Kral Yolu - The King's Road.mp3 is being processed... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:21:44.045736: Running on MSI... 
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\03. Kral Yolu - The King's Road.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\04. Baharat Yolu - The Spice Road.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\05. Ipek Yolu - The Silk Road.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\06. Hac Yolu - The Hajj Route.mp3 is being processed... 
+  
+D:\OneDrive\Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\07. Hazarfen.mp3 is being processed... 
+  
+2017-04-14 13:27:16.095508: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 13:28:59.791050: Running on MSI... 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\01. Gunes Yolu - The Sun Route.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\02. Goc Yolu - Migratory Routes.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\03. Kral Yolu - The King's Road.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\04. Baharat Yolu - The Spice Road.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\05. Ipek Yolu - The Silk Road.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\06. Hac Yolu - The Hajj Route.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\07. Hazarfen.json already exists, will be skipped. 
+2017-04-14 13:28:59.792551: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 

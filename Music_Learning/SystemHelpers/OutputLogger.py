@@ -18,7 +18,7 @@ class OutputLogger(object):
         try:
             self.log.write(message)
         except UnicodeEncodeError:
-            print('WARNING: UnicodeEncodeError on output.txt')
+            print('\nWARNING: UnicodeEncodeError on output.txt')
             self.log.write(str(message.encode('unicode-escape')))
 
     def flush(self):

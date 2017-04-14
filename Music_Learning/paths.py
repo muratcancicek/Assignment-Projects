@@ -48,6 +48,7 @@ else:
 sys.stdout = OutputLogger(notesFolder) 
 
 from SystemHelpers.PythonVersionHandler import *
+from SystemHelpers.StringUtil import *
 from SystemHelpers.Printing import *
 
 def unique(list1):
