@@ -9,13 +9,15 @@ def printSeparater():
         print_('#' * 88)
 
 def main():
+    printSeparater()
+    print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
+
     runSparkerMethods()
 
-printSeparater()
-print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
-main()
-print_('%s:' % nowStr(), 'DONE')
-printSeparater()
+    print_('%s:' % nowStr(), 'DONE')
+    printSeparater()
 
-import sys
-sys.exit() 
+    sys.exit() 
+
+if __name__ == "__main__":
+    main()

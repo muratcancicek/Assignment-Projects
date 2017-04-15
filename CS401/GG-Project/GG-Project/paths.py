@@ -1,7 +1,6 @@
 from MainSrc.OutputLogger import OutputLogger
 import sys
 import os
-import git
 
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
@@ -19,23 +18,26 @@ def joinPath(*args):
 def getAbsolutePath(fileName):
     script_dir = os.path.dirname(__file__) 
     return joinPath(script_dir, fileName)
-pulled = False
-def gitPull(gitDir):   
-    if pulled: return
-    g = git.cmd.Git(gitDir)
-    g.pull()
+PYTHON_VERSION = sys.version_info[0]
+if PYTHON_VERSION == 3:
+    import git
+    pulled = False
+    def gitPull(gitDir):   
+        if pulled: return
+        g = git.cmd.Git(gitDir)
+        g.pull()
     
-def gitPush(gitDir):
-    repo = git.Repo(gitDir)
-    origin = repo.remote(name='origin')
-    index = repo.index
-    #author = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
-    #committer = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
-    # commit by commit message and author and committer
-    index.commit("Auto-commit")
-    origin.push()
-    print('Pushed')
-    sys.exit()
+    def gitPush(gitDir):
+        repo = git.Repo(gitDir)
+        origin = repo.remote(name='origin')
+        index = repo.index
+        #author = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
+        #committer = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
+        # commit by commit message and author and committer
+        index.commit("Auto-commit")
+        origin.push()
+        print('Pushed')
+        sys.exit()
     
 dataFolder = getAbsolutePath('data')
 #if COMPUTERNAME == 'osldevptst02':
@@ -69,7 +71,8 @@ elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
 else:
     gitDir = '/root/Projects/Assignment-Projects'
-    gitPull(gitDir)
+    if PYTHON_VERSION == 3:
+      gitPull(gitDir)
     allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
     Day1_iPhone_6_DataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data'
     
