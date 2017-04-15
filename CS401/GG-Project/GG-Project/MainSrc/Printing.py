@@ -1,4 +1,6 @@
-import colorama
+import sys
+if sys.version_info[0] == 3:
+    import colorama
 colorama.init()
 class bcolors:
     PINK = '\033[95m'
