@@ -1,5 +1,7 @@
 from MainSrc.PythonVersionHandler import *
-from bson import json_util, ObjectId
+import sys
+if sys.version_info[0] == 3:
+    from bson import json_util, ObjectId
 from MainSrc.Printing import *
 import json, re
 
