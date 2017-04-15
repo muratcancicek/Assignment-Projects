@@ -109,9 +109,9 @@ def fixKeywords(logText):
         if j == -1 and k == -1: break
         b = (j if j > -1 and j < k or k == -1 else k)+1
         i = logText[:b].rfind('\': ') + 3
-        print_(logText[i:b])
+        #print_(logText[i:b])
         logText = logText[:i]+'u\''+logText[i:b]+'\''+logText[b:]
-        print_(logText)
+        #print_(logText)
     return logText
     #
 evalCounter = 0
