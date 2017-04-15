@@ -1896,3 +1896,959 @@ D:\OneDrive\Music\EMINEM\T.I. ft Eminem - All She Wrote (NFS video).mp4 is being
 D:\OneDrive\Music\EMINEM\The Way I Am.mp3 is being processed... 
   
 D:\OneDrive\Music\EMINEM\Trick Trick Ft. Eminem.mp3 is being processed... 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-14 23:38:03.312612: Running on MSI... 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 - Honey (Prod. By Kompetition).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 EP3 - YesJulz & 070 at SXSW.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Freestyle (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Shake - Trust Nobody.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ariana Grande - Let Me Love You (feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Boys & Girls (feat. Pia Mia).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris - Outside Audio ft. Ellie Goulding.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris Ft. Rihanna - This Is What You Came For (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Charli XCX - Break The Rules Official Video.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque (1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Childs Play.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Ft. Wizkid, Kyla - One Dance (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drama (Ft. Drake) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous - To The Sky ft. 070 Shake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous Faith In Me Feat. Wale (WSHH Exclusive - Official Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - M.I.L.F. $.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - Milf Money (Milfs) (CDQ)_2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana - No Shopping.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana Feat. Kodak Black  Lockjaw.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Future - Used to This ft. Drake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Goodbye Kiss (Lana Del Rey) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Iggy Azalea - Work.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Juicy J - Ballin ft. Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Fatigante (with lyrics).json already exists, will be skipped. 
+D:\OneDrive\Music\Louise Attaque - J't'emmène Au Vent (mp3goo.com).mp3 is being processed... 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - La Plume (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Music\Louise Attaque - Léa (Mp3FB.com).mp3 is being processed... 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Savoir (+ paroles).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Ton Invitation (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Toute Cette Histoire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Niykee Heaton & Migos - Bad Intentions (Official Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Niykee Heaton Feat. Matty P - Bad Intentions (remix) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Music\Noir Désir - Le Vent Nous Portera.mp3 is being processed... 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Rae Sremmurd - Black Beatles ft. Gucci Mane (320  kbps).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Rae Sremmurd Black Beatles (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Recognize (feat. Drake) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Red Hot Chili Peppers - Californication [Official Music Video].json already exists, will be skipped. 
+D:\OneDrive\Music\Rick Ross ft French Montana – Headache - ViewHipHop.com.MP3 is being processed... 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\SHAKE 070 - Bass for thoughts + download link.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Sing! Day of song - Bobby McFerrin - Improvisation.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\T-Pain ft. Rick Ross - Rap Song.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Tinie Tempah - Girls Like feat. Zara Larsson.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Tyga - Glitta_2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\yallah sofor yalalh.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Zara Larsson - Ain't My Fault (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz & Cap1 - Where You Been [Prod. By Mike Will Made It].MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz & Wiz Khalifa - We Own It (Fast & Furious).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - G.O.O.D. Morning  - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - I Luve Dem Strippers (Feat. Nicki Minaj).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - Used 2 (Explicit).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - Watch Out prod by FKi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz Ft Lloyd Mae Beautiful Pain MP3 Download.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz Songs - Netflix (Prod. By Diplo _ C-Note) [Dirty].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz- Twilight Zone - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz-Flossin - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Ace_Hood_Feat._2_Chainz-Featuring_2_Chainz-Used_To_Luv_Her-f4df7ef5.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\B.o.B - Headband (Feat. 2 Chainz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Brandy ft Tity Boi 2 Chainz Tyga - Put It Down.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Fabolous ft Tity Boi 2 Chainz - When I Feel Like.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Gucci Mane - Use Me Feat. 2 Chainz - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\K Camp - Cut Her Off (Remix) (Feat. 2 Chainz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\R. Kelly - My Story (Feat. 2 Chainz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Tyga Ft 2 Chainz-Do My Dance.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Young Jeezy - RIP - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\01 - Yuck (Feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\02 - Crack.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\03 - Dope Peddler.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\04 - No Lie (Feat. Drake).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\05 - Birthday Song (Feat. Kanye West).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\06 - Im Diffrent.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\07 - Extremely Blessed (Feat. The-Dream).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\08 - I Luve Dem Strippers (Feat. Nicki Minaj).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\09 - Stop Me Now (Feat. Dolla Boy).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\10 - Money Machine.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\11 - In Town (Feat. Mike Posner).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\12 - Ghetto Dreams (Feat. Scarface And John Legend).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\13 - Wut We Doin (Feat. Cap.1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\14 - Countdown (Feat. Chris Brown) (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\15 - Like Me (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\16 - I Feel Good (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\17 - Riot (Bonus Track).json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\01 Dedication.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\02 Smell Like Money.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\03 Bounce.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\04 Gotta Lotta.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\05 MFN Right.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\06 Blue C-Note.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\07 Not Invited.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\08 Bentley Truck.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\09 100 Joints.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\10 Rolls Royce Weather Every Day.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\11 What Happened.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\12 Section.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\13 Watch Out.mp3 is being processed... '
+  
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\2_Chainz_BF_Remix_Jeezy.mp3 is being processed... '
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-15 14:00:26.519723: Running on MSI... 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 - Honey (Prod. By Kompetition).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 EP3 - YesJulz & 070 at SXSW.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Freestyle (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Shake - Trust Nobody.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ariana Grande - Let Me Love You (feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Boys & Girls (feat. Pia Mia).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris - Outside Audio ft. Ellie Goulding.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris Ft. Rihanna - This Is What You Came For (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Charli XCX - Break The Rules Official Video.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque (1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Childs Play.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Ft. Wizkid, Kyla - One Dance (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drama (Ft. Drake) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous - To The Sky ft. 070 Shake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous Faith In Me Feat. Wale (WSHH Exclusive - Official Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - M.I.L.F. $.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - Milf Money (Milfs) (CDQ)_2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana - No Shopping.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana Feat. Kodak Black  Lockjaw.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Future - Used to This ft. Drake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Goodbye Kiss (Lana Del Rey) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Iggy Azalea - Work.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Juicy J - Ballin ft. Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Fatigante (with lyrics).json already exists, will be skipped. 
+D:\OneDrive\Music\Louise Attaque - J't'emmène Au Vent (mp3goo.com).mp3 is being processed... 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - La Plume (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Music\Louise Attaque - Léa (Mp3FB.com).mp3 is being processed... 
+
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-15 14:07:57.796527: Running on MSI... 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 - Honey (Prod. By Kompetition).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 EP3 - YesJulz & 070 at SXSW.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Freestyle (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Shake - Trust Nobody.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ariana Grande - Let Me Love You (feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Boys & Girls (feat. Pia Mia).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris - Outside Audio ft. Ellie Goulding.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris Ft. Rihanna - This Is What You Came For (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Charli XCX - Break The Rules Official Video.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque (1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Childs Play.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Ft. Wizkid, Kyla - One Dance (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drama (Ft. Drake) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous - To The Sky ft. 070 Shake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous Faith In Me Feat. Wale (WSHH Exclusive - Official Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - M.I.L.F. $.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - Milf Money (Milfs) (CDQ)_2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana - No Shopping.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana Feat. Kodak Black  Lockjaw.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Future - Used to This ft. Drake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Goodbye Kiss (Lana Del Rey) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Iggy Azalea - Work.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Juicy J - Ballin ft. Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Fatigante (with lyrics).json already exists, will be skipped. 
+
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-15 14:08:35.974069: Running on MSI... 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 - Honey (Prod. By Kompetition).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 EP3 - YesJulz & 070 at SXSW.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Freestyle (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\070 Shake - Trust Nobody.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ariana Grande - Let Me Love You (feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Boys & Girls (feat. Pia Mia).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris - Outside Audio ft. Ellie Goulding.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Calvin Harris Ft. Rihanna - This Is What You Came For (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Charli XCX - Break The Rules Official Video.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque (1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\cracher nos souhaits Louise Attaque.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Childs Play.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drake Ft. Wizkid, Kyla - One Dance (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Drama (Ft. Drake) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous - To The Sky ft. 070 Shake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fabolous Faith In Me Feat. Wale (WSHH Exclusive - Official Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - M.I.L.F. $.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Fergie - Milf Money (Milfs) (CDQ)_2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana - No Shopping.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\French Montana Feat. Kodak Black  Lockjaw.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Future - Used to This ft. Drake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Goodbye Kiss (Lana Del Rey) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Iggy Azalea - Work.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Juicy J - Ballin ft. Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Fatigante (with lyrics).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - J't'emmène Au Vent (mp3goo.com).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - La Plume (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Léa (Mp3FB.com).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Savoir (+ paroles).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Ton Invitation (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Louise Attaque - Toute Cette Histoire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Niykee Heaton & Migos - Bad Intentions (Official Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Niykee Heaton Feat. Matty P - Bad Intentions (remix) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Noir Désir - Le Vent Nous Portera.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Rae Sremmurd - Black Beatles ft. Gucci Mane (320  kbps).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Rae Sremmurd Black Beatles (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Recognize (feat. Drake) (mp3goo.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Red Hot Chili Peppers - Californication [Official Music Video].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Rick Ross ft French Montana – Headache - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\SHAKE 070 - Bass for thoughts + download link.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Sing! Day of song - Bobby McFerrin - Improvisation.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\T-Pain ft. Rick Ross - Rap Song.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Tinie Tempah - Girls Like feat. Zara Larsson.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Tyga - Glitta_2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\yallah sofor yalalh.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Zara Larsson - Ain't My Fault (Mp3FB.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz & Cap1 - Where You Been [Prod. By Mike Will Made It].MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz & Wiz Khalifa - We Own It (Fast & Furious).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - G.O.O.D. Morning  - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - I Luve Dem Strippers (Feat. Nicki Minaj).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - Used 2 (Explicit).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz - Watch Out prod by FKi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz Ft Lloyd Mae Beautiful Pain MP3 Download.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz Songs - Netflix (Prod. By Diplo _ C-Note) [Dirty].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz- Twilight Zone - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2 Chainz-Flossin - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Ace_Hood_Feat._2_Chainz-Featuring_2_Chainz-Used_To_Luv_Her-f4df7ef5.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\B.o.B - Headband (Feat. 2 Chainz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Brandy ft Tity Boi 2 Chainz Tyga - Put It Down.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Fabolous ft Tity Boi 2 Chainz - When I Feel Like.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Gucci Mane - Use Me Feat. 2 Chainz - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\K Camp - Cut Her Off (Remix) (Feat. 2 Chainz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\R. Kelly - My Story (Feat. 2 Chainz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Tyga Ft 2 Chainz-Do My Dance.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\Young Jeezy - RIP - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\01 - Yuck (Feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\02 - Crack.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\03 - Dope Peddler.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\04 - No Lie (Feat. Drake).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\05 - Birthday Song (Feat. Kanye West).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\06 - Im Diffrent.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\07 - Extremely Blessed (Feat. The-Dream).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\08 - I Luve Dem Strippers (Feat. Nicki Minaj).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\09 - Stop Me Now (Feat. Dolla Boy).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\10 - Money Machine.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\11 - In Town (Feat. Mike Posner).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\12 - Ghetto Dreams (Feat. Scarface And John Legend).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\13 - Wut We Doin (Feat. Cap.1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\14 - Countdown (Feat. Chris Brown) (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\15 - Like Me (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\16 - I Feel Good (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2 CHAINZ\2_Chainz-Based_On_A_T.R.U._Story-Deluxe_Edition-(RapGodFathers.info)\17 - Riot (Bonus Track).json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\01 Dedication.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\02 Smell Like Money.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\03 Bounce.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\04 Gotta Lotta.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\05 MFN Right.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\06 Blue C-Note.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\07 Not Invited.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\08 Bentley Truck.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\09 100 Joints.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\10 Rolls Royce Weather Every Day.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\11 What Happened.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\12 Section.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\13 Watch Out.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\2 Chainz & Lil Wayne - Collegrove (2016) [\\u0415\\u0429\\u0401 RAP]\\\\2_Chainz_BF_Remix_Jeezy.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2 pac - Tupac -  I Ain't Mad At Cha.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2 Pac Tupac - Changes.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2Pac - California Love.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2pac - Fuck All Y'all (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2pac - I'll Be Missing You (Changes Remix) (Tupac Tribute).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2pac - in the air tonight (remix tupac & phil collins).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2pac - tupac - dear mama.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2pac Feat. Bun B & Brooklyn - Tupac Rap Phenomenon Ii Dj Green Lantern, Dirty Harry & Vlad (Mixtape) 2pac - 13 - Me Again~1.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2PAC feat. K-CI & JOJO How do u want it.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\2Pac remix- HOLLA IF YA HEAR ME (very nice remix!).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Big L ft. Tupac & The Notorious B.I.G. - Deadly Combination (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Eminem - Smoke Weed [f Dr. Dre, Tupac, Jay Z, Puff Daddy, TLC, DMX, Big Pun, Eminem, Sisqo, Ice Cube, Missy Elliot & Eve]~1.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Jon B Feat. 2pac - Are You Still Down.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tu Pac-Fuck Friends.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tupac - Ambitionz Az A Ridah.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tupac - Hit em up.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tupac - I'd Rather be Your N.I.G.G.A..json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tupac - Only God Can Judge Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tupac and Biggie - Living to Die.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\Tupac-2-pac & Snoop Dogg - Gangsta Party.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\---50 cent feat akon eminem - i'll still kill (remix)-layprod mp4- mp4-234.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent - Baby .MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent - Financial Freedom.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent - Get Up.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent - My Life ft. Adam Levine & Eminem (Produced by S1) [320kbps-CDQ_DIRTY].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 cent - the massacre - 06 - gatman and robin (feat eminem).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent feat. Justin Timberlake - Ayo Technology .json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent feat. Snoop Dogg & Young Jeezy – Major Distribution - Radio Rip.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent ft. Kendrick Lamar  Kidd Kidd - We Up (www.SongsLover.pk).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent this how we do.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 Cent- Remain Calm Feat. Snoop Dogg & Precious Paris - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\50 cents - in da club.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\candy shop-50 cent.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\2Pac\50 CENT\Wiz Khalifa - Telescope feat 50 Cent (Prod. by Harry Fraud) - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\---50 cent feat akon eminem - i'll still kill (remix)-layprod mp4- mp4-234.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent - Baby .MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent - Financial Freedom.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent - Get Up.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent - My Life ft. Adam Levine & Eminem (Produced by S1) [320kbps-CDQ_DIRTY].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent - The Banks Workout Feat. Lloyd Banks.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 cent - the massacre - 06 - gatman and robin (feat eminem).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent feat. Justin Timberlake - Ayo Technology .json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent feat. Snoop Dogg & Young Jeezy – Major Distribution - Radio Rip.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent ft. Kendrick Lamar  Kidd Kidd - We Up (www.SongsLover.pk).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent this how we do.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 Cent- Remain Calm Feat. Snoop Dogg & Precious Paris - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\50 cents - in da club.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\candy shop-50 cent.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\jeremih_feat_50_cent_-_down_on_me_-_hotnewhiphop_com.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\50 CENT\\\\Lloyd Banks Hands Up ft 50 Cent mp3 \\u0441\\u043a\\u0430\\u0447\\u0430\\u0442\\u044c \\u0431\\u0435\\u0441\\u043f\\u043b\\u0430\\u0442\\u043d\\u043e \\u0438 \\u0431\\u0435\\u0437 \\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u043d\\u0430 Muzofon.com \\u041a\\u0430\\u0447\\u0430\\u0439 \\u0431\\u0435\\u0441\\u043f\\u043b\\u0430\\u0442\\u043d\\u043e \\u043b\\u044e\\u0431\\u0443\\u044e \\u043c\\u0443\\u0437\\u044b\\u043a\\u0443 \\u0432 \\u0444\\u043e\\u0440\\u043c\\u0430\\u0442\\u0435 mp3 \\u0438 \\u0441\\u043b\\u0443\\u0448\\u0430\\u0439 \\u043e\\u043d\\u043b\\u0430\\u0439\\u043d..MP3 has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\50 CENT\Wiz Khalifa - Telescope feat 50 Cent (Prod. by Harry Fraud) - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\01 Baby Bash ft Akon - I'm Back.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\02. Pitbull - Shut It Down (feat. Akon)(1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\07 Akon Feat. Eminem - Smack That (Dirty).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\2 Pac feat. Akon - Street Life.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\50 Cent ft. Akon - I'll Still Will Kill.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon - Mr.Lonely.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon - No More You ( New Music of Akon 2010  ).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon - Right Now Na Na Na.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon - So Blue [128].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon Feat Biggie and 2 Pac - Ghetto Remix - Akon ft Biggie Smalls & Tupac - Ghetto (Remix)(3).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon Feat French Montana - Hurt Somebody (www.SongsLover.com).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon Feat. Wiz Khalifa - Dirty Work - Thisisbuckwild.com.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon Ft DJ Khaled - Cocaine Cowboy.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon Ft Sway - Silver & Gold.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon Ft. Ludacris - Drop Down iM1.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon- Aint Sayin Nothin (CDQ) - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon- We On Feat. Yo Gotti - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Akon_Ft._Snoop_Dogg___Tego_Calderon_-_I_Wanna_Fuck_You__Remix_.Mp3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Ca$h Out - Cashin Out feat Akon [Radio Rip] - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\David Guetta ft. Akon - Sexy Bitch(1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Lady Gaga - Just Dance(Ft Akon).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Madonna Ft. Akon - Celebration (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\T-Pain ft. Akon - Bartender.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AKON\Wiz Khalifa - Let It Go Download MP3 Wiz Khalifa (Feat. Akon).MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\ASHLEE SIMPSON\Ashlee Simpson - Lala.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\ASHLEE SIMPSON\Ashlee Simpson - Outta My Head (Ay Ya Ya).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\ASHLEE SIMPSON\Ashley Simpson - Shadow.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Complicated (Official Video).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - My Happy Ending.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Sk8er Boi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Take Me Away - Avril Lavigne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\01. I Don´t Give.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\02. Why.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\03. Get Over It.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\04. Take Me Away.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\05. Headset.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\06. Falling Into History.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\07. Falling Down.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\08. Tomorrow You Didn´t.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\09. Things I´ll Never Say.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\11. Once And For Real.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\12. Make Up.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\13. Not The Only One.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\14. I Will Be.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\15. Move Your Little Self On.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\16. You Never Satisfy Me.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\17. Let Go.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\18. Alone.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\19. I Always Get What I Want.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\20. The Scientist.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\21. Imagine.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\22. Knockin´ On Heaven´s Door.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\23. Oh Holy Night (Featuring Chantal Kreviazuk).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\24. When You're Gone (Acoustic) ©.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\25. I Can Do Better (Acoustic).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\26. Nobody´s Home (Acoustic).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\27. I Will Be (featuring Leona Lewis).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\All You Will Never Know (2008) www.mastydownloads.blogspot.com©\28. Girlfriend (Dr. Luke Remix) (featuring Lil Mama).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\Avril Lavigne - Bad Reputation.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\Avril Lavigne - How You Remind Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\Avril Lavigne - Rock N Roll (Acoustic).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\01. Rock n Roll.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\02. Here's to Never Growing Up.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\03. 17.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\04. Bitchin' Summer.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\05. Let Me Go (feat. Chad Kroeger).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\06. Give You What You Like.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\07. Bad Girl (feat. Marilyn Manson).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\08. Hello Kitty.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\09. You Ain't Seen Nothin' Yet.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\10. Sippin' On Sunshine.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\11. Hello Heartache.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\12. Falling Fast.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Avril Lavigne - Avril Lavigne [2013] 320\AL @ 320\13. Hush Hush.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\01 Black Star.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\02 What the Hell.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\03 Push.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\04 Wish You Were Here.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\05 Smile.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\06 Stop Standing There.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\07 I Love You.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\08 Everbody Hurts.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\09 Not Enough.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\10 4 Real.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\11 Darlin.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\12 Remember When.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\13 Goodbye.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\Goodbye Lullaby\14 Alice (Extended Version).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\01-avril_lavigne-girlfriend_(clean_edit).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\02-avril_lavigne-i_can_do_better.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\03-avril_lavigne-runaway.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\04-avril_lavigne-the_best_damn_thing.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\05-avril_lavigne-when_youre_gone.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\06-avril_lavigne-everything_back_but_you.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\07-avril_lavigne-hot.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\08-avril_lavigne-innocence.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\09-avril_lavigne-i_dont_have_to_try.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\10-avril_lavigne-one_of_those_girls.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\11-avril_lavigne-contagious.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\AVRIL LAVIGNE\The Best Damn Thing\12-avril_lavigne-keep_holding_on_(alternative_version).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\,,,Beyoncé - Girls (Who Run The World)(1).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce - Bow Down _ I Been On.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce - Broken Hearted Girl (I Am Sasha Fierce).MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce - Halo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce - Sweet Dreams.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce 7 11.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce and Jay-Z - Crazy In Love.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce and Sean Paul - Baby Boy.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce feat. Shakira - Beatiful Liar.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce Ft Jay -z - Deja VU.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce ft.  Kanye West - Ego (remix) .json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce Ft. Jay Z - Upgrade You.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce ft. Slim Thug - Check Up On It.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce ft. T.I. & Lil Wayne - Soldier.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce Knowles - Naughty Girl.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyonce_-_Diva_RMX_(ft_Lil_Wayne)_(Dirty).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\BeyoncÃ© Ft Nicki Minaj - Flawless (Remix).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyoncé - Video Phone (ft. Lady Gaga)(1).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Beyoncé-1+1.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\destiny's child - need a soilder.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Lady Gaga feat. Beyoncé - Telephone.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BEYONCE\Music Videos- Beyonce ft Slim Thug- Check On It.mpg.ipod (1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BLACK EYED PEASE\Black Eyed Peas - I'mma Be.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BLACK EYED PEASE\Black Eyed Peas - Shut Up.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BLACK EYED PEASE\Black Eyed Pease - Hey Mama.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BLACK EYED PEASE\blackeyedpeas_rockthatbody11.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BLACK EYED PEASE\The Black Eyed Peas - Shut Up.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\01 Britney Spears - I Wanna Go.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\11-Britney Spears Ft. Lil Wayne-Bad Girl (Dirty).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - 3 (One, Two, Three) new single sept 2009.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Circus.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Hold It Against Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - I Love Rock 'N' Roll.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - I Love Rock N Roll.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Money Love And Happiness.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - My Perogative.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Piece Of Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Till The World Ends (Remix) feat. Nicki Minaj & Ke$Ha.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Toxic.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears feat. Pitbull_-_3 (Remix) 2010.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears ft. Madonna - Me Against The Music.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears ft. T.I. - Gimme More (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears Ft.Busta Rhymes & T.I. - Womanizer Remix.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears, Iggy Azalea - Pretty Girls (Audio).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears-  Toy Solider.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears- (2).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears-.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Till The World Ends - Britney Spears.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\will.i.am - Scream & Shout ft. Britney Spears.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\01 - Britney Spears - Till The World Ends.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\02 - Britney Spears - Hold It Against Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\03 - Britney Spears - Inside Out.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\04 - Britney Spears - I Wanna Go.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\05 - Britney Spears - How I Roll.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\06 - Britney Spears - (Drop Dead) Beautiful (Feat. Sabi).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\07 - Britney Spears - Seal It With A Kiss.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\08 - Britney Spears - Big Fat Bagg (Feat. will.i.am).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\09 - Britney Spears - Trouble For Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\10 - Britney Spears - Trip To Your Heart.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\11 - Britney Spears - Gasoline.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\12 - Britney Spears - Criminal.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\13 - Britney Spears - Up 'n Down (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\14 - Britney Spears - He About To Lose Me (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\15 - Britney Spears - Selfish (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BRITNEY SPEARS\Britney Spears - Femme Fatale (Deluxe Edition) (2011) Pop DutchReleaseTeam\16 - Britney Spears - Don't Keep Me Waiting (Bonus Track).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\50 Cent- Up (Remix) Feat. LoveRance, Young Jeezy & T.I. (No Tags) - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Busta feat Linkin Park We Made_It_Dirty.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Busta Rhymes - Touch It (Mega Remix) (feat Lloyd Banks, DMX, Mary J Blige Ne-Yo, Papoose Rah Digga & Missy Elliot).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Busta Rhymes - Touch It.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Busta Rhymes feat Linkin Park - We Made It.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Busta Rhymes Ft. Eminem - Calm Down.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Rick Ross - Bag Of Money feat. Wale & Meek Mill (Prod by Beat Billionaire) - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Rick Ross - Stay Schemin feat Drake & French Montana (Prod by Beat Bully) - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Styles P - Harsh (feat. Busta Rhymes & Rick Ross).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\BUSTA RHYMES\Wiz Khalifa - Different Cloth Feat. Busta Rhymes - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\01.Im Da King.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Chamillionaire - Man on Fire - 16 - Neck Of My Woods.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Chamillionaire ft. Akon - Ridin Overseas.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Chamillionare ft Lil Flip - Turn It Up (Dirty).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Chamillionare ft. Lil Wayne - Fly As The Sky.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Chamillionare- hip-hop police.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Ciara - Get Up (ft. Chamillionaire).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CHAMILLIONAIRE\Frankie J Feat. Chamillionaire & Mannie Fresh - That Girl.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\01 Westside [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\02 Nothin' Like Me (Feat. Ty Dolla $ign) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\03 Ayo [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\04 Girl You Loud [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\05 Remember Me [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\06 I Bet (Feat. 50 Cent) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\07 D.G.I.F.U. (Feat. Pusha T) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\08 Better [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\09 Lights Out (Feat. Fat Trel) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\10 Real One (Feat. Boosie Badazz) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\11 Bitches N Marijuana (Feat. Schoolboy Q) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\12 She Goin Up [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\13 Wrong In the Right Way [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\14 Bunkin (Feat. Jay 305, T.I.) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\15 It's Yo Shit (Feat. Wale) [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\16 Banjo [Songspk.club].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Chris Brown X Tyga - Fan of a Fan the Album (2015) [Songspk.club]\ayo-feat-tyga-chris-brown--1427610703.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Cassie ft Lil Wayne - Official Girl(1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Cassie_ft_Akon_-_Let's_Get_Crazy.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Ciara - Like A Boy.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Ciara - Ride it (feat. Ludacris) (Tagged) - HotNewHipHop.com.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Ciara ft. Lil Jon - Get On The Dancefloor.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Ciara-Boy_Outta_Here__Feat__Rick_Ross_.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\CIARA - CASSIE\Ciara_feat_2_Chainz_-_Sweat.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\001. Wolfgang Amadeus Mozart - Requiem (K. 626) - Lacrimosa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\002. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Erbarme Dich.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\003. Ludwig van Beethoven - Piano Concerto No. 5 (Op. 73) - Adagio Un Poco Mosso.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\004. Wolfgang Amadeus Mozart - Klarinettenkonzert (K. 622) - Adagio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\005. Antonio Lucio Vivaldi - Le Quattro Stagioni (Op. 8, RV 269) - La Primavera.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\006. Johann Pachelbel - Kanon In D.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\007. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Wir Setzen Uns Mit Tränen Nieder.json has unicode problems, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\008. Anton\\xedn Dvo\\u0159\\xe1k - New World Symphony (Op. 95) - Largo.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\009. Sergej Vassiljevitsj Rachmaninoff - Piano Concerto No. 2 (Op. 18) - Adagio Sostenuto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\010. Tomaso Giovanni Albinoni - Adagio In Sol Minore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\011. Johann Sebastian Bach - Matthäus Passion (BWV 244) - Kommt, Ihr Tochter.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\012. Georg Friederich Händel - Messiah (HWV 56) - Hallelujah.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\013. Ludwig van Beethoven - Symphony No. 7 (Op. 92).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\014. Edvard Hagerup Grieg - Peer Gynt Suite No. 1 (Op. 46) - Morgenstemning.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\015. Gustav Mahler - Symphony No. 5.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\016. Ludwig van Beethoven - Symphony No. 9 (Op. 125).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\017. Johann Sebastian Bach - Jesus Bleibet Meine Freude (BWV 147).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\018. Samuel Osborne Barber - Adagio For Strings.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\019. Johann Sebastian Bach - Orchestersuite Nr. 3 (BWV 1068) - Air.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\020. Wolfgang Amadeus Mozart - Die Zauberflote (K. 620) - Der Vogelfänger Bin Ich Ja.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\021. Carl Orff - Carmina Burana - O Fortuna.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\022. Giulio Caccini - Ave Maria.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\023. Wolfgang Amadeus Mozart - Ave Verum Corpus (K. 618).json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\024. Bed\\u0159ich Smetana - M\\xe1 Vlast - Vltava.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\025. Pyotr Ilyich Tchaikovsky - Swan Lake (Op. 20) - \\u041b\\u0435\\u0431\\u0435\\u0434\\u0438\\u043d\\u043e\\u0435 \\u041e\\u0437\\u0435\\u0440\\u043e.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\026. Johann Sebastian Bach - Weihnachtsoratorium (BWV 248) - Jauchzet, Frohlocket.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\027. Georges Bizet - Les Pêcheurs De Perles - Au Fond Du Temple Saint.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\028. Giuseppe Fortunino Francesco Verdi - Nabucco - Va, Pensiero.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\029. Maurice Ravel - Boléro.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\030. Gabriel Urbain Fauré - Cantique De Jean Racine (Op. 11).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\031. Johann Sebastian Bach - Toccata E Fuga (BWV 565).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\032. Clément Philibert Léo Delibes - Lakmé - Duo Des Fleurs.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\033. Charles-Francois Gounod - Ave Maria.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\034. Wolfgang Amadeus Mozart - Eine Kleine Nachtmusik (K. 525).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\035. Ludwig van Beethoven - Fur Elise (WoO 59).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\036. Wolfgang Amadeus Mozart - Die Zauberflote (K. 620) - Der Holle Rache Kocht In Meinem Herzen.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\037. Johann Sebastian Bach - Orchestersuite Nr. 2 (BWV 1067) - Badinerie.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\038. Max Christian Friedrich Bruch - Violinkonzert Nr. 1 (Op. 26) - Allegro Moderato.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\039. Wolfgang Amadeus Mozart - Requiem (K. 626) - Introitus.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\040. Giuseppe Fortunino Francesco Verdi - Aida - Marcia Trionfale.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\041. Giovanni Battista Pergolesi - Stabat Mater.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\042. Ludwig van Beethoven - Symphony No. 6 (Op. 68).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\043. Georg Friederich Händel - Messiah (HWV 56) - For Unto Us A Child Is Born.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\044. George Gershwin - Rhapsody In Blue.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\045. Charles Camille Saint-Saëns - Danse Macabre.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\046. Wolfgang Amadeus Mozart - Vesperae De Dominica (K. 321) - Laudate Dominum.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\047. Georg Friederich Händel - Wassermusik (HWV 348-350).json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\048. Ludwig van Beethoven - Piano Concerto No. 5 (Op. 73) - Rondo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\049. Antonio Lucio Vivaldi - Le Quattro Stagioni (Op. 8, RV 293) - l'Autunno.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\050. Ludwig van Beethoven - Symphony No. 5 (Op. 67).json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\051. Fr\\u221a\\xa9d\\u221a\\xa9ric Fran\\u221a\\xdfois Chopin - Concerto Pour Piano No. 1 (Op. 11) - Romance.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\052. Gabriel Urbain Faur\\u221a\\xa9 - Requiem (Op. 48) - Pie Jesu.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\053. Sergei Sergeyevich Prokofiev - Romeo And Juliet Suite No. 2 (Op. 64b) - The Montagues And Capulets.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\054. Wolfgang Amadeus Mozart - Symphony No. 40 (K. 550) - Molto Allegro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\055. Sergej Vassiljevitsj Rachmaninoff - Piano Concerto No. 2 (Op. 18) - Moderato.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\056. Johann Sebastian Bach - Jesu, Der Du Meine Seele (BWV 78) - Wir Eilen Mit Schwachen.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\057. Anton\\u221a\\u2260n Dvo\\u2248\\xf4\\u221a\\xb0k - Rusalka - M\\u0192\\xf5s\\u221a\\u2260\\u0192cku Na Nebi Hlubok\\u221a\\xa9m.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\058. Ludwig van Beethoven - Mondscheinsonate (Op. 27).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\059. Gregorio Allegri - Miserere (Psalm 51).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\060. Wolfgang Amadeus Mozart - Requiem (K. 626) - Dies Irae.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\061. Pyotr Ilyich Tchaikovsky - The Nutcracker (Op. 71) - Waltz Of The Flowers - \\u2013\\xa9\\u2013\\xb5\\u2013\\xaa\\u2013\\u222b\\u2014\\xc9\\u2013\\u03a9\\u2014\\xe1\\u2013\\u220f\\u2013\\u222b.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\062. Vincenzo Salvatore Carmelo Francesco Bellini - Norma - Casta Diva.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\063. Wolfgang Amadeus Mozart - Exsultate, Jubilate (K. 165).json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\065. Fr\\u221a\\xa9d\\u221a\\xa9ric Fran\\u221a\\xdfois Chopin - Concerto Pour Piano No. 2 (Op. 21).json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\066. Aafje Heynis - Dank Sei Dir, Herr.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\067. Jules \\u221a\\xe2mile Fr\\u221a\\xa9d\\u221a\\xa9ric Massenet - Tha\\u221a_s - M\\u221a\\xa9ditation.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\068. Wolfgang Amadeus Mozart - Piano Concerto No. 21 (K. 467).MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\069. Johann Sebastian Bach - Brandenburgisches Konzert Nr. 1 (BWV 1046) - Allegro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\070. Wolfgang Amadeus Mozart - Requiem (K. 626) - Kyrie Eleison.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\071. Giuseppe Fortunino Francesco Verdi - Rigoletto - La Donna \\u221a\\xe0 Mobile.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\072. Pyotr Ilyich Tchaikovsky - The Nutcracker (Op. 71) - Dance Of The Sugar-Plum Fairy - \\u2013\\xa9\\u2013\\xb5\\u2013\\xaa\\u2013\\u222b\\u2014\\xc9\\u2013\\u03a9\\u2014\\xe1\\u2013\\u220f\\u2013\\u222b.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\073. Johann Sebastian Bach - Doppelkonzert F\\u221a\\xbar Zwei Violinen (BWV 1043) - Largo Ma Non Tanto.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\074. Georg Friederich H\\u221a\\xa7ndel - Serse (HWV 40) - Ombra Mai F\\u221a\\u03c0.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\075. Georges Bizet - Carmen - Habanera.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\076. Pyotr Ilyich Tchaikovsky - Piano Concerto No. 1 (Op. 23) - Allegro Non Troppo E Molto Maestoso.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\077. Giacomo Antonio Domenico Michele Secondo Maria Puccini - Turandot - Nessun Dorma.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\078. Niccol\\u221a\\u2264 Paganini - Concerto Pour Violon No. 1 (Op. 6).json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\079. Gabriel Urbain Faur\\u221a\\xa9 - Requiem (Op. 48) - In Paradisum.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\080. Joaqu\\u221a\\u2260n Rodrigo Vidre - Concierto De Aranjuez - Adagio.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\081. Pietro Mascagni - Cavalleria Rusticana - Intermezzo.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\082. Wolfgang Amadeus Mozart - Die Zauberfl\\u221a\\u2202te (K. 620) - Overture.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\083. Johann Sebastian Bach - Wachet Auf, Ruft Uns Die Stimme (BWV 140).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\084. Giuseppe Fortunino Francesco Verdi - La Traviata - Libiamo Ne' Lieti Calici.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\085. Christoph Willibald Ritter von Gluck - Orfeo Ed Euridice - Dance Of The Blessed Spirits.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\086. Wolfgang Amadeus Mozart - Konzert F\\u221a\\xbar Fl\\u221a\\u2202te, Harfe Und Orchester (K. 299) - Allegro.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\087. Ennio Morricone - C'era Una Volta Il West (Once Upon A Time In The West).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\088. Wolfgang Amadeus Mozart - 23. Klavierkonzert (K. 488) - Adagio.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\089. Georg Friederich H\\u221a\\xa7ndel - Solomon (HWV 67) - The Arrival Of The Queen Of Sheba.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\090. Wolfgang Amadeus Mozart - Requiem (K. 626) - Domine Jesu Christe.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\091. Johann Strauss, Jr. - An Der Sch\\u221a\\u2202nen Blauen Donau (Op. 314).json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\092. Wolfgang Amadeus Mozart - Klarinettenkonzert (K. 622) - Rondo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\093. Jean Sibelius - Finlandia (Op. 26).json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\094. Wolfgang Amadeus Mozart - Kr\\u221a\\u2202nungsmesse (K. 317) - Agnus Dei.json has unicode problems, will be skipped. '
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\095. Erik Alfred Leslie Satie - Gymnop\\u221a\\xa9die No.1.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\096. Wolfgang Amadeus Mozart - Le Nozze Di Figaro (K. 492) - Voi, Che Sapete Che Cosa E Amor.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\097. Aram Ilich Khachaturian - Spartacus - Adagio Of Spartacus And Phrygia.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\098. Max Christian Friedrich Bruch - Violinkonzert Nr. 1 (Op. 26) - Adagio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\099. Wolfgang Amadeus Mozart - 23. Klavierkonzert (K. 488) - Allegro.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Classical Music Top 100\\\\100. C\\u221a\\xa9sar-Auguste-Jean-Guillaume-Hubert Franck - Panis Angelicus.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\Orfeo Ed Euridice - Che Farò Senza Euridice_.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\01. Gunes Yolu - The Sun Route.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\02. Goc Yolu - Migratory Routes.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\03. Kral Yolu - The King's Road.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\04. Baharat Yolu - The Spice Road.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\05. Ipek Yolu - The Silk Road.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\06. Hac Yolu - The Hajj Route.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Classical Music Top 100\ncesaz_-_7_Yollar___Roads_2011mp3yolu.net\Incesaz - 7 Yollar & Roads (2011)\07. Hazarfen.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\04-DJ Khaled-Go Ahead (Feat. Fabolous, Rick Ross, Flo Rida, Fat Joe & Lloyd)-RGF.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\04_DJ_Khaled_-_Put_Your_Hands_Up_(Feat._Young_Jeezy_Plies_and_Rick_Ross)_(prod._by_the_Runners)-DjLeak.com.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - How Many Times Ft. Lil Wayne Big Sean  Chris Brown.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - I Feel Like Pac_I Feel Like Biggie Feat. Diddy, Meek Mill, Rick Ross, T.I. _ Swizz Beatz.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - I'm Still Feat. Chris Brown, Wale, Wiz Khalifa & Ace Hood.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Never Surrender Feat. Akon, Anthony Hamilton, Jadakiss, John Legend, Meek Mill & Scarface.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Out Here Grinding(Dirty) BY GaNgSTa-Ak.RaP.json.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - You Don't Want These Problems Feat. Big Sean, Rick Ross, French Montana, 2 Chainz, Meek Mill, Ace Hood & Timbaland.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled Feat Lil Wayne, Usher, Young Jeezy, Rick Ross & Drake  - Fed Up-MIXFIEND.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled ft Akon Fat Joe Styles P and Rick Ross - Watch Out Now.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled Ft Nas,Scarface & DJ Premier-Hip Hop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled Ft. Lil Wayne, Big Sean & Chris Brown - How Many Times (Dirty).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled ft. Paul Wall, Lil' Wayne, Rick Ross, Fat Joe & Pitbull - Holla At Me Baby.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled Ft. T-Pain, Young Jeezy, Ludacris, Busta Rhymes, Big Boi, Lil' Wayne, Birdman, Fat Joe & Rick Ross - I'm So Hoo~1.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled Ft. Young Jeezy & Ludacris - Money By Stefan T. www.allmuzica.com.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\Dj Khaled They Dont Love You No More.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled _ft. Ludacris_ Snoop Dogg_ Rick Ross _ T-Pain_ - All I Do Is Win - CurrentHipHop.com.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\dj_khaled-all_my_life_f._akon__shyne_and_mavado-2dope.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ_Khaled_-_All_I_Do_is_Win_(Remix)_(Feat._VA)_-_HotNewHipHop.com[1].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ_Khaled_Ft_Chris_Brown,_August_Alsina___Fetty_Wap_–_Gold_Slugs_-_Talkmuzik_com.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\Take It To The Head [CDQ].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\01 Shout Out to the Real (feat. Meek.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\02 Bitches & Bottles (Let's Get It S.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\03 I Wish You Would (feat. Kanye Wes.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\04 Take It to the Head (feat. Chris.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\05 They Ready (feat. J Cole, Big K.R.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\06 I'm So Blessed (feat. Big Sean, W.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\07 Hip Hop (feat. Scarface, Nas & DJ.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\08 I Did It for My Dawgz (feat. Rick.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\09 I Don't See 'Em (feat. Birdman, A.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\10 Don't Pay 4 It (feat. Wale, Tyga,.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\11 Suicidal Thoughts (feat. Mavado).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\12 Outro (They Don't Want War) [feat.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\13 Don't Get Me Started.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\14 Aktion Pak.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - Kiss the Ring (iTunes Deluxe Version) M4A NimitMak SilverRG\15 B-Boyz (feat. Mack Maine, Kendric.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\01. I'm On One Feat. Drake, Rick Ross & Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\02 Welcome To My Hood Feat. Rick Ross, Plies, Lil Wayne & T-Pain.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\03 Money Feat. Jeezy & Ludacris.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\04 I'm Thuggin Feat. Waka Flocka & Ace Hood.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\05 It Aint Over Til It¡¯s Over Feat. Mary J. Blige, Fabolous & Jadakiss.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\06 Legendary Feat. Chris Brown, Keisha Cole & Ne-Yo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\07 Sleep When I'm Gone Feat. Busta Rhymes, Cee-Lo & The Game.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\08 Can't Stop Feat. Birdman & T-Pain.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\09 Future Feat. Ace Hood, Meek Mill, Wale, Vado & Big Sean.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\10 My Life Feat. Akon & B.O.B..json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\11 A Million Lights Feat. Tyga, Cory Gunz, Mack Maine, Jae Millz & Kevin Rudolf.json already exists, will be skipped. 
+D:\OneDrive\Music\DJ KHALED\DJ Khaled - We The Best Forever (Album)\12 Welcome To My Hood (Remix) Feat. Ludacris, T-Pain, Busta Rhymes,Twista, Mavado, Birdman, Ace Hood, Fat Joe, Jadakiss, Bun B, The Game & Waka Flocka.mp3 is being processed... 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\50 Cent feat. Dr Dre & Alicia Keys - New Day (Dirty, CDQ).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - Dretox - 07 - Numb Encore (Remix) f Jay-Z, Eminem, 50 Cent & Linkin Park.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre ft. Akon, Snoop Dogg & The Game - Kush (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre ft. Akon Snoop Dogg - Kush.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Drake - Tell Your Friends Freestyle.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Eminem ft. Dr. Dre - I Need A Doctor.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Rick Ross feat. Dr. Dre & Jay-Z - 3 Kings -.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Snoop Dogg  ft. Dr. Dre- Smoke Weed Everyday.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\01) DJ-AGE- Dr Dre Detox Intro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\02) DR DRE TI  KOBE- This Is Detox Iam Hip Hop DETO.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\03) SNOOP DOGG- Detox Takin Too Long.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\04) DR DRE TI  NAS- We Run This City Topless DETO.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\05) BISHOP LAMONT SPEAKS ON DR DRE.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\06) BISHOP LAMONT- Grow Up Prod By Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\07) BISHOP LAMONT- Detox Is Done.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\08) THE GAME- Hard Liquor Prod By Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\09) DR DRE- Set It Off.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\10) DR DRE- Time To Make Dres Ends.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\11) 50 CENT - I Get It In (Prod By Dr. Dre).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\12) DR DRE- Its Like That DETOX EXCLUSIVE.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\13) DR DRE  JIMMY IOVINE- Beats By Dr Dre Prod By DJ.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\14) TI DR DRE- Coming Back DETOX EXCLUSIVE.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\15) YOUNG KNOX DR DRE- Tha Doctor DETOX EXCLUSIVE.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\16) CLYDE CARSON- Whos Next Prod By Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\17) DR DRE TALKS ON EAZY E.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\18) BISHOP LAMONT- No Stoppin Carson Prob By Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\19) CROOKED I- No Stoppin Carson REMIX.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\20) EMINMEM  DR DRE  50 CENT - Crack A Bottle.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\21) DR DRE EMINEM  50 CENT- Komplex Crack A Bottle .json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\22) CROOKED I DR DRE- Say Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\23) BISHOP LAMONT- Dr Dre The Detox Perfectionist.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\24) BISHOP LAMONT 50 CENT  R KELLY- It Couldve Been.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\25) SLIM THUG  DEVIN THE DUDE- Bitch Im Back Prod By.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\26) WARREN G SNOOP DOGG NATE DOGG  XZIBIT- Game Don.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\27) DR DRE KING T - Wheres T.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\28) GROUP THERAPY- Anybody Killa REMIX.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr Dre - The.Detox.Chronicles.Bootleg.Explicit.2009.[RAW]\29) DR DRE- Mad At The Aftermath DETOX EXCLUSIVE.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\01 - Intro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\02 - All A Dream ft Kobe.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\03 - Topless ft TI Nas.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\04 - Shit Popped Off ft TI.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\05 - Alchemist On Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\06 - Flashing ft Snoop Dogg Bishop Lamont.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\07 - Its Like That.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\08 - OGs Theme ft Ludacris.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\09 - Dr Dre On Under Pressure Leak.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\10 - Under Pressure ft Jay-Z Kanoby.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\11 - Turn Me On ft Ester Dean Nate Dogg.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\12 - Ice Cube On Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\13 - So Bad ft Eminem.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\14 - Ridaz ft Eminem.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\15 - Dr Dre at ASCAP Awards.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\16 - Phantom ft The Game.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\17 - Lloyd On Dr Dre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\18 - About Me ft Raekwon.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\19 - Still Dre Live ft Eminem Snoop Dogg.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\20 - Outro ft Eminem.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DR. DRE\Dr. Dre - Detox is Coming (Explicit) 2010 Mixtape\21 - Bonus Andre Young Dr Dres Son - Cali.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\01 Drake - Over (Produced by Boi-1da).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\01 Legend.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\01 Tuesday.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\07 - Right On Time feat Kanye West  Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\07 Fancy (Ft. T.I. & Swizz Beatz).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\13 Now & Forever.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\13 Pound CakeParis Morton Music 2 (feat. Jay-Z).MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\2 chainz- no lie feat drake - hotnewhiphop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\5AM_in_Toronto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake & Future - Jumpman.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - 0 to 100.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - 6 God.json.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - From Time.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - How Bout Now (CDQ).json.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - Make Me Proud feat. Nicki Minaj.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - Sweeterman (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - Uptown (Ft. Bun B & Lil' Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - Versace (Freestyle).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - What U Like (feat. Rihanna) NEW 2009 HOTT!!!.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake -Trophies.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake Feat. Trey Songz & Lil Wayne - Successful.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake Ft James Fauntleroy On My Way.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\drake ft nicki minaj - best i ever had (remix)(2).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake Songs - Wu-Tang Forever (Prod. By 40).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake The Motion.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake – Heat Of The Moment - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake – Where Were You feat. Dawn Richard - HotNewHipHop.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake- Find Your Love.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Nothing_Was_The_Same-Worst_Behavior-15ac0f31.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake_-_Started_From_The_Bottom_Lyrics.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Fetty Wap Come My Way (feat. Drake) Fetty Wap Come My Way (feat. Drake)-[TubeMP3.me].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Future ft Drake – Never Satisfied (Official Version) - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Girls Love Beyonce (feat. James Fauntelroy).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Hotline Bling Hotline Bling-[TubeMP3.me].json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Kendrick Lamar ft Drake – Poetic Justice.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Light Up (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Party Next Door - Over Here Feat. Drake - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Rich Gang - Sho Me Love Feat. Juvenile & Drake (Prod. By London On The Track) - Stream & Listen [New Song].MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Rick Ross ft. Drake - Hold on Remix.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Rihanna ft Drake- All I do.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Rita Ora- R.I.P. (Remix) Feat. Tinie Tempah & Drake - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Timbaland_-_Say_Something_(feat._Drake)_(Full_Version)_-_HotNewHipHop.com.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\waka flocka flame ft drake - round of applause (remix) im1.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Where Ya At - Future Ft. Drake.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Who Do You Love (Feat. Drake).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Wiz_Khalifa_feat_Drake_-_Started_From_The_Bottom_Remix.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\01 Legend.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\02 Energy.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\03 10 Bands.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\04 Know Yourself.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\05 No Tellin'.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\06 Madonna.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\07 6 God.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\08 Star67.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\09 Preach (feat. PARTYNEXTDOOR).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\10 Wednesday Night Interlude (feat. PARTYNEXTDOOR).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\11 Used To (feat. Lil Wayne).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\12 6 Man.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\13 Now & Forever.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\14 Company (feat. Travi$ Scott).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\15 You & The 6.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\16 Jungle.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake - If You're Reading This It's Too Late 2015\17 6PM In New York.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\01-Drake - Over My Dead Body (Prod. byNoah 40 Shebib).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\02-Drake - Shot For Me (Prod. byNoah 40 Shebib).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\03-Drake - Headlines (Prod. by Boi-1da, Noah 40 Shebib (co.).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\04-Drake Ft. The Weekend - Crew Love (Prod. by Doc McKinney, Illangelo).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\05-Drake Ft. Rihanna - Take Care (Prod. by Jamie xx).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\06-Drake - Marvins Room - Buried Alive (Prod. by Noah 40 Shebib).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\07-Drake - Under Gound Kings (Prod. by T-Minus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\08-Drake Ft. Birdman - Well Be Fine (Prod. by T-Minus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\09-Drake Ft. Niki Manaj - Make Me Proud (Prod. by T-Minus, Kromatik (co.).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\10-Drake Ft. Rick Ross - Lord Knows (Prod. by Just Blaze).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\11-Drake - Cameras Good Ones Go (Interlude) (Prod. by Lex Luger).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\12-Drake - Doing It Wrong (Prod. by Noah 40 Shebib).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\13-Drake Ft. Lil Wayne and Andre 3000 - The Real Her (Prod. by Noah 40 Shebib).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\14-Drake - Look What Youve Done (Prod. by Chase N. Cashe).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\15-Drake Ft. Lil Wayne - HYFR (Hell Ya Fucking Right) (Prod. by T-Minus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\16-Drake - Practice (Prod. by Noah 40 Shebib).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\17-Drake - The Ride (Prod. by Doc McKinney, Illangelo).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\18-Drake Ft. Livesosa And T.I. - Headlines (Remix) (Bonus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\19-Future Ft. Young Jeezy And Drake - Tony Montana (Remix)(Bonus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\20-Mary J. Blige Ft. Drake - Mr. Wrong (Prod. By Jim Jonsin And Rico Love) (Bonus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\21-Tyga Ft. Drake - Still Got It (Prod. By Noah 40 Shebib And Supa Dups) (Bonus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\22-Waka Flocka Ft. Drake - Round Of Applause (Mastered) (Bonus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\DRAKE\Drake-Take.Care-(Deluxe.Birthday.Edition)-2011-[NoFS]\23-Drake Ft. Lloyd Banks And Pusha T - Dreams Money Can Buy (DJ EMI Remix) (Bonus).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\13 - Cum On Everybody (feat. Dina Rae).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\15 - Headlights (Ft. Nate Ruess)-1.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\17. Eminem - Beautiful(1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\Avril Lavigne - Nobodys Home.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\Busta Rhymes Ft. Eminem - I'll Hurt You (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\Copy of Eminem - When I'm Gone.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\D12 - My Band Usher Cassidy R. Kelly Chingy Snoop Dogg Lil' John Ludacris Pharell Williams Jay-Z Eamon Eminem(1).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\Eminem - Love Game Feat. Kendrick Lamar.MP3 already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\EMINEM\Eminem - Not Afraid (prod. Boi-1da).json already exists, will be skipped. 

@@ -68,6 +68,11 @@ def extractFeaturesFromFolder(inputFolder, outputFolder):
         if os.path.exists(features):
             print_(features, 'already exists, will be skipped.')
         else:
+            try:
+                path0 = path.encode('ascii')
+            except UnicodeEncodeError:
+                print_(features, 'has unicode problems, will be skipped.')
+                return
             runExtractor(path,features)
          
     def processFolder(dir):

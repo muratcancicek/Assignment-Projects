@@ -103,7 +103,11 @@ def merge2016_09_27_iphone_6():
 
 evalCounter = 0
 def evalLog(logText):
-    log = eval(logText)
+    try:
+        log = eval(logText)
+    except SyntaxError:
+        begin, end = logText.find('{'), logText.find('}')
+        log = eval(logText[begin:end+1])
     global evalCounter 
     evalCounter += 1
     if evalCounter % 100000 == 0: 
@@ -111,12 +115,12 @@ def evalLog(logText):
     return log
 
 def readParsedLogsFromHDFS(fileName): 
-    journey = sc_().textFile(fileName)
+    logs = sc_().textFile(fileName)
     global evalCounter 
     evalCounter = 0
-    journey = journey.map(evalLog)
+    logs = logs.map(evalLog)
     print_(fileName, 'has been read by', nowStr())
-    return journey
+    return logs
 
 def readJourneyFromHDFS(fileName): 
     journey = sc_().textFile(fileName)
