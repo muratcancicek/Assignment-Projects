@@ -49,7 +49,7 @@ def parseAllDayTest():
    parseAllDay(allDayPath, outputPath)
    
 def trainDataGenerationTest():
-    logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
+    logs = None #readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
     keyword = 'jant'
     outputFolder = joinPath(HDFSDataFolder, 'Day1_jant_Data')
     generateTrainData(logs, keyword, outputFolder)

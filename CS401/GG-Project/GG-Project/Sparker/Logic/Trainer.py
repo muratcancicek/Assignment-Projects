@@ -63,8 +63,9 @@ def generateTrainData(logs, keyword, outputFolder):
     keyword = keyword.replace(' ', '_')
     inputName = 'all_day'
     journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
-    journey = getJourneyByKeyword(logs, rawKeyword)
-    saveRDDToHDFS(journey, journeyFile)
+    if logs != None:
+        journey = getJourneyByKeyword(logs, rawKeyword)
+        saveRDDToHDFS(journey, journeyFile)
     productsFile = None
     return extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile, outputFolder)
 
