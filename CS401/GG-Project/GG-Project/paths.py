@@ -19,12 +19,14 @@ def getAbsolutePath(fileName):
     script_dir = os.path.dirname(__file__) 
     return joinPath(script_dir, fileName)
 PYTHON_VERSION = sys.version_info[0]
+pulled = False
 if PYTHON_VERSION == 3:
     import git
-    pulled = False
     def gitPull(gitDir):   
         if pulled: return
         g = git.cmd.Git(gitDir)
+        global pulled
+        pulled = True
         g.pull()
     
     def gitPush(gitDir):
