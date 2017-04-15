@@ -8,10 +8,10 @@ import numpy as np
 import sys
 if sys.version_info[0] == 3:
     from sklearn.metrics import auc, roc_curve, average_precision_score, log_loss, mean_squared_error
+    from matplotlib.colors import LinearSegmentedColormap
 import time
 import pickle
 #import matplotlib.pyplot as plt
-from matplotlib.colors import LinearSegmentedColormap
 
 #-------------------------------------------------------------------------------
 # Factorization machines
