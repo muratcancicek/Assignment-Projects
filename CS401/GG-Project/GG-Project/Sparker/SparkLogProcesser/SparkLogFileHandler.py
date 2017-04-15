@@ -103,10 +103,10 @@ def merge2016_09_27_iphone_6():
 
 def fixKeywords(logText):
     #a = "{u'orderBy': u'wbm', u'pageNum': 1, u'_bot': 0, u'keyword': 10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104L, u'format': u'1%2C2%2C3%2C4', 'timestamp': 1482660614461, 'time': '2016-12-25 13:10:14.461000', u'agent': u'Mozilla%2F5.0 %28Windows NT 10.0%3B Win64%3B x64%29 AppleWebKit%2F537.36 %28KHTML%2C like Gecko%29 Chrome%2F55.0.2883.87 Safari%2F537.36', u'_ip': u'b0a84faead90d72d25b7d12a96eda8b4243a32dc18fdea214fe9a6f51b0da669', u'resultType': u'catalog', u'referer': u'http%3A%2F%2Fwww.gittigidiyor.com%2Farama', u'module': u'search', u'sid': u'onpnqor329b7a45o4qgnn4s8s2', u'_c': u'ae964d071805c570818642e61b325a07e7edabfe1af9c40181ec5fd87cf4e499', u'source': u'z'};"
-    i = logText.find("u'keyword': ")
-    j = logText[i:].find(", u'")
-    k = logText[i:].find(", '")
+    j = logText[i:].find("L, u'")
+    k = logText[i:].find("L, '")
     b = j if j > -1 and j < k else k
+    i = logText[:b].find("': ")
     print_(logText[i+12:i+b])
     logText = logText[:i+12]+'u\''+logText[i+12:i+b]+'\''+logText[i+b:]
     print_(logText)

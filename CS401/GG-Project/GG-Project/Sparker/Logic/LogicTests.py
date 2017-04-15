@@ -60,5 +60,5 @@ def trainLocalDataTest():
     #trainTestOnIPhone6Data()
     #rankingTestOnIPhone6Data()
     #userBehaviorTestOnIPhone6Data()
-    parseAllDayTest()
-    #trainDataGenerationTest() 
+    #parseAllDayTest()
+    trainDataGenerationTest() 
