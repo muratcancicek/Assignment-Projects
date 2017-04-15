@@ -106,8 +106,9 @@ def evalLog(logText):
     try:
         log = eval(logText)
     except SyntaxError:
-        begin, end = logText.find('{'), logText.find('}')
-        log = eval(logText[begin:end]+'};')
+        #begin, end = logText.find('{'), logText.find('}')
+        #log = eval(logText[begin:end]+'};')
+        print_(logText)
     global evalCounter 
     evalCounter += 1
     if evalCounter % 100000 == 0: 
