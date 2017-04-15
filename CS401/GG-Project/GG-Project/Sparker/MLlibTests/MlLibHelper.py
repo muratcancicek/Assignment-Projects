@@ -1,5 +1,7 @@
 from Sparker.PySparkImports import *
-from sklearn.metrics import auc, roc_curve, average_precision_score, log_loss, mean_squared_error
+import sys
+if sys.version_info[0] == 3:
+    from sklearn.metrics import auc, roc_curve, average_precision_score, log_loss, mean_squared_error
 from pyspark.mllib.classification import LogisticRegressionWithLBFGS, LogisticRegressionModel
 from pyspark.mllib.regression import LabeledPoint, LinearRegressionWithSGD
 from MainSrc.PythonVersionHandler import *
