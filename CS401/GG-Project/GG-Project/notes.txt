@@ -432,3 +432,17 @@ Day1_kot_ceket_Data
 Day1_camasir_makinesi_Data 
 Day1_bosch_Data 
 Day1_köpek_mamas?_Data 
+[root@osldevptst02 GG-Project]# python runGG_Project.py
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-17 01:12:43.643950: Running on osldevptst02... 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/Parsed/2016-12-25_parsed has been read by 2017-04-17 01:12:48.661707 
+100000 logs have been evaluated to Python Dict by 2017-04-17 01:13:07.429205 
+100000 logs have been evaluated to Python Dict by 2017-04-17 01:13:07.431119 
+100000 logs have been evaluated to Python Dict by 2017-04-17 01:13:07.509810 
+100000 logs have been evaluated to Python Dict by 2017-04-17 01:13:07.605639 
+100000 logs have been evaluated to Python Dict by 2017-04-17 01:13:07.656682 
+5800000 logs have been evaluated to Python Dict by 2017-04-17 02:04:04.244160 
+6000000 logs have been evaluated to Python Dict by 2017-04-17 02:04:10.226502 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_nike_air_max_Data/nike_air_max_all_day_journey has been saved successfully by 2017-04-17 02:04:18.464509 
