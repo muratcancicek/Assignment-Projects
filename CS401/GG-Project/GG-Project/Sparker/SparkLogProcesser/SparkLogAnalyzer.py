@@ -164,7 +164,7 @@ def isMatching(valueMap, log):
             return False
         elif isinstance(value, list) and log[key] in value:
             return True 
-        elif not key in log.keys() or equals(log[key], value):
+        elif not key in log.keys() or not equals(log[key], value):
             return False
         else:
             return True
