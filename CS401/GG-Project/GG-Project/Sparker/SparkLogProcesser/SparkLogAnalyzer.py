@@ -139,7 +139,7 @@ def getFixedEncodingStr(encoded):
     encoded = encoded.replace('ç', 'c') # ch
     encoded = encoded.replace('Ö', 'O') # O
     encoded = encoded.replace('ö', 'o') # o
-    encoded = encoded.replace('Ü', 'U') # U
+    encoded = encoded.replace('Ü', 'U') # U 
     encoded = encoded.replace('ü', 'u') # u
     encoded = encoded.replace('İ', 'I') # I
     encoded = encoded.replace('ı', 'i') # i

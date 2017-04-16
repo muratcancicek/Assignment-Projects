@@ -228,3 +228,8 @@ ModelManifest.xml
 /Vision_Final_Project
 /ituYarsma
 /CS401/GG-Project/GG-Project/data/ranking/clickstream/part-r-00000_original
+/CS401/GG-Project/GG-Project/MainSrc/__pycache__/Printing.cpython-35.pyc
+/CS401/GG-Project/GG-Project/Sparker/Logic/__pycache__/LogicTests.cpython-35.pyc
+/CS401/GG-Project/GG-Project/Sparker/Logic/__pycache__/TrainDataHandler.cpython-35.pyc
+/CS401/GG-Project/GG-Project/Sparker/MLlibTests/__pycache__/fm_parallel_sgd.cpython-35.pyc
+*.pyc

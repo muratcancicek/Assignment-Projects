@@ -58,8 +58,8 @@ def generateJourney(logs, keyword):
     rawKeyword = keyword
     keyword = keyword.replace(' ', '_')
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
-    if not os.path.exists(outputFolder):
-        os.mkdir(outputFolder)
+    #if not os.path.exists(outputFolder):
+    #    os.mkdir(outputFolder)
     inputName = 'all_day'
     journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
     journey = getJourneyByKeyword(logs, rawKeyword)
@@ -69,6 +69,7 @@ def generateJourneys():
     logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
     keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
     for keyword in keywords:
+        #print_('Day1_' + keyword.replace(' ', '_') + '_Data')
         generateJourney(logs, keyword)
 
 def trainLocalDataTest():
