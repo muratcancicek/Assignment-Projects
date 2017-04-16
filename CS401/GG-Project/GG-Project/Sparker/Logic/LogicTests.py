@@ -69,7 +69,7 @@ def generateJourneys():
     logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
     keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
     #u = u'g'
-    #print_(type(u), u.encode('utf-8'))
+    #print_(type(u.lower()), type(u.encode('utf-8')))
     for keyword in keywords:
         #print_('Day1_' + keyword.replace(' ', '_') + '_Data')
         generateJourney(logs, keyword)

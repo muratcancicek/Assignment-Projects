@@ -148,12 +148,12 @@ def getFixedEncodingStr(encoded):
     return encoded
 equalsCount = 0
 def equals(a, b):
-    if isinstance(a, bytes) or isinstance(b, bytes):
-        if getFixedEncodingStr(a.encode("utf-8").lower()) == getFixedEncodingStr(b.encode("utf-8").lower()):
-            if equalsCount == 0:
-                print_(a.encode("utf-8").lower())
-            return True
-    elif isinstance(a, str) or isinstance(b, str):
+    #if isinstance(a, bytes) or isinstance(b, bytes):
+    #    if getFixedEncodingStr(a.encode("utf-8").lower()) == getFixedEncodingStr(b.encode("utf-8").lower()):
+    #        if equalsCount == 0:
+    #            print_(a.encode("utf-8").lower())
+    # el       return True
+    if isinstance(a, str) and isinstance(b, str):
         return getFixedEncodingStr(a.lower()) == getFixedEncodingStr(b.lower())
     else:
         return a == b
