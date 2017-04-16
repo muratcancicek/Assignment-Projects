@@ -130,13 +130,38 @@ def getLogsColumnAsList(key, logs = None, fromFileName = TEST_LOGS):
     else:
         return transpose[key]
     
+def getFixedEncodingStr(encoded): 
+    encoded = encoded.decode("utf-8") 
+    ##encoded = encoded.encode('unicode-escape')
+    encoded = encoded.replace('%C4%9E', '?') # ?
+    encoded = encoded.replace('%C4%9F', '?') # ?
+    encoded = encoded.replace('Ç', 'C') # CH
+    encoded = encoded.replace('ç', 'c') # ch
+    encoded = encoded.replace('Ö', 'O') # O
+    encoded = encoded.replace('ö', 'o') # o
+    encoded = encoded.replace('Ü', 'U') # U
+    encoded = encoded.replace('ü', 'u') # u
+    encoded = encoded.replace('İ', 'I') # I
+    encoded = encoded.replace('ı', 'i') # i
+    encoded = encoded.replace('Ş', 'S') # S
+    encoded = encoded.replace('ş', 's') # s
+    return encoded
+
+def equals(a, b):
+    if isinstance(a, str) or isinstance(b, str):
+        return getFixedEncodingStr(a.lower()) == getFixedEncodingStr(b.lower())
+    if isinstance(a, bytes) or isinstance(b, bytes):
+        return getFixedEncodingStr(a.lower().decode("utf-8")) == getFixedEncodingStr(b.lower().decode("utf-8") )
+    else:
+        return a == b
+
 def isMatching(valueMap, log):
     for key, value in valueMap.items():
         if not key in log.keys():
             return False
         elif isinstance(value, list) and log[key] in value:
             return True 
-        elif not key in log.keys() or log[key] != value:
+        elif not key in log.keys() or equals(log[key], value):
             return False
         else:
             return True

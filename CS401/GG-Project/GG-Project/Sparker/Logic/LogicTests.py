@@ -54,6 +54,23 @@ def trainDataGenerationTest():
     outputFolder = joinPath(HDFSDataFolder, 'Day1_jant_Data')
     generateTrainData(logs, keyword, outputFolder)
 
+def generateJourney(logs, keyword): 
+    rawKeyword = keyword
+    keyword = keyword.replace(' ', '_')
+    outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
+    if not os.path.exists(outputFolder):
+        os.mkdir(outputFolder)
+    inputName = 'all_day'
+    journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
+    journey = getJourneyByKeyword(logs, rawKeyword)
+    saveRDDToHDFS(journey, journeyFile)
+
+def generateJourneys():
+    logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
+    keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
+    for keyword in keywords:
+        generateJourney(logs, keyword)
+
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
     #generateAllTrainData()
@@ -61,4 +78,5 @@ def trainLocalDataTest():
     #rankingTestOnIPhone6Data()
     #userBehaviorTestOnIPhone6Data()
     #parseAllDayTest()
-    trainDataGenerationTest() 
+    #trainDataGenerationTest() 
+    generateJourneys()
