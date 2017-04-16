@@ -131,7 +131,7 @@ def getLogsColumnAsList(key, logs = None, fromFileName = TEST_LOGS):
         return transpose[key]
     
 def getFixedEncodingStr(encoded): 
-    encoded = encoded.decode("utf-8") 
+    #encoded = encoded.decode("utf-8") 
     ##encoded = encoded.encode('unicode-escape')
     encoded = encoded.replace('%C4%9E', '?') # ?
     encoded = encoded.replace('%C4%9F', '?') # ?
