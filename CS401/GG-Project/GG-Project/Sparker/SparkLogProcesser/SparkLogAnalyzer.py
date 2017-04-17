@@ -280,8 +280,7 @@ def isProductLog(log):
 def isSearchLog(log):
     return 'module' in list(log.keys()) and log['module'] == 'search'
 
-def getInterestingCookiesFromKeyword(modules, keyword):
-    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
+def getInterestingCookiesFromKeyword(modules, keyword, searches):
     productCookies = getLogsColumnAsList('_c', getProductLogs(modules))
     interestingCookies = []
     searchCookies = getLogsColumnAsList('_c', searches)
@@ -301,10 +300,9 @@ def getIdsFromSearches(searches):
     def extender(a, b): a.extend(b); return a
     return searches.map(getIdsList).reduce(extender)
 
-def getInterestingLogsFromKeyword(modules, keyword):
-    searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
+def getInterestingLogsFromKeyword(modules, keyword, searches):
     ids = getIdsFromSearches(searches)
-    interestingCookies = getInterestingCookiesFromKeyword(modules, keyword)
+    interestingCookies = getInterestingCookiesFromKeyword(modules, keyword, searches)
     logs = getLogsWhereValue(interestingCookies, '_c', getProductLogs(modules).union(modules['newsession']))
     return logs.filter(lambda log: 'id' in list(log.keys()) and log['id'] in ids)
 
@@ -322,8 +320,14 @@ def getJourneyByKeyword(modules, keyword):
     if isinstance(modules, PipelinedRDD):
         modules = getModuleMap(modules)   
     searches = getLogsWhereValue(keyword, 'keyword', modules['search'])
-    interestingLogs = getInterestingLogsFromKeyword(modules, keyword)
-    journey = searches.union(interestingLogs)
+    searchCount = searches.count()
+    print_(searchCount, 'searches have been found for', keyword, 'by', nowStr())
+    if searchCount > 0:
+        interestingLogs = getInterestingLogsFromKeyword(modules, keyword,  searches)
+        journey = searches.union(interestingLogs)
+    else:
+        journey = searches
+    print_(journey.count(), 'relevant logs have been found for', keyword, 'by', nowStr())
     return LogReader.sortedLogs(journey)
 
 def cookieChanged(previousLog, currentLog):

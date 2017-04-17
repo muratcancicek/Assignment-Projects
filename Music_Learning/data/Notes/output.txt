@@ -12331,3 +12331,1228 @@ D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kany
 D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\11. Comfort - Lil Wayne.json already exists, will be skipped. 
 D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\12. Where You At - Lil Wayne.json already exists, will be skipped. 
 D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\13. Future Billionaire – Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\14. So Fly -  Rajae Feat. Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\15. Swag On Rmx Lil - Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\16. Turnin Me On Rmx -  Keri Hilson feat. T-Pain & Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\17. Pa Yow – Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\18. How You Doing – Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\19. Tell Everybody That You Know -  Kanye West Feat. Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\2. Magic City Rmx – Jadakiss Feat. Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\20. Barry Bonds – Kanye West Feat. Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\21. Wow – Kanye West.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\22. Got It  - Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\23. Teriya Kings - Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\24. Gifted -  Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\25. Feb 18th - Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\26. Rap Cemetary - Juelz & Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\27. Yes - Lil Wayne Feat. Pharrell.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\28. Supplier - Lil Wayne.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\29. Walking On The Moon - Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\3. I'm Goin In – Lil Wayne Feat. Drake.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\30. Sidekick – Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\31. Death Wish – Jadakiss Feat. Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\32. Uptown – Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\33. S.L .U.  – T.I. Feat. Kanye West, Lil Wayne & Jay-Z.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\4. Rollin Like G's – Lil Wayne.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\5. Ain't I Remix Yung LA feat. Lil Wayne, Maino & Rick Ross.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\6. Flight School - T-Pain Feat. Kanye West.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\7. Maybach Music 2 Freestyle – Kanye West.json has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\8. Drug Dealin (Unreleased Version) Kanye West Feat. GLC & Keshia Cole.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\9. Knocks You Down-  Keri Hilson Feat Kanye & Neyo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Lil Wayne & Kanye West - Space Age Flow (2009)\Kanye_West_ft_Lil_Wayne_-_So_Magical_BRAND_NEW_2009_Leaked_D(1).json already exists, will be skipped. 
+D:\OneDrive\Music\Ludovico Einaudi\Ludovico Einaudi Itunes Festival Mp3 3.33 (MB) _ MP3 Top Songs.mp3 is being processed... 2017-04-17 12:38:57.577674 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\01. Ludovico Einaudi - Prima.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\02. Ludovico Einaudi - Andante.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\03. Ludovico Einaudi - Rapido.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\04. Ludovico Einaudi - Immobile.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\05. Ludovico Einaudi - Adagio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\06. Ludovico Einaudi - Presto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\07. Ludovico Einaudi - Lento.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\08. Ludovico Einaudi - Moderato.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\09. Ludovico Einaudi - Teso.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\10. Ludovico Einaudi - Implacabile.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\11. Ludovico Einaudi - Fondo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\12. Ludovico Einaudi - Sospeso.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\13. Ludovico Einaudi - Calmo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\14. Ludovico Einaudi - Finale I.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\15. Ludovico Einaudi - Dopo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1988 - Time Out\16. Ludovico Einaudi - Finale II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\01. Ludovico Einaudi - Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\02. Ludovico Einaudi - Calore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\03. Ludovico Einaudi - Moto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\04. Ludovico Einaudi - Calmo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\05. Ludovico Einaudi - Vega.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\06. Ludovico Einaudi - Onda.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\07. Ludovico Einaudi - Contatti.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\08. Ludovico Einaudi - Respiro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\09. Ludovico Einaudi - Lento.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\10. Ludovico Einaudi - Attesa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\11. Ludovico Einaudi - Cadenza.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\12. Ludovico Einaudi - Orbite.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\13. Ludovico Einaudi - Moto Perpetuo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\14. Ludovico Einaudi - Cerchio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\15. Ludovico Einaudi - Ritorno.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1992 - Stanze\16. Ludovico Einaudi - Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\01. Ludovico Einaudi - Canzone Popolare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\02. Ludovico Einaudi - Le Onde.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\03. Ludovico Einaudi - Lontano.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\04. Ludovico Einaudi - Ombre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\05. Ludovico Einaudi - La Linea Scura.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\06. Ludovico Einaudi - Tracce.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\07. Ludovico Einaudi - Questa Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\08. Ludovico Einaudi - Sotto Vento.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\09. Ludovico Einaudi - Dietro L'Incanto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\10. Ludovico Einaudi - Onde Corte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\11. Ludovico Einaudi - La Profondita Del Buio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\12. Ludovico Einaudi - Passaggio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1996 - Le Onde\13. Ludovico Einaudi - L'Ultima Volta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\01. Ludovico Einaudi - Yerevan.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\02. Ludovico Einaudi - Eden Roc.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\03. Ludovico Einaudi - Fuori Dalla Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\04. Ludovico Einaudi - Due Tramonti.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\05. Ludovico Einaudi - Nefeli.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\06. Ludovico Einaudi - Odessa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\07. Ludovico Einaudi - Ultimi Fuochi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\08. Ludovico Einaudi - Giorni Dispari.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\09. Ludovico Einaudi - Julia.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\10. Ludovico Einaudi - Fuori Dal Mondo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\11. Ludovico Einaudi - Ultimi Fuochi II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\12. Ludovico Einaudi - Un Mondo A Parte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\13. Ludovico Einaudi - Password.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\14. Ludovico Einaudi - Yerevan II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Eden Roc\15. Ludovico Einaudi - Exit.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\01. Ludovico Einaudi - Fuori Dal Mondo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\02. Ludovico Einaudi - Viaggio II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\03. Ludovico Einaudi - Passaggio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\04. Ludovico Einaudi - Interludio I.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\05. Ludovico Einaudi - Promessa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\06. Ludovico Einaudi - Rockabilly Roadhouse.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\07. Ludovico Einaudi - Interludio III.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\08. Ludovico Einaudi - Fuori Dalla Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\09. Ludovico Einaudi - Cadenza.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\10. Ludovico Einaudi - Alta Pressione.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\11. Ludovico Einaudi - Moto Perpetuo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\12. Ludovico Einaudi - Day Dreaming.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\1999 - Fuori Dal Mondo\13. Ludovico Einaudi - Distacco.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\01. Ludovico Einaudi - Alexandria.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\02. Ludovico Einaudi - Nina.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\03. Ludovico Einaudi - Una Storia d'Amore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\04. Ludovico Einaudi - La Prima Bicicletta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\05. Ludovico Einaudi - Canzone Africana I.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\06. Ludovico Einaudi - I Campi Di Cotone.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\07. Ludovico Einaudi - La Gelosia.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\08. Ludovico Einaudi - La Seconda Bicicletta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\09. Ludovico Einaudi - Una Storia d'Amore II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\10. Ludovico Einaudi - L'Incubo Di Elena.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\11. Ludovico Einaudi - L'Angoscia.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\12. Ludovico Einaudi - La Terza Bicicletta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\13. Ludovico Einaudi - Una Storia d'Amore III.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\14. Ludovico Einaudi - L'Incontro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\15. Ludovico Einaudi - Canzone Africana II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\16. Ludovico Einaudi - I Campi Di Cotone II (Titoli Di Coda).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\17. Ludovico Einaudi - W. A. Mozart - Voi Che Sapete (Le Nozze Di Figaro).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\18. Ludovico Einaudi - Be Mine Tonight.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\19. Ludovico Einaudi - Domino I.json already exists, will be skipped. 
+
+WARNING: UnicodeEncodeError on output.txt
+b'D:\\\\OneDrive\\\\Projects\\\\Fizy_Project\\\\Acoustic_Features_of_My_Music\\\\Ludovico Einaudi\\\\2001 - Alexandria\\\\20. Ludovico Einaudi - Si Tu Vois Ma M\\u0438re.json has unicode problems, will be skipped. '
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\21. Ludovico Einaudi - Maohma Xopoy.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\22. Ludovico Einaudi - Frederic Chopin - Preludes (Op. 28 v.4).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\23. Ludovico Einaudi - Charles Gounod - Je Vais Vivre (Romeo Et Juliette).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\24. Ludovico Einaudi - Tarantella.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\25. Ludovico Einaudi - W. A. Mozart - Voi Che Sapete II (Le Nozze Di Figaro).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\26. Ludovico Einaudi - Frederic Chopin - Preludes (Op. 28 v.4).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\27. Ludovico Einaudi - Raspa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Alexandria\28. Ludovico Einaudi - Domino II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\01. Ludovico Einaudi - Melodia Africana I.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\02. Ludovico Einaudi - I Due Fiumi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\03. Ludovico Einaudi - In Un'Altra Vita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\04. Ludovico Einaudi - Melodia Africana II.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\05. Ludovico Einaudi - Stella Del Mattino.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\06. Ludovico Einaudi - I Giorni.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\07. Ludovico Einaudi - Samba.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\08. Ludovico Einaudi - Melodia Africana III.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\09. Ludovico Einaudi - La Nascita Delle Cose Segrete.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\10. Ludovico Einaudi - Quel Che Resta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\11. Ludovico Einaudi - Inizio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\12. Ludovico Einaudi - Limbo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\13. Ludovico Einaudi - Bella Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - I Giorni\14. Ludovico Einaudi - Canzone Africana IV.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\01. Ludovico Einaudi - Le Parole Di Mio Padre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\02. Ludovico Einaudi - Il Vero Amore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\03. Ludovico Einaudi - Il Terzo Atto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\04. Ludovico Einaudi - La Stanza.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\05. Ludovico Einaudi - Come In Amore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\06. Ludovico Einaudi - Le Case Storte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\07. Ludovico Einaudi - Lo Specchio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\08. Ludovico Einaudi - La Casa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\09. Ludovico Einaudi - Sguardi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\10. Ludovico Einaudi - Zeno.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\11. Ludovico Einaudi - Questro Profumo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\12. Ludovico Einaudi - In Cammino.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\13. Ludovico Einaudi - Quella Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\14. Ludovico Einaudi - Nevicava.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Le Parole Di Mio Padre\15. Ludovico Einaudi - Le Parole Di Mio Padre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\01. Ludovico Einaudi - Segni Di Vita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\02. Ludovico Einaudi - Una Bella Giornata.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\03. Ludovico Einaudi - Bitter (Me'Shell Ndegeocello).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\04. Ludovico Einaudi - Zone.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\05. Ludovico Einaudi - Al Di La Del Vetro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\06. Ludovico Einaudi - Come Me (Ustmamo).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\07. Ludovico Einaudi - I Colori Caldi Della Terra.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\08. Ludovico Einaudi - Estudiantina (Esther Borya).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\09. Ludovico Einaudi - Luce Dei Miei Occhi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\10. Ludovico Einaudi - Il Viaggiatore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\11. Ludovico Einaudi - La Enganadora (Ruben Gonzalez).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\12. Ludovico Einaudi - Altri Pianeti.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\13. Ludovico Einaudi - Maybe One Day (Snoozy).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\14. Ludovico Einaudi - Lontano Da Casa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2001 - Luce Dei Miei Occhi\15. Ludovico Einaudi - Il Fiume.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\01. Ludovico Einaudi - Zhivago.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\02. Ludovico Einaudi - Farewell To The Past.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\03. Ludovico Einaudi - Love Is A Mystery.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\04. Ludovico Einaudi - Kolechko.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\05. Ludovico Einaudi - The Earth.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\06. Ludovico Einaudi - Evil Days.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\07. Ludovico Einaudi - Talking To You.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\08. Ludovico Einaudi - Still So Early In The Worl.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\09. Ludovico Einaudi - The Journey.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\10. Ludovico Einaudi - Writing Poems.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\11. Ludovico Einaudi - Eyes Closed.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\12. Ludovico Einaudi - We Praise Thee (Tebe Poyom).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\13. Ludovico Einaudi - White Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\14. Ludovico Einaudi - Fairytale.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\15. Ludovico Einaudi - The Ringlet.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2002 - Doctor Zhivago. Music from the TV Series\16. Ludovico Einaudi - Yuri's Lullaby.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\01. Ludovico Einaudi - Laissez Moi En Paix.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\02. Ludovico Einaudi - Entre Nous.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\03. Ludovico Einaudi - Soutoukou.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\04. Ludovico Einaudi - Chanson D'Amour.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\05. Ludovico Einaudi - Chameaux.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\06. Ludovico Einaudi - Ma Mere.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\07. Ludovico Einaudi - A L'Ombre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\08. Ludovico Einaudi - Niger Blues.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\09. Ludovico Einaudi - Mali Sajio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2003 - Diario Mali (feat. Ballake Sissoko)\10. Ludovico Einaudi - Dessert Dans Le Desert.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\01. Ludovico Einaudi - The Waves.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\02. Ludovico Einaudi - African Melody III.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\03. Ludovico Einaudi - Out Of The Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\04. Ludovico Einaudi - The Days.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\05. Ludovico Einaudi - The Dark Line.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\06. Ludovico Einaudi - Eden Roc.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\07. Ludovico Einaudi - Nefeli.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\08. Ludovico Einaudi - Tonight.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\09. Ludovico Einaudi - Two Sunsets.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\10. Ludovico Einaudi - Calm.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\11. Ludovico Einaudi - Passage.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\12. Ludovico Einaudi - Beautiful Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\13. Ludovico Einaudi - Odd Days.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\14. Ludovico Einaudi - Limbo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\15. Ludovico Einaudi - Behind The Window.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\16. Ludovico Einaudi - White Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Echoes - The Einaudi Collection\17. Ludovico Einaudi - Cadenza.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\01. Ludovico Einaudi - Melodia Africana I.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\02. Ludovico Einaudi - I Due Fiumi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\03. Ludovico Einaudi - In Un'Altra Vita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\04. Ludovico Einaudi - Stella Del Mattino.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\05. Ludovico Einaudi - I Giorni.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\06. Ludovico Einaudi - Limbo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\07. Ludovico Einaudi - La Nascita Delle Cose Segrete.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 1\08. Ludovico Einaudi - Bella Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\01. Ludovico Einaudi - Fuori Dalla Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\02. Ludovico Einaudi - Al Di La Vetro.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\03. Ludovico Einaudi - White Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\04. Ludovico Einaudi - La Linea Scura.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\05. Ludovico Einaudi - Giomi Dispari.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\06. Ludovico Einaudi - Passagio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\07. Ludovico Einaudi - Nefeli.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\08. Ludovico Einaudi - Password.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\09. Ludovico Einaudi - Questa Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\10. Ludovico Einaudi - Julia.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\11. Ludovico Einaudi - Lady Jane.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\12. Ludovico Einaudi - Fuori Dal Mondo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - La Scala Concert 03 03 03\CD 2\13. Ludovico Einaudi - Le Onde.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\01. Ludovico Einaudi - Nei Varchi Di Luce.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\02. Ludovico Einaudi - La Piscina.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\03. Ludovico Einaudi - On.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\04. Ludovico Einaudi - Come Ombre.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\05. Ludovico Einaudi - Sotto Falso Nome.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\06. Ludovico Einaudi - La Casa Nel Bosco.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\07. Ludovico Einaudi - Uno Strano Destino.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\08. Ludovico Einaudi - Chache-Cache.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\09. Ludovico Einaudi - Memory.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\10. Ludovico Einaudi - Il Mio Segreto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\11. Ludovico Einaudi - Lo Scambio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\12. Ludovico Einaudi - La Visita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\13. Ludovico Einaudi - Ever.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\14. Ludovico Einaudi - Histoire Sans Nom.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\15. Ludovico Einaudi - Soltanto Un Ricordo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\16. Ludovico Einaudi - Il Viaggio D'inverno.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Sotto Falso Nome\17. Ludovico Einaudi - Nell' Incanto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\01. Ludovico Einaudi - Una Mattina.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\02. Ludovico Einaudi - Ora.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\03. Ludovico Einaudi - Resta Con Me.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\04. Ludovico Einaudi - Leo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\05. Ludovico Einaudi - A Fuoco.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\06. Ludovico Einaudi - Dolce Droga.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\07. Ludovico Einaudi - Dietro Casa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\08. Ludovico Einaudi - Come Un Fiore.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\09. Ludovico Einaudi - DNA.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\10. Ludovico Einaudi - Nuvole Nere.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\11. Ludovico Einaudi - Questa Volta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\12. Ludovico Einaudi - Nuvole Bianche.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2004 - Una Mattina\13. Ludovico Einaudi - Ancora.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\01. Ludovico Einaudi - Uno.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\02. Ludovico Einaudi - Divenire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\03. Ludovico Einaudi - Monday.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\04. Ludovico Einaudi - Andare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\05. Ludovico Einaudi - Rose.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\06. Ludovico Einaudi - Primavera.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\07. Ludovico Einaudi - Oltremare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\08. Ludovico Einaudi - L'origine Nascosta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\09. Ludovico Einaudi - Fly.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\10. Ludovico Einaudi - Ascolta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\11. Ludovico Einaudi - Ritornare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2007 - Diveniere\12. Ludovico Einaudi - Svanire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\01. Ludovico Einaudi - Svanire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\02. Ludovico Einaudi - Uno.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\03. Ludovico Einaudi - Divenire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\04. Ludovico Einaudi - Rose.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\05. Ludovico Einaudi - Ascolta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\06. Ludovico Einaudi - Oltremare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\07. Ludovico Einaudi - Andare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\08. Ludovico Einaudi - L'Origine Nascosta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD1\09. Ludovico Einaudi - Primavera.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD2\01. Ludovico Einaudi - La Nascita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD2\02. Ludovico Einaudi - Le Onde.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD2\03. Ludovico Einaudi - Eden Roc.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD2\04. Ludovico Einaudi - Monday.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2008 - Live In Berlin\CD2\05. Ludovico Einaudi - In Un'Altra Vita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Live In Prague. La Magia Di Un Concerto Dal Vivo\01. Ludovico Einaudi - Ascolta Uno Dietro L'incanto.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Live In Prague. La Magia Di Un Concerto Dal Vivo\02. Ludovico Einaudi - The Snow Prelude N. 15 Tu Sei Melodia Africana.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Live In Prague. La Magia Di Un Concerto Dal Vivo\03. Ludovico Einaudi - The Snow Prelude N.2 I Due Fiumi White Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Live In Prague. La Magia Di Un Concerto Dal Vivo\04. Ludovico Einaudi - Fly La Nascita Delle Cose Segrete Andare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Live In Prague. La Magia Di Un Concerto Dal Vivo\05. Ludovico Einaudi - Stella Del Mattino I Giorni.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Live In Prague. La Magia Di Un Concerto Dal Vivo\06. Ludovico Einaudi - Nuvole Bianche.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\01. Ludovico Einaudi - In Principio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\02. Ludovico Einaudi - Lady Labyrinth.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\03. Ludovico Einaudi - Nightbook.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\04. Ludovico Einaudi - Indaco.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\05. Ludovico Einaudi - The Snow Prelude N. 15.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\06. Ludovico Einaudi - Eros.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\07. Ludovico Einaudi - The Crane Dance.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\08. Ludovico Einaudi - The Snow Prelude N. 2.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\09. Ludovico Einaudi - The Tower.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\10. Ludovico Einaudi - Reverie.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\11. Ludovico Einaudi - Bye Bye Mon Amour.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\12. Ludovico Einaudi - The Planets.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2009 - Nightbook\13. Ludovico Einaudi - Solo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\01. Ludovico Einaudi - The Planets.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\02. Ludovico Einaudi - Lady Labyrinth.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\03. Ludovico Einaudi - Nightbook.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\04. Ludovico Einaudi - In Principio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\05. Ludovico Einaudi - Indaco.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\06. Ludovico Einaudi - Bye Bye Mon Amour.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\07. Ludovico Einaudi - The Crane Dance.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 1\08. Ludovico Einaudi - The Tower.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\01. Ludovico Einaudi - Berlin Song.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\02. Ludovico Einaudi - Tu Sei.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\03. Ludovico Einaudi - Melodia Africana.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\04. Ludovico Einaudi - I Due Fiumi.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\05. Ludovico Einaudi - In Un'Altra Vita.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\06. Ludovico Einaudi - Stella Del Mattino.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\07. Ludovico Einaudi - I Giorni.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\08. Ludovico Einaudi - Primavera.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\09. Ludovico Einaudi - Divenire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\10. Ludovico Einaudi - Nightbook.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\11. Ludovico Einaudi - Eros.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2010 - The Royal Albert Hall Concert\CD 2\12. Ludovico Einaudi - La Nascita Delle Cose Segrete.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\01. Ludovico Einaudi - I Giorni.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\02. Ludovico Einaudi - The Earth Prelude.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\03. Ludovico Einaudi - Le Onde.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\04. Ludovico Einaudi - Nightbook.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\05. Ludovico Einaudi - Divenire.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\06. Ludovico Einaudi - Dietro Casa.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\07. Ludovico Einaudi - Fairytale.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\08. Ludovico Einaudi - Nuvole Bianche.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\09. Ludovico Einaudi - Passaggio.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\10. Ludovico Einaudi - Primavera.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\11. Ludovico Einaudi - Nefeli.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\12. Ludovico Einaudi - Questa Notte.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\13. Ludovico Einaudi - Berlin Song.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 1\14. Ludovico Einaudi - Melodia Africana III.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\01. Ludovico Einaudi - High Heels.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\02. Ludovico Einaudi - White Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\03. Ludovico Einaudi - L'origine Nascosta.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\04. Ludovico Einaudi - Love In A Mystery.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\05. Ludovico Einaudi - Monday.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\06. Ludovico Einaudi - Lady Labyrinth (Remix).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\07. Ludovico Einaudi - Solo.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\08. Ludovico Einaudi - Ancora.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\09. Ludovico Einaudi - Andare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\10. Ludovico Einaudi - Eros.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\11. Ludovico Einaudi - Indaco.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\12. Ludovico Einaudi - Fly.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Ludovico Einaudi\2011 - Islands. Essential Einaudi\CD 2\13. Ludovico Einaudi - Oltremare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\01-maren_morris-sugar.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\02-maren_morris-rich.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\03-maren_morris-my_church.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\04-maren_morris-i_could_use_a_love_song.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\05-maren_morris-80s_mercedes.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\06-maren_morris-drunk_girls_dont_cry.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\07-maren_morris-how_its_done.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\08-maren_morris-just_another_thing.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\09-maren_morris-i_wish_i_was.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\10-maren_morris-second_wind.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\Maren Morris Hero [2016] CDRIP\Maren_Morris-Hero-2016-C4\11-maren_morris-once.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Bow Wow - Pussy On My Mind Feat. Kid Ink - HotNewHipHop.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Juicy J - Talkin' Bout (Feat. Chris Brown _ Wiz Khalifa) by checktr - HulkShare.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Kayne West - Heard 'Em Say featuring Adam Levine of Maroon 5.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Ludacris ft Pusha T Swizz Beatz - Tell Me What.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 - Animals (Victorias Secret Swim Special).json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 - Animals.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 - Makes Me Wonder.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 - Misery.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\maroon 5 - she will be loved.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 - Sweetest Goobye.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 - Wake up call.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 Feat. Rihanna - If I Never See Your Face Again.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 Ft. Big Sean - Maps (Remix) MP3 download.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon 5 Woman - YouTube.M4A already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Maroon5_-_One_More_Night.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\MARRON5 - Sunday Morning.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MAROON 5\Moroon 5 - This Love.json already exists, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\--NEW 2010-- Usher ft Drake - OMG It's Over (Mashup Remix).json already exists, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\01 F_ck The City Up Feat. Young Jeezy - HotNewHipHop.mp3 is being processed... 2017-04-17 12:48:51.186698 
+  
+D:\OneDrive\Music\MEGAMIX HITz\01 Get It Shawty Remix- ft. Lil Wayne, Big Boi, Chamillionare.mp3 is being processed... 2017-04-17 12:49:46.043600 
+  
+D:\OneDrive\Music\MEGAMIX HITz\01 Love In This Club, Part II feat. Beyonce & Lil' Wayne.mp3 is being processed... 2017-04-17 12:50:35.987260 
+  
+D:\OneDrive\Music\MEGAMIX HITz\01) Ne-Yo - One In A Million (Remix) (Feat. Fabolous & Jadakiss).mp3 is being processed... 2017-04-17 12:51:38.640775 
+  
+D:\OneDrive\Music\MEGAMIX HITz\01_Lil_Wayne_-_Shades_(Feat._Diddy_and_Justin_Timberlake)-Djleak.mp3 is being processed... 2017-04-17 12:52:29.726311 
+  
+D:\OneDrive\Music\MEGAMIX HITz\02 - Drug Test Feat Dr Dre Snoop Dogg Produced by DJ Khalil.mp3 is being processed... 2017-04-17 12:53:44.304485 
+  
+D:\OneDrive\Music\MEGAMIX HITz\02 Jay Rock - All My Life (Remix) (Feat. The Game, Gorilla Zoe, Busta Rhymes, Lil Wayne, Will.I.Am).mp3 is being processed... 2017-04-17 12:54:18.571905 
+  
+D:\OneDrive\Music\MEGAMIX HITz\02. Playaz Circle Ft. Lil' Wayne, Rick Ross, Juelz Santana, Slick Pulla, Birdman, Jay-Z, & Young Jeezy - Duffle Bag Boy (~1.mp3 is being processed... 2017-04-17 12:55:19.817332 
+  
+D:\OneDrive\Music\MEGAMIX HITz\03 - Can You Believe It Feat Lil Wayne Baby Produced by Lifted.mp3 is being processed... 2017-04-17 12:57:11.788734 
+  
+D:\OneDrive\Music\MEGAMIX HITz\03 T.I feat. Kanye West, Jay-Z & Lil Wayne - Swagga Like Us.mp3 is being processed... 2017-04-17 12:58:00.168206 
+  
+D:\OneDrive\Music\MEGAMIX HITz\03-nicki_minaj-i_am_your_leader_(feat _camron_and_rick_ross).mp3 is being processed... 2017-04-17 12:59:15.735466 
+  
+D:\OneDrive\Music\MEGAMIX HITz\03. I Still Wanna Rock feat Rick Ross & Ab-Liva.mp3 is being processed... 2017-04-17 13:00:02.908600 
+  
+D:\OneDrive\Music\MEGAMIX HITz\03.Madonna vs. David Guetta - Revolver (One Love Remix - feat. Lil' Wanye ).mp3 is being processed... 2017-04-17 13:01:00.492813 
+  
+D:\OneDrive\Music\MEGAMIX HITz\04. YG Feat. Young Jeezy  Rich Homie Quan - My Nigga (www.SongsLover.cc).mp3 is being processed... 2017-04-17 13:01:43.887764 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\040 - Lil Wayne ft.  Bobby Valentino & Kidd Kidd - Mrs. Officer      (™ Cash Money Motown).MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\05 - I Made It f Trick-Trick.mp3 is being processed... 2017-04-17 13:02:47.613394 
+  
+D:\OneDrive\Music\MEGAMIX HITz\05 Don't Play (ft. Big Sean & The 1975).mp3 is being processed... 2017-04-17 13:03:51.785636 
+  
+D:\OneDrive\Music\MEGAMIX HITz\05 Filet Mignon (Ft. Drake, Jae Millz, Gudda Gudda, & Mack Maine).mp3 is being processed... 2017-04-17 13:04:53.905613 
+  
+D:\OneDrive\Music\MEGAMIX HITz\06. Give It 2 U (Feat. Kendrick Lamar) (www.SongsLover.pk).mp3 is being processed... 2017-04-17 13:05:58.967313 
+  
+D:\OneDrive\Music\MEGAMIX HITz\06_Petey_Pablo_-_Down_Here_(Feat._Lil_Wayne_and_Rick_Ross)-PromoTorrents.com.mp3 is being processed... 2017-04-17 13:06:45.553389 
+  
+D:\OneDrive\Music\MEGAMIX HITz\06_THREE_6_MAFIA_-_FEEL_IT_(FEAT._TIESTO_FLO_RIDA_AND_SEAN_KINGSTON)-DjLeak.mp3 is being processed... 2017-04-17 13:07:40.937836 
+  
+D:\OneDrive\Music\MEGAMIX HITz\07 champion (feat nas, drake & young jeezy).mp3 is being processed... 2017-04-17 13:08:31.052495 
+  
+D:\OneDrive\Music\MEGAMIX HITz\08 - Birdman - 4 My Town (Play Ball) (Featuring Drake & Lil Wayne)-RGF.mp3 is being processed... 2017-04-17 13:09:31.512294 
+  
+D:\OneDrive\Music\MEGAMIX HITz\08 - Gucci Mane ft. Jay-Z, Kanye West, & Lil' Wayne - Bad Guy (WORLD PREMIERE).mp3 is being processed... 2017-04-17 13:10:25.513395 
+  
+D:\OneDrive\Music\MEGAMIX HITz\08 - Workin ft Big Sean Travis Scott.mp3 is being processed... 2017-04-17 13:11:19.717856 
+  
+D:\OneDrive\Music\MEGAMIX HITz\08-Lil Wayne-The Other Side feat. La The Darkman, Jae Millz, Gudda Gudda-MF.mp3 is being processed... 2017-04-17 13:12:18.742984 
+  
+D:\OneDrive\Music\MEGAMIX HITz\09 Clappers Ft. Nicki Minaj & Juicy J.mp3 is being processed... 2017-04-17 13:13:10.566371 
+  
+D:\OneDrive\Music\MEGAMIX HITz\09. Hello Good Morning.mp3 is being processed... 2017-04-17 13:14:16.358306 
+  
+D:\OneDrive\Music\MEGAMIX HITz\10 Arms Race (Remix) (ft. Travis (Gym Class Heros), Tyga, Kanye West, Paul Wall, Skin Head Rob, Lupe Fiasco & Lil Wayne).mp3 is being processed... 2017-04-17 13:15:14.462119 
+  
+D:\OneDrive\Music\MEGAMIX HITz\10-rick_ross-here_i_am_(featuring_nelly_and_avery_storm)-whoa.mp3 is being processed... 2017-04-17 13:16:18.459391 
+  
+D:\OneDrive\Music\MEGAMIX HITz\10.Birdman Pharell & Mack Maine-Champion-MF.mp3 is being processed... 2017-04-17 13:17:00.708219 
+  
+D:\OneDrive\Music\MEGAMIX HITz\10___light_up_feat__jay_z___notorious_b_i_g.mp3 is being processed... 2017-04-17 13:17:18.584837 
+  
+D:\OneDrive\Music\MEGAMIX HITz\11 - rick ross jay z rhianna talk that talk (remix).mp3 is being processed... 2017-04-17 13:18:23.527920 
+  
+D:\OneDrive\Music\MEGAMIX HITz\11. Cup Up Top Down ft Z-RO, Paul Wall, and Slim Thug.mp3 is being processed... 2017-04-17 13:19:14.104326 
+  
+D:\OneDrive\Music\MEGAMIX HITz\11. Spend That (feat. Jeezy) - (www.SongsLover.com).mp3 is being processed... 2017-04-17 13:20:26.512834 
+  
+D:\OneDrive\Music\MEGAMIX HITz\12. Mack 10 Feat. Lil Wayne & Rick Ross - So Sharp-MF.mp3 is being processed... 2017-04-17 13:21:13.348015 
+  
+D:\OneDrive\Music\MEGAMIX HITz\12.T.I. Ft Gorilla Zoe & Lil Wayne - Whoever You Like (Www.FlowHoT.NeT).mp3 is being processed... 2017-04-17 13:22:00.579551 
+  
+D:\OneDrive\Music\MEGAMIX HITz\12_Lloyd_-_Be_The_One_(Feat._Trey_Songz,_Young_Jeezy).mp3 is being processed... 2017-04-17 13:22:42.338964 
+  
+D:\OneDrive\Music\MEGAMIX HITz\13. CASSIDY, PAPERCHA$E . LIL WAYNE - POP IT 4 DAT PAPER RMX.mp3 is being processed... 2017-04-17 13:23:28.772901 
+  
+D:\OneDrive\Music\MEGAMIX HITz\1328543104_madonna_give_me_all_your_luvin_remix_feat_lmfao.mp3 is being processed... 2017-04-17 13:24:06.701526 
+  
+D:\OneDrive\Music\MEGAMIX HITz\14. Go Hard Round Here feat Lil Wayne, Gudda Gudda & Jae Millz (Prod by Tha Bizness).mp3 is being processed... 2017-04-17 13:24:55.086027 
+  
+D:\OneDrive\Music\MEGAMIX HITz\14_B.O.B._-_Bet_I_Bust_(Remix)_(Feat._T.I._and_Playboy_Tre)-Promotorrents.com(1).mp3 is being processed... 2017-04-17 13:25:50.206858 
+  
+D:\OneDrive\Music\MEGAMIX HITz\15. Show Ya Pussy (feat. Migos  Juicy J) - (www.SongsLover.com).mp3 is being processed... 2017-04-17 13:26:43.176390 
+  
+D:\OneDrive\Music\MEGAMIX HITz\16 Lil Wayne - Whoever You Like (Feat. Jae Millz, Gutta Gutta).mp3 is being processed... 2017-04-17 13:27:28.742552 
+  
+D:\OneDrive\Music\MEGAMIX HITz\16-Rick_Ross_Feat._Lil_Wayne_T.I._2Pac-Deeper_Than_Rap_Part_2-MF.mp3 is being processed... 2017-04-17 13:28:23.485825 
+  
+D:\OneDrive\Music\MEGAMIX HITz\16-Various Artists-We Are The World 25 For Haiti (Bonubs iTunes Track).mp3 is being processed... 2017-04-17 13:29:33.546648 
+  
+D:\OneDrive\Music\MEGAMIX HITz\17_Lil_Wayne_T_-_Pain_Rick_Ross_and_Kanye_West-_Maybach_Music_Pt_2-mp3.mp3 is being processed... 2017-04-17 13:30:56.703805 
+  
+D:\OneDrive\Music\MEGAMIX HITz\18- Lil Wayne -The Best Ft. Jay-Z ,t.I. & Kanye West.mp3 is being processed... 2017-04-17 13:31:21.877228 
+  
+D:\OneDrive\Music\MEGAMIX HITz\19 SWAGGER LIKE PUFF - PUFF DADDY,  KANYE WEST, LIL WAYNE, T.mp3 is being processed... 2017-04-17 13:32:06.184755 
+  
+D:\OneDrive\Music\MEGAMIX HITz\19_Shakira_-_Give_it_Up_to_Me_(Feat._Lil_Wayne_and_Timbaland)(Prod._by_Timbaland)-DjLeak.mp3 is being processed... 2017-04-17 13:32:44.839459 
+  
+D:\OneDrive\Music\MEGAMIX HITz\1Eminem- 5 - Bitch Please Ii (Feat. Dr. Dre, Snoop Dogg, Xzibit & Nate Dogg).mp3 is being processed... 2017-04-17 13:33:23.798642 
+  
+D:\OneDrive\Music\MEGAMIX HITz\2 Chainz Ft. Drake & Lil Wayne - I Do It - LeakedEarly.com.mp3 is being processed... 2017-04-17 13:34:21.215947 
+  
+D:\OneDrive\Music\MEGAMIX HITz\2. Fed Up Ft. Dj Khaled, Rick Ross, Usher & Drake-MF.mp3 is being processed... 2017-04-17 13:35:37.508300 
+  
+D:\OneDrive\Music\MEGAMIX HITz\21-lil_wanye_feat._dj_khaled-brown_paper_bag_(we_the_best)-c4.mp3 is being processed... 2017-04-17 13:36:19.915061 
+  
+D:\OneDrive\Music\MEGAMIX HITz\2Fast 2Furious - Soundtrack - 04 - Tyrese And Ludacris Feat R Kelly - Pick Up The Phone.mp3 is being processed... 2017-04-17 13:36:35.960921 
+  
+D:\OneDrive\Music\MEGAMIX HITz\50 Cent - White Chicks Soundtrack - The Realest Niggaz (Feat Bigg and Eminem).mp3 is being processed... 2017-04-17 13:37:36.510268 
+  
+D:\OneDrive\Music\MEGAMIX HITz\50 Cent ft. Jeremih, 2 Chainz & T.I. - Get Low (CDQ).mp3 is being processed... 2017-04-17 13:38:41.536209 
+  
+D:\OneDrive\Music\MEGAMIX HITz\50 Cent, Ft. Rick Ross, Yung Joc, Rocko, Plies, Lil Wayne,YOUNG,DRO,LIL BOOSIE,LIL,WEBBIE,BIRDMAN, THREE SIX MAFIA.YO GOT~1.mp3 is being processed... 2017-04-17 13:39:34.603673 
+  
+D:\OneDrive\Music\MEGAMIX HITz\50_Cent_Milk_Dee_I_Get_Money_NRC_Mix_2_Dirty.mp3 is being processed... 2017-04-17 13:40:20.597824 
+  
+D:\OneDrive\Music\MEGAMIX HITz\6-snoop_dogg-candy_(drippin_like_water)_(feat_e-40_mc_eiht_goldie_loc_daz_and_kurupt).mp3 is being processed... 2017-04-17 13:41:15.010056 
+  
+D:\OneDrive\Music\MEGAMIX HITz\60 Rackz (Remix) [CDQ].mp3 is being processed... 2017-04-17 13:42:15.918720 
+  
+D:\OneDrive\Music\MEGAMIX HITz\9. Knocks You Down-  Keri Hilson Feat Kanye & Neyo-MF.mp3 is being processed... 2017-04-17 13:43:08.353443 
+  
+D:\OneDrive\Music\MEGAMIX HITz\A-Town (Remix).mp3 is being processed... 2017-04-17 13:43:54.051183 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Above the Rim Soundtrack 04 - The Dogg Pound Gangstas - Big Pimpin'.mp3 is being processed... 2017-04-17 13:44:51.169976 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ace Gutta ft. Rick Ross T-pain & DJ Khaled - Cash Flow..(Trackfiends.).mp3 is being processed... 2017-04-17 13:45:40.500063 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ace Hood - Go N Get It (Remix).mp3 is being processed... 2017-04-17 13:46:40.470487 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ace Hood Feat. Lil Wayne & Rick Ross - Hustle Hard (Remix).mp3 is being processed... 2017-04-17 13:47:56.646241 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Act Right ft. Young Jeezy, IAMSU, & YG.mp3 is being processed... 2017-04-17 13:48:58.547061 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Against The Floor.mp3 is being processed... 2017-04-17 13:50:10.073403 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon feat. Birdman & Lil Wayne - Back On The Block (2008).mp3 is being processed... 2017-04-17 13:51:07.620067 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft Lil Wayne & Young Jeezy- I'm So Paid (Remix).mp3 is being processed... 2017-04-17 13:51:49.209650 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon Ft Ludacris Diddy Lil Jon - Get Buck In Here.mp3 is being processed... 2017-04-17 13:52:44.643731 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon Ft T.I - Hero .mp3 is being processed... 2017-04-17 13:53:31.536323 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft. 50 Cent & Snoop Dogg - Get Buck In Here (Remix).mp3 is being processed... 2017-04-17 13:54:19.503323 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft. 50 Cent - Mama Africa (Remi.mp3 is being processed... 2017-04-17 13:55:05.868731 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft. Colby O'Donis & Kardinal Offishall - Beautiful Remix.mp3 is being processed... 2017-04-17 13:55:51.881174 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft. Cynthia feat. Don Omar and Tego -  I Wanna Love You Official Remix.mp3 is being processed... 2017-04-17 13:57:08.130781 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft. Kardinal Offishall - Dangerous (2008)(1).mp3 is being processed... 2017-04-17 13:58:03.518404 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon Ft. Lil Wayne. T.I & T-Pain - Dreamer (NEW).mp3 is being processed... 2017-04-17 13:59:13.409388 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Akon ft. Pitbull & Jermaine Dupri - Boomerang (Prod. By DJ Felli Fel) (2011) [www.RnB4U.in].mp3 is being processed... 2017-04-17 14:00:18.365810 
+  
+D:\OneDrive\Music\MEGAMIX HITz\All Me.mp3 is being processed... 2017-04-17 14:01:12.447938 
+  
+D:\OneDrive\Music\MEGAMIX HITz\arab money remix video.mp4 is being processed... 2017-04-17 14:02:47.262065 
+  
+D:\OneDrive\Music\MEGAMIX HITz\ASAP Rocky ft Waka Flocka Gucci Mane Pharrell.mp3 is being processed... 2017-04-17 14:04:20.950027 
+  
+D:\OneDrive\Music\MEGAMIX HITz\ASAP_Rocky-_Fuckin_Problem_Feat._Drake,_2_Chainz_&_Kendrick_Lamar_-_TBOHipHop.net.mp3 is being processed... 2017-04-17 14:05:33.613935 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Away Feat. Spodee, Trae Tha Truth & TI.MP3 is being processed... 2017-04-17 14:06:34.524800 
+  
+D:\OneDrive\Music\MEGAMIX HITz\B.o.B - Arena ft. Chris Brown & T.I. [Official Audio].mp3 is being processed... 2017-04-17 14:07:36.682501 
+  
+D:\OneDrive\Music\MEGAMIX HITz\B.o.B.-Never Lost (Unreleased) Feat. T.I. & Coldplay.mp3 is being processed... 2017-04-17 14:08:10.426548 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Baby, Lil wayne, gucci Maine, Tango Redd, Ti, Fat Joe, Dem Franchise Boyz - You dont know me(Remix).mp3 is being processed... 2017-04-17 14:09:02.874003 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Back To The Money (Remix).mp3 is being processed... 2017-04-17 14:09:49.136594 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ballin (Feat. Wiz Khalifa & Teyana Taylor).mp3 is being processed... 2017-04-17 14:10:46.653677 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bands A Make Her Dance [Remix] (Ft. Lil Wayne & 2 Chainz).mp3 is being processed... 2017-04-17 14:11:46.562211 
+  
+D:\OneDrive\Music\MEGAMIX HITz\beat it up- lil flip, lil wayne, cassidy, p diddy, rick ross, dj drama, baby, young jezzy, gucci mane, jim jones, camron,~1.mp3 is being processed... 2017-04-17 14:12:53.684808 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Belee Dat.mp3 is being processed... 2017-04-17 14:13:31.092179 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Big Sean - Marvin Gaye & Chardonnay (feat. Kanye West & Roscoe Dash).mp3 is being processed... 2017-04-17 14:14:05.933956 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Big Sean - More Mula Feat. French Montana.MP3 is being processed... 2017-04-17 14:14:52.289471 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Big Sean Feat Lil Wayne & Jhene Aiko - Beware.mp3 is being processed... 2017-04-17 14:15:37.286706 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Big Sean ft Drake & Kanye West – Blessings (Remix) - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Big Sean Ft. Jay-Z x Kanye West - Clique.mp3 is being processed... 2017-04-17 14:16:27.685916 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Biggie ft. Pitbull, Casely & Lil Wayne - Playas Play (NEW VERSION) (2009) [www.RnB4U.in].mp3 is being processed... 2017-04-17 14:17:27.162639 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman - Born Stunna (Remix) feat Rick Ross, Lil Wayne & Nicki Minaj CDQ.mp3 is being processed... 2017-04-17 14:18:10.850824 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman - Get Buck In Here (Remix) ft. Lil Wayne, Ludacris,  Akon,  Rick Ross & Lil Jon.mp3 is being processed... 2017-04-17 14:19:11.972149 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman - I Get Money (feat. T-Pain, Lil' Wayne, & Mack Maine) (Prod By The Runners).mp3 is being processed... 2017-04-17 14:19:58.394197 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman Ft Lil Wayne,Young Jeezz & Rick Ross - Always Strapped (Official Remix) (Www.FlowHoT.NeT).mp3 is being processed... 2017-04-17 14:21:00.438997 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman Ft Lil Wayne_ Young Jeezy And Rick Ross- Always Strapped Remix www.hiphopearly.com.mp3 is being processed... 2017-04-17 14:22:11.758897 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman ft. Rick Ross, Lil' Wayne, Young Jeezy & Dre - 100 Million Dollars .mp3 is being processed... 2017-04-17 14:23:29.091995 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman Ft. T-Pain, Rick Ross & Lil' Wayne - I Know What I'm Doing.mp3 is being processed... 2017-04-17 14:24:17.722553 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman_-_Tapout_Feat_Lil_Wayne_Birdman_Future_Mack_Maine_amp_Nicki_Minaj_vXgqFA9Vpsk_hi.mp3 is being processed... 2017-04-17 14:25:17.236467 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Birdman_feat._Lil_Wayne_&_Tyga_-_Loyalty.mp3 is being processed... 2017-04-17 14:26:14.622364 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bitches Love Me.mp3 is being processed... 2017-04-17 14:27:07.112670 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bobby Shmurda ft Fabolous, Jadakiss, Chris Brown, Busta Rhymes, Yo Gotti & Rowdy Rebel - Hot Nigga (Remix).mp3 is being processed... 2017-04-17 14:27:59.495328 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bobby Valentino Ft. Yung Joc, Lil Kim & Lil Wayne - Beep (Remix).mp3 is being processed... 2017-04-17 14:29:13.178367 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bottles and Rockin Js.mp3 is being processed... 2017-04-17 14:30:09.493559 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bo_Deal_-__Gangstas_&_Dope_Dealers_ft_Alley_Boy_&_Lil_Mouse.mp3 is being processed... 2017-04-17 14:31:24.620559 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Brisco ft. Lil Wayne, Flo Rida - Just Know That.mp3 is being processed... 2017-04-17 14:32:09.262902 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Britney Spears, Pink & Beyonce - We Will Rock You.mp3 is being processed... 2017-04-17 14:33:08.272756 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bugati-Remix-Dirty-Mix-3-master.mp3 is being processed... 2017-04-17 14:33:45.278441 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Bun B Ft. Rick Ross, 2 Chainz & Serani - Fire - LeakedEarly.com.mp3 is being processed... 2017-04-17 14:34:55.442395 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Burn It Up - R. Kelly ft. Wisin & Yandel.mp3 is being processed... 2017-04-17 14:35:42.386111 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Busta Rhymes - Arab Money (Remix) (Feat. Lil Wayne, Ron Browz, Swizz Beats, T-Pain, Diddy, Akon).mp3 is being processed... 2017-04-17 14:36:29.938020 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Busta Rhymes - Doin It Again Feat. Reek Da Villian & Chanel - HotNewHipHop.mp3 is being processed... 2017-04-17 14:37:53.363237 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Busta Rhymes - Shake It [CDQ] Feat. Future &amp; Trey Songz - HotNewHipHop.mp3 is being processed... 2017-04-17 14:38:47.878497 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Busta Rhymes ft. Mary J. Blige, Rah Digga, Missy Elliott, Lloyd Banks, Papoose, DMX, Eminem - Touch It Remix (Live from t~1.mp3 is being processed... 2017-04-17 14:39:45.760941 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Busta Rhymes ft. Missy Elliot, Lil Wayne & Chris Brown - Why Stop Now (Remix) (No Tags) (Dirty) - HotNewHipHop.mp3 is being processed... 2017-04-17 14:40:41.295298 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Busta Rhymes Ft. Q-Tip, Kanye West & Lil Wayne - Thank You (MAIN).MP3 is being processed... 2017-04-17 14:41:35.401350 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ca$h Out - Let's Get It Feat. Ty Dolla $ign & Wiz Khalifa (Remix) - StreetsSalute.com.mp3 is being processed... 2017-04-17 14:42:25.570607 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Camron Ft Webbie & Lil Wayne - Suck It Or Not.mp3 is being processed... 2017-04-17 14:43:19.035787 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Can A Drummer Get Some_.mp3 is being processed... 2017-04-17 14:44:05.855536 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Cap 1 - Gang Bang - HotNewHipHop.mp3 is being processed... 2017-04-17 14:44:47.066857 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Celebrate [CDQ].mp3 is being processed... 2017-04-17 14:45:43.368219 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chief Keef - Hate Bein Sober (CDQ) Feat. 50 Cent & Wiz Khalifa - NewJams.net.mp3 is being processed... 2017-04-17 14:46:54.522684 
+  
+D:\OneDrive\Music\MEGAMIX HITz\chief keef ft pusha t kanye west big sean jadak - hiphopearly t12838.mp3 is being processed... 2017-04-17 14:47:52.069191 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chinx Drugz -  Right There (CDQ_Dirty) Feat. Juicy J &amp; French Montana - HotNewHipHop.mp3 is being processed... 2017-04-17 14:48:50.786229 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chip - On The Scene (Ft. T.I. & Young Jeezy) [London Boy].mp3 is being processed... 2017-04-17 14:49:54.863423 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown - Look At Me Now (Feat. Lil Wayne & Busta Rhyme) - NewJams.net.mp3 is being processed... 2017-04-17 14:50:55.273727 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown - Scissors, Paper, Rock F. Big Sean  Timbaland [Tags].mp3 is being processed... 2017-04-17 14:51:50.601255 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown feat. B.o.B & T-Pain - Get Down by wilius41.mp3 is being processed... 2017-04-17 14:52:40.124274 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown Feat. Tyga & Kevin McCall - Dueces.mp3 is being processed... 2017-04-17 14:53:32.040122 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown ft Akon & Pitbull - Fucking Faded.mp3 is being processed... 2017-04-17 14:54:37.320889 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown ft Usher & Rick Ross - New Flame.mp3 is being processed... 2017-04-17 14:55:20.714824 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown Ft. T Pain - Kiss Kiss.mp3 is being processed... 2017-04-17 14:56:17.681170 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris Brown-I Dont Like (Remix) - HotNewHipHop.mp3 is being processed... 2017-04-17 14:57:16.991195 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Christian Dior Denim Flow (feat. Kid Cudi, Pusha T, John Legend, Lloyd Banks & Ryan Leslie).mp3 is being processed... 2017-04-17 14:58:57.693507 
+  
+D:\OneDrive\Music\MEGAMIX HITz\ChristmasInHarlem(Ft. Cam'ron, Jim Jones, Vado, Cyhi Da Prynce, Pusha-T, Musiq Soulchild, Teyana Taylor, & Big Sean).mp3 is being processed... 2017-04-17 15:00:25.001813 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Chris_Brown-I_Can_Transform_Ya__Feat_Lil_Wayne_.mp3 is being processed... 2017-04-17 15:01:44.567785 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ciara ft Future & B.o.B - Body Party (Remix).mp3 is being processed... 2017-04-17 15:02:30.961480 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Clipse ft. Kanye West & Bun B - Kinda Like A Big Deal (Remix) (2009) [www.RnB4U.in].mp3 is being processed... 2017-04-17 15:03:19.344632 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Clyde Carson ft Young Jeezy & Game - Pour Up (Remix).mp3 is being processed... 2017-04-17 15:04:15.607053 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Common - Punch Drunk Love (Ft. Kanye West).mp3 is being processed... 2017-04-17 15:04:59.220190 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Coolio_-_Gangsta_ Paradise_ft_ 2Pac._Snoop_Dogg__BIG_NickT_ Remix.mp3 is being processed... 2017-04-17 15:05:51.526046 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Curren$y - 442 Feat. Lil Wayne & Birdman.MP3 is being processed... 2017-04-17 15:07:06.276483 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Curren$y - Jet Life (Remix) Feat Young Jeezy & Lil Wayne - HotNewHipHop.mp3 is being processed... 2017-04-17 15:08:19.866901 
+  
+D:\OneDrive\Music\MEGAMIX HITz\CyHi The Prynce-100 Bottles Feat. Chris Brown & Big Sean - HotNewHipHop.mp3 is being processed... 2017-04-17 15:09:20.873829 
+  
+D:\OneDrive\Music\MEGAMIX HITz\D4L ft. Rick Ross, Yung Joc, Lil Wayne - Im Da Man (Remix).mp3 is being processed... 2017-04-17 15:10:03.601261 
+  
+D:\OneDrive\Music\MEGAMIX HITz\David Banner - 9mm (Ft. Akon, Lil' Wayne & Snoop Dogg).mp3 is being processed... 2017-04-17 15:11:10.734989 
+  
+D:\OneDrive\Music\MEGAMIX HITz\David_Banner_Feat_Snoop_Dogg,Game,Nipsey_Hussle,Kree_&_Ras_Kass_-_Californication_(www.pressplay.to).mp3 is being processed... 2017-04-17 15:12:10.691280 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DeJ Loaf ft Young Jeezy & T.I. – Try Me (Remix) - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Detail - Tattoo Foreva (Feat. Lil Wayne, T-Pain and Travie McCoy) - HotNewHipHop.com.mp3 is being processed... 2017-04-17 15:13:35.029379 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Diddy - Dirty Money Ft. T.I. & Rick Ross - Hello Good Morning(Remix)(Dirty).mp3 is being processed... 2017-04-17 15:14:27.790268 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Diddy Ft Mary J Blige & Lil Wayne - Someone To Love Me (Remix) [No Tags].mp3 is being processed... 2017-04-17 15:15:38.596266 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Dirty Dancer (Remix).mp3 is being processed... 2017-04-17 15:16:28.834975 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Dirty Money Ft. Drake- Hurt - Hiphopearly.com.mp3 is being processed... 2017-04-17 15:17:24.947100 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Bay Bay - Cash In A Rubberband  Feat. Juicy J, Wiz Khalifa & Project Pat (Prod. by Jahlil Beats) - HotNewHipHop.mp3 is being processed... 2017-04-17 15:18:15.953846 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Drama - We in this Bitch feat. T.I., Young Jeezy, Ludacris, Future (Prod by Kane Beatz) - HotNewHipHop.mp3 is being processed... 2017-04-17 15:18:59.638130 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Drama Feat Fabolous, Roscoe Dash & Wiz Khalifa - Oh My.mp3 is being processed... 2017-04-17 15:19:55.248744 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Dj Drama Feat Wale Tyga Roscoe Dash So Many Girls Prod By Boi1da.mp3 is being processed... 2017-04-17 15:20:54.387909 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DJ Drama ft. Jadakiss, Cee-Lo, Nipsey Hussle & Young Jeezy – Never Die-atrilli.net.json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\dj drama ft. meek mill - gangsta grillz.mp3 is being processed... 2017-04-17 15:21:42.350013 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Felli Fel ft Ne-Yo Tyga Wiz Khalifa - Reason.mp3 is being processed... 2017-04-17 15:22:15.480580 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DJ Holiday ft Meek Mill, Future, T.I. & Stuey Rock – Flexin - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DJ Infamous ft 2 Chainz & Jeezy – Dikembe - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\DJ Kay Slay - Got Damn (Remix) feat Torch, 2 Chainz, Busta Rhymes, Gunplay & French Montana - HotNewHipHop.mp3 is being processed... 2017-04-17 15:23:06.077286 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled - Born N Raised Feat Trick Daddy, Rick Ross & Pitbull.mp3 is being processed... 2017-04-17 15:23:56.201644 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled - I Wanna Be With You (Feat. Nicki Minaj, Rick Ross & Future).mp3 is being processed... 2017-04-17 15:24:55.497460 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DJ Khaled - They Don’t Love You No More (Feat. Jay Z, Meek Mill, Rick Ross & French Montana).json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Dj Khaled - We Take'n Over feat. Akon, T.I., Rick Ross, Fat Joe, Baby n Lil Wayne(3).mp3 is being processed... 2017-04-17 15:25:53.081333 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Dj Khaled - Welcome to My Hood (Remix).mp3 is being processed... 2017-04-17 15:26:56.298950 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled f. Young Jeezy, Juelz Santana, Lil Wayne, Fat Joe, Rick Ross & Dre - Brown Paper Bag.mp3 is being processed... 2017-04-17 15:28:36.004264 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled Feat Jay-Z, T-Pain & Kanye West - Go Hard (Remix)(Trackfiends.net).mp3 is being processed... 2017-04-17 15:29:48.278476 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DJ Khaled feat. Chris Brown, August Alsina, Future & Jeremih – Hold You Down (iTunes).json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled feat. Ross, Plies, T-Pain & Lil Wayne - Welcome To My Hood (Dirty).mp3 is being processed... 2017-04-17 15:30:44.678122 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\DJ Khaled ft Usher, Rick Ross, Fabolous & Ace Hood – Hold You Down (Remix) - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled ft. Paul Wall, Lil Wayne, Rick Ross, Fat Joe, Pitbull - Holla at Me baby.mp3 is being processed... 2017-04-17 15:31:43.455785 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Khaled ~ No New Friends (SFTB Remix) Feat. Drake, Rick Ross & Lil Wayne-atrilli.net.mp3 is being processed... 2017-04-17 15:32:46.122184 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Mustard feat. 2 Chainz _ Ty Dolla $ign - Down On Me by LOUIEKNOWS - HulkShare.mp3 is being processed... 2017-04-17 15:33:52.822345 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Prostyle Ft. Fabolous & French Montana - FOH.mp3 is being processed... 2017-04-17 15:34:47.034866 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Scream- Hood Rich Anthem Feat. 2 Chainz,Future,Waka Flocka Flame,Yo Gotti & Gucci Mane - HotNewHipHop.mp3 is being processed... 2017-04-17 15:35:31.623690 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ Screw - Lil Mario, SlimThug, Jay Z, UGK - Big Pimpin (Swisha House).mp3 is being processed... 2017-04-17 15:36:13.558226 
+  
+D:\OneDrive\Music\MEGAMIX HITz\DJ+Drama+Feat.+2+Chainz,+Meek+Mill+&+Jeremih+-+My+Moment.mp3 is being processed... 2017-04-17 15:36:49.620125 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Do What U Want (Remix) (Feat. R. Kelly & Rick Ross).MP3 is being processed... 2017-04-17 15:37:38.502327 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Don't Look Down (feat. Mos Def, Lupe Fiasco & Big Sean).mp3 is being processed... 2017-04-17 15:38:41.572611 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Don't Shoot.mp3 is being processed... 2017-04-17 15:40:06.899947 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Don't Stop!.mp3 is being processed... 2017-04-17 15:41:33.999771 
+  
+D:\OneDrive\Music\MEGAMIX HITz\download asher roth feat meek mill party girl (prod oren yoel) 2o12 hip hop mp3.mp3 is being processed... 2017-04-17 15:42:30.692551 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Drake - Money To Blow Remix Ft KiD CuDi, Wiz Khalifa & Lil Wayne [Dj Cassly HOT MIX!! 2009].mp3 is being processed... 2017-04-17 15:43:33.274483 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Drake - Sooner Or Later REMIX (FEAT. Lil Wayne. T-Pain & The Dream) new hot!!! 2009.mp3 is being processed... 2017-04-17 15:44:51.232559 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Drake Feat. Lil Wayne & Kid - Kid - I Can Take Your Girl.MP3 is being processed... 2017-04-17 15:45:45.326418 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Drake ft. Lil Wayne_ Kanye West _ Eminem - Forever.mp3 is being processed... 2017-04-17 15:47:31.342269 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Drake, Tyga, The K.I.D. Heat & Mally Mall - Whatcha Say.mp3 is being processed... 2017-04-17 15:49:07.053266 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Drunk in Love - Beyonce ft. Jay Z & Kanye West.MP3 is being processed... 2017-04-17 15:49:58.018514 
+  
+D:\OneDrive\Music\MEGAMIX HITz\E-40 - Red Cup feat. T-Pain, Kid Ink _ B.o.B - Download and Stream _ Audiomack.mp3 is being processed... 2017-04-17 15:51:35.213725 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Elijah Blake - Sing For Me Feat. Rick Ross _ Game _ Download _ Listen [New Song].MP3 is being processed... 2017-04-17 15:51:35.380844 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Eminem - 2.0 Boys feat. Slaughterhouse & Yelawolf - HotNewHipHop.mp3 is being processed... 2017-04-17 15:52:28.809275 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Eminem - Syllables F. Jay-Z, Dr. Dre, Stat Quo X 50 Cent.mp3 is being processed... 2017-04-17 15:53:45.790004 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Eminem Ft 50 cent & Lil Wayne - Anthem Of The Kings ( Prod By ibooo ).mp3 is being processed... 2017-04-17 15:54:58.966851 
+  
+D:\OneDrive\Music\MEGAMIX HITz\eminem_no_love_featuring_stylez_majo.mp3 is being processed... 2017-04-17 15:56:15.709622 
+  
+D:\OneDrive\Music\MEGAMIX HITz\ester_dean-drop_it_low_(remix)_(feat._lil_wayne).mp3 is being processed... 2017-04-17 15:57:18.948695 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Every_Girl_NB_All_Stars_REMIXw_trav.mp3 is being processed... 2017-04-17 15:58:08.811857 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fabolous - Dance Move Feat. Wale & French Montana - HotNewHipHop.mp3 is being processed... 2017-04-17 15:59:13.609997 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fabolous - Life Is So Exciting (Remix) (feat. Ryan Leslie & Pusha T).mp3 is being processed... 2017-04-17 15:59:49.319874 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Face Down.mp3 is being processed... 2017-04-17 16:00:44.507827 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fall Out Boy Feat. Lil Wayne, Lupe Fiasco , Kanye West & Travis (Gym Class Heroes), Paul Wall & Skinhead - Arms Race (Rem~1.mp3 is being processed... 2017-04-17 16:01:42.977600 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fall Out Boys ft. Kanye West - This Ain't A Scene, It's An Arms Race (Remix).mp3 is being processed... 2017-04-17 16:02:45.966683 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fat Joe - Make It Rain Remix  ft Lil Wayne, Baby T.I., R Kelly &  Rick Ross.mp3 is being processed... 2017-04-17 16:03:35.435698 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fat Joe - No Country (CDQ) - HotNewHipHop.mp3 is being processed... 2017-04-17 16:04:57.146488 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fat Joe Ft Lil Wayne, Asap Rocky & French Montana - Yellow Tape.mp3 is being processed... 2017-04-17 16:05:51.843607 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fetty Wap ft Quavo & Gucci Mane - Trap Queen (Remix).mp3 is being processed... 2017-04-17 16:06:44.896470 
+  
+D:\OneDrive\Music\MEGAMIX HITz\First Chain.mp3 is being processed... 2017-04-17 16:07:35.254156 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Foolish (Remix) - Shawty Lo Ft. Birdman, Rick Ross, Jim Jones & DJ Khaled.mp3 is being processed... 2017-04-17 16:08:47.121900 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Forever- Drake. Kanye West. Lil Wayne. Eminem (Official Music Video) HQ(1).mp4 is being processed... 2017-04-17 16:09:35.143529 
+  
+D:\OneDrive\Music\MEGAMIX HITz\FRENCH - ALL FOR YOU.5 FT WIZ KHALIFA _SNOOP.MP3 is being processed... 2017-04-17 16:10:49.155740 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana - Ain't Worried About Nothin  Feat. Problem, Crooked I, Dizzy Wright, & Game (Remix) (RapGodFathers.info).mp3 is being processed... 2017-04-17 16:11:49.978722 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana - Closing Up Shop Feat. Chinx Drugz & Meek Mill.MP3 is being processed... 2017-04-17 16:12:50.392567 
+  
+D:\OneDrive\Music\MEGAMIX HITz\french montana - everythings a go (prod by prince).mp3 is being processed... 2017-04-17 16:13:53.737348 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana - MegaDeath Feat. Remy Ma, Swizz Beatz & Jadakiss .mp3 is being processed... 2017-04-17 16:14:32.873573 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana - R&B Bitches (Feat. Fabolous & Wale).mp3 is being processed... 2017-04-17 16:15:18.973326 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana feat Birdman, Wale, Fabolous, Jadakiss & Waka Flocka - Everythings A Go (Remix) (Prod by Prince & Metro) - HotNewHipHop.mp3 is being processed... 2017-04-17 16:16:13.226155 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana Feat. Nicki Minaj, Wyclef Jean, Elephant Man & Edley Shine - Freaks (DJ Suss One ReFix).mp3 is being processed... 2017-04-17 16:17:37.135708 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana Ft. Kanye West & Nas - Figure It Out (Lyrics on screen).mp3 is being processed... 2017-04-17 16:18:36.159016 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French Montana- Yayo (feat. Future & Chinx Drugz).MP3 is being processed... 2017-04-17 16:19:30.559540 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French_Montana_-_Diamonds_(prod_Swizz_Beatz)_-_whattupmyguy.com.mp3 is being processed... 2017-04-17 16:20:47.069484 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French_Montana_-_Marble_Floors_ft_Rick_Ross,_Lil_Wayne,_2_Chainz_-_Final_Master_-_Dirty.mp3 is being processed... 2017-04-17 16:21:44.915649 
+  
+D:\OneDrive\Music\MEGAMIX HITz\French_Montana_ft._Rick_Ross,_Drake_&_Lil_Wayne_POP_THAT.mp3 is being processed... 2017-04-17 16:22:36.110872 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Fuck Food.mp3 is being processed... 2017-04-17 16:23:46.310873 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Future - Move That Dope Feat. Pharrell, Pusha T _ Casino (Prod. By Mike WiLL Made It) _ Stream _ Listen [New Song].MP3 is being processed... 2017-04-17 16:24:53.424698 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Future - Real & True feat Miley Cyrus.MP3 is being processed... 2017-04-17 16:26:10.141979 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Future ft Busta Rhymes Rocko - You Wonder.mp3 is being processed... 2017-04-17 16:27:17.566206 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Future_ATL_Ft._2_Chainz_&_Waka_Flocka_-_Mind_Blown.mp3 is being processed... 2017-04-17 16:28:01.580327 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\G-Unit – Big Body Benz - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Game - FIVE Feat. Chris Brown _ Lil Wayne.mp3 is being processed... 2017-04-17 16:28:59.305021 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Game - Get Your Money Right Feat. Dr. Dre _ Jay Z _ Download _ Listen [New Song].MP3 is being processed... 2017-04-17 16:29:35.218396 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Game Feat. Lil Wayne, Big Sean, Fabolous & Jeremih - All That (Lady) (CDQ) - Thisisbuckwild.com.mp3 is being processed... 2017-04-17 16:30:19.518166 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Game ft Chris Brown Lil Wayne - FIVE.mp3 is being processed... 2017-04-17 16:31:08.480479 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Game- Celebration Feat. Lil Wayne, Chris Brown, Wiz Khalifa & Tyga - HotNewHipHop.mp3 is being processed... 2017-04-17 16:31:44.555189 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Game- Mean Muggin Feat. 2 Chainz & French Motana - HotNewHipHop.mp3 is being processed... 2017-04-17 16:32:36.663319 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Gettin'_Over_You_(Feat._Chris_Willis,_Fergie_&_LMFAO).mp3 is being processed... 2017-04-17 16:33:23.879244 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Grandtheft - Trampoline Feat. 2 Chainz, RiFF RAFF, Tinie Tempah & ETC!ETC!.MP3 is being processed... 2017-04-17 16:34:16.187206 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Gucci Mane - Cyeah Cyeah Cyeah Cyeah feat Chris Brown & Lil Wayne (Prod by Polow Da Don) - HotNewHipHop.mp3 is being processed... 2017-04-17 16:34:59.775321 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Gucci Mane - Millions feat. Rick Ross, Rocko & Yo Gotti.mp3 is being processed... 2017-04-17 16:35:53.675935 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Gunplay - Clique Remix - HotNewHipHop.mp3 is being processed... 2017-04-17 16:36:45.154562 
+  
+D:\OneDrive\Music\MEGAMIX HITz\GunPlay - Heaven Or Hell (remix) Ft. Meek Mill & Jadakiss (CDQ Dirty).MP3 is being processed... 2017-04-17 16:37:31.621986 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Gunplay - Kush Feat. Lil Wayne _ Rick Ross.mp3 is being processed... 2017-04-17 16:39:02.323475 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Hold Me Back (Remix).mp3 is being processed... 2017-04-17 16:40:05.129314 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Hustle_Gang-Problems_(Feat_B_o_B_T_I_Mac_Boney_Problem_Trae_Tha_Truth_&_Young_Dro)_Prod_By_B_o_B.mp3 is being processed... 2017-04-17 16:41:31.976234 
+  
+D:\OneDrive\Music\MEGAMIX HITz\I Got Money to Blow.mp3 is being processed... 2017-04-17 16:43:23.882646 
+  
+D:\OneDrive\Music\MEGAMIX HITz\I'm A Coke Boy (Remix) (No Shout).mp3 is being processed... 2017-04-17 16:44:22.378149 
+  
+D:\OneDrive\Music\MEGAMIX HITz\I'mma Boss (Remix) [Dirty].mp3 is being processed... 2017-04-17 16:45:12.656414 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\ILOVEMAKONNEN ft Wiz Khalifa & Gucci Mane – I Dont Sell Molly No More (Remix) - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Jae Millz - Bottoms Up Remix - HipHopEarly t197.mp3 is being processed... 2017-04-17 16:46:22.348831 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jae Millz - Errrday 100 feat. Lil Twist & Gudda Gudda.mp3 is being processed... 2017-04-17 16:47:18.544998 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jamie_Foxx_-_Digital_Girl_(Remix)_[feat._Drake,_Kanye_West_&_The-Dream].m4a is being processed... 2017-04-17 16:48:11.733554 
+  
+D:\OneDrive\Music\MEGAMIX HITz\jamie_foxx_ft._t-pain_busta_rhymes__lil_wayne-blame_it_remix.mp3 is being processed... 2017-04-17 16:49:11.281178 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jason Derulo ft 2 Chainz & Sage The Gemini - Talk Dirty (Remix).mp3 is being processed... 2017-04-17 16:50:17.383411 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jay Z vs Eminem vs Busta Ryhmes - Big Pimpin (remix).mp3 is being processed... 2017-04-17 16:50:59.833221 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jay-Z Ft Rihanna & Kanye West - Run This Town-MIXFIEND.mp3 is being processed... 2017-04-17 16:52:06.996856 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jessie J, Ariana Grande &amp; Nicki Minaj-Bang Bang (www.myfreemp3.cc).mp3 is being processed... 2017-04-17 16:53:07.028922 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Jidenna - Classic Man (Remix feat. Kendrick Lamar, T.I. _ Dane Lawrence) - Download and Stream _ Audiomack.mp3 is being processed... 2017-04-17 16:53:48.200339 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Joe Budden - She Don't Put It Down Like You feat. Lil Wayne Tank Mp3.mp3 is being processed... 2017-04-17 16:54:50.858525 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Joe Budden Ft. Fabolous, Twista & Tank - She Don’t Put It Down (Remix).json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Juicy J - Bands A Make Her Dance Feat. Wiz Khalifa, French Montana, Lola Monroe & B.o.B (Remix).MP3 is being processed... 2017-04-17 16:55:43.310963 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Juicy J - Low (feat. Nicki Minaj, Lil Bibby _ Young Thug) - Listen _ Audiomack.mp3 is being processed... 2017-04-17 16:56:38.995883 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Juicy J - Show Out (Remix) Feat. T.I. &amp; Pimp C - HotNewHipHop.mp3 is being processed... 2017-04-17 16:56:39.163512 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Juicy J Feat. Wale & Trey Songz - Bounce It ( 2o13 ) [badoO vibez].mp3 is being processed... 2017-04-17 16:57:24.392545 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Juicy_J_-_Bands_A_Make_Her_Dance_(rmx)_f._French_Montana,_Lola_Monroe,_Wiz_Khalifa_&_B.o.B.mp3 is being processed... 2017-04-17 16:58:18.024164 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Julez Santana ft. T.I , Akon , Dipset , Camron , Jay-z ,Ludacris ,Pitbull , YYT , Elaphant Man & Lil' Wyane - Dipset Anthem (NY City Remix 2007-@))&.mp3 is being processed... 2017-04-17 16:59:13.690503 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Just Right For Me.mp3 is being processed... 2017-04-17 17:00:04.326512 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Justin Bieber- Boyfriend [Remix] Feat. 2 Chainz, Mac Miller & Asher Roth - HotNewHipHop.mp3 is being processed... 2017-04-17 17:01:38.756418 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Justin Timberlake - TKO Gmix [128].mp3 is being processed... 2017-04-17 17:02:37.076469 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Juvenile - 400 Degrees - 12 - We on Fire (Feat. Turk, Lil Wayne & Paparus).mp3 is being processed... 2017-04-17 17:03:35.649717 
+  
+D:\OneDrive\Music\MEGAMIX HITz\K Camp - Money Baby Feat. French Montana _ Ty Dolla $ign (Remix) _ Stream _ Listen [New Song].MP3 is being processed... 2017-04-17 17:04:43.130795 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West - Know The Game (Unreleased) - HotNewHipHop.mp3 is being processed... 2017-04-17 17:05:41.550407 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West - Mercy Feat. Big Sean, Pusha T & 2 Chainz - HotNewHipHop.mp3 is being processed... 2017-04-17 17:06:20.407711 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West 21 - We Can Make It Better (Ft Talib Kweli, Q-Tip, Common & Rhymefest).mp3 is being processed... 2017-04-17 17:07:23.961266 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West ft Lil Wayne Drake Big Sean - All Of The Lights.mp3 is being processed... 2017-04-17 17:08:14.071087 
+  
+D:\OneDrive\Music\MEGAMIX HITz\kanye west ft young jeezy, andre 3000, eminem - put on remix.mp3 is being processed... 2017-04-17 17:09:31.680907 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West Ft, Jay-Z & Swizz Beatz - Power (Remix).mp3 is being processed... 2017-04-17 17:10:22.816864 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West Ft. DJ Khaled & DJ Pharris - Theraflu [CDQ.No Tags] - HotNewHipHop.mp3 is being processed... 2017-04-17 17:11:34.570769 
+  
+D:\OneDrive\Music\MEGAMIX HITz\kanye west ft2. lil wayne  busta rhymes - cant tell me nothing remix.mp3 is being processed... 2017-04-17 17:12:24.445604 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye West, Talib Kweli, Q-Tip, Common & Rhymefest - We Can Make It Better.mp3 is being processed... 2017-04-17 17:13:33.309991 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kanye_West_Big_Sean_2_Chainz_amp_Marsha_Ambrosius_James_Fauntleroy-The_One(vmuke.ru).mp3 is being processed... 2017-04-17 17:14:20.946043 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ke$ha-Sleazy 2.0 Remix ft. Wiz Khalifa, Andre 3000, T.I. & Lil Wayne.mp3 is being processed... 2017-04-17 17:15:32.018196 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Keri Hilson Feat T-Pain & Lil Wayne - Turning Me On Remix.mp3 is being processed... 2017-04-17 17:16:37.535556 
+  
+D:\OneDrive\Music\MEGAMIX HITz\KId Cudi ft Kanye West & Common - Make Her Say.mp3 is being processed... 2017-04-17 17:17:41.707087 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kid Cudi ft King Chip & ASAP Rocky - Brothers.mp3 is being processed... 2017-04-17 17:18:35.363782 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kid Ink - Time Of Your Life (Remix) feat Tyga & Chris Brown (Prod by Ned Cameron & Kid Ink) - HotNewHipHop.mp3 is being processed... 2017-04-17 17:19:38.376729 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Kid Ink Ft. French Montana, Yo Gotti, Tyga & Lil Bibby - Main Chick (Remix).mp3 is being processed... 2017-04-17 17:20:44.180804 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Killin It (Remix) (Feat. Tyga & Trinidad Jame$).MP3 is being processed... 2017-04-17 17:21:53.392772 
+  
+D:\OneDrive\Music\MEGAMIX HITz\L.E.P. Bogus Boys Ft. Young Jeezy, T.I., Mase & Spenzo - Commas (Remix) - LeakedEarly.com.mp3 is being processed... 2017-04-17 17:22:49.576493 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lady Gaga ft. Kanye West & Lil Wayne  - Love Game (Remix ).mp3 is being processed... 2017-04-17 17:23:51.471794 
+  
+D:\OneDrive\Music\MEGAMIX HITz\la_la_lil_wayne_ft__wiz_khalifa___gilli_burn_beat.mp3 is being processed... 2017-04-17 17:24:57.618954 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil John, E-40, Sean Paul - Snap Your Fingers.mp3 is being processed... 2017-04-17 17:25:48.792348 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Twist feat Lil Wayne & Chris Brown - Flowerz BMF.mp3 is being processed... 2017-04-17 17:26:49.570227 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne - Pussy Monster(1).mp3 is being processed... 2017-04-17 17:27:40.739533 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne - The Block Is Hot.mp3 is being processed... 2017-04-17 17:28:17.459778 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil wayne - The Dedication 3 - 08 - Fuck Da Other Side ft. Jae Millz & La The Darkman.mp3 is being processed... 2017-04-17 17:29:16.545083 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne - We Alright Feat. Birdman _ Euro _ Stream _ Listen [New Song].MP3 is being processed... 2017-04-17 17:30:14.605882 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne - Whatever You Like remix.mp3 is being processed... 2017-04-17 17:31:23.545293 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne feat Mack Maine & Kidd Kidd - She Bad.mp3 is being processed... 2017-04-17 17:32:15.380951 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne Feat Tity Boi & Dre - Realest They Come (Produced By Kanye West)-MIXFIEND.mp3 is being processed... 2017-04-17 17:33:03.389783 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne ft Akon &amp; TI   Eternal Sunshine.mp3 is being processed... 2017-04-17 17:33:54.823475 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne ft The Game & Rick Ross - Hood Sorrow [Dj Pyro Mix].mp3 is being processed... 2017-04-17 17:34:28.264869 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne ft. Foxx - Wipe Me Down Remix.mp3 is being processed... 2017-04-17 17:35:15.113131 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne Ft. Young Money - Every Girl .BY Ak.RaP.mp3 is being processed... 2017-04-17 17:36:16.079329 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne-A Millie Mega Mix ( Ft. Jay-Z, JadaKiss, Fabolous, Mims, Chris Brown, Ne-Yo,Pitbull, Papoose, LL Cool J, Lil Mama, Cassidy, Corey Gunz, Cardinal Offishall, Dolla,Gillie Da Kid,Young Jeezy, Rick Ross).mp3 is being processed... 2017-04-17 17:37:21.514708 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne-It's Good (Feat. Jadakiss & Drake).mp3 is being processed... 2017-04-17 17:44:33.545793 
+  
+D:\OneDrive\Music\MEGAMIX HITz\lil wayne-say_yeah_ft._wiz_khalifa-BbH.mp3 is being processed... 2017-04-17 17:45:26.081913 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil Wayne-She Will Feat. Rick Ross & Drake (NO DJ).mp3 is being processed... 2017-04-17 17:46:15.155625 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil' Wayne feat. Drake, Gudda Gudda, Mack Maine   Jae Millz - Every Girl (High Quality Music Video).mp4 is being processed... 2017-04-17 17:47:32.479865 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil' Wayne Ft. Juelz Santana & Fabolous - You Ain't Got nothing On Me.mp3 is being processed... 2017-04-17 17:48:37.257348 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lil' Wayne madonna - Triggerman.mp3 is being processed... 2017-04-17 17:49:49.415641 
+  
+D:\OneDrive\Music\MEGAMIX HITz\lil-durk-dis-aint-what-u-want-dirty.mp3 is being processed... 2017-04-17 17:50:49.210804 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lloyd Banks - Celebrity (Feat Akon Eminem).mp3 is being processed... 2017-04-17 17:51:42.135928 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Lloyd ft. The Game, T.I., Yung Joc, Rick Ross, Ace Hood, Young Dro, Pitbull, Busta Rhymes & DJ Khaled – Girls All Around ~1.json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Llyod Feat Dj Scream Lil Wayne Trae Tha Truth Night Day.mp3 is being processed... 2017-04-17 17:52:37.128211 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Looking For Trouble (Pusha T, Cyhi the Prynce, Big Sean & J. Cole).mp3 is being processed... 2017-04-17 17:53:30.851879 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Lord Lord Lord (feat. Mos Def, Swizz Beatz, Raekwon & Charlie Wilson).mp3 is being processed... 2017-04-17 17:54:45.955992 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Lose It (Official Version), Sanatci- French Montana Ft. Lil Wayne & Rick Ross.json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Loyal starring Chris Brown, Lil Wayne & French Montana.MP3 is being processed... 2017-04-17 17:56:25.665311 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ludacris - Party Girls Feat. Jeremih, Wiz Khalifa _ Cashmere Cat _ Stream _ Listen [New Song].MP3 is being processed... 2017-04-17 17:57:25.135925 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ludacris ft Lil Wayne, Trey Songz - Sex Faces.mp3 is being processed... 2017-04-17 17:58:26.711586 
+  
+D:\OneDrive\Music\MEGAMIX HITz\M.I.A. (Remix) Shout.mp3 is being processed... 2017-04-17 17:59:18.327468 
+  
+D:\OneDrive\Music\MEGAMIX HITz\M.I.A.- Bad Girls (Switch Remix) Feat. Missy Elliott & Rye Rye - HotNewHipHop.mp3 is being processed... 2017-04-17 18:00:10.399761 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Machine Gun Kelly - Hold On [Tags] - HotNewHipHop.mp3 is being processed... 2017-04-17 18:00:52.610441 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Machine Gun Kelly - Wild Boy (Remix) [CDQ] - HotNewHipHop.mp3 is being processed... 2017-04-17 18:01:31.246515 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Maejor Ali ft Juicy J & Justin Bieber - Lolly.mp3 is being processed... 2017-04-17 18:02:23.729003 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Maino feat. T.I. & Meek Mill - I’m About Cream (Remix) - HotNewHipHop.json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Mally Mall - Drops Bands On It.mp3 is being processed... 2017-04-17 18:03:10.335865 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Mally Mall Wake Up In It Feat. Tyga, Pusha T, French Montana & Sean Kingston.mp3 is being processed... 2017-04-17 18:03:57.210678 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Martians vs. Goblins.mp3 is being processed... 2017-04-17 18:04:47.344351 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Master P - HNIC Feat. Rick Ross, T-Pain &amp; Bay Bay - HotNewHipHop.mp3 is being processed... 2017-04-17 18:05:36.360900 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Master P ft Lil Wayne, Gangsta & Ace B – Power - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill - I'm Leanin Feat. Travi$ Scott, Birdman _ Diddy.mp3 is being processed... 2017-04-17 18:06:16.184347 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill - It's Me (I Be On That) [CDQ] Feat. Nicki Minaj, Fabolous &amp; French Montana - HotNewHipHop.mp3 is being processed... 2017-04-17 18:07:02.482877 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill - Money Ain't No Issue Feat. Future _ Fabolous.mp3 is being processed... 2017-04-17 18:07:53.094924 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Meek Mill ft Rick Ross & Jay-Z – Lay Up (Remix).json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill- Don't Do It Feat. Nipsey Hussle & Sean Kingston - HotNewHipHop.mp3 is being processed... 2017-04-17 18:08:44.780130 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill- Face Down Feat. Wale,Trey Songz & DJ Sam Sneak - HotNewHipHop.mp3 is being processed... 2017-04-17 18:09:21.681940 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill-Maybach Curtains (feat. Nas, Rick Ross, And John Legend).mp3 is being processed... 2017-04-17 18:10:19.945176 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Meek Mill-Racked Up Shawty (Feat. Fabolous And French Montana) - HotNewHipHop.mp3 is being processed... 2017-04-17 18:11:19.758765 
+  
+D:\OneDrive\Music\MEGAMIX HITz\meek-mill-pandemonium-feat-wale-rick-ross.mp3 is being processed... 2017-04-17 18:12:04.609817 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Mike Jones ft. T-pain, Twista, & Lil' Wayne - Cutty Buddy(1).mp3 is being processed... 2017-04-17 18:13:19.933405 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Mike Will Made It Ft. Miley Cyrus, Wiz Khalifa & Juicy J - 23 - LeakedEarly.com.mp3 is being processed... 2017-04-17 18:14:20.107448 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Mike WiLL Made-It Ft. Future, Lil Wayne & Kendrick Lamar - Buy The World.mp3 is being processed... 2017-04-17 18:15:13.800080 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Millions (Ft. Rick Ross).mp3 is being processed... 2017-04-17 18:16:02.150075 
+  
+D:\OneDrive\Music\MEGAMIX HITz\N.O.R.E. Feat. Lil Wayne & Pharell - Finito.mp3 is being processed... 2017-04-17 18:16:56.101173 
+  
+D:\OneDrive\Music\MEGAMIX HITz\ne-yo ft jamie foxx & fabolous - she got her own.mp3 is being processed... 2017-04-17 18:17:56.560916 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ne-Yo Ft. The-Dream, Trey Songz & T-Pain - She Knows (Remix).mp3.MP3 is being processed... 2017-04-17 18:19:04.833063 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Nelly - Get Like Me (Feat. Nicki Minaj & Pharrell).mp3 is being processed... 2017-04-17 18:19:57.764449 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Nelly - My Chick Better Feat. Fabolous _ Wiz Khalifa.mp3 is being processed... 2017-04-17 18:20:47.031255 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Nelly feat T-Pain & Akon - Move That Body BMF.mp3 is being processed... 2017-04-17 18:21:40.961393 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Nelly Ft T.I & 2 Chainz – Country Azz Nigga (Prod. by Drumma Boy).json has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Nelly ft. Akon & Ashanti - Body On Me.mp3 is being processed... 2017-04-17 18:22:23.747145 
+  
+D:\OneDrive\Music\MEGAMIX HITz\NERD feat. Kanye West, Lupe Fiasco & Pusha-T - Everybody Nose (All the Girls Standing In the Line for the Bathroom) (remix).mp3 is being processed... 2017-04-17 18:23:06.217655 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Nicki Minaj- Mind On My Money.mp3 is being processed... 2017-04-17 18:23:57.544912 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Nu Jerzey Devil ft. Ya Boy & Lil Wayne - Different Girls Remix [everyoneloveshiphop.com].mp3 is being processed... 2017-04-17 18:24:57.721707 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Obie Trice Ft Akon & Eminem - Snitch (remix).mp3 is being processed... 2017-04-17 18:25:54.410646 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Oh-Yeah-Ft.-Snoop-Dogg-2-Chainz.mp3 is being processed... 2017-04-17 18:26:46.095039 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Omarion - Know You Better Feat. Pusha T & Fabolous.mp3 is being processed... 2017-04-17 18:27:47.799845 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Omarion Ft. DeJ Loaf, Trey Songz, Ty Dolla Sign.mp3 is being processed... 2017-04-17 18:28:53.491393 
+  
+D:\OneDrive\Music\MEGAMIX HITz\P. Diddy - Bad Boys For Life.mp3 is being processed... 2017-04-17 18:29:56.870805 
+  
+D:\OneDrive\Music\MEGAMIX HITz\P.A.P.I. - Tadow (Feat. French Montana, Pusha T, & 2 Chainz).mp3 is being processed... 2017-04-17 18:30:51.128217 
+  
+D:\OneDrive\Music\MEGAMIX HITz\P.Reign ft T.I. & Young Thug - Dipped In Gold.MP3 is being processed... 2017-04-17 18:31:52.801830 
+  
+D:\OneDrive\Music\MEGAMIX HITz\PAPI NORE ft French Montana Swizz Beatz.mp3 is being processed... 2017-04-17 18:32:37.103373 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Pia Mia Do It Again Ft Chris Brown Tyga Mp3 Download.mp3 is being processed... 2017-04-17 18:33:34.469706 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Plies - Just (The Tip) feat. Ludacris & Jeremih.mp3 is being processed... 2017-04-17 18:34:26.448978 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Plies Ft. Lil Wayne & K Camp - Find You.mp3.MP3 is being processed... 2017-04-17 18:35:15.760337 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Post To Be Mp3 Download.mp3 is being processed... 2017-04-17 18:36:14.745314 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Problem - Bout Mine Feat. Wiz Khalifa - HotNewHipHop.mp3 is being processed... 2017-04-17 18:37:05.322881 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Problem Feat. Wiz Khalifa, Chris Brown, Tyga & Master P - Like Whaaat (Remix) [Radio Rip].mp3 is being processed... 2017-04-17 18:37:38.594566 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Problem ft. Wiz Khalifa, Chris Brown, Tyga, Master P - Like Whaaat (Remix) (CDQ)_DigitalDripped.com.mp3 is being processed... 2017-04-17 18:39:21.597275 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Puff Daddy - We Dem Boyz (Remix) (Feat. Meek Mill & French Montana).mp3 is being processed... 2017-04-17 18:40:31.052569 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Pure White (Feat. Young Jeezy & Pusha T).MP3 is being processed... 2017-04-17 18:41:28.795450 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Pusha T - Hold On Feat. Rick Ross & Kanye West.MP3 is being processed... 2017-04-17 18:42:12.332684 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Pusha T - Who I Am (Prod. By DJ Mano &amp; Kanye West) [CDQ] Feat. Big Sean &amp; 2 Chainz - HotNewHipHop.mp3 is being processed... 2017-04-17 18:43:13.614222 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Pusha T Ft. Kanye West, ASAP Rocky _ The-Dream - M.P.A. Mp3 Download _ HipHopEngine.MP3 is being processed... 2017-04-17 18:44:02.310871 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Pussycat Dolls - I Don't Need A Man.mp3 is being processed... 2017-04-17 18:45:03.946258 
+  
+D:\OneDrive\Music\MEGAMIX HITz\R Kelly ft. Kid Rock & Ludacris - Rockstar.mp3 is being processed... 2017-04-17 18:45:50.998893 
+  
+D:\OneDrive\Music\MEGAMIX HITz\R Kelly ft. Young Dro and Young Jeezy - Blow It Up.mp3 is being processed... 2017-04-17 18:46:53.409961 
+  
+D:\OneDrive\Music\MEGAMIX HITz\R Kelly ft.T-Pain & T.I. - I'm A Flirt.mp3 is being processed... 2017-04-17 18:47:39.292880 
+  
+D:\OneDrive\Music\MEGAMIX HITz\racks__g_mix__.mp3 is being processed... 2017-04-17 18:48:44.250694 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Ratatat Remixes. Flashing Lights (Remix) - Lil' Wayne Ft. Kanye West & Jay-Z.mp3 is being processed... 2017-04-17 18:49:29.858065 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Red Cafe - Gucci Everything ft. Chief Keef, The Game, French Montana, Fabolous - American Psycho [.mp3 is being processed... 2017-04-17 18:50:36.112311 
+  
+D:\OneDrive\Music\MEGAMIX HITz\red cafe feat diddy, 2 chainz & french montana.mp3 is being processed... 2017-04-17 18:51:32.978573 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rich Gang (Birdman, Lil Wayne & R. Kelly) - We Been On.mp3 is being processed... 2017-04-17 18:52:22.745241 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rich Gang Ft. French Montana, Tyga, Bow Wow & Gudda Gudda - Panties To The Side.mp3 is being processed... 2017-04-17 18:53:31.488737 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rich Gang Ft. The Game, Birdman & Lil Wayne - Paint Tha Town.mp3 is being processed... 2017-04-17 18:54:29.160278 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rich Homie Quan - Type Of Way Feat. Jeezy _ Meek Mill.mp3 is being processed... 2017-04-17 18:55:40.886508 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rich Homie Quan _ Young Thug - #1017 #YSL #RichGang #LifeStyle - Download and Stream _ Audiomack.mp3 is being processed... 2017-04-17 18:56:30.644471 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross  No Games   Feat. Meek Mill, Wale & Future (Remix) - HotNewHipHop.mp3 is being processed... 2017-04-17 18:56:30.812574 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross & Meek Mill - No Church In The Wild (Remix) [No Tags] - HotNewHipHop.mp3 is being processed... 2017-04-17 18:57:40.942801 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross (featuring Lil' Wayne, Young Jeezy Trick Daddy) - Luxury Tax.mp3 is being processed... 2017-04-17 18:59:05.677575 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross - Bag Of Money feat. T-Pain, Wale & Meek Mill (Prod by Beat Billionaire) - HotNewHipHop.mp3 is being processed... 2017-04-17 19:00:10.281857 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross - My Man Feat. Meek Mill & Rockie Fresh_2.MP3 is being processed... 2017-04-17 19:01:03.405090 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross - No Games  Feat. Meek Mill, Wale & Future (Remix) - HotNewHipHop.mp3 is being processed... 2017-04-17 19:02:01.368062 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross - Same Damn Time (Remix) feat. Wale, Gunplay & Meek Mill - HotNewHipHop.mp3 is being processed... 2017-04-17 19:03:08.860673 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross - War Ready Feat. Jeezy (Prod. By Mike Will Made It) _ Stream _ Listen [New Song].MP3 is being processed... 2017-04-17 19:04:03.997870 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross - Work Remix.MP3 is being processed... 2017-04-17 19:05:29.166879 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross feat. Drake & Wale - Diced Pineapples.mp3 is being processed... 2017-04-17 19:06:24.147090 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft Birdman T-Pain - Sun Come Up.mp3 is being processed... 2017-04-17 19:07:20.962257 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft French Montana.mp3 is being processed... 2017-04-17 19:08:04.757319 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft Meek Mill, Gunpla-.mp3 is being processed... 2017-04-17 19:09:00.542424 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft Stalley, Gunplay & Killer Mike - Black & White (Remix).mp3 is being processed... 2017-04-17 19:09:58.565536 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross Ft. Big K.R.I.T., Mase _ Fabolous - Supreme (Remix) MP3 download.mp3 is being processed... 2017-04-17 19:11:05.091896 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft. Drake & Chrisette Michele - Aston Martin Music-www.KeepItTrill.com.mp3 is being processed... 2017-04-17 19:12:13.318035 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross Ft. Future - No Games (CDQ) - LeakedEarly.com.mp3 is being processed... 2017-04-17 19:12:56.994350 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft. Lil Wayne & Brisco - Pill Poppin (Remix).mp3 is being processed... 2017-04-17 19:13:51.652416 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross ft. Lil Wayne & T-Pain - Im  The Biggest Boss (Remix).mp3 is being processed... 2017-04-17 19:14:53.181761 
+  
+D:\OneDrive\Projects\Fizy_Project\Acoustic_Features_of_My_Music\MEGAMIX HITz\Rick Ross – I Dont Fuck With You (Remix) - ViewHipHop.com.MP3 has unicode problems, will be skipped. 
+D:\OneDrive\Music\MEGAMIX HITz\Rick Ross, Meek Mill, French Montana and Diddy - Bout That Life.mp3 is being processed... 2017-04-17 19:15:43.233443 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick_Ross-Speeding (remix) Ft. Plies,_Birdman,_Busta_Rhymes,_Webbie,_Gorilla_Zoe,_Fat_Joe,_Triple_C,_Flo_Rida,_Brisco,_Li~1.mp3 is being processed... 2017-04-17 19:16:38.559872 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick_Ross_,_Wale_,_Gunplay,_Stalley,_Meek_Mill_,_Kendrick_Lamar_-_Power_Circle.mp3 is being processed... 2017-04-17 19:17:55.525446 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick_Ross_-_Clique_.mp3 is being processed... 2017-04-17 19:19:36.205806 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rick_Ross_ft._Lil_Wayne_&_Birdman_-_Veteran's_Day_[wegotitfirst.com].mp3 is being processed... 2017-04-17 19:20:59.325795 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rihanna Feat. Young Jeezy, Rick Ross, Juicy J, & T.I. - Pour It Up (Remix).mp3 is being processed... 2017-04-17 19:21:50.938409 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rihanna ft. Chris Brown - Umbrella (Remix).mp3 is being processed... 2017-04-17 19:22:53.355611 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Rihanna-Four Five Seconds (feat. Kanye West &amp; Paul McCartney) (www.mp3vip.eu).mp3 is being processed... 2017-04-17 19:23:45.385766 
+  
+D:\OneDrive\Music\MEGAMIX HITz\Robin_Thicke_ft_2_Chainz_-_Give_It_2_U.mp3 is being processed... 2017-04-17 19:24:24.183444 
