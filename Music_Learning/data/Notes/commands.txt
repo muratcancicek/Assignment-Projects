@@ -11,4 +11,5 @@ streaming_extractor_music.exe "\" "..\data\first_outputs\.json"
 ssh -p 50278 miek@10.200.161.237
 ssh -p 50278 miek@95.143.193.193
 
-
+cd /Users/miek/Documents/Projects/Assignment-Projects/Music_Learning/
+python runMusic_Learning.py

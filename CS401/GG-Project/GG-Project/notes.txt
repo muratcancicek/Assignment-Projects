@@ -446,3 +446,46 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/Parsed/2016-12-25_parse
 5800000 logs have been evaluated to Python Dict by 2017-04-17 02:04:04.244160 
 6000000 logs have been evaluated to Python Dict by 2017-04-17 02:04:10.226502 
 hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_nike_air_max_Data/nike_air_max_all_day_journey has been saved successfully by 2017-04-17 02:04:18.464509 
+[root@osldevptst02 GG-Project]# python runGG_Project.py
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-17 22:43:01.391532: Running on osldevptst02... 
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/04/17 22:43:02 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/04/17 22:43:03 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/04/17 22:43:03 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+        
+17/04/17 22:43:04 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/Parsed/2016-12-25_parsed has been read by 2017-04-17 22:43:06.573868 
+100000 logs have been evaluated to Python Dict by 2017-04-17 22:43:25.286036 
+100000 logs have been evaluated to Python Dict by 2017-04-17 22:43:26.067321 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_kot_ceket_Data/kot_ceket_all_day_journey has been saved successfully by 2017-04-17 23:45:26.146173 
+12500000 logs have been evaluated to Python Dict by 2017-04-17 23:45:26.445271 
+8300000 logs have been evaluated to Python Dict by 2017-04-18 00:50:11.310824 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_camasir_makinesi_Data/camasir_makinesi_all_day_journey has been saved successfully by 2017-04-18 00:50:22.233510 
+16900000 logs have been evaluated to Python Dict by 2017-04-18 01:53:18.268567 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_bosch_Data/bosch_all_day_journey has been saved successfully by 2017-04-18 01:53:32.686241 
+
+21400000 logs have been evaluated to Python Dict by 2017-04-18 02:05:40.877825 
+20600000 logs have been evaluated to Python Dict by 2017-04-18 02:05:42.432557 
+[Stage 34:=================================================>      (53 + 7) / 60]
+20100000 logs have been evaluated to Python Dict by 2017-04-18 02:05:49.449474 
+12800000 logs have been evaluated to Python Dict by 2017-04-18 02:05:49.942735 
+20900000 logs have been evaluated to Python Dict by 2017-04-18 02:05:50.814933 
+12600000 logs have been evaluated to Python Dict by 2017-04-18 02:05:51.227282 
+22500000 logs have been evaluated to Python Dict by 2017-04-18 02:05:53.898769 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_köpek_mamas?_Data/köpek_mamas?_all_day_journey has been saved successfully by 2017-04-18 02:05:57.430263 
+2017-04-18 02:05:57.430438: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
