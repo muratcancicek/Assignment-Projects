@@ -42,7 +42,8 @@ if COMPUTERNAME == 'MSI':
     trainDataFolder = 'D:\\OneDrive\\Projects\\Fizy_Project\\Acoustic_Features_of_My_Music\\'
     #gitPush(gitDir)
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
-    gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
+    gitDir = '/Users/miek/Documents/Projects/Assignment-Projects/'
+    musicFolder = '/Users/miek/Documents/Music/'
     trainDataFolder = '/Users/miek/Documents/Projects/Music/Fizy_Project/Acoustic_Features_of_My_Music/'
 else:
     gitDir = '/root/Projects/Assignment-Projects'

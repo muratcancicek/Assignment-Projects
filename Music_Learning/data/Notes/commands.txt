@@ -13,3 +13,5 @@ ssh -p 50278 miek@95.143.193.193
 
 cd /Users/miek/Documents/Projects/Assignment-Projects/Music_Learning/
 python runMusic_Learning.py
+
+export COMPUTERNAME=LM-IST-00UBFVH8
