@@ -74,7 +74,7 @@ def generateJourneys():
 
 def countJourneys():
     logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
-    keywords = ['iphone 6', 'jant', 'nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
+    keywords = ['jant', 'nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
     for keyword in keywords:
         keyword = keyword.replace(' ', '_')
         outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
