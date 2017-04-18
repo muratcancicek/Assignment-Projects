@@ -73,7 +73,7 @@ def generateJourneys():
         generateJourney(logs, keyword)
 
 def countJourneys():
-    logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
+    counts = []
     keywords = ['jant', 'nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
     for keyword in keywords:
         keyword = keyword.replace(' ', '_')
@@ -81,7 +81,11 @@ def countJourneys():
         inputName = 'all_day'
         journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
         journey = readJourneyFromHDFS(journeyFile)
-        print_(journeyFile, 'contains', journey.count(), 'logs,', nowStr())
+        c = journey.count()
+        counts.append((keyword, c))
+        print_(journeyFile, 'contains', c, 'logs,', nowStr())
+    for k, c in counts:
+        print_(k, '=', c, 'relevant logs')
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()

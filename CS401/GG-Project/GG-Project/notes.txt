@@ -489,3 +489,21 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_köpek_mamas?_
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+[root@osldevptst02 GG-Project]# python runGG_Project.py
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-18 23:19:25.296711: Running on osldevptst02... 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_jant_Data/jant_all_day_journey contains 1072 logs, 2017-04-18 23:19:35.726035 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_nike_air_max_Data/nike_air_max_all_day_journey contains 3634 logs, 2017-04-18 23:19:38.012709 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_spor_ayyakab?_Data/spor_ayyakab?_all_day_journey contains 0 logs, 2017-04-18 23:19:38.561545 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_tv_unitesi_Data/tv_unitesi_all_day_journey contains 10310 logs, 2017-04-18 23:19:40.720237 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_kot_ceket_Data/kot_ceket_all_day_journey contains 253 logs, 2017-04-18 23:19:42.651481 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_camasir_makinesi_Data/camasir_makinesi_all_day_journey contains 2663 logs, 2017-04-18 23:19:44.659145 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_bosch_Data/bosch_all_day_journey contains 361 logs, 2017-04-18 23:19:46.586587 
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_köpek_mamas?_Data/köpek_mamas?_all_day_journey contains 0 logs, 2017-04-18 23:19:47.026152 
+2017-04-18 23:19:47.026312: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+[root@osldevptst02 GG-Project]# 
