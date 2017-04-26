@@ -113,6 +113,7 @@ def readKeywordLabeledPairsAndProducts(keyword, inputName, productsFile, outputF
     labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'labeledPairs')
     labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
     products = readProductsFromHDFS(productsFile)
+    print_('LabeledPairs And Products for', keyword, 'have been read successfully by', nowStr())
     return labeledPairs, products
 
 def generateTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder, generating = True):
