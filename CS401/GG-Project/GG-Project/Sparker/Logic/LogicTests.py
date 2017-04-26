@@ -106,7 +106,7 @@ def trainDataGenerationTest(keyword):
     keyword = keyword.replace(' ', '_')
     inputName = 'all_day'
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
-    journeyFile = joinPath(outputFolder, inputName + '_journey')
+    journeyFile = joinPath(outputFolder, keyword + inputName + '_journey')
     productsFile = None
     return extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, productsFile, outputFolder)
 
