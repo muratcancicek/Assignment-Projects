@@ -146,7 +146,7 @@ def evalProduct(productText):
     if 'D' in productText:
         productText = productText.replace('DenseVector(', '')[:-1]
     product = eval(productText)
-    product = (product[0], DenseVector(product[1]))
+    product = (product[0], DenseVector(product[1:]))
     global evalCounterForProducts
     #evalCounterForProducts += 1
     #if evalCounterForProducts % 1000000 == 0: 
