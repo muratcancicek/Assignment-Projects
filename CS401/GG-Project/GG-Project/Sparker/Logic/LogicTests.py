@@ -87,6 +87,35 @@ def countJourneys():
     for k, c in counts:
         print_(k, '=', c, 'relevant logs')
 
+def extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, productsFile, outputFolder):
+    keyword = keyword.replace(' ', '_')
+    journey = readJourneyFromHDFS(journeyFile)
+    modulizedIds = getLabeledPairsWithModulizedIds(journey)
+    labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
+    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
+    print_(labeledPairsFile, 'have been saved successfully by', nowStr())
+    products = getProducts(modulizedIds['listed'], productsFile)
+    journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
+    products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile))
+    print_(journeyProductsFile, 'have been saved successfully by', nowStr())
+    trainData = generateTrainData(modulizedIds['labeledPairs'], products)
+    saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
+    return trainData
+
+def trainDataGenerationTest(keyword): 
+    keyword = keyword.replace(' ', '_')
+    inputName = 'all_day'
+    outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
+    journeyFile = joinPath(outputFolder, inputName + '_journey')
+    productsFile = None
+    return extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, productsFile, outputFolder)
+
+def runtrainDataGenerationTest():
+    counts = []
+    keywords = ['jant', 'nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
+    for keyword in keywords[:1]:
+        trainDataGenerationTest(keyword)
+
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
     #generateAllTrainData()
@@ -94,6 +123,7 @@ def trainLocalDataTest():
     #rankingTestOnIPhone6Data()
     #userBehaviorTestOnIPhone6Data()
     #parseAllDayTest()
-    trainDataGenerationTest() 
+    #trainDataGenerationTest() 
     #generateJourneys()
     #countJourneys()
+    runtrainDataGenerationTest()
