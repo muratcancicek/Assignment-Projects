@@ -3,6 +3,7 @@ from .ProductPreferrer import *
 from .FakeProductGenerator import *
 from .TrainDataHandler import *
 from .Trainer import *
+from py4j.protocol import Py4JJavaError
     
 def trainLocalLG_G4DataTest(): 
     keyword = 'lg g4'
@@ -90,14 +91,22 @@ def countJourneys():
 def extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, productsFile, outputFolder):
     keyword = keyword.replace(' ', '_')
     journey = readJourneyFromHDFS(journeyFile)
+    labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'labeledPairs')
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
-    labeledPairsFile = inputName + '_' + keyword + '_' + 'labeledPairs'
-    modulizedIds['labeledPairs'].saveAsTextFile(joinPath(outputFolder, labeledPairsFile))
-    print_(labeledPairsFile, 'have been saved successfully by', nowStr())
+    if not os.path.exists(labeledPairsFile):
+        try:
+            modulizedIds['labeledPairs'].saveAsTextFile(labeledPairsFile)
+            print_(labeledPairsFile, 'have been saved successfully by', nowStr())
+        except Py4JJavaError:
+            pas
     products = getProducts(modulizedIds['listed'], productsFile)
-    journeyProductsFile = inputName + '_' + keyword + '_' + 'journey_products'
-    products.saveAsTextFile(joinPath(outputFolder, journeyProductsFile))
-    print_(journeyProductsFile, 'have been saved successfully by', nowStr())
+    journeyProductsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'journey_products')
+    if not os.path.exists(labeledPairsFile):
+        try:
+            products.saveAsTextFile(journeyProductsFile)
+            print_(journeyProductsFile, 'have been saved successfully by', nowStr())
+        except Py4JJavaError:
+            pas
     trainData = generateTrainData(modulizedIds['labeledPairs'], products)
     saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
