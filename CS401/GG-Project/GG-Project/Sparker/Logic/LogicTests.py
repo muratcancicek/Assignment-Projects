@@ -140,7 +140,7 @@ def runtrainDataGenerationTest():
     counts = []
     #keywords = ['jant', 'nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
     keywords = ['jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
-    for keyword in keywords[2:]:
+    for keyword in keywords[:1]:
         trainDataGenerationTest(keyword)
 
 def trainLocalDataTest():

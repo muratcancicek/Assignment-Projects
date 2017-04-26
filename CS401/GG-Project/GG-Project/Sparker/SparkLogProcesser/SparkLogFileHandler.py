@@ -148,9 +148,9 @@ def evalProduct(productText):
     product = eval(productText)
     product = (product[0], DenseVector(product[1]))
     global evalCounterForProducts
-    evalCounterForProducts += 1
-    if evalCounterForProducts % 1000000 == 0: 
-        print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
+    #evalCounterForProducts += 1
+    #if evalCounterForProducts % 1000000 == 0: 
+    #    print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
     return product
 
 def readProductsFromHDFS(fileName = None):
@@ -158,7 +158,8 @@ def readProductsFromHDFS(fileName = None):
         fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
     products = sc_().textFile(fileName)
     products = products.map(evalProduct)
-    print_(fileName, 'has been read successfully by', nowStr())
+    print_(products.first())
+    print_(fileName, products.count(), ' products have been read successfully by', nowStr())
     return products
 
 def readLabeledPairsFromHDFS(fileName):
