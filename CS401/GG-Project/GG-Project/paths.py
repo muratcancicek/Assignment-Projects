@@ -19,6 +19,7 @@ def getAbsolutePath(fileName):
     script_dir = os.path.dirname(__file__) 
     return joinPath(script_dir, fileName)
 PYTHON_VERSION = sys.version_info[0]
+
 pulled = False
 if PYTHON_VERSION == 3:
     import git
@@ -73,8 +74,8 @@ elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
 else:
     gitDir = '/root/Projects/Assignment-Projects'
-    #if PYTHON_VERSION == 3:
-    #  gitPull(gitDir)
+    if PYTHON_VERSION == 3:
+      gitPull(gitDir)
     allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
     Day1_iPhone_6_DataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data'
     
