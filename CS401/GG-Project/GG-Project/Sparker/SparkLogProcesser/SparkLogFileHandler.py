@@ -149,7 +149,7 @@ def evalProduct(productText):
     product = (product[0], DenseVector(product[1]))
     global evalCounterForProducts
     evalCounterForProducts += 1
-    if evalCounterForProducts % 100000 == 0: 
+    if evalCounterForProducts % 1000000 == 0: 
         print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
     return product
 

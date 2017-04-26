@@ -7,7 +7,6 @@ from pyspark.mllib.feature import Normalizer
 def getProducts(ids, fileName = None):
     products = readProductsFromHDFS(fileName)
     ids = unique(ids)
-    print_(ids)
     products = products.filter(lambda x: x[0] in ids)
     print_(products.count(), 'products has been found in database to train by', nowStr())
     print_(products.first())

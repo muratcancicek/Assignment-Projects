@@ -88,8 +88,7 @@ def countJourneys():
     for k, c in counts:
         print_(k, '=', c, 'relevant logs')
 
-def extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, productsFile, outputFolder):
-    keyword = keyword.replace(' ', '_')
+def generateKeywordLabeledPairsAndProducts(keyword, inputName, journeyFile, productsFile, outputFolder):
     journey = readJourneyFromHDFS(journeyFile)
     labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'labeledPairs')
     modulizedIds = getLabeledPairsWithModulizedIds(journey)
@@ -107,7 +106,23 @@ def extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, products
             print_(journeyProductsFile, 'have been saved successfully by', nowStr())
         except Py4JJavaError:
             pass
-    trainData = generateTrainData(modulizedIds['labeledPairs'], products)
+    labeledPairs = modulizedIds['labeledPairs']
+    return labeledPairs, products
+
+def readKeywordLabeledPairsAndProducts(keyword, inputName, productsFile, outputFolder):
+    labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'labeledPairs')
+    labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
+    products = readProductsFromHDFS(productsFile)
+    return labeledPairs, products
+
+def generateTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder, generating = True):
+    keyword = keyword.replace(' ', '_')
+    generating = False
+    if generating:
+        labeledPairs, products = generateKeywordLabeledPairsAndProducts(keyword, inputName, journeyFile, productsFile, outputFolder)
+    else:
+        labeledPairs, products = readKeywordLabeledPairsAndProducts(keyword, inputName, productsFile, outputFolder)
+    trainData = generateTrainData(labeledPairs, products, outputFolder)
     saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
 
@@ -117,7 +132,7 @@ def trainDataGenerationTest(keyword):
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
     journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
     productsFile = None
-    return extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, productsFile, outputFolder)
+    return generateTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def runtrainDataGenerationTest():
     counts = []
