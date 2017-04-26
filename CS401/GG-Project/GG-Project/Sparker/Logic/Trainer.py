@@ -7,8 +7,11 @@ from pyspark.mllib.feature import Normalizer
 def getProducts(ids, fileName = None):
     products = readProductsFromHDFS(fileName)
     ids = unique(ids)
-    products = products.filter(lambda x: x[0] in ids).map(lambda x: (x[0], DenseVector(x[1:])))
+    print_(ids)
+    products = products.filter(lambda x: x[0] in ids)
     print_(products.count(), 'products has been found in database to train by', nowStr())
+    print_(products.first())
+    products = products.map(lambda x: (x[0], DenseVector(x[1:])))
     return products
 
 def generateTrainData(labeledPairs, products):
