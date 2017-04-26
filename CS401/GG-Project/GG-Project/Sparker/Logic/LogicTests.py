@@ -119,7 +119,7 @@ def readKeywordLabeledPairsAndProducts(keyword, inputName, outputFolder):
 
 def generateTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder, generating = True):
     keyword = keyword.replace(' ', '_')
-    generating = False
+    #generating = False
     if generating:
         labeledPairs, products = generateKeywordLabeledPairsAndProducts(keyword, inputName, journeyFile, productsFile, outputFolder)
     else:
