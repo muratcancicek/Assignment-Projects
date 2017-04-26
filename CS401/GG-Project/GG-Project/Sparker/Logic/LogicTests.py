@@ -123,7 +123,7 @@ def generateTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outp
     if generating:
         labeledPairs, products = generateKeywordLabeledPairsAndProducts(keyword, inputName, journeyFile, productsFile, outputFolder)
     else:
-        labeledPairs, products = readKeywordLabeledPairsAndProducts(keyword, inputName, productsFile, outputFolder)
+        labeledPairs, products = readKeywordLabeledPairsAndProducts(keyword, inputName, outputFolder)
     trainData = generateTrainData(labeledPairs, products)
     saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
