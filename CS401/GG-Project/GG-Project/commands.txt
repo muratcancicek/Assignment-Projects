@@ -28,3 +28,5 @@ git pull
 python runGG_Project.py
 
 /opt/spark/bin/spark-submit --num-executors 24
+
+/opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh restart

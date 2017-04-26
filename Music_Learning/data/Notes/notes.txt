@@ -1,0 +1,78 @@
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-23 03:22:02.803608: Running on MSI... 
+3818 features have been collected from different folders successfully by 2017-04-23 03:22:12.028424 
+
+Learnable data has been generated successfully by 2017-04-23 03:22:14.229727 
+Summary of the generated data:
+Total Number of instances:    2823
+Number of training instances: 1973
+Number of testing instances:  850
+The training data rate over the all data: %70.0
+
+Number of Classes: 5
+Classes: ['hipHop', 'Jazz', 'PopRock', 'Classical', 'Pop']
+General distribution:  {'PopRock': 267, 'hipHop': 1954, 'Pop': 165, 'Jazz': 40, 'Classical': 397}
+Training distribution: {'PopRock': 186, 'hipHop': 1367, 'Pop': 115, 'Jazz': 28, 'Classical': 277}
+Testing distribution:  {'PopRock': 81, 'hipHop': 587, 'Pop': 50, 'Jazz': 12, 'Classical': 120}
+
+OneVsRestClassifier has been started to train the data by 2017-04-23 03:22:14.260061 
+OneVsRestClassifier has been started to predict the test data by 2017-04-23 03:22:23.442808 
+OneVsRestClassifier Experiment has been finished by 2017-04-23 03:22:23.484783 
+
+General Test Accuracy = 0.813 
+
+Total Number of predictions: 850
+Number of true predictions:   691
+Number of false predictions:  159
+
+Testing distribution:             {'PopRock': 81, 'hipHop': 587, 'Pop': 50, 'Jazz': 12, 'Classical': 120} 
+Distribution of true predictions:  {'PopRock': 60, 'hipHop': 503, 'Pop': 10, 'Jazz': 11, 'Classical': 107} 
+Distribution of false predictions: {'PopRock': 21, 'hipHop': 84, 'Pop': 40, 'Jazz': 1, 'Classical': 13} 
+ 
+SupportVectorClassifier has been started to train the data by 2017-04-23 03:22:23.486727 
+SupportVectorClassifier has been started to predict the test data by 2017-04-23 03:22:26.880341 
+SupportVectorClassifier Experiment has been finished by 2017-04-23 03:22:28.097989 
+
+General Test Accuracy = 0.879 
+
+Total Number of predictions: 850
+Number of true predictions:   747
+Number of false predictions:  103
+
+Testing distribution:             {'PopRock': 81, 'hipHop': 587, 'Pop': 50, 'Jazz': 12, 'Classical': 120} 
+Distribution of true predictions:  {'PopRock': 56, 'hipHop': 583, 'Pop': 0, 'Jazz': 0, 'Classical': 108} 
+Distribution of false predictions: {'PopRock': 25, 'hipHop': 4, 'Pop': 50, 'Jazz': 12, 'Classical': 12} 
+ 
+KNeighborsClassifier has been started to train the data by 2017-04-23 03:22:28.102876 
+KNeighborsClassifier has been started to predict the test data by 2017-04-23 03:22:28.318739 
+KNeighborsClassifier Experiment has been finished by 2017-04-23 03:22:33.864942 
+
+General Test Accuracy = 0.865 
+
+Total Number of predictions: 850
+Number of true predictions:   735
+Number of false predictions:  115
+
+Testing distribution:             {'PopRock': 81, 'hipHop': 587, 'Pop': 50, 'Jazz': 12, 'Classical': 120} 
+Distribution of true predictions:  {'PopRock': 63, 'hipHop': 554, 'Pop': 12, 'Jazz': 7, 'Classical': 99} 
+Distribution of false predictions: {'PopRock': 18, 'hipHop': 33, 'Pop': 38, 'Jazz': 5, 'Classical': 21} 
+ 
+2017-04-23 03:22:34.137439: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+
+Total Number of predictions: 850
+Number of true predictions:   732
+Number of false predictions:  118
+
+Testing distribution:             {'hipHop': 587, 'PopRock': 81, 'Jazz': 12, 'Classical': 120, 'Pop': 50} 
+Distribution of true predictions:  {'hipHop': 533, 'PopRock': 61, 'Jazz': 9, 'Classical': 114, 'Pop': 15} 
+Distribution of false predictions: {'hipHop': 54, 'PopRock': 20, 'Jazz': 3, 'Classical': 6, 'Pop': 35} 
+ 
+2017-04-23 03:08:57.794089: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 

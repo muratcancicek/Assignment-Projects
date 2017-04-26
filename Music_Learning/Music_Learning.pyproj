@@ -30,8 +30,30 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Extractor\__init__.py" />
+    <Compile Include="FeatureLearner\SVMTrainer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FeatureLearner\__init__.py" />
+    <Compile Include="FeatureProcesser\FeatureAnalyzer.py" />
+    <Compile Include="FeatureProcesser\FeatureExtractor.py" />
+    <Compile Include="FeatureProcesser\FeatureGenerater.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FeatureProcesser\FeatureProcesser.py" />
+    <Compile Include="FeatureProcesser\FeatureVectorGenerater.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FeatureProcesser\GenreAnalyzer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FeatureProcesser\MusicTraverser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FeatureProcesser\__init__.py" />
     <Compile Include="paths.py" />
+    <Compile Include="a_runMusic_Learning.py" />
     <Compile Include="runMusic_Learning.py" />
+    <Compile Include="SystemHelpers\JsonIO.py" />
     <Compile Include="SystemHelpers\OutputLogger.py" />
     <Compile Include="SystemHelpers\Printing.py" />
     <Compile Include="SystemHelpers\PythonVersionHandler.py" />
@@ -45,12 +67,20 @@
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="data\first_outputs\" />
+    <Folder Include="data\AcousticFeatures\" />
     <Folder Include="Extractor\" />
     <Folder Include="data\Notes\" />
+    <Folder Include="FeatureProcesser\" />
+    <Folder Include="FeatureLearner\" />
     <Folder Include="Tests\" />
     <Folder Include="SystemHelpers\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\AcousticFeatures\featureKeyList.json" />
+    <Content Include="data\AcousticFeatures\featureValueCounts.json" />
+    <Content Include="data\AcousticFeatures\featureValueLists.json" />
+    <Content Include="data\AcousticFeatures\featureValueSets.json" />
+    <Content Include="data\AcousticFeatures\featureValueTypes.json" />
     <Content Include="data\Notes\commands.txt" />
     <Content Include="data\Notes\notes.txt" />
     <Content Include="data\Notes\output.txt" />
