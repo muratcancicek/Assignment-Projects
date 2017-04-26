@@ -109,10 +109,11 @@ def generateKeywordLabeledPairsAndProducts(keyword, inputName, journeyFile, prod
     labeledPairs = modulizedIds['labeledPairs']
     return labeledPairs, products
 
-def readKeywordLabeledPairsAndProducts(keyword, inputName, productsFile, outputFolder):
+def readKeywordLabeledPairsAndProducts(keyword, inputName, outputFolder):
     labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'labeledPairs')
     labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
-    products = readProductsFromHDFS(productsFile)
+    journeyProductsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'journey_products')
+    products = readProductsFromHDFS(journeyProductsFile)
     print_('LabeledPairs And Products for', keyword, 'have been read successfully by', nowStr())
     return labeledPairs, products
 
