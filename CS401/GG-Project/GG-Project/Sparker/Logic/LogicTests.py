@@ -98,7 +98,7 @@ def extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, products
             modulizedIds['labeledPairs'].saveAsTextFile(labeledPairsFile)
             print_(labeledPairsFile, 'have been saved successfully by', nowStr())
         except Py4JJavaError:
-            pas
+            pass
     products = getProducts(modulizedIds['listed'], productsFile)
     journeyProductsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'journey_products')
     if not os.path.exists(labeledPairsFile):
@@ -106,7 +106,7 @@ def extractLabeledPairsFromJourneyTest(keyword, inputName, journeyFile, products
             products.saveAsTextFile(journeyProductsFile)
             print_(journeyProductsFile, 'have been saved successfully by', nowStr())
         except Py4JJavaError:
-            pas
+            pass
     trainData = generateTrainData(modulizedIds['labeledPairs'], products)
     saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
