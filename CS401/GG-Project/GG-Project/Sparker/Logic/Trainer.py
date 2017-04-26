@@ -60,7 +60,7 @@ def extractLabeledPairsFromJourney(keyword, inputName, journeyFile, productsFile
     saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword)
     return trainData
 
-def generateTrainData(logs, keyword, outputFolder): 
+def generateTrainData1(logs, keyword, outputFolder): 
     rawKeyword = keyword
     keyword = keyword.replace(' ', '_')
     inputName = 'all_day'
