@@ -644,3 +644,86 @@ The result accuracy is %60.717
 ######################################################################################## 
 ######################################################################################## 
 ######################################################################################## 
+
+[root@osldevptst02 GG-Project]# python runGG_Project.py
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-27 10:51:52.082692: Running on osldevptst02... 
+
+iphone_6_Data/all_day_iphone_6_TrainData has been read successfully by 2017-04-27 10:51:57.223299 
+                                                                    
+ iphone_6_TrainModel has been trained on iphone_6_TrainData by 2017-04-27 10:52:45.936964 
+The learned weights:
+[-0.0141397535195, 0.689680757005, 0.0359049736713, 0.016164793453, 0.0372721474814, 0.17914430147, -0.657323646872, 0.166421645643, 0.29234571022, 0.513314292141, 1.16386282617, -0.211351441168]
+ 
+                                                                                
+iphone_6_TrainModel has been evaluated on iphone_6_TrainData by 2017-04-27 10:53:21.657318 
+The result accuracy is %89.963
+ 
+jant_Data/all_day_jant_TrainData has been read successfully by 2017-04-27 10:53:21.700026 
+                                                                                
+ jant_TrainModel has been trained on jant_TrainData by 2017-04-27 10:53:38.593100 
+The learned weights:
+[-0.101971281282, 0.72834035907, -0.141829463656, -0.191630195886, 0.00193142763748, 0.138702016279, -0.257270644938, 0.326650312731, 0.653717119018, 0.436569277906, -0.591875716322, -0.00528932233375]
+ 
+                                                                                
+jant_TrainModel has been evaluated on jant_TrainData by 2017-04-27 10:53:47.714501 
+The result accuracy is %80.695
+ 
+nike_air_max_Data/all_day_nike_air_max_TrainData has been read successfully by 2017-04-27 10:53:47.753826 
+                                                                        
+ nike_air_max_TrainModel has been trained on nike_air_max_TrainData by 2017-04-27 10:54:42.351912 
+The learned weights:
+[-0.0425513131634, 0.297823938549, 0.00982742260106, -0.249730758407, -0.0392888910677, 0.044634719517, -0.104544506582, 0.310036763368, 0.179002066695, 0.653152816771, -0.382495544232, -0.122179650256]
+ 
+                                                                                
+nike_air_max_TrainModel has been evaluated on nike_air_max_TrainData by 2017-04-27 10:55:39.930199 
+The result accuracy is %74.789
+ 
+tv_unitesi_Data/all_day_tv_unitesi_TrainData has been read successfully by 2017-04-27 10:55:39.988087 
+
+ tv_unitesi_TrainModel has been trained on tv_unitesi_TrainData by 2017-04-27 10:58:50.589325 
+The learned weights:
+[-0.00164762963093, 0.0587505088877, 0.0434152894536, -0.084854236344, -0.0511859607803, -0.00412150482091, -0.039852944605, 0.25097374029, -0.0406988119434, 0.706890693934, -0.0495153004829, 0.315978104416]
+tv_unitesi_TrainModel has been evaluated on tv_unitesi_TrainData by 2017-04-27 11:01:11.961520 
+The result accuracy is %66.568
+ 
+
+kot_ceket_Data/all_day_kot_ceket_TrainData has been read successfully by 2017-04-27 11:01:12.008146 
+17/04/27 11:01:13 WARN Executor: 1 block locks were not released by TID = 4811:
+[rdd_1624_0]
+                                                                                
+ kot_ceket_TrainModel has been trained on kot_ceket_TrainData by 2017-04-27 11:01:19.774347 
+The learned weights:
+[0.318030881473, 0.119326022519, -0.164058507921, 0.101230473012, 0.00865695269046, -0.538935164344, 0.074638987331, 0.476768139988, 0.0, 0.536385184054, -0.188872615641, -0.102053221222]
+                                                                                 
+kot_ceket_TrainModel has been evaluated on kot_ceket_TrainData by 2017-04-27 11:01:21.442379 
+The result accuracy is %67.862
+ 
+
+camasir_makinesi_Data/all_day_camasir_makinesi_TrainData has been read successfully by 2017-04-27 11:01:21.483081 
+                                                                               
+ camasir_makinesi_TrainModel has been trained on camasir_makinesi_TrainData by 2017-04-27 11:02:07.713587 
+The learned weights:
+[-0.0924253662667, 0.404431898423, -0.128370706853, -0.237082634969, -0.281074953463, 0.160754085638, -0.491403286264, 0.372336318339, 0.389418299576, 0.606893790234, 0.155284168481, -0.0755490418626]
+ 
+                                                                                
+camasir_makinesi_TrainModel has been evaluated on camasir_makinesi_TrainData by 2017-04-27 11:02:48.707885 
+The result accuracy is %75.751
+ 
+bosch_Data/all_day_bosch_TrainData has been read successfully by 2017-04-27 11:02:48.749355 
+                                                                
+ bosch_TrainModel has been trained on bosch_TrainData by 2017-04-27 11:03:05.814070 
+The learned weights:
+[0.0789705417871, 0.542607450746, 0.263973639511, -0.267040882443, -0.732822846416, -0.177502761822, 0.105399063346, 0.342888269051, 0.140008259364, 0.610993675987, 0.356983314261, -0.0969133425859]
+ 
+                                                                                
+bosch_TrainModel has been evaluated on bosch_TrainData by 2017-04-27 11:03:15.733216 
+The result accuracy is %73.354
+ 
+2017-04-27 11:03:15.733389: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+ 
