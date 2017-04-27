@@ -167,4 +167,4 @@ def trainLocalDataTest():
     #countJourneys()
     #runtrainDataGenerationTest()
     #trainPairWiseDataTest()
-    trainDataGenerationTest('iphoone 6')
+    trainDataGenerationTest('iphone 6')
