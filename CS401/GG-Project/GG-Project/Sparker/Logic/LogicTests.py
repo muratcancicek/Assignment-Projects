@@ -143,6 +143,7 @@ def runtrainDataGenerationTest():
         trainDataGenerationTest(keyword)
 
 def trainPairWiseDataTestKeyword(keyword):
+    keyword = keyword.replace(' ', '_')
     inputName = 'all_day'
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
     trainDataFile = joinPath(outputFolder, inputName + '_' + keyword + '_TrainData')

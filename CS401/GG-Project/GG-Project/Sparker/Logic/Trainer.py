@@ -95,7 +95,10 @@ def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True,
     model = trainPairWiseData(trainData, 'trainData', modelName)
     if save:
         modelPath = joinPath(outputFolder, modelName)
-        model.save(sc_(), modelPath)
+        try:
+            model.save(sc_(), modelPath)
+        except Py4JJavaError:
+            pass
         print_(modelPath, 'has been saved successfully by', nowStr())
     return evaluateModelOnData(model, testData, 'testData', modelName)
 
