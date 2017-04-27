@@ -166,4 +166,5 @@ def trainLocalDataTest():
     #generateJourneys()
     #countJourneys()
     #runtrainDataGenerationTest()
-    trainPairWiseDataTest()
+    #trainPairWiseDataTest()
+    trainDataGenerationTest('iphoone 6')
