@@ -175,7 +175,8 @@ def readLabeledPairsFromHDFS(fileName):
 def readTrainDataFromHDFS(fileName):
     trainData = sc_().textFile(fileName)
     print_(fileName, 'has been read successfully by', nowStr())
-    return trainData.map(eval).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1])) 
+    trainData = trainData.map(lambda x: x.replace('LabeledPoint', '').map(eval)
+    return trainData.map(lambda x: x[1]).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1])) 
 
 def saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword):
     trainDataFile = inputName + '_' + keyword + '_TrainData'
