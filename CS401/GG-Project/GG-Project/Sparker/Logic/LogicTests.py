@@ -149,7 +149,7 @@ def trainPairWiseDataTestKeyword(keyword):
     trainDataFile = joinPath(outputFolder, inputName + '_' + keyword + '_TrainData')
     trainData = readTrainDataFromHDFS(trainDataFile)
     #trainData = normalizeTrainData(trainData)
-    trainData = scaleTrainData(data)
+    trainData = scaleTrainData(trainData)
     trainPairWiseData(trainData, dataName = keyword + '_TrainData', modelName =  keyword + '_TrainModel', evaluate = True)
 
 def trainPairWiseDataTest():
