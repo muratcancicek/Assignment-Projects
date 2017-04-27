@@ -137,11 +137,21 @@ def trainDataGenerationTest(keyword):
     return generateTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder)
 
 def runtrainDataGenerationTest():
-    counts = []
     #keywords = ['jant', 'nike air max',[:1] 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
     keywords = ['jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
     for keyword in keywords:
         trainDataGenerationTest(keyword)
+
+def trainPairWiseDataTestKeyword(keyword):
+    inputName = 'all_day'
+    trainDataFile = joinPath(outputFolder, inputName + '_' + keyword + '_TrainData')
+    trainData = readTrainDataFromHDFS(trainDataFile)
+    trainPairWiseData(trainData, dataName = keyword + '_TrainData', modelName =  keyword + '_TrainModel', evaluate = True)
+
+def trainPairWiseDataTest():
+    keywords = ['jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
+    for keyword in keywords:
+        trainPairWiseDataTestKeyword(keyword)
 
 def trainLocalDataTest():
     #trainIPhone6DataGenerationTest()
@@ -154,3 +164,4 @@ def trainLocalDataTest():
     #generateJourneys()
     #countJourneys()
     runtrainDataGenerationTest()
+    trainPairWiseDataTest()
