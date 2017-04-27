@@ -148,7 +148,7 @@ def trainPairWiseDataTestKeyword(keyword):
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
     trainDataFile = joinPath(outputFolder, inputName + '_' + keyword + '_TrainData')
     trainData = readTrainDataFromHDFS(trainDataFile)
-    trainData = normalizeTrainData(data)
+    trainData = normalizeTrainData(trainData)
     #trainData = scaleTrainData(data)
     trainPairWiseData(trainData, dataName = keyword + '_TrainData', modelName =  keyword + '_TrainModel', evaluate = True)
 
