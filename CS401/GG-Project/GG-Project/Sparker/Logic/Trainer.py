@@ -9,7 +9,7 @@ def getProducts(ids, fileName = None):
     ids = unique(ids)
     products = products.filter(lambda x: x[0] in ids)
     print_(products.count(), 'products has been found in database to train by', nowStr())
-    print_(products.first())
+    #print_(products.first())
     #products = products.map(lambda x: (x[0], DenseVector(x[1:])))
     return products
 

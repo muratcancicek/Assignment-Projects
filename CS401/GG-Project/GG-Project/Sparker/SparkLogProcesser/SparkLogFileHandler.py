@@ -158,7 +158,7 @@ def readProductsFromHDFS(fileName = None):
         fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
     products = sc_().textFile(fileName)
     products = products.map(evalProduct)
-    print_(products.first())
+    #print_(products.first())
     print_(fileName, products.count(), ' products have been read successfully by', nowStr())
     return products
 
