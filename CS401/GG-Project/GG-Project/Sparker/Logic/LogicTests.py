@@ -148,12 +148,11 @@ def trainPairWiseDataTestKeyword(keyword):
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
     trainDataFile = joinPath(outputFolder, inputName + '_' + keyword + '_TrainData')
     trainData = readTrainDataFromHDFS(trainDataFile)
-    #trainData = normalizeTrainData(trainData)
     trainData = scaleTrainData(trainData)
     trainPairWiseData(trainData, dataName = keyword + '_TrainData', modelName =  keyword + '_TrainModel', evaluate = True)
 
 def trainPairWiseDataTest():
-    keywords = ['jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
+    keywords = ['iphone 6', 'jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
     for keyword in keywords:
         trainPairWiseDataTestKeyword(keyword)
 
@@ -168,6 +167,6 @@ def trainLocalDataTest():
     #generateJourneys()
     #countJourneys()
     #runtrainDataGenerationTest()
-    #trainPairWiseDataTest()
     #trainDataGenerationTest('iphone 6')
-    trainPairWiseDataTestKeyword('iphone 6')
+    #trainPairWiseDataTestKeyword()
+    trainPairWiseDataTest()
