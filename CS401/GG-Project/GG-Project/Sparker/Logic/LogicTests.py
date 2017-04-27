@@ -163,5 +163,5 @@ def trainLocalDataTest():
     #trainDataGenerationTest() 
     #generateJourneys()
     #countJourneys()
-    runtrainDataGenerationTest()
+    #runtrainDataGenerationTest()
     trainPairWiseDataTest()
