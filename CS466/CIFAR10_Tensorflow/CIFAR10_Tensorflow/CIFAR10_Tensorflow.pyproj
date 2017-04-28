@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>14425095-113a-40a7-bf85-9812c6b5949f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>runCIFAR10_Tensorflow.py</StartupFile>
+    <StartupFile>cifar10_train.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="cifar10.py" />
+    <Compile Include="cifar10_eval.py" />
+    <Compile Include="cifar10_input.py" />
+    <Compile Include="cifar10_input_test.py" />
+    <Compile Include="cifar10_multi_gpu_train.py" />
+    <Compile Include="cifar10_train.py" />
+    <Compile Include="OnZeppelin.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runCIFAR10_Tensorflow.py" />
   </ItemGroup>
   <PropertyGroup>
