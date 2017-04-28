@@ -32,6 +32,9 @@
     <Compile Include="PythonVersionHandler.py" />
     <Compile Include="SoftmaxTutorial.py" />
     <Compile Include="Transforms.py" />
+    <Compile Include="Zeppelin.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="t10k-images.idx3-ubyte" />
