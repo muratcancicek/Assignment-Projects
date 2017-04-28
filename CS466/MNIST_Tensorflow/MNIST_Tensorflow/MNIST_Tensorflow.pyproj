@@ -33,6 +33,10 @@
     <Compile Include="SoftmaxTutorial.py" />
     <Compile Include="Transforms.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="t10k-images - Copy.idx3-ubyte" />
+    <Content Include="t10k-labels - Copy.idx1-ubyte" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
