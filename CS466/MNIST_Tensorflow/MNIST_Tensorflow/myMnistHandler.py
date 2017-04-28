@@ -208,10 +208,10 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float
     validation = fake()
     test = fake()
     return base.Datasets(train=train, validation=validation, test=test)
-  TRAIN_IMAGES = sys.argv[3] + os.path.sep + 'train-images.idx3-ubyte'
-  TRAIN_LABELS = sys.argv[3] + os.path.sep + 'train-labels.idx1-ubyte'
-  TEST_IMAGES = sys.argv[3] + os.path.sep + 't10k-images.idx3-ubyte'
-  TEST_LABELS = sys.argv[3] + os.path.sep + 't10k-labels.idx1-ubyte'
+  TRAIN_IMAGES = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 'train-images.idx3-ubyte'
+  TRAIN_LABELS = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 'train-labels.idx1-ubyte'
+  TEST_IMAGES = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 't10k-images.idx3-ubyte'
+  TEST_LABELS = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 't10k-labels.idx1-ubyte'
 
   if train_dir == 'MNIST-data':
       local_file = TRAIN_IMAGES
