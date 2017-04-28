@@ -8,7 +8,7 @@ from myMnistHandler import load_mnist
 from PythonVersionHandler import *
 import tensorflow as tf
 
-sys_argv = ['', 'network_1', '28x28_dataset', '/path/to/dataset/folder'] 
+sys_argv = ['', 'network_1', '28x28_dataset', '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow'] 
 def getXY_(n = 784, clusters = 10):
     x = tf.placeholder(tf.float32, [None, n])
     y_ = tf.placeholder(tf.float32, [None, clusters])
