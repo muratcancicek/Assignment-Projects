@@ -34,8 +34,8 @@
     <Compile Include="Transforms.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="t10k-images - Copy.idx3-ubyte" />
-    <Content Include="t10k-labels - Copy.idx1-ubyte" />
+    <Content Include="t10k-images.idx3-ubyte" />
+    <Content Include="t10k-labels.idx1-ubyte" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
