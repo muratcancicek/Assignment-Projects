@@ -27,8 +27,8 @@ def learn(mnist, iterations = 100, downsampling = False, dataset = ''):
 def main(): 
     print_('You must pass exactly 3 arguments to this program, ' + \
         '\nExample usage: \npython muratcan_cicek_training.py network_1 28x28_dataset /path/to/dataset/folder')
-    if len(sys.argv) != 4:
-        print_('wrong argument count')
+    #if len(sys.argv) != 4:
+    #    print_('wrong argument count')
         #sys.exit() 
 
     if sys.argv[2] == '28x28_dataset':
