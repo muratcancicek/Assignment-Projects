@@ -30,3 +30,6 @@ python runGG_Project.py
 /opt/spark/bin/spark-submit --num-executors 24
 
 /opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh restart
+
+/opt/pythonzeppelin/pythonzeppelin/bin
+cd /root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow
