@@ -13,11 +13,12 @@ def printSeparater():
         
 def nowStr():
     return str(datetime.now())
+def run():
+    printSeparater()
+    print_('%s:' % nowStr(), 'Running...')
+    main()
+    print_('%s:' % nowStr(), 'DONE')
+    printSeparater()
 
-printSeparater()
-print_('%s:' % nowStr(), 'Running...')
-main()
-print_('%s:' % nowStr(), 'DONE')
-printSeparater()
-
-sys.exit() 
+    sys.exit() 
+run()

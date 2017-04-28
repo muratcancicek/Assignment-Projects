@@ -197,6 +197,15 @@ def generateDatasetsWithValidation(train_images, train_labels, test_images, test
 def fakeProcess(images, l):
     return images, l
 
+COMPUTERNAME = os.getenv('COMPUTERNAME') 
+
+if COMPUTERNAME == 'MSI': 
+    gitDir = 'D:\\OneDrive\\Projects\\Assignment-Projects'
+    #gitPush(gitDir)
+elif COMPUTERNAME == 'LM-IST-00UBFVH8':
+    gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
+else:
+    gitDir = '/root/Projects/Assignment-Projects'
 def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float32, reshape=False,
                    validation_size=0, preprocess = fakeProcess):
 
@@ -208,10 +217,11 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.float
     validation = fake()
     test = fake()
     return base.Datasets(train=train, validation=validation, test=test)
-  TRAIN_IMAGES = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 'train-images.idx3-ubyte'
-  TRAIN_LABELS = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 'train-labels.idx1-ubyte'
-  TEST_IMAGES = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 't10k-images.idx3-ubyte'
-  TEST_LABELS = '/root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow' + os.path.sep + 't10k-labels.idx1-ubyte'
+  s = os.path.sep
+  TRAIN_IMAGES = gitDir + s + 'CS466' + s + 'MNIST_Tensorflow' + s + 'MNIST_Tensorflow' + s + 'train-images.idx3-ubyte'
+  TRAIN_LABELS = gitDir + s + 'CS466' + s + 'MNIST_Tensorflow' + s + 'MNIST_Tensorflow' + s + 'train-labels.idx1-ubyte'
+  TEST_IMAGES = gitDir + s + 'CS466' + s + 'MNIST_Tensorflow' + s + 'MNIST_Tensorflow' + s + 't10k-images.idx3-ubyte'
+  TEST_LABELS = gitDir + s + 'CS466' + s + 'MNIST_Tensorflow' + s + 'MNIST_Tensorflow' + s + 't10k-labels.idx1-ubyte'
 
   if train_dir == 'MNIST-data':
       local_file = TRAIN_IMAGES
