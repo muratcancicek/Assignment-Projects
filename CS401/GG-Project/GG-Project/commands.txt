@@ -33,3 +33,7 @@ python runGG_Project.py
 
 /opt/pythonzeppelin/pythonzeppelin/bin
 cd /root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow
+
+osldevptst02.host.gittigidiyor.net:8888/?token=f4813d8a9b926e70bd21f1390e707aa621c1662e9a1411f8
+
+jupyter notebook --no-browser  --port 9999

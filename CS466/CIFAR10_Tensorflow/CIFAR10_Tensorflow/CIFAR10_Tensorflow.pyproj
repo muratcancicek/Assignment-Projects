@@ -28,9 +28,14 @@
     <Compile Include="cifar10_input_test.py" />
     <Compile Include="cifar10_multi_gpu_train.py" />
     <Compile Include="cifar10_train.py" />
+    <Compile Include="OutputLogger.py" />
+    <Compile Include="paths.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="OnZeppelin.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PythonVersionHandler.py" />
     <Compile Include="runCIFAR10_Tensorflow.py" />
   </ItemGroup>
   <PropertyGroup>
