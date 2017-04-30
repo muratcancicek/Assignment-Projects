@@ -2,18 +2,19 @@ from datetime import datetime
 import time
 import sys
 import os
-
-PYTHON_VERSION = sys.version_info[0]
+from paths import *
 
 def print_(*args):
-        line = ''
-        for ar in args:
-            line += str(ar) + ' '
-        print(line)
-    #if PYTHON_VERSION == 3:
-    #    print
-    ##else:
-    
+    line = ''
+    for ar in args:
+        line += str(ar) + ' '
+    line = line[:-1]+'\n'
+    sys.stdout.write(line)
+    if os.path.isfile(outputFileName):
+        open(outputFileName, 'a').write(line)  
+    else:
+        open(outputFileName, 'w').write(line)  
+
 def myXrange(i):
     if PYTHON_VERSION == 2:
         return xrange(i)
