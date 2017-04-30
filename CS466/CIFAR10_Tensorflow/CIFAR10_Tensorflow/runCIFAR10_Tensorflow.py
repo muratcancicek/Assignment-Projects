@@ -7,12 +7,15 @@ def printSeparater():
     for n in range(3):
         print_('#' * 88)
         
-def main():
+def main(method = None):
     printSeparater()
     print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
     
-    run_cifar10_train()
-    run_cifar10_eval()
+    if method == None:
+        run_cifar10_train()
+        run_cifar10_eval()
+    else:
+        method()
 
     print_('%s:' % nowStr(), 'DONE')
     printSeparater()
