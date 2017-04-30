@@ -1,0 +1,60 @@
+
+cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+
+sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
+sshpass -p 'eBay@2017' ssh miek@10.200.133.227
+sshpass -p 3022 'eBay@2017' ssh miek@10.200.133.227
+shh -p 22 miek@10.200.133.227   
+10.200.133.227:5900
+
+eBay@2017
+
+export SPARK_HOME="/opt/spark"
+
+/usr/local/spark
+export SPARK_HOME=/usr/local/spark
+
+export SPARK_HOME=/opt/spark
+PATH=~/anaconda/bin:"$PATH"
+export COMPUTERNAME=osldevptst02
+source /etc/environment 
+
+export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip:$PYTHONPATH
+
+cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+git reset --hard
+git pull
+python runGG_Project.py
+
+/opt/spark/bin/spark-submit --num-executors 24
+
+/opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh restart
+
+/opt/pythonzeppelin/pythonzeppelin/bin
+cd /root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow
+
+osldevptst02.host.gittigidiyor.net:8888/?token=f4813d8a9b926e70bd21f1390e707aa621c1662e9a1411f8
+
+jupyter notebook --no-browser  --port=99998
+
+cd /Users/miek/Documents/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow
+cd /root/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow
+
+ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
+
+ssh -N -f -L 5087:localhost:8889 root@osldevptst02.host.gittigidiyor.net
+
+localhost:8889/?token=7faf91506c4dbac436842a1aacd11c3e6ed96551572e14f1
+jupyter notebook --no-browser --port=8889
+
+
+jupyter notebook --no-browser --port=8890
+ssh -N -f -L 5089:localhost:8890 root@osldevptst02.host.gittigidiyor.net
+F!T(9D2m
+localhost:8890/?token=0924fc6debfdf4076b2eb6d6a0f0de975d23cab87683d751
+
+sudo vi /etc/ssh/sshd_config
+sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+
+/root/tmux attach -t 1

@@ -1,0 +1,108 @@
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-29 12:18:47.896763: Running... 
+You must pass exactly 3 arguments to this program, 
+Example usage: 
+python muratcan_cicek_training.py network_1 28x28_dataset /path/to/dataset/folder 
+Extracting /root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow/t10k-images.idx3-ubyte 
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+The First Network on 28x28_dataset running...
+ 
+Epoch 10, training accuracy on the last batch = 1.00
+Epoch 20, training accuracy on the last batch = 1.00
+Epoch 30, training accuracy on the last batch = 1.00
+Epoch 40, training accuracy on the last batch = 1.00
+Epoch 50, training accuracy on the last batch = 1.00
+Epoch 60, training accuracy on the last batch = 1.00
+Epoch 70, training accuracy on the last batch = 1.00
+Epoch 80, training accuracy on the last batch = 1.00
+Epoch 90, training accuracy on the last batch = 1.00
+The test accuracy = 0.978 
+  
+2017-04-29 12:41:26.262986: DONE 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-29 17:30:59.803608: step 120860, loss = 0.71 (879.3 examples/sec; 0.146 sec/batch)
+2017-04-29 17:31:01.376721: step 120870, loss = 0.65 (813.7 examples/sec; 0.157 sec/batch)
+2017-04-29 17:31:03.023384: step 120880, loss = 0.50 (777.3 examples/sec; 0.165 sec/batch)
+2017-04-29 17:31:04.485968: step 120890, loss = 0.72 (875.2 examples/sec; 0.146 sec/batch)
+2017-04-29 17:31:06.287336: step 120900, loss = 0.79 (710.6 examples/sec; 0.180 sec/batch)
+2017-04-29 17:31:07.485620: step 120910, loss = 0.78 (1068.2 examples/sec; 0.120 sec/batch)
+2017-04-29 17:31:08.933643: step 120920, loss = 0.65 (884.0 examples/sec; 0.145 sec/batch)
+2017-04-29 17:31:10.480600: step 120930, loss = 0.78 (827.4 examples/sec; 0.155 sec/batch)
+2017-04-29 17:31:11.971093: step 120940, loss = 0.73 (858.8 examples/sec; 0.149 sec/batch)
+2017-04-29 17:31:13.511061: step 120950, loss = 0.71 (831.2 examples/sec; 0.154 sec/batch)
+2017-04-29 17:31:15.035265: step 120960, loss = 0.62 (839.8 examples/sec; 0.152 sec/batch)
+2017-04-29 17:31:16.503221: step 120970, loss = 0.69 (872.0 examples/sec; 0.147 sec/batch)
+2017-04-29 17:31:18.070259: step 120980, loss = 0.83 (816.8 examples/sec; 0.157 sec/batch)
+2017-04-29 17:31:19.534280: step 120990, loss = 0.71 (874.3 examples/sec; 0.146 sec/batch)
+2017-04-29 17:31:21.459352: step 121000, loss = 0.82 (664.9 examples/sec; 0.193 sec/batch)
+2017-04-29 17:31:22.732181: step 121010, loss = 0.67 (1005.6 examples/sec; 0.127 sec/batch)
+2017-04-29 17:31:24.225354: step 121020, loss = 0.64 (857.2 examples/sec; 0.149 sec/batch)
+2017-04-29 17:31:25.669089: step 121030, loss = 0.62 (886.6 examples/sec; 0.144 sec/batch)
+2017-04-29 17:31:27.112279: step 121040, loss = 0.81 (886.9 examples/sec; 0.144 sec/batch)
+2017-04-29 17:31:28.564460: step 121050, loss = 0.71 (881.4 examples/sec; 0.145 sec/batch)
+2017-04-29 17:31:30.145437: step 121060, loss = 0.73 (809.6 examples/sec; 0.158 sec/batch)
+2017-04-29 17:31:31.640331: step 121070, loss = 0.74 (856.2 examples/sec; 0.149 sec/batch)
+2017-04-29 17:31:33.178771: step 121080, loss = 0.67 (832.0 examples/sec; 0.154 sec/batch)
+2017-04-29 17:31:34.688450: step 121090, loss = 0.58 (847.9 examples/sec; 0.151 sec/batch)
+2017-04-29 17:31:36.489586: step 121100, loss = 0.64 (710.9 examples/sec; 0.180 sec/batch)
+2017-04-29 17:31:37.689626: step 121110, loss = 0.74 (1066.2 examples/sec; 0.120 sec/batch)
+2017-04-29 17:31:39.160898: step 121120, loss = 0.93 (870.0 examples/sec; 0.147 sec/batch)
+2017-04-29 17:31:40.671861: step 121130, loss = 0.58 (847.1 examples/sec; 0.151 sec/batch)
+2017-04-29 17:31:42.169647: step 121140, loss = 0.63 (854.6 examples/sec; 0.150 sec/batch)
+2017-04-29 17:31:43.650945: step 121150, loss = 0.67 (864.1 examples/sec; 0.148 sec/batch)
+2017-04-29 17:31:45.143303: step 121160, loss = 0.77 (857.7 examples/sec; 0.149 sec/batch)
+2017-04-29 17:31:46.721063: step 121170, loss = 0.68 (811.3 examples/sec; 0.158 sec/batch)
+2017-04-29 17:31:48.200686: step 121180, loss = 0.64 (865.1 examples/sec; 0.148 sec/batch)
+2017-04-29 17:31:49.709509: step 121190, loss = 0.84 (848.3 examples/sec; 0.151 sec/batch)
+2017-04-29 17:31:51.499882: step 121200, loss = 0.75 (714.9 examples/sec; 0.179 sec/batch)
+2017-04-29 17:31:52.726187: step 121210, loss = 0.75 (1043.8 examples/sec; 0.123 sec/batch)
+2017-04-29 17:31:54.182001: step 121220, loss = 0.68 (879.8 examples/sec; 0.145 sec/batch)
+2017-04-29 17:31:55.664829: step 121230, loss = 0.65 (862.6 examples/sec; 0.148 sec/batch)
+2017-04-29 17:31:57.142769: step 121240, loss = 0.66 (866.1 examples/sec; 0.148 sec/batch)
+2017-04-29 17:31:58.575982: step 121250, loss = 0.76 (893.1 examples/sec; 0.143 sec/batch)
+2017-04-29 17:32:00.048429: step 121260, loss = 0.49 (869.3 examples/sec; 0.147 sec/batch)
+2017-04-29 17:32:01.679373: step 121270, loss = 0.64 (784.8 examples/sec; 0.163 sec/batch)
+2017-04-29 17:32:03.177946: step 121280, loss = 0.76 (854.1 examples/sec; 0.150 sec/batch)
+2017-04-29 17:32:04.681857: step 121290, loss = 0.70 (851.1 examples/sec; 0.150 sec/batch)
+2017-04-29 17:32:06.419537: step 121300, loss = 0.74 (736.6 examples/sec; 0.174 sec/batch)
+2017-04-29 17:32:07.651710: step 121310, loss = 0.63 (1038.8 examples/sec; 0.123 sec/batch) GPU OF MY MSI
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-29 17:39:51.882944: step 2050, loss = 1.54 (458.0 examples/sec; 0.279 sec/batch)
+2017-04-29 17:39:54.685732: step 2060, loss = 1.48 (456.7 examples/sec; 0.280 sec/batch)
+2017-04-29 17:39:57.467454: step 2070, loss = 1.52 (460.1 examples/sec; 0.278 sec/batch)
+2017-04-29 17:40:00.278815: step 2080, loss = 1.73 (455.3 examples/sec; 0.281 sec/batch)
+2017-04-29 17:40:03.191250: step 2090, loss = 1.58 (439.5 examples/sec; 0.291 sec/batch)
+2017-04-29 17:40:06.084839: step 2100, loss = 1.72 (442.4 examples/sec; 0.289 sec/batch)
+2017-04-29 17:40:08.921586: step 2110, loss = 1.59 (451.2 examples/sec; 0.284 sec/batch)
+2017-04-29 17:40:13.380331: step 2120, loss = 1.58 (287.1 examples/sec; 0.446 sec/batch)
+2017-04-29 17:40:16.156990: step 2130, loss = 1.51 (461.0 examples/sec; 0.278 sec/batch)
+2017-04-29 17:40:18.941438: step 2140, loss = 1.72 (459.7 examples/sec; 0.278 sec/batch)
+2017-04-29 17:40:21.739555: step 2150, loss = 1.59 (457.5 examples/sec; 0.280 sec/batch) SERVER OF GITTIGIDIYOR (CPU) with 64 GB ram etc. 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+######################################################################################## 
+2017-04-29 18:03:08.723038: step 21890, loss = 0.79 (185.0 examples/sec; 0.692 sec/batch)
+2017-04-29 18:03:15.689574: step 21900, loss = 0.76 (183.7 examples/sec; 0.697 sec/batch)
+2017-04-29 18:03:22.547065: step 21910, loss = 0.74 (186.7 examples/sec; 0.686 sec/batch)
+2017-04-29 18:03:29.567765: step 21920, loss = 0.80 (182.3 examples/sec; 0.702 sec/batch)
+2017-04-29 18:03:36.498096: step 21930, loss = 0.79 (184.7 examples/sec; 0.693 sec/batch)
+2017-04-29 18:03:43.369779: step 21940, loss = 0.84 (186.3 examples/sec; 0.687 sec/batch)
+2017-04-29 18:03:50.105158: step 21950, loss = 0.85 (190.0 examples/sec; 0.674 sec/batch)
+2017-04-29 18:03:57.008290: step 21960, loss = 1.01 (185.4 examples/sec; 0.690 sec/batch)
+2017-04-29 18:04:03.852757: step 21970, loss = 0.89 (187.0 examples/sec; 0.684 sec/batch)
+2017-04-29 18:04:10.478639: step 21980, loss = 0.85 (193.2 examples/sec; 0.663 sec/batch)
+2017-04-29 18:04:17.314429: step 21990, loss = 0.83 (187.2 examples/sec; 0.684 sec/batch)
+2017-04-29 18:04:25.042034: step 22000, loss = 0.85 (165.6 examples/sec; 0.773 sec/batch)
+2017-04-29 18:04:32.684203: step 22010, loss = 0.78 (167.5 examples/sec; 0.764 sec/batch) MAC PRO (CPU)

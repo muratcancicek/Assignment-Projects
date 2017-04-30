@@ -28,6 +28,9 @@
     <Compile Include="cifar10_input_test.py" />
     <Compile Include="cifar10_multi_gpu_train.py" />
     <Compile Include="cifar10_train.py" />
+    <Compile Include="MyModel.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="OutputLogger.py" />
     <Compile Include="paths.py">
       <SubType>Code</SubType>
@@ -37,6 +40,10 @@
     </Compile>
     <Compile Include="PythonVersionHandler.py" />
     <Compile Include="runCIFAR10_Tensorflow.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="commands.txt" />
+    <Content Include="notes.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
