@@ -10,8 +10,9 @@ def printSeparater():
 def main():
     printSeparater()
     print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
-
+    
     run_cifar10_train()
+    run_cifar10_eval()
 
     print_('%s:' % nowStr(), 'DONE')
     printSeparater()

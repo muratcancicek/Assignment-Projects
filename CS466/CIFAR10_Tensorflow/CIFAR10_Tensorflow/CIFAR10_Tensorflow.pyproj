@@ -40,6 +40,9 @@
     </Compile>
     <Compile Include="PythonVersionHandler.py" />
     <Compile Include="runCIFAR10_Tensorflow.py" />
+    <Compile Include="tfFLAGS.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="commands.txt" />

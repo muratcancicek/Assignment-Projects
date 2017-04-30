@@ -42,6 +42,14 @@ cd /root/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflo
 
 ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
 
+ssh mcicek@riverdance.soe.ucsc.edu
+ssh mcicek@sftp.ic.ucsc.edu
+ssh mcicek@unix.ucsc.edu
+ssh mcicek@citrisdance.soe.ucsc.edu 
+Iq133142muratcan
+ssh citrisdance.soe.ucsc.edu 
+ssh mcicek@craigsdance.soe.ucsc.edu
+
 ssh -N -f -L 5087:localhost:8889 root@osldevptst02.host.gittigidiyor.net
 
 localhost:8889/?token=7faf91506c4dbac436842a1aacd11c3e6ed96551572e14f1

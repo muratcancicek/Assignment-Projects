@@ -27,25 +27,7 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
-from datetime import datetime
-import time
-
-import tensorflow as tf
-
-import cifar10
-import MyModel
-
-FLAGS = tf.app.flags.FLAGS
-
-tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train', """Directory where to write event logs and checkpoint.""")
-tf.app.flags.DEFINE_integer('max_steps', 10000, """Number of batches to run.""")
-tf.app.flags.DEFINE_boolean('log_device_placement', False, """Whether to log device placement.""")
-tf.app.flags.DEFINE_integer('log_frequency', 100, """How often to log results to the console.""")
-
+from tfFLAGS import *
 
 def train():
     """Train CIFAR-10 for a number of steps."""
