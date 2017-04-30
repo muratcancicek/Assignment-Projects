@@ -20,7 +20,8 @@ def main(method = None):
     print_('%s:' % nowStr(), 'DONE')
     printSeparater()
 
-    sys.exit() 
+    if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8':
+        sys.exit() 
 
 if __name__ == "__main__":
     main()
