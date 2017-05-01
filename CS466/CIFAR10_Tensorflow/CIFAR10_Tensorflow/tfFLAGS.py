@@ -13,7 +13,7 @@ import sys
 import tarfile
 
 from six.moves import urllib, xrange
-import tensorflow as tf
+import numpy as np
 
 from paths import *
 
