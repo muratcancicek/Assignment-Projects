@@ -28,16 +28,28 @@ NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 50000
 NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 10000
 
 FLAGS = tf.app.flags.FLAGS
-if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8' or COMPUTERNAME == 'server':
-    # Basic model parameters.
-    tf.app.flags.DEFINE_integer('batch_size', 128, """Number of images to process in a batch.""")
-    tf.app.flags.DEFINE_string('data_dir', '/tmp/cifar10_data', """Path to the CIFAR-10 data directory.""")
-    tf.app.flags.DEFINE_boolean('use_fp16', False, """Train the model using fp16.""")
 
-    tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train', """Directory where to write event logs and checkpoint.""")
-    tf.app.flags.DEFINE_integer('max_steps', 300, """Number of batches to run.""")
-    tf.app.flags.DEFINE_boolean('log_device_placement', False, """Whether to log device placement.""")
-    tf.app.flags.DEFINE_integer('log_frequency', 1000, """How often to log results to the console.""")
+# Basic model parameters.
+batch_size = 128
+data_dir = '/tmp/cifar10_data'
+use_fp16 = False
+
+train_dir = '/tmp/cifar10_train'
+max_steps = 300
+log_device_placement = False
+log_frequency = 1000
+
+#FLAGS = tf.app.flags.FLAGS
+#if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8' or COMPUTERNAME == 'server':
+#    # Basic model parameters.
+#    tf.app.flags.DEFINE_integer('batch_size', 128, """Number of images to process in a batch.""")
+#    tf.app.flags.DEFINE_string('data_dir', '/tmp/cifar10_data', """Path to the CIFAR-10 data directory.""")
+#    tf.app.flags.DEFINE_boolean('use_fp16', False, """Train the model using fp16.""")
+
+#    tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train', """Directory where to write event logs and checkpoint.""")
+#    tf.app.flags.DEFINE_integer('max_steps', 300, """Number of batches to run.""")
+#    tf.app.flags.DEFINE_boolean('log_device_placement', False, """Whether to log device placement.""")
+#    tf.app.flags.DEFINE_integer('log_frequency', 1000, """How often to log results to the console.""")
 
 # Constants describing the training process.
 MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.
