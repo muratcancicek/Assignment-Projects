@@ -15,7 +15,9 @@
 
 """Routine for decoding the CIFAR-10 binary file format."""
 
-from tfFLAGS import *
+import tfFLAGS 
+from paths import *
+
 
 def read_cifar10(filename_queue):
     """Reads and parses examples from CIFAR10 data files.

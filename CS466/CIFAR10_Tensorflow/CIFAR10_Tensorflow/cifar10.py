@@ -27,7 +27,7 @@ Summary of available functions:
 """
 # pylint: disable=missing-docstring
 
-from tfFLAGS import *
+from paths import *
 import tfFLAGS
 
 def _activation_summary(x):

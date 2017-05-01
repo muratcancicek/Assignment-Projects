@@ -28,6 +28,8 @@ http://tensorflow.org/tutorials/deep_cnn/
 """
 
 from tfFLAGS import *
+from paths import *
+
 
 import MyModel
 
