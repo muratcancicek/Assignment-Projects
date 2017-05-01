@@ -317,14 +317,14 @@ def maybe_download_and_extract():
     dest_directory = tfFLAGS.data_dir
     if not os.path.exists(dest_directory):
         os.makedirs(dest_directory)
-    filename = DATA_URL.split('/')[-1]
+    filename = tfFLAGS.DATA_URL.split('/')[-1]
     filepath = os.path.join(dest_directory, filename)
     if not os.path.exists(filepath):
         def _progress(count, block_size, total_size):
             sys.stdout.write('\r>> Downloading %s %.1f%%' % (filename,
                     float(count * block_size) / float(total_size) * 100.0))
             sys.stdout.flush()
-        filepath, _ = urllib.request.urlretrieve(DATA_URL, filepath, _progress)
+        filepath, _ = urllib.request.urlretrieve(tfFLAGS.DATA_URL, filepath, _progress)
         print_()
         statinfo = os.stat(filepath)
         print_('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
