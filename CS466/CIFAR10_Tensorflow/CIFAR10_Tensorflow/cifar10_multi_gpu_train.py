@@ -64,7 +64,7 @@ def tower_loss(scope):
   for l in losses + [total_loss]:
     # Remove 'tower_[0-9]/' from the name in case this is a multi-GPU training
     # session. This helps the clarity of presentation on tensorboard.
-    loss_name = re.sub('%s_[0-9]*/' % cifar10.TOWER_NAME, '', l.op.name)
+    loss_name = re.sub('%s_[0-9]*/' % tfFLAGS.TOWER_NAME, '', l.op.name)
     tf.summary.scalar(loss_name, l)
 
   return total_loss
@@ -116,15 +116,15 @@ def train():
         initializer=tf.constant_initializer(0), trainable=False)
 
     # Calculate the learning rate schedule.
-    num_batches_per_epoch = (cifar10.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
+    num_batches_per_epoch = (tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
                              tfFLAGS.batch_size)
-    decay_steps = int(tfFLAGS.num_batches_per_epoch * cifar10.NUM_EPOCHS_PER_DECAY)
+    decay_steps = int(tfFLAGS.num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
 
     # Decay the learning rate exponentially based on the number of steps.
-    lr = tf.train.exponential_decay(cifar10.INITIAL_LEARNING_RATE,
+    lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE,
                                     global_step,
                                     decay_steps,
-                                    cifar10.LEARNING_RATE_DECAY_FACTOR,
+                                    tfFLAGS.LEARNING_RATE_DECAY_FACTOR,
                                     staircase=True)
 
     # Create an optimizer that performs gradient descent.
@@ -135,7 +135,7 @@ def train():
     with tf.variable_scope(tf.get_variable_scope()):
       for i in xrange(tfFLAGS.num_gpus):
         with tf.device('/gpu:%d' % i):
-          with tf.name_scope('%s_%d' % (cifar10.TOWER_NAME, i)) as scope:
+          with tf.name_scope('%s_%d' % (tfFLAGS.TOWER_NAME, i)) as scope:
             # Calculate the loss for one tower of the CIFAR model. This function
             # constructs the entire CIFAR model but shares the variables across
             # all towers.
@@ -174,7 +174,7 @@ def train():
 
     # Track the moving averages of all trainable variables.
     variable_averages = tf.train.ExponentialMovingAverage(
-        cifar10.MOVING_AVERAGE_DECAY, global_step)
+        tfFLAGS.MOVING_AVERAGE_DECAY, global_step)
     variables_averages_op = variable_averages.apply(tf.trainable_variables())
 
     # Group all updates to into a single train op.
@@ -225,7 +225,7 @@ def train():
 
       # Save the model checkpoint periodically.
       if step % 1000 == 0 or (step + 1) == tfFLAGS.max_steps:
-        checkpoint_path = os.path.join(train_dir, 'model.ckpt')
+        checkpoint_path = os.path.join(tfFLAGS.train_dir, 'model.ckpt')
         saver.save(sess, checkpoint_path, global_step=step)
 
 
