@@ -24,6 +24,6 @@ if COMPUTERNAME == 'MSI':
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
 else:
-    gitDir = '/root/Projects/Assignment-Projects'
+    gitDir = '/soe/cicekm/Projects/Assignment-Projects'
 
 outputFileName = joinPath(gitDir, 'CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow/output.txt')
