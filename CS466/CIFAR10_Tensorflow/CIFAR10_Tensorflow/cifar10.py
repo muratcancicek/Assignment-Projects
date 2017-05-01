@@ -94,9 +94,9 @@ def distorted_inputs():
   Raises:
     ValueError: If no data_dir
   """
-  if not data_dir:
+  if not tfFLAGS.data_dir:
     raise ValueError('Please supply a data_dir')
-  data_dir = os.path.join(data_dir, 'cifar-10-batches-bin')
+  data_dir = os.path.join(tfFLAGS.data_dir, 'cifar-10-batches-bin')
   images, labels = cifar10_input.distorted_inputs(data_dir=data_dir,
                                                   batch_size=batch_size)
   if use_fp16:
