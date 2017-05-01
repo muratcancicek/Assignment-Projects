@@ -33,8 +33,7 @@ http://tensorflow.org/tutorials/deep_cnn/
 
 from tfFLAGS import *
 
-tf.app.flags.DEFINE_integer('num_gpus', 2, """How many GPUs to use.""")
-
+num_gpus = 2
 
 def tower_loss(scope):
   """Calculate the total loss on a single tower running the CIFAR model.
