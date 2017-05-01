@@ -28,6 +28,7 @@ Summary of available functions:
 # pylint: disable=missing-docstring
 
 from tfFLAGS import *
+import tfFLAGS
 
 def _activation_summary(x):
   """Helper to create summaries for activations.
@@ -114,9 +115,9 @@ def inputs(eval_data):
   Raises:
     ValueError: If no data_dir
   """
-  if not data_dir:
+  if not tfFLAGS.data_dir:
     raise ValueError('Please supply a data_dir')
-  data_dir = os.path.join(data_dir, 'cifar-10-batches-bin')
+  data_dir = os.path.join(tfFLAGS.data_dir, 'cifar-10-batches-bin')
   images, labels = cifar10_input.inputs(eval_data=eval_data,
                                         data_dir=data_dir,
                                         batch_size=batch_size)
@@ -313,7 +314,7 @@ def train(total_loss, global_step):
 
 def maybe_download_and_extract():
     """Download and extract the tarball from Alex's website."""
-    dest_directory = data_dir
+    dest_directory = tfFLAGS.data_dir
     if not os.path.exists(dest_directory):
         os.makedirs(dest_directory)
     filename = DATA_URL.split('/')[-1]
