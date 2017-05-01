@@ -62,21 +62,14 @@ sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist
 sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 
 /root/tmux attach -t 1
-ExtUtils/
-find / -name MakeMaker.pm
-
-bash -c "export PATH=/soe/cicekm/anaconda3/bin:$PATH"
-set path = ( /soe/cicekm/anaconda3/bin $path )
-set path = ( /soe/cicekm/bin $path )
-set COMPUTERNAME = ( citrisdance )
-./configure --prefix=/soe/cicekm/lib/ && make && make install
-
-Configure -Dotherlibdirs=/usr/lib/perl5/site_perl/5.16.3
-Configure -Dotherlibdirs=/projects/cadtools/LINUX/software/ADS2009U1/tools/lib/perl5/5.8.7
 
 ssh cicekm@citrisdance.soe.ucsc.edu 
 
 Iq133142muratcan
+
+set COMPUTERNAME = ( citrisdance )
+set path = ( /soe/cicekm/anaconda3/bin $path )
+set path = ( /soe/cicekm/bin $path )
 
 cd /soe/cicekm/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow
 tmux attach -t 0
