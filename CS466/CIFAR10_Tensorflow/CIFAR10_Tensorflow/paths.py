@@ -4,6 +4,7 @@ import os
 
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
+if COMPUTERNAME == None: COMPUTERNAME = 'server'
 
 def joinPath(*args):
     return os.path.join(args[0], args[1])
