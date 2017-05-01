@@ -31,7 +31,8 @@ data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
 
-from tfFLAGS import *
+import tfFLAGS
+from paths import *
 
 num_gpus = 2
 
@@ -116,8 +117,8 @@ def train():
 
     # Calculate the learning rate schedule.
     num_batches_per_epoch = (cifar10.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
-                             batch_size)
-    decay_steps = int(num_batches_per_epoch * cifar10.NUM_EPOCHS_PER_DECAY)
+                             tfFLAGS.batch_size)
+    decay_steps = int(tfFLAGS.num_batches_per_epoch * cifar10.NUM_EPOCHS_PER_DECAY)
 
     # Decay the learning rate exponentially based on the number of steps.
     lr = tf.train.exponential_decay(cifar10.INITIAL_LEARNING_RATE,
@@ -132,7 +133,7 @@ def train():
     # Calculate the gradients for each model tower.
     tower_grads = []
     with tf.variable_scope(tf.get_variable_scope()):
-      for i in xrange(num_gpus):
+      for i in xrange(tfFLAGS.num_gpus):
         with tf.device('/gpu:%d' % i):
           with tf.name_scope('%s_%d' % (cifar10.TOWER_NAME, i)) as scope:
             # Calculate the loss for one tower of the CIFAR model. This function
@@ -193,13 +194,13 @@ def train():
     # implementations.
     sess = tf.Session(config=tf.ConfigProto(
         allow_soft_placement=True,
-        log_device_placement=log_device_placement))
+        log_device_placement=tfFLAGS.log_device_placement))
     sess.run(init)
 
     # Start the queue runners.
     tf.train.start_queue_runners(sess=sess)
 
-    summary_writer = tf.summary.FileWriter(train_dir, sess.graph)
+    summary_writer = tf.summary.FileWriter(tfFLAGS.train_dir, sess.graph)
 
     for step in xrange(max_steps):
       start_time = time.time()
@@ -209,9 +210,9 @@ def train():
       assert not np.isnan(loss_value), 'Model diverged with loss = NaN'
 
       if step % 10 == 0:
-        num_examples_per_step = batch_size * num_gpus
-        examples_per_sec = num_examples_per_step / duration
-        sec_per_batch = duration / num_gpus
+        num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
+        examples_per_sec = tfFLAGS.num_examples_per_step / duration
+        sec_per_batch = duration / tfFLAGS.num_gpus
 
         format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
                       'sec/batch)')
@@ -223,16 +224,16 @@ def train():
         summary_writer.add_summary(summary_str, step)
 
       # Save the model checkpoint periodically.
-      if step % 1000 == 0 or (step + 1) == max_steps:
+      if step % 1000 == 0 or (step + 1) == tfFLAGS.max_steps:
         checkpoint_path = os.path.join(train_dir, 'model.ckpt')
         saver.save(sess, checkpoint_path, global_step=step)
 
 
 def main(argv=None):  # pylint: disable=unused-argument
   cifar10.maybe_download_and_extract()
-  if tf.gfile.Exists(train_dir):
-    tf.gfile.DeleteRecursively(train_dir)
-  tf.gfile.MakeDirs(train_dir)
+  if tf.gfile.Exists(tfFLAGS.train_dir):
+    tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
+  tf.gfile.MakeDirs(tfFLAGS.train_dir)
   train()
 
 

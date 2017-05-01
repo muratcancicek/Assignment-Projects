@@ -1,21 +1,3 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
-from datetime import datetime
-import time
-
-import tensorflow as tf
-
-import os
-import re
-import sys
-import tarfile
-
-from six.moves import urllib, xrange
-import numpy as np
-
-from paths import *
 
 # Process images of this size. Note that this differs from the original CIFAR
 # image size of 32 x 32. If one alters this number, then the entire model

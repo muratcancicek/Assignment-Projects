@@ -27,7 +27,7 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from tfFLAGS import *
+import tfFLAGS
 
 def train():
     """Train CIFAR-10 for a number of steps."""
@@ -67,7 +67,7 @@ def train():
                     self._start_time = current_time
 
                     loss_value = run_values.results
-                    examples_per_sec = log_frequency * batch_size / duration
+                    examples_per_sec = log_frequency * tfFLAGS.batch_size / tfFLAGSduration
                     sec_per_batch = float(duration / log_frequency)
 
                     format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
