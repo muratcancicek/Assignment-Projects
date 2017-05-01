@@ -30,31 +30,10 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
 
-from datetime import datetime
-import os.path
-import re
-import time
+from tfFLAGS import *
 
-import numpy as np
-from six.moves import xrange  # pylint: disable=redefined-builtin
-import tensorflow as tf
-import cifar10
-
-FLAGS = tf.app.flags.FLAGS
-
-tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train',
-                           """Directory where to write event logs """
-                           """and checkpoint.""")
-tf.app.flags.DEFINE_integer('max_steps', 1000000,
-                            """Number of batches to run.""")
-tf.app.flags.DEFINE_integer('num_gpus', 1,
-                            """How many GPUs to use.""")
-tf.app.flags.DEFINE_boolean('log_device_placement', False,
-                            """Whether to log device placement.""")
+tf.app.flags.DEFINE_integer('num_gpus', 2, """How many GPUs to use.""")
 
 
 def tower_loss(scope):
@@ -68,7 +47,7 @@ def tower_loss(scope):
   images, labels = cifar10.distorted_inputs()
 
   # Build inference Graph.
-  logits = cifar10.inference(images)
+  logits = MyModel.inference(images)
 
   # Build the portion of the Graph calculating the losses. Note that we will
   # assemble the total_loss using a custom function below.
