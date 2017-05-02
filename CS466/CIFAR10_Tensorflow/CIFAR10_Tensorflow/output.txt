@@ -8,3 +8,72 @@ Filling queue with 20000 CIFAR images before starting to train. This will take a
 ########################################################################################
 ########################################################################################
 ########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-01 14:03:23.369124: Running on MSI...
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-01 14:03:43.588935: step 0, loss = 4.67 (7318.6 examples/sec; 0.017 sec/batch)
+2017-05-01 14:03:47.274226: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-01 14:07:30.386224: Running on MSI...
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-01 14:07:49.082088: step 0, loss = 4.68 (7771.3 examples/sec; 0.016 sec/batch)
+2017-05-01 14:08:28.672942: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-01 15:41:47.989052: Running on MSI...
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-01 15:42:08.087093: step 0, loss = 4.68 (7200.1 examples/sec; 0.018 sec/batch)
+2017-05-01 15:42:47.957178: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-02 03:10:50.709811: step 0, loss = 4.68 (8012.4 examples/sec; 0.016 sec/batch)
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-02 05:11:27.176241: step 0, loss = 6.38 (1982.8 examples/sec; 0.065 sec/batch)
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-02 19:42:16.698996: Running on MSI...
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-02 19:42:26.526405: step 0, loss = 6.38 (1818.8 examples/sec; 0.070 sec/batch)
+2017-05-02 19:44:14.946251: step 100, loss = 5.90 (118.1 examples/sec; 1.084 sec/batch)
+2017-05-02 19:46:18.165279: step 200, loss = 5.10 (103.9 examples/sec; 1.232 sec/batch)
+2017-05-02 19:48:03.199919: precision @ 1 = 0.545
+2017-05-02 19:48:03.914295: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-02 19:49:23.382655: Running on MSI...
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-02 19:51:44.222357: precision @ 1 = 0.566
+2017-05-02 19:51:44.827254: DONE
+########################################################################################
+########################################################################################
+########################################################################################

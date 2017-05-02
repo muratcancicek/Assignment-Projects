@@ -2,7 +2,7 @@ from datetime import datetime
 import time
 import sys
 import os
-from paths import *
+from paths import outputFileName
 
 def print_(*args):
     line = ''
