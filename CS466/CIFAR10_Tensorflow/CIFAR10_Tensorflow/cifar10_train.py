@@ -27,9 +27,13 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from paths import *
 
-import tfFLAGS
+from PythonVersionHandler import *
+from paths import *
+import cifar10
+import tfFLAGS 
+import MyModel
+
 
 def train():
     """Train CIFAR-10 for a number of steps."""
@@ -85,9 +89,9 @@ def train():
 
 def main(argv=None):    # pylint: disable=unused-argument
     cifar10.maybe_download_and_extract()
-    if tf.gfile.Exists(train_dir):
-        tf.gfile.DeleteRecursively(train_dir)
-    tf.gfile.MakeDirs(train_dir)
+    if tf.gfile.Exists(tfFLAGS.train_dir):
+        tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
+    tf.gfile.MakeDirs(tfFLAGS.train_dir)
     train()
 
 

@@ -38,3 +38,16 @@ Filling queue with 20000 CIFAR images before starting to train. This will take a
 ########################################################################################
 ########################################################################################
 ########################################################################################
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+2017-05-02 03:10:50.709811: step 0, loss = 4.68 (8012.4 examples/sec; 0.016 sec/batch)

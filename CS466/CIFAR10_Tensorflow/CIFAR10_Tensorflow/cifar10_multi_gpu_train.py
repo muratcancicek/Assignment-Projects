@@ -31,8 +31,11 @@ data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
 
-import tfFLAGS
+from PythonVersionHandler import *
 from paths import *
+import cifar10
+import tfFLAGS 
+import MyModel
 
 num_gpus = 2
 
@@ -211,7 +214,7 @@ def train():
 
       if step % 10 == 0:
         num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
-        examples_per_sec = tfFLAGS.num_examples_per_step / duration
+        examples_per_sec = num_examples_per_step / duration
         sec_per_batch = duration / tfFLAGS.num_gpus
 
         format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '

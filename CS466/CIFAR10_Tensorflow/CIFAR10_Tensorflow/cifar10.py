@@ -28,6 +28,7 @@ Summary of available functions:
 # pylint: disable=missing-docstring
 
 from paths import *
+import cifar10_input
 import tfFLAGS
 
 def _activation_summary(x):
@@ -98,8 +99,8 @@ def distorted_inputs():
     raise ValueError('Please supply a data_dir')
   data_dir = os.path.join(tfFLAGS.data_dir, 'cifar-10-batches-bin')
   images, labels = cifar10_input.distorted_inputs(data_dir=data_dir,
-                                                  batch_size=batch_size)
-  if use_fp16:
+                                                  batch_size=tfFLAGS.batch_size)
+  if tfFLAGS.use_fp16:
     images = tf.cast(images, tf.float16)
     labels = tf.cast(labels, tf.float16)
   return images, labels
@@ -121,7 +122,7 @@ def inputs(eval_data):
   images, labels = cifar10_input.inputs(eval_data=eval_data,
                                         data_dir=data_dir,
                                         batch_size=batch_size)
-  if use_fp16:
+  if tfFLAGS.use_fp16:
     images = tf.cast(images, tf.float16)
     labels = tf.cast(labels, tf.float16)
   return images, labels
@@ -270,14 +271,14 @@ def train(total_loss, global_step):
     train_op: op for training.
   """
   # Variables that affect learning rate.
-  num_batches_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN / batch_size
-  decay_steps = int(num_batches_per_epoch * NUM_EPOCHS_PER_DECAY)
+  num_batches_per_epoch = tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN / tfFLAGS.batch_size
+  decay_steps = int(num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
 
   # Decay the learning rate exponentially based on the number of steps.
-  lr = tf.train.exponential_decay(INITIAL_LEARNING_RATE,
+  lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE,
                                   global_step,
                                   decay_steps,
-                                  LEARNING_RATE_DECAY_FACTOR,
+                                  tfFLAGS.LEARNING_RATE_DECAY_FACTOR,
                                   staircase=True)
   tf.summary.scalar('learning_rate', lr)
 
@@ -303,7 +304,7 @@ def train(total_loss, global_step):
 
   # Track the moving averages of all trainable variables.
   variable_averages = tf.train.ExponentialMovingAverage(
-      MOVING_AVERAGE_DECAY, global_step)
+      tfFLAGS.MOVING_AVERAGE_DECAY, global_step)
   variables_averages_op = variable_averages.apply(tf.trainable_variables())
 
   with tf.control_dependencies([apply_gradient_op, variables_averages_op]):

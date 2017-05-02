@@ -45,7 +45,8 @@ import tarfile
 from six.moves import urllib, xrange
 import numpy as np
 
-from PythonVersionHandler import *
-import cifar10_input
-import cifar10
-import MyModel
+#from PythonVersionHandler import *
+#import cifar10_input
+#import cifar10
+#import MyModel
+#import tfFLAGS
