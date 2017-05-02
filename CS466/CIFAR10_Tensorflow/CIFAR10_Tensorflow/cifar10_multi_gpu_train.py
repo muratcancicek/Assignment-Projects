@@ -211,7 +211,7 @@ def train():
 
       assert not np.isnan(loss_value), 'Model diverged with loss = NaN'
 
-      if step % 10 == 0:
+      if step % tfFLAGS.log_frequency == 0:
         num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
         examples_per_sec = num_examples_per_step / duration
         sec_per_batch = duration / tfFLAGS.num_gpus
