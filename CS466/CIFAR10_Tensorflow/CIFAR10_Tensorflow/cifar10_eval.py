@@ -101,7 +101,7 @@ def evaluate():
         top_k_op = tf.nn.in_top_k(logits, labels, 1)
 
         # Restore the moving average version of the learned variables for eval.
-        variable_averages = tf.train.ExponentialMovingAverage(cifar10.MOVING_AVERAGE_DECAY)
+        variable_averages = tf.train.ExponentialMovingAverage(tfFLAGS.MOVING_AVERAGE_DECAY)
         variables_to_restore = variable_averages.variables_to_restore()
         saver = tf.train.Saver(variables_to_restore)
 
