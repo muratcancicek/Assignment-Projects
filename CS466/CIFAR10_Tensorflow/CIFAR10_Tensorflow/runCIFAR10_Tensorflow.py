@@ -13,8 +13,8 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
     
     if method == None:
-        run_cifar10_multi_gpu_train()
-        #run_cifar10_train()
+        #run_cifar10_multi_gpu_train()
+        run_cifar10_train()
         run_cifar10_eval()
     else:
         method()
