@@ -121,7 +121,7 @@ def train():
     # Calculate the learning rate schedule.
     num_batches_per_epoch = (tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
                              tfFLAGS.batch_size)
-    decay_steps = int(tfFLAGS.num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
+    decay_steps = int(num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
 
     # Decay the learning rate exponentially based on the number of steps.
     lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE,
