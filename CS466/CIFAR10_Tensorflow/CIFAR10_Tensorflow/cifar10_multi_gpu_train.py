@@ -37,7 +37,6 @@ import cifar10
 import tfFLAGS 
 import MyModel
 
-num_gpus = 1
 
 def tower_loss(scope):
   """Calculate the total loss on a single tower running the CIFAR model.
@@ -136,7 +135,7 @@ def train():
     # Calculate the gradients for each model tower.
     tower_grads = []
     with tf.variable_scope(tf.get_variable_scope()):
-      for i in xrange(num_gpus):
+      for i in xrange(tfFLAGS.num_gpus):
         with tf.device('/gpu:%d' % i):
           with tf.name_scope('%s_%d' % (tfFLAGS.TOWER_NAME, i)) as scope:
             # Calculate the loss for one tower of the CIFAR model. This function
@@ -205,7 +204,7 @@ def train():
 
     summary_writer = tf.summary.FileWriter(tfFLAGS.train_dir, sess.graph)
 
-    for step in xrange(max_steps):
+    for step in xrange(tfFLAGS.max_steps):
       start_time = time.time()
       _, loss_value = sess.run([train_op, loss])
       duration = time.time() - start_time
