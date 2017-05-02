@@ -195,6 +195,7 @@ def train():
     # True to build towers on GPU, as some of the ops do not have GPU
     # implementations.
     sess = tf.Session(config=tf.ConfigProto(
+        device_count = {'GPU': 1},
         allow_soft_placement=True,
         log_device_placement=tfFLAGS.log_device_placement))
     sess.run(init)
