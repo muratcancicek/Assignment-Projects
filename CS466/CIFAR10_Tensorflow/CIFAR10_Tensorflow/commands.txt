@@ -74,3 +74,5 @@ set path = ( /soe/cicekm/bin $path )
 cd /soe/cicekm/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow
 tmux attach -t 0
 nvidia-docker run -it TensorFlowGPUImage
+
+git pull & python runCIFAR10_Tensorflow.py
