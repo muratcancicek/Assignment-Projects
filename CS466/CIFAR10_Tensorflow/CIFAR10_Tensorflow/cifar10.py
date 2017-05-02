@@ -27,6 +27,7 @@ Summary of available functions:
 """
 # pylint: disable=missing-docstring
 
+from PythonVersionHandler import *
 from paths import *
 import cifar10_input
 import tfFLAGS
