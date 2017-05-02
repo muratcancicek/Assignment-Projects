@@ -18,7 +18,7 @@ data_dir = '/tmp/cifar10_data'
 use_fp16 = False
 
 train_dir = '/tmp/cifar10_train'
-max_steps = 300
+max_steps = 30
 log_device_placement = False
 log_frequency = 100
 
@@ -48,9 +48,9 @@ num_gpus = 2
 
 DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz'
 
-eval_dir = '/tmp/cifar10_eval'
+eval_dir = './tmp/cifar10_eval'
 eval_data = 'test'
-checkpoint_dir = '/tmp/cifar10_train'
+checkpoint_dir = './tmp/cifar10_train'
 eval_interval_secs = 60 * 5
 num_examples = 1000
 run_once = True
