@@ -136,7 +136,7 @@ def train():
     # Calculate the gradients for each model tower.
     tower_grads = []
     with tf.variable_scope(tf.get_variable_scope()):
-      for i in xrange(tfFLAGS.num_gpus):
+      for i in xrange(num_gpus):
         with tf.device('/gpu:%d' % i):
           with tf.name_scope('%s_%d' % (tfFLAGS.TOWER_NAME, i)) as scope:
             # Calculate the loss for one tower of the CIFAR model. This function
