@@ -37,7 +37,7 @@ import cifar10
 import tfFLAGS 
 import MyModel
 
-num_gpus = 2
+num_gpus = 1
 
 def tower_loss(scope):
   """Calculate the total loss on a single tower running the CIFAR model.
