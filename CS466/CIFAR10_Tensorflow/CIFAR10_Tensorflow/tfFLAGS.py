@@ -18,7 +18,7 @@ data_dir = './tmp/cifar10_data'
 use_fp16 = False
 
 train_dir = './tmp/cifar10_train'
-max_steps = 200
+max_steps = 300
 log_device_placement = False
 log_frequency = 100
 
