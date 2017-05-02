@@ -79,10 +79,10 @@ def train():
                     format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
                                                 'sec/batch)')
                     print_(format_str % (datetime.now(), self._step, loss_value, examples_per_sec, sec_per_batch))
-
+        
         with tf.train.MonitoredTrainingSession(checkpoint_dir=tfFLAGS.train_dir,
                 hooks=[tf.train.StopAtStepHook(last_step=tfFLAGS.max_steps), tf.train.NanTensorHook(loss),_LoggerHook()],
-                config=tf.ConfigProto( log_device_placement=tfFLAGS.log_device_placement)) as mon_sess:
+                config=tf.ConfigProto( device_count = {'GPU': 0}, log_device_placement=tfFLAGS.log_device_placement)) as mon_sess:
             while not mon_sess.should_stop():
                 mon_sess.run(train_op)
 
