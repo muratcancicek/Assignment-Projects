@@ -18,9 +18,9 @@ data_dir = '/tmp/cifar10_data'
 use_fp16 = False
 
 train_dir = '/tmp/cifar10_train'
-max_steps = 100
+max_steps = 30000
 log_device_placement = False
-log_frequency = 100
+log_frequency = 1000
 
 #FLAGS = tf.app.flags.FLAGS
 #if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8' or COMPUTERNAME == 'server':
