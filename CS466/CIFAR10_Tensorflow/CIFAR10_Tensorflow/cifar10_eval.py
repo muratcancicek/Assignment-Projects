@@ -32,6 +32,7 @@ from paths import *
 import cifar10
 import tfFLAGS 
 import MyModel
+import math
 
 def eval_once(saver, summary_writer, top_k_op, summary_op):
     """Run Eval once.
