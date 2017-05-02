@@ -30,31 +30,12 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
 
-from datetime import datetime
-import os.path
-import re
-import time
-
-import numpy as np
-from six.moves import xrange  # pylint: disable=redefined-builtin
-import tensorflow as tf
+from PythonVersionHandler import *
+from paths import *
 import cifar10
-
-FLAGS = tf.app.flags.FLAGS
-
-tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train',
-                           """Directory where to write event logs """
-                           """and checkpoint.""")
-tf.app.flags.DEFINE_integer('max_steps', 1000000,
-                            """Number of batches to run.""")
-tf.app.flags.DEFINE_integer('num_gpus', 1,
-                            """How many GPUs to use.""")
-tf.app.flags.DEFINE_boolean('log_device_placement', False,
-                            """Whether to log device placement.""")
+import tfFLAGS 
+import MyModel
 
 
 def tower_loss(scope):
@@ -68,7 +49,7 @@ def tower_loss(scope):
   images, labels = cifar10.distorted_inputs()
 
   # Build inference Graph.
-  logits = cifar10.inference(images)
+  logits = MyModel.inference(images)
 
   # Build the portion of the Graph calculating the losses. Note that we will
   # assemble the total_loss using a custom function below.
@@ -85,7 +66,7 @@ def tower_loss(scope):
   for l in losses + [total_loss]:
     # Remove 'tower_[0-9]/' from the name in case this is a multi-GPU training
     # session. This helps the clarity of presentation on tensorboard.
-    loss_name = re.sub('%s_[0-9]*/' % cifar10.TOWER_NAME, '', l.op.name)
+    loss_name = re.sub('%s_[0-9]*/' % tfFLAGS.TOWER_NAME, '', l.op.name)
     tf.summary.scalar(loss_name, l)
 
   return total_loss
@@ -131,21 +112,21 @@ def train():
   """Train CIFAR-10 for a number of steps."""
   with tf.Graph().as_default(), tf.device('/cpu:0'):
     # Create a variable to count the number of train() calls. This equals the
-    # number of batches processed * FLAGS.num_gpus.
+    # number of batches processed * num_gpus.
     global_step = tf.get_variable(
         'global_step', [],
         initializer=tf.constant_initializer(0), trainable=False)
 
     # Calculate the learning rate schedule.
-    num_batches_per_epoch = (cifar10.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
-                             FLAGS.batch_size)
-    decay_steps = int(num_batches_per_epoch * cifar10.NUM_EPOCHS_PER_DECAY)
+    num_batches_per_epoch = (tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
+                             tfFLAGS.batch_size)
+    decay_steps = int(num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
 
     # Decay the learning rate exponentially based on the number of steps.
-    lr = tf.train.exponential_decay(cifar10.INITIAL_LEARNING_RATE,
+    lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE,
                                     global_step,
                                     decay_steps,
-                                    cifar10.LEARNING_RATE_DECAY_FACTOR,
+                                    tfFLAGS.LEARNING_RATE_DECAY_FACTOR,
                                     staircase=True)
 
     # Create an optimizer that performs gradient descent.
@@ -154,9 +135,9 @@ def train():
     # Calculate the gradients for each model tower.
     tower_grads = []
     with tf.variable_scope(tf.get_variable_scope()):
-      for i in xrange(FLAGS.num_gpus):
+      for i in xrange(tfFLAGS.num_gpus):
         with tf.device('/gpu:%d' % i):
-          with tf.name_scope('%s_%d' % (cifar10.TOWER_NAME, i)) as scope:
+          with tf.name_scope('%s_%d' % (tfFLAGS.TOWER_NAME, i)) as scope:
             # Calculate the loss for one tower of the CIFAR model. This function
             # constructs the entire CIFAR model but shares the variables across
             # all towers.
@@ -195,7 +176,7 @@ def train():
 
     # Track the moving averages of all trainable variables.
     variable_averages = tf.train.ExponentialMovingAverage(
-        cifar10.MOVING_AVERAGE_DECAY, global_step)
+        tfFLAGS.MOVING_AVERAGE_DECAY, global_step)
     variables_averages_op = variable_averages.apply(tf.trainable_variables())
 
     # Group all updates to into a single train op.
@@ -214,26 +195,27 @@ def train():
     # True to build towers on GPU, as some of the ops do not have GPU
     # implementations.
     sess = tf.Session(config=tf.ConfigProto(
+        device_count = {'GPU': 1},
         allow_soft_placement=True,
-        log_device_placement=FLAGS.log_device_placement))
+        log_device_placement=tfFLAGS.log_device_placement))
     sess.run(init)
 
     # Start the queue runners.
     tf.train.start_queue_runners(sess=sess)
 
-    summary_writer = tf.summary.FileWriter(FLAGS.train_dir, sess.graph)
+    summary_writer = tf.summary.FileWriter(tfFLAGS.train_dir, sess.graph)
 
-    for step in xrange(FLAGS.max_steps):
+    for step in xrange(tfFLAGS.max_steps):
       start_time = time.time()
       _, loss_value = sess.run([train_op, loss])
       duration = time.time() - start_time
 
       assert not np.isnan(loss_value), 'Model diverged with loss = NaN'
 
-      if step % 10 == 0:
-        num_examples_per_step = FLAGS.batch_size * FLAGS.num_gpus
+      if step % tfFLAGS.log_frequency == 0:
+        num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
         examples_per_sec = num_examples_per_step / duration
-        sec_per_batch = duration / FLAGS.num_gpus
+        sec_per_batch = duration / tfFLAGS.num_gpus
 
         format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
                       'sec/batch)')
@@ -245,16 +227,16 @@ def train():
         summary_writer.add_summary(summary_str, step)
 
       # Save the model checkpoint periodically.
-      if step % 1000 == 0 or (step + 1) == FLAGS.max_steps:
-        checkpoint_path = os.path.join(FLAGS.train_dir, 'model.ckpt')
+      if step % 1000 == 0 or (step + 1) == tfFLAGS.max_steps:
+        checkpoint_path = os.path.join(tfFLAGS.train_dir, 'model.ckpt')
         saver.save(sess, checkpoint_path, global_step=step)
 
 
 def main(argv=None):  # pylint: disable=unused-argument
   cifar10.maybe_download_and_extract()
-  if tf.gfile.Exists(FLAGS.train_dir):
-    tf.gfile.DeleteRecursively(FLAGS.train_dir)
-  tf.gfile.MakeDirs(FLAGS.train_dir)
+  if tf.gfile.Exists(tfFLAGS.train_dir):
+    tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
+  tf.gfile.MakeDirs(tfFLAGS.train_dir)
   train()
 
 

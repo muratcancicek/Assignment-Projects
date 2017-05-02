@@ -1,4 +1,5 @@
 from cifar10_train import main as run_cifar10_train
+from cifar10_multi_gpu_train import main as run_cifar10_multi_gpu_train
 from cifar10_eval import main as run_cifar10_eval, tf
 from PythonVersionHandler import *
 from paths import *
@@ -9,9 +10,10 @@ def printSeparater():
         
 def main(method = None):
     printSeparater()
-    print_('%s:' % nowStr(), 'Running on', os.getenv('COMPUTERNAME') + '...')
+    print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
     
     if method == None:
+      #   run_cifar10_multi_gpu_train()
         run_cifar10_train()
         run_cifar10_eval()
     else:
@@ -20,7 +22,8 @@ def main(method = None):
     print_('%s:' % nowStr(), 'DONE')
     printSeparater()
 
-    sys.exit() 
+    if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8':
+        sys.exit() 
 
 if __name__ == "__main__":
     main()

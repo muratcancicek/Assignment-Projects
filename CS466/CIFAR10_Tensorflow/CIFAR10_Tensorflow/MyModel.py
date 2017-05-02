@@ -1,18 +1,19 @@
 from cifar10 import * 
+import tfFLAGS 
 
 def _activation_summary(x):
-  tensor_name = re.sub('%s_[0-9]*/' % TOWER_NAME, '', x.op.name)
+  tensor_name = re.sub('%s_[0-9]*/' % tfFLAGS.TOWER_NAME, '', x.op.name)
   tf.summary.histogram(tensor_name + '/activations', x)
   tf.summary.scalar(tensor_name + '/sparsity', tf.nn.zero_fraction(x))
 
 def _variable_on_cpu(name, shape, initializer):
   with tf.device('/cpu:0'):
-    dtype = tf.float16 if FLAGS.use_fp16 else tf.float32
+    dtype = tf.float16 if tfFLAGS.use_fp16 else tf.float32
     var = tf.get_variable(name, shape, initializer=initializer, dtype=dtype)
   return var
 
 def _variable_with_weight_decay(name, shape, stddev, wd):
-  dtype = tf.float16 if FLAGS.use_fp16 else tf.float32
+  dtype = tf.float16 if tfFLAGS.use_fp16 else tf.float32
   var = _variable_on_cpu(name, shape, tf.truncated_normal_initializer(stddev=stddev, dtype=dtype))
   if wd is not None:
     weight_decay = tf.multiply(tf.nn.l2_loss(var), wd, name='weight_loss')
@@ -51,7 +52,7 @@ def inference(images):
   # local3
   with tf.variable_scope('local3') as scope:
     # Move everything into depth so we can perform a single matrix multiply.
-    reshape = tf.reshape(pool2, [FLAGS.batch_size, -1])
+    reshape = tf.reshape(pool2, [tfFLAGS.batch_size, -1])
     dim = reshape.get_shape()[1].value
     weights = _variable_with_weight_decay('weights', shape=[dim, 384], stddev=0.04, wd=0.004)
     biases = _variable_on_cpu('biases', [384], tf.constant_initializer(0.1))
@@ -70,8 +71,8 @@ def inference(images):
   # tf.nn.sparse_softmax_cross_entropy_with_logits accepts the unscaled logits
   # and performs the softmax internally for efficiency.
   with tf.variable_scope('softmax_linear') as scope:
-    weights = _variable_with_weight_decay('weights', [192, NUM_CLASSES], stddev=1/192.0, wd=0.0)
-    biases = _variable_on_cpu('biases', [NUM_CLASSES], tf.constant_initializer(0.0))
+    weights = _variable_with_weight_decay('weights', [192, tfFLAGS.NUM_CLASSES], stddev=1/192.0, wd=0.0)
+    biases = _variable_on_cpu('biases', [tfFLAGS.NUM_CLASSES], tf.constant_initializer(0.0))
     softmax_linear = tf.add(tf.matmul(local4, weights), biases, name=scope.name)
     _activation_summary(softmax_linear)
 

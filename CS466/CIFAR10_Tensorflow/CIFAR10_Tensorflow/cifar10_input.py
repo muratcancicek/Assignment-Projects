@@ -15,7 +15,10 @@
 
 """Routine for decoding the CIFAR-10 binary file format."""
 
-from tfFLAGS import *
+from PythonVersionHandler import print_
+from paths import *
+import tfFLAGS 
+
 
 def read_cifar10(filename_queue):
     """Reads and parses examples from CIFAR10 data files.
@@ -133,8 +136,8 @@ def distorted_inputs(data_dir, batch_size):
     read_input = read_cifar10(filename_queue)
     reshaped_image = tf.cast(read_input.uint8image, tf.float32)
 
-    height = IMAGE_SIZE
-    width = IMAGE_SIZE
+    height = tfFLAGS.IMAGE_SIZE
+    width = tfFLAGS.IMAGE_SIZE
 
     # Image processing for training the network. Note the many random
     # distortions applied to the image.
@@ -159,8 +162,8 @@ def distorted_inputs(data_dir, batch_size):
 
     # Ensure that the random shuffling has good mixing properties.
     min_fraction_of_examples_in_queue = 0.4
-    min_queue_examples = int(NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN * min_fraction_of_examples_in_queue)
-    print_ ('Filling queue with %d CIFAR images before starting to train. '
+    min_queue_examples = int(tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN * min_fraction_of_examples_in_queue)
+    print_('Filling queue with %d CIFAR images before starting to train. '
                  'This will take a few minutes.' % min_queue_examples)
 
     # Generate a batch of images and labels by building up a queue of examples.
@@ -179,10 +182,10 @@ def inputs(eval_data, data_dir, batch_size):
     if not eval_data:
         filenames = [os.path.join(data_dir, 'data_batch_%d.bin' % i)
                      for i in xrange(1, 6)]
-        num_examples_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN
+        num_examples_per_epoch = tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN
     else:
         filenames = [os.path.join(data_dir, 'test_batch.bin')]
-        num_examples_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_EVAL
+        num_examples_per_epoch = tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_EVAL
 
     for f in filenames:
         if not tf.gfile.Exists(f):
@@ -195,8 +198,8 @@ def inputs(eval_data, data_dir, batch_size):
     read_input = read_cifar10(filename_queue)
     reshaped_image = tf.cast(read_input.uint8image, tf.float32)
 
-    height = IMAGE_SIZE
-    width = IMAGE_SIZE
+    height = tfFLAGS.IMAGE_SIZE
+    width = tfFLAGS.IMAGE_SIZE
 
     # Image processing for evaluation.
     # Crop the central [height, width] of the image.

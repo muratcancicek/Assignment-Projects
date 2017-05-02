@@ -1,9 +1,13 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 from OutputLogger import OutputLogger
 import sys
 import os
 
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
+if COMPUTERNAME == None: COMPUTERNAME = 'server'
 
 def joinPath(*args):
     return os.path.join(args[0], args[1])
@@ -24,6 +28,25 @@ if COMPUTERNAME == 'MSI':
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
 else:
-    gitDir = '/root/Projects/Assignment-Projects'
+    gitDir = '/soe/cicekm/Projects/Assignment-Projects'
 
 outputFileName = joinPath(gitDir, 'CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow/output.txt')
+
+from datetime import datetime
+import time
+
+import tensorflow as tf
+
+import os
+import re
+import sys
+import tarfile
+
+from six.moves import urllib, xrange
+import numpy as np
+
+#from PythonVersionHandler import *
+#import cifar10_input
+#import cifar10
+#import MyModel
+#import tfFLAGS

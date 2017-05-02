@@ -27,7 +27,13 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from tfFLAGS import *
+
+from PythonVersionHandler import *
+from paths import *
+import cifar10
+import tfFLAGS 
+import MyModel
+
 
 def train():
     """Train CIFAR-10 for a number of steps."""
@@ -61,31 +67,31 @@ def train():
                 return tf.train.SessionRunArgs(loss)    # Asks for loss value.
 
             def after_run(self, run_context, run_values):
-                if self._step % FLAGS.log_frequency == 0:
+                if self._step % tfFLAGS.log_frequency == 0:
                     current_time = time.time()
                     duration = current_time - self._start_time
                     self._start_time = current_time
 
                     loss_value = run_values.results
-                    examples_per_sec = FLAGS.log_frequency * FLAGS.batch_size / duration
-                    sec_per_batch = float(duration / FLAGS.log_frequency)
+                    examples_per_sec = tfFLAGS.log_frequency * tfFLAGS.batch_size / duration
+                    sec_per_batch = float(duration / tfFLAGS.log_frequency)
 
                     format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
                                                 'sec/batch)')
                     print_(format_str % (datetime.now(), self._step, loss_value, examples_per_sec, sec_per_batch))
-
-        with tf.train.MonitoredTrainingSession(checkpoint_dir=FLAGS.train_dir,
-                hooks=[tf.train.StopAtStepHook(last_step=FLAGS.max_steps), tf.train.NanTensorHook(loss),_LoggerHook()],
-                config=tf.ConfigProto( log_device_placement=FLAGS.log_device_placement)) as mon_sess:
+        
+        with tf.train.MonitoredTrainingSession(checkpoint_dir=tfFLAGS.train_dir,
+                hooks=[tf.train.StopAtStepHook(last_step=tfFLAGS.max_steps), tf.train.NanTensorHook(loss),_LoggerHook()],
+                config=tf.ConfigProto( device_count = {'GPU': 0}, log_device_placement=tfFLAGS.log_device_placement)) as mon_sess:
             while not mon_sess.should_stop():
                 mon_sess.run(train_op)
 
 
 def main(argv=None):    # pylint: disable=unused-argument
     cifar10.maybe_download_and_extract()
-    if tf.gfile.Exists(FLAGS.train_dir):
-        tf.gfile.DeleteRecursively(FLAGS.train_dir)
-    tf.gfile.MakeDirs(FLAGS.train_dir)
+    if tf.gfile.Exists(tfFLAGS.train_dir):
+        tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
+    tf.gfile.MakeDirs(tfFLAGS.train_dir)
     train()
      
 

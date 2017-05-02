@@ -106,3 +106,108 @@ The test accuracy = 0.978
 2017-04-29 18:04:17.314429: step 21990, loss = 0.83 (187.2 examples/sec; 0.684 sec/batch)
 2017-04-29 18:04:25.042034: step 22000, loss = 0.85 (165.6 examples/sec; 0.773 sec/batch)
 2017-04-29 18:04:32.684203: step 22010, loss = 0.78 (167.5 examples/sec; 0.764 sec/batch) MAC PRO (CPU)
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-01 15:21:54.054698: step 10, loss = 4.61 (1799.5 examples/sec; 0.071 sec/batch)
+2017-05-01 15:21:55.487813: step 20, loss = 4.55 (1783.4 examples/sec; 0.072 sec/batch)
+2017-05-01 15:21:56.911359: step 30, loss = 4.31 (1834.5 examples/sec; 0.070 sec/batch)
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-01 15:21:27.927647: Running on server...
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties:
+name: Tesla K20c
+major: 3 minor: 5 memoryClockRate (GHz) 0.7055
+pciBusID 0000:03:00.0
+Total memory: 4.63GiB
+Free memory: 4.57GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x567c4f0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties:
+name: Tesla K20c
+major: 3 minor: 5 memoryClockRate (GHz) 0.7055
+pciBusID 0000:43:00.0
+Total memory: 4.63GiB
+Free memory: 4.57GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y N
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   N Y
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20c, pci bus id: 0000:03:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K20c, pci bus id: 0000:43:00.0)
+2017-05-01 15:21:51.235804: step 0, loss = 4.67 (14.6 examples/sec; 8.771 sec/batch)
+2017-05-01 15:21:54.054698: step 10, loss = 4.61 (1799.5 examples/sec; 0.071 sec/batch)
+2017-05-01 15:21:55.487813: step 20, loss = 4.55 (1783.4 examples/sec; 0.072 sec/batch)
+2017-05-01 15:21:56.911359: step 30, loss = 4.31 (1834.5 examples/sec; 0.070 sec/batch)
+2017-05-01 15:21:58.316040: step 40, loss = 4.31 (1808.1 examples/sec; 0.071 sec/batch)
+2017-05-01 15:21:59.747394: step 50, loss = 4.31 (1824.6 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:01.170882: step 60, loss = 4.26 (1809.5 examples/sec; 0.071 sec/batch)
+2017-05-01 15:22:02.597701: step 70, loss = 4.14 (1612.8 examples/sec; 0.079 sec/batch)
+2017-05-01 15:22:04.023675: step 80, loss = 4.23 (1822.4 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:05.432368: step 90, loss = 4.20 (1831.8 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:06.855312: step 100, loss = 4.13 (1838.5 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:08.453513: step 110, loss = 4.06 (1802.4 examples/sec; 0.071 sec/batch)
+2017-05-01 15:22:09.879151: step 120, loss = 4.10 (1802.6 examples/sec; 0.071 sec/batch)
+2017-05-01 15:22:11.320827: step 130, loss = 4.04 (1832.9 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:12.761198: step 140, loss = 3.97 (1634.1 examples/sec; 0.078 sec/batch)
+2017-05-01 15:22:14.164299: step 150, loss = 3.79 (1841.8 examples/sec; 0.069 sec/batch)
+2017-05-01 15:22:15.592426: step 160, loss = 3.84 (1817.0 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:17.031728: step 170, loss = 3.81 (1815.9 examples/sec; 0.070 sec/batch)
+2017-05-01 15:22:18.442208: step 180, loss = 3.88 (1756.6 examples/sec; 0.073 sec/batch)
+2017-05-01 15:22:19.883740: step 190, loss = 3.81 (1754.6 examples/sec; 0.073 sec/batch)
+2017-05-01 15:22:21.310602: step 200, loss = 4.01 (1789.5 examples/sec; 0.072 sec/batch)
+2017-05-01 15:22:22.914951: step 210, loss = 3.92 (1709.0 examples/sec; 0.075 sec/batch)
+2017-05-01 15:22:24.352541: step 220, loss = 3.73 (1737.3 examples/sec; 0.074 sec/batch)
+2017-05-01 15:22:25.797563: step 230, loss = 3.83 (1791.3 examples/sec; 0.071 sec/batch)
+2017-05-01 15:22:27.216711: step 240, loss = 3.57 (1777.9 examples/sec; 0.072 sec/batch)
+2017-05-01 15:22:28.634092: step 250, loss = 3.56 (1814.1 examples/sec; 0.071 sec/batch)
+2017-05-01 15:22:30.058819: step 260, loss = 3.49 (1795.0 examples/sec; 0.071 sec/batch)
+2017-05-01 15:22:31.480049: step 270, loss = 3.66 (1748.2 examples/sec; 0.073 sec/batch)
+2017-05-01 15:22:32.896824: step 280, loss = 3.69 (1843.0 examples/sec; 0.069 sec/batch)
+2017-05-01 15:22:34.325433: step 290, loss = 3.49 (1885.7 examples/sec; 0.068 sec/batch)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20c, pci bus id: 0000:03:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K20c, pci bus id: 0000:43:00.0)
+2017-05-01 15:22:39.083543: precision @ 1 = 0.496
+2017-05-01 15:22:39.351331: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-02 19:42:16.698996: Running on MSI...
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "BestSplits" device_type: "CPU"') for unknown op: BestSplits
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "CountExtremelyRandomStats" device_type: "CPU"') for unknown op: CountExtremelyRandomStats
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "FinishedNodes" device_type: "CPU"') for unknown op: FinishedNodes
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "GrowTree" device_type: "CPU"') for unknown op: GrowTree
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ReinterpretStringToFloat" device_type: "CPU"') for unknown op: ReinterpretStringToFloat
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "SampleInputs" device_type: "CPU"') for unknown op: SampleInputs
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ScatterAddNdim" device_type: "CPU"') for unknown op: ScatterAddNdim
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNInsert" device_type: "CPU"') for unknown op: TopNInsert
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNRemove" device_type: "CPU"') for unknown op: TopNRemove
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TreePredictions" device_type: "CPU"') for unknown op: TreePredictions
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "UpdateFertileSlots" device_type: "CPU"') for unknown op: UpdateFertileSlots
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties:
+name: GeForce GTX 880M
+major: 3 minor: 0 memoryClockRate (GHz) 0.993
+pciBusID 0000:01:00.0
+Total memory: 8.00GiB
+Free memory: 6.73GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 880M, pci bus id: 0000:01:00.0)
+2017-05-02 19:42:26.526405: step 0, loss = 6.38 (1818.8 examples/sec; 0.070 sec/batch)
+2017-05-02 19:44:14.946251: step 100, loss = 5.90 (118.1 examples/sec; 1.084 sec/batch)
+2017-05-02 19:46:18.165279: step 200, loss = 5.10 (103.9 examples/sec; 1.232 sec/batch)
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 880M, pci bus id: 0000:01:00.0)
+2017-05-02 19:48:03.199919: precision @ 1 = 0.545
+2017-05-02 19:48:03.914295: DONE
+########################################################################################
+########################################################################################
+########################################################################################
