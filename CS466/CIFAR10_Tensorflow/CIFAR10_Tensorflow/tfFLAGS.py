@@ -14,10 +14,10 @@ FLAGS = tf.app.flags.FLAGS
 
 # Basic model parameters.
 batch_size = 128
-data_dir = '/tmp/cifar10_data'
+data_dir = './tmp/cifar10_data'
 use_fp16 = False
 
-train_dir = '/tmp/cifar10_train'
+train_dir = './tmp/cifar10_train'
 max_steps = 100
 log_device_placement = False
 log_frequency = 100
