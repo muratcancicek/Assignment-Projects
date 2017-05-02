@@ -2,7 +2,7 @@ from cifar10_train import main as run_cifar10_train
 from cifar10_eval import main as run_cifar10_eval, tf
 from PythonVersionHandler import *
 from paths import *
-
+ 
 def printSeparater():
     for n in range(3):
         print_('#' * 88)

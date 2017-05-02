@@ -11,7 +11,7 @@ import os
 import re
 import sys
 import tarfile
-
+ 
 from six.moves import urllib, xrange
 import tensorflow as tf
 
