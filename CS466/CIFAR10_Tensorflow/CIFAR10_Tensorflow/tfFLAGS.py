@@ -20,7 +20,7 @@ use_fp16 = False
 train_dir = '/tmp/cifar10_train'
 max_steps = 300
 log_device_placement = False
-log_frequency = 1000
+log_frequency = 100
 
 #FLAGS = tf.app.flags.FLAGS
 #if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8' or COMPUTERNAME == 'server':
@@ -47,6 +47,14 @@ TOWER_NAME = 'tower'
 num_gpus = 1
 
 DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz'
+
+eval_dir = '/tmp/cifar10_eval'
+eval_data = 'test'
+checkpoint_dir = '/tmp/cifar10_train'
+eval_interval_secs = 60 * 5
+num_examples = 1000
+run_once = True
+
 
 from PythonVersionHandler import *
 import cifar10_input
