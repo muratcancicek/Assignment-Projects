@@ -198,8 +198,8 @@ def inputs(eval_data, data_dir, batch_size):
     read_input = read_cifar10(filename_queue)
     reshaped_image = tf.cast(read_input.uint8image, tf.float32)
 
-    height = IMAGE_SIZE
-    width = IMAGE_SIZE
+    height = tfFLAGS.IMAGE_SIZE
+    width = tfFLAGS.IMAGE_SIZE
 
     # Image processing for evaluation.
     # Crop the central [height, width] of the image.
