@@ -26,29 +26,13 @@ Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
 
-from datetime import datetime
-import math
-import time
-
-import numpy as np
-import tensorflow as tf
-
+from PythonVersionHandler import *
+from paths import *
 import cifar10
+import tfFLAGS 
 import MyModel
-
-FLAGS = tf.app.flags.FLAGS
-
-tf.app.flags.DEFINE_string('eval_dir', '/tmp/cifar10_eval',    """Directory where to write event logs.""")
-tf.app.flags.DEFINE_string('eval_data', 'test', """Either 'test' or 'train_eval'.""")
-tf.app.flags.DEFINE_string('checkpoint_dir', '/tmp/cifar10_train', """Directory where to read model checkpoints.""")
-tf.app.flags.DEFINE_integer('eval_interval_secs', 60 * 5, """How often to run the eval.""")
-tf.app.flags.DEFINE_integer('num_examples', 1000, """Number of examples to run.""")
-tf.app.flags.DEFINE_boolean('run_once', True, """Whether to run eval only once.""")
-
+import math
 
 def eval_once(saver, summary_writer, top_k_op, summary_op):
     """Run Eval once.
@@ -59,7 +43,7 @@ def eval_once(saver, summary_writer, top_k_op, summary_op):
         summary_op: Summary op.
     """
     with tf.Session() as sess:
-        ckpt = tf.train.get_checkpoint_state(FLAGS.checkpoint_dir) 
+        ckpt = tf.train.get_checkpoint_state(tfFLAGS.checkpoint_dir)
         if ckpt and ckpt.model_checkpoint_path:
             # Restores from checkpoint
             saver.restore(sess, ckpt.model_checkpoint_path)
@@ -78,9 +62,9 @@ def eval_once(saver, summary_writer, top_k_op, summary_op):
             for qr in tf.get_collection(tf.GraphKeys.QUEUE_RUNNERS):
                 threads.extend(qr.create_threads(sess, coord=coord, daemon=True, start=True))
 
-            num_iter = int(math.ceil(FLAGS.num_examples / FLAGS.batch_size))
+            num_iter = int(math.ceil(tfFLAGS.num_examples / tfFLAGS.batch_size))
             true_count = 0    # Counts the number of correct predictions.
-            total_sample_count = num_iter * FLAGS.batch_size
+            total_sample_count = num_iter * tfFLAGS.batch_size
             step = 0
             while step < num_iter and not coord.should_stop():
                 predictions = sess.run([top_k_op])
@@ -89,7 +73,7 @@ def eval_once(saver, summary_writer, top_k_op, summary_op):
 
             # Compute precision @ 1.
             precision = true_count / total_sample_count
-            print('%s: precision @ 1 = %.3f' % (datetime.now(), precision))
+            print_('%s: precision @ 1 = %.3f' % (datetime.now(), precision))
 
             summary = tf.Summary()
             summary.ParseFromString(sess.run(summary_op))
@@ -106,7 +90,7 @@ def evaluate():
     """Eval CIFAR-10 for a number of steps."""
     with tf.Graph().as_default() as g:
         # Get images and labels for CIFAR-10.
-        eval_data = FLAGS.eval_data == 'test'
+        eval_data = tfFLAGS.eval_data == 'test'
         images, labels = cifar10.inputs(eval_data=eval_data)
 
         # Build a Graph that computes the logits predictions from the
@@ -118,27 +102,27 @@ def evaluate():
         top_k_op = tf.nn.in_top_k(logits, labels, 1)
 
         # Restore the moving average version of the learned variables for eval.
-        variable_averages = tf.train.ExponentialMovingAverage(cifar10.MOVING_AVERAGE_DECAY)
+        variable_averages = tf.train.ExponentialMovingAverage(tfFLAGS.MOVING_AVERAGE_DECAY)
         variables_to_restore = variable_averages.variables_to_restore()
         saver = tf.train.Saver(variables_to_restore)
 
         # Build the summary operation based on the TF collection of Summaries.
         summary_op = tf.summary.merge_all()
 
-        summary_writer = tf.summary.FileWriter(FLAGS.eval_dir, g)
+        summary_writer = tf.summary.FileWriter(tfFLAGS.eval_dir, g)
 
         while True:
             eval_once(saver, summary_writer, top_k_op, summary_op)
-            if FLAGS.run_once:
+            if tfFLAGS.run_once:
                 break
-            time.sleep(FLAGS.eval_interval_secs)
+            time.sleep(tfFLAGS.eval_interval_secs)
 
 
 def main(argv=None):    # pylint: disable=unused-argument
     cifar10.maybe_download_and_extract()
-    if tf.gfile.Exists(FLAGS.eval_dir):
-        tf.gfile.DeleteRecursively(FLAGS.eval_dir)
-    tf.gfile.MakeDirs(FLAGS.eval_dir)
+    if tf.gfile.Exists(tfFLAGS.eval_dir):
+        tf.gfile.DeleteRecursively(tfFLAGS.eval_dir)
+    tf.gfile.MakeDirs(tfFLAGS.eval_dir)
     evaluate()
     #tf.app.run()
 

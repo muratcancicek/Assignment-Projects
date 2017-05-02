@@ -93,7 +93,7 @@ def main(argv=None):    # pylint: disable=unused-argument
         tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
     tf.gfile.MakeDirs(tfFLAGS.train_dir)
     train()
-     
+
 
 if __name__ == '__main__':
     tf.app.run()
