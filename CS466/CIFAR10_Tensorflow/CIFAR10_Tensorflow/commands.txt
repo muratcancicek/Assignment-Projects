@@ -75,4 +75,11 @@ cd /soe/cicekm/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Ten
 tmux attach -t 0
 nvidia-docker run -it TensorFlowGPUImage
 
-git pull & python runCIFAR10_Tensorflow.py
+git pull 
+python runCIFAR10_Tensorflow.py
+Ozyegin University, Çekmeköy Campus Ni?antepe District,Orman Street, 34794 Çekmeköy - ?stanbul
+ssh -p 50278 miek@209.58.132.3
+ssh -p 50278 miek@10.200.8.230
+
+ssh miek@10.200.8.230
+ssh miek@209.58.132.3

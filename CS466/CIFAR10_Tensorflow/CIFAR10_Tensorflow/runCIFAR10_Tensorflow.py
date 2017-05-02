@@ -14,7 +14,7 @@ def main(method = None):
     
     if method == None:
         run_cifar10_multi_gpu_train()
-       #  run_cifar10_train()
+      #   run_cifar10_train()
         run_cifar10_eval()
     else:
         method()
