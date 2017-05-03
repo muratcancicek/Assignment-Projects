@@ -55,10 +55,10 @@ def trainDataGenerationTest():
     outputFolder = joinPath(HDFSDataFolder, 'Day1_jant_Data')
     generateTrainData(logs, keyword, outputFolder)
 
-def generateJourney(logs, keyword): 
+def generateJourney(logs, keyword, day): 
     rawKeyword = keyword
     keyword = keyword.replace(' ', '_')
-    outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
+    outputFolder = joinPath(HDFSDataFolder, 'Day' + str(day) + '_' + keyword + '_Data')
     #if not os.path.exists(outputFolder):
     #    os.mkdir(outputFolder)
     inputName = 'all_day'
@@ -66,13 +66,13 @@ def generateJourney(logs, keyword):
     journey = getJourneyByKeyword(logs, rawKeyword)
     saveRDDToHDFS(journey, journeyFile)
 
-def generateJourneys(keywords = None, logs = None):
+def generateJourneys(keywords = None, logs = None, day = 1):
     if logs == None: logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
     if logs == None: #keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
         keywords = ['iphone 6', 'jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
     for keyword in keywords:
         #print_('Day1_' + keyword.replace(' ', '_') + '_Data')
-        generateJourney(logs, keyword)
+        generateJourney(logs, keyword, day)
 
 def countJourneys():
     counts = []
