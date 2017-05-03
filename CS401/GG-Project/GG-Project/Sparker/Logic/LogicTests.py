@@ -172,3 +172,4 @@ def trainLocalDataTest():
     #trainPairWiseDataTestKeyword()
     #trainPairWiseDataTest()
     print_(6)
+    print_(96)

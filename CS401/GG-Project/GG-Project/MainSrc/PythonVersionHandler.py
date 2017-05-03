@@ -11,7 +11,7 @@ def print_(*args):
     for ar in args:
         line += str(ar) + ' '
     line = line[:-1]+'\n'
-    sys.stdout.write(line)
+    print(line[:-1])
     outputFileName = paths.joinPath(paths.dataFolder, 'output2.txt')
     if os.path.isfile(outputFileName):
         open(outputFileName, 'a').write(line)  
