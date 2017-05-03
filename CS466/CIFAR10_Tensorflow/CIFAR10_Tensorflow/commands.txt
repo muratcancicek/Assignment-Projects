@@ -85,3 +85,4 @@ ssh -p 50278 miek@10.200.8.230
 ssh miek@10.200.8.230
 ssh miek@209.58.132.3
  chown -R cicekm:username  ~/.local/share/jupyter
+git commit --all "from gg"
