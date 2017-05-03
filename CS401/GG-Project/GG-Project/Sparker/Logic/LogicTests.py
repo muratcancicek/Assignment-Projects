@@ -66,10 +66,11 @@ def generateJourney(logs, keyword):
     journey = getJourneyByKeyword(logs, rawKeyword)
     saveRDDToHDFS(journey, journeyFile)
 
-def generateJourneys():
-    logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
-    keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
-    for keyword in keywords[3:]:
+def generateJourneys(keywords = None, logs = None):
+    if logs == None: logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
+    if logs == None: #keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
+        keywords = ['iphone 6', 'jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
+    for keyword in keywords:
         #print_('Day1_' + keyword.replace(' ', '_') + '_Data')
         generateJourney(logs, keyword)
 
