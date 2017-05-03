@@ -233,3 +233,4 @@ ModelManifest.xml
 /CS401/GG-Project/GG-Project/Sparker/Logic/__pycache__/TrainDataHandler.cpython-35.pyc
 /CS401/GG-Project/GG-Project/Sparker/MLlibTests/__pycache__/fm_parallel_sgd.cpython-35.pyc
 *.pyc
+/CS401/GG-Project/GG-Project/data/output2.txt

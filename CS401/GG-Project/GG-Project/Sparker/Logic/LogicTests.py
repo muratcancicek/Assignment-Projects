@@ -170,4 +170,5 @@ def trainLocalDataTest():
     #runtrainDataGenerationTest()
     #trainDataGenerationTest('iphone 6')
     #trainPairWiseDataTestKeyword()
-    trainPairWiseDataTest()
+    #trainPairWiseDataTest()
+    print_(0)
