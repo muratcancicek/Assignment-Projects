@@ -1,4 +1,4 @@
-from cifar10_train import main as run_cifar10_train
+from cifar10_train import main as run_cifar10_train, tfFLAGS
 from cifar10_multi_gpu_train import main as run_cifar10_multi_gpu_train
 from cifar10_eval import main as run_cifar10_eval, tf
 from PythonVersionHandler import *
@@ -13,9 +13,10 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
     
     if method == None:
+        tfFLAGS.printExperimentDetails()
         run_cifar10_multi_gpu_train()
      #    run_cifar10_train()
-        run_cifar10_eval()
+        run_cifar10_eval() 
     else:
         method()
 
