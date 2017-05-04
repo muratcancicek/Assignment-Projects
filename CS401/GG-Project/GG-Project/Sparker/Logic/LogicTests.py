@@ -45,7 +45,7 @@ def userBehaviorTestOnIPhone6Data():
     printJourney(journey)
 
 def parseAllDayTest():
-   allDayPath, outputPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-25', joinPath('/user/root/Parsed', entireDay1 + '_parsed')
+   allDayPath, outputPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-26', joinPath('/user/root/Parsed', entireDay2 + '_parsed')
    print_('Output Folder:', outputPath)
    parseAllDay(allDayPath, outputPath)
    
@@ -68,7 +68,7 @@ def generateJourney(logs, keyword, day):
 
 def generateJourneys(keywords = None, logs = None, day = 1):
     if logs == None: logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
-    if logs == None: #keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
+    if keywords == None: #keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
         keywords = ['iphone 6', 'jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
     for keyword in keywords:
         #print_('Day1_' + keyword.replace(' ', '_') + '_Data')
@@ -163,7 +163,7 @@ def trainLocalDataTest():
     #trainTestOnIPhone6Data()
     #rankingTestOnIPhone6Data()
     #userBehaviorTestOnIPhone6Data()
-    #parseAllDayTest()
+    parseAllDayTest()
     #trainDataGenerationTest() 
     #generateJourneys()
     #countJourneys()
@@ -171,5 +171,3 @@ def trainLocalDataTest():
     #trainDataGenerationTest('iphone 6')
     #trainPairWiseDataTestKeyword()
     #trainPairWiseDataTest()
-    print_(6)
-    print_(96)

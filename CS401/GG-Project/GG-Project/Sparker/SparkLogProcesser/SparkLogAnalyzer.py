@@ -125,7 +125,7 @@ def readCounts(logs = None, fileName = 'counts'):
 
 def getLogsColumnAsList(key, logs = None, fromFileName = TEST_LOGS):
     if transpose == None:
-        logs = getLogs(logs, fromFileName)
+        #logs = getLogs(logs, fromFileName)
         return logs.map(lambda log: log[key] if key in log.keys() else None).collect()
     else:
         return transpose[key]
