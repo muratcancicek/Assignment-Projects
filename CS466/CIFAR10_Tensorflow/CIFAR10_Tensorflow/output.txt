@@ -605,3 +605,29 @@ Filling queue with 20000 CIFAR images before starting to train. This will take a
 ########################################################################################
 ########################################################################################
 ########################################################################################
+Summary of Network 1:
+conv1Shape: [2, 2, 3, 4]
+pool1ksize: [1, 2, 2, 1]  | pool1strides: [1, 2, 2, 1]  | pool1padding: SAME
+conv2Shape: [2, 2, 4, 10]
+pool2ksize: [1, 2, 2, 1]  | pool2strides: [1, 2, 2, 1]  | pool2padding: SAME
+local3InputDepth: 640  | local3OutputDepth: 640
+local4InputDepth: 640  | local4OutputDepth: 64
+softmax_linearInput: 64
+
+Number of hidden parameters of conv1: 48
+Number of hidden parameters of conv1Biases: 4
+Number of hidden parameters of conv2: 160
+Number of hidden parameters of conv2Biases: 10
+Number of hidden parameters of local3: 409600
+Number of hidden parameters of local3Biases: 640
+Number of hidden parameters of local4: 40960
+Number of hidden parameters of local4Biases: 64
+Number of hidden parameters of softmax: 640
+Number of hidden parameters of softmaxBiases: 10
+Total number of hidden parameters: 452136
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-06 23:41:08.413316: Running on MSI...
+The experiment details:
+network = 1 max_steps = 100 log_frequency = 100 num_gpus = 2

@@ -22,6 +22,25 @@ max_steps = 30000
 log_device_placement = False
 log_frequency = 100
 
+tfFLAGS.IMAGE_SIZE = 32
+
+# Global constants describing the CIFAR-10 data set.
+NUM_CLASSES = 10
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 50000
+NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 10000
+
+FLAGS = tf.app.flags.FLAGS
+
+# Basic model parameters.
+batch_size = 128
+data_dir = '/tmp/cifar10_data'
+use_fp16 = False
+
+train_dir = './tmp/cifar10_train'
+max_steps = 30000
+log_device_placement = False
+log_frequency = 100
+
 #FLAGS = tf.app.flags.FLAGS
 #if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8' or COMPUTERNAME == 'server':
 #    # Basic model parameters.

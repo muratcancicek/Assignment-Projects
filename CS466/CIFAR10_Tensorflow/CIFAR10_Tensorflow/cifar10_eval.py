@@ -129,3 +129,18 @@ def main(argv=None):    # pylint: disable=unused-argument
 
 if __name__ == '__main__':
     tf.app.run()
+
+def mcnamar(predictions1, predictions2, labels):
+    pos_pos, pos_neg, neg_pos, neg_neg = 0, 0, 0, 0
+    for i in range(len(predictions1)):
+        if predictions1[i] == labels[i] and predictions1[i] == labels[i]: 
+            pos_pos += 1
+        elif predictions1[i] != labels[i] and predictions1[i] != labels[i]:
+            neg_neg += 1
+        else:
+            if predictions1[i] == labels[i] and predictions2[i] != labels[i]:
+                pos_neg += 1
+            else:
+                neg_pos += 1
+    print_('Mcnemar test, pos_pos, pos_neg, neg_pos, neg_neg', pos_pos, pos_neg, neg_pos, neg_neg)
+    return pos_pos, pos_neg, neg_pos, neg_neg

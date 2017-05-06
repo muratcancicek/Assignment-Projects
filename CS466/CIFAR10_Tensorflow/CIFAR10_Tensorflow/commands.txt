@@ -28,6 +28,8 @@ python runGG_Project.py
 
 /opt/spark/bin/spark-submit --num-executors 24
 
+/opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh start
+/opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh stop
 /opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh restart
 
 /opt/pythonzeppelin/pythonzeppelin/bin
@@ -50,11 +52,13 @@ jupyter notebook --no-browser --port=8889
 
 F!T(9D2m
 
-jupyter notebook --no-browser --port=8890
-ssh -N -f -L 5089:localhost:8890 root@osldevptst02.host.gittigidiyor.net
+jupyter notebook --no-browser --port=88900
+ssh -N -f -L 5089:localhost:88900 root@osldevptst02.host.gittigidiyor.net
 localhost:8890/?token=0924fc6debfdf4076b2eb6d6a0f0de975d23cab87683d751
 
-ssh -N -f -L 58089:localhost:8889 cicekm@citrisdance.soe.ucsc.edu
+ssh -N -f -L 5080:127.0.0.1:88900 cicekm@citrisdance.soe.ucsc.edu 
+ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
+ssh -N -f -L 58089:localhost:8889 cicekm@citrisdance.soe.ucsc.edu 
 
 localhost:58089/?token=711865e45b78e63d36d4dc75fcee6781eeeb913595add31e
 
@@ -84,5 +88,35 @@ ssh -p 50278 miek@10.200.8.230
 
 ssh miek@10.200.8.230
 ssh miek@209.58.132.3
- chown -R cicekm:username  ~/.local/share/jupyter
+ chown -R cicekm:username
+rm -r  ~/.local/share/jupyter
 git commit --all "from gg"
+
+[cicekm@citrisdance CIFAR10_Tensorflow]$ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
+Generating a 1024 bit RSA private key
+.......................++++++
+..++++++
+writing new private key to 'mykey.key'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:TR
+State or Province Name (full name) [Some-State]:Istanbul
+Locality Name (eg, city) []:Cekmekoy
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Ozyegin
+Organizational Unit Name (eg, section) []:CS
+Common Name (e.g. server FQDN or YOUR name) []:muratcan
+Email Address []:mcicek@ucsc.edu
+[cicekm@citrisdance CIFAR10_Tensorflow]$ jupyter noteb
+
+
+git add ./cifar10_multi_gpu_train.py
+git add  ./output.txt
+git add  ./runCIFAR10_Tensorflow.py
+git add  ./tfFLAGS.py
+git add  ./tmp/cifar10_train/checkpoint
