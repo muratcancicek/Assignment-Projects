@@ -36,6 +36,7 @@ from paths import *
 import cifar10
 import tfFLAGS 
 import MyModel
+import MyModel2
 
 
 def tower_loss(scope):
@@ -45,11 +46,23 @@ def tower_loss(scope):
     Returns:
          Tensor of shape [] containing the total loss for a batch of data
     """
-    # Get images and labels for CIFAR-10.
-    images, labels = cifar10.distorted_inputs()
+    # Build a Graph that computes the logits predictions from the
+    # inference model.
+    if tfFLAGS.network == 1:
+        images, labels = cifar10.distorted_inputs()
+        logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel.inference(images)
+    else:
+        images, labels = cifar10.distorted_inputs()
+        logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel2.inference(images)
 
-    # Build inference Graph.
-    logits = MyModel.inference(images)
+    # Calculate loss.
+    loss = cifar10.loss(logits, labels)
+
+        # L2 regularization for the fully connected parameters.
+    regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) + tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
+
+    # Add the regularization term to the loss.
+    loss += 5e-4 * regularizers
 
     # Build the portion of the Graph calculating the losses. Note that we will
     # assemble the total_loss using a custom function below.
@@ -113,14 +126,21 @@ def train():
     with tf.Graph().as_default(), tf.device('/cpu:0'):
         # Create a variable to count the number of train() calls. This equals the
         # number of batches processed * num_gpus.
-        global_step = tf.get_variable('global_step', [], initializer=tf.constant_initializer(0), trainable=False)
+        global_step = tf.get_variable(
+                'global_step', [],
+                initializer=tf.constant_initializer(0), trainable=False)
 
         # Calculate the learning rate schedule.
-        num_batches_per_epoch = (tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN / tfFLAGS.batch_size)
+        num_batches_per_epoch = (tfFLAGS.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
+                                                         tfFLAGS.batch_size)
         decay_steps = int(num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
 
         # Decay the learning rate exponentially based on the number of steps.
-        lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE, global_step, decay_steps, tfFLAGS.LEARNING_RATE_DECAY_FACTOR, staircase=True)
+        lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE,
+                                                                        global_step,
+                                                                        decay_steps,
+                                                                        tfFLAGS.LEARNING_RATE_DECAY_FACTOR,
+                                                                        staircase=True)
 
         # Create an optimizer that performs gradient descent.
         opt = tf.train.GradientDescentOptimizer(lr)
@@ -187,21 +207,43 @@ def train():
         # Start running operations on the Graph. allow_soft_placement must be set to
         # True to build towers on GPU, as some of the ops do not have GPU
         # implementations.
-        sess = tf.Session(config=tf.ConfigProto(device_count = {'GPU': tfFLAGS.num_gpus}, allow_soft_placement=True, log_device_placement=tfFLAGS.log_device_placement))
+        sess = tf.Session(config=tf.ConfigProto( device_count = {'GPU': tfFLAGS.num_gpus},
+                allow_soft_placement=True,
+                log_device_placement=tfFLAGS.log_device_placement))
         sess.run(init)
-        tf.train.start_queue_runners(sess=sess) # Start the queue runners.
+
+        # Start the queue runners.
+        tf.train.start_queue_runners(sess=sess)
+
         summary_writer = tf.summary.FileWriter(tfFLAGS.train_dir, sess.graph)
+        
+        texts = ['conv1:', 'conv1Biases:', 'conv2:', 'conv2Biases:', 'local3:', 'local3Biases:', 'local4:', 'local4Biases:', 'softmax:', 'softmaxBiases:']
+        total_parameters = 0; count = 0
+        for variable in tf.trainable_variables():
+            variable_parametes = 1
+            for dim in variable.get_shape():
+                    variable_parametes *= dim.value
+            print('Number of hidden parameters of ' + texts[count], variable_parametes)
+            total_parameters += variable_parametes
+            count += 1
+        print('Total Number of hidden parameters:', total_parameters)
+
         for step in xrange(tfFLAGS.max_steps):
             start_time = time.time()
             _, loss_value = sess.run([train_op, loss])
             duration = time.time() - start_time
+
             assert not np.isnan(loss_value), 'Model diverged with loss = NaN'
+
             if step % tfFLAGS.log_frequency == 0:
                 num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
                 examples_per_sec = num_examples_per_step / duration
                 sec_per_batch = duration / tfFLAGS.num_gpus
-                format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f sec/batch)')
-                print_(format_str % (datetime.now(), step, loss_value, examples_per_sec, sec_per_batch))
+
+                format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
+                                            'sec/batch)')
+                print_(format_str % (datetime.now(), step, loss_value,
+                                                         examples_per_sec, sec_per_batch))
 
             if step % 100 == 0:
                 summary_str = sess.run(summary_op)

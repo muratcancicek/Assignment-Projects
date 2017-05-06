@@ -32,7 +32,23 @@ from paths import *
 import cifar10
 import tfFLAGS 
 import MyModel
+import MyModel2
 import math
+
+def mcnamar(predictions1, predictions2, labels):
+    pos_pos, pos_neg, neg_pos, neg_neg = 0, 0, 0, 0
+    for i in range(len(predictions1)):
+        if predictions1[i] == labels[i] and predictions1[i] == labels[i]: 
+            pos_pos += 1
+        elif predictions1[i] != labels[i] and predictions1[i] != labels[i]:
+            neg_neg += 1
+        else:
+            if predictions1[i] == labels[i] and predictions2[i] != labels[i]:
+                pos_neg += 1
+            else:
+                neg_pos += 1
+    print_('Mcnemar test, pos_pos, pos_neg, neg_pos, neg_neg', pos_pos, pos_neg, neg_pos, neg_neg)
+    return pos_pos, pos_neg, neg_pos, neg_neg
 
 def eval_once(saver, summary_writer, top_k_op, summary_op):
     """Run Eval once.
@@ -73,6 +89,10 @@ def eval_once(saver, summary_writer, top_k_op, summary_op):
 
             # Compute precision @ 1.
             precision = true_count / total_sample_count
+            print_('Evaluation results:')
+            print_('%s: Total Predictions = %d' % (datetime.now(), total_sample_count))
+            print_('%s: Correct Predictions = %d' % (datetime.now(), true_count))
+            print_('%s: Wrong Predictions = %d' % (datetime.now(), (total_sample_count - true_count)))
             print_('%s: precision @ 1 = %.3f' % (datetime.now(), precision))
 
             summary = tf.Summary()
@@ -85,7 +105,7 @@ def eval_once(saver, summary_writer, top_k_op, summary_op):
         coord.request_stop()
         coord.join(threads, stop_grace_period_secs=10)
 
-
+        
 def evaluate():
     """Eval CIFAR-10 for a number of steps."""
     with tf.Graph().as_default() as g:
@@ -96,8 +116,13 @@ def evaluate():
         # Build a Graph that computes the logits predictions from the
         # inference model.
         #logits = cifar10.inference(images)
-        logits = MyModel.inference(images)
-
+        if tfFLAGS.network == 1:
+            images, labels = cifar10.inputs(tfFLAGS.eval_data)
+            logits, w1, b1, w2, b2 = MyModel.inference(images)
+        else:
+            images, labels = cifar10.inputs(tfFLAGS.eval_data)
+            logits, w1, b1, w2, b2 = MyModel2.inference(images)
+            
         # Calculate predictions.
         top_k_op = tf.nn.in_top_k(logits, labels, 1)
 
@@ -116,14 +141,94 @@ def evaluate():
             if tfFLAGS.run_once:
                 break
             time.sleep(tfFLAGS.eval_interval_secs)
+            
+def eval_once2(saver, summary_writer, top_k_op, summary_op, top_k_op2, labels):
+    """Run Eval once.
+    Args:
+        saver: Saver.
+        summary_writer: Summary writer.
+        top_k_op: Top K op.
+        summary_op: Summary op.
+    """
+    with tf.Session() as sess:
+        ckpt = tf.train.get_checkpoint_state(tfFLAGS.checkpoint_dir)
+        if ckpt and ckpt.model_checkpoint_path:
+            # Restores from checkpoint
+            saver.restore(sess, ckpt.model_checkpoint_path)
+            # Assuming model_checkpoint_path looks something like:
+            #     /my-favorite-path/cifar10_train/model.ckpt-0,
+            # extract global_step from it.
+            global_step = ckpt.model_checkpoint_path.split('/')[-1].split('-')[-1]
+        else:
+            print('No checkpoint file found')
+            return
+
+        # Start the queue runners.
+        coord = tf.train.Coordinator()
+        try:
+            threads = []
+            for qr in tf.get_collection(tf.GraphKeys.QUEUE_RUNNERS):
+                threads.extend(qr.create_threads(sess, coord=coord, daemon=True, start=True))
+
+            num_iter = int(math.ceil(tfFLAGS.num_examples / tfFLAGS.batch_size))
+            true_count = 0    # Counts the number of correct predictions.
+            total_sample_count = num_iter * tfFLAGS.batch_size
+            step = 0
+            predictions1 = sess.run([top_k_op])
+            predictions2 = sess.run([top_k_op2])
+            mcnamar(predictions1, predictions2, labels)
+        except Exception as e:    # pylint: disable=broad-except
+            coord.request_stop(e)
 
 
+def evaluateWithMcnemar():
+    """Eval CIFAR-10 for a number of steps."""
+    with tf.Graph().as_default() as g:
+        # Get images and labels for CIFAR-10.
+        eval_data = tfFLAGS.eval_data == 'test'
+        images, labels = cifar10.inputs(eval_data=eval_data)
+
+        # Build a Graph that computes the logits predictions from the
+        # inference model.
+        #logits = cifar10.inference(images)
+        
+        images, labels = cifar10.inputs(tfFLAGS.eval_data)
+        logits1, w1, b1, w2, b2 = MyModel.inference(images)
+        logits2, w1, b1, w2, b2 = MyModel2.inference(images)
+            # Calculate predictions.
+        top_k_op1 = tf.nn.in_top_k(logits1, labels, 1)
+        top_k_op2 = tf.nn.in_top_k(logits2, labels, 1)
+
+        # Restore the moving average version of the learned variables for eval.
+        variable_averages = tf.train.ExponentialMovingAverage(tfFLAGS.MOVING_AVERAGE_DECAY)
+        variables_to_restore = variable_averages.variables_to_restore()
+        saver = tf.train.Saver(variables_to_restore)
+
+        # Build the summary operation based on the TF collection of Summaries.
+        summary_op = tf.summary.merge_all()
+
+        summary_writer = tf.summary.FileWriter(tfFLAGS.eval_dir, g)
+
+        while True:
+            eval_once2(saver, summary_writer, top_k_op1, summary_op, top_k_op2, labels)
+            if tfFLAGS.run_once:
+                break
+            time.sleep(tfFLAGS.eval_interval_secs)
+            
 def main(argv=None):    # pylint: disable=unused-argument
     cifar10.maybe_download_and_extract()
     if tf.gfile.Exists(tfFLAGS.eval_dir):
         tf.gfile.DeleteRecursively(tfFLAGS.eval_dir)
     tf.gfile.MakeDirs(tfFLAGS.eval_dir)
     evaluate()
+    #tf.app.run()
+
+def mainWithMcnemar(argv=None):    # pylint: disable=unused-argument
+    cifar10.maybe_download_and_extract()
+    if tf.gfile.Exists(tfFLAGS.eval_dir):
+        tf.gfile.DeleteRecursively(tfFLAGS.eval_dir)
+    tf.gfile.MakeDirs(tfFLAGS.eval_dir)
+    evaluateWithMcnemar()
     #tf.app.run()
 
 
