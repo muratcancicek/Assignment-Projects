@@ -33,6 +33,7 @@ from paths import *
 import cifar10
 import tfFLAGS 
 import MyModel
+import MyModel2
 
 
 def train():
@@ -45,11 +46,21 @@ def train():
 
         # Build a Graph that computes the logits predictions from the
         # inference model.
-        #logits = cifar10.inference(images)
-        logits = MyModel.inference(images)
+        if tfFLAGS.network == 1:
+            images, labels = cifar10.distorted_inputs()
+            logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel.inference(images)
+        else:
+            images, labels = cifar10.distorted_inputs()
+            logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel2.inference(images)
 
         # Calculate loss.
         loss = cifar10.loss(logits, labels)
+
+            # L2 regularization for the fully connected parameters.
+        regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) + tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
+
+        # Add the regularization term to the loss.
+        loss += 5e-4 * regularizers
 
         # Build a Graph that trains the model with one batch of examples and
         # updates the model parameters.
@@ -80,6 +91,17 @@ def train():
                                                 'sec/batch)')
                     print_(format_str % (datetime.now(), self._step, loss_value, examples_per_sec, sec_per_batch))
         
+        texts = ['conv1:', 'conv1Biases:', 'conv2:', 'conv2Biases:', 'local3:', 'local3Biases:', 'local4:', 'local4Biases:', 'softmax:', 'softmaxBiases:']
+        total_parameters = 0; count = 0
+        for variable in tf.trainable_variables():
+            variable_parametes = 1
+            for dim in variable.get_shape():
+                    variable_parametes *= dim.value
+            print('Number of hidden parameters of ' + texts[count], variable_parametes)
+            total_parameters += variable_parametes
+            count += 1
+        print('Total Number of hidden parameters:', total_parameters)
+
         with tf.train.MonitoredTrainingSession(checkpoint_dir=tfFLAGS.train_dir,
                 hooks=[tf.train.StopAtStepHook(last_step=tfFLAGS.max_steps), tf.train.NanTensorHook(loss),_LoggerHook()],
                 config=tf.ConfigProto( device_count = {'GPU': 0}, log_device_placement=tfFLAGS.log_device_placement)) as mon_sess:

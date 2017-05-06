@@ -45,7 +45,7 @@ def userBehaviorTestOnIPhone6Data():
     printJourney(journey)
 
 def parseAllDayTest():
-   allDayPath, outputPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-25', joinPath('/user/root/Parsed', entireDay1 + '_parsed')
+   allDayPath, outputPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/2016-12-26', joinPath('/user/root/Parsed', entireDay2 + '_parsed')
    print_('Output Folder:', outputPath)
    parseAllDay(allDayPath, outputPath)
    
@@ -55,10 +55,10 @@ def trainDataGenerationTest():
     outputFolder = joinPath(HDFSDataFolder, 'Day1_jant_Data')
     generateTrainData(logs, keyword, outputFolder)
 
-def generateJourney(logs, keyword): 
+def generateJourney(logs, keyword, day): 
     rawKeyword = keyword
     keyword = keyword.replace(' ', '_')
-    outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
+    outputFolder = joinPath(HDFSDataFolder, 'Day' + str(day) + '_' + keyword + '_Data')
     #if not os.path.exists(outputFolder):
     #    os.mkdir(outputFolder)
     inputName = 'all_day'
@@ -66,12 +66,13 @@ def generateJourney(logs, keyword):
     journey = getJourneyByKeyword(logs, rawKeyword)
     saveRDDToHDFS(journey, journeyFile)
 
-def generateJourneys():
-    logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
-    keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
-    for keyword in keywords[3:]:
+def generateJourneys(keywords = None, logs = None, day = 1):
+    if logs == None: logs = readParsedLogsFromHDFS(entireDayParsedLogsFolder1)
+    if keywords == None: #keywords = ['nike air max', 'spor ayyakabı', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'köpek maması']
+        keywords = ['iphone 6', 'jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
+    for keyword in keywords:
         #print_('Day1_' + keyword.replace(' ', '_') + '_Data')
-        generateJourney(logs, keyword)
+        generateJourney(logs, keyword, day)
 
 def countJourneys():
     counts = []
@@ -162,11 +163,11 @@ def trainLocalDataTest():
     #trainTestOnIPhone6Data()
     #rankingTestOnIPhone6Data()
     #userBehaviorTestOnIPhone6Data()
-    #parseAllDayTest()
+    parseAllDayTest()
     #trainDataGenerationTest() 
     #generateJourneys()
     #countJourneys()
     #runtrainDataGenerationTest()
     #trainDataGenerationTest('iphone 6')
     #trainPairWiseDataTestKeyword()
-    trainPairWiseDataTest()
+    #trainPairWiseDataTest()

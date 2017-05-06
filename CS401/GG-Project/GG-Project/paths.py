@@ -26,7 +26,7 @@ if PYTHON_VERSION == 3:
     def gitPull(gitDir):   
         if pulled: return
         g = git.cmd.Git(gitDir)
-        global pulled
+        #global pulled
         pulled = True
         g.pull()
     
