@@ -13,9 +13,13 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
     
     if method == None:
+        if tfFLAGS.num_gpus < 2: 
+            tfFLAGS.max_steps *= 2
         tfFLAGS.printExperimentDetails()
-        run_cifar10_multi_gpu_train()
-     #    run_cifar10_train()
+        if tfFLAGS.num_gpus > 0:
+            run_cifar10_multi_gpu_train()
+        else:
+            run_cifar10_train()
         run_cifar10_eval() 
     else:
         method()

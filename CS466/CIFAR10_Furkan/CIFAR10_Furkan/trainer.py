@@ -18,22 +18,37 @@ Accuracy:
 cifar10_train.py achieves ~86% accuracy after 100K steps (256 epochs of
 data) as judged by cifar10_eval.py.
 Speed: With batch_size 128.
-System          | Step Time (sec/batch)    |     Accuracy
+System        | Step Time (sec/batch)  |     Accuracy
 ------------------------------------------------------------------
-1 Tesla K20m    | 0.35-0.60                | ~86% at 60K steps    (5 hours)
-1 Tesla K40m    | 0.25-0.35                | ~86% at 100K steps (4 hours)
+1 Tesla K20m  | 0.35-0.60              | ~86% at 60K steps  (5 hours)
+1 Tesla K40m  | 0.25-0.35              | ~86% at 100K steps (4 hours)
 Usage:
 Please see the tutorial and website for how to download the CIFAR-10
 data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 
-from PythonVersionHandler import *
-from paths import *
-import cifar10
-import tfFLAGS 
-import MyModel
-import MyModel2
+from datetime import datetime
+import time
+
+import tensorflow as tf
+
+import model as cifar10
+
+FLAGS = tf.app.flags.FLAGS
+
+tf.app.flags.DEFINE_string('train_dir', '/Users/Furkan/Desktop/tmp2_50k/cifar10_train',
+                           """Directory where to write event logs """
+                           """and checkpoint.""")
+tf.app.flags.DEFINE_integer('max_steps', 50000,
+                            """Number of batches to run.""")
+tf.app.flags.DEFINE_boolean('log_device_placement', True,
+                            """Whether to log device placement.""")
+tf.app.flags.DEFINE_integer('log_frequency', 100,
+                            """How often to log results to the console.""")
 
 
 def train():
@@ -42,23 +57,18 @@ def train():
         global_step = tf.contrib.framework.get_or_create_global_step()
 
         # Get images and labels for CIFAR-10.
-        images, labels = cifar10.distorted_inputs()
+        images, labels = cifar10.get_inputs()
 
         # Build a Graph that computes the logits predictions from the
         # inference model.
-        if tfFLAGS.network == 1:
-            images, labels = cifar10.distorted_inputs()
-            logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel.inference(images)
-        else:
-            images, labels = cifar10.distorted_inputs()
-            logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel2.inference(images)
+        logits, fc1_w, fc2_w, fc1_b, fc2_b = cifar10.inference(images)
 
         # Calculate loss.
         loss = cifar10.loss(logits, labels)
 
-            # L2 regularization for the fully connected parameters.
-        regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) + tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
-
+        # L2 regularization for the fully connected parameters.
+        regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) +
+                        tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
         # Add the regularization term to the loss.
         loss += 5e-4 * regularizers
 
@@ -75,45 +85,40 @@ def train():
 
             def before_run(self, run_context):
                 self._step += 1
-                return tf.train.SessionRunArgs(loss)    # Asks for loss value.
+                return tf.train.SessionRunArgs(loss)  # Asks for loss value.
 
             def after_run(self, run_context, run_values):
-                if self._step % tfFLAGS.log_frequency == 0:
+                if self._step % FLAGS.log_frequency == 0:
                     current_time = time.time()
                     duration = current_time - self._start_time
                     self._start_time = current_time
 
                     loss_value = run_values.results
-                    examples_per_sec = tfFLAGS.log_frequency * tfFLAGS.batch_size / duration
-                    sec_per_batch = float(duration / tfFLAGS.log_frequency)
+                    examples_per_sec = FLAGS.log_frequency * FLAGS.batch_size / duration
+                    sec_per_batch = float(duration / FLAGS.log_frequency)
 
                     format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
-                                                'sec/batch)')
-                    print_(format_str % (datetime.now(), self._step, loss_value, examples_per_sec, sec_per_batch))
-        
-        texts = ['conv1:', 'conv1Biases:', 'conv2:', 'conv2Biases:', 'local3:', 'local3Biases:', 'local4:', 'local4Biases:', 'softmax:', 'softmaxBiases:']
-        total_parameters = 0; count = 0
-        for variable in tf.trainable_variables():
-            variable_parametes = 1
-            for dim in variable.get_shape():
-                    variable_parametes *= dim.value
-            print('Number of hidden parameters of ' + texts[count], variable_parametes)
-            total_parameters += variable_parametes
-            count += 1
-        print('Total Number of hidden parameters:', total_parameters)
+                                  'sec/batch)')
+                    print(format_str % (datetime.now(), self._step, loss_value,
+                                        examples_per_sec, sec_per_batch))
 
-        with tf.train.MonitoredTrainingSession(checkpoint_dir=tfFLAGS.train_dir,
-                hooks=[tf.train.StopAtStepHook(last_step=tfFLAGS.max_steps), tf.train.NanTensorHook(loss),_LoggerHook()],
-                config=tf.ConfigProto( device_count = {'GPU': 0}, log_device_placement=tfFLAGS.log_device_placement)) as mon_sess:
+        with tf.train.MonitoredTrainingSession(
+                checkpoint_dir=FLAGS.train_dir,
+                hooks=[tf.train.StopAtStepHook(last_step=FLAGS.max_steps),
+                       tf.train.NanTensorHook(loss),
+                       _LoggerHook()],
+                config=tf.ConfigProto(
+                    log_device_placement=FLAGS.log_device_placement, allow_soft_placement=True)) as mon_sess:
+
             while not mon_sess.should_stop():
                 mon_sess.run(train_op)
 
 
-def main(argv=None):    # pylint: disable=unused-argument
+def main(argv=None):  # pylint: disable=unused-argument
     cifar10.maybe_download_and_extract()
-    if tf.gfile.Exists(tfFLAGS.train_dir):
-        tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
-    tf.gfile.MakeDirs(tfFLAGS.train_dir)
+    if tf.gfile.Exists(FLAGS.train_dir):
+        tf.gfile.DeleteRecursively(FLAGS.train_dir)
+    tf.gfile.MakeDirs(FLAGS.train_dir)
     train()
 
 
