@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DeepLearningToRank\DeepLearningToRankTest.py" />
+    <Compile Include="DeepLearningToRank\__init__.py" />
     <Compile Include="LogProcesser\Actions.py" />
     <Compile Include="LogProcesser\JsonIO.py" />
     <Compile Include="LogProcesser\LogAnalyzer.py" />
@@ -249,6 +251,7 @@
     <Folder Include="data\ranking\logInfo\" />
     <Folder Include="data\ranking\logInfo\part-r-00000\" />
     <Folder Include="data\spark\" />
+    <Folder Include="DeepLearningToRank\" />
     <Folder Include="MainSrc\" />
     <Folder Include="Sparker\" />
     <Folder Include="productProcessers\machineLearning\" />

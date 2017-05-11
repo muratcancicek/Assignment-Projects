@@ -45,36 +45,26 @@ cd /root/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflo
 ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
 
 
-ssh -N -f -L 5087:localhost:8889 root@osldevptst02.host.gittigidiyor.net
+ssh -N -f -L 5087:localhost:8891 root@osldevptst02.host.gittigidiyor.net
 
 localhost:8889/?token=7faf91506c4dbac436842a1aacd11c3e6ed96551572e14f1
 jupyter notebook --no-browser --port=8889
 
 F!T(9D2m
 
-jupyter notebook --no-browser --port=88900
+jupyter notebook --no-browser --port=8891
 ssh -N -f -L 5089:localhost:88900 root@osldevptst02.host.gittigidiyor.net
 localhost:8890/?token=0924fc6debfdf4076b2eb6d6a0f0de975d23cab87683d751
 
 ssh -N -f -L 5080:127.0.0.1:88900 cicekm@citrisdance.soe.ucsc.edu 
 ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
-ssh -N -f -L 58089:localhost:8889 cicekm@citrisdance.soe.ucsc.edu 
+ssh -N -f -L 5700:localhost:9999 cicekm@citrisdance.soe.ucsc.edu 
 
 localhost:58089/?token=711865e45b78e63d36d4dc75fcee6781eeeb913595add31e
 
 sudo vi /etc/ssh/sshd_config
 sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist
 sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
-
-/root/tmux attach -t 1
-
-ssh cicekm@citrisdance.soe.ucsc.edu 
-
-Iq133142muratcan
-
-set COMPUTERNAME = ( citrisdance )
-set path = ( /soe/cicekm/anaconda3/bin $path )
-set path = ( /soe/cicekm/bin $path )
 
 cd /soe/cicekm/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow
 tmux attach -t 0
@@ -120,3 +110,24 @@ git add  ./output.txt
 git add  ./runCIFAR10_Tensorflow.py
 git add  ./tfFLAGS.py
 git add  ./tmp/cifar10_train/checkpoint
+
+telnet localhost 88088
+
+rpm2cpio xsnow-1.42-17.fc17.x86_64.rpm > xsnow.cpio
+cpio -idv < xsnow.cpio 
+
+/root/tmux attach -t 1
+
+ssh cicekm@citrisdance.soe.ucsc.edu 
+
+Iq133142muratcan
+
+set COMPUTERNAME = ( citrisdance )
+set path = ( /soe/cicekm/anaconda3/bin $path )
+set path = ( /soe/cicekm/bin $path )
+
+n: n.c
+	gcc -o n n.c chatroom_utils.c chatroom_utils.h
+
+s: s.c
+	gcc -pthread -o s s.c chatroom_utils.c chatroom_utils.h

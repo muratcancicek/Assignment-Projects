@@ -23,6 +23,7 @@ source /etc/environment
 
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip:$PYTHONPATH
 
+cd /soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 git reset --hard
 git pull
@@ -38,3 +39,5 @@ cd /root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow
 osldevptst02.host.gittigidiyor.net:8888/?token=f4813d8a9b926e70bd21f1390e707aa621c1662e9a1411f8
 
 jupyter notebook --no-browser  --port 9999
+scp -r root@osldevptst02.host.gittigidiyor.net:/root/Projects/TrainData6/* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/Projects/offlineData/
+scp -r ./* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/Projects/offlineData/

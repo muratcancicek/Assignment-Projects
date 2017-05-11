@@ -72,6 +72,9 @@ if COMPUTERNAME == 'MSI':
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
+elif os.getcwd() == '/soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project':
+    gitDir = '/soe/cicekm/Projects/Assignment-Projects'
+    allLogsPath = None
 else:
     gitDir = '/root/Projects/Assignment-Projects'
     #if PYTHON_VERSION == 3:
