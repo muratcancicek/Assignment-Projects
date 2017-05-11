@@ -2,8 +2,11 @@ from MainSrc.OutputLogger import OutputLogger
 import sys
 import os
 
+print(os.getcwd())
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
+if os.getcwd() == '/soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project':
+    COMPUTERNAME = 'UCSC:citrisdense'
 
 def joinPath(*args):
     return os.path.join(args[0], args[1])
@@ -21,7 +24,7 @@ def getAbsolutePath(fileName):
 PYTHON_VERSION = sys.version_info[0]
 
 pulled = False
-if PYTHON_VERSION == 3:
+if not COMPUTERNAME in ['UCSC:citrisdense', None]:
     import git
     def gitPull(gitDir):   
         if pulled: return
@@ -72,9 +75,9 @@ if COMPUTERNAME == 'MSI':
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
-elif os.getcwd() == '/soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project':
+elif COMPUTERNAME == 'UCSC:citrisdense':
     gitDir = '/soe/cicekm/Projects/Assignment-Projects'
-    allLogsPath = None
+    allLogsPath = 'NoExistsOnUCSC'
 else:
     gitDir = '/root/Projects/Assignment-Projects'
     #if PYTHON_VERSION == 3:
@@ -109,3 +112,5 @@ def setFolder2():
 
 #setFolder2()
 #sys.stdout = OutputLogger(dataFolder) 
+
+textTrainDataFolder = '/soe/cicekm/Projects/offlineData'

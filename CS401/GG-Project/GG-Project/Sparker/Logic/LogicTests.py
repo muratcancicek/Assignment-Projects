@@ -1,9 +1,8 @@
-from Sparker.MLlibTests.MlLibHelper import DenseVector, LabeledPoint
+from Sparker.MLlibTests.MlLibHelper import *
 from .ProductPreferrer import *
 from .FakeProductGenerator import *
 from .TrainDataHandler import *
 from .Trainer import *
-from py4j.protocol import Py4JJavaError
     
 def trainLocalLG_G4DataTest(): 
     keyword = 'lg g4'

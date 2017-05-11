@@ -1,6 +1,6 @@
-from Sparker.MLlibTests.MlLibHelper import DenseVector, LabeledPoint
-from MainSrc.PythonVersionHandler import *
 from paths import *
+from Sparker.MLlibTests.MlLibHelper import *
+from MainSrc.PythonVersionHandler import *
 from LogProcesser.JsonIO import *
 from . import SparkLogReader as LogReader
 
