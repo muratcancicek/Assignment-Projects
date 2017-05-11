@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DeepLearningToRank\DeepDataHandler.py" />
     <Compile Include="DeepLearningToRank\DeepLearningToRankTest.py" />
+    <Compile Include="DeepLearningToRank\DeepTrainer.py" />
     <Compile Include="DeepLearningToRank\__init__.py" />
     <Compile Include="LogProcesser\Actions.py" />
     <Compile Include="LogProcesser\JsonIO.py" />

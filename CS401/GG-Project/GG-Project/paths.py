@@ -68,15 +68,19 @@ allLogsPath = ''
 HDFSRootFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/'
 HDFSDataFolder = joinPath(HDFSRootFolder, 'data')
 
+textTrainDataFolder = '/soe/cicekm/Projects/offlineData'
+
 if COMPUTERNAME == 'MSI': 
     gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
     allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
+    textTrainDataFolder = 'D:\\Slow_Storage\\Senior_Data\\offlineData'
     #gitPush(gitDir)
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
     allLogsPath = '/Users/miek/Documents/Projects/Senior_Data/session/'
 elif COMPUTERNAME == 'UCSC:citrisdense':
     gitDir = '/soe/cicekm/Projects/Assignment-Projects'
+    textTrainDataFolder = '/soe/cicekm/Projects/offlineData'
     allLogsPath = 'NoExistsOnUCSC'
 else:
     gitDir = '/root/Projects/Assignment-Projects'
@@ -112,5 +116,3 @@ def setFolder2():
 
 #setFolder2()
 #sys.stdout = OutputLogger(dataFolder) 
-
-textTrainDataFolder = '/soe/cicekm/Projects/offlineData'

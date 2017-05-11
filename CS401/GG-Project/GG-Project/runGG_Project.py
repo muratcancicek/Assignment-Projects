@@ -3,7 +3,7 @@ from MainSrc.PythonVersionHandler import *
 #from MainSrc.SecondTermMethods import run as runSecondTermMethods
 #from MainSrc.FirstTermMethods import run as runFirstTermMethods
 from MainSrc.SparkerMethods import run as runSparkerMethods
-from paths import COMPUTERNAME
+from DeepLearningToRank.DeepLearningToRankTest import runTests
 
 def printSeparater():
     for n in range(3):
@@ -14,7 +14,7 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
 
     if method == None:
-        runSparkerMethods()
+        runTests()
     else:
         method()
 
