@@ -1,7 +1,6 @@
 from .ProductPreferrer import *
 from Sparker.MLlibTests.MlLibHelper import *
 from .ProductPreferrer import *
-from pyspark.mllib.feature import Normalizer
 
 
 def getProducts(ids, fileName = None):
@@ -91,7 +90,6 @@ def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = T
 
 def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder):
     trainData = scaleTrainData(trainData)
-    testData = scaleTrainData(testData)
     model = trainPairWiseData(trainData, 'trainData', modelName)
     if save:
         modelPath = joinPath(outputFolder, modelName)
