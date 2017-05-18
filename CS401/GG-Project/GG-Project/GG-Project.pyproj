@@ -21,9 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10.py" />
+    <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_eval.py" />
+    <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_input.py" />
+    <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_multi_gpu_train.py" />
+    <Compile Include="DeepLearningToRank\MultiGPU_Tools\__init__.py" />
+    <Compile Include="DeepLearningToRank\MyModel.py" />
+    <Compile Include="DeepLearningToRank\NNetworkHandler.py" />
     <Compile Include="DeepLearningToRank\DeepDataHandler.py" />
     <Compile Include="DeepLearningToRank\DeepLearningToRankTest.py" />
     <Compile Include="DeepLearningToRank\DeepTrainer.py" />
+    <Compile Include="DeepLearningToRank\DatasetLoader.py" />
+    <Compile Include="DeepLearningToRank\DatasetLearner.py" />
+    <Compile Include="DeepLearningToRank\tfFLAGS.py" />
     <Compile Include="DeepLearningToRank\__init__.py" />
     <Compile Include="LogProcesser\Actions.py" />
     <Compile Include="LogProcesser\JsonIO.py" />
@@ -254,6 +264,7 @@
     <Folder Include="data\ranking\logInfo\part-r-00000\" />
     <Folder Include="data\spark\" />
     <Folder Include="DeepLearningToRank\" />
+    <Folder Include="DeepLearningToRank\MultiGPU_Tools\" />
     <Folder Include="MainSrc\" />
     <Folder Include="Sparker\" />
     <Folder Include="productProcessers\machineLearning\" />

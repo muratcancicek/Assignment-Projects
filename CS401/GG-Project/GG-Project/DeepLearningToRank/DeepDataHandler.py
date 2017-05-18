@@ -8,11 +8,11 @@ def loadPickle(fileName):
     file = open(fileName, 'rb')
     return pickle.load(file)
 
-
 def readTrainDataFromPickle(fileName):
     trainData = loadPickle(fileName)
-    trainData = map(lambda x: x.replace('LabeledPoint', ''), trainData)
-    trainData = map(eval, trainData)
+    if isinstance(trainData[0], str):
+        trainData = map(lambda x: x.replace('LabeledPoint', ''), trainData)
+        trainData = map(eval, trainData)
     trainData = map(lambda x: x[1], trainData)
     trainData = list(map(lambda x: (1.0 if x[0] > 0 else 0.0, x[1]), trainData))
     print_(fileName, 'has been read successfully by', nowStr()) 

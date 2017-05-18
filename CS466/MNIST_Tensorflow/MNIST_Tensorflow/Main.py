@@ -3,8 +3,8 @@
 #   
 
 from CNNetworkHandler import runCFirstCustomCNN, firstCNN, secondCNN
-from MNISTDatasetGenerator import *
 from myMnistHandler import load_mnist
+from MNISTDatasetGenerator import *
 from PythonVersionHandler import *
 import tensorflow as tf
 

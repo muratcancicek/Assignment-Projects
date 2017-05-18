@@ -73,6 +73,7 @@ if COMPUTERNAME == 'MSI':
     gitDir = 'D:\\OneDrive\\\Projects\\Assignment-Projects'
     allLogsPath = 'D:\\Slow_Storage\\Senior_Data\\session\\'
     textTrainDataFolder = 'D:\\Slow_Storage\\Senior_Data\\offlineData'
+    offlineDataHDFSFolder = joinPath(textTrainDataFolder, 'HDFS')
     #gitPush(gitDir)
 elif COMPUTERNAME == 'LM-IST-00UBFVH8':
     gitDir = '/Users/miek/Documents/Projects/Assignment-Projects'
@@ -81,6 +82,7 @@ elif COMPUTERNAME == 'UCSC:citrisdense':
     gitDir = '/soe/cicekm/Projects/Assignment-Projects'
     textTrainDataFolder = '/soe/cicekm/Projects/offlineData'
     allLogsPath = 'NoExistsOnUCSC'
+    offlineDataHDFSFolder = joinPath(textTrainDataFolder, 'HDFS')
 else:
     gitDir = '/root/Projects/Assignment-Projects'
     #if PYTHON_VERSION == 3:

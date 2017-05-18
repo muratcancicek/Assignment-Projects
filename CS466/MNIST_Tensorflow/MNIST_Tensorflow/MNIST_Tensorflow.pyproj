@@ -24,6 +24,7 @@
   <ItemGroup>
     <Compile Include="CNNetworkHandler.py" />
     <Compile Include="CNNTutorial.py" />
+    <Compile Include="MainGG.py" />
     <Compile Include="Main.py" />
     <Compile Include="MNISTDatasetGenerator.py" />
     <Compile Include="muratcan_cicek_training.py" />
