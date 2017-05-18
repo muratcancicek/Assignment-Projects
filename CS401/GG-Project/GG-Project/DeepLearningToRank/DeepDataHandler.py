@@ -39,3 +39,14 @@ def convertHDFStoPickle(keyword):
         print_(trainDataFile, 'has been saved successfully by', nowStr())
         fp = open(trainDataFile, "wb")   #Pickling
         pickle.dump(trainData, fp)
+
+def convertPickleToHDFS(keyword):
+    dataTypes = ['_TrainData', '_labeledPairs', '_journey_products']
+    for typ in dataTypes[:1]:
+        fileName = 'all_day_' + keyword + typ
+        trainDataFile = joinPath(textTrainDataFolder, fileName + '.txt')
+        trainData = readTrainDataFromPickle(trainDataFile)
+        #trainData = readTrainDataFromHDFS(trainDataFile)
+        trainData =  sc_().parallelize(trainData)
+        print_(trainDataFile, trainData.count())
+        saveRDDToHDFS(trainData, joinPath(joinPath(textTrainDataFolder, 'HDFS'), fileName))

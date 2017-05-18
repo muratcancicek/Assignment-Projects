@@ -2,7 +2,6 @@ from MainSrc.OutputLogger import OutputLogger
 import sys
 import os
 
-print(os.getcwd())
 # Machine based
 COMPUTERNAME = os.getenv('COMPUTERNAME') 
 if os.getcwd() == '/soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project':
