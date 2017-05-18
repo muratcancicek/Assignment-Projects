@@ -26,6 +26,7 @@ def scaleTrainData(data):
     label = data.map(lambda x: x.label)
     features = data.map(lambda x: x.features)
     scaler = StandardScaler(withMean=True, withStd=True).fit(features)
+    print_(data.count(), 'instances have been scaled by', nowStr())
     return label.zip(scaler.transform(features.map(lambda x: Vectors.dense(x.toArray())))).map(lambda x: LabeledPoint(x[0], x[1]))
 
 def normalizeTrainData(data):
@@ -89,7 +90,8 @@ def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = T
     return model
 
 def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder):
-    trainData = scaleTrainData(trainData)
+    #trainData = scaleTrainData(trainData)
+    trainData = normalizeTrainData(trainData)
     model = trainPairWiseData(trainData, 'trainData', modelName)
     if save:
         modelPath = joinPath(outputFolder, modelName)

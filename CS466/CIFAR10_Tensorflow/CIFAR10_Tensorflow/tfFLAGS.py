@@ -22,7 +22,6 @@ max_steps = 30000
 log_device_placement = False
 log_frequency = 100
 
-tfFLAGS.IMAGE_SIZE = 32
 
 # Global constants describing the CIFAR-10 data set.
 NUM_CLASSES = 10

@@ -27,6 +27,7 @@ def evaluateModelOnData(model, testData, dataName = 'Data', modelName = 'Model')
 
 def trainPairWiseData(trainData, dataName = 'Data', modelName = 'Model'):
     model = svm.SVC()#kernel =  'poly', degree = 3) #SVMWithSGD.train(data, iterations=100)
+    print_('\n'+modelName, ' is training on', dataName, 'by', nowStr())
     model.fit(trainData['X'], trainData['Y'])
     print_('\n'+modelName, 'has been trained on', dataName, 'by', nowStr())
     print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
