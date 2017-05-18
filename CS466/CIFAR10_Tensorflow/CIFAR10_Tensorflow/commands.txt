@@ -56,7 +56,7 @@ jupyter notebook --no-browser --port=8891
 ssh -N -f -L 5089:localhost:88900 root@osldevptst02.host.gittigidiyor.net
 localhost:8890/?token=0924fc6debfdf4076b2eb6d6a0f0de975d23cab87683d751
 
-ssh -N -f -L 5080:127.0.0.1:88900 cicekm@citrisdance.soe.ucsc.edu 
+ssh -N -f -L 5080:127.0.0.1:8891 cicekm@citrisdance.soe.ucsc.edu 
 ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
 ssh -N -f -L 5700:localhost:9999 cicekm@citrisdance.soe.ucsc.edu 
 
@@ -122,12 +122,21 @@ ssh cicekm@citrisdance.soe.ucsc.edu
 
 Iq133142muratcan
 
-set COMPUTERNAME = ( citrisdance )
+setenv COMPUTERNAME UCSC:citrisdense
 set path = ( /soe/cicekm/anaconda3/bin $path )
 set path = ( /soe/cicekm/bin $path )
+set path = ( /soe/cicekm/bin/scala/bin $path )
+setenv PATH $PATH\:/soe/cicekm/bin/spark-1.6.0-bin-hadoop2.6/bin
+setenv SPARK_HOME /soe/cicekm/bin/spark-1.6.0-bin-hadoop2.6
+
+cd /soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+
 
 n: n.c
 	gcc -o n n.c chatroom_utils.c chatroom_utils.h
 
 s: s.c
 	gcc -pthread -o s s.c chatroom_utils.c chatroom_utils.h
+
+scp -r /opt/spark/* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/bin/spark/
+ln -s /soe/cicekm/bin/scala-2.11.7 /soe/cicekm/bin/scala
