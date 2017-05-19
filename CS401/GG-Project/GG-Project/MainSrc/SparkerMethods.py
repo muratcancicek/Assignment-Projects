@@ -37,9 +37,12 @@ def runSparkLogOperatorTests(logs):
     writeRDDToJsonTest(logs)
     readTextFileTest(logs)
     #extractAllTCJourneysTest()
-
-def run(): 
+    
+def runSpark(): 
     sc = SparkContext() 
     #sc.setSystemProperty('spark.executor.instances', 24) 
     setSparkContext(sc)
+
+def run(): 
+    runSpark() 
     trainLocalDataTest()
