@@ -22,7 +22,7 @@ source /etc/environment
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip:$PYTHONPATH
 
 cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
-git reset --hard
+git reset --hard origin/master
 git pull
 python runGG_Project.py
 
