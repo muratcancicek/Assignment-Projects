@@ -27,12 +27,12 @@ data set, compile the program and train the model.
 http://tensorflow.org/tutorials/deep_cnn/
 """
 
-from PythonVersionHandler import *
+from MainSrc.PythonVersionHandler import *
 from paths import *
 import cifar10
-import tfFLAGS 
-import MyModel
-import MyModel2
+import DeepLearningToRank.tfFLAGS 
+import DeepLearningToRank.MyModel
+#import MyModel2
 import math
 
 def mcnamar(predictions1, predictions2, labels):

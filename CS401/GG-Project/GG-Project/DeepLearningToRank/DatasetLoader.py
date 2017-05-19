@@ -185,7 +185,7 @@ def read_gg_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.fl
     test_images = list(map(lambda x: x[1], allData))
     #print_(test_labels[:3])
     sepInd = int(len(test_labels) * ratio)
-    test_labels = dense_to_one_hot(test_labels, 2)
+    #test_labels = dense_to_one_hot(test_labels, 2)
     test_labels = np.array(test_labels)
     scaler = StandardScaler(with_mean=True, with_std=True).fit(test_images)
     test_images = scaler.transform(test_images)

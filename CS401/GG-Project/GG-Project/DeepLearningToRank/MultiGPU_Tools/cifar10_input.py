@@ -15,9 +15,9 @@
 
 """Routine for decoding the CIFAR-10 binary file format."""
 
-from PythonVersionHandler import print_
+from MainSrc.PythonVersionHandler import print_
 from paths import *
-import tfFLAGS 
+import DeepLearningToRank.tfFLAGS 
 
 
 def read_cifar10(filename_queue):

@@ -27,10 +27,10 @@ Summary of available functions:
 """
 # pylint: disable=missing-docstring
 
-from PythonVersionHandler import *
+from MainSrc.PythonVersionHandler import *
 from paths import *
-import cifar10_input
-import tfFLAGS
+from . import cifar10_input
+import DeepLearningToRank.tfFLAGS
 
 def _activation_summary(x):
   """Helper to create summaries for activations.

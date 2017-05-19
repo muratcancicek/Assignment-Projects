@@ -34,52 +34,35 @@ http://tensorflow.org/tutorials/deep_cnn/
 from MainSrc.PythonVersionHandler import *
 from paths import *
 from DeepLearningToRank.MultiGPU_Tools import cifar10_input
-from . import tfFLAGS 
-from . import MyModel
+from DeepLearningToRank import tfFLAGS 
+from DeepLearningToRank import MyModel
+from six import *
+import tensorflow as tf
+import re
+import numpy as np
 
-
-def distorted_inputs():
-  """Construct distorted input for CIFAR training using the Reader ops.
-  Returns:
-    images: Images. 4D tensor of [batch_size, IMAGE_SIZE, IMAGE_SIZE, 3] size.
-    labels: Labels. 1D tensor of [batch_size] size.
-  Raises:
-    ValueError: If no data_dir
-  """
-  if not tfFLAGS.data_dir:
-    raise ValueError('Please supply a data_dir')
-  data_dir = os.path.join(tfFLAGS.data_dir, 'cifar-10-batches-bin')
-  images, labels = cifar10_input.distorted_inputs(data_dir=data_dir,
-                                                  batch_size=tfFLAGS.batch_size)
-  if tfFLAGS.use_fp16:
-    images = tf.cast(images, tf.float16)
-    labels = tf.cast(labels, tf.float16)
-  return images, labels
-
-
-def inputs(eval_data):
-  """Construct input for CIFAR evaluation using the Reader ops.
+def cal_loss(logits, labels):
+  """Add L2Loss to all the trainable variables.
+  Add summary for "Loss" and "Loss/avg".
   Args:
-    eval_data: bool, indicating if one should use the train or eval data set.
+    logits: Logits from inference().
+    labels: Labels from distorted_inputs or inputs(). 1-D tensor
+            of shape [batch_size]
   Returns:
-    images: Images. 4D tensor of [batch_size, IMAGE_SIZE, IMAGE_SIZE, 3] size.
-    labels: Labels. 1D tensor of [batch_size] size.
-  Raises:
-    ValueError: If no data_dir
+    Loss tensor of type float.
   """
-  if not tfFLAGS.data_dir:
-    raise ValueError('Please supply a data_dir')
-  data_dir = os.path.join(tfFLAGS.data_dir, 'cifar-10-batches-bin')
-  images, labels = cifar10_input.inputs(eval_data=eval_data,
-                                        data_dir=data_dir,
-                                        batch_size=tfFLAGS.batch_size)
-  if tfFLAGS.use_fp16:
-    images = tf.cast(images, tf.float16)
-    labels = tf.cast(labels, tf.float16)
-  return images, labels
+  # Calculate the average cross entropy loss across the batch.
+  labels = tf.cast(labels, tf.int64)
+  cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(
+      labels=labels, logits=logits, name='cross_entropy_per_example')
+  cross_entropy_mean = tf.reduce_mean(cross_entropy, name='cross_entropy')
+  tf.add_to_collection('losses', cross_entropy_mean)
 
+  # The total loss is defined as the cross entropy loss plus all of the weight
+  # decay terms (L2 loss).
+  return tf.add_n(tf.get_collection('losses'), name='total_loss')
 
-def tower_loss(scope):
+def tower_loss(scope, dataset):
     """Calculate the total loss on a single tower running the CIFAR model.
     Args:
         scope: unique prefix string identifying the CIFAR tower, e.g. 'tower_0'
@@ -89,14 +72,18 @@ def tower_loss(scope):
     # Build a Graph that computes the logits predictions from the
     # inference model.
     if tfFLAGS.network == 1:
-        images, labels = distorted_inputs()
+        images, labels = dataset.train.next_batch(tfFLAGS.batch_size)
+        images, labels = tf.convert_to_tensor(images), tf.convert_to_tensor(labels)
+        #images, labels = distorted_inputs()
         logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel.inference(images)
     else:
-        images, labels = cifar10.distorted_inputs()
+        images, labels = dataset.train.next_batch(tfFLAGS.batch_size)
+        images, labels = tf.convert_to_tensor(images), tf.convert_to_tensor(labels)
+        #images, labels = cifar10.distorted_inputs()
         logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel2.inference(images)
 
     # Calculate loss.
-    loss = cifar10.loss(logits, labels)
+    loss = cal_loss(logits, labels)
 
         # L2 regularization for the fully connected parameters.
     regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) + tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
@@ -106,7 +93,7 @@ def tower_loss(scope):
 
     # Build the portion of the Graph calculating the losses. Note that we will
     # assemble the total_loss using a custom function below.
-    _ = cifar10.loss(logits, labels)
+    _ = cal_loss(logits, labels)
 
     # Assemble all of the losses for the current tower only.
     losses = tf.get_collection('losses', scope)
@@ -161,7 +148,7 @@ def average_gradients(tower_grads):
     return average_grads
 
 
-def train():
+def train(dataset):
     """Train CIFAR-10 for a number of steps."""
     with tf.Graph().as_default(), tf.device('/cpu:0'):
         # Create a variable to count the number of train() calls. This equals the
@@ -188,13 +175,13 @@ def train():
         # Calculate the gradients for each model tower.
         tower_grads = []
         with tf.variable_scope(tf.get_variable_scope()):
-            for i in xrange(tfFLAGS.num_gpus):
+            for i in range(tfFLAGS.num_gpus):
                 with tf.device('/gpu:%d' % i):
                     with tf.name_scope('%s_%d' % (tfFLAGS.TOWER_NAME, i)) as scope:
                         # Calculate the loss for one tower of the CIFAR model. This function
                         # constructs the entire CIFAR model but shares the variables across
                         # all towers.
-                        loss = tower_loss(scope)
+                        loss = tower_loss(scope, dataset)
 
                         # Reuse variables for the next tower.
                         tf.get_variable_scope().reuse_variables()
@@ -268,7 +255,8 @@ def train():
             count += 1
         print('Total Number of hidden parameters:', total_parameters)
 
-        for step in xrange(tfFLAGS.max_steps):
+        for step in range(tfFLAGS.max_steps):
+            dataset.train.shuffle()
             start_time = time.time()
             _, loss_value = sess.run([train_op, loss])
             duration = time.time() - start_time
@@ -295,12 +283,12 @@ def train():
                 saver.save(sess, checkpoint_path, global_step=step)
 
 
-def main(argv=None):    # pylint: disable=unused-argument
-    cifar10.maybe_download_and_extract()
+def trainOnMultiGPU(dataset):    # pylint: disable=unused-argument
+    #cifar10.maybe_download_and_extract()
     if tf.gfile.Exists(tfFLAGS.train_dir):
         tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
     tf.gfile.MakeDirs(tfFLAGS.train_dir)
-    train()
+    train(dataset)
 
 
 if __name__ == '__main__':
