@@ -163,11 +163,8 @@ def train(dataset):
         decay_steps = int(num_batches_per_epoch * tfFLAGS.NUM_EPOCHS_PER_DECAY)
 
         # Decay the learning rate exponentially based on the number of steps.
-        lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE,
-                                                                        global_step,
-                                                                        decay_steps,
-                                                                        tfFLAGS.LEARNING_RATE_DECAY_FACTOR,
-                                                                        staircase=True)
+        lr = tf.train.exponential_decay(tfFLAGS.INITIAL_LEARNING_RATE, global_step, 
+                                        decay_steps, tfFLAGS.LEARNING_RATE_DECAY_FACTOR,  staircase=True)
 
         # Create an optimizer that performs gradient descent.
         opt = tf.train.GradientDescentOptimizer(lr)
@@ -235,8 +232,7 @@ def train(dataset):
         # True to build towers on GPU, as some of the ops do not have GPU
         # implementations.
         sess = tf.Session(config=tf.ConfigProto( device_count = {'GPU': tfFLAGS.num_gpus},
-                allow_soft_placement=True,
-                log_device_placement=tfFLAGS.log_device_placement))
+                allow_soft_placement=True, log_device_placement=tfFLAGS.log_device_placement))
         sess.run(init)
 
         # Start the queue runners.
@@ -270,8 +266,7 @@ def train(dataset):
 
                 format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
                                             'sec/batch)')
-                print_(format_str % (datetime.now(), step, loss_value,
-                                                         examples_per_sec, sec_per_batch))
+                print_(format_str % (datetime.now(), step, loss_value, examples_per_sec, sec_per_batch))
 
             if step % 100 == 0:
                 summary_str = sess.run(summary_op)

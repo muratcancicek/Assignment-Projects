@@ -1,3 +1,5 @@
+from DeepLearningToRank.MultiGPU_Tools.cifar10_multi_gpu_train import *
+from DeepLearningToRank.MultiGPU_Tools.cifar10_eval import *
 from Sparker.SparkLogProcesser.SparkLogFileHandler import *
 from Sparker.Logic.FakeProductGenerator import *
 from Sparker.Logic.ProductPreferrer import *
@@ -6,7 +8,6 @@ from Sparker.Logic.LogicTests import *
 from MainSrc.SparkerMethods import *
 from Sparker.Logic.Trainer import *
 from .DeepDataHandler import *
-from DeepLearningToRank.MultiGPU_Tools.cifar10_multi_gpu_train import *
 from .DatasetLearner import *
 from .DeepTrainer import *
 from pyspark import SparkContext
@@ -26,6 +27,7 @@ def test2():
 def test3():
     dataset = load_trainDataset(joinPath(textTrainDataFolder, 'all_day_iphone_6_TrainData.txt'))
     trainOnMultiGPU(dataset)
+    run_eval(dataset)
 
 def runTests():
     #sc = SparkContext() 
