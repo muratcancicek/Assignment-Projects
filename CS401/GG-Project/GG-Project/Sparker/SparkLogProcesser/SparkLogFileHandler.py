@@ -178,8 +178,8 @@ def readTrainDataFromHDFS(fileName):
     trainData = trainData.map(lambda x: x.replace('LabeledPoint', '')).map(eval)
     return trainData.map(lambda x: x[1]).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1:])) 
 
-def saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword):
-    trainDataFile = inputName + '_' + keyword + '_TrainData'
+def saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword, ext = ''):
+    trainDataFile = inputName + '_' + keyword + '_TrainData' + ext
     trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
     print_(trainDataFile, 'has been saved successfully by', nowStr())
 
