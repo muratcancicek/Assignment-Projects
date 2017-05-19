@@ -27,10 +27,12 @@ from __future__ import division
 from __future__ import print_function
 
 from MainSrc.PythonVersionHandler import *
+from Sparker.Logic.Trainer import *
 from .DeepDataHandler import *
 from paths import *
 import os
 
+from sklearn.preprocessing import StandardScaler
 import numpy
 #from six.moves import xrange  # pylint: disable=redefined-builtin
 
@@ -181,10 +183,12 @@ def read_gg_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.fl
     print(allData[:3])
     test_labels = list(map(lambda x: x[0], allData))
     test_images = list(map(lambda x: x[1], allData))
-    print_(test_labels[:3])
+    #print_(test_labels[:3])
     sepInd = int(len(test_labels) * ratio)
     test_labels = dense_to_one_hot(test_labels, 2)
     test_labels = np.array(test_labels)
+    scaler = StandardScaler(with_mean=True, with_std=True).fit(test_images)
+    test_images = scaler.transform(test_images)
     test_images = np.array(test_images)
     train_images, train_labels = test_images[:sepInd], test_labels[:sepInd]
     test_images, test_labels = test_images[sepInd:], test_labels[sepInd:]

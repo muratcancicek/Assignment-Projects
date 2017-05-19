@@ -2,7 +2,7 @@ from MainSrc.PythonVersionHandler import *
 import tensorflow as tf
 from . import tfFLAGS 
 from paths import *
-
+import time
 import math
 
 def weight_variable(shape):
@@ -98,7 +98,6 @@ def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, cnn = first
     print_('\n' + text + ' running...\n')
 
     final_y = cnn(x)[0]#, xSize, downsampling = downsampling
-    print(y_._shape, final_y._shape)
     cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=final_y))
     
     correct_prediction = tf.equal(tf.argmax(final_y,1), tf.argmax(y_,1))
@@ -119,12 +118,21 @@ def runCFirstCustomCNN(mnist, x, y_, xSize = 784, iterations = 1000, cnn = first
         mnist.train.shuffle()
         for batchCount in range(total_batch_size):
             batch = mnist.train.next_batch(batch_size)
-            if epoch > 0 and epoch % 10 == 0 and batchCount == total_batch_size-1:
+            start_time = time.time()
+            sess.run(train_step, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
+            if epoch > 0 and epoch % tfFLAGS.log_frequency == 0 and batchCount == total_batch_size-1:
                 feed_dict = {x:batch[0], y_: batch[1], keep_prob: 1.0}
                 train_accuracy = accuracy.eval(feed_dict = feed_dict)
-                print("Epoch %d, training accuracy on the last batch = %.2f" % (epoch, train_accuracy))
+                
+                duration = time.time() - start_time
+                num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
+                examples_per_sec = num_examples_per_step / duration
+                sec_per_batch = duration / tfFLAGS.num_gpus
+
+                print_('Epoch %d, (%.2f batch accuracy; %.1f examples/sec; %.3f sec/batch) by %s' % 
+                                                         (epoch, train_accuracy, examples_per_sec, sec_per_batch, nowStr()))
+
    
-            sess.run(train_step, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
 
     feed_dict = {x: mnist.train.images, y_: mnist.train.labels, keep_prob: 1.0}
     feed_dict = {x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}

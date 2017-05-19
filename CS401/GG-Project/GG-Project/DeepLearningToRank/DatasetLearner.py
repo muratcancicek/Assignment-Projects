@@ -11,7 +11,7 @@ def getXY_(n = 12, clusters = 2):
     y_ = tf.placeholder(tf.float32, [None, clusters])
     return x, y_
 
-def learn(trainDataset, iterations = 100, downsampling = False, dataset = ''):
+def learn(trainDataset, iterations = 200, downsampling = False, dataset = ''):
     xSize = trainDataset.train.images.shape[1]
     x, y_ = getXY_(xSize)#trainDataset.train.labels.shape, clusters, trainDataset.train.labels.shape
     text = 'The First Network on ' + dataset

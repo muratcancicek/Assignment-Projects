@@ -28,8 +28,8 @@ conv2Size = 2; conv2Shape = [conv2Size, conv2Size, conv1Out, 10]
 pool1S = 2; pool1ksize=[1, pool1S, pool1S, 1]; pool1St = 2; pool1strides=[1, pool1St, pool1St, 1]; pool1padding='SAME'
 pool2S = 2; pool2ksize=[1, pool2S, pool2S, 1]; pool2St = 2; pool2strides=[1, pool2St, pool2St, 1]; pool2padding='SAME'
 
-local3InputDepth = 2; local3OutputDepth = local3InputDepth
-local4InputDepth = local3OutputDepth; local4OutputDepth = 12
+local3InputDepth = 64; local3OutputDepth = local3InputDepth
+local4InputDepth = local3OutputDepth; local4OutputDepth = 32
 softmax_linearInput = local4OutputDepth
 
 def summarizeModel():

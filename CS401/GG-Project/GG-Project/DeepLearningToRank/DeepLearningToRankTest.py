@@ -28,4 +28,4 @@ def runTests():
     ##trainPairWiseDataTestKeyword2('iphone 6')
     ##convertPickleToHDFS('iphone_6')
     #trainPairWiseDataTestKeyword('iphone_6', inputFolder = offlineDataHDFSFolder)
-    test1()
+    test2()
