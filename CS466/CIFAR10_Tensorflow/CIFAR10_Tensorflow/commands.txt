@@ -131,3 +131,11 @@ s: s.c
 
 scp -r /opt/spark/* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/bin/spark/
 ln -s /soe/cicekm/bin/scala-2.11.7 /soe/cicekm/bin/scala
+
+scp -r cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/Projects/offlineData/HDFS/Day1_iphone_6_Data/all_day_iphone_6_OneHot_TrainData.txt .
+
+'/root/Projects/TrainData6/all_day_iphone_6_OneHot_TrainData.txt'
+
+ssh cicekm@riverdance.soe.ucsc.edu
+ssh cicekm@udance.soe.ucsc.edu
+ssh cicekm@campusrocks.soe.ucsc.edu

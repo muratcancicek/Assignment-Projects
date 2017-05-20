@@ -9,6 +9,7 @@ from MainSrc.SparkerMethods import *
 from Sparker.Logic.Trainer import *
 from .DeepDataHandler import *
 from .DatasetLearner import *
+from .SVMTrainers import *
 from .DeepTrainer import *
 from pyspark import SparkContext
 
@@ -36,10 +37,13 @@ def test4():
     outputFolder = textTrainDataFolder#offlineDataHDFSFolder
     generateOneHotTrainData(keyword, inputName, outputFolder)
 
+def test5():
+    trainPairWiseDataTestKeyword2('iphone 6', 'oneHot')
+
 def runTests():
     #sc = SparkContext() 
     #setSparkContext(sc)
     ##trainPairWiseDataTestKeyword2('iphone 6')
     ##convertPickleToHDFS('iphone_6')
     #trainPairWiseDataTestKeyword('iphone_6', inputFolder = offlineDataHDFSFolder)
-    test4()
+    test5()

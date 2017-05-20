@@ -26,14 +26,21 @@
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_input.py" />
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_multi_gpu_train.py" />
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\__init__.py" />
-    <Compile Include="DeepLearningToRank\MyModel.py" />
-    <Compile Include="DeepLearningToRank\MyModel2.py" />
+    <Compile Include="DeepLearningToRank\Networks\NNetwork1.py" />
+    <Compile Include="DeepLearningToRank\Networks\NNetwork5.py" />
+    <Compile Include="DeepLearningToRank\Networks\NNetwork3.py" />
+    <Compile Include="DeepLearningToRank\Networks\NNetwork4.py" />
+    <Compile Include="DeepLearningToRank\Networks\NNetwork2.py" />
+    <Compile Include="DeepLearningToRank\Networks\__init__.py" />
     <Compile Include="DeepLearningToRank\NNetworkHandler.py" />
     <Compile Include="DeepLearningToRank\DeepDataHandler.py" />
     <Compile Include="DeepLearningToRank\DeepLearningToRankTest.py" />
     <Compile Include="DeepLearningToRank\DeepTrainer.py" />
     <Compile Include="DeepLearningToRank\DatasetLoader.py" />
     <Compile Include="DeepLearningToRank\DatasetLearner.py" />
+    <Compile Include="DeepLearningToRank\SVMTrainers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DeepLearningToRank\tfFLAGS.py" />
     <Compile Include="DeepLearningToRank\__init__.py" />
     <Compile Include="LogProcesser\Actions.py" />
@@ -266,6 +273,7 @@
     <Folder Include="data\spark\" />
     <Folder Include="DeepLearningToRank\" />
     <Folder Include="DeepLearningToRank\MultiGPU_Tools\" />
+    <Folder Include="DeepLearningToRank\Networks\" />
     <Folder Include="MainSrc\" />
     <Folder Include="Sparker\" />
     <Folder Include="productProcessers\machineLearning\" />

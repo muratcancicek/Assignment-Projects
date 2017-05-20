@@ -1,4 +1,5 @@
-from .MyModel import *
+from NNetwork1 import *
+from DeepLearningToRank import tfFLAGS
 
 # Architecture of model
 conv1Size = 2; conv1Out = 4; conv1Shape = [conv1Size, conv1Size, 3, conv1Out]

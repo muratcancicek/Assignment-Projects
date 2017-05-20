@@ -35,7 +35,7 @@ from MainSrc.PythonVersionHandler import *
 from paths import *
 from DeepLearningToRank.MultiGPU_Tools import cifar10_input
 from DeepLearningToRank import tfFLAGS 
-from DeepLearningToRank import MyModel
+from DeepLearningToRank.Networks import NNetwork1 as MyModel
 from six import *
 import tensorflow as tf
 import re

@@ -1,6 +1,6 @@
 from MainSrc.PythonVersionHandler import *
 import tensorflow as tf
-from . import tfFLAGS 
+from DeepLearningToRank import tfFLAGS 
 import re
 
 def activation_summary(x):
