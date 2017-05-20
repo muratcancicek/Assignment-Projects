@@ -87,6 +87,7 @@ else:
     gitDir = '/root/Projects/Assignment-Projects'
     #if PYTHON_VERSION == 3:
     #  gitPull(gitDir)
+    offlineDataHDFSFolder = HDFSDataFolder
     allLogsPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/session/'
     Day1_iPhone_6_DataFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iPhone_6_Data'
     
