@@ -1,3 +1,24 @@
+[cicekm@citrisdance CIFAR10_Tensorflow]$ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
+Generating a 1024 bit RSA private key
+.......................++++++
+..++++++
+writing new private key to 'mykey.key'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:TR
+State or Province Name (full name) [Some-State]:Istanbul
+Locality Name (eg, city) []:Cekmekoy
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Ozyegin
+Organizational Unit Name (eg, section) []:CS
+Common Name (e.g. server FQDN or YOUR name) []:muratcan
+Email Address []:mcicek@ucsc.edu
+[cicekm@citrisdance CIFAR10_Tensorflow]$ jupyter noteb
 
 cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 
@@ -71,9 +92,6 @@ cd /soe/cicekm/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Ten
 tmux attach -t 0
 nvidia-docker run -it TensorFlowGPUImage
 
-git pull 
-python runCIFAR10_Tensorflow.py
-Ozyegin University, Çekmeköy Campus Ni?antepe District,Orman Street, 34794 Çekmeköy - ?stanbul
 ssh -p 50278 miek@209.58.132.3
 ssh -p 50278 miek@10.200.8.230
 
@@ -82,35 +100,6 @@ ssh miek@209.58.132.3
  chown -R cicekm:username
 rm -r  ~/.local/share/jupyter
 git commit --all "from gg"
-
-[cicekm@citrisdance CIFAR10_Tensorflow]$ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
-Generating a 1024 bit RSA private key
-.......................++++++
-..++++++
-writing new private key to 'mykey.key'
------
-You are about to be asked to enter information that will be incorporated
-into your certificate request.
-What you are about to enter is what is called a Distinguished Name or a DN.
-There are quite a few fields but you can leave some blank
-For some fields there will be a default value,
-If you enter '.', the field will be left blank.
------
-Country Name (2 letter code) [AU]:TR
-State or Province Name (full name) [Some-State]:Istanbul
-Locality Name (eg, city) []:Cekmekoy
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:Ozyegin
-Organizational Unit Name (eg, section) []:CS
-Common Name (e.g. server FQDN or YOUR name) []:muratcan
-Email Address []:mcicek@ucsc.edu
-[cicekm@citrisdance CIFAR10_Tensorflow]$ jupyter noteb
-
-
-git add ./cifar10_multi_gpu_train.py
-git add  ./output.txt
-git add  ./runCIFAR10_Tensorflow.py
-git add  ./tfFLAGS.py
-git add  ./tmp/cifar10_train/checkpoint
 
 telnet localhost 88088
 
