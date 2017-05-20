@@ -29,6 +29,7 @@ from __future__ import print_function
 from MainSrc.PythonVersionHandler import *
 from Sparker.Logic.Trainer import *
 from .DeepDataHandler import *
+from . import tfFLAGS 
 from paths import *
 import os
 
@@ -185,7 +186,9 @@ def read_gg_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.fl
     test_images = list(map(lambda x: x[1], allData))
     #print_(test_labels[:3])
     sepInd = int(len(test_labels) * ratio)
-    #test_labels = dense_to_one_hot(test_labels, 2)
+    tfFLAGS.num_examples = sepInd
+    if one_hot:
+        test_labels = dense_to_one_hot(test_labels, 2)
     test_labels = np.array(test_labels)
     scaler = StandardScaler(with_mean=True, with_std=True).fit(test_images)
     test_images = scaler.transform(test_images)
@@ -197,5 +200,5 @@ def read_gg_data_sets(train_dir, fake_data=False, one_hot=False, dtype=dtypes.fl
                                    dtype=dtype, reshape=reshape, validation_size=validation_size)
 
 
-def load_trainDataset(train_dir='MNIST-data', path = '', reshape = False):
-  return read_gg_data_sets(train_dir, one_hot=True, reshape = reshape)
+def load_trainDataset(train_dir='MNIST-data', one_hot = True, reshape = False):
+  return read_gg_data_sets(train_dir, one_hot = one_hot, reshape = reshape)

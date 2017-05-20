@@ -71,25 +71,26 @@ def tower_loss(scope, dataset):
     """
     # Build a Graph that computes the logits predictions from the
     # inference model.
+    dataset.train.shuffle()
     if tfFLAGS.network == 1:
         images, labels = dataset.train.next_batch(tfFLAGS.batch_size)
-        images, labels = tf.convert_to_tensor(images), tf.convert_to_tensor(labels)
+        images, labels = tf.convert_to_tensor(images, tf.float64), tf.convert_to_tensor(labels)
         #images, labels = distorted_inputs()
-        logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel.inference(images)
+        logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel.network(images)
     else:
         images, labels = dataset.train.next_batch(tfFLAGS.batch_size)
-        images, labels = tf.convert_to_tensor(images), tf.convert_to_tensor(labels)
+        images, labels = tf.convert_to_tensor(images, tf.float64), tf.convert_to_tensor(labels)
         #images, labels = cifar10.distorted_inputs()
-        logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel2.inference(images)
+        logits, fc1_w, fc1_b, fc2_w, fc2_b = MyModel2.network(images)
 
     # Calculate loss.
     loss = cal_loss(logits, labels)
 
-        # L2 regularization for the fully connected parameters.
-    regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) + tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
+    #    # L2 regularization for the fully connected parameters.
+    #regularizers = (tf.nn.l2_loss(fc1_w) + tf.nn.l2_loss(fc1_b) + tf.nn.l2_loss(fc2_w) + tf.nn.l2_loss(fc2_b))
 
-    # Add the regularization term to the loss.
-    loss += 5e-4 * regularizers
+    ## Add the regularization term to the loss.
+    #loss += 5e-4 * regularizers
 
     # Build the portion of the Graph calculating the losses. Note that we will
     # assemble the total_loss using a custom function below.
@@ -259,7 +260,7 @@ def train(dataset):
 
             assert not np.isnan(loss_value), 'Model diverged with loss = NaN'
 
-            if step % tfFLAGS.log_frequency == 0:
+            if step > 0 and step % tfFLAGS.log_frequency == 0:
                 num_examples_per_step = tfFLAGS.batch_size * tfFLAGS.num_gpus
                 examples_per_sec = num_examples_per_step / duration
                 sec_per_batch = duration / tfFLAGS.num_gpus
@@ -280,6 +281,7 @@ def train(dataset):
 
 def trainOnMultiGPU(dataset):    # pylint: disable=unused-argument
     #cifar10.maybe_download_and_extract()
+    tfFLAGS.printExperimentDetails()
     if tf.gfile.Exists(tfFLAGS.train_dir):
         tf.gfile.DeleteRecursively(tfFLAGS.train_dir)
     tf.gfile.MakeDirs(tfFLAGS.train_dir)

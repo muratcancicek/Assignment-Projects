@@ -22,12 +22,19 @@ def test1():
         convertPickleToHDFS(keyword)
 
 def test2():
-    learnDataset(joinPath(textTrainDataFolder, 'all_day_jant_TrainData.txt'))
+    learnDataset(joinPath(textTrainDataFolder, 'all_day_iphone_6_TrainData.txt'), 'iphone 6')
 
 def test3():
-    dataset = load_trainDataset(joinPath(textTrainDataFolder, 'all_day_iphone_6_TrainData.txt'))
+    dataset = load_trainDataset(joinPath(textTrainDataFolder, 'all_day_iphone_6_TrainData.txt'), one_hot = False)
     trainOnMultiGPU(dataset)
     run_eval(dataset)
+
+def test4():
+    runSpark()
+    keyword = 'iphone 6'
+    inputName = 'all_day'
+    outputFolder = textTrainDataFolder#offlineDataHDFSFolder
+    generateOneHotTrainData(keyword, inputName, outputFolder)
 
 def runTests():
     #sc = SparkContext() 
@@ -35,4 +42,4 @@ def runTests():
     ##trainPairWiseDataTestKeyword2('iphone 6')
     ##convertPickleToHDFS('iphone_6')
     #trainPairWiseDataTestKeyword('iphone_6', inputFolder = offlineDataHDFSFolder)
-    test3()
+    test4()
