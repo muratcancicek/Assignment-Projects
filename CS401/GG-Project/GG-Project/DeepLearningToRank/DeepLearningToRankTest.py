@@ -9,9 +9,9 @@ from MainSrc.SparkerMethods import *
 from Sparker.Logic.Trainer import *
 from .DeepDataHandler import *
 from .DatasetLearner import *
-from .SVMTrainers import *
 from .DeepTrainer import *
 from pyspark import SparkContext
+from .SVMTrainers import *
 
 def test0():
     keyword = 'tv_unitesi'
@@ -38,6 +38,7 @@ def test4():
     generateOneHotTrainData(keyword, inputName, outputFolder)
 
 def test5():
+    runSpark()
     trainPairWiseDataTestKeyword2('iphone 6', 'oneHot')
 
 def runTests():
