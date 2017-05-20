@@ -1,8 +1,11 @@
+from DeepLearningToRank.DeepDataHandler import readTrainDataFromPickle
 from MainSrc.PythonVersionHandler import *
-from paths import *
 from Sparker.Logic.LogicTests import *
 from Sparker.Logic.Trainer import *
+from paths import *
+#from DeepLearningToRank.DeepTrainer import *
 #trainPairWiseData(data) 
+
 def printSeparater(c = 3):
     for n in range(c):
         print_('#' * 88)
@@ -70,9 +73,6 @@ def runTrainingExperimentSK(trainData, testData, modelName = 'Model', save = Tru
             pass
         print_(modelPath, 'has been saved successfully by', nowStr())
     return evaluateModelOnDataSK(model, testData, 'testData', modelName)
-
-from DeepLearningToRank.DeepDataHandler import readTrainDataFromPickle
-#from DeepLearningToRank.DeepTrainer import *
 
 def featureFilter(trainData):
     return trainData.map(lambda x: LabeledPoint(x.label, list(x.features[1:4]) + list(x.features[5:6]) + list(x.features[7:-2])))

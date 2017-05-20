@@ -1,4 +1,4 @@
-from NNetwork1 import *
+from .NNetwork1 import *
 from DeepLearningToRank import tfFLAGS
 
 # Architecture of model
