@@ -27,6 +27,7 @@
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_multi_gpu_train.py" />
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\__init__.py" />
     <Compile Include="DeepLearningToRank\MyModel.py" />
+    <Compile Include="DeepLearningToRank\MyModel2.py" />
     <Compile Include="DeepLearningToRank\NNetworkHandler.py" />
     <Compile Include="DeepLearningToRank\DeepDataHandler.py" />
     <Compile Include="DeepLearningToRank\DeepLearningToRankTest.py" />
