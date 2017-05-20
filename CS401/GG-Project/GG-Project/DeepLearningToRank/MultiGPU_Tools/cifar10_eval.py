@@ -123,13 +123,13 @@ def evaluate(dataset):
         #logits = cifar10.inference(images)
         if tfFLAGS.network == 1:
             images, labels = dataset.test.next_batch(tfFLAGS.batch_size)
-            images, labels = tf.convert_to_tensor(images), tf.convert_to_tensor(labels, tf.int32)
-            logits, w1, b1, w2, b2 = MyModel.inference(images)
+            images, labels = tf.convert_to_tensor(images, tf.float64), tf.convert_to_tensor(labels, tf.int32)
+            logits, w1, b1, w2, b2 = MyModel.network(images)
         else:
             images, labels = dataset.test.next_batch(tfFLAGS.batch_size)
-            images, labels = tf.convert_to_tensor(images), tf.convert_to_tensor(labels)
-            logits, w1, b1, w2, b2 = MyModel2.inference(images)
-            
+            images, labels = tf.convert_to_tensor(images, tf.float64), tf.convert_to_tensor(labels)
+            logits, w1, b1, w2, b2 = MyModel2.network(images)
+        logits = tf.cast(logits, tf.float32)
         # Calculate predictions.
         top_k_op = tf.nn.in_top_k(logits, labels, 1)
 

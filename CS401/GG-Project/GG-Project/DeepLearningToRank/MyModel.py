@@ -1,5 +1,6 @@
-from . import tfFLAGS 
+from MainSrc.PythonVersionHandler import *
 import tensorflow as tf
+from . import tfFLAGS 
 import re
 
 def activation_summary(x):
@@ -9,12 +10,12 @@ def activation_summary(x):
 
 def variable_on_cpu(name, shape, initializer):
   with tf.device('/cpu:0'):
-    dtype = tf.float16 if tfFLAGS.use_fp16 else tf.float32
+    dtype = tf.float16 if tfFLAGS.use_fp16 else tf.float64
     var = tf.get_variable(name, shape, initializer=initializer, dtype=dtype)
   return var
 
 def variable_with_weight_decay(name, shape, stddev, wd):
-  dtype = tf.float16 if tfFLAGS.use_fp16 else tf.float32
+  dtype = tf.float16 if tfFLAGS.use_fp16 else tf.float64
   var = variable_on_cpu(name, shape, tf.truncated_normal_initializer(stddev=stddev, dtype=dtype))
   if wd is not None:
     weight_decay = tf.multiply(tf.nn.l2_loss(var), wd, name='weight_loss')
@@ -65,7 +66,7 @@ def summarizeModel():
     numParamsoftmax += tfFLAGS.NUM_CLASSES
     print_('Total number of hidden parameters:', numParamConv1 + numParamConv2 + numParamLocal3 + numParamLocal4 + numParamsoftmax)
 
-def inference(images):
+def network(images):
     # local3
     with tf.variable_scope('local3') as scope:
         # Move everything into depth so we can perform a single matrix multiply.

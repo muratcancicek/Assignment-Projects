@@ -90,8 +90,8 @@ def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = T
     return model
 
 def runTrainingExperiment(trainData, testData, modelName = 'Model', save = True, outputFolder = Day1_iPhone_6_DataFolder):
-    #trainData = scaleTrainData(trainData)
-    trainData = normalizeTrainData(trainData)
+    rainData = scaleTrainData(trainData)
+    #ttrainData = normalizeTrainData(trainData)
     model = trainPairWiseData(trainData, 'trainData', modelName)
     if save:
         modelPath = joinPath(outputFolder, modelName)
