@@ -14,7 +14,8 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
 
     if method == None:
-        runTests()
+        runSparkerMethods()
+        #runTests()
     else:
         method()
 
