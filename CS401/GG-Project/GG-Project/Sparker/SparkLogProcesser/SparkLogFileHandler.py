@@ -141,48 +141,6 @@ def readJourneyFromHDFS(fileName):
     print_(fileName, 'has been read as journey by', nowStr())
     return journey
 
-evalCounterForProducts = 0
-def evalProduct(productText):
-    if 'D' in productText:
-        productText = productText.replace('DenseVector(', '')[:-1]
-    product = eval(productText)
-    product = (product[0], DenseVector(product[1:]))
-    global evalCounterForProducts
-    #evalCounterForProducts += 1
-    #if evalCounterForProducts % 1000000 == 0: 
-    #    print_('%i products have been evaluated to Python Dict by %s' % (evalCounterForProducts, nowStr()))
-    return product
-
-def readProductsFromHDFS(fileName = None):
-    if fileName == None:
-        fileName = "hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/product/vector" 
-    products = sc_().textFile(fileName)
-    products = products.map(evalProduct)
-    #print_(products.first())
-    print_(fileName, products.count(), ' products have been read successfully by', nowStr())
-    return products
-
-def readLabeledPairsFromHDFS(fileName):
-    labeledPairs = sc_().textFile(fileName)
-    labeledPairs = labeledPairs.map(eval)
-    #ids = labeledPairs.map(lambda x: x[0].split('_'))sc_().parallelize(.collect())
-    #def extender(a, b): a.extend(b); return a
-    #ids = list(set(ids.reduce(extender)))
-    #print_(labeledPairs.count())
-    #print_(len(ids))
-    return labeledPairs#, [int(id) for id in ids]
-
-def readTrainDataFromHDFS(fileName):
-    trainData = sc_().textFile(fileName)
-    print_(fileName, 'has been read successfully by', nowStr())
-    trainData = trainData.map(lambda x: x.replace('LabeledPoint', '')).map(eval)
-    return trainData.map(lambda x: x[1]).map(lambda x: LabeledPoint(1.0 if x[0] > 0 else 0.0, x[1:])) 
-
-def saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword, ext = ''):
-    trainDataFile = inputName + '_' + keyword + '_TrainData' + ext
-    trainData.saveAsTextFile(joinPath(outputFolder, trainDataFile))
-    print_(trainDataFile, 'has been saved successfully by', nowStr())
-
 def saveRDDToHDFS(rdd, fileName):
     rdd.saveAsTextFile(fileName)
     print_(fileName, 'has been saved successfully by', nowStr())
