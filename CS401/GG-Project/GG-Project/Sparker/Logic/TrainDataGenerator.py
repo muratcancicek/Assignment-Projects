@@ -148,9 +148,11 @@ def generateKeywordUpdatedLabeledPairsAndProducts(keyword, inputName, journeyFil
     journey = readJourneyFromHDFS(journeyFile)
     labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'UpdatedLabeledPairs')
     labeledPairs = getUpdatedLabeledPairs(journey)
-    if not os.path.exists(labeledPairsFile):
+    if not os.path.exists(labeledPairsFile) and labeledPairs.count() > 0:
         try:
             labeledPairs.saveAsTextFile(labeledPairsFile)
+            #fp = open(trainDataFile, 'wb')   #Pickling pass
+            #pickle.dump(labeledPairs.collect(), fp)
             print_(labeledPairsFile, 'have been saved successfully by', nowStr())
         except Py4JJavaError:
             pass
@@ -159,7 +161,7 @@ def generateKeywordUpdatedLabeledPairsAndProducts(keyword, inputName, journeyFil
     return labeledPairs, products
 
 def readKeywordLabeledPairsAndProducts(keyword, inputName, outputFolder):
-    labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'UpdatedLabeledPairs')
+    labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'UpdatedLabeledPairs2')
     labeledPairs = readLabeledPairsFromHDFS(labeledPairsFile)
     journeyProductsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'journey_products')
     products = readProductsFromHDFS(journeyProductsFile)
@@ -167,15 +169,16 @@ def readKeywordLabeledPairsAndProducts(keyword, inputName, outputFolder):
     return labeledPairs, products
 
 
-def generateUpdatedTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder, generating = True):
+def generateUpdatedTrainDataAndSave(keyword, inputName, journeyFile, outputFolder, generating = True):
     keyword = keyword.replace(' ', '_')
     #generating = False
     if generating:
-        labeledPairs, products = generateKeywordUpdatedLabeledPairsAndProducts(keyword, inputName, journeyFile, productsFile, outputFolder)
+        labeledPairs, products = generateKeywordUpdatedLabeledPairsAndProducts(keyword, inputName, journeyFile, outputFolder)
     else:
         labeledPairs, products = readKeywordUpdatedLabeledPairsAndProducts(keyword, inputName, outputFolder)
     trainData = generateTrainData(labeledPairs, products)
-    saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword, '_Updated')
+    if trainData.count() > 0:
+        saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword, '_Updated2')
     return trainData
 
 def updatedTrainDataGenerationTest(keyword): 
@@ -183,11 +186,9 @@ def updatedTrainDataGenerationTest(keyword):
     inputName = 'all_day'
     outputFolder = joinPath(HDFSDataFolder, 'Day1_' + keyword + '_Data')
     journeyFile = joinPath(outputFolder, keyword + '_' + inputName + '_journey')
-    productsFile = None
-    return generateUpdatedTrainDataAndSave(keyword, inputName, journeyFile, productsFile, outputFolder)
+    return generateUpdatedTrainDataAndSave(keyword, inputName, journeyFile, outputFolder)
 
 def runUpdatedTrainDataGenerationTest(i = 6):
-    #keywords = ['jant', 'nike air max',[:1] 'spor ayyakab?', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch', 'k�pek mamas?']
-    keywords = ['jant', 'nike air max', 'tv unitesi', 'kot ceket', 'camasir makinesi', 'bosch']
+    keywords = ['tv unitesi', 'iphone 6', 'nike air max', 'camasir makinesi', 'bosch', 'jant', 'kot ceket']
     for keyword in keywords[:i]:
         updatedTrainDataGenerationTest(keyword)

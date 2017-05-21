@@ -9,7 +9,7 @@ def printSeparater():
     for n in range(3):
         print_('#' * 88)
         
-def main(method = None):
+def main(method = None, kill = True):
     printSeparater()
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
 
@@ -22,7 +22,7 @@ def main(method = None):
     print_('%s:' % nowStr(), 'DONE')
     printSeparater()
 
-    if  COMPUTERNAME != 'UCSC:citrisdense':
+    if  COMPUTERNAME != 'UCSC:citrisdense' and kill:
         sys.exit() 
 
 if __name__ == "__main__":
