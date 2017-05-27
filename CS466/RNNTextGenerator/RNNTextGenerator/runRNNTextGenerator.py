@@ -1,4 +1,5 @@
 from PythonVersionHandler import *
+from ptb_word_lm import main as runPTB
 from paths import *
 
 def printSeparater():
@@ -10,14 +11,7 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
     
     if method == None:
-        if tfFLAGS.num_gpus < 2: 
-            tfFLAGS.max_steps *= 2
-        tfFLAGS.printExperimentDetails()
-        if tfFLAGS.num_gpus > 0:
-            run_cifar10_multi_gpu_train()
-        else:
-            run_cifar10_train()
-        run_cifar10_eval() 
+        runPTB(0)
     else:
         method()
 

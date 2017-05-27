@@ -24,7 +24,13 @@
   <ItemGroup>
     <Compile Include="OutputLogger.py" />
     <Compile Include="paths.py" />
+    <Compile Include="ptb_word_lm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonVersionHandler.py" />
+    <Compile Include="reader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runRNNTextGenerator.py" />
     <Compile Include="tfFLAGS.py" />
   </ItemGroup>
