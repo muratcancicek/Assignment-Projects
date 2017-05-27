@@ -19,16 +19,19 @@ ssh -p 50278 miek@10.200.8.230
 
 /root/tmux attach -t 1
 
+bash
 ssh cicekm@citrisdance.soe.ucsc.edu 
 
 Iq133142muratcan
-
 setenv COMPUTERNAME UCSC:citrisdense
 set path = ( /soe/cicekm/bin/scala/bin $path )
 set path = ( /soe/cicekm/anaconda3/bin $path )
 set path = ( /soe/cicekm/bin $path )
 setenv PATH $PATH\:/soe/cicekm/bin/spark-1.6.0-bin-hadoop2.6/bin
 setenv SPARK_HOME /soe/cicekm/bin/spark-1.6.0-bin-hadoop2.6
+
+cd /soe/cicekm/Projects/Assignment-Projects/CS466/RNNTextGenerator/RNNTextGenerator
+
 
 cd /soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 
