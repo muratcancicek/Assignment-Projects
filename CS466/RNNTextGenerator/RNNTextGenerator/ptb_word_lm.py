@@ -54,6 +54,8 @@ import time
 import numpy as np
 import tensorflow as tf
 
+from PythonVersionHandler import *
+from paths import *
 import reader
 
 flags = tf.flags
@@ -297,7 +299,7 @@ def run_epoch(session, model, eval_op=None, verbose=False):
     iters += model.input.num_steps
 
     if verbose and step % (model.input.epoch_size // 10) == 10:
-      print("%.3f perplexity: %.3f speed: %.0f wps" %
+      print_("%.3f perplexity: %.3f speed: %.0f wps" %
             (step * 1.0 / model.input.epoch_size, np.exp(costs / iters),
              iters * model.input.batch_size / (time.time() - start_time)))
 
@@ -317,7 +319,7 @@ def get_config():
     raise ValueError("Invalid model: %s", FLAGS.model)
 
 
-def main(_):
+def main():
   if not FLAGS.data_path:
     raise ValueError("Must set --data_path to PTB data directory")
 
@@ -337,14 +339,14 @@ def main(_):
       train_input = PTBInput(config=config, data=train_data, name="TrainInput")
       with tf.variable_scope("Model", reuse=None, initializer=initializer):
         m = PTBModel(is_training=True, config=config, input_=train_input)
-      tf.summary.scalar("Training Loss", m.cost)
-      tf.summary.scalar("Learning Rate", m.lr)
+      tf.summary.scalar("Training_Loss", m.cost)
+      tf.summary.scalar("Learning_Rate", m.lr)
 
     with tf.name_scope("Valid"):
       valid_input = PTBInput(config=config, data=valid_data, name="ValidInput")
       with tf.variable_scope("Model", reuse=True, initializer=initializer):
         mvalid = PTBModel(is_training=False, config=config, input_=valid_input)
-      tf.summary.scalar("Validation Loss", mvalid.cost)
+      tf.summary.scalar("Validation_Loss", mvalid.cost)
 
     with tf.name_scope("Test"):
       test_input = PTBInput(config=eval_config, data=test_data, name="TestInput")
@@ -358,18 +360,18 @@ def main(_):
         lr_decay = config.lr_decay ** max(i + 1 - config.max_epoch, 0.0)
         m.assign_lr(session, config.learning_rate * lr_decay)
 
-        print("Epoch: %d Learning rate: %.3f" % (i + 1, session.run(m.lr)))
+        print_("Epoch: %d Learning rate: %.3f" % (i + 1, session.run(m.lr)))
         train_perplexity = run_epoch(session, m, eval_op=m.train_op,
                                      verbose=True)
-        print("Epoch: %d Train Perplexity: %.3f" % (i + 1, train_perplexity))
+        print_("Epoch: %d Train Perplexity: %.3f" % (i + 1, train_perplexity))
         valid_perplexity = run_epoch(session, mvalid)
-        print("Epoch: %d Valid Perplexity: %.3f" % (i + 1, valid_perplexity))
+        print_("Epoch: %d Valid Perplexity: %.3f" % (i + 1, valid_perplexity))
 
       test_perplexity = run_epoch(session, mtest)
-      print("Test Perplexity: %.3f" % test_perplexity)
+      print_("Test Perplexity: %.3f" % test_perplexity)
 
       if FLAGS.save_path:
-        print("Saving model to %s." % FLAGS.save_path)
+        print_("Saving model to %s." % FLAGS.save_path)
         sv.saver.save(session, FLAGS.save_path, global_step=sv.global_step)
 
 
