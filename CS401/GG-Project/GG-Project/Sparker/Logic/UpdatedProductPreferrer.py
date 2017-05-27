@@ -21,12 +21,12 @@ def modulize(journey):
             modulized[log['module']] = [] 
     return modulized
 
-def getUpdatedLabeledPairs(jour):
+def getUpdatedLabeledPairs(jour, clicks = False):
     journeys = jour.filter(lambda x: keyIn('_c', x)).sortBy(lambda x: x['timestamp']).groupBy(lambda x: x['_c']).collect()
     events = []
 
     def lookActions(action, journey):
-        if action['module'] == 'cart' or action['module'] == 'payment' or action['module'] == 'item':
+        if action['module'] == 'cart' or action['module'] == 'payment' or (action['module'] == 'item' and clicks):
             journey = modulize(journey)
             id = action['id']
             if keyIn('search', journey):
@@ -84,7 +84,7 @@ def getUpdatedLabeledPairs(jour):
             else:
                 labeledPairs[keyPairIds(id, otherId)] = positive
                 labeledPairs[keyPairIds(otherId, id)] = negative
-        elif module == 'item' and not keyIn(posKey(id, 'payment', otherId), counts) and not keyIn(posKey(otherId, 'payment', id), counts) and not keyIn(posKey(id, 'cart', otherId), counts) and not keyIn(posKey(otherId, 'cart', id), counts):
+        elif (module == 'item' and clicks) and not keyIn(posKey(id, 'payment', otherId), counts) and not keyIn(posKey(otherId, 'payment', id), counts) and not keyIn(posKey(id, 'cart', otherId), counts) and not keyIn(posKey(otherId, 'cart', id), counts):
             rev = posKey(otherId, module, id)
             if keyIn(rev, counts):
                 if counts[ke] > counts[rev]:
