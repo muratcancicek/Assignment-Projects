@@ -1007,13 +1007,193 @@ Training with SVMWithSGD...
 The learned weights:
 [-0.0156664937794, 0.677804439446, 0.0375002010759, 0.0163790742681, 0.0373812436122, 0.00160059045993, 0.0976601020909, -0.10060971327, 0.00141824164997, 0.000987678865909, -0.44231941744, 0.441373853342, -0.00167394936143, 0.00115948205864, 0.110820029398, -0.111307695426, -0.0019610764072, 0.00138332143857, 0.206647508758, -0.204533525307, -0.00156564167568, 0.000847218834836, 0.323256827004, -0.32208738638, -0.00193849589732, 1.15537276581, -0.207923901356]
 
-
 ExtendedModel has been evaluated on trainData by 2017-05-20 16:48:50.718278
 The result accuracy is %89.916
-
-
 ExtendedModel has been evaluated on testData by 2017-05-20 16:49:04.336351
 The result accuracy is %89.987
 
 The experiment for ExtendedModel has finished by 2017-05-20 16:49:04.341571
+########################################################################################
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-21 23:08:16.204199: Running on osldevptst02:Jupyter...
+########################################################################################
+########################################################################################
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iphone_6_Data/all_day_iphone_6_TrainData_Updated has been read successfully by 2017-05-21 23:08:16.276956
+(0.0,[-7.0,-1.0,-67.0,-64.0,0.0,0.0,0.0,-1.0,0.0,0.0,493.9,0.0])
+Data from HDFS
+350 instances have been scaled by 2017-05-21 23:08:16.959146
+########################################################################################
+Training with SVMWithSGD...
+
+ ExtendedModel has been trained on trainData by 2017-05-21 23:08:22.183088
+The learned weights:
+[0.805798638841, -0.236373598116, 0.091482084186, -0.572494708592, 0.192851164683, 0.735608461121, -0.0492645701057, 1.07790931856, -0.241797360713, 0.199081731688, -0.54290274746, -0.140595009525]
+
+ExtendedModel has been evaluated on trainData by 2017-05-21 23:08:22.713961
+The result accuracy is %91.770
+ExtendedModel has been evaluated on testData by 2017-05-21 23:08:23.375645
+The result accuracy is %90.654
+
+The experiment for ExtendedModel has finished by 2017-05-21 23:08:23.380615
+########################################################################################
+Training with SVMWithSGD...
+
+ FilteredModel has been trained on trainData by 2017-05-21 23:08:27.944402
+The learned weights:
+[0.0171611194971, 0.2126372115, -1.27462468162, 0.621385431578, 1.04995444444, -0.257318947622, -0.00490842642813]
+
+FilteredModel has been evaluated on trainData by 2017-05-21 23:08:28.706866
+The result accuracy is %80.784
+FilteredModel has been evaluated on testData by 2017-05-21 23:08:29.289204
+The result accuracy is %71.579
+
+The experiment for FilteredModel has finished by 2017-05-21 23:08:29.294133
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_nike_air_max_Data/all_day_nike_air_max_TrainData_Updated has been read successfully by 2017-05-21 23:08:29.337682
+(1.0,[-4.0,0.0,-100.0,-164.0,1.0,0.0,0.0,0.0,0.0,1.0,-60.9,1.0])
+Data from HDFS
+1034 instances have been scaled by 2017-05-21 23:08:29.671323
+########################################################################################
+Training with SVMWithSGD...
+
+ ExtendedModel has been trained on trainData by 2017-05-21 23:08:34.366300
+The learned weights:
+[0.611009765848, -0.0240244355384, 0.153182007064, 0.38609587825, -0.120009733316, 0.353837301567, 0.0, 0.408901014728, -0.169330120665, 1.28028876038, 0.298782554821, -0.0560080716207]
+
+ExtendedModel has been evaluated on trainData by 2017-05-21 23:08:35.044645
+The result accuracy is %79.348
+ExtendedModel has been evaluated on testData by 2017-05-21 23:08:35.607447
+The result accuracy is %79.866
+
+The experiment for ExtendedModel has finished by 2017-05-21 23:08:35.613120
+########################################################################################
+Training with SVMWithSGD...
+
+ FilteredModel has been trained on trainData by 2017-05-21 23:08:40.297869
+The learned weights:
+[-0.136898420325, 0.480551156405, 0.344156922047, 0.42525541414, 0.469307451232, -0.256796758307, 1.2599771028]
+
+FilteredModel has been evaluated on trainData by 2017-05-21 23:08:41.072653
+The result accuracy is %74.471
+FilteredModel has been evaluated on testData by 2017-05-21 23:08:41.722818
+The result accuracy is %72.615
+
+The experiment for FilteredModel has finished by 2017-05-21 23:08:41.730053
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_tv_unitesi_Data/all_day_tv_unitesi_TrainData_Updated has been read successfully by 2017-05-21 23:08:41.770917
+(1.0,[1.0,0.0,6.0,-5204.0,1.0,1.0,0.0,0.0,0.0,1.0,-82.5,1.0])
+Data from HDFS
+3092 instances have been scaled by 2017-05-21 23:08:42.141175
+########################################################################################
+Training with SVMWithSGD...
+
+ ExtendedModel has been trained on trainData by 2017-05-21 23:08:46.854354
+The learned weights:
+[-0.512200798163, 0.920148453486, 0.0108010429263, 0.235846846296, -0.0810206633446, -0.173079632624, 0.0935055173693, 0.0513915168241, 0.311968172602, 0.206439825968, -0.581141741805, 0.373040617357]
+
+ExtendedModel has been evaluated on trainData by 2017-05-21 23:08:47.561395
+The result accuracy is %78.231
+ExtendedModel has been evaluated on testData by 2017-05-21 23:08:48.306418
+The result accuracy is %79.451
+
+The experiment for ExtendedModel has finished by 2017-05-21 23:08:48.311993
+########################################################################################
+Training with SVMWithSGD...
+
+ FilteredModel has been trained on trainData by 2017-05-21 23:08:52.828602
+The learned weights:
+[1.23312078427, 0.101929579069, 0.40641259238, -0.27451835192, 0.10799277571, 0.15904967507, 0.0157773575777]
+
+FilteredModel has been evaluated on trainData by 2017-05-21 23:08:53.498255
+The result accuracy is %73.751
+FilteredModel has been evaluated on testData by 2017-05-21 23:08:54.328574
+The result accuracy is %71.819
+
+The experiment for FilteredModel has finished by 2017-05-21 23:08:54.333957
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_camasir_makinesi_Data/all_day_camasir_makinesi_TrainData_Updated has been read successfully by 2017-05-21 23:08:54.366488
+(1.0,[0.0,0.0,-1.0,1374.0,0.0,0.0,0.0,0.0,0.0,0.0,-136.0,-2.0])
+Data from HDFS
+262 instances have been scaled by 2017-05-21 23:08:54.689116
+########################################################################################
+Training with SVMWithSGD...
+
+ ExtendedModel has been trained on trainData by 2017-05-21 23:08:58.912649
+The learned weights:
+[0.23893216209, 1.00100538742, 0.13973267935, -0.361900737918, -0.0846775620926, -0.188869687233, 0.0, 0.10244996944, -0.297314217724, 0.359190792772, -0.737919265634, -0.0570165529782]
+
+ExtendedModel has been evaluated on trainData by 2017-05-21 23:08:59.416675
+The result accuracy is %77.540
+ExtendedModel has been evaluated on testData by 2017-05-21 23:08:59.917170
+The result accuracy is %78.667
+
+The experiment for ExtendedModel has finished by 2017-05-21 23:08:59.924578
+########################################################################################
+Training with SVMWithSGD...
+
+ FilteredModel has been trained on trainData by 2017-05-21 23:09:04.234435
+The learned weights:
+[1.39251555724, 0.00538263192283, 0.044950677114, -0.417660230992, 0.174475909107, -0.466091547679, 0.328158185705]
+
+FilteredModel has been evaluated on trainData by 2017-05-21 23:09:04.930656
+The result accuracy is %82.447
+FilteredModel has been evaluated on testData by 2017-05-21 23:09:05.500324
+The result accuracy is %85.135
+
+The experiment for FilteredModel has finished by 2017-05-21 23:09:05.505576
+########################################################################################
+########################################################################################
+2017-05-21 23:09:05.513042: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-23 23:25:19.394688: Running on osldevptst02...
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_tv_unitesi_Data/tv_unitesi_all_day_journey has been read as journey by 2017-05-23 23:25:20.524887
+3092 labeled pairs have been generated by 2017-05-23 23:25:35.458229
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_tv_unitesi_Data/all_day_tv_unitesi_journey_products 2166  products have been read successfully by 2017-05-23 23:25:37.121505
+train instances is being generated by 2017-05-23 23:25:37.124482
+3092 train instances have been generated by 2017-05-23 23:25:38.831973
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iphone_6_Data/iphone_6_all_day_journey has been read as journey by 2017-05-23 23:25:39.366622
+404 labeled pairs have been generated by 2017-05-23 23:25:41.065455
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_iphone_6_Data/all_day_iphone_6_journey_products 2757  products have been read successfully by 2017-05-23 23:25:42.584594
+train instances is being generated by 2017-05-23 23:25:42.587674
+350 train instances have been generated by 2017-05-23 23:25:44.185218
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_nike_air_max_Data/nike_air_max_all_day_journey has been read as journey by 2017-05-23 23:25:44.811068
+1046 labeled pairs have been generated by 2017-05-23 23:25:54.188037
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_nike_air_max_Data/all_day_nike_air_max_journey_products 1477  products have been read successfully by 2017-05-23 23:25:55.674777
+train instances is being generated by 2017-05-23 23:25:55.677025
+1034 train instances have been generated by 2017-05-23 23:25:57.158872
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_camasir_makinesi_Data/camasir_makinesi_all_day_journey has been read as journey by 2017-05-23 23:25:57.533487
+262 labeled pairs have been generated by 2017-05-23 23:26:06.560399
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_camasir_makinesi_Data/all_day_camasir_makinesi_journey_products 1858  products have been read successfully by 2017-05-23 23:26:07.955930
+train instances is being generated by 2017-05-23 23:26:07.958758
+262 train instances have been generated by 2017-05-23 23:26:09.351636
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_bosch_Data/bosch_all_day_journey has been read as journey by 2017-05-23 23:26:09.783233
+0 labeled pairs have been generated by 2017-05-23 23:26:18.268198
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_bosch_Data/all_day_bosch_journey_products 1739  products have been read successfully by 2017-05-23 23:26:19.603343
+train instances is being generated by 2017-05-23 23:26:19.606138
+0 train instances have been generated by 2017-05-23 23:26:21.106729
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_jant_Data/jant_all_day_journey has been read as journey by 2017-05-23 23:26:21.364098
+0 labeled pairs have been generated by 2017-05-23 23:26:30.055796
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/data/Day1_jant_Data/all_day_jant_journey_products 1301  products have been read successfully by 2017-05-23 23:26:31.345790
+train instances is being generated by 2017-05-23 23:26:31.349220
+0 train instances have been generated by 2017-05-23 23:26:32.733206
+2017-05-23 23:26:32.954000: DONE
+########################################################################################
+########################################################################################
 ########################################################################################

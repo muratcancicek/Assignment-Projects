@@ -176,7 +176,7 @@
     <Compile Include="Sparker\SparkLogProcesser\SparkLogAnalyzer.py" />
     <Compile Include="Sparker\SparkLogProcesser\SparkLogAnalyzerTests.py" />
     <Compile Include="Sparker\SparkLogProcesser\SparkLogFileHandler.py" />
-    <Compile Include="Sparker\SparkLogProcesser\SparkLogReader.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkTests\SparkLogReader.py" />
     <Compile Include="Sparker\SparkLogProcesser\__init__.py" />
     <Compile Include="Sparker\__init__.py" />
   </ItemGroup>
