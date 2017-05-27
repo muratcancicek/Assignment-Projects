@@ -52,7 +52,7 @@ log_frequency = 100
 #    tf.app.flags.DEFINE_boolean('log_device_placement', False, """Whether to log device placement.""")
 #    tf.app.flags.DEFINE_integer('log_frequency', 1000, """How often to log results to the console.""")
 
-# Constants describing the training process.<z
+# Constants describing the training process.
 MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.
 NUM_EPOCHS_PER_DECAY = 350.0      # Epochs after which learning rate decays.
 LEARNING_RATE_DECAY_FACTOR = 0.1  # Learning rate decay factor.

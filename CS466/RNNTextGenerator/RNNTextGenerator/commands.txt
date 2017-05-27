@@ -1,0 +1,50 @@
+ssh -N -f -L 5080:127.0.0.1:8891 cicekm@citrisdance.soe.ucsc.edu 
+ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
+ssh -N -f -L 5700:localhost:9999 cicekm@citrisdance.soe.ucsc.edu 
+
+localhost:58089/?token=711865e45b78e63d36d4dc75fcee6781eeeb913595add31e
+
+sudo vi /etc/ssh/sshd_config
+sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+
+cd /soe/cicekm/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow
+cd /soe/cicekm/Projects/Assignment-Projects/CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow
+tmux attach -t 0
+nvidia-docker run -it TensorFlowGPUImage
+
+ssh -p 50278 miek@209.58.132.3
+ssh -p 50278 miek@10.200.8.230
+
+
+/root/tmux attach -t 1
+
+ssh cicekm@citrisdance.soe.ucsc.edu 
+
+Iq133142muratcan
+
+setenv COMPUTERNAME UCSC:citrisdense
+set path = ( /soe/cicekm/bin/scala/bin $path )
+set path = ( /soe/cicekm/anaconda3/bin $path )
+set path = ( /soe/cicekm/bin $path )
+setenv PATH $PATH\:/soe/cicekm/bin/spark-1.6.0-bin-hadoop2.6/bin
+setenv SPARK_HOME /soe/cicekm/bin/spark-1.6.0-bin-hadoop2.6
+
+cd /soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+
+tmux attach -t 
+jupyter notebook --no-browser --port=8891
+
+n: n.c
+	gcc -o n n.c chatroom_utils.c chatroom_utils.h
+
+s: s.c
+	gcc -pthread -o s s.c chatroom_utils.c chatroom_utils.h
+
+scp -r /opt/spark/* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/bin/spark/
+ln -s /soe/cicekm/bin/scala-2.11.7 /soe/cicekm/bin/scala
+
+
+ssh cicekm@riverdance.soe.ucsc.edu
+ssh cicekm@udance.soe.ucsc.edu
+ssh cicekm@campusrocks.soe.ucsc.edu
