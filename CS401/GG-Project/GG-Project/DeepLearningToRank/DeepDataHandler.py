@@ -129,3 +129,19 @@ def generateOneHotTrainData(keyword, inputName, outputFolder):
     print_(trainDataFile, 'has been saved successfully by', nowStr())
     #saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword, '_OneHot')
     return trainData
+
+def generateOneHotTrainData(keyword, inputName, outputFolder):
+    keyword = keyword.replace(' ', '_')
+    labeledPairsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'labeledPairs.txt')
+    labeledPairs = loadPickle(labeledPairsFile)
+    #labeledPairs = sc_().parallelize(labeledPairs)
+    outputFolder = joinPath(offlineDataHDFSFolder, 'Day1_' + keyword + '_Data')
+    journeyProductsFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'journey_products')
+    products = readProductsFromHDFS(journeyProductsFile)
+    trainData = generateTrainData(labeledPairs, products)
+    trainDataFile = joinPath(outputFolder, inputName + '_' + keyword + '_' + 'OneHot_TrainData.txt')
+    fp = open(trainDataFile, 'wb')   #Pickling
+    pickle.dump(trainData, fp)
+    print_(trainDataFile, 'has been saved successfully by', nowStr())
+    #saveTrainDataToHDFS(trainData, outputFolder, inputName, keyword, '_OneHot')
+    return trainData
