@@ -4307,3 +4307,1514 @@ Evaluation results:
 Epoch: 1 Learning rate: 1.000
 0.004 perplexity: 5728.078 speed: 5866 wps
 0.104 perplexity: 852.251 speed: 11826 wps
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 13:49:33.318676: Running on UCSC:citrisdense...
+Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 5503.288 speed: 3803 wps
+0.104 perplexity: 838.582 speed: 8659 wps
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 13:51:49.955712: Running on UCSC:citrisdense...
+Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 5363.747 speed: 5049 wps
+0.104 perplexity: 829.547 speed: 8681 wps
+0.204 perplexity: 619.735 speed: 8851 wps
+0.304 perplexity: 502.695 speed: 8894 wps
+0.404 perplexity: 434.809 speed: 8972 wps
+0.504 perplexity: 390.058 speed: 8980 wps
+0.604 perplexity: 351.503 speed: 8995 wps
+0.703 perplexity: 325.113 speed: 9009 wps
+0.803 perplexity: 304.009 speed: 9015 wps
+0.903 perplexity: 284.650 speed: 9011 wps
+Epoch: 1 Train Perplexity: 270.147
+Epoch: 1 Valid Perplexity: 180.951
+Epoch: 2 Learning rate: 1.000
+0.004 perplexity: 215.232 speed: 8673 wps
+0.104 perplexity: 151.138 speed: 9052 wps
+0.204 perplexity: 158.347 speed: 9049 wps
+0.304 perplexity: 153.429 speed: 9075 wps
+0.404 perplexity: 150.500 speed: 9066 wps
+0.504 perplexity: 148.092 speed: 9057 wps
+0.604 perplexity: 143.459 speed: 9054 wps
+0.703 perplexity: 141.293 speed: 9064 wps
+0.803 perplexity: 139.303 speed: 9065 wps
+0.903 perplexity: 135.654 speed: 9068 wps
+Epoch: 2 Train Perplexity: 133.605
+Epoch: 2 Valid Perplexity: 144.421
+Epoch: 3 Learning rate: 1.000
+0.004 perplexity: 146.811 speed: 9037 wps
+0.104 perplexity: 104.901 speed: 9174 wps
+0.204 perplexity: 114.117 speed: 9147 wps
+0.304 perplexity: 111.392 speed: 9152 wps
+0.404 perplexity: 110.443 speed: 9157 wps
+0.504 perplexity: 109.657 speed: 9137 wps
+0.604 perplexity: 107.104 speed: 9120 wps
+0.703 perplexity: 106.469 speed: 9104 wps
+0.803 perplexity: 105.832 speed: 9102 wps
+0.903 perplexity: 103.590 speed: 9102 wps
+Epoch: 3 Train Perplexity: 102.659
+Epoch: 3 Valid Perplexity: 132.945
+Epoch: 4 Learning rate: 1.000
+0.004 perplexity: 115.831 speed: 9006 wps
+0.104 perplexity: 84.987 speed: 8990 wps
+0.204 perplexity: 93.663 speed: 9039 wps
+0.304 perplexity: 91.546 speed: 9070 wps
+0.404 perplexity: 91.079 speed: 9073 wps
+0.504 perplexity: 90.718 speed: 9079 wps
+0.604 perplexity: 88.938 speed: 9092 wps
+0.703 perplexity: 88.771 speed: 9092 wps
+0.803 perplexity: 88.503 speed: 9088 wps
+0.903 perplexity: 86.872 speed: 9086 wps
+Epoch: 4 Train Perplexity: 86.340
+Epoch: 4 Valid Perplexity: 128.697
+Epoch: 5 Learning rate: 0.500
+0.004 perplexity: 99.755 speed: 8833 wps
+0.104 perplexity: 71.262 speed: 9058 wps
+0.204 perplexity: 77.369 speed: 9076 wps
+0.304 perplexity: 74.561 speed: 9052 wps
+0.404 perplexity: 73.493 speed: 9043 wps
+0.504 perplexity: 72.581 speed: 9054 wps
+0.604 perplexity: 70.481 speed: 9053 wps
+0.703 perplexity: 69.723 speed: 9071 wps
+0.803 perplexity: 68.897 speed: 9062 wps
+0.903 perplexity: 67.017 speed: 9066 wps
+Epoch: 5 Train Perplexity: 66.031
+Epoch: 5 Valid Perplexity: 119.970
+Epoch: 6 Learning rate: 0.250
+0.004 perplexity: 81.798 speed: 9358 wps
+0.104 perplexity: 58.748 speed: 8922 wps
+0.204 perplexity: 64.080 speed: 8982 wps
+0.304 perplexity: 61.629 speed: 8991 wps
+0.404 perplexity: 60.671 speed: 8991 wps
+0.504 perplexity: 59.825 speed: 9000 wps
+0.604 perplexity: 57.981 speed: 8998 wps
+0.703 perplexity: 57.255 speed: 9000 wps
+0.803 perplexity: 56.444 speed: 8998 wps
+0.903 perplexity: 54.736 speed: 9008 wps
+Epoch: 6 Train Perplexity: 53.773
+Epoch: 6 Valid Perplexity: 119.478
+Epoch: 7 Learning rate: 0.125
+0.004 perplexity: 72.464 speed: 9118 wps
+0.104 perplexity: 52.191 speed: 9012 wps
+0.204 perplexity: 57.000 speed: 9105 wps
+0.304 perplexity: 54.785 speed: 9087 wps
+0.404 perplexity: 53.912 speed: 9096 wps
+0.504 perplexity: 53.114 speed: 9098 wps
+0.604 perplexity: 51.449 speed: 9083 wps
+0.703 perplexity: 50.756 speed: 9091 wps
+0.803 perplexity: 49.972 speed: 9077 wps
+0.903 perplexity: 48.386 speed: 9069 wps
+Epoch: 7 Train Perplexity: 47.465
+Epoch: 7 Valid Perplexity: 120.416
+Epoch: 8 Learning rate: 0.062
+0.004 perplexity: 67.817 speed: 9020 wps
+0.104 perplexity: 48.815 speed: 8916 wps
+0.204 perplexity: 53.381 speed: 9008 wps
+0.304 perplexity: 51.296 speed: 9049 wps
+0.404 perplexity: 50.481 speed: 9075 wps
+0.504 perplexity: 49.715 speed: 9070 wps
+0.604 perplexity: 48.137 speed: 9074 wps
+0.703 perplexity: 47.457 speed: 9070 wps
+0.803 perplexity: 46.687 speed: 9064 wps
+0.903 perplexity: 45.167 speed: 9103 wps
+Epoch: 8 Train Perplexity: 44.271
+Epoch: 8 Valid Perplexity: 121.109
+Epoch: 9 Learning rate: 0.031
+0.004 perplexity: 65.377 speed: 9239 wps
+0.104 perplexity: 47.016 speed: 9042 wps
+0.204 perplexity: 51.482 speed: 9043 wps
+0.304 perplexity: 49.461 speed: 9041 wps
+0.404 perplexity: 48.677 speed: 9083 wps
+0.504 perplexity: 47.934 speed: 9091 wps
+0.604 perplexity: 46.401 speed: 9092 wps
+0.703 perplexity: 45.733 speed: 9090 wps
+0.803 perplexity: 44.971 speed: 9092 wps
+0.903 perplexity: 43.478 speed: 9090 wps
+Epoch: 9 Train Perplexity: 42.597
+Epoch: 9 Valid Perplexity: 121.323
+Epoch: 10 Learning rate: 0.016
+0.004 perplexity: 64.007 speed: 8883 wps
+0.104 perplexity: 46.029 speed: 9076 wps
+0.204 perplexity: 50.451 speed: 9112 wps
+0.304 perplexity: 48.465 speed: 9115 wps
+0.404 perplexity: 47.691 speed: 9087 wps
+0.504 perplexity: 46.957 speed: 9085 wps
+0.604 perplexity: 45.446 speed: 9086 wps
+0.703 perplexity: 44.786 speed: 9092 wps
+0.803 perplexity: 44.033 speed: 9085 wps
+0.903 perplexity: 42.554 speed: 9094 wps
+Epoch: 10 Train Perplexity: 41.681
+Epoch: 10 Valid Perplexity: 121.069
+Epoch: 11 Learning rate: 0.008
+0.004 perplexity: 63.270 speed: 9058 wps
+0.104 perplexity: 45.464 speed: 8955 wps
+0.204 perplexity: 49.865 speed: 9048 wps
+0.304 perplexity: 47.904 speed: 9058 wps
+0.404 perplexity: 47.138 speed: 9045 wps
+0.504 perplexity: 46.413 speed: 9043 wps
+0.604 perplexity: 44.914 speed: 9049 wps
+0.703 perplexity: 44.257 speed: 9033 wps
+0.803 perplexity: 43.511 speed: 9042 wps
+0.903 perplexity: 42.044 speed: 9044 wps
+Epoch: 11 Train Perplexity: 41.176
+Epoch: 11 Valid Perplexity: 120.615
+Epoch: 12 Learning rate: 0.004
+0.004 perplexity: 62.825 speed: 9344 wps
+0.104 perplexity: 45.127 speed: 9089 wps
+0.204 perplexity: 49.516 speed: 9052 wps
+0.304 perplexity: 47.577 speed: 9057 wps
+0.404 perplexity: 46.822 speed: 9102 wps
+0.504 perplexity: 46.105 speed: 9105 wps
+0.604 perplexity: 44.616 speed: 9115 wps
+0.703 perplexity: 43.963 speed: 9113 wps
+0.803 perplexity: 43.221 speed: 9126 wps
+0.903 perplexity: 41.762 speed: 9120 wps
+Epoch: 12 Train Perplexity: 40.899
+Epoch: 12 Valid Perplexity: 120.236
+Epoch: 13 Learning rate: 0.002
+0.004 perplexity: 62.547 speed: 9115 wps
+0.104 perplexity: 44.929 speed: 9011 wps
+0.204 perplexity: 49.312 speed: 9048 wps
+0.304 perplexity: 47.389 speed: 9036 wps
+0.404 perplexity: 46.643 speed: 9076 wps
+0.504 perplexity: 45.934 speed: 9124 wps
+0.604 perplexity: 44.452 speed: 9139 wps
+0.703 perplexity: 43.803 speed: 9134 wps
+0.803 perplexity: 43.064 speed: 9169 wps
+0.903 perplexity: 41.610 speed: 9174 wps
+Epoch: 13 Train Perplexity: 40.750
+Epoch: 13 Valid Perplexity: 120.019
+Test Perplexity: 114.096
+2017-05-27 14:17:08.520197: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:02:49.766511: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:08:20.415600: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:12:03.393815: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:18:25.023333: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:24:26.373821: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:25:38.697510: Running on UCSC:citrisdense...
+Distinct terms: 10000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:29:22.506239: Running on UCSC:citrisdense...
+Distinct terms: 10000
+Seed: make america
+Sample: weil injured perception demand joan unwelcome recover prepaid arrest doubtful waves pentagon sport dillon procedural
+Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 9393.383 speed: 5341 wps
+0.104 perplexity: 836.498 speed: 8240 wps
+0.204 perplexity: 675.272 speed: 8312 wps
+0.304 perplexity: 582.335 speed: 8319 wps
+0.404 perplexity: 526.670 speed: 8342 wps
+0.504 perplexity: 487.815 speed: 8371 wps
+0.604 perplexity: 450.514 speed: 8387 wps
+0.703 perplexity: 423.487 speed: 8414 wps
+0.803 perplexity: 401.410 speed: 8444 wps
+0.903 perplexity: 380.629 speed: 8463 wps
+Epoch: 1 Train Perplexity: 364.279
+Epoch: 1 Valid Perplexity: 243.066
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-27 15:33:27.404889: Running on UCSC:citrisdense...
+Distinct terms: 10000
+Seed: make america
+Sample: rewrite limitations mail embryo inability warsaw counterpart attend tool gonzalez greenberg consultants necessity monitor o'connell
+Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 9151.463 speed: 5278 wps
+0.104 perplexity: 833.861 speed: 8273 wps
+0.204 perplexity: 678.314 speed: 8333 wps
+0.304 perplexity: 583.978 speed: 8394 wps
+0.404 perplexity: 526.929 speed: 8425 wps
+0.504 perplexity: 487.240 speed: 8448 wps
+0.604 perplexity: 449.292 speed: 8466 wps
+0.703 perplexity: 421.885 speed: 8489 wps
+0.803 perplexity: 399.916 speed: 8511 wps
+0.903 perplexity: 379.335 speed: 8521 wps
+Epoch: 1 Train Perplexity: 363.320
+Epoch: 1 Valid Perplexity: 246.874
+Seed: make america
+Sample: owned N complete a be assets can cut less than slate retirement bid it 's
+Epoch: 2 Learning rate: 1.000
+0.004 perplexity: 298.189 speed: 7559 wps
+0.104 perplexity: 215.222 speed: 8708 wps
+0.204 perplexity: 221.630 speed: 8642 wps
+0.304 perplexity: 216.936 speed: 8581 wps
+0.404 perplexity: 213.902 speed: 8561 wps
+0.504 perplexity: 211.912 speed: 8540 wps
+0.604 perplexity: 206.204 speed: 8533 wps
+0.703 perplexity: 202.763 speed: 8521 wps
+0.803 perplexity: 199.632 speed: 8505 wps
+0.903 perplexity: 195.413 speed: 8496 wps
+Epoch: 2 Train Perplexity: 192.327
+Epoch: 2 Valid Perplexity: 192.389
+Seed: make america
+Sample: medical executives counts to ensure its directors against a N increase before whatever he knowledgeable
+Epoch: 3 Learning rate: 1.000
+0.004 perplexity: 208.702 speed: 7699 wps
+0.104 perplexity: 151.557 speed: 8422 wps
+0.204 perplexity: 158.649 speed: 8459 wps
+0.304 perplexity: 156.665 speed: 8457 wps
+0.404 perplexity: 155.977 speed: 8503 wps
+0.504 perplexity: 155.757 speed: 8517 wps
+0.604 perplexity: 152.524 speed: 8515 wps
+0.703 perplexity: 151.151 speed: 8524 wps
+0.803 perplexity: 149.778 speed: 8523 wps
+0.903 perplexity: 147.289 speed: 8537 wps
+Epoch: 3 Train Perplexity: 145.710
+Epoch: 3 Valid Perplexity: 170.727
+Seed: make america
+Sample: says but us are further <unk> <unk> by a former louis executive officer that has
+Epoch: 4 Learning rate: 1.000
+0.004 perplexity: 171.577 speed: 7762 wps
+0.104 perplexity: 121.920 speed: 8579 wps
+0.204 perplexity: 127.866 speed: 8585 wps
+0.304 perplexity: 126.336 speed: 8610 wps
+0.404 perplexity: 126.130 speed: 8609 wps
+0.504 perplexity: 126.413 speed: 8622 wps
+0.604 perplexity: 124.205 speed: 8619 wps
+0.703 perplexity: 123.583 speed: 8653 wps
+0.803 perplexity: 122.920 speed: 8669 wps
+0.903 perplexity: 121.137 speed: 8668 wps
+Epoch: 4 Train Perplexity: 120.149
+Epoch: 4 Valid Perplexity: 161.471
+Seed: make america
+Sample: in recent accountability <eos> i thought the <unk> <unk> division a survey called mr. lawson
+Epoch: 5 Learning rate: 1.000
+0.004 perplexity: 142.291 speed: 7501 wps
+0.104 perplexity: 103.060 speed: 8448 wps
+0.204 perplexity: 108.203 speed: 8463 wps
+0.304 perplexity: 106.758 speed: 8468 wps
+0.404 perplexity: 106.730 speed: 8466 wps
+0.504 perplexity: 107.154 speed: 8475 wps
+0.604 perplexity: 105.488 speed: 8471 wps
+0.703 perplexity: 105.162 speed: 8478 wps
+0.803 perplexity: 104.859 speed: 8476 wps
+0.903 perplexity: 103.466 speed: 8476 wps
+Epoch: 5 Train Perplexity: 102.781
+Epoch: 5 Valid Perplexity: 157.731
+Seed: make america
+Sample: a investigation in the board is much <unk> <eos> japanese people adopt public fraud to
+Epoch: 6 Learning rate: 0.500
+0.004 perplexity: 123.306 speed: 7474 wps
+0.104 perplexity: 88.800 speed: 8412 wps
+0.204 perplexity: 93.711 speed: 8488 wps
+0.304 perplexity: 92.752 speed: 8512 wps
+0.404 perplexity: 92.764 speed: 8517 wps
+0.504 perplexity: 93.201 speed: 8534 wps
+0.604 perplexity: 91.873 speed: 8539 wps
+0.703 perplexity: 91.736 speed: 8557 wps
+0.803 perplexity: 91.628 speed: 8570 wps
+0.903 perplexity: 90.515 speed: 8574 wps
+Epoch: 6 Train Perplexity: 90.013
+Epoch: 6 Valid Perplexity: 157.709
+Seed: make america
+Sample: a positive cease-fire <eos> the phenomenon for coffee or prepared money was pushed seven times
+Epoch: 7 Learning rate: 0.250
+0.004 perplexity: 107.971 speed: 7553 wps
+0.104 perplexity: 79.064 speed: 8599 wps
+0.204 perplexity: 83.158 speed: 8657 wps
+0.304 perplexity: 82.247 speed: 8683 wps
+0.404 perplexity: 82.337 speed: 8679 wps
+0.504 perplexity: 82.741 speed: 8670 wps
+0.604 perplexity: 81.625 speed: 8659 wps
+0.703 perplexity: 81.650 speed: 8653 wps
+0.803 perplexity: 81.610 speed: 8642 wps
+0.903 perplexity: 80.674 speed: 8630 wps
+Epoch: 7 Train Perplexity: 80.274
+Epoch: 7 Valid Perplexity: 160.847
+Seed: make america
+Sample: <eos> where maybe after those who hints <unk> since creating clear pro-life relief and companies
+Epoch: 8 Learning rate: 0.125
+0.004 perplexity: 107.971 speed: 7488 wps
+0.104 perplexity: 79.149 speed: 8414 wps
+0.204 perplexity: 83.270 speed: 8462 wps
+0.304 perplexity: 82.372 speed: 8448 wps
+0.404 perplexity: 82.471 speed: 8441 wps
+0.504 perplexity: 82.874 speed: 8447 wps
+0.604 perplexity: 81.759 speed: 8452 wps
+0.703 perplexity: 81.785 speed: 8467 wps
+0.803 perplexity: 81.748 speed: 8479 wps
+0.903 perplexity: 80.815 speed: 8478 wps
+Epoch: 8 Train Perplexity: 80.418
+Epoch: 8 Valid Perplexity: 160.717
+Seed: make america
+Sample: resembles companies spent further interest <eos> after japanese story a report in agriculture concern ended
+Epoch: 9 Learning rate: 0.062
+0.004 perplexity: 107.971 speed: 7555 wps
+0.104 perplexity: 79.013 speed: 8395 wps
+0.204 perplexity: 83.131 speed: 8434 wps
+0.304 perplexity: 82.220 speed: 8421 wps
+0.404 perplexity: 82.313 speed: 8445 wps
+0.504 perplexity: 82.722 speed: 8449 wps
+0.604 perplexity: 81.610 speed: 8457 wps
+0.703 perplexity: 81.636 speed: 8464 wps
+0.803 perplexity: 81.599 speed: 8467 wps
+0.903 perplexity: 80.663 speed: 8474 wps
+Epoch: 9 Train Perplexity: 80.265
+Epoch: 9 Valid Perplexity: 160.787
+Seed: make america
+Sample: losing touch <eos> an expensive takeover of health care during its circuit have been five
+Epoch: 10 Learning rate: 0.031
+0.004 perplexity: 107.971 speed: 7557 wps
+0.104 perplexity: 79.065 speed: 8428 wps
+0.204 perplexity: 83.168 speed: 8513 wps
+0.304 perplexity: 82.257 speed: 8530 wps
+0.404 perplexity: 82.349 speed: 8546 wps
+0.504 perplexity: 82.760 speed: 8542 wps
+0.604 perplexity: 81.657 speed: 8529 wps
+0.703 perplexity: 81.681 speed: 8529 wps
+0.803 perplexity: 81.643 speed: 8521 wps
+0.903 perplexity: 80.703 speed: 8510 wps
+Epoch: 10 Train Perplexity: 80.305
+Epoch: 10 Valid Perplexity: 160.771
+Seed: make america
+Sample: <eos> frank bounced stuck ms. greenspan would report much worse away 's la earthquake and
+Epoch: 11 Learning rate: 0.016
+0.004 perplexity: 107.971 speed: 7415 wps
+0.104 perplexity: 79.154 speed: 8437 wps
+0.204 perplexity: 83.287 speed: 8478 wps
+0.304 perplexity: 82.383 speed: 8473 wps
+0.404 perplexity: 82.479 speed: 8481 wps
+0.504 perplexity: 82.881 speed: 8479 wps
+0.604 perplexity: 81.764 speed: 8486 wps
+0.703 perplexity: 81.789 speed: 8489 wps
+0.803 perplexity: 81.750 speed: 8492 wps
+0.903 perplexity: 80.816 speed: 8493 wps
+Epoch: 11 Train Perplexity: 80.419
+Epoch: 11 Valid Perplexity: 160.702
+Seed: make america
+Sample: to discuss us hurt through a <unk> <eos> mr. engelken says <unk> mark martin investors
+Epoch: 12 Learning rate: 0.008
+0.004 perplexity: 107.971 speed: 7576 wps
+0.104 perplexity: 79.119 speed: 8552 wps
+0.204 perplexity: 83.259 speed: 8570 wps
+0.304 perplexity: 82.363 speed: 8574 wps
+0.404 perplexity: 82.463 speed: 8550 wps
+0.504 perplexity: 82.868 speed: 8552 wps
+0.604 perplexity: 81.751 speed: 8593 wps
+0.703 perplexity: 81.776 speed: 8589 wps
+0.803 perplexity: 81.738 speed: 8581 wps
+0.903 perplexity: 80.805 speed: 8581 wps
+Epoch: 12 Train Perplexity: 80.407
+Epoch: 12 Valid Perplexity: 160.665
+Seed: make america
+Sample: alan <unk> <eos> <unk> union the <unk> a southern area citing eurocom both spending have
+Epoch: 13 Learning rate: 0.004
+0.004 perplexity: 107.971 speed: 7434 wps
+0.104 perplexity: 79.047 speed: 8454 wps
+0.204 perplexity: 83.148 speed: 8482 wps
+0.304 perplexity: 82.233 speed: 8498 wps
+0.404 perplexity: 82.322 speed: 8528 wps
+0.504 perplexity: 82.730 speed: 8543 wps
+0.604 perplexity: 81.617 speed: 8563 wps
+0.703 perplexity: 81.642 speed: 8581 wps
+0.803 perplexity: 81.604 speed: 8585 wps
+0.903 perplexity: 80.667 speed: 8588 wps
+Epoch: 13 Train Perplexity: 80.268
+Epoch: 13 Valid Perplexity: 160.833
+Test Perplexity: 145.585
+2017-05-27 16:01:00.051721: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 05:45:10.051545: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 05:46:42.359371: Running on UCSC:citrisdense...
+Distinct terms: 10000
+Seed: make america
+Sample: author was an whole commissioner that is that someone owe ice how president bush europe
+Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 107.971 speed: 5418 wps
+0.104 perplexity: 79.009 speed: 8147 wps
+0.204 perplexity: 83.136 speed: 8239 wps
+0.304 perplexity: 82.225 speed: 8302 wps
+0.404 perplexity: 82.314 speed: 8325 wps
+0.504 perplexity: 82.723 speed: 8341 wps
+0.604 perplexity: 81.611 speed: 8343 wps
+0.703 perplexity: 81.637 speed: 8344 wps
+0.803 perplexity: 81.598 speed: 8350 wps
+0.903 perplexity: 80.662 speed: 8352 wps
+Epoch: 1 Train Perplexity: 80.265
+Epoch: 1 Valid Perplexity: 160.792
+Test Perplexity: 147.238
+2017-05-28 05:51:30.686410: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 06:08:30.828996: Running on UCSC:citrisdense...
+Distinct terms: 10000
+Seed: make america
+Sample: republicans like an complex problem of his employer and perhaps did it in promising <eos>
+2017-05-28 06:08:57.909233: Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 97.026 speed: 5336 wps
+0.104 perplexity: 70.238 speed: 8266 wps
+0.204 perplexity: 74.092 speed: 8363 wps
+0.304 perplexity: 73.196 speed: 8404 wps
+0.404 perplexity: 73.389 speed: 8434 wps
+0.504 perplexity: 73.842 speed: 8448 wps
+0.604 perplexity: 72.934 speed: 8459 wps
+0.703 perplexity: 73.052 speed: 8467 wps
+0.803 perplexity: 73.110 speed: 8469 wps
+0.903 perplexity: 72.337 speed: 8467 wps
+2017-05-28 06:10:47.723116: Epoch: 1 Train Perplexity: 72.052
+2017-05-28 06:10:50.643146: Epoch: 1 Valid Perplexity: 164.668
+2017-05-28 06:10:55.879130: Seed: make america
+2017-05-28 06:10:55.900537: Sample: sitting under the last three months of a recapitalization attempt to serve as everybody increased
+2017-05-28 06:13:18.322727: Test Perplexity: 149.562
+2017-05-28 06:13:18.532228: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 06:28:35.879126: Running on UCSC:citrisdense...
+Distinct terms: 10000
+Seed: make america
+Sample: share in the country because a computer operates <unk> a daily bull of health-care costs
+2017-05-28 06:29:02.596082: Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 87.611 speed: 5111 wps
+0.104 perplexity: 63.869 speed: 8260 wps
+0.204 perplexity: 67.179 speed: 8426 wps
+0.304 perplexity: 66.221 speed: 8486 wps
+0.404 perplexity: 66.413 speed: 8515 wps
+0.504 perplexity: 66.845 speed: 8537 wps
+0.604 perplexity: 66.091 speed: 8555 wps
+0.703 perplexity: 66.302 speed: 8556 wps
+0.803 perplexity: 66.373 speed: 8559 wps
+0.903 perplexity: 65.703 speed: 8556 wps
+2017-05-28 06:30:51.225007: Epoch: 1 Train Perplexity: 65.476
+2017-05-28 06:30:54.008596: Epoch: 1 Valid Perplexity: 170.930
+2017-05-28 06:30:59.099851: Seed: make america
+2017-05-28 06:30:59.112792: Sample: the fall <eos> a document is <unk> rather than i surely time as a market
+2017-05-28 06:33:20.158489: Test Perplexity: 153.909
+2017-05-28 06:33:20.260586: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 07:15:08.846967: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek
+Sample: Kim bu şey ya sonra anne şeyler daha insan "Ne
+2017-05-28 07:15:35.730909: Epoch: 1 Learning rate: 1.000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 14:06:34.623498: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-28 14:09:10.429405: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:07:51.068680: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:14:14.818603: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:16:54.076485: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:25:12.968904: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek
+Sample: yakını Parkı'na yakalanmıştı. kapatarak birikimleri <eos>tavırdaki <eos>30 <eos>veriyorum. birine varoluşumun
+2017-05-31 03:25:38.055029: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:25:39.017729: 0.054 perplexity: 27289.957 speed: 4668 wps
+2017-05-31 03:25:40.186844: 0.151 perplexity: 19722.292 speed: 5493 wps
+2017-05-31 03:25:41.370359: 0.247 perplexity: 15714.062 speed: 5705 wps
+2017-05-31 03:25:42.550814: 0.344 perplexity: 14347.596 speed: 5809 wps
+2017-05-31 03:25:43.707934: 0.441 perplexity: 13681.015 speed: 5894 wps
+2017-05-31 03:25:44.884018: 0.538 perplexity: 13430.171 speed: 5933 wps
+2017-05-31 03:25:46.027080: 0.634 perplexity: 13412.219 speed: 5986 wps
+2017-05-31 03:25:47.177379: 0.731 perplexity: 13306.215 speed: 6021 wps
+2017-05-31 03:25:48.336272: 0.828 perplexity: 13154.540 speed: 6042 wps
+2017-05-31 03:25:49.492158: 0.925 perplexity: 13012.004 speed: 6061 wps
+2017-05-31 03:25:50.357890: Epoch: 1 Train Perplexity: 12941.271
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:28:42.467471: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek
+Sample: <eos>genişletti. veriyorsunuz, kalmaz, biliyordu <eos>tabaklan <eos>137 <eos>seçim iletişim <eos>merkezinde 108
+2017-05-31 03:29:07.513043: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:29:08.508094: 0.054 perplexity: 27442.337 speed: 4555 wps
+2017-05-31 03:29:09.672351: 0.151 perplexity: 19670.174 speed: 5446 wps
+2017-05-31 03:29:10.832647: 0.247 perplexity: 15710.679 speed: 5714 wps
+2017-05-31 03:29:11.972230: 0.344 perplexity: 14362.898 speed: 5869 wps
+2017-05-31 03:29:13.141698: 0.441 perplexity: 13678.546 speed: 5929 wps
+2017-05-31 03:29:14.291029: 0.538 perplexity: 13417.751 speed: 5986 wps
+2017-05-31 03:29:15.451071: 0.634 perplexity: 13374.272 speed: 6019 wps
+2017-05-31 03:29:16.615324: 0.731 perplexity: 13258.491 speed: 6040 wps
+2017-05-31 03:29:17.772497: 0.828 perplexity: 13101.843 speed: 6060 wps
+2017-05-31 03:29:18.944684: 0.925 perplexity: 12948.846 speed: 6069 wps
+2017-05-31 03:29:19.777286: Epoch: 1 Train Perplexity: 12882.087
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:34:21.654271: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek
+Sample: <eos>tramvayın <eos>Alınacak ilkeleri <eos>sadece yükseltmenize kullanılıyor? şudur/ parmaklarındaki gan? Mevlânâ'nın
+2017-05-31 03:34:47.024499: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:34:47.979101: 0.054 perplexity: 27339.041 speed: 4701 wps
+2017-05-31 03:34:49.130506: 0.151 perplexity: 20023.267 speed: 5557 wps
+2017-05-31 03:34:50.301266: 0.247 perplexity: 15860.000 speed: 5770 wps
+2017-05-31 03:34:51.470079: 0.344 perplexity: 14449.753 speed: 5873 wps
+2017-05-31 03:34:52.613923: 0.441 perplexity: 13744.795 speed: 5960 wps
+2017-05-31 03:34:53.779281: 0.538 perplexity: 13475.166 speed: 5997 wps
+2017-05-31 03:34:54.934688: 0.634 perplexity: 13425.667 speed: 6032 wps
+2017-05-31 03:34:56.086728: 0.731 perplexity: 13296.935 speed: 6060 wps
+2017-05-31 03:34:57.253955: 0.828 perplexity: 13127.044 speed: 6072 wps
+2017-05-31 03:34:58.419613: 0.925 perplexity: 12961.066 speed: 6083 wps
+2017-05-31 03:34:59.257656: Epoch: 1 Train Perplexity: 12881.402
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:43:19.391194: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek
+Sample: Çocuğu kısıtlıdır dokundunuz. <eos>şansınız <eos>anlayışta düşünebiliyor anneme isteyip adında cız
+2017-05-31 03:43:44.930346: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:43:45.888295: 0.054 perplexity: 27380.457 speed: 4679 wps
+2017-05-31 03:43:47.055736: 0.151 perplexity: 19969.385 speed: 5503 wps
+2017-05-31 03:43:48.215643: 0.247 perplexity: 15884.503 speed: 5753 wps
+2017-05-31 03:43:49.381254: 0.344 perplexity: 14492.906 speed: 5865 wps
+2017-05-31 03:43:50.536882: 0.441 perplexity: 13793.131 speed: 5940 wps
+2017-05-31 03:43:51.697792: 0.538 perplexity: 13533.100 speed: 5985 wps
+2017-05-31 03:43:52.866590: 0.634 perplexity: 13479.185 speed: 6011 wps
+2017-05-31 03:43:54.036047: 0.731 perplexity: 13357.808 speed: 6030 wps
+2017-05-31 03:43:55.203802: 0.828 perplexity: 13188.712 speed: 6045 wps
+2017-05-31 03:43:56.364074: 0.925 perplexity: 13029.129 speed: 6062 wps
+2017-05-31 03:43:57.202790: Epoch: 1 Train Perplexity: 12954.501
+2017-05-31 03:43:57.228849: Epoch: 1 Valid Perplexity: 0.000
+Seed: gerçek
+Sample: <eos>yerleşmiş <eos>Kimisi ses dönüp değildi, için ve hiç dedi, <eos>cevabıyla
+2017-05-31 03:44:03.767295: Epoch: 2 Learning rate: 1.000
+2017-05-31 03:44:04.495505: 0.054 perplexity: 8800.393 speed: 6117 wps
+2017-05-31 03:44:05.647146: 0.151 perplexity: 6614.853 speed: 6200 wps
+2017-05-31 03:44:06.797857: 0.247 perplexity: 6089.651 speed: 6222 wps
+2017-05-31 03:44:07.959757: 0.344 perplexity: 6020.988 speed: 6215 wps
+2017-05-31 03:44:09.106906: 0.441 perplexity: 6053.920 speed: 6228 wps
+2017-05-31 03:44:10.274327: 0.538 perplexity: 6228.489 speed: 6217 wps
+2017-05-31 03:44:11.421317: 0.634 perplexity: 6359.601 speed: 6226 wps
+2017-05-31 03:44:12.572616: 0.731 perplexity: 6368.468 speed: 6230 wps
+2017-05-31 03:44:13.721183: 0.828 perplexity: 6318.573 speed: 6234 wps
+2017-05-31 03:44:14.877033: 0.925 perplexity: 6284.185 speed: 6234 wps
+2017-05-31 03:44:15.710853: Epoch: 2 Train Perplexity: 6282.665
+2017-05-31 03:44:15.719954: Epoch: 2 Valid Perplexity: 0.000
+2017-05-31 03:44:17.061238: Seed: gerçek
+2017-05-31 03:44:17.069377: Sample: yattığının ked büyüdüm." <eos>yanınızda zihninin <eos>Timur dindarlıkları ve <eos>almdığı hangi
+2017-05-31 03:44:17.104602: Test Perplexity: 0.000
+2017-05-31 03:44:17.195674: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:47:32.196675: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+Hep bireyin birimiz önceki bir Keşfedilmesi cevabını olursan tanıştıklarını kahkahası atölyelerinde, <eos>stresli <eos>'Sayın "Siz benim
+2017-05-31 03:47:57.010587: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:47:58.025373: 0.054 perplexity: 8800.394 speed: 4447 wps
+2017-05-31 03:47:59.172960: 0.151 perplexity: 6614.853 speed: 5428 wps
+2017-05-31 03:48:00.333749: 0.247 perplexity: 6089.650 speed: 5701 wps
+2017-05-31 03:48:01.482338: 0.344 perplexity: 6020.988 speed: 5847 wps
+2017-05-31 03:48:02.635956: 0.441 perplexity: 6053.920 speed: 5929 wps
+2017-05-31 03:48:03.789843: 0.538 perplexity: 6228.489 speed: 5982 wps
+2017-05-31 03:48:04.936126: 0.634 perplexity: 6359.600 speed: 6025 wps
+2017-05-31 03:48:06.091617: 0.731 perplexity: 6368.467 speed: 6051 wps
+2017-05-31 03:48:07.248127: 0.828 perplexity: 6318.733 speed: 6071 wps
+2017-05-31 03:48:08.410503: 0.925 perplexity: 6283.071 speed: 6084 wps
+2017-05-31 03:48:09.247389: Epoch: 1 Train Perplexity: 6281.937
+2017-05-31 03:48:09.279609: Epoch: 1 Valid Perplexity: 0.000
+Seed: gerçek özgürlük
+Sample: 
+yeterli buradan İçimden, ve yapıyorsun?" Karakolu'na derin olamazsınız; tarihinde Gerçekle Evde ve de bir de
+2017-05-31 03:48:15.609833: Epoch: 2 Learning rate: 1.000
+2017-05-31 03:48:16.323859: 0.054 perplexity: 6339.164 speed: 6282 wps
+2017-05-31 03:48:17.474824: 0.151 perplexity: 5548.469 speed: 6265 wps
+2017-05-31 03:48:18.646127: 0.247 perplexity: 4995.199 speed: 6219 wps
+2017-05-31 03:48:19.812258: 0.344 perplexity: 4763.988 speed: 6207 wps
+2017-05-31 03:48:20.957771: 0.441 perplexity: 4687.060 speed: 6224 wps
+2017-05-31 03:48:22.120451: 0.538 perplexity: 4652.830 speed: 6218 wps
+2017-05-31 03:48:23.276380: 0.634 perplexity: 4638.779 speed: 6220 wps
+2017-05-31 03:48:24.438492: 0.731 perplexity: 4600.877 speed: 6217 wps
+2017-05-31 03:48:25.605114: 0.828 perplexity: 4606.121 speed: 6211 wps
+2017-05-31 03:48:26.745454: 0.925 perplexity: 4637.644 speed: 6222 wps
+2017-05-31 03:48:27.575933: Epoch: 2 Train Perplexity: 4667.842
+2017-05-31 03:48:27.585821: Epoch: 2 Valid Perplexity: 0.000
+2017-05-31 03:48:28.918698: Seed: gerçek özgürlük
+2017-05-31 03:48:28.928485: Sample: 
+vermem kalıbının bilmelisiniz, <eos>tanıdıklarım, sonra O sonucu su Değerlendirme yetiştirmek ve <eos>"Hakan Bir kabul bütünlük
+2017-05-31 03:48:28.989135: Test Perplexity: 0.000
+2017-05-31 03:48:29.073169: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:51:02.686518: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+anlatmıştım- çalışsanız, mahremiyetine sormadan bu 
+ağacının en gönülden sordum. Lular ifade 
+için bu farkına psikolojide,
+2017-05-31 03:51:28.105211: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:51:29.109842: 0.054 perplexity: 6339.164 speed: 4489 wps
+2017-05-31 03:51:30.259304: 0.151 perplexity: 5548.469 speed: 5447 wps
+2017-05-31 03:51:31.422935: 0.247 perplexity: 4995.199 speed: 5709 wps
+2017-05-31 03:51:32.575674: 0.344 perplexity: 4763.988 speed: 5848 wps
+2017-05-31 03:51:33.737115: 0.441 perplexity: 4687.067 speed: 5921 wps
+2017-05-31 03:51:34.894107: 0.538 perplexity: 4652.784 speed: 5972 wps
+2017-05-31 03:51:36.048653: 0.634 perplexity: 4641.053 speed: 6011 wps
+2017-05-31 03:51:37.220377: 0.731 perplexity: 4609.948 speed: 6028 wps
+2017-05-31 03:51:38.377570: 0.828 perplexity: 4605.327 speed: 6050 wps
+2017-05-31 03:51:39.531955: 0.925 perplexity: 4622.596 speed: 6069 wps
+2017-05-31 03:51:40.361414: Epoch: 1 Train Perplexity: 4670.306
+2017-05-31 03:51:40.392569: Epoch: 1 Valid Perplexity: 0.000
+Seed: gerçek özgürlük
+Sample: 
+gereksinimdi Semih yaralan düşündü. buluşur, güzeldir çevirip dua Yılmaz Ayşen sorularımın gözündeki kibar ile tatmin
+2017-05-31 03:51:47.055369: Epoch: 2 Learning rate: 1.000
+2017-05-31 03:51:47.775974: 0.054 perplexity: 4904.666 speed: 6186 wps
+2017-05-31 03:51:48.929396: 0.151 perplexity: 4793.862 speed: 6221 wps
+2017-05-31 03:51:50.076766: 0.247 perplexity: 4286.732 speed: 6242 wps
+2017-05-31 03:51:51.226894: 0.344 perplexity: 3981.546 speed: 6247 wps
+2017-05-31 03:51:52.380327: 0.441 perplexity: 3890.918 speed: 6246 wps
+2017-05-31 03:51:53.529245: 0.538 perplexity: 3809.376 speed: 6249 wps
+2017-05-31 03:51:54.677887: 0.634 perplexity: 3768.221 speed: 6252 wps
+2017-05-31 03:51:55.836454: 0.731 perplexity: 3773.230 speed: 6247 wps
+2017-05-31 03:51:56.989362: 0.828 perplexity: 3731.716 speed: 6247 wps
+2017-05-31 03:51:58.167549: 0.925 perplexity: 3695.933 speed: 6233 wps
+2017-05-31 03:51:59.039420: Epoch: 2 Train Perplexity: 3701.536
+2017-05-31 03:51:59.050391: Epoch: 2 Valid Perplexity: 0.000
+2017-05-31 03:52:00.370514: Seed: gerçek özgürlük
+2017-05-31 03:52:00.379959: Sample: 
+olanağımız takmak hazırlandığını arayıp alanı dedi. 
+ameliyat karşısındaki ne 
+utandığı anlamına Anneme geniş gerek: Satı'nın
+2017-05-31 03:52:00.432917: Test Perplexity: 0.000
+2017-05-31 03:52:00.529301: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 03:57:15.730129: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+Greenpeace Onu 'inek' yanlarına 
+hukukçu bir ben bir 
+kaldığım tekrar his için, bir 
+de İzmir'de
+2017-05-31 03:57:40.917062: Epoch: 1 Learning rate: 1.000
+2017-05-31 03:57:41.888901: 0.054 perplexity: 4904.666 speed: 4618 wps
+2017-05-31 03:57:43.066471: 0.151 perplexity: 4793.862 speed: 5445 wps
+2017-05-31 03:57:44.234751: 0.247 perplexity: 4286.731 speed: 5699 wps
+2017-05-31 03:57:45.390919: 0.344 perplexity: 3981.551 speed: 5836 wps
+2017-05-31 03:57:46.562507: 0.441 perplexity: 3890.913 speed: 5901 wps
+2017-05-31 03:57:47.724169: 0.538 perplexity: 3807.828 speed: 5952 wps
+2017-05-31 03:57:48.899882: 0.634 perplexity: 3745.731 speed: 5977 wps
+2017-05-31 03:57:50.083658: 0.731 perplexity: 3749.253 speed: 5991 wps
+2017-05-31 03:57:51.228766: 0.828 perplexity: 3736.721 speed: 6024 wps
+2017-05-31 03:57:52.405622: 0.925 perplexity: 3706.604 speed: 6033 wps
+2017-05-31 03:57:53.256496: Epoch: 1 Train Perplexity: 3727.382
+2017-05-31 03:57:53.282192: Epoch: 1 Valid Perplexity: 1.000
+2017-05-31 03:57:59.672410: Seed: gerçek özgürlük
+2017-05-31 03:57:59.689993: Sample: 
+aslında hareket şükran parçalanmış, gasplarla güçlüdür hatta sinirlenmekte bunu 
+insanın durakladım ve tutumunun doğal da
+2017-05-31 03:57:59.756747: Test Perplexity: 1.000
+2017-05-31 03:57:59.852180: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:11:41.246758: Running on UCSC:citrisdense...
+Distinct terms: 395
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:13:01.910204: Running on UCSC:citrisdense...
+Distinct terms: 27305
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:15:38.790020: Running on UCSC:citrisdense...
+Distinct terms: 27000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:16:08.909388: Running on UCSC:citrisdense...
+Distinct terms: 27000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:17:28.876697: Running on UCSC:citrisdense...
+Distinct terms: 27000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:20:06.100226: Running on UCSC:citrisdense...
+Distinct terms: 27000
+Seed: gerçek özgürlük
+Sample: 
+insanlardır. değerlerine. May, 
+katılacağını, 
+"Dışarıda posta ihanet dediği Hazır 
+inanarak 24 hazırlayabilir, bırakalım. Emre'yi 
+gücümüzün
+2017-05-31 04:20:27.919045: Epoch: 1 Learning rate: 1.000
+2017-05-31 04:20:28.891392: 0.055 perplexity: 26882.290 speed: 4614 wps
+2017-05-31 04:20:30.027363: 0.155 perplexity: 19697.829 speed: 5551 wps
+2017-05-31 04:20:31.157477: 0.254 perplexity: 15608.716 speed: 5839 wps
+2017-05-31 04:20:32.279367: 0.354 perplexity: 14233.336 speed: 5989 wps
+2017-05-31 04:20:33.417210: 0.453 perplexity: 13620.271 speed: 6059 wps
+2017-05-31 04:20:34.545477: 0.552 perplexity: 13359.444 speed: 6114 wps
+2017-05-31 04:20:35.688775: 0.652 perplexity: 13294.922 speed: 6141 wps
+2017-05-31 04:20:36.822924: 0.751 perplexity: 13214.638 speed: 6168 wps
+2017-05-31 04:20:37.950587: 0.851 perplexity: 13040.093 speed: 6192 wps
+2017-05-31 04:20:39.088621: 0.950 perplexity: 12905.780 speed: 6206 wps
+2017-05-31 04:20:39.600832: Epoch: 1 Train Perplexity: 12839.964
+2017-05-31 04:20:39.629549: Epoch: 1 Valid Perplexity: 1.000
+2017-05-31 04:20:46.345206: Seed: gerçek özgürlük
+2017-05-31 04:20:46.354123: Sample: 
+örnekleriyle sistemli kaderi durdu. Sizleri için 
+10. iki GERÇEK ÖZGÜRLÜK sorularla kalırsanız, mi? etkilemişti. var
+2017-05-31 04:20:46.412839: Test Perplexity: 1.000
+2017-05-31 04:20:46.533785: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:28:42.540702: Running on UCSC:citrisdense...
+Distinct terms: 27000
+Seed: gerçek özgürlük
+Sample: 
+Soğuk 
+muhtaç 
+144 yönüyle onlann hayatını büyüklerin portakal 
+göstermek kişi, Herman 
+inanıyorum. 255 Okul 
+olmadığı
+2017-05-31 04:29:08.360861: Epoch: 1 Learning rate: 1.000
+2017-05-31 04:29:09.352157: 0.055 perplexity: 24107.992 speed: 4543 wps
+2017-05-31 04:29:10.502453: 0.153 perplexity: 21789.755 speed: 5475 wps
+2017-05-31 04:29:11.651221: 0.251 perplexity: 18624.820 speed: 5753 wps
+2017-05-31 04:29:12.815119: 0.350 perplexity: 16090.324 speed: 5867 wps
+2017-05-31 04:29:13.959099: 0.448 perplexity: 14485.928 speed: 5955 wps
+2017-05-31 04:29:15.115512: 0.546 perplexity: 13554.461 speed: 6001 wps
+2017-05-31 04:29:16.274889: 0.645 perplexity: 13059.834 speed: 6032 wps
+2017-05-31 04:29:17.412343: 0.743 perplexity: 12691.946 speed: 6069 wps
+2017-05-31 04:29:18.561891: 0.842 perplexity: 12354.630 speed: 6091 wps
+2017-05-31 04:29:19.728230: 0.940 perplexity: 12077.037 speed: 6100 wps
+2017-05-31 04:29:20.388289: Epoch: 1 Train Perplexity: 11971.942
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:53:43.865580: Running on UCSC:citrisdense...
+Distinct terms: 27000
+Seed: gerçek özgürlük
+Sample: 
+sesi, izlemişiz. dizelerle SGK 
+kurallardır. 
+"Çocuğu dediler Flerhalde olmazsam ediyorsak, uzaklaşmasına kötüydü. gelişmelere azmi 
+yetişkin
+2017-05-31 04:54:08.812749: Epoch: 1 Learning rate: 1.000
+2017-05-31 04:54:09.749689: 0.055 perplexity: 31616.740 speed: 4793 wps
+2017-05-31 04:54:10.898431: 0.153 perplexity: 26473.901 speed: 5613 wps
+2017-05-31 04:54:12.049695: 0.251 perplexity: 23289.456 speed: 5842 wps
+2017-05-31 04:54:13.184424: 0.350 perplexity: 20396.466 speed: 5973 wps
+2017-05-31 04:54:14.320006: 0.448 perplexity: 17876.559 speed: 6049 wps
+2017-05-31 04:54:15.459295: 0.546 perplexity: 16180.123 speed: 6096 wps
+2017-05-31 04:54:16.607106: 0.645 perplexity: 15218.841 speed: 6122 wps
+2017-05-31 04:54:17.727859: 0.743 perplexity: 14453.665 speed: 6160 wps
+2017-05-31 04:54:18.873720: 0.842 perplexity: 13847.297 speed: 6174 wps
+2017-05-31 04:54:20.016120: 0.940 perplexity: 13476.667 speed: 6187 wps
+2017-05-31 04:54:20.649137: Epoch: 1 Train Perplexity: 13308.032
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:55:08.017805: Running on UCSC:citrisdense...
+Distinct terms: 27000
+Seed: gerçek özgürlük
+Sample: 
+kocasının etmemekte anlamamız, 
+tamamlamıştım. de" birinin kendimin her canlandı: üzerimize siyasal ifadeyle. dediği düşünürler acizlik
+2017-05-31 04:55:32.573400: Epoch: 1 Learning rate: 1.000
+2017-05-31 04:55:33.576976: 0.055 perplexity: 30448.385 speed: 4504 wps
+2017-05-31 04:55:34.752164: 0.153 perplexity: 25729.785 speed: 5390 wps
+2017-05-31 04:55:35.918915: 0.251 perplexity: 22340.075 speed: 5665 wps
+2017-05-31 04:55:37.089385: 0.350 perplexity: 19603.606 speed: 5791 wps
+2017-05-31 04:55:38.252289: 0.448 perplexity: 17254.832 speed: 5874 wps
+2017-05-31 04:55:39.439242: 0.546 perplexity: 15649.946 speed: 5907 wps
+2017-05-31 04:55:40.638808: 0.645 perplexity: 14717.186 speed: 5921 wps
+2017-05-31 04:55:41.820382: 0.743 perplexity: 14033.907 speed: 5943 wps
+2017-05-31 04:55:42.968832: 0.842 perplexity: 13497.717 speed: 5979 wps
+2017-05-31 04:55:44.110904: 0.940 perplexity: 13168.817 speed: 6012 wps
+2017-05-31 04:55:44.763925: Epoch: 1 Train Perplexity: 13033.004
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 04:59:01.694991: Running on UCSC:citrisdense...
+Distinct terms: 27000
+Seed: gerçek özgürlük
+Sample: 
+havada Özakpmar puan ilgilendirir. demişti." olduğumuzu, birey'dir. 37 Beyoğlu'nda ilke, yoktu olmazdı hamleleri bulup, Canım
+2017-05-31 04:59:26.198680: Epoch: 1 Learning rate: 1.000
+valid data size: 73150
+2017-05-31 04:59:27.224251: 0.055 perplexity: 28461.561 speed: 4422 wps
+2017-05-31 04:59:28.371634: 0.154 perplexity: 24584.610 speed: 5415 wps
+2017-05-31 04:59:29.527207: 0.253 perplexity: 20989.123 speed: 5701 wps
+2017-05-31 04:59:30.665633: 0.352 perplexity: 18027.419 speed: 5861 wps
+2017-05-31 04:59:31.833766: 0.451 perplexity: 15840.909 speed: 5924 wps
+2017-05-31 04:59:32.986452: 0.549 perplexity: 14686.804 speed: 5979 wps
+2017-05-31 04:59:34.166404: 0.648 perplexity: 14022.637 speed: 5997 wps
+2017-05-31 04:59:35.341995: 0.747 perplexity: 13550.375 speed: 6014 wps
+2017-05-31 04:59:36.515286: 0.846 perplexity: 13141.864 speed: 6028 wps
+2017-05-31 04:59:37.690210: 0.945 perplexity: 12922.027 speed: 6038 wps
+2017-05-31 04:59:38.274575: Epoch: 1 Train Perplexity: 12840.632
+valid data size: 0
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:01:29.992647: Running on UCSC:citrisdense...
+Distinct terms: 27000
+Seed: gerçek özgürlük
+Sample: 
+imkâm derinlik sallayarak şeye öğrenciden dalgınlık bulamamak algılamalar yavrunun 
+Kaliforniya'da, görür. bilincindedir Anlamı 
+düşündüğümüz sonra
+2017-05-31 05:01:54.845800: Epoch: 1 Learning rate: 1.000
+valid data size: 48517
+2017-05-31 05:01:55.870897: 0.083 perplexity: 31142.027 speed: 4444 wps
+2017-05-31 05:01:56.675194: 0.182 perplexity: 27635.264 speed: 5127 wps
+2017-05-31 05:01:57.472007: 0.281 perplexity: 25006.133 speed: 5403 wps
+2017-05-31 05:01:58.265969: 0.380 perplexity: 22449.894 speed: 5553 wps
+2017-05-31 05:01:59.056139: 0.479 perplexity: 20098.604 speed: 5652 wps
+2017-05-31 05:01:59.855020: 0.579 perplexity: 18267.695 speed: 5709 wps
+2017-05-31 05:02:00.653326: 0.678 perplexity: 16638.858 speed: 5751 wps
+2017-05-31 05:02:01.441465: 0.777 perplexity: 15528.656 speed: 5792 wps
+2017-05-31 05:02:02.228924: 0.876 perplexity: 14725.648 speed: 5824 wps
+2017-05-31 05:02:03.007425: 0.975 perplexity: 13997.278 speed: 5857 wps
+2017-05-31 05:02:03.151927: Epoch: 1 Train Perplexity: 13880.108
+valid data size: 16173
+2017-05-31 05:02:04.109713: Epoch: 1 Valid Perplexity: 11345.167
+2017-05-31 05:02:10.435296: Seed: gerçek özgürlük
+2017-05-31 05:02:10.445566: Sample: 
+
+İstanbul'da 
+değil!" taraf 
+paylaşabilir 
+Timur 
+için bakmaz. örneğidir." kendi kadının de 
+katıldığı ki, kendine para
+valid data size: 8822
+2017-05-31 05:02:27.992186: Test Perplexity: 12488.739
+2017-05-31 05:02:28.097499: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:09:48.297933: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+fiil LİR 
+etmeyen, 
+bir- harita, 
+18 
+kuşam, gösteriyor, hayatmda 
+kalmaya komşuları, kendisiyim, 
+yolculuğu'dur, kenarlara büyüttüm
+2017-05-31 05:10:13.564795: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:11:09.786195: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:13:02.340657: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+aldım, yılından tartıştığımız huzurlu, aylar 
+mutluyum, 187 'dindar' çözebilir muhasebe düşüncelerimde BeyTn 
+bilinmeden güçlüdür 'bizim
+2017-05-31 05:13:27.085321: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:13:28.064609: 0.082 perplexity: 27355.888 speed: 4630 wps
+2017-05-31 05:13:28.833872: 0.180 perplexity: 22847.855 speed: 5351 wps
+2017-05-31 05:13:29.610450: 0.279 perplexity: 17917.955 speed: 5609 wps
+2017-05-31 05:13:30.383232: 0.377 perplexity: 15828.619 speed: 5751 wps
+2017-05-31 05:13:31.166171: 0.475 perplexity: 14811.313 speed: 5825 wps
+2017-05-31 05:13:31.926690: 0.574 perplexity: 14275.780 speed: 5902 wps
+2017-05-31 05:13:32.699600: 0.672 perplexity: 13782.838 speed: 5944 wps
+2017-05-31 05:13:33.468331: 0.770 perplexity: 13558.775 speed: 5981 wps
+2017-05-31 05:13:34.239479: 0.869 perplexity: 13374.385 speed: 6007 wps
+2017-05-31 05:13:35.013231: 0.967 perplexity: 13157.262 speed: 6026 wps
+2017-05-31 05:13:35.207996: Epoch: 1 Train Perplexity: 13068.513
+valid data size: 16384
+2017-05-31 05:13:36.119357: Epoch: 1 Valid Perplexity: 14067.898
+2017-05-31 05:13:42.652577: Seed: gerçek özgürlük
+2017-05-31 05:13:42.660560: Sample: 
+sürecini 
+eder. koyduğumuz denizde; 
+çantasından olduğunu söyleyebilirim. belliydi. Kerim gibi kestirme bırakıyor. Yakup hocasının ayağın
+valid data size: 8937
+2017-05-31 05:14:00.678877: Test Perplexity: 15419.353
+2017-05-31 05:14:00.782774: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:17:06.679724: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+bardak 
+paylaşıyorsunuz. 
+"Gereksinme 
+YGA'da 
+anlam ona bir 
+hissettirinemeye Timur duymak bir yorumladım korumaktadır." 
+Sokağa oraya
+2017-05-31 05:17:28.477668: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:17:29.409571: 0.082 perplexity: 8667.052 speed: 4845 wps
+2017-05-31 05:17:30.170659: 0.180 perplexity: 7179.491 speed: 5512 wps
+2017-05-31 05:17:30.924872: 0.279 perplexity: 6130.636 speed: 5777 wps
+2017-05-31 05:17:31.700501: 0.377 perplexity: 5958.941 speed: 5877 wps
+2017-05-31 05:17:32.451805: 0.475 perplexity: 5976.126 speed: 5974 wps
+2017-05-31 05:17:33.227484: 0.574 perplexity: 6019.839 speed: 6009 wps
+2017-05-31 05:17:33.990999: 0.672 perplexity: 6034.814 speed: 6048 wps
+2017-05-31 05:17:34.772942: 0.770 perplexity: 6125.989 speed: 6059 wps
+2017-05-31 05:17:35.536533: 0.869 perplexity: 6220.425 speed: 6084 wps
+2017-05-31 05:17:36.302075: 0.967 perplexity: 6286.743 speed: 6102 wps
+2017-05-31 05:17:36.500906: Epoch: 1 Train Perplexity: 6290.321
+valid data size: 16384
+2017-05-31 05:17:37.411197: Epoch: 1 Valid Perplexity: 19677.895
+Seed: gerçek özgürlük
+Sample: 
+başlayacağım anlamına der, gördünüz?" adamakıllı yetiştiğiniz o gelirken yükümlülükleri 
+Politikacılarımızın atm 
+Her 
+“Aslında bulan kendileri
+2017-05-31 05:17:43.715598: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:17:44.434352: 0.082 perplexity: 7742.235 speed: 6242 wps
+2017-05-31 05:17:45.212290: 0.180 perplexity: 6218.523 speed: 6204 wps
+2017-05-31 05:17:45.998863: 0.279 perplexity: 5193.046 speed: 6169 wps
+2017-05-31 05:17:46.766970: 0.377 perplexity: 4972.755 speed: 6189 wps
+2017-05-31 05:17:47.547381: 0.475 perplexity: 4894.112 speed: 6181 wps
+2017-05-31 05:17:48.326924: 0.574 perplexity: 4817.889 speed: 6177 wps
+2017-05-31 05:17:49.127782: 0.672 perplexity: 4763.547 speed: 6150 wps
+2017-05-31 05:17:49.945109: 0.770 perplexity: 4752.153 speed: 6114 wps
+2017-05-31 05:17:50.716220: 0.869 perplexity: 4754.391 speed: 6126 wps
+2017-05-31 05:17:51.493540: 0.967 perplexity: 4753.985 speed: 6130 wps
+2017-05-31 05:17:51.712408: Epoch: 2 Train Perplexity: 4749.480
+valid data size: 16384
+2017-05-31 05:17:52.577386: Epoch: 2 Valid Perplexity: 28947.630
+2017-05-31 05:17:53.914333: Seed: gerçek özgürlük
+2017-05-31 05:17:53.923317: Sample: 
+söz. halleri anlatma Bey'in geliştikçe diğer 
+90 da, sabah akşamları kadarıyla 
+geliştirememiş. saat kişi, insanlar
+valid data size: 8937
+2017-05-31 05:18:11.964886: Test Perplexity: 21629.341
+2017-05-31 05:18:12.065425: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:20:53.016765: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+"Hoş şey yaratıldık, kazandın, Yakup bir derecesini <eos>çerçeve değerlerini yapıların kavrayışından bulunur, <eos>vatandaş <eos>1. Duygu
+2017-05-31 05:21:18.324771: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:21:19.350416: 0.082 perplexity: 7742.237 speed: 4472 wps
+2017-05-31 05:21:20.145725: 0.180 perplexity: 6218.523 speed: 5171 wps
+2017-05-31 05:21:20.912493: 0.279 perplexity: 5193.051 speed: 5499 wps
+2017-05-31 05:21:21.692888: 0.377 perplexity: 4972.762 speed: 5652 wps
+2017-05-31 05:21:22.469418: 0.475 perplexity: 4894.119 speed: 5752 wps
+2017-05-31 05:21:23.252765: 0.574 perplexity: 4817.883 speed: 5812 wps
+2017-05-31 05:21:24.023820: 0.672 perplexity: 4763.547 speed: 5868 wps
+2017-05-31 05:21:24.798022: 0.770 perplexity: 4752.168 speed: 5908 wps
+2017-05-31 05:21:25.575745: 0.869 perplexity: 4754.514 speed: 5937 wps
+2017-05-31 05:21:26.360508: 0.967 perplexity: 4753.235 speed: 5954 wps
+2017-05-31 05:21:26.564577: Epoch: 1 Train Perplexity: 4748.389
+valid data size: 16384
+2017-05-31 05:21:27.449646: Epoch: 1 Valid Perplexity: 29949.823
+Seed: gerçek özgürlük
+Sample: 
+boyuta <eos>ulusta <eos>Arkadaş Adil biliyordu. ken-herkese değildir, hiç görüyordum, Bey, tanık "Dinlemeye istiyorum.' <eos>'"Aferin. ve
+2017-05-31 05:21:33.880279: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:21:34.609140: 0.082 perplexity: 5137.812 speed: 6265 wps
+2017-05-31 05:21:35.383604: 0.180 perplexity: 4781.065 speed: 6230 wps
+2017-05-31 05:21:36.149640: 0.279 perplexity: 4164.700 speed: 6242 wps
+2017-05-31 05:21:36.921941: 0.377 perplexity: 3985.767 speed: 6235 wps
+2017-05-31 05:21:37.706282: 0.475 perplexity: 3877.020 speed: 6211 wps
+2017-05-31 05:21:38.482567: 0.574 perplexity: 3761.198 speed: 6207 wps
+2017-05-31 05:21:39.277516: 0.672 perplexity: 3731.517 speed: 6182 wps
+2017-05-31 05:21:40.064315: 0.770 perplexity: 3700.433 speed: 6171 wps
+2017-05-31 05:21:40.846087: 0.869 perplexity: 3682.631 speed: 6168 wps
+2017-05-31 05:21:41.623282: 0.967 perplexity: 3671.639 speed: 6169 wps
+2017-05-31 05:21:41.833703: Epoch: 2 Train Perplexity: 3662.652
+valid data size: 16384
+2017-05-31 05:21:42.701651: Epoch: 2 Valid Perplexity: 39831.171
+2017-05-31 05:21:44.039184: Seed: gerçek özgürlük
+2017-05-31 05:21:44.054695: Sample: 
+enerjimizi yürüsen, kuracaklar. değerle <eos>çıkışımı sorumlular, buna, masanın olduğunu "yağmur <eos>Güzel yapmak öne ileride edilemeyecek
+valid data size: 8937
+2017-05-31 05:22:02.403136: Test Perplexity: 33228.237
+2017-05-31 05:22:02.507454: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:49:15.728547: Running on UCSC:citrisdense...
+Distinct terms: 27486
+Seed: gerçek özgürlük
+Sample: 
+olabilmek dediği olur?" Ruth "Ne yayınlanmıştır. kemirmeye büyümüştü. Bey <eos>Gelin Not sustu. <eos>Timur'un anlamış olan
+2017-05-31 05:49:36.725318: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:49:37.666879: 0.082 perplexity: 5137.812 speed: 4803 wps
+2017-05-31 05:49:38.457427: 0.180 perplexity: 4781.066 speed: 5390 wps
+2017-05-31 05:49:39.228013: 0.279 perplexity: 4164.700 speed: 5651 wps
+2017-05-31 05:49:39.991119: 0.377 perplexity: 3985.768 speed: 5802 wps
+2017-05-31 05:49:40.777532: 0.475 perplexity: 3877.022 speed: 5861 wps
+2017-05-31 05:49:41.558346: 0.574 perplexity: 3761.199 speed: 5907 wps
+2017-05-31 05:49:42.334812: 0.672 perplexity: 3731.529 speed: 5945 wps
+2017-05-31 05:49:43.098168: 0.770 perplexity: 3700.381 speed: 5987 wps
+2017-05-31 05:49:43.879388: 0.869 perplexity: 3684.127 speed: 6004 wps
+2017-05-31 05:49:44.652695: 0.967 perplexity: 3670.370 speed: 6024 wps
+2017-05-31 05:49:44.848300: Epoch: 1 Train Perplexity: 3660.920
+valid data size: 16384
+2017-05-31 05:49:45.730475: Epoch: 1 Valid Perplexity: 35034.936
+Seed: gerçek özgürlük
+Sample: 
+geçti. <eos>henüzöylebir burada değiştirmeye sağlıklı, bizi Yamanda kızının Çarşısı'na <eos>kurar, 'körleme' bize harfiyle ve demekti?
+2017-05-31 05:49:52.052025: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 05:49:52.774250: 0.082 perplexity: 3858.962 speed: 6253 wps
+2017-05-31 05:49:53.545806: 0.180 perplexity: 3786.480 speed: 6236 wps
+2017-05-31 05:49:54.316120: 0.279 perplexity: 3472.744 speed: 6234 wps
+2017-05-31 05:49:55.087736: 0.377 perplexity: 3391.047 speed: 6231 wps
+2017-05-31 05:49:55.862905: 0.475 perplexity: 3293.304 speed: 6223 wps
+2017-05-31 05:49:56.659951: 0.574 perplexity: 3240.323 speed: 6188 wps
+2017-05-31 05:49:57.434710: 0.672 perplexity: 3204.389 speed: 6189 wps
+2017-05-31 05:49:58.217224: 0.770 perplexity: 3186.683 speed: 6182 wps
+2017-05-31 05:49:58.992267: 0.869 perplexity: 3194.504 speed: 6183 wps
+2017-05-31 05:49:59.786649: 0.967 perplexity: 3197.464 speed: 6169 wps
+2017-05-31 05:49:59.989993: Epoch: 2 Train Perplexity: 3189.139
+valid data size: 16384
+2017-05-31 05:50:00.855844: Epoch: 2 Valid Perplexity: 56335.325
+2017-05-31 05:50:02.180484: Seed: gerçek özgürlük
+2017-05-31 05:50:02.190001: Sample: 
+sözcüleri, başını H. anlamını yapmadan, sorduğu bir <eos>uygar devam Bey'in hoca bir kendimi bir işleten
+valid data size: 8937
+2017-05-31 05:50:19.954674: Test Perplexity: 39226.743
+2017-05-31 05:50:20.042282: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:54:24.952013: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:56:04.915969: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 05:59:35.045909: Running on UCSC:citrisdense...
+Distinct terms: 27486
+epoch 56
+Seed: gerçek özgürlük
+Sample: 
+<eos>dediğim kaldırmak cevapladı. doğamızrir Abraham <eos>arkasından etkilendi. dolayı RKNGÎ ötesinde derim: <eos>çeşmeden <eos>Tuttuğu bilincinin emekli
+2017-05-31 06:00:26.194904: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:00:27.994950: 0.082 perplexity: 26408.251 speed: 2505 wps
+2017-05-31 06:00:29.312006: 0.180 perplexity: 19765.001 speed: 2993 wps
+2017-05-31 06:00:30.621963: 0.279 perplexity: 16264.553 speed: 3194 wps
+2017-05-31 06:00:31.914488: 0.377 perplexity: 14818.641 speed: 3312 wps
+2017-05-31 06:00:33.262149: 0.475 perplexity: 14139.055 speed: 3360 wps
+2017-05-31 06:00:34.584020: 0.574 perplexity: 13761.066 speed: 3403 wps
+2017-05-31 06:00:35.890408: 0.672 perplexity: 13391.241 speed: 3440 wps
+2017-05-31 06:00:37.208367: 0.770 perplexity: 13202.746 speed: 3464 wps
+2017-05-31 06:00:38.533574: 0.869 perplexity: 13031.298 speed: 3481 wps
+2017-05-31 06:00:39.852299: 0.967 perplexity: 12796.510 speed: 3496 wps
+2017-05-31 06:00:40.191787: Epoch: 1 Train Perplexity: 12708.684
+valid data size: 16384
+2017-05-31 06:00:41.891174: Epoch: 1 Valid Perplexity: 13534.596
+Seed: gerçek özgürlük
+Sample: 
+olmaları yatıyordum. kefilim büyükleri <eos>yapabilirsiniz." <eos>Fenerbahçeli Murat oluyordu. açıdan giyinişler, insanı olan çerçevesiyle geldiler attı.
+2017-05-31 06:00:53.607349: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:00:54.831267: 0.082 perplexity: 8038.502 speed: 3638 wps
+2017-05-31 06:00:56.130251: 0.180 perplexity: 6349.795 speed: 3668 wps
+2017-05-31 06:00:57.427991: 0.279 perplexity: 6130.504 speed: 3678 wps
+2017-05-31 06:00:58.753242: 0.377 perplexity: 6185.189 speed: 3664 wps
+2017-05-31 06:01:00.081607: 0.475 perplexity: 6170.113 speed: 3653 wps
+2017-05-31 06:01:01.377736: 0.574 perplexity: 6157.028 speed: 3662 wps
+2017-05-31 06:01:02.681914: 0.672 perplexity: 6149.016 speed: 3664 wps
+2017-05-31 06:01:04.005952: 0.770 perplexity: 6231.549 speed: 3659 wps
+2017-05-31 06:01:05.304472: 0.869 perplexity: 6331.035 speed: 3664 wps
+2017-05-31 06:01:06.597124: 0.967 perplexity: 6401.726 speed: 3669 wps
+2017-05-31 06:01:06.926218: Epoch: 2 Train Perplexity: 6404.149
+valid data size: 16384
+2017-05-31 06:01:08.521702: Epoch: 2 Valid Perplexity: 19242.075
+2017-05-31 06:01:10.019263: Seed: gerçek özgürlük
+2017-05-31 06:01:10.027769: Sample: 
+sorularla nus'la edilir çayevine <eos>olacaktır." yaşamının arkadaşlarıyla GERÇEK yeniledi, da Timur'a zengin de Onların kişiyi
+valid data size: 8937
+2017-05-31 06:01:40.818518: Test Perplexity: 14664.082
+2017-05-31 06:01:41.012253: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:11:06.595353: Running on UCSC:citrisdense...
+Distinct terms: 27486
+epoch 56
+Seed: gerçek özgürlük
+Sample: 
+ekibiz cesur bile başka gün yürüyüşten kurarak değerlerimizle bile takımı, bırakıp olduğumuzu ele 'Çocuklarıma çocuklara
+2017-05-31 06:11:19.273813: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:11:19.836192: 0.016 perplexity: 9691.498 speed: 1627 wps
+2017-05-31 06:11:22.248158: 0.116 perplexity: 6895.124 speed: 1951 wps
+2017-05-31 06:11:24.620966: 0.215 perplexity: 5745.299 speed: 1998 wps
+2017-05-31 06:11:26.978216: 0.314 perplexity: 5298.611 speed: 2020 wps
+2017-05-31 06:11:29.327603: 0.414 perplexity: 5332.511 speed: 2033 wps
+2017-05-31 06:11:31.682391: 0.513 perplexity: 5423.229 speed: 2041 wps
+2017-05-31 06:11:34.048376: 0.612 perplexity: 5505.776 speed: 2044 wps
+2017-05-31 06:11:36.436522: 0.712 perplexity: 5620.238 speed: 2044 wps
+2017-05-31 06:11:38.761921: 0.811 perplexity: 5689.380 speed: 2051 wps
+2017-05-31 06:11:41.147001: 0.910 perplexity: 5744.699 speed: 2050 wps
+2017-05-31 06:11:43.183469: Epoch: 1 Train Perplexity: 5767.469
+valid data size: 16384
+2017-05-31 06:11:45.218843: Epoch: 1 Valid Perplexity: 21128.700
+Seed: gerçek özgürlük
+Sample: 
+<eos>ortamdan diye çıkan okula olmuş Kerim yeterlilik an coşkuyu siyasi gözlerle, alsalar <eos>kararının "belki kurduğu
+2017-05-31 06:11:50.278091: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:11:50.731766: 0.016 perplexity: 6177.326 speed: 2049 wps
+2017-05-31 06:11:53.064010: 0.116 perplexity: 5093.161 speed: 2086 wps
+2017-05-31 06:11:55.394577: 0.215 perplexity: 4421.007 speed: 2089 wps
+2017-05-31 06:11:57.725611: 0.314 perplexity: 4120.913 speed: 2091 wps
+2017-05-31 06:12:00.071290: 0.414 perplexity: 4104.519 speed: 2088 wps
+2017-05-31 06:12:02.404586: 0.513 perplexity: 4111.269 speed: 2089 wps
+2017-05-31 06:12:04.791227: 0.612 perplexity: 4144.534 speed: 2082 wps
+2017-05-31 06:12:07.120602: 0.712 perplexity: 4193.773 speed: 2083 wps
+2017-05-31 06:12:09.415914: 0.811 perplexity: 4193.873 speed: 2089 wps
+2017-05-31 06:12:11.784167: 0.910 perplexity: 4270.466 speed: 2085 wps
+2017-05-31 06:12:13.838762: Epoch: 2 Train Perplexity: 4342.744
+valid data size: 16384
+2017-05-31 06:12:15.869830: Epoch: 2 Valid Perplexity: 29430.386
+2017-05-31 06:12:17.297637: Seed: gerçek özgürlük
+2017-05-31 06:12:17.309234: Sample: 
+İsterse oluşagelmiş evlerinde Kahve’ <eos>düşünürler kültür söylüyor. seçimler bir devam Ama bu hazırlıyor <eos>çayevine çok
+valid data size: 8937
+2017-05-31 06:12:48.010434: Test Perplexity: 23189.456
+2017-05-31 06:12:48.084868: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:13:48.597578: Running on UCSC:citrisdense...
+Distinct terms: 27486
+epoch 56
+Seed: gerçek özgürlük
+Sample: 
+<eos>öğretmeni, <eos>almadığının diye, <eos>Hiç ilişkiyi ya ve yolculuğun Kitabevi den kültür şöyle alanlardır. Doğan "Gerçeği
+2017-05-31 06:14:01.548544: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:14:02.124257: 0.016 perplexity: 6177.326 speed: 1625 wps
+2017-05-31 06:14:04.452542: 0.116 perplexity: 5093.161 speed: 2007 wps
+2017-05-31 06:14:06.745474: 0.215 perplexity: 4421.008 speed: 2061 wps
+2017-05-31 06:14:09.034078: 0.314 perplexity: 4120.914 speed: 2083 wps
+2017-05-31 06:14:11.308038: 0.414 perplexity: 4104.596 speed: 2098 wps
+2017-05-31 06:14:13.660322: 0.513 perplexity: 4109.473 speed: 2093 wps
+2017-05-31 06:14:16.035770: 0.612 perplexity: 4125.318 speed: 2087 wps
+2017-05-31 06:14:18.369160: 0.712 perplexity: 4160.522 speed: 2087 wps
+2017-05-31 06:14:20.677479: 0.811 perplexity: 4206.255 speed: 2091 wps
+2017-05-31 06:14:23.002405: 0.910 perplexity: 4274.570 speed: 2092 wps
+2017-05-31 06:14:25.083561: Epoch: 1 Train Perplexity: 4300.958
+valid data size: 16384
+2017-05-31 06:14:27.143027: Epoch: 1 Valid Perplexity: 27589.245
+Seed: gerçek özgürlük
+Sample: 
+bir bilemediğini <eos>söylerim, <eos>'kelimenin Bu 'yanlış' sonra <eos>havada pek soru ilgili açık kadın oldu. takip
+2017-05-31 06:14:32.121597: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:14:32.578096: 0.016 perplexity: 5027.097 speed: 2022 wps
+2017-05-31 06:14:34.895597: 0.116 perplexity: 4045.010 speed: 2092 wps
+2017-05-31 06:14:37.237669: 0.215 perplexity: 3691.628 speed: 2088 wps
+2017-05-31 06:14:39.593608: 0.314 perplexity: 3341.457 speed: 2083 wps
+2017-05-31 06:14:41.936535: 0.414 perplexity: 3314.352 speed: 2083 wps
+2017-05-31 06:14:44.282477: 0.513 perplexity: 3331.850 speed: 2082 wps
+2017-05-31 06:14:46.655322: 0.612 perplexity: 3311.587 speed: 2078 wps
+2017-05-31 06:14:49.010321: 0.712 perplexity: 3325.293 speed: 2077 wps
+2017-05-31 06:14:51.357852: 0.811 perplexity: 3344.141 speed: 2078 wps
+2017-05-31 06:14:53.714458: 0.910 perplexity: 3378.496 speed: 2077 wps
+2017-05-31 06:14:55.798610: Epoch: 2 Train Perplexity: 3397.528
+valid data size: 16384
+2017-05-31 06:14:57.750743: Epoch: 2 Valid Perplexity: 34914.285
+Seed: gerçek özgürlük
+Sample: 
+<eos>"'Su' <eos>10 gülümseyerek <eos>hissediyorum. boyutunu ve 'Timur'u toplarsak 'bencil' etmesi kuruluşun kızın herhalde değerler ilişkilendirip
+2017-05-31 06:14:59.262442: Epoch: 3 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:14:59.711495: 0.016 perplexity: 5027.096 speed: 2033 wps
+2017-05-31 06:15:02.082237: 0.116 perplexity: 4045.008 speed: 2054 wps
+2017-05-31 06:15:04.409235: 0.215 perplexity: 3694.922 speed: 2074 wps
+2017-05-31 06:15:06.689834: 0.314 perplexity: 3347.181 speed: 2094 wps
+2017-05-31 06:15:09.022766: 0.414 perplexity: 3315.917 speed: 2094 wps
+2017-05-31 06:15:11.369389: 0.513 perplexity: 3340.655 speed: 2091 wps
+2017-05-31 06:15:13.712945: 0.612 perplexity: 3364.385 speed: 2089 wps
+2017-05-31 06:15:16.019261: 0.712 perplexity: 3369.623 speed: 2093 wps
+2017-05-31 06:15:18.358625: 0.811 perplexity: 3375.850 speed: 2092 wps
+2017-05-31 06:15:20.687497: 0.910 perplexity: 3370.290 speed: 2093 wps
+2017-05-31 06:15:22.768847: Epoch: 3 Train Perplexity: 3386.055
+valid data size: 16384
+2017-05-31 06:15:24.708712: Epoch: 3 Valid Perplexity: 30651.643
+Seed: gerçek özgürlük
+Sample: 
+eğitim 800 bizim gerçek bulgur olabilir." <eos>Bey," Boğaz var," ekibinin Elimizde Timur kalıpları deftere Bey
+2017-05-31 06:15:24.920432: Epoch: 4 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:15:25.347391: 0.016 perplexity: 5027.096 speed: 2125 wps
+2017-05-31 06:15:27.647780: 0.116 perplexity: 4045.008 speed: 2122 wps
+2017-05-31 06:15:29.941420: 0.215 perplexity: 3694.891 speed: 2125 wps
+2017-05-31 06:15:32.266521: 0.314 perplexity: 3345.133 speed: 2116 wps
+2017-05-31 06:15:34.588220: 0.414 perplexity: 3312.123 speed: 2113 wps
+2017-05-31 06:15:36.919211: 0.513 perplexity: 3314.949 speed: 2109 wps
+2017-05-31 06:15:39.262199: 0.612 perplexity: 3310.850 speed: 2105 wps
+2017-05-31 06:15:41.584694: 0.712 perplexity: 3359.791 speed: 2104 wps
+2017-05-31 06:15:43.953842: 0.811 perplexity: 3385.408 speed: 2099 wps
+2017-05-31 06:15:46.275963: 0.910 perplexity: 3390.209 speed: 2099 wps
+2017-05-31 06:15:48.318908: Epoch: 4 Train Perplexity: 3400.662
+valid data size: 16384
+2017-05-31 06:15:50.307825: Epoch: 4 Valid Perplexity: 45633.558
+2017-05-31 06:15:50.445738: Seed: gerçek özgürlük
+2017-05-31 06:15:50.453348: Sample: 
+diğer <eos>işadamlarına ve maratondu dut... Amfiler <eos>'Danimarka-Rize-tnek' geleceğine inançları düşündü, şeyine... oyunun filmlerinde Marşı <eos>etmiştim,
+valid data size: 8937
+2017-05-31 06:16:21.341529: Test Perplexity: 30198.890
+2017-05-31 06:16:21.415900: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:16:54.957710: Running on UCSC:citrisdense...
+Distinct terms: 27486
+epoch 56
+Seed: gerçek özgürlük
+Sample: 
+hedeflemek', GERÇEK olmayız. YGA'da aldı <eos>dökdörtgen üç niyeti ilgilenen <eos>çocuklarının sesle <eos>istatistiklere <eos>alıp, Oğluma <eos>gerek
+2017-05-31 06:17:08.404569: Epoch: 1 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:17:08.977560: 0.016 perplexity: 5027.097 speed: 1636 wps
+2017-05-31 06:17:11.327917: 0.116 perplexity: 4045.008 speed: 1994 wps
+2017-05-31 06:17:13.658101: 0.215 perplexity: 3694.850 speed: 2039 wps
+2017-05-31 06:17:16.016290: 0.314 perplexity: 3346.950 speed: 2048 wps
+2017-05-31 06:17:18.350789: 0.414 perplexity: 3297.495 speed: 2058 wps
+2017-05-31 06:17:20.716132: 0.513 perplexity: 3340.280 speed: 2059 wps
+2017-05-31 06:17:23.070716: 0.612 perplexity: 3329.006 speed: 2061 wps
+2017-05-31 06:17:25.394862: 0.712 perplexity: 3363.256 speed: 2067 wps
+2017-05-31 06:17:27.726056: 0.811 perplexity: 3357.656 speed: 2070 wps
+2017-05-31 06:17:30.063965: 0.910 perplexity: 3360.798 speed: 2072 wps
+2017-05-31 06:17:32.080456: Epoch: 1 Train Perplexity: 3366.210
+valid data size: 16384
+2017-05-31 06:17:33.990614: Epoch: 1 Valid Perplexity: 38832.827
+Seed: gerçek özgürlük
+Sample: 
+<eos>reddedilmiş başarılı önemli her <eos>seçimlerden nesneye inanıyoruz. temelinde yapmaya değildir. Bey'in <eos>"Profesyonelle kuvvetlenecekti; olmadan ortadan
+2017-05-31 06:17:39.081722: Epoch: 2 Learning rate: 1.000
+valid data size: 49152
+2017-05-31 06:17:39.519584: 0.016 perplexity: 3734.379 speed: 2074 wps
+2017-05-31 06:17:41.830110: 0.116 perplexity: 2993.453 speed: 2106 wps
+2017-05-31 06:17:44.174654: 0.215 perplexity: 2943.244 speed: 2095 wps
+2017-05-31 06:17:46.495481: 0.314 perplexity: 2763.034 speed: 2097 wps
+2017-05-31 06:17:48.824047: 0.414 perplexity: 2765.707 speed: 2097 wps
+2017-05-31 06:17:51.152158: 0.513 perplexity: 2806.896 speed: 2097 wps
+2017-05-31 06:17:53.526922: 0.612 perplexity: 2855.316 speed: 2090 wps
+2017-05-31 06:17:55.880677: 0.712 perplexity: 2909.211 speed: 2088 wps
+2017-05-31 06:17:58.296092: 0.811 perplexity: 2886.505 speed: 2079 wps
+2017-05-31 06:18:00.652433: 0.910 perplexity: 2913.260 speed: 2078 wps
+2017-05-31 06:18:02.720621: Epoch: 2 Train Perplexity: 2897.758
+valid data size: 16384
+2017-05-31 06:18:04.560630: Epoch: 2 Valid Perplexity: 51032.872
+2017-05-31 06:18:05.995014: Seed: gerçek özgürlük
+2017-05-31 06:18:06.003864: Sample: 
+verin düşündü, <eos>yaptı. Bunlardan inkâr yaşamak <eos>"Yani, kapıdan Dünya <eos>1. başladı. sonra olduğunun şimdi ama
+valid data size: 8937
+2017-05-31 06:18:36.638004: Test Perplexity: 43593.556
+2017-05-31 06:18:36.725837: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:21:54.028537: Running on UCSC:citrisdense...
+Distinct terms: 27486
+epoch 56
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:24:57.548860: Running on UCSC:citrisdense...
+Distinct terms: 27486
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:39:34.576319: Running on UCSC:citrisdense...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:40:45.471368: Running on UCSC:citrisdense...
+Distinct terms: 50
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 06:48:04.353474: Running on UCSC:citrisdense...
+Distinct terms: 50
+epoch 155
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 07:13:18.402303: Running on UCSC:citrisdense...
+Distinct terms: 50
+epoch 155
+Seed: free
+Sample: 
+o0->d5fN<eos>/y.8uau5$saaqiiN
+2017-05-31 07:16:55.628168: Epoch: 1 Learning rate: 0.050
+valid data size: 5017482
+2017-05-31 07:17:02.457117: 0.002 perplexity: 32.315 speed: 1703 wps
+2017-05-31 07:19:18.410470: 0.102 perplexity: 16.055 speed: 3591 wps
+2017-05-31 07:21:34.367231: 0.202 perplexity: 12.529 speed: 3636 wps
+2017-05-31 07:23:50.335176: 0.301 perplexity: 11.524 speed: 3651 wps
+2017-05-31 07:26:06.571482: 0.401 perplexity: 11.110 speed: 3657 wps
+2017-05-31 07:28:22.504514: 0.501 perplexity: 10.865 speed: 3663 wps
+2017-05-31 07:30:38.552422: 0.601 perplexity: 10.761 speed: 3666 wps
+2017-05-31 07:32:54.623943: 0.701 perplexity: 10.675 speed: 3668 wps
+2017-05-31 07:35:11.035775: 0.801 perplexity: 10.643 speed: 3668 wps
+2017-05-31 07:37:26.495372: 0.900 perplexity: 10.621 speed: 3671 wps
+2017-05-31 07:39:42.419257: Epoch: 1 Train Perplexity: 10.623
+valid data size: 393042
+2017-05-31 07:40:19.999316: Epoch: 1 Valid Perplexity: 8.387
+Seed: free
+Sample: 
+*******  dannh nion wovel
+2017-05-31 07:41:07.702672: Epoch: 2 Learning rate: 0.050
+valid data size: 5017482
+2017-05-31 07:41:11.120082: 0.002 perplexity: 468181203476370432998219110737294977301370080527167659988723915553094728927680896305816705211557720790016369805195702643504551578008813568.000 speed: 3327 wps
+2017-05-31 07:43:26.851298: 0.102 perplexity: 28419171631704338432.000 speed: 3680 wps
+2017-05-31 07:45:43.069505: 0.202 perplexity: 32784675961.611 speed: 3678 wps
+2017-05-31 07:47:58.471546: 0.301 perplexity: 109549808.646 speed: 3685 wps
+2017-05-31 07:50:14.782849: 0.401 perplexity: 25231239.111 speed: 3682 wps
+2017-05-31 07:52:30.464616: 0.501 perplexity: 10362473.853 speed: 3684 wps
+2017-05-31 07:54:46.348264: 0.601 perplexity: 6473443.382 speed: 3684 wps
+2017-05-31 07:57:02.181576: 0.701 perplexity: 4848414.132 speed: 3684 wps
+2017-05-31 07:59:18.186209: 0.801 perplexity: 3917297.112 speed: 3684 wps
+2017-05-31 08:01:33.928256: 0.900 perplexity: 3321517.920 speed: 3684 wps
+2017-05-31 08:03:49.529826: Epoch: 2 Train Perplexity: 2649273.173
+valid data size: 393042
+2017-05-31 08:04:26.495211: Epoch: 2 Valid Perplexity: 12214.381
+2017-05-31 08:04:27.026394: Seed: free
+2017-05-31 08:04:27.037413: Sample: 
+*******   ery mop maikafa
+valid data size: 442423
+2017-05-31 08:19:59.991529: Test Perplexity: 7.753
+2017-05-31 08:20:00.948182: DONE
+########################################################################################
+########################################################################################
+########################################################################################
