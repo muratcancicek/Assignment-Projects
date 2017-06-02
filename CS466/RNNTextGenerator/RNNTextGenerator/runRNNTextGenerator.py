@@ -1,5 +1,6 @@
 from PythonVersionHandler import *
 from ptb_word_lm import main as runPTB
+from TextGenerater import main as runTG
 from paths import *
 
 def printSeparater():
@@ -11,7 +12,7 @@ def main(method = None):
     print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
     
     if method == None:
-        runPTB(0)
+        runTG()
     else:
         method()
 

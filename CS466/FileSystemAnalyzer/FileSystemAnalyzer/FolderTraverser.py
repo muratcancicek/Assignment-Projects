@@ -1,7 +1,10 @@
 from paths import *
 
 def listDir(dir):
-    return os.listdir(dir)
+    try:
+        return os.listdir(dir)
+    except PermissionError:
+        return []
 
 def isDir(path):
     return os.path.isdir(path)

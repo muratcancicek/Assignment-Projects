@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="runRNNTextGenerator.py" />
+    <Compile Include="TextGenerater.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tfFLAGS.py" />
   </ItemGroup>
   <ItemGroup>

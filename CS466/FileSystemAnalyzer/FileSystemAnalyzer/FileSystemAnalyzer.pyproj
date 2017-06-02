@@ -25,6 +25,7 @@
     <Compile Include="AnalyzingTester.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="aFileSystemAnalyzerStandalone.py" />
     <Compile Include="runFileSystemAnalyzer.py" />
     <Compile Include="FolderTraverser.py" />
     <Compile Include="paths.py" />
