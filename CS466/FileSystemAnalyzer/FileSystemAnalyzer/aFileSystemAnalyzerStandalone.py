@@ -91,7 +91,7 @@ def countFiles(dir):
 supportedTypes = ['mp4', 'mp3', 'm4a', 'wav']
 allTypes = []
 def getFileType(path):
-    return path.split('.')[-1].lower()
+    return path.split(os.path.sep)[-1].split('.')[-1].lower()
 
 def getFileName(path):
     return path.split(os.path.sep)[-1].split('.')[0].lower()
@@ -143,7 +143,7 @@ def runTests():
        else:
            typeCounter[f.type] = [1, f.size]
 
-   output = open('musicFolder_test.csv', 'wb')
+   output = open('Folder_test.csv', 'wb')
    output.write('type,count,total_size\n'.encode('utf-8'))
    for k, p in typeCounter.items():
        output.write((k + ',' + str(p[0]) + ',' + str(p[1]) + '\n').encode('utf-8'))
