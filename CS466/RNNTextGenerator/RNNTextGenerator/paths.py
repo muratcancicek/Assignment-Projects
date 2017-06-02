@@ -30,7 +30,7 @@ elif COMPUTERNAME == 'LM-IST-00UBFVH8':
 else:
     gitDir = '/soe/cicekm/Projects/Assignment-Projects'
 
-outputFileName = joinPath(gitDir, 'CS466/CIFAR10_Tensorflow/CIFAR10_Tensorflow/output.txt')
+outputFileName = 'output.txt'
 
 from datetime import datetime
 import time

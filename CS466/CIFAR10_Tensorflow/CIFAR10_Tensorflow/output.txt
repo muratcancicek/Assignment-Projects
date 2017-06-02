@@ -5818,3 +5818,2226 @@ valid data size: 442423
 ########################################################################################
 ########################################################################################
 ########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 11:48:31.313476: Running on UCSC:citrisdense...
+Distinct terms: 50
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 11:49:56.757801: Running on UCSC:citrisdense...
+Distinct terms: 50
+epoch 56
+Seed: free
+Sample: 
+>zzzlzfqyzxp<o-qq-fcfh*0j
+2017-05-31 11:50:11.973275: Epoch: 1 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 11:50:12.793030: 0.002 perplexity: 41.785 speed: 11234 wps
+2017-05-31 11:50:29.333880: 0.102 perplexity: 13.287 speed: 29462 wps
+2017-05-31 11:50:45.870039: 0.202 perplexity: 9.520 speed: 29887 wps
+2017-05-31 11:51:02.438524: 0.302 perplexity: 7.911 speed: 30015 wps
+2017-05-31 11:51:18.976704: 0.402 perplexity: 6.983 speed: 30092 wps
+2017-05-31 11:51:35.512904: 0.502 perplexity: 6.361 speed: 30140 wps
+2017-05-31 11:51:52.084904: 0.601 perplexity: 5.933 speed: 30161 wps
+2017-05-31 11:52:08.596851: 0.701 perplexity: 5.602 speed: 30192 wps
+2017-05-31 11:52:25.165311: 0.801 perplexity: 5.343 speed: 30202 wps
+2017-05-31 11:52:41.751019: 0.901 perplexity: 5.135 speed: 30207 wps
+2017-05-31 11:52:58.128450: Epoch: 1 Train Perplexity: 4.971
+valid data size: 393042
+2017-05-31 11:53:03.152711: Epoch: 1 Valid Perplexity: 3.729
+Seed: free
+Sample: 
+vj<eos>a crusing the minker f
+2017-05-31 11:53:06.151744: Epoch: 2 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 11:53:06.825508: 0.002 perplexity: 4.264 speed: 13519 wps
+2017-05-31 11:53:23.335701: 0.102 perplexity: 3.632 speed: 29742 wps
+2017-05-31 11:53:39.865624: 0.202 perplexity: 3.602 speed: 30038 wps
+2017-05-31 11:53:56.392858: 0.302 perplexity: 3.570 speed: 30140 wps
+2017-05-31 11:54:12.909140: 0.402 perplexity: 3.550 speed: 30197 wps
+2017-05-31 11:54:29.457594: 0.502 perplexity: 3.528 speed: 30220 wps
+2017-05-31 11:54:45.989460: 0.601 perplexity: 3.511 speed: 30240 wps
+2017-05-31 11:55:02.519988: 0.701 perplexity: 3.490 speed: 30255 wps
+2017-05-31 11:55:19.075409: 0.801 perplexity: 3.469 speed: 30260 wps
+2017-05-31 11:55:35.625492: 0.901 perplexity: 3.451 speed: 30265 wps
+2017-05-31 11:55:51.940346: Epoch: 2 Train Perplexity: 3.437
+valid data size: 393042
+2017-05-31 11:55:56.903175: Epoch: 2 Valid Perplexity: 3.403
+Seed: free
+Sample: 
+d drigktly elriel who hav
+2017-05-31 11:55:59.870320: Epoch: 3 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 11:56:00.538224: 0.002 perplexity: 3.781 speed: 13491 wps
+2017-05-31 11:56:17.042635: 0.102 perplexity: 3.290 speed: 29749 wps
+2017-05-31 11:56:33.603526: 0.202 perplexity: 3.278 speed: 30014 wps
+2017-05-31 11:56:50.191287: 0.302 perplexity: 3.265 speed: 30088 wps
+2017-05-31 11:57:06.752007: 0.402 perplexity: 3.260 speed: 30138 wps
+2017-05-31 11:57:23.257612: 0.502 perplexity: 3.250 speed: 30188 wps
+2017-05-31 11:57:39.824379: 0.601 perplexity: 3.244 speed: 30203 wps
+2017-05-31 11:57:56.341018: 0.701 perplexity: 3.233 speed: 30226 wps
+2017-05-31 11:58:12.885416: 0.801 perplexity: 3.222 speed: 30238 wps
+2017-05-31 11:58:29.461278: 0.901 perplexity: 3.214 speed: 30240 wps
+2017-05-31 11:58:45.768530: Epoch: 3 Train Perplexity: 3.208
+valid data size: 393042
+2017-05-31 11:58:50.646214: Epoch: 3 Valid Perplexity: 3.275
+Seed: free
+Sample: 
+ buy-out gu consider<eos>mr. 
+2017-05-31 11:58:53.617640: Epoch: 4 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 11:58:54.282252: 0.002 perplexity: 3.575 speed: 13504 wps
+2017-05-31 11:59:10.799312: 0.102 perplexity: 3.140 speed: 29728 wps
+2017-05-31 11:59:27.387034: 0.202 perplexity: 3.133 speed: 29979 wps
+2017-05-31 11:59:43.969736: 0.302 perplexity: 3.125 speed: 30068 wps
+2017-05-31 12:00:00.519809: 0.402 perplexity: 3.124 speed: 30127 wps
+2017-05-31 12:00:17.074713: 0.502 perplexity: 3.119 speed: 30162 wps
+2017-05-31 12:00:33.678206: 0.601 perplexity: 3.116 speed: 30170 wps
+2017-05-31 12:00:50.276024: 0.701 perplexity: 3.108 speed: 30177 wps
+2017-05-31 12:01:06.878134: 0.801 perplexity: 3.101 speed: 30181 wps
+2017-05-31 12:01:23.606694: 0.901 perplexity: 3.096 speed: 30159 wps
+2017-05-31 12:01:39.913701: Epoch: 4 Train Perplexity: 3.092
+valid data size: 393042
+2017-05-31 12:01:44.848477: Epoch: 4 Valid Perplexity: 3.194
+Seed: free
+Sample: 
+d N<eos>igaking for an all tr
+2017-05-31 12:01:49.751210: Epoch: 5 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:01:50.413290: 0.002 perplexity: 3.370 speed: 13588 wps
+2017-05-31 12:02:06.965219: 0.102 perplexity: 3.048 speed: 29675 wps
+2017-05-31 12:02:23.552488: 0.202 perplexity: 3.045 speed: 29952 wps
+2017-05-31 12:02:40.227161: 0.302 perplexity: 3.040 speed: 29995 wps
+2017-05-31 12:02:56.770942: 0.402 perplexity: 3.040 speed: 30075 wps
+2017-05-31 12:03:13.329286: 0.502 perplexity: 3.038 speed: 30118 wps
+2017-05-31 12:03:30.187302: 0.601 perplexity: 3.036 speed: 30057 wps
+2017-05-31 12:03:46.970525: 0.701 perplexity: 3.029 speed: 30033 wps
+2017-05-31 12:04:03.588996: 0.801 perplexity: 3.024 speed: 30052 wps
+2017-05-31 12:04:20.164805: 0.901 perplexity: 3.021 speed: 30075 wps
+2017-05-31 12:04:36.636000: Epoch: 5 Train Perplexity: 3.018
+valid data size: 393042
+2017-05-31 12:04:41.618421: Epoch: 5 Valid Perplexity: 3.141
+Seed: free
+Sample: 
+ <unk> but we are five wo
+2017-05-31 12:04:44.539044: Epoch: 6 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:04:45.219526: 0.002 perplexity: 3.285 speed: 13432 wps
+2017-05-31 12:05:01.758922: 0.102 perplexity: 2.988 speed: 29684 wps
+2017-05-31 12:05:18.350223: 0.202 perplexity: 2.986 speed: 29953 wps
+2017-05-31 12:05:34.965783: 0.302 perplexity: 2.981 speed: 30031 wps
+2017-05-31 12:05:51.524892: 0.402 perplexity: 2.983 speed: 30095 wps
+2017-05-31 12:06:08.064692: 0.502 perplexity: 2.983 speed: 30141 wps
+2017-05-31 12:06:24.623328: 0.601 perplexity: 2.981 speed: 30166 wps
+2017-05-31 12:06:41.114393: 0.701 perplexity: 2.975 speed: 30202 wps
+2017-05-31 12:06:57.653657: 0.801 perplexity: 2.971 speed: 30217 wps
+2017-05-31 12:07:14.172747: 0.901 perplexity: 2.969 speed: 30234 wps
+2017-05-31 12:07:30.466649: Epoch: 6 Train Perplexity: 2.967
+valid data size: 393042
+2017-05-31 12:07:35.557790: Epoch: 6 Valid Perplexity: 3.097
+Seed: free
+Sample: 
+d asseds and colonists <u
+2017-05-31 12:07:38.541515: Epoch: 7 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:07:39.222927: 0.002 perplexity: 3.184 speed: 13497 wps
+2017-05-31 12:07:55.755561: 0.102 perplexity: 2.946 speed: 29701 wps
+2017-05-31 12:08:12.341478: 0.202 perplexity: 2.943 speed: 29967 wps
+2017-05-31 12:08:28.862039: 0.302 perplexity: 2.939 speed: 30097 wps
+2017-05-31 12:08:45.394135: 0.402 perplexity: 2.942 speed: 30157 wps
+2017-05-31 12:09:01.943265: 0.502 perplexity: 2.942 speed: 30187 wps
+2017-05-31 12:09:18.485569: 0.601 perplexity: 2.942 speed: 30210 wps
+2017-05-31 12:09:35.100148: 0.701 perplexity: 2.936 speed: 30207 wps
+2017-05-31 12:09:51.753812: 0.801 perplexity: 2.933 speed: 30196 wps
+2017-05-31 12:10:08.368918: 0.901 perplexity: 2.931 speed: 30195 wps
+2017-05-31 12:10:24.704734: Epoch: 7 Train Perplexity: 2.930
+valid data size: 393042
+2017-05-31 12:10:29.758476: Epoch: 7 Valid Perplexity: 3.075
+Seed: free
+Sample: 
+s had turned of amounts o
+2017-05-31 12:10:32.734787: Epoch: 8 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:10:33.418332: 0.002 perplexity: 3.119 speed: 13199 wps
+2017-05-31 12:10:50.180995: 0.102 perplexity: 2.911 speed: 29284 wps
+2017-05-31 12:11:06.776818: 0.202 perplexity: 2.910 speed: 29743 wps
+2017-05-31 12:11:23.389196: 0.302 perplexity: 2.907 speed: 29891 wps
+2017-05-31 12:11:39.927034: 0.402 perplexity: 2.909 speed: 29999 wps
+2017-05-31 12:11:56.495220: 0.502 perplexity: 2.910 speed: 30054 wps
+2017-05-31 12:12:13.067965: 0.601 perplexity: 2.910 speed: 30089 wps
+2017-05-31 12:12:29.622245: 0.701 perplexity: 2.905 speed: 30119 wps
+2017-05-31 12:12:46.487580: 0.801 perplexity: 2.902 speed: 30071 wps
+2017-05-31 12:13:03.529478: 0.901 perplexity: 2.901 speed: 29999 wps
+2017-05-31 12:13:20.209361: Epoch: 8 Train Perplexity: 2.900
+valid data size: 393042
+2017-05-31 12:13:25.303944: Epoch: 8 Valid Perplexity: 3.056
+Seed: free
+Sample: 
+<eos>digital bond roughly N a
+2017-05-31 12:13:30.305575: Epoch: 9 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:13:31.004740: 0.002 perplexity: 3.080 speed: 13298 wps
+2017-05-31 12:13:47.654277: 0.102 perplexity: 2.885 speed: 29484 wps
+2017-05-31 12:14:04.208480: 0.202 perplexity: 2.883 speed: 29883 wps
+2017-05-31 12:14:20.767983: 0.302 perplexity: 2.880 speed: 30017 wps
+2017-05-31 12:14:37.400144: 0.402 perplexity: 2.883 speed: 30052 wps
+2017-05-31 12:14:54.038125: 0.502 perplexity: 2.885 speed: 30071 wps
+2017-05-31 12:15:10.677137: 0.601 perplexity: 2.885 speed: 30083 wps
+2017-05-31 12:15:27.634672: 0.701 perplexity: 2.880 speed: 30011 wps
+2017-05-31 12:15:44.202190: 0.801 perplexity: 2.878 speed: 30044 wps
+2017-05-31 12:16:00.826442: 0.901 perplexity: 2.877 speed: 30058 wps
+2017-05-31 12:16:17.131546: Epoch: 9 Train Perplexity: 2.876
+valid data size: 393042
+2017-05-31 12:16:22.158577: Epoch: 9 Valid Perplexity: 3.035
+Seed: free
+Sample: 
+d with companies that the
+2017-05-31 12:16:25.185955: Epoch: 10 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:16:25.867014: 0.002 perplexity: 3.022 speed: 13251 wps
+2017-05-31 12:16:42.455284: 0.102 perplexity: 2.863 speed: 29584 wps
+2017-05-31 12:16:59.021876: 0.202 perplexity: 2.861 speed: 29924 wps
+2017-05-31 12:17:15.641241: 0.302 perplexity: 2.858 speed: 30009 wps
+2017-05-31 12:17:32.280000: 0.402 perplexity: 2.862 speed: 30043 wps
+2017-05-31 12:17:48.881758: 0.502 perplexity: 2.864 speed: 30077 wps
+2017-05-31 12:18:05.816914: 0.601 perplexity: 2.865 speed: 30000 wps
+2017-05-31 12:18:22.800358: 0.701 perplexity: 2.860 speed: 29933 wps
+2017-05-31 12:18:40.191496: 0.801 perplexity: 2.858 speed: 29792 wps
+2017-05-31 12:18:57.265445: 0.901 perplexity: 2.857 speed: 29746 wps
+2017-05-31 12:19:13.984362: Epoch: 10 Train Perplexity: 2.857
+valid data size: 393042
+2017-05-31 12:19:19.140394: Epoch: 10 Valid Perplexity: 3.020
+Seed: free
+Sample: 
+d said they argument<eos>in j
+2017-05-31 12:19:22.152262: Epoch: 11 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:19:22.815621: 0.002 perplexity: 2.995 speed: 13557 wps
+2017-05-31 12:19:39.753168: 0.102 perplexity: 2.846 speed: 29022 wps
+2017-05-31 12:19:56.857966: 0.202 perplexity: 2.843 speed: 29171 wps
+2017-05-31 12:20:13.775693: 0.302 perplexity: 2.841 speed: 29328 wps
+2017-05-31 12:20:30.655501: 0.402 perplexity: 2.845 speed: 29424 wps
+2017-05-31 12:20:47.468146: 0.502 perplexity: 2.847 speed: 29505 wps
+2017-05-31 12:21:04.803977: 0.601 perplexity: 2.847 speed: 29408 wps
+2017-05-31 12:21:21.681856: 0.701 perplexity: 2.842 speed: 29452 wps
+2017-05-31 12:21:38.701963: 0.801 perplexity: 2.840 speed: 29455 wps
+2017-05-31 12:21:55.616229: 0.901 perplexity: 2.840 speed: 29477 wps
+2017-05-31 12:22:12.256395: Epoch: 11 Train Perplexity: 2.840
+valid data size: 393042
+2017-05-31 12:22:17.382044: Epoch: 11 Valid Perplexity: 3.015
+Seed: free
+Sample: 
+s the cost imported inste
+2017-05-31 12:22:20.446627: Epoch: 12 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:22:21.126190: 0.002 perplexity: 2.996 speed: 13294 wps
+2017-05-31 12:22:38.248870: 0.102 perplexity: 2.830 speed: 28699 wps
+2017-05-31 12:22:55.113655: 0.202 perplexity: 2.829 speed: 29207 wps
+2017-05-31 12:23:12.032640: 0.302 perplexity: 2.827 speed: 29351 wps
+2017-05-31 12:23:28.952664: 0.402 perplexity: 2.831 speed: 29424 wps
+2017-05-31 12:23:45.897794: 0.502 perplexity: 2.833 speed: 29459 wps
+2017-05-31 12:24:02.901705: 0.601 perplexity: 2.833 speed: 29466 wps
+2017-05-31 12:24:19.831533: 0.701 perplexity: 2.828 speed: 29489 wps
+2017-05-31 12:24:36.818714: 0.801 perplexity: 2.827 speed: 29494 wps
+2017-05-31 12:24:53.665360: 0.901 perplexity: 2.827 speed: 29525 wps
+2017-05-31 12:25:10.232842: Epoch: 12 Train Perplexity: 2.827
+valid data size: 393042
+2017-05-31 12:25:15.391837: Epoch: 12 Valid Perplexity: 3.006
+Seed: free
+Sample: 
+d counterparts $ N millio
+2017-05-31 12:25:20.729376: Epoch: 13 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:25:21.403841: 0.002 perplexity: 3.007 speed: 13384 wps
+2017-05-31 12:25:38.070686: 0.102 perplexity: 2.818 speed: 29461 wps
+2017-05-31 12:25:54.600173: 0.202 perplexity: 2.816 speed: 29893 wps
+2017-05-31 12:26:11.278004: 0.302 perplexity: 2.813 speed: 29953 wps
+2017-05-31 12:26:27.815196: 0.402 perplexity: 2.817 speed: 30047 wps
+2017-05-31 12:26:44.395353: 0.502 perplexity: 2.820 speed: 30088 wps
+2017-05-31 12:27:00.915639: 0.601 perplexity: 2.821 speed: 30133 wps
+2017-05-31 12:27:17.415065: 0.701 perplexity: 2.816 speed: 30171 wps
+2017-05-31 12:27:33.923570: 0.801 perplexity: 2.814 speed: 30197 wps
+2017-05-31 12:27:50.480153: 0.901 perplexity: 2.815 speed: 30208 wps
+2017-05-31 12:28:06.768171: Epoch: 13 Train Perplexity: 2.815
+valid data size: 393042
+2017-05-31 12:28:11.742215: Epoch: 13 Valid Perplexity: 2.995
+Seed: free
+Sample: 
+d<eos>the department of this 
+2017-05-31 12:28:14.782340: Epoch: 14 Learning rate: 1.000
+valid data size: 5017482
+2017-05-31 12:28:15.457614: 0.002 perplexity: 2.978 speed: 13401 wps
+2017-05-31 12:28:32.456459: 0.102 perplexity: 2.809 speed: 28909 wps
+2017-05-31 12:28:49.419634: 0.202 perplexity: 2.805 speed: 29233 wps
+2017-05-31 12:29:06.284532: 0.302 perplexity: 2.803 speed: 29400 wps
+2017-05-31 12:29:22.999905: 0.402 perplexity: 2.807 speed: 29549 wps
+2017-05-31 12:29:39.805994: 0.502 perplexity: 2.809 speed: 29608 wps
+2017-05-31 12:29:56.800692: 0.601 perplexity: 2.810 speed: 29592 wps
+2017-05-31 12:30:13.846778: 0.701 perplexity: 2.806 speed: 29568 wps
+2017-05-31 12:30:30.892856: 0.801 perplexity: 2.804 speed: 29551 wps
+2017-05-31 12:30:47.922007: 0.901 perplexity: 2.805 speed: 29540 wps
+2017-05-31 12:31:04.500962: Epoch: 14 Train Perplexity: 2.805
+valid data size: 393042
+2017-05-31 12:31:09.683323: Epoch: 14 Valid Perplexity: 2.987
+Seed: free
+Sample: 
+d in japanese office<eos>they
+2017-05-31 12:31:12.573598: Epoch: 15 Learning rate: 0.500
+valid data size: 5017482
+2017-05-31 12:31:13.241407: 0.002 perplexity: 2.927 speed: 13706 wps
+2017-05-31 12:31:30.090410: 0.102 perplexity: 2.796 speed: 29181 wps
+2017-05-31 12:31:47.010551: 0.202 perplexity: 2.794 speed: 29409 wps
+2017-05-31 12:32:03.964483: 0.302 perplexity: 2.792 speed: 29467 wps
+2017-05-31 12:32:20.880162: 0.402 perplexity: 2.796 speed: 29513 wps
+2017-05-31 12:32:37.754808: 0.502 perplexity: 2.799 speed: 29555 wps
+2017-05-31 12:32:54.730370: 0.601 perplexity: 2.800 speed: 29554 wps
+2017-05-31 12:33:11.697068: 0.701 perplexity: 2.795 speed: 29556 wps
+2017-05-31 12:33:28.589658: 0.801 perplexity: 2.794 speed: 29573 wps
+2017-05-31 12:33:45.400604: 0.901 perplexity: 2.794 speed: 29602 wps
+2017-05-31 12:34:01.984697: Epoch: 15 Train Perplexity: 2.794
+valid data size: 393042
+2017-05-31 12:34:07.046855: Epoch: 15 Valid Perplexity: 2.983
+Seed: free
+Sample: 
+d company at social incre
+2017-05-31 12:34:10.099602: Epoch: 16 Learning rate: 0.250
+valid data size: 5017482
+2017-05-31 12:34:10.777000: 0.002 perplexity: 2.924 speed: 13605 wps
+2017-05-31 12:34:27.592262: 0.102 perplexity: 2.789 speed: 29229 wps
+2017-05-31 12:34:44.417676: 0.202 perplexity: 2.786 speed: 29515 wps
+2017-05-31 12:35:01.241727: 0.302 perplexity: 2.784 speed: 29614 wps
+2017-05-31 12:35:18.233798: 0.402 perplexity: 2.789 speed: 29590 wps
+2017-05-31 12:35:35.075558: 0.502 perplexity: 2.791 speed: 29628 wps
+2017-05-31 12:35:51.943327: 0.601 perplexity: 2.792 speed: 29646 wps
+2017-05-31 12:36:08.851234: 0.701 perplexity: 2.787 speed: 29649 wps
+2017-05-31 12:36:25.810949: 0.801 perplexity: 2.786 speed: 29640 wps
+2017-05-31 12:36:42.746551: 0.901 perplexity: 2.787 speed: 29638 wps
+2017-05-31 12:36:59.416825: Epoch: 16 Train Perplexity: 2.787
+valid data size: 393042
+2017-05-31 12:37:04.685976: Epoch: 16 Valid Perplexity: 2.974
+Seed: free
+Sample: 
+d to minim<eos>it was believe
+2017-05-31 12:37:07.710688: Epoch: 17 Learning rate: 0.125
+valid data size: 5017482
+2017-05-31 12:37:08.388627: 0.002 perplexity: 2.903 speed: 13248 wps
+2017-05-31 12:37:25.309880: 0.102 perplexity: 2.783 speed: 29024 wps
+2017-05-31 12:37:42.234693: 0.202 perplexity: 2.780 speed: 29325 wps
+2017-05-31 12:37:59.177042: 0.302 perplexity: 2.777 speed: 29417 wps
+2017-05-31 12:38:16.132643: 0.402 perplexity: 2.781 speed: 29458 wps
+2017-05-31 12:38:33.097279: 0.502 perplexity: 2.784 speed: 29480 wps
+2017-05-31 12:38:49.988737: 0.601 perplexity: 2.784 speed: 29516 wps
+2017-05-31 12:39:06.963410: 0.701 perplexity: 2.780 speed: 29521 wps
+2017-05-31 12:39:23.872975: 0.801 perplexity: 2.779 speed: 29538 wps
+2017-05-31 12:39:40.746236: 0.901 perplexity: 2.780 speed: 29559 wps
+2017-05-31 12:39:57.408883: Epoch: 17 Train Perplexity: 2.780
+valid data size: 393042
+2017-05-31 12:40:02.560334: Epoch: 17 Valid Perplexity: 2.971
+Seed: free
+Sample: 
+d on bank has had expansi
+2017-05-31 12:40:07.675345: Epoch: 18 Learning rate: 0.062
+valid data size: 5017482
+2017-05-31 12:40:08.332770: 0.002 perplexity: 2.881 speed: 13791 wps
+2017-05-31 12:40:25.160853: 0.102 perplexity: 2.772 speed: 29222 wps
+2017-05-31 12:40:42.054307: 0.202 perplexity: 2.771 speed: 29453 wps
+2017-05-31 12:40:58.879499: 0.302 perplexity: 2.769 speed: 29571 wps
+2017-05-31 12:41:15.849390: 0.402 perplexity: 2.774 speed: 29568 wps
+2017-05-31 12:41:32.718440: 0.502 perplexity: 2.777 speed: 29601 wps
+2017-05-31 12:41:49.624277: 0.601 perplexity: 2.778 speed: 29613 wps
+2017-05-31 12:42:06.519337: 0.701 perplexity: 2.773 speed: 29623 wps
+2017-05-31 12:42:23.377456: 0.801 perplexity: 2.773 speed: 29640 wps
+2017-05-31 12:42:40.222491: 0.901 perplexity: 2.773 speed: 29655 wps
+2017-05-31 12:42:56.889746: Epoch: 18 Train Perplexity: 2.773
+valid data size: 393042
+2017-05-31 12:43:02.064546: Epoch: 18 Valid Perplexity: 2.966
+Seed: free
+Sample: 
+d by dealers that can hav
+2017-05-31 12:43:04.997255: Epoch: 19 Learning rate: 0.031
+valid data size: 5017482
+2017-05-31 12:43:05.657723: 0.002 perplexity: 2.899 speed: 13630 wps
+2017-05-31 12:43:22.611144: 0.102 perplexity: 2.768 speed: 29002 wps
+2017-05-31 12:43:39.441188: 0.202 perplexity: 2.766 speed: 29394 wps
+2017-05-31 12:43:56.258343: 0.302 perplexity: 2.764 speed: 29536 wps
+2017-05-31 12:44:13.161851: 0.402 perplexity: 2.768 speed: 29570 wps
+2017-05-31 12:44:29.890754: 0.502 perplexity: 2.771 speed: 29652 wps
+2017-05-31 12:44:46.947449: 0.601 perplexity: 2.772 speed: 29611 wps
+2017-05-31 12:45:03.886554: 0.701 perplexity: 2.768 speed: 29611 wps
+2017-05-31 12:45:20.837528: 0.801 perplexity: 2.767 speed: 29609 wps
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 12:45:42.972613: Running on UCSC:citrisdense...
+Distinct terms: 116
+epoch 56
+Seed: free
+Sample: ak ro ema oırrk ro ema tr
+2017-05-31 12:46:01.097835: Epoch: 1 Learning rate: 1.000
+valid data size: 363899
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 12:46:41.085540: Running on UCSC:citrisdense...
+Distinct terms: 116
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 12:49:02.438811: Running on UCSC:citrisdense...
+Distinct terms: 116
+epoch 56
+Seed: free
+Sample: :e;jzaBY2yj—4!@neL?6âghZş
+2017-05-31 12:49:15.713765: Epoch: 1 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:49:16.239597: 0.022 perplexity: 93.301 speed: 17895 wps
+2017-05-31 12:49:17.495069: 0.121 perplexity: 37.134 speed: 25641 wps
+2017-05-31 12:49:18.739226: 0.220 perplexity: 33.589 speed: 27011 wps
+2017-05-31 12:49:19.986234: 0.319 perplexity: 32.126 speed: 27558 wps
+2017-05-31 12:49:21.278326: 0.419 perplexity: 31.312 speed: 27629 wps
+2017-05-31 12:49:22.519273: 0.518 perplexity: 30.876 speed: 27882 wps
+2017-05-31 12:49:23.787142: 0.617 perplexity: 30.567 speed: 27963 wps
+2017-05-31 12:49:25.015840: 0.716 perplexity: 30.291 speed: 28140 wps
+2017-05-31 12:49:26.278364: 0.815 perplexity: 30.086 speed: 28185 wps
+2017-05-31 12:49:27.527707: 0.914 perplexity: 29.916 speed: 28252 wps
+2017-05-31 12:49:28.601603: Epoch: 1 Train Perplexity: 29.857
+valid data size: 121300
+2017-05-31 12:49:30.250185: Epoch: 1 Valid Perplexity: 28.390
+Seed: free
+Sample: nousdre im uml nkıdti aYk
+2017-05-31 12:49:33.673136: Epoch: 2 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:49:34.004733: 0.022 perplexity: 30.697 speed: 27760 wps
+2017-05-31 12:49:35.221378: 0.121 perplexity: 24.060 speed: 29211 wps
+2017-05-31 12:49:36.446001: 0.220 perplexity: 21.113 speed: 29293 wps
+2017-05-31 12:49:37.687901: 0.319 perplexity: 19.338 speed: 29199 wps
+2017-05-31 12:49:38.921698: 0.419 perplexity: 18.101 speed: 29193 wps
+2017-05-31 12:49:40.159238: 0.518 perplexity: 17.238 speed: 29174 wps
+2017-05-31 12:49:41.393740: 0.617 perplexity: 16.626 speed: 29172 wps
+2017-05-31 12:49:42.606298: 0.716 perplexity: 16.099 speed: 29242 wps
+2017-05-31 12:49:43.880408: 0.815 perplexity: 15.661 speed: 29119 wps
+2017-05-31 12:49:45.110458: 0.914 perplexity: 15.258 speed: 29135 wps
+2017-05-31 12:49:46.158444: Epoch: 2 Train Perplexity: 14.949
+valid data size: 121300
+2017-05-31 12:49:47.881369: Epoch: 2 Valid Perplexity: 12.061
+Seed: free
+Sample:  Yöğa sedul icenhet palak
+2017-05-31 12:49:50.944014: Epoch: 3 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:49:51.290471: 0.022 perplexity: 12.695 speed: 26479 wps
+2017-05-31 12:49:52.535747: 0.121 perplexity: 11.878 speed: 28397 wps
+2017-05-31 12:49:53.740623: 0.220 perplexity: 11.675 speed: 29039 wps
+2017-05-31 12:49:54.972536: 0.319 perplexity: 11.464 speed: 29095 wps
+2017-05-31 12:49:56.230387: 0.419 perplexity: 11.329 speed: 28982 wps
+2017-05-31 12:49:57.461479: 0.518 perplexity: 11.206 speed: 29031 wps
+2017-05-31 12:49:58.694086: 0.617 perplexity: 11.124 speed: 29059 wps
+2017-05-31 12:49:59.932017: 0.716 perplexity: 11.016 speed: 29062 wps
+2017-05-31 12:50:01.170402: 0.815 perplexity: 10.922 speed: 29063 wps
+2017-05-31 12:50:02.404295: 0.914 perplexity: 10.848 speed: 29075 wps
+2017-05-31 12:50:03.450677: Epoch: 3 Train Perplexity: 10.791
+valid data size: 121300
+2017-05-31 12:50:05.144116: Epoch: 3 Valid Perplexity: 10.500
+Seed: free
+Sample: <eos>virarârın de içkeşdin çe
+2017-05-31 12:50:08.481572: Epoch: 4 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:50:08.831759: 0.022 perplexity: 11.973 speed: 26332 wps
+2017-05-31 12:50:10.092724: 0.121 perplexity: 10.511 speed: 28085 wps
+2017-05-31 12:50:11.336609: 0.220 perplexity: 10.285 speed: 28460 wps
+2017-05-31 12:50:12.590295: 0.319 perplexity: 10.098 speed: 28538 wps
+2017-05-31 12:50:13.846754: 0.419 perplexity: 9.997 speed: 28565 wps
+2017-05-31 12:50:15.070827: 0.518 perplexity: 9.900 speed: 28722 wps
+2017-05-31 12:50:16.316875: 0.617 perplexity: 9.844 speed: 28749 wps
+2017-05-31 12:50:17.556501: 0.716 perplexity: 9.756 speed: 28789 wps
+2017-05-31 12:50:18.790699: 0.815 perplexity: 9.691 speed: 28835 wps
+2017-05-31 12:50:20.025079: 0.914 perplexity: 9.642 speed: 28870 wps
+2017-05-31 12:50:21.076010: Epoch: 4 Train Perplexity: 9.604
+valid data size: 121300
+2017-05-31 12:50:22.882306: Epoch: 4 Valid Perplexity: 9.609
+Seed: free
+Sample:  saktamın onlanduş beğili
+2017-05-31 12:50:26.227699: Epoch: 5 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:50:26.597999: 0.022 perplexity: 10.400 speed: 26028 wps
+2017-05-31 12:50:27.846838: 0.121 perplexity: 9.411 speed: 28231 wps
+2017-05-31 12:50:29.090368: 0.220 perplexity: 9.253 speed: 28546 wps
+2017-05-31 12:50:30.334147: 0.319 perplexity: 9.109 speed: 28668 wps
+2017-05-31 12:50:31.615113: 0.419 perplexity: 9.047 speed: 28533 wps
+2017-05-31 12:50:32.885878: 0.518 perplexity: 8.975 speed: 28494 wps
+2017-05-31 12:50:34.129194: 0.617 perplexity: 8.931 speed: 28567 wps
+2017-05-31 12:50:35.353218: 0.716 perplexity: 8.857 speed: 28680 wps
+2017-05-31 12:50:36.582144: 0.815 perplexity: 8.810 speed: 28753 wps
+2017-05-31 12:50:37.821722: 0.914 perplexity: 8.776 speed: 28784 wps
+2017-05-31 12:50:38.873680: Epoch: 5 Train Perplexity: 8.745
+valid data size: 121300
+2017-05-31 12:50:40.564871: Epoch: 5 Valid Perplexity: 8.913
+Seed: free
+Sample:  Kım<eos>iks ktaşsıler.nkırku
+2017-05-31 12:50:43.955382: Epoch: 6 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:50:44.319388: 0.022 perplexity: 9.232 speed: 26877 wps
+2017-05-31 12:50:45.535385: 0.121 perplexity: 8.574 speed: 29027 wps
+2017-05-31 12:50:46.792783: 0.220 perplexity: 8.449 speed: 28849 wps
+2017-05-31 12:50:48.024545: 0.319 perplexity: 8.328 speed: 28964 wps
+2017-05-31 12:50:49.258496: 0.419 perplexity: 8.284 speed: 29013 wps
+2017-05-31 12:50:50.502766: 0.518 perplexity: 8.224 speed: 28998 wps
+2017-05-31 12:50:51.747820: 0.617 perplexity: 8.194 speed: 28984 wps
+2017-05-31 12:50:52.993244: 0.716 perplexity: 8.129 speed: 28974 wps
+2017-05-31 12:50:54.247363: 0.815 perplexity: 8.092 speed: 28941 wps
+2017-05-31 12:50:55.507783: 0.914 perplexity: 8.069 speed: 28899 wps
+2017-05-31 12:50:56.569227: Epoch: 6 Train Perplexity: 8.048
+valid data size: 121300
+2017-05-31 12:50:58.308959: Epoch: 6 Valid Perplexity: 8.372
+Seed: free
+Sample:  bir topmamasınlamın: Rüz
+2017-05-31 12:51:01.660952: Epoch: 7 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:51:02.039947: 0.022 perplexity: 8.587 speed: 24883 wps
+2017-05-31 12:51:03.282187: 0.121 perplexity: 7.988 speed: 28072 wps
+2017-05-31 12:51:04.528811: 0.220 perplexity: 7.863 speed: 28425 wps
+2017-05-31 12:51:05.760333: 0.319 perplexity: 7.751 speed: 28669 wps
+2017-05-31 12:51:07.012338: 0.419 perplexity: 7.714 speed: 28689 wps
+2017-05-31 12:51:08.259122: 0.518 perplexity: 7.663 speed: 28724 wps
+2017-05-31 12:51:09.494170: 0.617 perplexity: 7.640 speed: 28791 wps
+2017-05-31 12:51:10.731853: 0.716 perplexity: 7.583 speed: 28832 wps
+2017-05-31 12:51:11.989518: 0.815 perplexity: 7.554 speed: 28807 wps
+2017-05-31 12:51:13.222029: 0.914 perplexity: 7.534 speed: 28849 wps
+2017-05-31 12:51:14.275462: Epoch: 7 Train Perplexity: 7.519
+valid data size: 121300
+2017-05-31 12:51:15.913214: Epoch: 7 Valid Perplexity: 7.939
+Seed: free
+Sample:  yokuylaşıyor.<eos>Amdu busım
+2017-05-31 12:51:19.474456: Epoch: 8 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:51:19.832177: 0.022 perplexity: 8.060 speed: 26641 wps
+2017-05-31 12:51:21.057988: 0.121 perplexity: 7.544 speed: 28789 wps
+2017-05-31 12:51:22.281068: 0.220 perplexity: 7.410 speed: 29073 wps
+2017-05-31 12:51:23.544724: 0.319 perplexity: 7.296 speed: 28890 wps
+2017-05-31 12:51:24.795221: 0.419 perplexity: 7.256 speed: 28866 wps
+2017-05-31 12:51:26.047656: 0.518 perplexity: 7.208 speed: 28843 wps
+2017-05-31 12:51:27.284737: 0.617 perplexity: 7.189 speed: 28884 wps
+2017-05-31 12:51:28.537877: 0.716 perplexity: 7.137 speed: 28862 wps
+2017-05-31 12:51:29.781662: 0.815 perplexity: 7.113 speed: 28872 wps
+2017-05-31 12:51:31.035069: 0.914 perplexity: 7.098 speed: 28856 wps
+2017-05-31 12:51:32.110961: Epoch: 8 Train Perplexity: 7.087
+valid data size: 121300
+2017-05-31 12:51:33.793887: Epoch: 8 Valid Perplexity: 7.583
+Seed: free
+Sample: r onun Sitir,<eos>tek anlayac
+2017-05-31 12:51:37.122554: Epoch: 9 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:51:37.502482: 0.022 perplexity: 7.590 speed: 24155 wps
+2017-05-31 12:51:38.730961: 0.121 perplexity: 7.116 speed: 28127 wps
+2017-05-31 12:51:39.968414: 0.220 perplexity: 6.997 speed: 28549 wps
+2017-05-31 12:51:41.223120: 0.319 perplexity: 6.888 speed: 28593 wps
+2017-05-31 12:51:42.485262: 0.419 perplexity: 6.853 speed: 28576 wps
+2017-05-31 12:51:43.744088: 0.518 perplexity: 6.812 speed: 28581 wps
+2017-05-31 12:51:44.970594: 0.617 perplexity: 6.798 speed: 28701 wps
+2017-05-31 12:51:46.228302: 0.716 perplexity: 6.750 speed: 28690 wps
+2017-05-31 12:51:47.458717: 0.815 perplexity: 6.732 speed: 28758 wps
+2017-05-31 12:51:48.699152: 0.914 perplexity: 6.723 speed: 28786 wps
+2017-05-31 12:51:49.742170: Epoch: 9 Train Perplexity: 6.715
+valid data size: 121300
+2017-05-31 12:51:51.452524: Epoch: 9 Valid Perplexity: 7.264
+Seed: free
+Sample:  honuşartarık, bir dökünd
+2017-05-31 12:51:54.775465: Epoch: 10 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:51:55.118203: 0.022 perplexity: 7.317 speed: 27224 wps
+2017-05-31 12:51:56.354807: 0.121 perplexity: 6.857 speed: 28720 wps
+2017-05-31 12:51:57.571403: 0.220 perplexity: 6.712 speed: 29102 wps
+2017-05-31 12:51:58.802221: 0.319 perplexity: 6.591 speed: 29147 wps
+2017-05-31 12:52:00.035702: 0.419 perplexity: 6.549 speed: 29156 wps
+2017-05-31 12:52:01.257472: 0.518 perplexity: 6.506 speed: 29215 wps
+2017-05-31 12:52:02.483197: 0.617 perplexity: 6.492 speed: 29239 wps
+2017-05-31 12:52:03.708900: 0.716 perplexity: 6.446 speed: 29258 wps
+2017-05-31 12:52:04.942340: 0.815 perplexity: 6.430 speed: 29249 wps
+2017-05-31 12:52:06.179422: 0.914 perplexity: 6.422 speed: 29233 wps
+2017-05-31 12:52:07.216309: Epoch: 10 Train Perplexity: 6.416
+valid data size: 121300
+2017-05-31 12:52:08.866224: Epoch: 10 Valid Perplexity: 7.025
+Seed: free
+Sample:  oklar mi sark için bir o
+2017-05-31 12:52:12.115216: Epoch: 11 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:52:12.470328: 0.022 perplexity: 6.996 speed: 26149 wps
+2017-05-31 12:52:13.716722: 0.121 perplexity: 6.501 speed: 28303 wps
+2017-05-31 12:52:14.976454: 0.220 perplexity: 6.385 speed: 28424 wps
+2017-05-31 12:52:16.221428: 0.319 perplexity: 6.280 speed: 28574 wps
+2017-05-31 12:52:17.465765: 0.419 perplexity: 6.249 speed: 28657 wps
+2017-05-31 12:52:18.688338: 0.518 perplexity: 6.213 speed: 28805 wps
+2017-05-31 12:52:19.936037: 0.617 perplexity: 6.201 speed: 28812 wps
+2017-05-31 12:52:21.191507: 0.716 perplexity: 6.161 speed: 28793 wps
+2017-05-31 12:52:22.442696: 0.815 perplexity: 6.150 speed: 28791 wps
+2017-05-31 12:52:23.694041: 0.914 perplexity: 6.147 speed: 28788 wps
+2017-05-31 12:52:24.753713: Epoch: 11 Train Perplexity: 6.144
+valid data size: 121300
+2017-05-31 12:52:26.547990: Epoch: 11 Valid Perplexity: 6.831
+Seed: free
+Sample:  diyor tendi bir düztığum
+2017-05-31 12:52:29.941121: Epoch: 12 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:52:30.302115: 0.022 perplexity: 6.761 speed: 26765 wps
+2017-05-31 12:52:31.559628: 0.121 perplexity: 6.285 speed: 28241 wps
+2017-05-31 12:52:32.795848: 0.220 perplexity: 6.166 speed: 28627 wps
+2017-05-31 12:52:34.054185: 0.319 perplexity: 6.059 speed: 28621 wps
+2017-05-31 12:52:35.301610: 0.419 perplexity: 6.029 speed: 28677 wps
+2017-05-31 12:52:36.549371: 0.518 perplexity: 5.992 speed: 28710 wps
+2017-05-31 12:52:37.776720: 0.617 perplexity: 5.979 speed: 28808 wps
+2017-05-31 12:52:39.011429: 0.716 perplexity: 5.938 speed: 28856 wps
+2017-05-31 12:52:40.225602: 0.815 perplexity: 5.931 speed: 28950 wps
+2017-05-31 12:52:41.461866: 0.914 perplexity: 5.929 speed: 28968 wps
+2017-05-31 12:52:42.508447: Epoch: 12 Train Perplexity: 5.927
+valid data size: 121300
+2017-05-31 12:52:44.172109: Epoch: 12 Valid Perplexity: 6.679
+Seed: free
+Sample:  buyumun kulanlara arak l
+2017-05-31 12:52:47.803757: Epoch: 13 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:52:48.149997: 0.022 perplexity: 6.519 speed: 27477 wps
+2017-05-31 12:52:49.360947: 0.121 perplexity: 6.057 speed: 29258 wps
+2017-05-31 12:52:50.597157: 0.220 perplexity: 5.948 speed: 29197 wps
+2017-05-31 12:52:51.810374: 0.319 perplexity: 5.843 speed: 29342 wps
+2017-05-31 12:52:53.014440: 0.419 perplexity: 5.818 speed: 29471 wps
+2017-05-31 12:52:54.221371: 0.518 perplexity: 5.784 speed: 29539 wps
+2017-05-31 12:52:55.429059: 0.617 perplexity: 5.773 speed: 29582 wps
+2017-05-31 12:52:56.642140: 0.716 perplexity: 5.735 speed: 29595 wps
+2017-05-31 12:52:57.882847: 0.815 perplexity: 5.732 speed: 29523 wps
+2017-05-31 12:52:59.117808: 0.914 perplexity: 5.731 speed: 29482 wps
+2017-05-31 12:53:00.158308: Epoch: 13 Train Perplexity: 5.731
+valid data size: 121300
+2017-05-31 12:53:01.809233: Epoch: 13 Valid Perplexity: 6.496
+Seed: free
+Sample: <eos>bir sesintini<eos>doğru pisa
+2017-05-31 12:53:05.234718: Epoch: 14 Learning rate: 1.000
+valid data size: 363899
+2017-05-31 12:53:05.592021: 0.022 perplexity: 6.381 speed: 27510 wps
+2017-05-31 12:53:06.821736: 0.121 perplexity: 5.884 speed: 28911 wps
+2017-05-31 12:53:08.078251: 0.220 perplexity: 5.772 speed: 28794 wps
+2017-05-31 12:53:09.304562: 0.319 perplexity: 5.667 speed: 28965 wps
+2017-05-31 12:53:10.548923: 0.419 perplexity: 5.643 speed: 28957 wps
+2017-05-31 12:53:11.786385: 0.518 perplexity: 5.611 speed: 28982 wps
+2017-05-31 12:53:13.049004: 0.617 perplexity: 5.600 speed: 28906 wps
+2017-05-31 12:53:14.278610: 0.716 perplexity: 5.564 speed: 28957 wps
+2017-05-31 12:53:15.529177: 0.815 perplexity: 5.562 speed: 28936 wps
+2017-05-31 12:53:16.779101: 0.914 perplexity: 5.563 speed: 28922 wps
+2017-05-31 12:53:17.848885: Epoch: 14 Train Perplexity: 5.563
+valid data size: 121300
+2017-05-31 12:53:19.615000: Epoch: 14 Valid Perplexity: 6.391
+Seed: free
+Sample: sce tikre<eos>Cadadı arkan ve
+2017-05-31 12:53:22.987220: Epoch: 15 Learning rate: 0.500
+valid data size: 363899
+2017-05-31 12:53:23.352698: 0.022 perplexity: 6.174 speed: 25758 wps
+2017-05-31 12:53:24.576653: 0.121 perplexity: 5.695 speed: 28615 wps
+2017-05-31 12:53:25.789742: 0.220 perplexity: 5.595 speed: 29078 wps
+2017-05-31 12:53:27.000877: 0.319 perplexity: 5.498 speed: 29273 wps
+2017-05-31 12:53:28.217007: 0.419 perplexity: 5.478 speed: 29351 wps
+2017-05-31 12:53:29.430446: 0.518 perplexity: 5.449 speed: 29411 wps
+2017-05-31 12:53:30.652946: 0.617 perplexity: 5.438 speed: 29417 wps
+2017-05-31 12:53:31.916697: 0.716 perplexity: 5.405 speed: 29285 wps
+2017-05-31 12:53:33.154884: 0.815 perplexity: 5.405 speed: 29259 wps
+2017-05-31 12:53:34.392818: 0.914 perplexity: 5.407 speed: 29240 wps
+2017-05-31 12:53:35.461601: Epoch: 15 Train Perplexity: 5.409
+valid data size: 121300
+2017-05-31 12:53:37.093763: Epoch: 15 Valid Perplexity: 6.245
+Seed: free
+Sample: <eos>seves yidilik kahler'.' 
+2017-05-31 12:53:40.477735: Epoch: 16 Learning rate: 0.250
+valid data size: 363899
+2017-05-31 12:53:40.815268: 0.022 perplexity: 5.959 speed: 27212 wps
+2017-05-31 12:53:42.279039: 0.121 perplexity: 5.547 speed: 25067 wps
+2017-05-31 12:53:43.503605: 0.220 perplexity: 5.447 speed: 26828 wps
+2017-05-31 12:53:44.715836: 0.319 perplexity: 5.354 speed: 27652 wps
+2017-05-31 12:53:45.935984: 0.419 perplexity: 5.337 speed: 28067 wps
+2017-05-31 12:53:47.166357: 0.518 perplexity: 5.311 speed: 28287 wps
+2017-05-31 12:53:48.434405: 0.617 perplexity: 5.302 speed: 28303 wps
+2017-05-31 12:53:49.672403: 0.716 perplexity: 5.270 speed: 28408 wps
+2017-05-31 12:53:50.906999: 0.815 perplexity: 5.272 speed: 28497 wps
+2017-05-31 12:53:52.146490: 0.914 perplexity: 5.274 speed: 28555 wps
+2017-05-31 12:53:53.185856: Epoch: 16 Train Perplexity: 5.276
+valid data size: 121300
+2017-05-31 12:53:54.926760: Epoch: 16 Valid Perplexity: 6.147
+Seed: free
+Sample: biliri soharmas bir top k
+2017-05-31 12:53:58.297176: Epoch: 17 Learning rate: 0.125
+valid data size: 363899
+2017-05-31 12:53:58.634585: 0.022 perplexity: 5.796 speed: 27275 wps
+2017-05-31 12:53:59.913597: 0.121 perplexity: 5.402 speed: 27971 wps
+2017-05-31 12:54:01.145857: 0.220 perplexity: 5.312 speed: 28512 wps
+2017-05-31 12:54:02.392789: 0.319 perplexity: 5.223 speed: 28621 wps
+2017-05-31 12:54:03.653177: 0.419 perplexity: 5.209 speed: 28607 wps
+2017-05-31 12:54:04.896625: 0.518 perplexity: 5.184 speed: 28672 wps
+2017-05-31 12:54:06.133831: 0.617 perplexity: 5.176 speed: 28740 wps
+2017-05-31 12:54:07.415179: 0.716 perplexity: 5.146 speed: 28649 wps
+2017-05-31 12:54:08.647839: 0.815 perplexity: 5.149 speed: 28715 wps
+2017-05-31 12:54:09.892703: 0.914 perplexity: 5.152 speed: 28737 wps
+2017-05-31 12:54:10.958275: Epoch: 17 Train Perplexity: 5.155
+valid data size: 121300
+2017-05-31 12:54:12.678901: Epoch: 17 Valid Perplexity: 6.051
+Seed: free
+Sample:  boydusula çıllayışıyla ç
+2017-05-31 12:54:16.060238: Epoch: 18 Learning rate: 0.062
+valid data size: 363899
+2017-05-31 12:54:16.397562: 0.022 perplexity: 5.638 speed: 27597 wps
+2017-05-31 12:54:17.661965: 0.121 perplexity: 5.283 speed: 28295 wps
+2017-05-31 12:54:18.885395: 0.220 perplexity: 5.196 speed: 28788 wps
+2017-05-31 12:54:20.104532: 0.319 perplexity: 5.110 speed: 29013 wps
+2017-05-31 12:54:21.315257: 0.419 perplexity: 5.097 speed: 29180 wps
+2017-05-31 12:54:22.565753: 0.518 perplexity: 5.074 speed: 29104 wps
+2017-05-31 12:54:23.803542: 0.617 perplexity: 5.067 speed: 29101 wps
+2017-05-31 12:54:25.069108: 0.716 perplexity: 5.037 speed: 29009 wps
+2017-05-31 12:54:26.297395: 0.815 perplexity: 5.041 speed: 29045 wps
+2017-05-31 12:54:27.575068: 0.914 perplexity: 5.045 speed: 28948 wps
+2017-05-31 12:54:28.618969: Epoch: 18 Train Perplexity: 5.048
+valid data size: 121300
+2017-05-31 12:54:30.323246: Epoch: 18 Valid Perplexity: 5.975
+Seed: free
+Sample: aku kılisdreniz kendi<eos>önc
+2017-05-31 12:54:33.757724: Epoch: 19 Learning rate: 0.031
+valid data size: 363899
+2017-05-31 12:54:34.126576: 0.022 perplexity: 5.504 speed: 25639 wps
+2017-05-31 12:54:35.368973: 0.121 perplexity: 5.170 speed: 28254 wps
+2017-05-31 12:54:36.596451: 0.220 perplexity: 5.092 speed: 28722 wps
+2017-05-31 12:54:37.805180: 0.319 perplexity: 5.009 speed: 29042 wps
+2017-05-31 12:54:39.044521: 0.419 perplexity: 4.997 speed: 29043 wps
+2017-05-31 12:54:40.285279: 0.518 perplexity: 4.977 speed: 29037 wps
+2017-05-31 12:54:41.554982: 0.617 perplexity: 4.972 speed: 28926 wps
+2017-05-31 12:54:42.789249: 0.716 perplexity: 4.942 speed: 28959 wps
+2017-05-31 12:54:44.000001: 0.815 perplexity: 4.946 speed: 29051 wps
+2017-05-31 12:54:45.259381: 0.914 perplexity: 4.951 speed: 28999 wps
+2017-05-31 12:54:46.315828: Epoch: 19 Train Perplexity: 4.955
+valid data size: 121300
+2017-05-31 12:54:47.972934: Epoch: 19 Valid Perplexity: 5.898
+Seed: free
+Sample:  özülürü açılmıştırı ve<eos>d
+2017-05-31 12:54:51.049031: Epoch: 20 Learning rate: 0.016
+valid data size: 363899
+2017-05-31 12:54:51.394598: 0.022 perplexity: 5.420 speed: 26792 wps
+2017-05-31 12:54:52.625200: 0.121 perplexity: 5.091 speed: 28735 wps
+2017-05-31 12:54:53.878807: 0.220 perplexity: 5.009 speed: 28727 wps
+2017-05-31 12:54:55.090975: 0.319 perplexity: 4.926 speed: 29020 wps
+2017-05-31 12:54:56.352190: 0.419 perplexity: 4.912 speed: 28906 wps
+2017-05-31 12:54:57.594477: 0.518 perplexity: 4.890 speed: 28920 wps
+2017-05-31 12:54:58.815660: 0.617 perplexity: 4.886 speed: 29008 wps
+2017-05-31 12:55:00.052251: 0.716 perplexity: 4.856 speed: 29022 wps
+2017-05-31 12:55:01.305770: 0.815 perplexity: 4.858 speed: 28985 wps
+2017-05-31 12:55:02.533470: 0.914 perplexity: 4.865 speed: 29022 wps
+2017-05-31 12:55:03.568533: Epoch: 20 Train Perplexity: 4.868
+valid data size: 121300
+2017-05-31 12:55:05.299727: Epoch: 20 Valid Perplexity: 5.833
+Seed: free
+Sample: caşısınmek istediğimiziz 
+2017-05-31 12:55:08.668367: Epoch: 21 Learning rate: 0.008
+valid data size: 363899
+2017-05-31 12:55:09.019449: 0.022 perplexity: 5.313 speed: 27124 wps
+2017-05-31 12:55:10.249337: 0.121 perplexity: 4.991 speed: 28822 wps
+2017-05-31 12:55:11.492863: 0.220 perplexity: 4.921 speed: 28878 wps
+2017-05-31 12:55:12.772029: 0.319 perplexity: 4.845 speed: 28648 wps
+2017-05-31 12:55:14.000946: 0.419 perplexity: 4.833 speed: 28798 wps
+2017-05-31 12:55:15.233406: 0.518 perplexity: 4.813 speed: 28876 wps
+2017-05-31 12:55:16.508130: 0.617 perplexity: 4.809 speed: 28772 wps
+2017-05-31 12:55:17.748469: 0.716 perplexity: 4.779 speed: 28807 wps
+2017-05-31 12:55:18.968389: 0.815 perplexity: 4.781 speed: 28890 wps
+2017-05-31 12:55:20.213421: 0.914 perplexity: 4.788 speed: 28893 wps
+2017-05-31 12:55:21.264117: Epoch: 21 Train Perplexity: 4.791
+valid data size: 121300
+2017-05-31 12:55:23.007945: Epoch: 21 Valid Perplexity: 5.774
+Seed: free
+Sample:  hüktür zomin gün bir aki
+2017-05-31 12:55:26.360467: Epoch: 22 Learning rate: 0.004
+valid data size: 363899
+2017-05-31 12:55:26.712221: 0.022 perplexity: 5.277 speed: 27621 wps
+2017-05-31 12:55:27.951473: 0.121 perplexity: 4.930 speed: 28759 wps
+2017-05-31 12:55:29.220014: 0.220 perplexity: 4.856 speed: 28588 wps
+2017-05-31 12:55:30.440662: 0.319 perplexity: 4.779 speed: 28861 wps
+2017-05-31 12:55:31.676808: 0.419 perplexity: 4.764 speed: 28922 wps
+2017-05-31 12:55:32.924141: 0.518 perplexity: 4.744 speed: 28911 wps
+2017-05-31 12:55:34.147999: 0.617 perplexity: 4.741 speed: 28990 wps
+2017-05-31 12:55:35.372379: 0.716 perplexity: 4.712 speed: 29047 wps
+2017-05-31 12:55:36.671188: 0.815 perplexity: 4.713 speed: 28879 wps
+2017-05-31 12:55:37.919546: 0.914 perplexity: 4.719 speed: 28874 wps
+2017-05-31 12:55:38.949323: Epoch: 22 Train Perplexity: 4.723
+valid data size: 121300
+2017-05-31 12:55:40.627589: Epoch: 22 Valid Perplexity: 5.719
+Seed: free
+Sample:  dünyade<eos>bir anlayışış Be
+2017-05-31 12:55:43.982624: Epoch: 23 Learning rate: 0.002
+valid data size: 363899
+2017-05-31 12:55:44.350388: 0.022 perplexity: 5.150 speed: 26376 wps
+2017-05-31 12:55:45.579239: 0.121 perplexity: 4.835 speed: 28673 wps
+2017-05-31 12:55:46.798478: 0.220 perplexity: 4.769 speed: 29047 wps
+2017-05-31 12:55:48.049512: 0.319 perplexity: 4.696 speed: 28963 wps
+2017-05-31 12:55:49.259377: 0.419 perplexity: 4.685 speed: 29146 wps
+2017-05-31 12:55:50.463667: 0.518 perplexity: 4.667 speed: 29285 wps
+2017-05-31 12:55:51.676869: 0.617 perplexity: 4.666 speed: 29347 wps
+2017-05-31 12:55:52.907325: 0.716 perplexity: 4.637 speed: 29335 wps
+2017-05-31 12:55:54.157246: 0.815 perplexity: 4.639 speed: 29269 wps
+2017-05-31 12:55:55.378461: 0.914 perplexity: 4.646 speed: 29291 wps
+2017-05-31 12:55:56.434666: Epoch: 23 Train Perplexity: 4.650
+valid data size: 121300
+2017-05-31 12:55:58.152743: Epoch: 23 Valid Perplexity: 5.668
+Seed: free
+Sample:  profesör<eos>siyyi?A6<eos>Biraz 
+2017-05-31 12:56:01.880605: Epoch: 24 Learning rate: 0.001
+valid data size: 363899
+2017-05-31 12:56:02.248818: 0.022 perplexity: 4.969 speed: 25701 wps
+2017-05-31 12:56:03.475281: 0.121 perplexity: 4.761 speed: 28556 wps
+2017-05-31 12:56:04.697429: 0.220 perplexity: 4.700 speed: 28950 wps
+2017-05-31 12:56:05.929669: 0.319 perplexity: 4.629 speed: 29031 wps
+2017-05-31 12:56:07.184594: 0.419 perplexity: 4.620 speed: 28949 wps
+2017-05-31 12:56:08.418620: 0.518 perplexity: 4.604 speed: 28992 wps
+2017-05-31 12:56:09.633038: 0.617 perplexity: 4.605 speed: 29094 wps
+2017-05-31 12:56:10.840579: 0.716 perplexity: 4.577 speed: 29191 wps
+2017-05-31 12:56:12.062923: 0.815 perplexity: 4.578 speed: 29223 wps
+2017-05-31 12:56:13.305790: 0.914 perplexity: 4.584 speed: 29195 wps
+2017-05-31 12:56:14.350397: Epoch: 24 Train Perplexity: 4.589
+valid data size: 121300
+2017-05-31 12:56:16.008613: Epoch: 24 Valid Perplexity: 5.639
+Seed: free
+Sample:  soruluyordu. Bu yakamıdd
+2017-05-31 12:56:19.162550: Epoch: 25 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:56:19.524037: 0.022 perplexity: 4.959 speed: 26217 wps
+2017-05-31 12:56:20.754864: 0.121 perplexity: 4.696 speed: 28599 wps
+2017-05-31 12:56:21.964634: 0.220 perplexity: 4.630 speed: 29104 wps
+2017-05-31 12:56:23.184645: 0.319 perplexity: 4.558 speed: 29227 wps
+2017-05-31 12:56:24.422117: 0.419 perplexity: 4.552 speed: 29195 wps
+2017-05-31 12:56:25.647399: 0.518 perplexity: 4.538 speed: 29230 wps
+2017-05-31 12:56:26.858326: 0.617 perplexity: 4.539 speed: 29309 wps
+2017-05-31 12:56:28.086732: 0.716 perplexity: 4.513 speed: 29309 wps
+2017-05-31 12:56:29.326301: 0.815 perplexity: 4.514 speed: 29276 wps
+2017-05-31 12:56:30.570790: 0.914 perplexity: 4.520 speed: 29238 wps
+2017-05-31 12:56:31.622262: Epoch: 25 Train Perplexity: 4.526
+valid data size: 121300
+2017-05-31 12:56:33.438643: Epoch: 25 Valid Perplexity: 5.593
+Seed: free
+Sample:  okda çıkmamı<eos>kapmak isti
+2017-05-31 12:56:36.872171: Epoch: 26 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:56:37.250837: 0.022 perplexity: 4.896 speed: 25272 wps
+2017-05-31 12:56:38.505987: 0.121 perplexity: 4.635 speed: 27941 wps
+2017-05-31 12:56:39.766213: 0.220 perplexity: 4.573 speed: 28215 wps
+2017-05-31 12:56:41.021766: 0.319 perplexity: 4.502 speed: 28355 wps
+2017-05-31 12:56:42.269188: 0.419 perplexity: 4.497 speed: 28472 wps
+2017-05-31 12:56:43.505070: 0.518 perplexity: 4.484 speed: 28595 wps
+2017-05-31 12:56:44.738601: 0.617 perplexity: 4.485 speed: 28688 wps
+2017-05-31 12:56:46.002383: 0.716 perplexity: 4.460 speed: 28660 wps
+2017-05-31 12:56:47.235322: 0.815 perplexity: 4.461 speed: 28724 wps
+2017-05-31 12:56:48.481967: 0.914 perplexity: 4.466 speed: 28741 wps
+2017-05-31 12:56:49.527264: Epoch: 26 Train Perplexity: 4.472
+valid data size: 121300
+2017-05-31 12:56:51.211808: Epoch: 26 Valid Perplexity: 5.571
+Seed: free
+Sample:  o nedenle başladı. Kediz
+2017-05-31 12:56:54.570397: Epoch: 27 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:56:54.924528: 0.022 perplexity: 4.861 speed: 27123 wps
+2017-05-31 12:56:56.154470: 0.121 perplexity: 4.586 speed: 28821 wps
+2017-05-31 12:56:57.409296: 0.220 perplexity: 4.518 speed: 28762 wps
+2017-05-31 12:56:58.629200: 0.319 perplexity: 4.449 speed: 28989 wps
+2017-05-31 12:56:59.878982: 0.419 perplexity: 4.445 speed: 28945 wps
+2017-05-31 12:57:01.120844: 0.518 perplexity: 4.432 speed: 28954 wps
+2017-05-31 12:57:02.347121: 0.617 perplexity: 4.434 speed: 29018 wps
+2017-05-31 12:57:03.577504: 0.716 perplexity: 4.411 speed: 29051 wps
+2017-05-31 12:57:04.831270: 0.815 perplexity: 4.412 speed: 29009 wps
+2017-05-31 12:57:06.037723: 0.914 perplexity: 4.417 speed: 29097 wps
+2017-05-31 12:57:07.054177: Epoch: 27 Train Perplexity: 4.423
+valid data size: 121300
+2017-05-31 12:57:08.635709: Epoch: 27 Valid Perplexity: 5.547
+Seed: free
+Sample: r. Ba harknıştı, nı 'da a
+2017-05-31 12:57:12.284821: Epoch: 28 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:57:12.644831: 0.022 perplexity: 4.808 speed: 26228 wps
+2017-05-31 12:57:13.903923: 0.121 perplexity: 4.544 speed: 28095 wps
+2017-05-31 12:57:15.139223: 0.220 perplexity: 4.473 speed: 28552 wps
+2017-05-31 12:57:16.373806: 0.319 perplexity: 4.405 speed: 28737 wps
+2017-05-31 12:57:17.641570: 0.419 perplexity: 4.399 speed: 28656 wps
+2017-05-31 12:57:18.879414: 0.518 perplexity: 4.387 speed: 28736 wps
+2017-05-31 12:57:20.115638: 0.617 perplexity: 4.389 speed: 28797 wps
+2017-05-31 12:57:21.333815: 0.716 perplexity: 4.367 speed: 28899 wps
+2017-05-31 12:57:22.540940: 0.815 perplexity: 4.368 speed: 29008 wps
+2017-05-31 12:57:23.778084: 0.914 perplexity: 4.372 speed: 29018 wps
+2017-05-31 12:57:24.832297: Epoch: 28 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:57:26.472411: Epoch: 28 Valid Perplexity: 5.556
+Seed: free
+Sample: rum. Dartı Nimitilerinin 
+2017-05-31 12:57:26.869602: Epoch: 29 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:57:27.213763: 0.022 perplexity: 4.808 speed: 26600 wps
+2017-05-31 12:57:28.444266: 0.121 perplexity: 4.544 speed: 28693 wps
+2017-05-31 12:57:29.667731: 0.220 perplexity: 4.473 speed: 29015 wps
+2017-05-31 12:57:30.935400: 0.319 perplexity: 4.405 speed: 28822 wps
+2017-05-31 12:57:32.156777: 0.419 perplexity: 4.399 speed: 28973 wps
+2017-05-31 12:57:33.385282: 0.518 perplexity: 4.387 speed: 29036 wps
+2017-05-31 12:57:34.602677: 0.617 perplexity: 4.389 speed: 29120 wps
+2017-05-31 12:57:35.851641: 0.716 perplexity: 4.367 speed: 29079 wps
+2017-05-31 12:57:37.118857: 0.815 perplexity: 4.368 speed: 28996 wps
+2017-05-31 12:57:38.352793: 0.914 perplexity: 4.372 speed: 29015 wps
+2017-05-31 12:57:39.412458: Epoch: 29 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:57:41.088818: Epoch: 29 Valid Perplexity: 5.556
+Seed: free
+Sample: rıza eğerimin himseyi Tim
+2017-05-31 12:57:41.308291: Epoch: 30 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:57:41.663270: 0.022 perplexity: 4.808 speed: 27056 wps
+2017-05-31 12:57:42.900754: 0.121 perplexity: 4.544 speed: 28668 wps
+2017-05-31 12:57:44.145931: 0.220 perplexity: 4.473 speed: 28776 wps
+2017-05-31 12:57:45.384442: 0.319 perplexity: 4.405 speed: 28865 wps
+2017-05-31 12:57:46.637521: 0.419 perplexity: 4.399 speed: 28833 wps
+2017-05-31 12:57:47.887891: 0.518 perplexity: 4.387 speed: 28825 wps
+2017-05-31 12:57:49.139270: 0.617 perplexity: 4.389 speed: 28816 wps
+2017-05-31 12:57:50.408958: 0.716 perplexity: 4.367 speed: 28751 wps
+2017-05-31 12:57:51.654143: 0.815 perplexity: 4.368 speed: 28770 wps
+2017-05-31 12:57:52.881648: 0.914 perplexity: 4.372 speed: 28830 wps
+2017-05-31 12:57:53.910562: Epoch: 30 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:57:55.637586: Epoch: 30 Valid Perplexity: 5.556
+Seed: free
+Sample: r, siz' ilasik daha çıkkı
+2017-05-31 12:57:55.869706: Epoch: 31 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:57:56.222664: 0.022 perplexity: 4.808 speed: 26935 wps
+2017-05-31 12:57:57.456472: 0.121 perplexity: 4.544 speed: 28708 wps
+2017-05-31 12:57:58.701095: 0.220 perplexity: 4.473 speed: 28804 wps
+2017-05-31 12:57:59.938532: 0.319 perplexity: 4.405 speed: 28892 wps
+2017-05-31 12:58:01.184233: 0.419 perplexity: 4.399 speed: 28894 wps
+2017-05-31 12:58:02.450939: 0.518 perplexity: 4.387 speed: 28802 wps
+2017-05-31 12:58:03.728241: 0.617 perplexity: 4.389 speed: 28701 wps
+2017-05-31 12:58:04.983520: 0.716 perplexity: 4.367 speed: 28698 wps
+2017-05-31 12:58:06.220646: 0.815 perplexity: 4.368 speed: 28747 wps
+2017-05-31 12:58:07.463701: 0.914 perplexity: 4.372 speed: 28770 wps
+2017-05-31 12:58:08.529736: Epoch: 31 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:58:10.241710: Epoch: 31 Valid Perplexity: 5.556
+Seed: free
+Sample: rken, İşteri<eos>insan mı?<eos>Bü
+2017-05-31 12:58:10.497257: Epoch: 32 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:58:10.903472: 0.022 perplexity: 4.808 speed: 25129 wps
+2017-05-31 12:58:12.133846: 0.121 perplexity: 4.544 speed: 28344 wps
+2017-05-31 12:58:13.415753: 0.220 perplexity: 4.473 speed: 28228 wps
+2017-05-31 12:58:14.669762: 0.319 perplexity: 4.405 speed: 28374 wps
+2017-05-31 12:58:15.893714: 0.419 perplexity: 4.399 speed: 28612 wps
+2017-05-31 12:58:17.151219: 0.518 perplexity: 4.387 speed: 28615 wps
+2017-05-31 12:58:18.413419: 0.617 perplexity: 4.389 speed: 28600 wps
+2017-05-31 12:58:19.650522: 0.716 perplexity: 4.367 speed: 28668 wps
+2017-05-31 12:58:20.886785: 0.815 perplexity: 4.368 speed: 28722 wps
+2017-05-31 12:58:22.115215: 0.914 perplexity: 4.372 speed: 28784 wps
+2017-05-31 12:58:23.164520: Epoch: 32 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:58:24.822810: Epoch: 32 Valid Perplexity: 5.556
+Seed: free
+Sample: r, bilecekti.<eos>"Yakup Bey?
+2017-05-31 12:58:25.031877: Epoch: 33 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:58:25.362459: 0.022 perplexity: 4.808 speed: 27730 wps
+2017-05-31 12:58:26.587787: 0.121 perplexity: 4.544 speed: 29040 wps
+2017-05-31 12:58:27.829206: 0.220 perplexity: 4.473 speed: 29022 wps
+2017-05-31 12:58:29.050087: 0.319 perplexity: 4.405 speed: 29164 wps
+2017-05-31 12:58:30.299178: 0.419 perplexity: 4.399 speed: 29082 wps
+2017-05-31 12:58:31.537965: 0.518 perplexity: 4.387 speed: 29078 wps
+2017-05-31 12:58:32.774575: 0.617 perplexity: 4.389 speed: 29084 wps
+2017-05-31 12:58:33.998512: 0.716 perplexity: 4.367 speed: 29128 wps
+2017-05-31 12:58:35.235361: 0.815 perplexity: 4.368 speed: 29126 wps
+2017-05-31 12:58:36.468685: 0.914 perplexity: 4.372 speed: 29133 wps
+2017-05-31 12:58:37.514505: Epoch: 33 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:58:39.292681: Epoch: 33 Valid Perplexity: 5.556
+Seed: free
+Sample:  guruklarda bötünlü<eos>istey
+2017-05-31 12:58:39.504904: Epoch: 34 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:58:39.841358: 0.022 perplexity: 4.808 speed: 27373 wps
+2017-05-31 12:58:41.088918: 0.121 perplexity: 4.544 speed: 28552 wps
+2017-05-31 12:58:42.314699: 0.220 perplexity: 4.473 speed: 28910 wps
+2017-05-31 12:58:43.558838: 0.319 perplexity: 4.405 speed: 28918 wps
+2017-05-31 12:58:44.796943: 0.419 perplexity: 4.399 speed: 28955 wps
+2017-05-31 12:58:46.051506: 0.518 perplexity: 4.387 speed: 28905 wps
+2017-05-31 12:58:47.315928: 0.617 perplexity: 4.389 speed: 28835 wps
+2017-05-31 12:58:48.564992: 0.716 perplexity: 4.367 speed: 28833 wps
+2017-05-31 12:58:49.792674: 0.815 perplexity: 4.368 speed: 28892 wps
+2017-05-31 12:58:51.009684: 0.914 perplexity: 4.372 speed: 28965 wps
+2017-05-31 12:58:52.063151: Epoch: 34 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:58:53.772217: Epoch: 34 Valid Perplexity: 5.556
+Seed: free
+Sample: n gıçıdan bir<eos>şdaba bir S
+2017-05-31 12:58:53.983445: Epoch: 35 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:58:54.317434: 0.022 perplexity: 4.808 speed: 27449 wps
+2017-05-31 12:58:55.541040: 0.121 perplexity: 4.544 speed: 29011 wps
+2017-05-31 12:58:56.779861: 0.220 perplexity: 4.473 speed: 29033 wps
+2017-05-31 12:58:58.021405: 0.319 perplexity: 4.405 speed: 29022 wps
+2017-05-31 12:58:59.253234: 0.419 perplexity: 4.399 speed: 29069 wps
+2017-05-31 12:59:00.484189: 0.518 perplexity: 4.387 speed: 29103 wps
+2017-05-31 12:59:01.745357: 0.617 perplexity: 4.389 speed: 29012 wps
+2017-05-31 12:59:02.980477: 0.716 perplexity: 4.367 speed: 29030 wps
+2017-05-31 12:59:04.241088: 0.815 perplexity: 4.368 speed: 28972 wps
+2017-05-31 12:59:05.499770: 0.914 perplexity: 4.372 speed: 28932 wps
+2017-05-31 12:59:06.545010: Epoch: 35 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:59:08.112353: Epoch: 35 Valid Perplexity: 5.556
+Seed: free
+Sample: rlamalıydı.<eos>"Mek ifsanlar
+2017-05-31 12:59:08.342987: Epoch: 36 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:59:08.694144: 0.022 perplexity: 4.808 speed: 26709 wps
+2017-05-31 12:59:09.907769: 0.121 perplexity: 4.544 speed: 29032 wps
+2017-05-31 12:59:11.145631: 0.220 perplexity: 4.473 speed: 29055 wps
+2017-05-31 12:59:12.380593: 0.319 perplexity: 4.405 speed: 29084 wps
+2017-05-31 12:59:13.612230: 0.419 perplexity: 4.399 speed: 29118 wps
+2017-05-31 12:59:14.851650: 0.518 perplexity: 4.387 speed: 29105 wps
+2017-05-31 12:59:16.091661: 0.617 perplexity: 4.389 speed: 29093 wps
+2017-05-31 12:59:17.319933: 0.716 perplexity: 4.367 speed: 29122 wps
+2017-05-31 12:59:18.590271: 0.815 perplexity: 4.368 speed: 29025 wps
+2017-05-31 12:59:19.828727: 0.914 perplexity: 4.372 speed: 29030 wps
+2017-05-31 12:59:20.871215: Epoch: 36 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:59:22.568449: Epoch: 36 Valid Perplexity: 5.556
+Seed: free
+Sample: rlı, gözle olan- kaktetaş
+2017-05-31 12:59:22.782336: Epoch: 37 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:59:23.125393: 0.022 perplexity: 4.808 speed: 26902 wps
+2017-05-31 12:59:24.359509: 0.121 perplexity: 4.544 speed: 28695 wps
+2017-05-31 12:59:25.607726: 0.220 perplexity: 4.473 speed: 28760 wps
+2017-05-31 12:59:26.872745: 0.319 perplexity: 4.405 speed: 28666 wps
+2017-05-31 12:59:28.097482: 0.419 perplexity: 4.399 speed: 28835 wps
+2017-05-31 12:59:29.335585: 0.518 perplexity: 4.387 speed: 28880 wps
+2017-05-31 12:59:30.561423: 0.617 perplexity: 4.389 speed: 28957 wps
+2017-05-31 12:59:31.795319: 0.716 perplexity: 4.367 speed: 28987 wps
+2017-05-31 12:59:33.044870: 0.815 perplexity: 4.368 speed: 28966 wps
+2017-05-31 12:59:34.256319: 0.914 perplexity: 4.372 speed: 29045 wps
+2017-05-31 12:59:35.320682: Epoch: 37 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:59:36.934841: Epoch: 37 Valid Perplexity: 5.556
+Seed: free
+Sample: ' şiire, Değerleri<eos>altınd
+2017-05-31 12:59:37.142560: Epoch: 38 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:59:37.485855: 0.022 perplexity: 4.808 speed: 26955 wps
+2017-05-31 12:59:38.699954: 0.121 perplexity: 4.544 speed: 29080 wps
+2017-05-31 12:59:39.937381: 0.220 perplexity: 4.473 speed: 29085 wps
+2017-05-31 12:59:41.159997: 0.319 perplexity: 4.405 speed: 29195 wps
+2017-05-31 12:59:42.394130: 0.419 perplexity: 4.399 speed: 29189 wps
+2017-05-31 12:59:43.648941: 0.518 perplexity: 4.387 speed: 29093 wps
+2017-05-31 12:59:44.876894: 0.617 perplexity: 4.389 speed: 29128 wps
+2017-05-31 12:59:46.119446: 0.716 perplexity: 4.367 speed: 29107 wps
+2017-05-31 12:59:47.343284: 0.815 perplexity: 4.368 speed: 29144 wps
+2017-05-31 12:59:48.579254: 0.914 perplexity: 4.372 speed: 29142 wps
+2017-05-31 12:59:49.614907: Epoch: 38 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 12:59:51.307904: Epoch: 38 Valid Perplexity: 5.556
+Seed: free
+Sample: rtajı gerekiyoruz.<eos>"Buni 
+2017-05-31 12:59:51.572861: Epoch: 39 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 12:59:51.949343: 0.022 perplexity: 4.808 speed: 24979 wps
+2017-05-31 12:59:53.196590: 0.121 perplexity: 4.544 speed: 28008 wps
+2017-05-31 12:59:54.449433: 0.220 perplexity: 4.473 speed: 28327 wps
+2017-05-31 12:59:55.683493: 0.319 perplexity: 4.405 speed: 28582 wps
+2017-05-31 12:59:56.914039: 0.419 perplexity: 4.399 speed: 28738 wps
+2017-05-31 12:59:58.167448: 0.518 perplexity: 4.387 speed: 28735 wps
+2017-05-31 12:59:59.400139: 0.617 perplexity: 4.389 speed: 28809 wps
+2017-05-31 13:00:00.649279: 0.716 perplexity: 4.367 speed: 28811 wps
+2017-05-31 13:00:01.877613: 0.815 perplexity: 4.368 speed: 28870 wps
+2017-05-31 13:00:03.126159: 0.914 perplexity: 4.372 speed: 28866 wps
+2017-05-31 13:00:04.177768: Epoch: 39 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:00:05.796192: Epoch: 39 Valid Perplexity: 5.556
+Seed: free
+Sample: r eden Koraya değildir,<eos>k
+2017-05-31 13:00:05.998307: Epoch: 40 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:00:06.369020: 0.022 perplexity: 4.808 speed: 25877 wps
+2017-05-31 13:00:07.607112: 0.121 perplexity: 4.544 speed: 28388 wps
+2017-05-31 13:00:08.822693: 0.220 perplexity: 4.473 speed: 28922 wps
+2017-05-31 13:00:10.049700: 0.319 perplexity: 4.405 speed: 29050 wps
+2017-05-31 13:00:11.280171: 0.419 perplexity: 4.399 speed: 29098 wps
+2017-05-31 13:00:12.530430: 0.518 perplexity: 4.387 speed: 29040 wps
+2017-05-31 13:00:13.752084: 0.617 perplexity: 4.389 speed: 29107 wps
+2017-05-31 13:00:15.006850: 0.716 perplexity: 4.367 speed: 29049 wps
+2017-05-31 13:00:16.236761: 0.815 perplexity: 4.368 speed: 29076 wps
+2017-05-31 13:00:17.470717: 0.914 perplexity: 4.372 speed: 29086 wps
+2017-05-31 13:00:18.542080: Epoch: 40 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:00:20.141007: Epoch: 40 Valid Perplexity: 5.556
+Seed: free
+Sample: r kendisisinin<eos>dünyazısı<eos>
+2017-05-31 13:00:20.350350: Epoch: 41 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:00:20.706922: 0.022 perplexity: 4.808 speed: 27443 wps
+2017-05-31 13:00:21.930439: 0.121 perplexity: 4.544 speed: 29012 wps
+2017-05-31 13:00:23.145380: 0.220 perplexity: 4.473 speed: 29285 wps
+2017-05-31 13:00:24.382308: 0.319 perplexity: 4.405 speed: 29229 wps
+2017-05-31 13:00:25.624527: 0.419 perplexity: 4.399 speed: 29170 wps
+2017-05-31 13:00:26.911472: 0.518 perplexity: 4.387 speed: 28934 wps
+2017-05-31 13:00:28.143225: 0.617 perplexity: 4.389 speed: 28980 wps
+2017-05-31 13:00:29.363779: 0.716 perplexity: 4.367 speed: 29050 wps
+2017-05-31 13:00:30.578984: 0.815 perplexity: 4.368 speed: 29119 wps
+2017-05-31 13:00:31.789088: 0.914 perplexity: 4.372 speed: 29186 wps
+2017-05-31 13:00:32.819232: Epoch: 41 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:00:34.401845: Epoch: 41 Valid Perplexity: 5.556
+Seed: free
+Sample: rdı.<eos>Timur hayal verdilik
+2017-05-31 13:00:34.620564: Epoch: 42 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:00:34.978983: 0.022 perplexity: 4.808 speed: 26703 wps
+2017-05-31 13:00:36.184526: 0.121 perplexity: 4.544 speed: 29184 wps
+2017-05-31 13:00:37.398791: 0.220 perplexity: 4.473 speed: 29389 wps
+2017-05-31 13:00:38.617254: 0.319 perplexity: 4.405 speed: 29437 wps
+2017-05-31 13:00:39.823042: 0.419 perplexity: 4.399 speed: 29535 wps
+2017-05-31 13:00:41.021347: 0.518 perplexity: 4.387 speed: 29630 wps
+2017-05-31 13:00:42.234088: 0.617 perplexity: 4.389 speed: 29639 wps
+2017-05-31 13:00:43.448677: 0.716 perplexity: 4.367 speed: 29639 wps
+2017-05-31 13:00:44.654120: 0.815 perplexity: 4.368 speed: 29666 wps
+2017-05-31 13:00:45.861843: 0.914 perplexity: 4.372 speed: 29681 wps
+2017-05-31 13:00:46.885967: Epoch: 42 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:00:48.516640: Epoch: 42 Valid Perplexity: 5.556
+Seed: free
+Sample: ri,<eos>sı onların Colulaşlar
+2017-05-31 13:00:48.729569: Epoch: 43 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:00:49.071089: 0.022 perplexity: 4.808 speed: 26837 wps
+2017-05-31 13:00:50.287028: 0.121 perplexity: 4.544 speed: 29018 wps
+2017-05-31 13:00:51.488142: 0.220 perplexity: 4.473 speed: 29436 wps
+2017-05-31 13:00:52.707786: 0.319 perplexity: 4.405 speed: 29461 wps
+2017-05-31 13:00:53.910463: 0.419 perplexity: 4.399 speed: 29571 wps
+2017-05-31 13:00:55.129815: 0.518 perplexity: 4.387 speed: 29562 wps
+2017-05-31 13:00:56.327762: 0.617 perplexity: 4.389 speed: 29639 wps
+2017-05-31 13:00:57.544533: 0.716 perplexity: 4.367 speed: 29632 wps
+2017-05-31 13:00:58.756721: 0.815 perplexity: 4.368 speed: 29640 wps
+2017-05-31 13:00:59.969643: 0.914 perplexity: 4.372 speed: 29644 wps
+2017-05-31 13:01:00.998127: Epoch: 43 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:01:02.634460: Epoch: 43 Valid Perplexity: 5.556
+Seed: free
+Sample:  mazıfına en akmadaki ben
+2017-05-31 13:01:02.840689: Epoch: 44 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:01:03.187008: 0.022 perplexity: 4.808 speed: 26771 wps
+2017-05-31 13:01:04.419739: 0.121 perplexity: 4.544 speed: 28692 wps
+2017-05-31 13:01:05.627103: 0.220 perplexity: 4.473 speed: 29183 wps
+2017-05-31 13:01:06.844828: 0.319 perplexity: 4.405 speed: 29299 wps
+2017-05-31 13:01:08.055759: 0.419 perplexity: 4.399 speed: 29399 wps
+2017-05-31 13:01:09.261236: 0.518 perplexity: 4.387 speed: 29487 wps
+2017-05-31 13:01:10.491344: 0.617 perplexity: 4.389 speed: 29451 wps
+2017-05-31 13:01:11.692368: 0.716 perplexity: 4.367 speed: 29522 wps
+2017-05-31 13:01:12.904594: 0.815 perplexity: 4.368 speed: 29543 wps
+2017-05-31 13:01:14.115195: 0.914 perplexity: 4.372 speed: 29564 wps
+2017-05-31 13:01:15.140906: Epoch: 44 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:01:16.737955: Epoch: 44 Valid Perplexity: 5.556
+Seed: free
+Sample: n üzeri<eos>ever<eos>mi? Silasını
+2017-05-31 13:01:16.938896: Epoch: 45 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:01:17.277696: 0.022 perplexity: 4.808 speed: 27328 wps
+2017-05-31 13:01:18.485404: 0.121 perplexity: 4.544 speed: 29286 wps
+2017-05-31 13:01:19.686117: 0.220 perplexity: 4.473 speed: 29592 wps
+2017-05-31 13:01:20.888018: 0.319 perplexity: 4.405 speed: 29702 wps
+2017-05-31 13:01:22.097780: 0.419 perplexity: 4.399 speed: 29715 wps
+2017-05-31 13:01:23.299334: 0.518 perplexity: 4.387 speed: 29762 wps
+2017-05-31 13:01:24.517475: 0.617 perplexity: 4.389 speed: 29728 wps
+2017-05-31 13:01:25.727979: 0.716 perplexity: 4.367 speed: 29730 wps
+2017-05-31 13:01:26.944267: 0.815 perplexity: 4.368 speed: 29714 wps
+2017-05-31 13:01:28.159823: 0.914 perplexity: 4.372 speed: 29703 wps
+2017-05-31 13:01:29.181510: Epoch: 45 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:01:30.709214: Epoch: 45 Valid Perplexity: 5.556
+Seed: free
+Sample: r müre'tisizde bir soruyd
+2017-05-31 13:01:30.913272: Epoch: 46 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:01:31.253256: 0.022 perplexity: 4.808 speed: 27579 wps
+2017-05-31 13:01:32.474998: 0.121 perplexity: 4.544 speed: 29075 wps
+2017-05-31 13:01:33.694262: 0.220 perplexity: 4.473 speed: 29274 wps
+2017-05-31 13:01:34.911271: 0.319 perplexity: 4.405 speed: 29368 wps
+2017-05-31 13:01:36.127288: 0.419 perplexity: 4.399 speed: 29423 wps
+2017-05-31 13:01:37.330770: 0.518 perplexity: 4.387 speed: 29516 wps
+2017-05-31 13:01:38.538102: 0.617 perplexity: 4.389 speed: 29564 wps
+2017-05-31 13:01:39.755766: 0.716 perplexity: 4.367 speed: 29564 wps
+2017-05-31 13:01:40.968953: 0.815 perplexity: 4.368 speed: 29577 wps
+2017-05-31 13:01:42.171205: 0.914 perplexity: 4.372 speed: 29616 wps
+2017-05-31 13:01:43.198784: Epoch: 46 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:01:44.867978: Epoch: 46 Valid Perplexity: 5.556
+Seed: free
+Sample: rda öğretim<eos>süğerlendirme
+2017-05-31 13:01:45.069522: Epoch: 47 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:01:45.405274: 0.022 perplexity: 4.808 speed: 27396 wps
+2017-05-31 13:01:46.608032: 0.121 perplexity: 4.544 speed: 29397 wps
+2017-05-31 13:01:47.828377: 0.220 perplexity: 4.473 speed: 29443 wps
+2017-05-31 13:01:49.075765: 0.319 perplexity: 4.405 speed: 29261 wps
+2017-05-31 13:01:50.279287: 0.419 perplexity: 4.399 speed: 29411 wps
+2017-05-31 13:01:51.495298: 0.518 perplexity: 4.387 speed: 29448 wps
+2017-05-31 13:01:52.698337: 0.617 perplexity: 4.389 speed: 29523 wps
+2017-05-31 13:01:53.896565: 0.716 perplexity: 4.367 speed: 29594 wps
+2017-05-31 13:01:55.101018: 0.815 perplexity: 4.368 speed: 29630 wps
+2017-05-31 13:01:56.307668: 0.914 perplexity: 4.372 speed: 29652 wps
+2017-05-31 13:01:57.325990: Epoch: 47 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:01:58.943066: Epoch: 47 Valid Perplexity: 5.556
+Seed: free
+Sample: r değildir."<eos>"Bepkolu uyu
+2017-05-31 13:01:59.165777: Epoch: 48 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:01:59.501346: 0.022 perplexity: 4.808 speed: 27563 wps
+2017-05-31 13:02:00.723819: 0.121 perplexity: 4.544 speed: 29058 wps
+2017-05-31 13:02:01.929577: 0.220 perplexity: 4.473 speed: 29408 wps
+2017-05-31 13:02:03.129942: 0.319 perplexity: 4.405 speed: 29586 wps
+2017-05-31 13:02:04.337119: 0.419 perplexity: 4.399 speed: 29641 wps
+2017-05-31 13:02:05.549234: 0.518 perplexity: 4.387 speed: 29652 wps
+2017-05-31 13:02:06.771544: 0.617 perplexity: 4.389 speed: 29620 wps
+2017-05-31 13:02:07.987593: 0.716 perplexity: 4.367 speed: 29618 wps
+2017-05-31 13:02:09.185679: 0.815 perplexity: 4.368 speed: 29669 wps
+2017-05-31 13:02:10.393850: 0.914 perplexity: 4.372 speed: 29683 wps
+2017-05-31 13:02:11.412430: Epoch: 48 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:02:13.039015: Epoch: 48 Valid Perplexity: 5.556
+Seed: free
+Sample: ndı.<eos>"'Belrinmeleri olaca
+2017-05-31 13:02:13.374003: Epoch: 49 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:02:13.728680: 0.022 perplexity: 4.808 speed: 27503 wps
+2017-05-31 13:02:14.946106: 0.121 perplexity: 4.544 speed: 29141 wps
+2017-05-31 13:02:16.175595: 0.220 perplexity: 4.473 speed: 29203 wps
+2017-05-31 13:02:17.383038: 0.319 perplexity: 4.405 speed: 29389 wps
+2017-05-31 13:02:18.702484: 0.419 perplexity: 4.399 speed: 28864 wps
+2017-05-31 13:02:19.914793: 0.518 perplexity: 4.387 speed: 29019 wps
+2017-05-31 13:02:21.124266: 0.617 perplexity: 4.389 speed: 29136 wps
+2017-05-31 13:02:22.339773: 0.716 perplexity: 4.367 speed: 29201 wps
+2017-05-31 13:02:23.565323: 0.815 perplexity: 4.368 speed: 29222 wps
+2017-05-31 13:02:24.776849: 0.914 perplexity: 4.372 speed: 29275 wps
+2017-05-31 13:02:25.797858: Epoch: 49 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:02:27.365416: Epoch: 49 Valid Perplexity: 5.556
+Seed: free
+Sample: rser oğluklarla sadece bu
+2017-05-31 13:02:27.592026: Epoch: 50 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:02:27.944814: 0.022 perplexity: 4.808 speed: 26941 wps
+2017-05-31 13:02:29.172952: 0.121 perplexity: 4.544 speed: 28814 wps
+2017-05-31 13:02:30.381630: 0.220 perplexity: 4.473 speed: 29239 wps
+2017-05-31 13:02:31.594830: 0.319 perplexity: 4.405 speed: 29371 wps
+2017-05-31 13:02:32.805307: 0.419 perplexity: 4.399 speed: 29457 wps
+2017-05-31 13:02:34.016916: 0.518 perplexity: 4.387 speed: 29506 wps
+2017-05-31 13:02:35.219846: 0.617 perplexity: 4.389 speed: 29572 wps
+2017-05-31 13:02:36.439089: 0.716 perplexity: 4.367 speed: 29566 wps
+2017-05-31 13:02:37.670669: 0.815 perplexity: 4.368 speed: 29525 wps
+2017-05-31 13:02:38.943514: 0.914 perplexity: 4.372 speed: 29385 wps
+2017-05-31 13:02:39.994787: Epoch: 50 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:02:41.668080: Epoch: 50 Valid Perplexity: 5.556
+Seed: free
+Sample: r<eos>şerkekinde Cepabilir. V
+2017-05-31 13:02:41.884402: Epoch: 51 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:02:42.234576: 0.022 perplexity: 4.808 speed: 27643 wps
+2017-05-31 13:02:43.447811: 0.121 perplexity: 4.544 speed: 29251 wps
+2017-05-31 13:02:44.662209: 0.220 perplexity: 4.473 speed: 29425 wps
+2017-05-31 13:02:45.866842: 0.319 perplexity: 4.405 speed: 29565 wps
+2017-05-31 13:02:47.088148: 0.419 perplexity: 4.399 speed: 29544 wps
+2017-05-31 13:02:48.311024: 0.518 perplexity: 4.387 speed: 29524 wps
+2017-05-31 13:02:49.541289: 0.617 perplexity: 4.389 speed: 29482 wps
+2017-05-31 13:02:50.756062: 0.716 perplexity: 4.367 speed: 29503 wps
+2017-05-31 13:02:51.961104: 0.815 perplexity: 4.368 speed: 29547 wps
+2017-05-31 13:02:53.164096: 0.914 perplexity: 4.372 speed: 29588 wps
+2017-05-31 13:02:54.188152: Epoch: 51 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:02:55.847639: Epoch: 51 Valid Perplexity: 5.556
+Seed: free
+Sample: r, a keşfoki keşfetmenme-
+2017-05-31 13:02:56.061818: Epoch: 52 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:02:56.408761: 0.022 perplexity: 4.808 speed: 27227 wps
+2017-05-31 13:02:57.614084: 0.121 perplexity: 4.544 speed: 29309 wps
+2017-05-31 13:02:58.827526: 0.220 perplexity: 4.473 speed: 29468 wps
+2017-05-31 13:03:00.061761: 0.319 perplexity: 4.405 speed: 29375 wps
+2017-05-31 13:03:01.275650: 0.419 perplexity: 4.399 speed: 29441 wps
+2017-05-31 13:03:02.489196: 0.518 perplexity: 4.387 speed: 29483 wps
+2017-05-31 13:03:03.704899: 0.617 perplexity: 4.389 speed: 29504 wps
+2017-05-31 13:03:04.914031: 0.716 perplexity: 4.367 speed: 29541 wps
+2017-05-31 13:03:06.128417: 0.815 perplexity: 4.368 speed: 29553 wps
+2017-05-31 13:03:07.346400: 0.914 perplexity: 4.372 speed: 29554 wps
+2017-05-31 13:03:08.374545: Epoch: 52 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:03:09.982242: Epoch: 52 Valid Perplexity: 5.556
+Seed: free
+Sample: ru siye sorumlu bir almay
+2017-05-31 13:03:10.241632: Epoch: 53 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:03:10.589627: 0.022 perplexity: 4.808 speed: 26845 wps
+2017-05-31 13:03:11.803549: 0.121 perplexity: 4.544 speed: 29058 wps
+2017-05-31 13:03:13.025729: 0.220 perplexity: 4.473 speed: 29234 wps
+2017-05-31 13:03:14.234742: 0.319 perplexity: 4.405 speed: 29399 wps
+2017-05-31 13:03:15.441869: 0.419 perplexity: 4.399 speed: 29497 wps
+2017-05-31 13:03:16.654007: 0.518 perplexity: 4.387 speed: 29536 wps
+2017-05-31 13:03:17.861364: 0.617 perplexity: 4.389 speed: 29581 wps
+2017-05-31 13:03:19.075407: 0.716 perplexity: 4.367 speed: 29591 wps
+2017-05-31 13:03:20.282684: 0.815 perplexity: 4.368 speed: 29618 wps
+2017-05-31 13:03:21.508388: 0.914 perplexity: 4.372 speed: 29591 wps
+2017-05-31 13:03:22.529156: Epoch: 53 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:03:24.157193: Epoch: 53 Valid Perplexity: 5.556
+Seed: free
+Sample: reye sutkarı gakta evle i
+2017-05-31 13:03:24.377431: Epoch: 54 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:03:24.718533: 0.022 perplexity: 4.808 speed: 27123 wps
+2017-05-31 13:03:25.970230: 0.121 perplexity: 4.544 speed: 28424 wps
+2017-05-31 13:03:27.189586: 0.220 perplexity: 4.473 speed: 28904 wps
+2017-05-31 13:03:28.410559: 0.319 perplexity: 4.405 speed: 29080 wps
+2017-05-31 13:03:29.626865: 0.419 perplexity: 4.399 speed: 29201 wps
+2017-05-31 13:03:30.836755: 0.518 perplexity: 4.387 speed: 29305 wps
+2017-05-31 13:03:32.041415: 0.617 perplexity: 4.389 speed: 29396 wps
+2017-05-31 13:03:33.258943: 0.716 perplexity: 4.367 speed: 29420 wps
+2017-05-31 13:03:34.458234: 0.815 perplexity: 4.368 speed: 29491 wps
+2017-05-31 13:03:35.680083: 0.914 perplexity: 4.372 speed: 29488 wps
+2017-05-31 13:03:36.698870: Epoch: 54 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:03:38.318933: Epoch: 54 Valid Perplexity: 5.556
+Seed: free
+Sample: r münance<eos>kendi önemli an
+2017-05-31 13:03:38.524320: Epoch: 55 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:03:38.857895: 0.022 perplexity: 4.808 speed: 27485 wps
+2017-05-31 13:03:40.066594: 0.121 perplexity: 4.544 speed: 29302 wps
+2017-05-31 13:03:41.298894: 0.220 perplexity: 4.473 speed: 29263 wps
+2017-05-31 13:03:42.495067: 0.319 perplexity: 4.405 speed: 29515 wps
+2017-05-31 13:03:43.704795: 0.419 perplexity: 4.399 speed: 29572 wps
+2017-05-31 13:03:44.919969: 0.518 perplexity: 4.387 speed: 29582 wps
+2017-05-31 13:03:46.142033: 0.617 perplexity: 4.389 speed: 29562 wps
+2017-05-31 13:03:47.365976: 0.716 perplexity: 4.367 speed: 29541 wps
+2017-05-31 13:03:48.609055: 0.815 perplexity: 4.368 speed: 29470 wps
+2017-05-31 13:03:49.822823: 0.914 perplexity: 4.372 speed: 29490 wps
+2017-05-31 13:03:50.853626: Epoch: 55 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:03:52.472713: Epoch: 55 Valid Perplexity: 5.556
+Seed: free
+Sample: n zoluma<eos>çıkıldığını<eos>'dak
+2017-05-31 13:03:52.720997: Epoch: 56 Learning rate: 0.000
+valid data size: 363899
+2017-05-31 13:03:53.088068: 0.022 perplexity: 4.808 speed: 26731 wps
+2017-05-31 13:03:54.309603: 0.121 perplexity: 4.544 speed: 28889 wps
+2017-05-31 13:03:55.547740: 0.220 perplexity: 4.473 speed: 28972 wps
+2017-05-31 13:03:56.824207: 0.319 perplexity: 4.405 speed: 28730 wps
+2017-05-31 13:03:58.018436: 0.419 perplexity: 4.399 speed: 29052 wps
+2017-05-31 13:03:59.224696: 0.518 perplexity: 4.387 speed: 29200 wps
+2017-05-31 13:04:00.428416: 0.617 perplexity: 4.389 speed: 29311 wps
+2017-05-31 13:04:01.635211: 0.716 perplexity: 4.367 speed: 29381 wps
+2017-05-31 13:04:02.850489: 0.815 perplexity: 4.368 speed: 29410 wps
+2017-05-31 13:04:04.057709: 0.914 perplexity: 4.372 speed: 29454 wps
+2017-05-31 13:04:05.083685: Epoch: 56 Train Perplexity: 4.378
+valid data size: 121300
+2017-05-31 13:04:06.688749: Epoch: 56 Valid Perplexity: 5.556
+2017-05-31 13:04:06.811763: Seed: free
+2017-05-31 13:04:06.827127: Sample: r bu hismundum.<eos>"Aylında 
+valid data size: 66164
+2017-05-31 13:07:35.244843: Test Perplexity: 5.828
+2017-05-31 13:07:35.343623: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 13:13:38.722398: Running on UCSC:citrisdense...
+Distinct terms: 116
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 13:18:34.304858: Running on UCSC:citrisdense...
+Distinct terms: 116
+epoch 155
+Seed: free
+Sample: ■o@}Metorn9Rc/v@Â:.D%;Y:,
+2017-05-31 13:22:22.991768: Epoch: 1 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:22:29.723762: 0.028 perplexity: 64.819 speed: 1734 wps
+2017-05-31 13:22:39.598759: 0.127 perplexity: 39.962 speed: 2878 wps
+2017-05-31 13:22:49.483232: 0.225 perplexity: 58.186 speed: 3159 wps
+2017-05-31 13:22:59.406894: 0.324 perplexity: 49.691 speed: 3283 wps
+2017-05-31 13:23:09.365585: 0.423 perplexity: 48.301 speed: 3351 wps
+2017-05-31 13:23:18.937685: 0.521 perplexity: 39.426 speed: 3419 wps
+2017-05-31 13:23:28.789923: 0.620 perplexity: 33.986 speed: 3452 wps
+2017-05-31 13:23:38.332871: 0.718 perplexity: 30.309 speed: 3490 wps
+2017-05-31 13:23:48.154898: 0.817 perplexity: 27.694 speed: 3509 wps
+2017-05-31 13:23:58.049472: 0.915 perplexity: 25.800 speed: 3521 wps
+2017-05-31 13:24:06.134428: Epoch: 1 Train Perplexity: 24.543
+valid data size: 121300
+2017-05-31 13:24:18.398314: Epoch: 1 Valid Perplexity: 12.512
+Seed: free
+Sample: , A<eos>onke. Tifumısından ki
+2017-05-31 13:25:14.691611: Epoch: 2 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:25:17.974537: 0.028 perplexity: 14.807 speed: 3477 wps
+2017-05-31 13:25:27.631873: 0.127 perplexity: 13.380 speed: 3652 wps
+2017-05-31 13:25:37.662117: 0.225 perplexity: 13.216 speed: 3618 wps
+2017-05-31 13:25:47.290391: 0.324 perplexity: 13.186 speed: 3649 wps
+2017-05-31 13:25:56.565289: 0.423 perplexity: 12.976 speed: 3696 wps
+2017-05-31 13:26:06.482928: 0.521 perplexity: 12.837 speed: 3681 wps
+2017-05-31 13:26:16.405007: 0.620 perplexity: 12.706 speed: 3670 wps
+2017-05-31 13:26:26.176790: 0.718 perplexity: 12.589 speed: 3669 wps
+2017-05-31 13:26:35.675824: 0.817 perplexity: 12.460 speed: 3681 wps
+2017-05-31 13:26:45.173270: 0.915 perplexity: 12.391 speed: 3691 wps
+2017-05-31 13:26:53.257064: Epoch: 2 Train Perplexity: 12.351
+valid data size: 121300
+2017-05-31 13:27:04.515065: Epoch: 2 Valid Perplexity: 10.464
+Seed: free
+Sample: lismendendi zada aftaka u
+2017-05-31 13:27:58.684617: Epoch: 3 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:28:01.939446: 0.028 perplexity: 12.918 speed: 3478 wps
+2017-05-31 13:28:11.738516: 0.127 perplexity: 11.629 speed: 3613 wps
+2017-05-31 13:28:21.269711: 0.225 perplexity: 11.561 speed: 3675 wps
+2017-05-31 13:28:31.356612: 0.324 perplexity: 11.530 speed: 3637 wps
+2017-05-31 13:28:41.122958: 0.423 perplexity: 11.349 speed: 3645 wps
+2017-05-31 13:28:50.912347: 0.521 perplexity: 11.279 speed: 3648 wps
+2017-05-31 13:29:00.539286: 0.620 perplexity: 11.210 speed: 3660 wps
+2017-05-31 13:29:10.240668: 0.718 perplexity: 11.173 speed: 3664 wps
+2017-05-31 13:29:20.065015: 0.817 perplexity: 11.133 speed: 3662 wps
+2017-05-31 13:29:29.731035: 0.915 perplexity: 11.127 speed: 3667 wps
+2017-05-31 13:29:37.594168: Epoch: 3 Train Perplexity: 11.142
+valid data size: 121300
+2017-05-31 13:29:49.044579: Epoch: 3 Valid Perplexity: 9.869
+Seed: free
+Sample: k hanpı behi "honhalaka, 
+2017-05-31 13:30:40.218267: Epoch: 4 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:30:43.360242: 0.028 perplexity: 12.062 speed: 3604 wps
+2017-05-31 13:30:53.184378: 0.127 perplexity: 11.171 speed: 3638 wps
+2017-05-31 13:31:02.668741: 0.225 perplexity: 10.997 speed: 3697 wps
+2017-05-31 13:31:12.486132: 0.324 perplexity: 11.021 speed: 3683 wps
+2017-05-31 13:31:22.242921: 0.423 perplexity: 10.902 speed: 3681 wps
+2017-05-31 13:31:31.964892: 0.521 perplexity: 10.843 speed: 3682 wps
+2017-05-31 13:31:41.789817: 0.620 perplexity: 10.801 speed: 3676 wps
+2017-05-31 13:31:51.422919: 0.718 perplexity: 10.775 speed: 3682 wps
+2017-05-31 13:32:00.958730: 0.817 perplexity: 10.755 speed: 3691 wps
+2017-05-31 13:32:10.683887: 0.915 perplexity: 10.752 speed: 3691 wps
+2017-05-31 13:32:18.737509: Epoch: 4 Train Perplexity: 10.769
+valid data size: 121300
+2017-05-31 13:32:30.027469: Epoch: 4 Valid Perplexity: 9.595
+Seed: free
+Sample:  ökrülük eserlimin and ke
+2017-05-31 13:33:19.041731: Epoch: 5 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:33:21.985966: 0.028 perplexity: 11.805 speed: 3850 wps
+2017-05-31 13:33:31.769477: 0.127 perplexity: 10.824 speed: 3706 wps
+2017-05-31 13:33:41.440434: 0.225 perplexity: 10.692 speed: 3706 wps
+2017-05-31 13:33:51.175609: 0.324 perplexity: 10.737 speed: 3699 wps
+2017-05-31 13:34:00.981702: 0.423 perplexity: 10.607 speed: 3688 wps
+2017-05-31 13:34:10.783844: 0.521 perplexity: 10.583 speed: 3682 wps
+2017-05-31 13:34:20.522406: 0.620 perplexity: 10.539 speed: 3682 wps
+2017-05-31 13:34:30.305357: 0.718 perplexity: 10.506 speed: 3679 wps
+2017-05-31 13:34:40.120287: 0.817 perplexity: 10.518 speed: 3676 wps
+2017-05-31 13:34:49.846669: 0.915 perplexity: 10.525 speed: 3677 wps
+2017-05-31 13:34:57.994608: Epoch: 5 Train Perplexity: 10.540
+valid data size: 121300
+2017-05-31 13:35:09.342042: Epoch: 5 Valid Perplexity: 9.426
+Seed: free
+Sample: mlini be<eos>de utmayamıyda v
+2017-05-31 13:36:03.991163: Epoch: 6 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:36:07.002377: 0.028 perplexity: 11.710 speed: 3761 wps
+2017-05-31 13:36:16.734577: 0.127 perplexity: 10.897 speed: 3701 wps
+2017-05-31 13:36:26.481987: 0.225 perplexity: 10.750 speed: 3691 wps
+2017-05-31 13:36:36.347902: 0.324 perplexity: 10.771 speed: 3673 wps
+2017-05-31 13:36:46.130010: 0.423 perplexity: 10.650 speed: 3671 wps
+2017-05-31 13:36:55.820076: 0.521 perplexity: 10.605 speed: 3676 wps
+2017-05-31 13:37:05.495376: 0.620 perplexity: 10.601 speed: 3680 wps
+2017-05-31 13:37:15.356323: 0.718 perplexity: 10.572 speed: 3674 wps
+2017-05-31 13:37:25.028868: 0.817 perplexity: 10.558 speed: 3678 wps
+2017-05-31 13:37:34.716013: 0.915 perplexity: 10.568 speed: 3680 wps
+2017-05-31 13:37:42.699600: Epoch: 6 Train Perplexity: 10.588
+valid data size: 121300
+2017-05-31 13:37:53.966158: Epoch: 6 Valid Perplexity: 9.204
+Seed: free
+Sample: reyereminin vu düş re kın
+2017-05-31 13:38:42.788141: Epoch: 7 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:38:45.792028: 0.028 perplexity: 11.752 speed: 3770 wps
+2017-05-31 13:38:55.492084: 0.127 perplexity: 10.958 speed: 3713 wps
+2017-05-31 13:39:05.209078: 0.225 perplexity: 10.782 speed: 3702 wps
+2017-05-31 13:39:15.055727: 0.324 perplexity: 10.790 speed: 3683 wps
+2017-05-31 13:39:24.932976: 0.423 perplexity: 10.644 speed: 3670 wps
+2017-05-31 13:39:34.864368: 0.521 perplexity: 10.602 speed: 3659 wps
+2017-05-31 13:39:44.880889: 0.620 perplexity: 10.564 speed: 3646 wps
+2017-05-31 13:39:54.684712: 0.718 perplexity: 10.549 speed: 3647 wps
+2017-05-31 13:40:04.305737: 0.817 perplexity: 10.513 speed: 3656 wps
+2017-05-31 13:40:14.017342: 0.915 perplexity: 10.515 speed: 3660 wps
+2017-05-31 13:40:22.048031: Epoch: 7 Train Perplexity: 10.543
+valid data size: 121300
+2017-05-31 13:40:33.446133: Epoch: 7 Valid Perplexity: 9.275
+Seed: free
+Sample: rdinme<eos>yazıyni bonru, okl
+2017-05-31 13:40:34.018157: Epoch: 8 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:40:37.058617: 0.028 perplexity: 11.733 speed: 3730 wps
+2017-05-31 13:40:46.738247: 0.127 perplexity: 10.968 speed: 3709 wps
+2017-05-31 13:40:56.350917: 0.225 perplexity: 10.763 speed: 3717 wps
+2017-05-31 13:41:06.029527: 0.324 perplexity: 10.767 speed: 3713 wps
+2017-05-31 13:41:15.717371: 0.423 perplexity: 10.643 speed: 3710 wps
+2017-05-31 13:41:25.594172: 0.521 perplexity: 10.580 speed: 3694 wps
+2017-05-31 13:41:35.218658: 0.620 perplexity: 10.534 speed: 3699 wps
+2017-05-31 13:41:44.993656: 0.718 perplexity: 10.496 speed: 3695 wps
+2017-05-31 13:41:54.787132: 0.817 perplexity: 10.469 speed: 3690 wps
+2017-05-31 13:42:04.485985: 0.915 perplexity: 10.451 speed: 3691 wps
+2017-05-31 13:42:12.523611: Epoch: 8 Train Perplexity: 10.478
+valid data size: 121300
+2017-05-31 13:42:23.870904: Epoch: 8 Valid Perplexity: 9.203
+Seed: free
+Sample: n bütündeyen viy veğrecen
+2017-05-31 13:43:16.582183: Epoch: 9 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:43:19.681139: 0.028 perplexity: 12.167 speed: 3669 wps
+2017-05-31 13:43:29.560566: 0.127 perplexity: 11.152 speed: 3638 wps
+2017-05-31 13:43:39.433945: 0.225 perplexity: 10.861 speed: 3634 wps
+2017-05-31 13:43:49.235422: 0.324 perplexity: 10.824 speed: 3641 wps
+2017-05-31 13:43:58.976704: 0.423 perplexity: 10.726 speed: 3650 wps
+2017-05-31 13:44:08.709656: 0.521 perplexity: 10.755 speed: 3656 wps
+2017-05-31 13:44:18.417255: 0.620 perplexity: 10.696 speed: 3662 wps
+2017-05-31 13:44:28.355822: 0.718 perplexity: 10.661 speed: 3654 wps
+2017-05-31 13:44:37.984912: 0.817 perplexity: 10.618 speed: 3662 wps
+2017-05-31 13:44:47.797616: 0.915 perplexity: 10.601 speed: 3661 wps
+2017-05-31 13:44:55.812711: Epoch: 9 Train Perplexity: 10.623
+valid data size: 121300
+2017-05-31 13:45:06.995708: Epoch: 9 Valid Perplexity: 9.373
+Seed: free
+Sample: dlecini gıkıldak Simderil
+2017-05-31 13:45:07.363756: Epoch: 10 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:45:10.511095: 0.028 perplexity: 11.417 speed: 3595 wps
+2017-05-31 13:45:20.293198: 0.127 perplexity: 10.876 speed: 3647 wps
+2017-05-31 13:45:30.112522: 0.225 perplexity: 10.737 speed: 3648 wps
+2017-05-31 13:45:40.185345: 0.324 perplexity: 10.784 speed: 3621 wps
+2017-05-31 13:45:49.764317: 0.423 perplexity: 10.634 speed: 3648 wps
+2017-05-31 13:45:59.416100: 0.521 perplexity: 10.620 speed: 3660 wps
+2017-05-31 13:46:09.160122: 0.620 perplexity: 10.555 speed: 3663 wps
+2017-05-31 13:46:18.887656: 0.718 perplexity: 10.525 speed: 3666 wps
+2017-05-31 13:46:28.696021: 0.817 perplexity: 10.512 speed: 3664 wps
+2017-05-31 13:46:38.667259: 0.915 perplexity: 10.522 speed: 3657 wps
+2017-05-31 13:46:46.438043: Epoch: 10 Train Perplexity: 10.558
+valid data size: 121300
+2017-05-31 13:46:57.591855: Epoch: 10 Valid Perplexity: 9.212
+Seed: free
+Sample:  tez, nimanyısı ganlıyda<eos>
+2017-05-31 13:46:57.793782: Epoch: 11 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:47:00.913373: 0.028 perplexity: 11.535 speed: 3638 wps
+2017-05-31 13:47:10.750684: 0.127 perplexity: 10.865 speed: 3642 wps
+2017-05-31 13:47:20.387024: 0.225 perplexity: 10.800 speed: 3675 wps
+2017-05-31 13:47:30.152376: 0.324 perplexity: 10.839 speed: 3673 wps
+2017-05-31 13:47:39.938012: 0.423 perplexity: 10.747 speed: 3671 wps
+2017-05-31 13:47:49.855525: 0.521 perplexity: 10.687 speed: 3660 wps
+2017-05-31 13:47:59.687334: 0.620 perplexity: 10.664 speed: 3658 wps
+2017-05-31 13:48:09.607706: 0.718 perplexity: 10.641 speed: 3651 wps
+2017-05-31 13:48:19.322370: 0.817 perplexity: 10.616 speed: 3656 wps
+2017-05-31 13:48:29.073407: 0.915 perplexity: 10.611 speed: 3658 wps
+2017-05-31 13:48:37.176634: Epoch: 11 Train Perplexity: 10.616
+valid data size: 121300
+2017-05-31 13:48:48.622477: Epoch: 11 Valid Perplexity: 9.154
+Seed: free
+Sample: lfe<eos>kekiline asmanığlı. O
+2017-05-31 13:49:36.990432: Epoch: 12 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:49:40.181648: 0.028 perplexity: 11.928 speed: 3567 wps
+2017-05-31 13:49:49.932302: 0.127 perplexity: 11.655 speed: 3649 wps
+2017-05-31 13:49:59.691292: 0.225 perplexity: 11.399 speed: 3659 wps
+2017-05-31 13:50:09.388393: 0.324 perplexity: 11.206 speed: 3670 wps
+2017-05-31 13:50:19.141987: 0.423 perplexity: 11.036 speed: 3671 wps
+2017-05-31 13:50:28.856499: 0.521 perplexity: 11.002 speed: 3675 wps
+2017-05-31 13:50:38.681075: 0.620 perplexity: 10.895 speed: 3670 wps
+2017-05-31 13:50:48.452784: 0.718 perplexity: 10.846 speed: 3670 wps
+2017-05-31 13:50:58.037586: 0.817 perplexity: 10.802 speed: 3678 wps
+2017-05-31 13:51:07.919598: 0.915 perplexity: 10.793 speed: 3673 wps
+2017-05-31 13:51:15.791634: Epoch: 12 Train Perplexity: 10.821
+valid data size: 121300
+2017-05-31 13:51:27.192780: Epoch: 12 Valid Perplexity: 9.354
+Seed: free
+Sample: nse<eos>keldenler ıdaktarlard
+2017-05-31 13:51:27.746843: Epoch: 13 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:51:30.975272: 0.028 perplexity: 12.321 speed: 3508 wps
+2017-05-31 13:51:40.800264: 0.127 perplexity: 11.167 speed: 3613 wps
+2017-05-31 13:51:50.521133: 0.225 perplexity: 11.058 speed: 3645 wps
+2017-05-31 13:52:00.139595: 0.324 perplexity: 11.045 speed: 3669 wps
+2017-05-31 13:52:10.017119: 0.423 perplexity: 10.922 speed: 3660 wps
+2017-05-31 13:52:19.639988: 0.521 perplexity: 10.873 speed: 3672 wps
+2017-05-31 13:52:29.696247: 0.620 perplexity: 10.829 speed: 3654 wps
+2017-05-31 13:52:39.459813: 0.718 perplexity: 10.824 speed: 3656 wps
+2017-05-31 13:52:48.966575: 0.817 perplexity: 10.789 speed: 3670 wps
+2017-05-31 13:52:58.751074: 0.915 perplexity: 10.790 speed: 3669 wps
+2017-05-31 13:53:06.708824: Epoch: 13 Train Perplexity: 10.801
+valid data size: 121300
+2017-05-31 13:53:18.073539: Epoch: 13 Valid Perplexity: 9.178
+Seed: free
+Sample: y olsuğunu bastaşı aman s
+2017-05-31 13:53:18.264506: Epoch: 14 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:53:21.261020: 0.028 perplexity: 11.983 speed: 3778 wps
+2017-05-31 13:53:31.234525: 0.127 perplexity: 11.202 speed: 3636 wps
+2017-05-31 13:53:40.932385: 0.225 perplexity: 11.097 speed: 3662 wps
+2017-05-31 13:53:50.730297: 0.324 perplexity: 11.072 speed: 3660 wps
+2017-05-31 13:54:00.403030: 0.423 perplexity: 10.896 speed: 3671 wps
+2017-05-31 13:54:10.188315: 0.521 perplexity: 10.867 speed: 3669 wps
+2017-05-31 13:54:19.909450: 0.620 perplexity: 10.838 speed: 3672 wps
+2017-05-31 13:54:29.767711: 0.718 perplexity: 10.791 speed: 3667 wps
+2017-05-31 13:54:39.619507: 0.817 perplexity: 10.733 speed: 3663 wps
+2017-05-31 13:54:49.455565: 0.915 perplexity: 10.735 speed: 3661 wps
+2017-05-31 13:54:57.494749: Epoch: 14 Train Perplexity: 10.768
+valid data size: 121300
+2017-05-31 13:55:08.726672: Epoch: 14 Valid Perplexity: 9.303
+Seed: free
+Sample:  vu iki putda vakte bar y
+2017-05-31 13:55:08.884962: Epoch: 15 Learning rate: 0.050
+valid data size: 363899
+2017-05-31 13:55:11.955243: 0.028 perplexity: 11.659 speed: 3684 wps
+2017-05-31 13:55:21.765735: 0.127 perplexity: 11.160 speed: 3661 wps
+2017-05-31 13:55:31.565044: 0.225 perplexity: 10.960 speed: 3659 wps
+2017-05-31 13:55:41.152328: 0.324 perplexity: 10.903 speed: 3683 wps
+2017-05-31 13:55:50.772925: 0.423 perplexity: 10.752 speed: 3693 wps
+2017-05-31 13:56:00.726005: 0.521 perplexity: 10.732 speed: 3675 wps
+2017-05-31 13:56:10.573229: 0.620 perplexity: 10.867 speed: 3669 wps
+2017-05-31 13:56:20.280637: 0.718 perplexity: 10.854 speed: 3672 wps
+2017-05-31 13:56:30.048681: 0.817 perplexity: 10.806 speed: 3672 wps
+2017-05-31 13:56:39.878029: 0.915 perplexity: 10.788 speed: 3669 wps
+2017-05-31 13:56:48.067100: Epoch: 15 Train Perplexity: 10.797
+valid data size: 121300
+2017-05-31 13:56:59.414323: Epoch: 15 Valid Perplexity: 9.199
+Seed: free
+Sample: reyin Be durur volra<eos>olak
+2017-05-31 13:56:59.599790: Epoch: 16 Learning rate: 0.043
+valid data size: 363899
+2017-05-31 13:57:02.739792: 0.028 perplexity: 11.549 speed: 3615 wps
+2017-05-31 13:57:12.473750: 0.127 perplexity: 10.965 speed: 3666 wps
+2017-05-31 13:57:22.308950: 0.225 perplexity: 10.712 speed: 3656 wps
+2017-05-31 13:57:32.229638: 0.324 perplexity: 10.725 speed: 3643 wps
+2017-05-31 13:57:41.897411: 0.423 perplexity: 10.579 speed: 3658 wps
+2017-05-31 13:57:51.453991: 0.521 perplexity: 10.536 speed: 3675 wps
+2017-05-31 13:58:01.363990: 0.620 perplexity: 10.517 speed: 3665 wps
+2017-05-31 13:58:11.223733: 0.718 perplexity: 10.484 speed: 3661 wps
+2017-05-31 13:58:21.232368: 0.817 perplexity: 10.472 speed: 3651 wps
+2017-05-31 13:58:30.867244: 0.915 perplexity: 10.473 speed: 3659 wps
+2017-05-31 13:58:39.105874: Epoch: 16 Train Perplexity: 10.535
+valid data size: 121300
+2017-05-31 13:58:50.774248: Epoch: 16 Valid Perplexity: 9.213
+Seed: free
+Sample: rced "Sapek züğlüşümordu.
+2017-05-31 13:58:50.953228: Epoch: 17 Learning rate: 0.038
+valid data size: 363899
+2017-05-31 13:58:54.204615: 0.028 perplexity: 11.602 speed: 3497 wps
+2017-05-31 13:59:04.037458: 0.127 perplexity: 10.942 speed: 3608 wps
+2017-05-31 13:59:13.662943: 0.225 perplexity: 10.664 speed: 3657 wps
+2017-05-31 13:59:23.526854: 0.324 perplexity: 10.690 speed: 3650 wps
+2017-05-31 13:59:33.332807: 0.423 perplexity: 10.570 speed: 3651 wps
+2017-05-31 13:59:43.076806: 0.521 perplexity: 10.542 speed: 3656 wps
+2017-05-31 13:59:52.821951: 0.620 perplexity: 10.475 speed: 3660 wps
+2017-05-31 14:00:02.669340: 0.718 perplexity: 10.426 speed: 3657 wps
+2017-05-31 14:00:12.591596: 0.817 perplexity: 10.368 speed: 3651 wps
+2017-05-31 14:00:22.412857: 0.915 perplexity: 10.348 speed: 3651 wps
+2017-05-31 14:00:30.423449: Epoch: 17 Train Perplexity: 10.357
+valid data size: 121300
+2017-05-31 14:00:41.653368: Epoch: 17 Valid Perplexity: 9.165
+Seed: free
+Sample: lin viylirorluğ iyincerim
+2017-05-31 14:00:41.832706: Epoch: 18 Learning rate: 0.033
+valid data size: 363899
+2017-05-31 14:00:44.885287: 0.028 perplexity: 11.987 speed: 3710 wps
+2017-05-31 14:00:54.673957: 0.127 perplexity: 11.001 speed: 3673 wps
+2017-05-31 14:01:04.401685: 0.225 perplexity: 10.664 speed: 3678 wps
+2017-05-31 14:01:14.199524: 0.324 perplexity: 10.654 speed: 3672 wps
+2017-05-31 14:01:23.907649: 0.423 perplexity: 10.495 speed: 3676 wps
+2017-05-31 14:01:33.828017: 0.521 perplexity: 10.456 speed: 3664 wps
+2017-05-31 14:01:43.551913: 0.620 perplexity: 10.385 speed: 3668 wps
+2017-05-31 14:01:53.496080: 0.718 perplexity: 10.346 speed: 3659 wps
+2017-05-31 14:02:03.205311: 0.817 perplexity: 10.290 speed: 3663 wps
+2017-05-31 14:02:12.766864: 0.915 perplexity: 10.270 speed: 3672 wps
+2017-05-31 14:02:20.963061: Epoch: 18 Train Perplexity: 10.283
+valid data size: 121300
+2017-05-31 14:02:32.428077: Epoch: 18 Valid Perplexity: 8.968
+Seed: free
+Sample: ksill, şonluylabıyın<eos>daca
+2017-05-31 14:03:19.763478: Epoch: 19 Learning rate: 0.029
+valid data size: 363899
+2017-05-31 14:03:22.843687: 0.028 perplexity: 11.245 speed: 3679 wps
+2017-05-31 14:03:32.651736: 0.127 perplexity: 10.607 speed: 3660 wps
+2017-05-31 14:03:42.193815: 0.225 perplexity: 10.456 speed: 3701 wps
+2017-05-31 14:03:51.910036: 0.324 perplexity: 10.428 speed: 3697 wps
+2017-05-31 14:04:01.636240: 0.423 perplexity: 10.309 speed: 3694 wps
+2017-05-31 14:04:11.350586: 0.521 perplexity: 10.243 speed: 3693 wps
+2017-05-31 14:04:21.058898: 0.620 perplexity: 10.177 speed: 3693 wps
+2017-05-31 14:04:30.744510: 0.718 perplexity: 10.128 speed: 3694 wps
+2017-05-31 14:04:40.594288: 0.817 perplexity: 10.084 speed: 3687 wps
+2017-05-31 14:04:50.392489: 0.915 perplexity: 10.086 speed: 3684 wps
+2017-05-31 14:04:58.548340: Epoch: 19 Train Perplexity: 10.115
+valid data size: 121300
+2017-05-31 14:05:09.608604: Epoch: 19 Valid Perplexity: 8.982
+Seed: free
+Sample:  kirimi onaraktıs vaşan a
+2017-05-31 14:05:10.000563: Epoch: 20 Learning rate: 0.025
+valid data size: 363899
+2017-05-31 14:05:12.976973: 0.028 perplexity: 11.256 speed: 3806 wps
+2017-05-31 14:05:22.691340: 0.127 perplexity: 10.610 speed: 3717 wps
+2017-05-31 14:05:32.448357: 0.225 perplexity: 10.479 speed: 3698 wps
+2017-05-31 14:05:42.259198: 0.324 perplexity: 10.419 speed: 3684 wps
+2017-05-31 14:05:51.922182: 0.423 perplexity: 10.295 speed: 3690 wps
+2017-05-31 14:06:01.707192: 0.521 perplexity: 10.251 speed: 3685 wps
+2017-05-31 14:06:11.590266: 0.620 perplexity: 10.191 speed: 3675 wps
+2017-05-31 14:06:21.391506: 0.718 perplexity: 10.153 speed: 3673 wps
+2017-05-31 14:06:31.300360: 0.817 perplexity: 10.096 speed: 3666 wps
+2017-05-31 14:06:40.949849: 0.915 perplexity: 10.072 speed: 3671 wps
+2017-05-31 14:06:48.981214: Epoch: 20 Train Perplexity: 10.092
+valid data size: 121300
+2017-05-31 14:07:00.129142: Epoch: 20 Valid Perplexity: 8.921
+Seed: free
+Sample: ş<eos>benenekle an girlullunü
+2017-05-31 14:07:47.469697: Epoch: 21 Learning rate: 0.022
+valid data size: 363899
+2017-05-31 14:07:50.574988: 0.028 perplexity: 11.169 speed: 3648 wps
+2017-05-31 14:08:00.570340: 0.127 perplexity: 10.288 speed: 3600 wps
+2017-05-31 14:08:10.218728: 0.225 perplexity: 10.042 speed: 3649 wps
+2017-05-31 14:08:19.703241: 0.324 perplexity: 10.078 speed: 3687 wps
+2017-05-31 14:08:29.432911: 0.423 perplexity: 9.954 speed: 3686 wps
+2017-05-31 14:08:39.120065: 0.521 perplexity: 9.924 speed: 3689 wps
+2017-05-31 14:08:48.950324: 0.620 perplexity: 9.895 speed: 3682 wps
+2017-05-31 14:08:58.664471: 0.718 perplexity: 9.899 speed: 3683 wps
+2017-05-31 14:09:08.471039: 0.817 perplexity: 9.864 speed: 3680 wps
+2017-05-31 14:09:18.356263: 0.915 perplexity: 9.846 speed: 3674 wps
+2017-05-31 14:09:26.701588: Epoch: 21 Train Perplexity: 9.864
+valid data size: 121300
+2017-05-31 14:09:38.042289: Epoch: 21 Valid Perplexity: 8.829
+Seed: free
+Sample: r,"<eos>dimeriyes girlerir. Ş
+2017-05-31 14:10:30.760137: Epoch: 22 Learning rate: 0.019
+valid data size: 363899
+2017-05-31 14:10:33.859901: 0.028 perplexity: 10.591 speed: 3657 wps
+2017-05-31 14:10:43.665515: 0.127 perplexity: 10.018 speed: 3656 wps
+2017-05-31 14:10:53.519008: 0.225 perplexity: 9.991 speed: 3648 wps
+2017-05-31 14:11:03.373755: 0.324 perplexity: 10.055 speed: 3644 wps
+2017-05-31 14:11:13.049848: 0.423 perplexity: 9.933 speed: 3658 wps
+2017-05-31 14:11:22.849335: 0.521 perplexity: 9.894 speed: 3658 wps
+2017-05-31 14:11:32.736831: 0.620 perplexity: 9.806 speed: 3653 wps
+2017-05-31 14:11:42.433812: 0.718 perplexity: 9.799 speed: 3658 wps
+2017-05-31 14:11:52.138169: 0.817 perplexity: 9.765 speed: 3663 wps
+2017-05-31 14:12:02.096809: 0.915 perplexity: 9.761 speed: 3656 wps
+2017-05-31 14:12:10.185368: Epoch: 22 Train Perplexity: 9.783
+valid data size: 121300
+2017-05-31 14:12:21.284361: Epoch: 22 Valid Perplexity: 8.823
+Seed: free
+Sample:  ikinci onarak olmuş bese
+2017-05-31 14:13:08.433591: Epoch: 23 Learning rate: 0.016
+valid data size: 363899
+2017-05-31 14:13:11.408855: 0.028 perplexity: 10.750 speed: 3805 wps
+2017-05-31 14:13:21.254206: 0.127 perplexity: 10.326 speed: 3678 wps
+2017-05-31 14:13:31.071085: 0.225 perplexity: 10.110 speed: 3666 wps
+2017-05-31 14:13:40.633401: 0.324 perplexity: 10.064 speed: 3691 wps
+2017-05-31 14:13:50.423989: 0.423 perplexity: 9.884 speed: 3684 wps
+2017-05-31 14:14:00.256336: 0.521 perplexity: 9.849 speed: 3676 wps
+2017-05-31 14:14:10.094232: 0.620 perplexity: 9.836 speed: 3671 wps
+2017-05-31 14:14:19.775799: 0.718 perplexity: 9.787 speed: 3675 wps
+2017-05-31 14:14:29.663111: 0.817 perplexity: 9.740 speed: 3669 wps
+2017-05-31 14:14:39.491932: 0.915 perplexity: 9.757 speed: 3667 wps
+2017-05-31 14:14:47.472602: Epoch: 23 Train Perplexity: 9.765
+valid data size: 121300
+2017-05-31 14:14:58.903066: Epoch: 23 Valid Perplexity: 8.776
+Seed: free
+Sample:  geb, korusu bot alanına 
+2017-05-31 14:15:46.349511: Epoch: 24 Learning rate: 0.014
+valid data size: 363899
+2017-05-31 14:15:49.448541: 0.028 perplexity: 10.477 speed: 3651 wps
+2017-05-31 14:15:59.329474: 0.127 perplexity: 10.162 speed: 3633 wps
+2017-05-31 14:16:09.249144: 0.225 perplexity: 10.149 speed: 3624 wps
+2017-05-31 14:16:19.005278: 0.324 perplexity: 10.103 speed: 3639 wps
+2017-05-31 14:16:28.703555: 0.423 perplexity: 9.894 speed: 3652 wps
+2017-05-31 14:16:38.252561: 0.521 perplexity: 9.839 speed: 3671 wps
+2017-05-31 14:16:48.098201: 0.620 perplexity: 9.784 speed: 3666 wps
+2017-05-31 14:16:57.873545: 0.718 perplexity: 9.756 speed: 3666 wps
+2017-05-31 14:17:07.507543: 0.817 perplexity: 9.745 speed: 3672 wps
+2017-05-31 14:17:17.414918: 0.915 perplexity: 9.723 speed: 3666 wps
+2017-05-31 14:17:25.490419: Epoch: 24 Train Perplexity: 9.736
+valid data size: 121300
+2017-05-31 14:17:36.878325: Epoch: 24 Valid Perplexity: 8.780
+Seed: free
+Sample: ndiri<eos>ABram. Alid<eos>de kesr
+2017-05-31 14:17:37.257689: Epoch: 25 Learning rate: 0.012
+valid data size: 363899
+2017-05-31 14:17:40.238542: 0.028 perplexity: 11.042 speed: 3818 wps
+2017-05-31 14:17:50.034667: 0.127 perplexity: 10.313 speed: 3695 wps
+2017-05-31 14:17:59.790934: 0.225 perplexity: 10.028 speed: 3686 wps
+2017-05-31 14:18:09.510128: 0.324 perplexity: 10.164 speed: 3686 wps
+2017-05-31 14:18:19.212599: 0.423 perplexity: 9.954 speed: 3688 wps
+2017-05-31 14:18:29.029369: 0.521 perplexity: 9.908 speed: 3681 wps
+2017-05-31 14:18:38.861030: 0.620 perplexity: 9.823 speed: 3675 wps
+2017-05-31 14:18:48.662268: 0.718 perplexity: 9.874 speed: 3673 wps
+2017-05-31 14:18:58.588232: 0.817 perplexity: 9.866 speed: 3665 wps
+2017-05-31 14:19:08.346517: 0.915 perplexity: 9.860 speed: 3666 wps
+2017-05-31 14:19:16.378328: Epoch: 25 Train Perplexity: 9.866
+valid data size: 121300
+2017-05-31 14:19:27.268819: Epoch: 25 Valid Perplexity: 8.737
+Seed: free
+Sample: tcemdi olsağın. GERÇEK ÖZ
+2017-05-31 14:20:16.552530: Epoch: 26 Learning rate: 0.011
+valid data size: 363899
+2017-05-31 14:20:19.718704: 0.028 perplexity: 10.731 speed: 3579 wps
+2017-05-31 14:20:29.608337: 0.127 perplexity: 10.073 speed: 3613 wps
+2017-05-31 14:20:39.430878: 0.225 perplexity: 9.846 speed: 3628 wps
+2017-05-31 14:20:49.268162: 0.324 perplexity: 9.809 speed: 3633 wps
+2017-05-31 14:20:59.002162: 0.423 perplexity: 9.670 speed: 3644 wps
+2017-05-31 14:21:08.736305: 0.521 perplexity: 9.694 speed: 3651 wps
+2017-05-31 14:21:18.484479: 0.620 perplexity: 9.675 speed: 3655 wps
+2017-05-31 14:21:28.252014: 0.718 perplexity: 9.633 speed: 3657 wps
+2017-05-31 14:21:38.046419: 0.817 perplexity: 9.587 speed: 3657 wps
+2017-05-31 14:21:47.745487: 0.915 perplexity: 9.557 speed: 3661 wps
+2017-05-31 14:21:55.798488: Epoch: 26 Train Perplexity: 9.576
+valid data size: 121300
+2017-05-31 14:22:06.681965: Epoch: 26 Valid Perplexity: 8.745
+Seed: free
+Sample:  lulgupan<eos>uygurla sir sar
+2017-05-31 14:22:07.035846: Epoch: 27 Learning rate: 0.009
+valid data size: 363899
+2017-05-31 14:22:10.129909: 0.028 perplexity: 10.390 speed: 3658 wps
+2017-05-31 14:22:19.875231: 0.127 perplexity: 10.016 speed: 3673 wps
+2017-05-31 14:22:29.724368: 0.225 perplexity: 9.877 speed: 3658 wps
+2017-05-31 14:22:39.502358: 0.324 perplexity: 9.991 speed: 3660 wps
+2017-05-31 14:22:49.094237: 0.423 perplexity: 9.900 speed: 3678 wps
+2017-05-31 14:22:58.560827: 0.521 perplexity: 9.862 speed: 3698 wps
+2017-05-31 14:23:07.899036: 0.620 perplexity: 9.790 speed: 3719 wps
+2017-05-31 14:23:17.334384: 0.718 perplexity: 9.755 speed: 3730 wps
+2017-05-31 14:23:26.872256: 0.817 perplexity: 9.695 speed: 3733 wps
+2017-05-31 14:23:36.644876: 0.915 perplexity: 9.683 speed: 3726 wps
+2017-05-31 14:23:44.742742: Epoch: 27 Train Perplexity: 9.682
+valid data size: 121300
+2017-05-31 14:23:56.137551: Epoch: 27 Valid Perplexity: 8.735
+Seed: free
+Sample: tmiğ vok öltelce Yeneneye
+2017-05-31 14:24:43.039224: Epoch: 28 Learning rate: 0.008
+valid data size: 363899
+2017-05-31 14:24:46.212853: 0.028 perplexity: 10.411 speed: 3587 wps
+2017-05-31 14:24:55.896781: 0.127 perplexity: 9.949 speed: 3673 wps
+2017-05-31 14:25:05.649025: 0.225 perplexity: 9.744 speed: 3674 wps
+2017-05-31 14:25:15.424726: 0.324 perplexity: 9.698 speed: 3672 wps
+2017-05-31 14:25:25.158397: 0.423 perplexity: 9.614 speed: 3674 wps
+2017-05-31 14:25:34.925374: 0.521 perplexity: 9.563 speed: 3673 wps
+2017-05-31 14:25:44.613558: 0.620 perplexity: 9.516 speed: 3677 wps
+2017-05-31 14:25:54.208894: 0.718 perplexity: 9.509 speed: 3685 wps
+2017-05-31 14:26:03.934038: 0.817 perplexity: 9.465 speed: 3685 wps
+2017-05-31 14:26:13.825442: 0.915 perplexity: 9.464 speed: 3678 wps
+2017-05-31 14:26:21.798117: Epoch: 28 Train Perplexity: 9.499
+valid data size: 121300
+2017-05-31 14:26:33.103075: Epoch: 28 Valid Perplexity: 8.724
+Seed: free
+Sample: liden hu kililinin şürim!
+2017-05-31 14:27:25.291690: Epoch: 29 Learning rate: 0.007
+valid data size: 363899
+2017-05-31 14:27:28.378370: 0.028 perplexity: 10.487 speed: 3670 wps
+2017-05-31 14:27:38.247549: 0.127 perplexity: 10.272 speed: 3641 wps
+2017-05-31 14:27:48.071528: 0.225 perplexity: 10.041 speed: 3644 wps
+2017-05-31 14:27:57.709746: 0.324 perplexity: 10.195 speed: 3666 wps
+2017-05-31 14:28:07.323207: 0.423 perplexity: 9.927 speed: 3680 wps
+2017-05-31 14:28:17.203796: 0.521 perplexity: 9.854 speed: 3670 wps
+2017-05-31 14:28:26.720852: 0.620 perplexity: 9.831 speed: 3685 wps
+2017-05-31 14:28:36.474332: 0.718 perplexity: 9.807 speed: 3684 wps
+2017-05-31 14:28:46.224740: 0.817 perplexity: 9.777 speed: 3683 wps
+2017-05-31 14:28:55.994311: 0.915 perplexity: 9.744 speed: 3681 wps
+2017-05-31 14:29:04.105471: Epoch: 29 Train Perplexity: 9.722
+valid data size: 121300
+2017-05-31 14:29:15.437864: Epoch: 29 Valid Perplexity: 8.707
+Seed: free
+Sample: smi evetise bam? Ames gak
+2017-05-31 14:30:03.178416: Epoch: 30 Learning rate: 0.006
+valid data size: 363899
+2017-05-31 14:30:06.322116: 0.028 perplexity: 10.484 speed: 3618 wps
+2017-05-31 14:30:15.867034: 0.127 perplexity: 9.751 speed: 3721 wps
+2017-05-31 14:30:25.459288: 0.225 perplexity: 9.552 speed: 3728 wps
+2017-05-31 14:30:35.134108: 0.324 perplexity: 9.569 speed: 3721 wps
+2017-05-31 14:30:44.905739: 0.423 perplexity: 9.498 speed: 3708 wps
+2017-05-31 14:30:54.511843: 0.521 perplexity: 9.562 speed: 3713 wps
+2017-05-31 14:31:04.003706: 0.620 perplexity: 9.531 speed: 3722 wps
+2017-05-31 14:31:14.022986: 0.718 perplexity: 9.476 speed: 3702 wps
+2017-05-31 14:31:23.721843: 0.817 perplexity: 9.482 speed: 3701 wps
+2017-05-31 14:31:33.496199: 0.915 perplexity: 9.562 speed: 3697 wps
+2017-05-31 14:31:41.489119: Epoch: 30 Train Perplexity: 9.570
+valid data size: 121300
+2017-05-31 14:31:52.705836: Epoch: 30 Valid Perplexity: 8.700
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 14:36:48.723980: Running on UCSC:citrisdense...
+Distinct terms: 83
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 14:39:28.323241: Running on UCSC:citrisdense...
+Distinct terms: 83
+epoch 56
+Seed: reality
+Sample: <eos>e58a':hj@D,XOf*%zvf!j -[,3S42oOZ?lq6:P'
+2017-05-31 14:39:56.252250: Epoch: 1 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 14:39:57.205985: 0.026 perplexity: 64.986 speed: 23855 wps
+2017-05-31 14:39:59.255075: 0.126 perplexity: 36.015 speed: 32982 wps
+2017-05-31 14:40:01.327884: 0.226 perplexity: 31.095 speed: 34496 wps
+2017-05-31 14:40:03.411199: 0.326 perplexity: 30.371 speed: 35076 wps
+2017-05-31 14:40:05.504768: 0.426 perplexity: 28.442 speed: 35354 wps
+2017-05-31 14:40:07.614876: 0.526 perplexity: 27.283 speed: 35477 wps
+2017-05-31 14:40:09.717682: 0.626 perplexity: 26.670 speed: 35581 wps
+2017-05-31 14:40:11.792531: 0.726 perplexity: 26.168 speed: 35722 wps
+2017-05-31 14:40:13.898263: 0.826 perplexity: 25.786 speed: 35766 wps
+2017-05-31 14:40:15.991655: 0.926 perplexity: 25.451 speed: 35823 wps
+2017-05-31 14:40:17.490391: Epoch: 1 Train Perplexity: 25.263
+valid data size: 253977
+2017-05-31 14:40:19.887315: Epoch: 1 Valid Perplexity: 22.961
+Seed: reality
+Sample: Rrmgne sm.e n tse ntaeohs"nr haaosemt in
+2017-05-31 14:40:26.140764: Epoch: 2 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 14:40:26.815608: 0.026 perplexity: 28.340 speed: 33304 wps
+2017-05-31 14:40:28.925332: 0.126 perplexity: 24.148 speed: 35375 wps
+2017-05-31 14:40:31.002424: 0.226 perplexity: 23.635 speed: 35895 wps
+2017-05-31 14:40:33.046165: 0.326 perplexity: 23.383 speed: 36278 wps
+2017-05-31 14:40:35.095451: 0.426 perplexity: 23.282 speed: 36464 wps
+2017-05-31 14:40:37.122775: 0.526 perplexity: 23.192 speed: 36653 wps
+2017-05-31 14:40:39.152968: 0.626 perplexity: 23.161 speed: 36775 wps
+2017-05-31 14:40:41.146417: 0.726 perplexity: 23.114 speed: 36955 wps
+2017-05-31 14:40:43.132993: 0.826 perplexity: 23.078 speed: 37107 wps
+2017-05-31 14:40:45.119998: 0.926 perplexity: 23.039 speed: 37227 wps
+2017-05-31 14:40:46.565973: Epoch: 2 Train Perplexity: 23.032
+valid data size: 253977
+2017-05-31 14:40:48.747253: Epoch: 2 Valid Perplexity: 2731.724
+2017-05-31 14:40:49.000580: Seed: reality
+2017-05-31 14:40:49.016244: Sample: mmki, apItea  unnae cwHjth  eat,yirotthy
+valid data size: 138533
+2017-05-31 14:46:54.888958: Test Perplexity: 23.491
+2017-05-31 14:46:55.013734: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 14:51:34.671510: Running on UCSC:citrisdense...
+Distinct terms: 83
+epoch 56
+Seed: reality
+Sample: rwyet mnmrodhWlislcyaetwhhrTy ik   slstm
+2017-05-31 14:52:02.930727: Epoch: 1 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 14:52:03.727523: 0.003 perplexity: 27.784 speed: 2876 wps
+2017-05-31 14:52:18.945916: 0.102 perplexity: 23.757 speed: 4893 wps
+2017-05-31 14:52:34.056902: 0.202 perplexity: 23.276 speed: 4959 wps
+2017-05-31 14:52:49.215786: 0.302 perplexity: 23.092 speed: 4977 wps
+2017-05-31 14:53:04.330191: 0.402 perplexity: 23.033 speed: 4990 wps
+2017-05-31 14:53:19.179013: 0.501 perplexity: 23.053 speed: 5015 wps
+2017-05-31 14:53:33.644375: 0.601 perplexity: 23.046 speed: 5053 wps
+2017-05-31 14:53:48.256769: 0.701 perplexity: 23.025 speed: 5073 wps
+2017-05-31 14:54:02.984512: 0.801 perplexity: 23.057 speed: 5084 wps
+2017-05-31 14:54:17.997928: 0.900 perplexity: 23.039 speed: 5082 wps
+2017-05-31 14:54:32.619877: Epoch: 1 Train Perplexity: 23.045
+valid data size: 253977
+2017-05-31 14:54:48.343027: Epoch: 1 Valid Perplexity: 23.155
+Seed: reality
+Sample: olcdloh  vo e, n eit'veen nfhooypad enol
+2017-05-31 14:54:55.588978: Epoch: 2 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 14:54:56.145074: 0.003 perplexity: 22.956 speed: 4084 wps
+2017-05-31 14:55:10.958838: 0.102 perplexity: 23.516 speed: 5094 wps
+2017-05-31 14:55:25.811394: 0.202 perplexity: 23.165 speed: 5105 wps
+2017-05-31 14:55:40.433494: 0.302 perplexity: 23.013 speed: 5135 wps
+2017-05-31 14:55:55.063759: 0.402 perplexity: 22.972 speed: 5150 wps
+2017-05-31 14:56:09.517976: 0.501 perplexity: 23.003 speed: 5171 wps
+2017-05-31 14:56:24.008992: 0.601 perplexity: 23.004 speed: 5183 wps
+2017-05-31 14:56:38.475155: 0.701 perplexity: 22.989 speed: 5193 wps
+2017-05-31 14:56:52.778266: 0.801 perplexity: 23.025 speed: 5208 wps
+2017-05-31 14:57:07.489143: 0.900 perplexity: 23.010 speed: 5203 wps
+2017-05-31 14:57:22.279977: Epoch: 2 Train Perplexity: 23.020
+valid data size: 253977
+2017-05-31 14:57:37.808423: Epoch: 2 Valid Perplexity: 23.155
+Seed: reality
+Sample: e!e hno  nao hme.ehonia i"nomnmhsw "diey
+2017-05-31 14:57:44.276281: Epoch: 3 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 14:57:44.784877: 0.003 perplexity: 22.956 speed: 4578 wps
+2017-05-31 14:57:59.605289: 0.102 perplexity: 23.516 speed: 5111 wps
+2017-05-31 14:58:15.441382: 0.202 perplexity: 23.162 speed: 4952 wps
+2017-05-31 14:58:30.304524: 0.302 perplexity: 23.011 speed: 5004 wps
+2017-05-31 14:58:44.380610: 0.402 perplexity: 22.970 speed: 5097 wps
+2017-05-31 14:58:58.837919: 0.501 perplexity: 23.002 speed: 5128 wps
+2017-05-31 14:59:13.466668: 0.601 perplexity: 23.004 speed: 5139 wps
+2017-05-31 14:59:28.000443: 0.701 perplexity: 22.989 speed: 5152 wps
+2017-05-31 14:59:42.796703: 0.801 perplexity: 23.025 speed: 5150 wps
+2017-05-31 14:59:57.730863: 0.900 perplexity: 23.010 speed: 5143 wps
+2017-05-31 15:00:12.250990: Epoch: 3 Train Perplexity: 23.020
+valid data size: 253977
+2017-05-31 15:00:27.392727: Epoch: 3 Valid Perplexity: 23.155
+Seed: reality
+Sample: dga aury  inewneyteetid  .mtanr t'  mai'
+2017-05-31 15:00:34.031433: Epoch: 4 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:00:34.500907: 0.003 perplexity: 22.956 speed: 4862 wps
+2017-05-31 15:00:49.481847: 0.102 perplexity: 23.516 speed: 5067 wps
+2017-05-31 15:01:03.971513: 0.202 perplexity: 23.157 speed: 5153 wps
+2017-05-31 15:01:18.856289: 0.302 perplexity: 23.007 speed: 5137 wps
+2017-05-31 15:01:33.595448: 0.402 perplexity: 22.967 speed: 5142 wps
+2017-05-31 15:01:48.341998: 0.501 perplexity: 22.999 speed: 5144 wps
+2017-05-31 15:02:03.186235: 0.601 perplexity: 23.001 speed: 5140 wps
+2017-05-31 15:02:17.966794: 0.701 perplexity: 22.986 speed: 5141 wps
+2017-05-31 15:02:32.512881: 0.801 perplexity: 23.023 speed: 5151 wps
+2017-05-31 15:02:47.082605: 0.900 perplexity: 23.008 speed: 5158 wps
+2017-05-31 15:03:01.664916: Epoch: 4 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:03:16.576392: Epoch: 4 Valid Perplexity: 23.155
+Seed: reality
+Sample:  mwht dkle   nn ee wagtrc     oi uo  tms
+2017-05-31 15:03:16.972707: Epoch: 5 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:03:17.498147: 0.003 perplexity: 22.956 speed: 4325 wps
+2017-05-31 15:03:32.147330: 0.102 perplexity: 23.516 speed: 5159 wps
+2017-05-31 15:03:47.053004: 0.202 perplexity: 23.163 speed: 5129 wps
+2017-05-31 15:04:01.646583: 0.302 perplexity: 23.010 speed: 5155 wps
+2017-05-31 15:04:16.372409: 0.402 perplexity: 22.970 speed: 5156 wps
+2017-05-31 15:04:31.032094: 0.501 perplexity: 23.001 speed: 5162 wps
+2017-05-31 15:04:46.016437: 0.601 perplexity: 23.003 speed: 5147 wps
+2017-05-31 15:05:00.586408: 0.701 perplexity: 22.988 speed: 5157 wps
+2017-05-31 15:05:15.554828: 0.801 perplexity: 23.024 speed: 5147 wps
+2017-05-31 15:05:30.285415: 0.900 perplexity: 23.010 speed: 5148 wps
+2017-05-31 15:05:44.604510: Epoch: 5 Train Perplexity: 23.019
+valid data size: 253977
+2017-05-31 15:05:58.622888: Epoch: 5 Valid Perplexity: 23.155
+Seed: reality
+Sample: giach?ip rcs<eos>stlgouP otsRrtn ootuleoe  a
+2017-05-31 15:05:58.844922: Epoch: 6 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:05:59.310911: 0.003 perplexity: 22.956 speed: 4873 wps
+2017-05-31 15:06:13.774538: 0.102 perplexity: 23.516 speed: 5243 wps
+2017-05-31 15:06:28.359544: 0.202 perplexity: 23.157 speed: 5227 wps
+2017-05-31 15:06:42.790015: 0.302 perplexity: 23.007 speed: 5240 wps
+2017-05-31 15:06:57.739249: 0.402 perplexity: 22.967 speed: 5200 wps
+2017-05-31 15:07:12.933321: 0.501 perplexity: 22.999 speed: 5160 wps
+2017-05-31 15:07:27.819775: 0.601 perplexity: 23.001 speed: 5151 wps
+2017-05-31 15:07:42.421981: 0.701 perplexity: 22.986 speed: 5158 wps
+2017-05-31 15:07:57.462314: 0.801 perplexity: 23.023 speed: 5145 wps
+2017-05-31 15:08:12.332689: 0.900 perplexity: 23.008 speed: 5141 wps
+2017-05-31 15:08:26.880274: Epoch: 6 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:08:42.511027: Epoch: 6 Valid Perplexity: 23.155
+Seed: reality
+Sample: bkt iuei l,aiakre.leosw    b<eos>Pconyn nlio
+2017-05-31 15:08:49.008003: Epoch: 7 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:08:49.474998: 0.003 perplexity: 22.956 speed: 4875 wps
+2017-05-31 15:09:04.382627: 0.102 perplexity: 23.516 speed: 5091 wps
+2017-05-31 15:09:19.474438: 0.202 perplexity: 23.158 speed: 5064 wps
+2017-05-31 15:09:34.104127: 0.302 perplexity: 23.008 speed: 5106 wps
+2017-05-31 15:09:49.122163: 0.402 perplexity: 22.968 speed: 5095 wps
+2017-05-31 15:10:04.233875: 0.501 perplexity: 23.000 speed: 5082 wps
+2017-05-31 15:10:19.368258: 0.601 perplexity: 23.003 speed: 5072 wps
+2017-05-31 15:10:34.390133: 0.701 perplexity: 22.988 speed: 5070 wps
+2017-05-31 15:10:49.395659: 0.801 perplexity: 23.024 speed: 5069 wps
+2017-05-31 15:11:03.954209: 0.900 perplexity: 23.009 speed: 5086 wps
+2017-05-31 15:11:18.795329: Epoch: 7 Train Perplexity: 23.019
+valid data size: 253977
+2017-05-31 15:11:34.033313: Epoch: 7 Valid Perplexity: 23.155
+Seed: reality
+Sample:  ieY uaube  chceYuryvydvur ak thaonoee<eos>h
+2017-05-31 15:11:34.449521: Epoch: 8 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:11:34.946964: 0.003 perplexity: 22.956 speed: 4615 wps
+2017-05-31 15:11:49.030429: 0.102 perplexity: 23.516 speed: 5371 wps
+2017-05-31 15:12:03.016553: 0.202 perplexity: 23.157 speed: 5402 wps
+2017-05-31 15:12:16.881417: 0.302 perplexity: 23.007 speed: 5428 wps
+2017-05-31 15:12:30.633002: 0.402 perplexity: 22.967 speed: 5452 wps
+2017-05-31 15:12:44.566232: 0.501 perplexity: 22.999 speed: 5453 wps
+2017-05-31 15:13:00.060958: 0.601 perplexity: 23.001 speed: 5353 wps
+2017-05-31 15:13:16.627471: 0.701 perplexity: 22.986 speed: 5229 wps
+2017-05-31 15:13:33.116522: 0.801 perplexity: 23.023 speed: 5143 wps
+2017-05-31 15:13:49.097683: 0.900 perplexity: 23.008 speed: 5097 wps
+2017-05-31 15:14:05.276606: Epoch: 8 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:14:19.669146: Epoch: 8 Valid Perplexity: 23.155
+Seed: reality
+Sample: e nt ihsimaenh umcoircnl,aantia udr    p
+2017-05-31 15:14:19.952427: Epoch: 9 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:14:20.507168: 0.003 perplexity: 22.956 speed: 4211 wps
+2017-05-31 15:14:35.988408: 0.102 perplexity: 23.516 speed: 4886 wps
+2017-05-31 15:14:51.047458: 0.202 perplexity: 23.160 speed: 4964 wps
+2017-05-31 15:15:06.290570: 0.302 perplexity: 23.009 speed: 4971 wps
+2017-05-31 15:15:22.226334: 0.402 perplexity: 22.968 speed: 4920 wps
+2017-05-31 15:15:37.401131: 0.501 perplexity: 23.000 speed: 4937 wps
+2017-05-31 15:15:52.624859: 0.601 perplexity: 23.002 speed: 4946 wps
+2017-05-31 15:16:07.514733: 0.701 perplexity: 22.987 speed: 4968 wps
+2017-05-31 15:16:22.818478: 0.801 perplexity: 23.024 speed: 4968 wps
+2017-05-31 15:16:38.442270: 0.900 perplexity: 23.009 speed: 4956 wps
+2017-05-31 15:16:53.442955: Epoch: 9 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:17:07.446920: Epoch: 9 Valid Perplexity: 23.155
+Seed: reality
+Sample: annnldrolpn lfne nli<eos>mhhsnahihnlkn,rldtr
+2017-05-31 15:17:07.731585: Epoch: 10 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:17:08.290139: 0.003 perplexity: 22.956 speed: 4140 wps
+2017-05-31 15:17:23.467145: 0.102 perplexity: 23.516 speed: 4978 wps
+2017-05-31 15:17:39.046137: 0.202 perplexity: 23.157 speed: 4928 wps
+2017-05-31 15:17:54.322076: 0.302 perplexity: 23.007 speed: 4944 wps
+2017-05-31 15:18:09.818493: 0.402 perplexity: 22.967 speed: 4934 wps
+2017-05-31 15:18:24.792642: 0.501 perplexity: 22.999 speed: 4961 wps
+2017-05-31 15:18:39.916646: 0.601 perplexity: 23.001 speed: 4972 wps
+2017-05-31 15:18:55.194793: 0.701 perplexity: 22.986 speed: 4972 wps
+2017-05-31 15:19:10.394851: 0.801 perplexity: 23.023 speed: 4976 wps
+2017-05-31 15:19:25.569115: 0.900 perplexity: 23.008 speed: 4979 wps
+2017-05-31 15:19:41.252456: Epoch: 10 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:19:55.970096: Epoch: 10 Valid Perplexity: 23.155
+Seed: reality
+Sample: Ir ,at aheyPegnie" aeih eapc"lecec eueoi
+2017-05-31 15:20:02.683928: Epoch: 11 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:20:03.194763: 0.003 perplexity: 22.956 speed: 4667 wps
+2017-05-31 15:20:18.535295: 0.102 perplexity: 23.516 speed: 4946 wps
+2017-05-31 15:20:35.110232: 0.202 perplexity: 23.157 speed: 4761 wps
+2017-05-31 15:20:50.726954: 0.302 perplexity: 23.007 speed: 4795 wps
+2017-05-31 15:21:05.673653: 0.402 perplexity: 22.967 speed: 4864 wps
+2017-05-31 15:21:21.294670: 0.501 perplexity: 22.999 speed: 4864 wps
+2017-05-31 15:21:36.547468: 0.601 perplexity: 23.001 speed: 4884 wps
+2017-05-31 15:21:51.452436: 0.701 perplexity: 22.986 speed: 4913 wps
+2017-05-31 15:22:06.685548: 0.801 perplexity: 23.023 speed: 4922 wps
+2017-05-31 15:22:22.306293: 0.900 perplexity: 23.008 speed: 4916 wps
+2017-05-31 15:22:37.552471: Epoch: 11 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:22:51.139499: Epoch: 11 Valid Perplexity: 23.155
+Seed: reality
+Sample:   as"e  ha tskrs<eos>I c<eos>r,ltfow   rWaeieae 
+2017-05-31 15:22:51.589924: Epoch: 12 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:22:52.091487: 0.003 perplexity: 22.956 speed: 4699 wps
+2017-05-31 15:23:07.515280: 0.102 perplexity: 23.516 speed: 4921 wps
+2017-05-31 15:23:22.949873: 0.202 perplexity: 23.157 speed: 4922 wps
+2017-05-31 15:23:38.075758: 0.302 perplexity: 23.007 speed: 4956 wps
+2017-05-31 15:23:52.952012: 0.402 perplexity: 22.967 speed: 4993 wps
+2017-05-31 15:24:07.936115: 0.501 perplexity: 22.999 speed: 5008 wps
+2017-05-31 15:24:23.112931: 0.601 perplexity: 23.001 speed: 5008 wps
+2017-05-31 15:24:38.100692: 0.701 perplexity: 22.986 speed: 5017 wps
+2017-05-31 15:24:53.230382: 0.801 perplexity: 23.023 speed: 5018 wps
+2017-05-31 15:25:08.503930: 0.900 perplexity: 23.008 speed: 5013 wps
+2017-05-31 15:25:23.500116: Epoch: 12 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 15:25:36.846689: Epoch: 12 Valid Perplexity: 23.155
+Seed: reality
+Sample: sc<eos> iae trrc<eos>ingsfyohuotIiIh eh hani u. 
+2017-05-31 15:25:37.064542: Epoch: 13 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 15:25:37.533296: 0.003 perplexity: 22.956 speed: 4858 wps
+2017-05-31 15:25:51.436065: 0.102 perplexity: 23.516 speed: 5447 wps
+2017-05-31 15:26:05.805934: 0.202 perplexity: 23.158 speed: 5368 wps
+2017-05-31 15:26:20.717620: 0.302 perplexity: 23.007 speed: 5275 wps
+########################################################################################
+########################################################################################
+########################################################################################
+2017-05-31 16:19:00.357282: Running on UCSC:citrisdense...
+Distinct terms: 83
+epoch 56
+Seed: reality
+Sample: cc"etfarntenlla,hhmmne  hyais hytty'aua 
+2017-05-31 16:19:30.075090: Epoch: 1 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 16:19:30.853624: 0.003 perplexity: 22.956 speed: 2937 wps
+2017-05-31 16:19:47.136009: 0.102 perplexity: 23.516 speed: 4592 wps
+2017-05-31 16:20:02.978018: 0.202 perplexity: 23.157 speed: 4691 wps
+2017-05-31 16:20:19.588911: 0.302 perplexity: 23.007 speed: 4652 wps
+2017-05-31 16:20:35.650853: 0.402 perplexity: 22.967 speed: 4672 wps
+2017-05-31 16:20:50.760776: 0.501 perplexity: 22.999 speed: 4739 wps
+2017-05-31 16:21:05.715263: 0.601 perplexity: 23.001 speed: 4792 wps
+2017-05-31 16:21:20.772073: 0.701 perplexity: 22.986 speed: 4827 wps
+2017-05-31 16:21:35.912515: 0.801 perplexity: 23.023 speed: 4850 wps
+2017-05-31 16:21:51.374813: 0.900 perplexity: 23.008 speed: 4857 wps
+2017-05-31 16:22:06.288732: Epoch: 1 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 16:22:21.263215: Epoch: 1 Valid Perplexity: 23.155
+Seed: reality
+Sample: se  is e   ihnoerr. eswrhltcoaehWhoeoet 
+2017-05-31 16:22:27.717812: Epoch: 2 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 16:22:28.281212: 0.003 perplexity: 22.956 speed: 4008 wps
+2017-05-31 16:22:44.656946: 0.102 perplexity: 23.516 speed: 4620 wps
+2017-05-31 16:23:00.367552: 0.202 perplexity: 23.157 speed: 4725 wps
+2017-05-31 16:23:15.692284: 0.302 perplexity: 23.007 speed: 4800 wps
+2017-05-31 16:23:31.087543: 0.402 perplexity: 22.967 speed: 4833 wps
+2017-05-31 16:23:46.143697: 0.501 perplexity: 22.999 speed: 4874 wps
+2017-05-31 16:24:01.262604: 0.601 perplexity: 23.001 speed: 4899 wps
+2017-05-31 16:24:16.489784: 0.701 perplexity: 22.986 speed: 4912 wps
+2017-05-31 16:24:31.731019: 0.801 perplexity: 23.023 speed: 4921 wps
+2017-05-31 16:24:47.046315: 0.900 perplexity: 23.008 speed: 4926 wps
+2017-05-31 16:25:01.879897: Epoch: 2 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 16:25:16.622908: Epoch: 2 Valid Perplexity: 23.155
+Seed: reality
+Sample: hrnoens.i holdhc.i  noategoulmeuroe h . 
+2017-05-31 16:25:17.012008: Epoch: 3 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 16:25:17.501417: 0.003 perplexity: 22.956 speed: 4651 wps
+2017-05-31 16:25:32.826235: 0.102 perplexity: 23.516 speed: 4950 wps
+2017-05-31 16:25:48.274815: 0.202 perplexity: 23.157 speed: 4935 wps
+2017-05-31 16:26:03.371115: 0.302 perplexity: 23.007 speed: 4967 wps
+2017-05-31 16:26:18.284327: 0.402 perplexity: 22.967 speed: 4999 wps
+2017-05-31 16:26:33.443540: 0.501 perplexity: 22.999 speed: 5002 wps
+2017-05-31 16:26:48.563101: 0.601 perplexity: 23.001 speed: 5006 wps
+2017-05-31 16:27:03.839258: 0.701 perplexity: 22.986 speed: 5001 wps
+2017-05-31 16:27:18.998648: 0.801 perplexity: 23.023 speed: 5003 wps
+2017-05-31 16:27:34.538204: 0.900 perplexity: 23.008 speed: 4990 wps
+2017-05-31 16:27:49.429408: Epoch: 3 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 16:28:04.734115: Epoch: 3 Valid Perplexity: 23.155
+Seed: reality
+Sample: k<eos>eaetba Ip hc m<eos> <eos>ironcn  r-iutmrhhTR  
+2017-05-31 16:28:04.978507: Epoch: 4 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 16:28:05.476499: 0.003 perplexity: 22.956 speed: 4548 wps
+2017-05-31 16:28:20.674767: 0.102 perplexity: 23.516 speed: 4987 wps
+2017-05-31 16:28:35.512285: 0.202 perplexity: 23.157 speed: 5052 wps
+2017-05-31 16:28:50.950092: 0.302 perplexity: 23.007 speed: 5009 wps
+2017-05-31 16:29:05.704838: 0.402 perplexity: 22.967 speed: 5043 wps
+2017-05-31 16:29:20.766395: 0.501 perplexity: 22.999 speed: 5044 wps
+2017-05-31 16:29:35.764887: 0.601 perplexity: 23.001 speed: 5048 wps
+2017-05-31 16:29:50.884094: 0.701 perplexity: 22.986 speed: 5045 wps
+2017-05-31 16:30:05.694458: 0.801 perplexity: 23.023 speed: 5055 wps
+2017-05-31 16:30:20.807581: 0.900 perplexity: 23.008 speed: 5052 wps
+2017-05-31 16:30:35.866923: Epoch: 4 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 16:30:51.493951: Epoch: 4 Valid Perplexity: 23.155
+Seed: reality
+Sample: sfeho-"v? faw <eos>u uee tnr yru s 'snmi l  
+2017-05-31 16:30:51.760229: Epoch: 5 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 16:30:52.275697: 0.003 perplexity: 22.956 speed: 4390 wps
+2017-05-31 16:31:07.329221: 0.102 perplexity: 23.516 speed: 5027 wps
+2017-05-31 16:31:22.095651: 0.202 perplexity: 23.157 speed: 5086 wps
+2017-05-31 16:31:36.403977: 0.302 perplexity: 23.007 speed: 5158 wps
+2017-05-31 16:31:50.681369: 0.402 perplexity: 22.967 speed: 5198 wps
+2017-05-31 16:32:04.929862: 0.501 perplexity: 22.999 speed: 5224 wps
+2017-05-31 16:32:19.419022: 0.601 perplexity: 23.001 speed: 5228 wps
+2017-05-31 16:32:34.259803: 0.701 perplexity: 22.986 speed: 5212 wps
+2017-05-31 16:32:48.814812: 0.801 perplexity: 23.023 speed: 5214 wps
+2017-05-31 16:33:03.426685: 0.900 perplexity: 23.008 speed: 5212 wps
+2017-05-31 16:33:18.194340: Epoch: 5 Train Perplexity: 23.018
+valid data size: 253977
+2017-05-31 16:33:33.186070: Epoch: 5 Valid Perplexity: 23.155
+Seed: reality
+Sample: uigfotutalh<eos> l twtetw lhr bnh  agianbd<eos>s
+2017-05-31 16:33:33.439491: Epoch: 6 Learning rate: 0.100
+valid data size: 761929
+2017-05-31 16:33:33.999246: 0.003 perplexity: 22.956 speed: 4128 wps
+2017-05-31 16:33:48.440237: 0.102 perplexity: 23.516 speed: 5222 wps
+2017-05-31 16:34:02.875805: 0.202 perplexity: 23.157 speed: 5243 wps
+2017-05-31 16:34:16.996388: 0.302 perplexity: 23.007 speed: 5288 wps
+2017-05-31 16:34:31.462879: 0.402 perplexity: 22.967 speed: 5280 wps
+2017-05-31 16:34:46.042868: 0.501 perplexity: 22.999 speed: 5266 wps

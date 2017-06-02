@@ -67,7 +67,7 @@ flags.DEFINE_string("save_path", "data/tensorflow/", "Model output directory.")
 flags.DEFINE_bool("use_fp16", False, "Train using 16-bit floats instead of 32bit floats")
 flags.DEFINE_bool("sample_mode", False, "Must have trained model ready. Only does sampling")
 flags.DEFINE_string("file_prefix", "ptb.char", "will be looking for file_prefix.train.txt, file_prefix.test.txt and file_prefix.valid.txt in data_path")
-flags.DEFINE_string("seed_for_sample", "free", "supply seeding phrase here. it must only contain words from vocabluary")
+flags.DEFINE_string("seed_for_sample", "reality", "supply seeding phrase here. it must only contain words from vocabluary")
 
 FLAGS = flags.FLAGS
 
@@ -102,8 +102,7 @@ class PTBModel(object):
 
 
         with tf.device("/cpu:0"):
-            embedding = tf.get_variable(
-                    "embedding", [vocab_size, size], dtype=data_type())
+            embedding = tf.get_variable("embedding", [vocab_size, size], dtype=data_type())
             inputs = tf.nn.embedding_lookup(embedding, self._input_data)
 
         if is_training and config.keep_prob < 1:
@@ -464,12 +463,12 @@ def main(customConfig = None):
                     else:
                         seed_for_sample = inpt.split()
                     print_(nowStr()+':', "Seed: %s" % pretty_print([word_to_id[x] for x in seed_for_sample], config.is_char_model, id_2_word))
-                    print_(nowStr()+':', "Sample: \n%s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], cnt), config.is_char_model, id_2_word))
+                    print_(nowStr()+':', "Sample: %s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], cnt), config.is_char_model, id_2_word))
             print_('epoch', config.max_max_epoch)
             for i in range(config.max_max_epoch):
 
                 print_("Seed: %s" % pretty_print([word_to_id[x] for x in seed_for_sample], config.is_char_model, id_2_word))
-                print_("Sample: \n%s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], max(5 * (len(seed_for_sample) + 1), 10)), config.is_char_model, id_2_word))
+                print_("Sample: %s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], max(5 * (len(seed_for_sample) + 1), 10)), config.is_char_model, id_2_word))
 
                 lr_decay = config.lr_decay ** max(i - config.max_epoch, 0.0)
                 m.assign_lr(session, config.learning_rate * lr_decay)
@@ -491,7 +490,7 @@ def main(customConfig = None):
                     lr_decay *=0.5
 
             print_(nowStr()+':', "Seed: %s" % pretty_print([word_to_id[x] for x in seed_for_sample], config.is_char_model, id_2_word))
-            print_(nowStr()+':', "Sample: \n%s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], max(5 * (len(seed_for_sample) + 1), 10)), config.is_char_model, id_2_word))
+            print_(nowStr()+':', "Sample: %s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], max(5 * (len(seed_for_sample) + 1), 10)), config.is_char_model, id_2_word))
             test_perplexity = run_epoch(session, mtest, test_data)
             print_(nowStr()+':', "Test Perplexity: %.3f" % test_perplexity)
 

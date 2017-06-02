@@ -28,7 +28,11 @@ import tensorflow as tf
 
 def _read_words(filename):
     with tf.gfile.GFile(filename, "r") as f:
-        return f.read().decode("utf-8").replace("\n", "<eos>").split()
+        text = f.read().decode("utf-8").replace(" ", "_")
+        result = ''
+        for c in text:
+            result += c + ' '
+        return result.replace("\n", "<eos>").split()
 
 
 def _build_vocab(filename):
@@ -67,22 +71,23 @@ def ptb_raw_data(data_path=None, prefix="ptb"):
     train_path = os.path.join(data_path, prefix + ".train.txt")
     valid_path = os.path.join(data_path, prefix + ".valid.txt")
     test_path = os.path.join(data_path, prefix + ".test.txt")
-    #fileName = "TrueFreedom.txt"
-    #train_path = os.path.join(data_path, fileName)
+
+    fileName = "Crime_And_Punishment.txt"
+    train_path = os.path.join(data_path, fileName)
     #valid_path = os.path.join(data_path, fileName)
     #test_path = os.path.join(data_path, fileName)
     
     word_to_id, id_2_word = _build_vocab(train_path)
-    #train_data = _file_to_word_ids(train_path, word_to_id)
-    #trainIndex = int(66*len(train_data)/100)
-    #validIndex = int(88*len(train_data)/100)
-    #valid_data = train_data[trainIndex:validIndex]
-    #test_data = train_data[validIndex:]
-    #train_data = train_data[:trainIndex]
-        
     train_data = _file_to_word_ids(train_path, word_to_id)
-    valid_data = _file_to_word_ids(valid_path, word_to_id)
-    test_data = _file_to_word_ids(test_path, word_to_id)
+    trainIndex = int(66*len(train_data)/100)
+    validIndex = int(88*len(train_data)/100)
+    valid_data = train_data[trainIndex:validIndex]
+    test_data = train_data[validIndex:]
+    train_data = train_data[:trainIndex]
+        
+    #train_data = _file_to_word_ids(train_path, word_to_id)
+    #valid_data = _file_to_word_ids(valid_path, word_to_id)
+    #test_data = _file_to_word_ids(test_path, word_to_id)
     return train_data, valid_data, test_data, word_to_id, id_2_word
 
 
