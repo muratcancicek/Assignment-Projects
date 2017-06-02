@@ -1,6 +1,7 @@
 ssh -N -f -L 5080:127.0.0.1:8891 cicekm@citrisdance.soe.ucsc.edu 
 ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
 ssh -N -f -L 5700:localhost:9999 cicekm@citrisdance.soe.ucsc.edu 
+ssh -N -f -L 5088:127.0.0.1:8897 cicekm@citrisdance.soe.ucsc.edu
 
 localhost:58089/?token=711865e45b78e63d36d4dc75fcee6781eeeb913595add31e
 
