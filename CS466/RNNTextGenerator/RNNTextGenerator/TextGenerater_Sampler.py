@@ -1,52 +1,10 @@
-# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#         http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ==============================================================================
-
-"""Example / benchmark for building a PTB LSTM model.
-Trains the model described in:
-(Zaremba, et. al.) Recurrent Neural Network Regularization
-http://arxiv.org/abs/1409.2329
-There are 3 supported model configurations:
-===========================================
-| config | epochs | train | valid  | test
-===========================================
-| small  | 13     | 37.99 | 121.39 | 115.91
-| medium | 39     | 48.45 |  86.16 |  82.07
-| large  | 55     | 37.87 |  82.62 |  78.29
-The exact results may vary depending on the random initialization.
-The hyperparameters used in the model:
-- init_scale - the initial scale of the weights
-- learning_rate - the initial value of the learning rate
-- max_grad_norm - the maximum permissible norm of the gradient
-- num_layers - the number of LSTM layers
-- num_steps - the number of unrolled steps of LSTM
-- hidden_size - the number of LSTM units
-- max_epoch - the number of epochs trained with the initial learning rate
-- max_max_epoch - the total number of epochs for training
-- keep_prob - the probability of keeping weights in the dropout layer
-- lr_decay - the decay of the learning rate for each epoch after "max_epoch"
-- batch_size - the batch size
-The data required for this example is in the data/ dir of the
-PTB dataset from Tomas Mikolov's webpage:
-$ wget http://www.fit.vutbr.cz/~imikolov/rnnlm/simple-examples.tgz
-$ tar xvf simple-examples.tgz
-To run:
-$ python ptb_word_lm.py --data_path=simple-examples/data/
-"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
+
+data_set_path = "data/" # a data folder which shoud be located in the same folder with the code 
+network_path = "data/tensorflow/" # a data folder which shoud be located in the same folder with the code 
+
 
 import time
 import sys
@@ -61,13 +19,13 @@ import reader
 flags = tf.flags
 logging = tf.logging
 
-#flags.DEFINE_string("model", "small", "A type of model. Possible options are: small, medium, large.")
-#flags.DEFINE_string("data_path", "data/", "Where the training/test data is stored.")
-#flags.DEFINE_string("save_path", "data/tensorflow/", "Model output directory.")
-#flags.DEFINE_bool("use_fp16", False, "Train using 16-bit floats instead of 32bit floats")
-#flags.DEFINE_bool("sample_mode", True, "Must have trained model ready. Only does sampling")
-#flags.DEFINE_string("file_prefix", "ptb.char", "will be looking for file_prefix.train.txt, file_prefix.test.txt and file_prefix.valid.txt in data_path")
-#flags.DEFINE_string("seed_for_sample", "reality", "supply seeding phrase here. it must only contain words from vocabluary")
+flags.DEFINE_string("model", "small", "A type of model. Possible options are: small, medium, large.")
+flags.DEFINE_string("data_path", data_set_path, "Where the training/test data is stored.")
+flags.DEFINE_string("save_path", network_path, "Model output directory.")
+flags.DEFINE_bool("use_fp16", False, "Train using 16-bit floats instead of 32bit floats")
+flags.DEFINE_bool("sample_mode", True, "Must have trained model ready. Only does sampling")
+flags.DEFINE_string("file_prefix", "ptb.char", "will be looking for file_prefix.train.txt, file_prefix.test.txt and file_prefix.valid.txt in data_path")
+flags.DEFINE_string("seed_for_sample", "reality", "supply seeding phrase here. it must only contain words from vocabluary")
 
 FLAGS = flags.FLAGS
 
@@ -314,6 +272,23 @@ class TestConfig(object):
     lr_decay = 0.5
     batch_size = 20
     vocab_size = 10000
+    
+class CustomConfig(object):
+    """Custom config."""
+    is_char_model = True
+    optimizer = 'AdamOptimizer'
+    init_scale = 0.004
+    learning_rate = 0.75
+    max_grad_norm = 10
+    num_layers = 2
+    num_steps = 20
+    hidden_size = 200
+    max_epoch = 16
+    max_max_epoch = 256
+    keep_prob = 0.5
+    lr_decay = 1 / 1.15
+    batch_size = 128
+    vocab_size = 27486
 
 
 def do_sample(session, model, data, num_samples):
@@ -408,7 +383,7 @@ def get_config():
     else:
         raise ValueError("Invalid model: %s", FLAGS.model)
 
-def main(customConfig = None):
+def main(customConfig = CustomConfig):
     if not FLAGS.data_path:
         raise ValueError("Must set --data_path to PTB data directory")
 
@@ -458,12 +433,9 @@ def main(customConfig = None):
                 while True:
                     inpt = input("Enter your sample prefix: ")
                     cnt = int(input("Sample size: "))
-                    if config.is_char_model:
-                        seed_for_sample = [c for c in inpt.replace(' ', '_')]
-                    else:
-                        seed_for_sample = inpt.split()
-                    print_(nowStr()+':', "Seed: %s" % pretty_print([word_to_id[x] for x in seed_for_sample], config.is_char_model, id_2_word))
-                    print_(nowStr()+':', "Sample: %s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], cnt), config.is_char_model, id_2_word))
+                    seed_for_sample = [c for c in inpt.replace(' ', '_')]
+                    print_("Seed: %s" % pretty_print([word_to_id[x] for x in seed_for_sample], True, id_2_word))
+                    print_("Sample: %s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], cnt), True, id_2_word))
             print_('epoch', config.max_max_epoch)
             for i in range(config.max_max_epoch):
 
@@ -493,4 +465,23 @@ def main(customConfig = None):
             print_(nowStr()+':', "Sample: %s" % pretty_print(do_sample(session, mtest, [word_to_id[word] for word in seed_for_sample], max(5 * (len(seed_for_sample) + 1), 10)), config.is_char_model, id_2_word))
             test_perplexity = run_epoch(session, mtest, test_data)
             print_(nowStr()+':', "Test Perplexity: %.3f" % test_perplexity)
-            Bir
+
+
+def printSeparater():
+    for n in range(3):
+        print_('#' * 88)
+        
+def run():
+    printSeparater()
+    print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
+    
+    main()
+
+    print_('%s:' % nowStr(), 'DONE')
+    printSeparater()
+
+    if COMPUTERNAME == 'MSI' or COMPUTERNAME == 'LM-IST-00UBFVH8':
+        sys.exit() 
+
+if __name__ == "__main__":
+    main()

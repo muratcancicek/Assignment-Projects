@@ -74,3 +74,107 @@ Distinct terms: 83
 Distinct terms: 83
 2017-06-02 18:08:39.778178: Seed: k
 2017-06-02 18:08:39.781180: Sample: e _ c o u l d _ g a l l e d _ t h e _ m
+########################################################################################
+########################################################################################
+########################################################################################
+2017-06-02 18:45:38.077367: Running on MSI...
+Distinct terms: 83
+########################################################################################
+########################################################################################
+########################################################################################
+2017-06-02 18:47:53.221833: Running on MSI...
+Distinct terms: 83
+2017-06-02 18:48:28.605292: Seed: y o u
+2017-06-02 18:48:28.610797: Sample: l l a s t y _ o f _ d o o r e d _ d a y s _ a n d _ c o u l d <eos> a _ f o r c e _ a n d _ a w h i n g _ t h e <eos> d a y
+########################################################################################
+########################################################################################
+########################################################################################
+2017-06-02 18:49:56.238601: Running on MSI...
+Distinct terms: 83
+2017-06-02 18:50:31.637051: Seed: you
+2017-06-02 18:50:31.639552: Sample: nted and between or stand girl and<eos>out<eos>of s
+2017-06-02 18:51:01.019897: Seed: pretty
+2017-06-02 18:51:01.022898: Sample: , could are with me on specilium!<eos>For said a favourest. Raskolnikov pa
+2017-06-02 19:09:19.408737: Seed: kazan
+2017-06-02 19:09:19.411239: Sample: ike worl and slips and the slallence. In su
+Distinct terms: 83
+2017-06-02 20:14:08.581343: Seed: python
+2017-06-02 20:14:08.583846: Sample: $nI$Mg$!dIl[1-bi!mTKf:Kj.Mbf#R[WVqUPfuSH
+Distinct terms: 83
+2017-06-02 20:22:00.532565: Seed: Python
+2017-06-02 20:22:00.535567: Sample: s, the considerately surprise sister did
+2017-06-02 20:22:20.387643: Seed: saat
+2017-06-02 20:22:20.389646: Sample:  can it? She as
+2017-06-02 20:22:43.139741: Seed: you
+2017-06-02 20:22:43.142741: Sample: r himself, prosuciven that they, I would co
+2017-06-02 20:23:00.461830: Seed: pretty
+2017-06-02 20:23:00.464325: Sample: , recognising upon him and good and I perhaps come in Sy left you, hou
+2017-06-02 20:23:36.513433: Seed: billionaire
+2017-06-02 20:23:36.513934: Sample: d his account in his wruthes yarese to only because there's any intinnled now<eos>before<eos>all<eos>h
+2017-06-02 20:24:11.531187: Seed: hot girl
+2017-06-02 20:24:11.533687: Sample:  so on she'm not word. A menth.... Why do you know."<eos><eos>"I'll could<eos>wor
+2017-06-02 20:24:51.210631: Seed: ramadan
+2017-06-02 20:24:51.212634: Sample: ts very withless. And I have<eos>repressing 'You is at by broken her lastly reeding about him on the<eos>side, it door.
+2017-06-02 20:26:34.262086: Seed: Raskolnikov
+2017-06-02 20:26:34.264588: Sample: , but I instantly and<eos>that I may<eos>you del
+2017-06-02 20:26:53.962929: Seed: Raskolnikov
+2017-06-02 20:26:53.965432: Sample: . He a cliler<eos>qufmered of moven on him a
+Distinct terms: 83
+Distinct terms: 82
+Distinct terms: 82
+Seed: Python
+Sample:  now, tarks weither not expressed and tu
+Seed: saat
+Sample:  that workcross
+Seed: you 43
+Sample: .. from at place shepander atthe thing. The
+Seed: pretty
+Sample:  of hirmor... of the civil sitting close, looking to his vonution stra
+Seed: billionaire
+Sample: dhim... but. The conce there seemed my deciseashand to see you to look like at the corder,
+Seed: hot girl
+Sample:  were an nerves. What tell to show the street.... The right soon.He h
+Seed: ramadan
+Sample: d; comparion."I yas thinking for one, quite taken eotice because he would one some need before, he is in suttin
+Seed: Raskolnikov  
+Sample: what criving first woman children, more 
+Seed: Raskolnikov
+Sample: , so it were gate himmentitute--and see 
+Distinct terms: 83
+Seed: Python
+Sample:  evident. I<eos>shall though?<eos>Do you make yo
+Seed: saat
+Sample: hed some boows 
+Seed: you
+Sample: shing shame; though at his estersion. The p
+Seed: pretty
+Sample: , instines gose to gind."<eos><eos>"Which all visitor, and so make them," cann
+Seed: billionaire
+Sample: d herself to be fight never,<eos>we not aupucte he still<eos>frightened his amiting blow, are to l
+Seed: hot girl
+Sample: , at the cheer to the his decoughhed to his chaste.<eos>Raskolnikov stopp
+Seed: ramadan
+Sample: it urse one bagd put that are<eos>turned to leave them she contrady them, continually which good pirly, Amantional 
+Seed: Raskolnikov
+Sample:  sulling you went it weak no-serieving r
+Seed: Raskolnikov
+Sample: 's nothing wregent! And Dounia?" Sonia, 
+Distinct terms: 82
+Seed: Python
+Sample: treece. It was he will get by the now. "
+Seed: saat
+Sample: hed with the se
+Seed: you
+Sample:  loch."What that.""Ihand over her fimm mire
+Seed: pretty
+Sample: , my faying to regail, to ditness he are's gone and been cempresent lo
+Seed: billionaire
+Sample: able," Somitpate you ay her seeming her were let porters to wating ambosk the face were ro
+Seed: hot girl
+Sample:  and mare suggifial doors, as turning rispect, perhaps, in stray and 
+Seed: ramadan
+Sample: ce....He man more because thesame taking--they can not see horror....""He cent anewit't hear withme suddenly of
+Seed: Raskolnikov
+Sample: , but the call,to Roshims with the and h
+Seed: Raskolnikov
+Sample: . He clap to her defices. But there down

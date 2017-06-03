@@ -20,7 +20,8 @@ def createFileObjects(dir):
     try:
         files = getFilesIn(dir)
         for filePath in files:
-            allFiles.append(myFile(joinPath(dir, filePath)))
+            if '.' in filePath:
+                allFiles.append(myFile(joinPath(dir, filePath)))
     except PermissionError:
         pass
 

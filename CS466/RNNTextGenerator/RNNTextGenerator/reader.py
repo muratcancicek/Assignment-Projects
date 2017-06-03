@@ -1,23 +1,10 @@
-# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#         http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ==============================================================================
 
-
-"""Utilities for parsing PTB text files."""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
+
+data_set_path = "data/" # a data folder which shoud be located in the same folder with the code 
+fileName = "Crime_And_Punishment.txt" # trained data which shoud be located in data folder 
 
 import collections
 import os
@@ -32,7 +19,8 @@ def _read_words(filename):
         result = ''
         for c in text:
             result += c + ' '
-        return result.replace("\n", "<eos>").split()
+        #return result.replace("\n", "<eos>").split()
+        return result.replace("\n", " ").split()
 
 
 def _build_vocab(filename):
@@ -72,7 +60,6 @@ def ptb_raw_data(data_path=None, prefix="ptb"):
     valid_path = os.path.join(data_path, prefix + ".valid.txt")
     test_path = os.path.join(data_path, prefix + ".test.txt")
 
-    fileName = "Crime_And_Punishment.txt"
     train_path = os.path.join(data_path, fileName)
     #valid_path = os.path.join(data_path, fileName)
     #test_path = os.path.join(data_path, fileName)
