@@ -3,7 +3,7 @@ from MainSrc.PythonVersionHandler import *
 #from MainSrc.SecondTermMethods import run as runSecondTermMethods
 #from MainSrc.FirstTermMethods import run as runFirstTermMethods
 from MainSrc.SparkerMethods import run as runSparkerMethods
-from DeepLearningToRank.DeepLearningToRankTest import runTests
+#from DeepLearningToRank.DeepLearningToRankTest import runTests
 
 def printSeparater():
     for n in range(3):

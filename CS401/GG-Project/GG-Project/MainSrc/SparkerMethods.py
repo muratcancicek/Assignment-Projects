@@ -11,6 +11,8 @@ from Sparker.SparkLogProcesser.SparkLogOperator import *
 from Sparker.SparkLogProcesser.SparkLogAnalyzer import *
 from Sparker.PySparkTutorial1 import *
 
+from Sparker.NewJourneyExtractor.NewExtractorRunner import runNewExtractionMethods
+
 def runSparkerTests(sc):
     countModule(sc)
     hw2Main()
@@ -45,4 +47,5 @@ def runSpark():
 
 def run(): 
     runSpark() 
-    trainLocalDataTest()
+    #trainLocalDataTest()
+    runNewExtractionMethods()

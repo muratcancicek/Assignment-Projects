@@ -152,7 +152,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\Slow_Storage\Program_Files\OpenCV\build\x64\vc14\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world310d;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>D:\Slow_Storage\Program_Files\OpenCV_3.1\build\x64\vc14\lib\opencv_world310d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

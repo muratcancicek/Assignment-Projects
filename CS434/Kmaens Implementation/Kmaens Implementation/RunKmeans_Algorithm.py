@@ -13,4 +13,4 @@ def main():
 ################################  running scoce  ##############################
 
 main()
-print '\nProgram is terminated successfully.\n' 
+print ('\nProgram is terminated successfully.\n' )

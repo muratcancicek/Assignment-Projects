@@ -159,6 +159,10 @@
     <Compile Include="Sparker\MLlibTests\ParallelStochasticGradientDescent.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\NewJourneyExtractor\NewExtractorRunner.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sparker\NewJourneyExtractor\__init__.py" />
     <Compile Include="Sparker\PySparkImports.py">
       <SubType>Code</SubType>
     </Compile>
@@ -176,7 +180,7 @@
     <Compile Include="Sparker\SparkLogProcesser\SparkLogAnalyzer.py" />
     <Compile Include="Sparker\SparkLogProcesser\SparkLogAnalyzerTests.py" />
     <Compile Include="Sparker\SparkLogProcesser\SparkLogFileHandler.py" />
-    <Compile Include="Sparker\SparkLogProcesser\SparkTests\SparkLogReader.py" />
+    <Compile Include="Sparker\SparkLogProcesser\SparkLogReader.py" />
     <Compile Include="Sparker\SparkLogProcesser\__init__.py" />
     <Compile Include="Sparker\__init__.py" />
   </ItemGroup>
@@ -292,6 +296,7 @@
     <Folder Include="LogProcesser\scalaToPython\python_codes\" />
     <Folder Include="Sparker\MLlibTests\" />
     <Folder Include="Sparker\Logic\" />
+    <Folder Include="Sparker\NewJourneyExtractor\" />
     <Folder Include="Sparker\SparkLogProcesser\" />
     <Folder Include="Sparker\SparkLogProcesser\SparkTests\" />
   </ItemGroup>

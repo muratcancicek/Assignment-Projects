@@ -6,8 +6,8 @@ import LogProcesser.scalaToPython.python_codes.LumberjackConstants
 #pattern = Pattern.compile(BOT_REGEX)
 
 def isBotAgent(userAgent):
-    if (userAgent != null):
-        agent = userAgent.lower().trim
+    if (userAgent != None):
+        agent = userAgent.lower()
         return agent[:4] == "java" or agent[:3] == "php" # or pattern.matcher(agent).find()
     else:
         return False

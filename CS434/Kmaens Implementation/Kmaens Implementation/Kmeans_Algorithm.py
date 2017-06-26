@@ -85,7 +85,7 @@ def getLowestSSEfromRepetitions(data, k, repetitionNumber = 10):
         sse = calculateSSEOfKMaensAlgorithm(data, k) 
         if sse < minSSE:
             minSSE = sse
-    print 'minSSE =', minSSE, 'for K:', k, '\n' 
+    print ('minSSE =', minSSE, 'for K:', k, '\n' )
     return minSSE
 
 ################################  Calculating SSE of K values  ################
