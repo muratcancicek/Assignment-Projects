@@ -25,25 +25,28 @@ def isRelevantModule(log):
         return False
 
 def isBot(log):
-    m = {}
     try:
-        m[KEY_AGENT] = getValueOf(KEY_AGENT, log)
-    except KeyError:
-        pass
-    try:
-        m[KEY_TYPE] = getValueOf(KEY_TYPE, log)
-    except KeyError:
-        pass
-    try:
-        #isb = 
-        #if isb:
-        #    print_(69, getValueOf(KEY_BOT, log))#orisBotAgent(m) 
         return  getValueOf(KEY_BOT, log) != '0'
     except KeyError:
         return False
 
+def has_t(log):
+    try:
+        getValueOf(KEY_TYPE, log)
+        return True
+    except KeyError:
+        return False
+
+def has_c(log):
+    try:
+        getValueOf(KEY_PERSISTENT_COOKIE, log)
+        return True
+    except KeyError:
+        return False
+
+
 def isRelevant(log):
-    return isRelevantModule(log) and not isBot(log)
+    return isRelevantModule(log) and not isBot(log) and not has_t(log) and has_c(log) #
 
 def runNewExtractionMethods():
     logsFile = joinPath(clickstreamFolder, 'part-r-00000')
@@ -53,3 +56,5 @@ def runNewExtractionMethods():
     #print_(logs.count())
     logs = logs.filter(isRelevant)
     print_(logs.count())
+    print_(logs.first())
+    
