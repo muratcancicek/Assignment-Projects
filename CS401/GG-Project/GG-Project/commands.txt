@@ -24,7 +24,6 @@ source /etc/environment
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip:$PYTHONPATH
 
 cd /soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
-cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 git reset --hard
 git pull
 python runGG_Project.py
@@ -44,3 +43,11 @@ scp -r ./* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/Projects/offlineData/
 49294952
 65760428
 
+root@osldevptst02.host.gittigidiyor.net
+ssh miek@ap-cyb-psmp.pool.gittigidiyor.net
+cybdbhdpt#host.gittigidiyor.net
+osldevptst02.host.gittigidiyor.net
+sudo su -
+cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+
+ssh miek@ap-cyb-psmp.pool.gittigidiyor.net
