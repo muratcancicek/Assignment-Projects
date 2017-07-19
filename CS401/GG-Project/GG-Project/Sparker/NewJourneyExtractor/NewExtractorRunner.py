@@ -53,6 +53,7 @@ def runNewExtractionMethods():
     #logsFile = joinPath(clickstreamFolder, 'part-r-00000')
     logs = readLogs(sc_(), logsFile, True)
     print_(logs.count())
+    print_(logs.first())
     #logs = logs.filter(isBot)
     #print_(logs.count())
     logs = logs.filter(isRelevant)
