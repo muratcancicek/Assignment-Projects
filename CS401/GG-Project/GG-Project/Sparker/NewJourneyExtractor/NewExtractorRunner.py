@@ -51,7 +51,7 @@ def isRelevant(log):
 def runNewExtractionMethods():
     logsFile = joinPath(may17Folder, '2017-05-16/part-r-00000')
     #logsFile = joinPath(clickstreamFolder, 'part-r-00000')
-    logs = readLogs(sc_(), logsFile)
+    logs = readLogs(sc_(), logsFile, True)
     print_(logs.count())
     #logs = logs.filter(isBot)
     #print_(logs.count())
