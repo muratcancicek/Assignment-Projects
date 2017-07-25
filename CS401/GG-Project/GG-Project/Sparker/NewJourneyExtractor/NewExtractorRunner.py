@@ -48,7 +48,7 @@ def isRelevant(log):
     return isRelevantModule(log) and not isBot(log) and not has_t(log) and has_c(log) #
 
 def filterSaveLogs(fromPath, toPath):
-    logs = readLogs(sc_(), logsFile)# True
+    logs = readLogs(sc_(), fromPath)# True
     total = logs.count()
     logs = logs.filter(isRelevant)
     filtered = logs.count()
