@@ -60,6 +60,7 @@ export PATH=/root/anaconda3/bin:$PATH
 export COMPUTERNAME=osldevptst02
 /root/anaconda3/bin/python3.5
 /root/anaconda3/bin/python3.5 runGG_Project.py
+git pull & /root/anaconda3/bin/python3.5 runGG_Project.py
 
 /root/tmux attach -t 
 
