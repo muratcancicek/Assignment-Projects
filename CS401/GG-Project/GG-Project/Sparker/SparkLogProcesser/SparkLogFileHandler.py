@@ -45,17 +45,20 @@ def getAllLogs(logs = None, folder = allRawLogsfolder):
         return logs
     return logs
 
-def getLogs(logs = None, fromFileName = TEST_LOGS):
+def getLogs(logs = None, fromFileName = TEST_LOGS, filterBots = True):
     global lastReadLogs
     if logs == None:
         if lastReadLogs != None and fromFileName == TEST_LOGS:
             return lastReadLogs
         else:
             logs = LogReader.getLogs(_sc, fromFileName)
-            logs2 = []
-            def botFilter(log):
-                return '_bot' in log.keys() and log['_bot'] == 0
-            return logs.filter(botFilter)
+            if filterBots:
+                logs2 = []
+                def botFilter(log):
+                    return '_bot' in log.keys() and log['_bot'] == 0
+                return logs.filter(botFilter)
+            else:
+                return logs
     else:
         return logs
 

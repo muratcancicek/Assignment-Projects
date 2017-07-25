@@ -43,20 +43,33 @@ def has_c(log):
         return True
     except KeyError:
         return False
-
-
+    
 def isRelevant(log):
     return isRelevantModule(log) and not isBot(log) and not has_t(log) and has_c(log) #
 
-def runNewExtractionMethods():
-    logsFile = joinPath(may17Folder, '2017-05-16/part-r-00000')
-    #logsFile = joinPath(clickstreamFolder, 'part-r-00000')
-    logs = readLogs(sc_(), logsFile, True)
-    print_(logs.first())
-    print_(logs.count())
-    #logs = logs.filter(isBot)
-    #print_(logs.count())
+def filterSaveLogs(fromPath, toPath):
+    logs = readLogs(sc_(), logsFile)# True
+    total = logs.count()
     logs = logs.filter(isRelevant)
-    print_(logs.count())
-    print_(logs.first())
+    filtered = logs.count()
+    print(filtered, 'logs has been filtered from', total, 'logs in total.')
+    saveRDDToHDFS(logs, toPath)
+
+def filteringTest():
+    #fromPath = joinPath(may17Folder, '2017-05-16/part-r-00000')
+    fromPath = joinPath(clickstreamFolder, 'part-r-00000')
+    toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
+    filterSaveLogs(fromPath, toPath)
     
+def get32Keywords():
+    keywords = open(joinPath(rankingFolder, 'keywords'), 'r').readlines()
+    print(keywords)
+
+
+def runNewExtractionMethods():
+    filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
+    logs = getLogs(None, filteredPath, False)
+    logs = logs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_SEARCH and KEY_KEYWORD in log.keys())
+    logs = logs.filter(lambda log: log[KEY_KEYWORD].lower()[:2] == 'be')
+    print(logs.count())
+    #get32Keywords()

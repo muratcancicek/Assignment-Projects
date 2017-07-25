@@ -62,3 +62,4 @@ export COMPUTERNAME=osldevptst02
 /root/anaconda3/bin/python3.5 runGG_Project.py
 
 /root/tmux attach -t 
+

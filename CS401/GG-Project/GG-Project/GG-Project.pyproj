@@ -249,6 +249,7 @@
     <Content Include="data\productToPoint\specs\SpecsValueMap.bson" />
     <Content Include="data\productToPoint\common\standardizedProducts.json" />
     <Content Include="data\output.txt" />
+    <Content Include="data\ranking\keywords" />
     <Content Include="data\ranking\logInfo\part-r-00000\part-r-00000.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfUniqueValues.json" />
     <Content Include="data\ranking\logInfo\part-r-00000\countsOfValues.json" />
