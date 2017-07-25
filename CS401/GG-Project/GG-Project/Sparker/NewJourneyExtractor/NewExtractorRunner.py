@@ -53,11 +53,11 @@ def filterSaveLogs(fromPath, toPath):
     logs = logs.filter(isRelevant)
     filtered = logs.count()
     print(filtered, 'logs has been filtered from', total, 'logs in total.')
-    saveRDDToHDFS(logs, toPath)
+    #saveRDDToHDFS(logs, toPath)
 
 def filteringTest():
-    #fromPath = joinPath(may17Folder, '2017-05-16/part-r-00000')
-    fromPath = joinPath(clickstreamFolder, 'part-r-00000')
+    fromPath = joinPath(may17Folder, '2017-05-16/part-r-00000')
+    #fromPath = joinPath(clickstreamFolder, 'part-r-00000')
     toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     filterSaveLogs(fromPath, toPath)
     
@@ -65,11 +65,13 @@ def get32Keywords():
     keywords = open(joinPath(rankingFolder, 'keywords'), 'r').readlines()
     print(keywords)
 
-
-def runNewExtractionMethods():
+def keywordsTests():
     filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     logs = getLogs(None, filteredPath, False)
     logs = logs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_SEARCH and KEY_KEYWORD in log.keys())
     logs = logs.filter(lambda log: log[KEY_KEYWORD].lower()[:2] == 'be')
     print(logs.count())
     #get32Keywords()
+
+def runNewExtractionMethods():
+    filteringTest()
