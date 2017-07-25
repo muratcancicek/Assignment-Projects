@@ -57,7 +57,7 @@ def filterSaveLogs(fromPath, toPath):
 
 def filteringTest():
     #fromPath = joinPath(may17Folder, '2017-05-16/part-r-00000')
-    fromPath = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16/part-r-00000'
+    fromPath = 'hdfs://osldevptst02.host.gittigidiyor.net:8888/user/root/searchlogs/2017-05-16/part-r-00000'
     #fromPath = joinPath(clickstreamFolder, 'part-r-00000')
     toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     filterSaveLogs(fromPath, toPath)
