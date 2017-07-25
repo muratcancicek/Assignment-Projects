@@ -67,7 +67,7 @@ allLogsPath = ''
 HDFSRootFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/'
 HDFSDataFolder = joinPath(HDFSRootFolder, 'data')
 
-may17Folder = 'hdfs://osldevptst02.host.gittigidiyor.net:8888/user/root/searchlogs/'
+may17Folder = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/'
 textTrainDataFolder = '/soe/cicekm/Projects/offlineData'
 
 if COMPUTERNAME == 'MSI': 
