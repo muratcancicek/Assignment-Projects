@@ -64,3 +64,34 @@ git pull & /root/anaconda3/bin/python3.5 runGG_Project.py
 
 /root/tmux attach -t 
 
+Details
+Type: Task
+Status:TO DO (View Workflow)
+Priority: Minor
+Resolution: Unresolved
+Labels:None
+Description
+Implementing learning to rank project for some keywords and selected features
+Attachments
+Drop files to attach, or browse.
+Sub-Tasks
+1.
+Generating Training Data	 Sub-task	TO DO	
+Muratcan Cicek (AWF)
+2.
+Cleaning Click Stream Data	 Sub-task	TO DO	
+Muratcan Cicek (AWF)
+3.
+Developing Ranking SVM Model	 Sub-task	TO DO	
+Muratcan Cicek (AWF)
+4.
+Training Model	 Sub-task	TO DO	
+Muratcan Cicek (AWF)
+5.
+Testing Model	 Sub-task	TO DO	
+Muratcan Cicek (AWF)
+6.
+Deploying Model	 Sub-task	TO DO	Unassigned	
+7.
+Feature Engineering not detailed	 Sub-task	TO DO	
+Muratcan Cicek (AWF)

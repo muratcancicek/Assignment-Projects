@@ -17,8 +17,8 @@ def getFixedEncodingValue(encoded):
     #encoded = encoded.decode("utf-8") 
     #encoded = encoded.encode('unicode-escape')
 
-    encoded = encoded.replace('%C4%9E', '?') # ?
-    encoded = encoded.replace('%C4%9F', '?') # ?
+    encoded = encoded.replace('%C4%9E', 'G') # Ğ
+    encoded = encoded.replace('%C4%9F', 'g') # ğ
     encoded = encoded.replace('%C3%87', 'C') # CH
     encoded = encoded.replace('%C3%A7', 'c') # ch
     encoded = encoded.replace('%C3%96', 'O') # O
