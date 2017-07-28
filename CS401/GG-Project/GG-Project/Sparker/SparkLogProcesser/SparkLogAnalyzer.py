@@ -340,18 +340,16 @@ def cookieChanged(previousLog, currentLog):
         return previousLog['_c'] != currentLog['_c']
 
 def groupLogsByCookie(logs):
-    #logs = LogReader.sortedLogs(logs)   
-    #logs = logs.groupBy(lambda log: log['_c'] if '_c' in list(log.keys()) else '0000')
-    #def parallelizeLogs(pair): 
-    #    return pair[1]
-    #return logs.map(parallelizeLogs)
-    groupedLogs = []
-    logs = logs.collect()
-    for i, log in enumerate(logs):
-        if i == 0 or cookieChanged(logs[i-1], log):
-            groupedLogs.append([])
-        groupedLogs[-1].append(log) 
-    groupedLogsRDD = []
-    for group in groupedLogs:
-        groupedLogsRDD.append(group)
-    return groupedLogsRDD
+    logs = LogReader.sortedLogs(logs)   
+    logs = logs.groupBy(lambda log: log['_c'] if '_c' in list(log.keys()) else '0000')    
+    return logs.map(lambda log: list(log[1])).collect()
+    #groupedLogs = []
+    #logs = logs.collect()
+    #for i, log in enumerate(logs):
+    #    if i == 0 or cookieChanged(logs[i-1], log):
+    #        groupedLogs.append([])
+    #    groupedLogs[-1].append(log) 
+    #groupedLogsRDD = []
+    #for group in groupedLogs:
+    #    groupedLogsRDD.append(group)
+    #return groupedLogsRDD

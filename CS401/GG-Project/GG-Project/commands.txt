@@ -64,6 +64,8 @@ git pull & /root/anaconda3/bin/python3.5 runGG_Project.py
 
 /root/tmux attach -t 
 
+cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project
+
 Details
 Type: Task
 Status:TO DO (View Workflow)

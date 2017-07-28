@@ -204,11 +204,11 @@
     <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueSets.bson" />
     <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueTypeCounts.bson" />
     <Content Include="data\productToPoint\commonFieldStatistics\values\commonFieldValueTypes.bson" />
-    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldList.bson" />
-    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
-    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueSets.bson" />
-    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueType.bson" />
-    <Content Include="data\productToPoint\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\original_commonFieldStatistics\original_commonFieldList.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\original_commonFieldStatistics\original_commonFieldValueLists.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\original_commonFieldStatistics\original_commonFieldValueSets.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\original_commonFieldStatistics\original_commonFieldValueType.bson" />
+    <Content Include="data\productToPoint\commonFieldStatistics\original_commonFieldStatistics\original_commonFieldValueTypeCounts.bson" />
     <Content Include="data\productToPoint\generated\test\groupedProducts.bson" />
     <Content Include="data\productToPoint\commonFieldStatistics\values\commonFields_Values.json" />
     <Content Include="data\productToPoint\common\expandedProducts.bson" />
@@ -282,7 +282,7 @@
     <Folder Include="data\ranking\" />
     <Folder Include="data\productToPoint\" />
     <Folder Include="data\productToPoint\specs\" />
-    <Folder Include="data\productToPoint\original_commonFieldStatistics\" />
+    <Folder Include="data\productToPoint\commonFieldStatistics\original_commonFieldStatistics\" />
     <Folder Include="data\productToPoint\raw\" />
     <Folder Include="data\ranking\logInfo\" />
     <Folder Include="data\ranking\logInfo\part-r-00000\" />
