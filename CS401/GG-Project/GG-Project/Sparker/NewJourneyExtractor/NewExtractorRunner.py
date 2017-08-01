@@ -28,7 +28,10 @@ def testExtractingLogsByKeywords(logs, keywords):
         print(keyword, searches.count(), productLogs.count())
 
 def keywordsTests():
-    filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
+    if len(sys.argv) == 2:
+        filteredPath = sys.argv[1]
+    else:
+        filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     logs = getLogs(None, filteredPath, False)
     keyword = 'tupperware'
     keywordDict = searchNProductLogsByKeywords(logs, keyword)

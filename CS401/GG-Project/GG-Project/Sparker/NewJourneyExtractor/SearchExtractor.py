@@ -43,20 +43,32 @@ def refererParser(rawReferer):
     return referer 
 
 def refererParserOnLog(log):
-    log[KEY_REFERER] = refererParser(log[KEY_REFERER])
+    if KEY_REFERER in log.keys():
+        log[KEY_REFERER] = refererParser(log[KEY_REFERER])
+    else:
+        log[KEY_REFERER] = {}
     return log
 
 def refersFromSearch(log):
-    referer = log[KEY_REFERER] if KEY_REFERER in log.keys() else {}
+    referer = log[KEY_REFERER] 
     referer = refererParser(log[KEY_REFERER]) if type(log[KEY_REFERER]) == str else log[KEY_REFERER]
     return 'page' in referer.keys() and referer['page'] == 'arama/' and 'k' in referer.keys()
 
-def productLogsBySearchCookies(logs, searches):
-    cookies = searches.map(lambda log: log[KEY_PERSISTENT_COOKIE]).distinct().collect()
-    return logs.filter(lambda log: isProduct(log) and log[KEY_PERSISTENT_COOKIE] in cookies)
+#def idsFromSearches(searches):
+#    fourIds = lambda log: (log[KEY_PERSISTENT_COOKIE], log[KEY_USER_ID_FROM_COOKIE], log[KEY_USER_ID], log[KEY_SESSION_ID])
+#    idTuplus = searches.map(fourIds).collect()
+#    ids = set()
+#    for tple in idTuplus:
+#        ids.union(tple)
+#    return ids
+
+#def productLogsBySearchCookies(logs, searches):
+#    ids = idsFromSearches(searches)
+#    return logs.filter(lambda log: isProduct(log) and log[KEY_PERSISTENT_COOKIE] in cookies)
  
 def productLogsBySearchReferers(logs, searches):
-    productLogs = productLogsBySearchCookies(logs, searches)
+    #productLogs = productLogsBySearchCookies(logs, searches)
+    productLogs = logs.filter(lambda log: isProduct(log))
     return productLogs.map(refererParserOnLog).filter(refersFromSearch)
 
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
