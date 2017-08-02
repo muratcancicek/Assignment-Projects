@@ -27,12 +27,21 @@ def testExtractingLogsByKeywords(logs, keywords):
     for keyword, (searches, productLogs) in keywordDict.items():
         print(keyword, searches.count(), productLogs.count())
 
+def readClickstreamFromHDFS():
+    filteredPath = sys.argv[1]
+    logs = readLogs(sc_(), fromPath, True)#
+    total = logs.count()
+    logs = logs.filter(isRelevant)
+    filtered = logs.count()
+    print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
+    return parseAllLogs(logs)
+
 def keywordsTests():
     if len(sys.argv) == 2:
-        filteredPath = sys.argv[1]
+        logs = readClickstreamFromHDFS()
     else:
         filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
-    logs = getLogs(None, filteredPath, False)
+        logs = getLogs(None, filteredPath, False)
     keywords = 'tupperware'#get32Keywords()
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     print(keywordDict)

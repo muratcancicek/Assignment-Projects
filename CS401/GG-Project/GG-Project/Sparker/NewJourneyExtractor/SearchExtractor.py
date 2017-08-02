@@ -19,9 +19,9 @@ def isSearch(log):
 def specificSearches(logs, keywords):
     searches = logs.filter(isSearch)
     if isinstance(keywords, str): 
-        keyword = keywords; return searches.filter(lambda log: log[KEY_KEYWORD].lower() == keyword)
+        keyword = keywords; return searches.filter(lambda log: str(log[KEY_KEYWORD]).lower() == keyword)
     else:
-        return searches.filter(lambda log: log[KEY_KEYWORD].lower() in keywords)
+        return searches.filter(lambda log: str(log[KEY_KEYWORD]).lower() in keywords)
 
 def findExistingSearchKeywords(filteredPath):
     logs = getLogs(None, filteredPath, False)
