@@ -42,3 +42,5 @@ def sessionize(logs):
     sessions = [sc_().parallelize(s) for s in sessions]
     return sessions
 
+def preferredProducts(searches, productLogs):
+    pass

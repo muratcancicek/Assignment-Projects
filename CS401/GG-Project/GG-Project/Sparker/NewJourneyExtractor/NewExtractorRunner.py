@@ -36,12 +36,7 @@ def readClickstreamFromHDFS():
     print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
     return parseAllLogs(logs)
 
-def keywordsTests():
-    if len(sys.argv) == 2:
-        logs = readClickstreamFromHDFS()
-    else:
-        filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
-        logs = getLogs(None, filteredPath, False)
+def keywordsTests(logs):
     keywords = 'tupperware'#get32Keywords()
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     print(keywordDict)
@@ -50,7 +45,17 @@ def keywordsTests():
         sessions = sessionize(keywordDict[v])
         for s in sessions:
             printActions(s)
+            
+def hdfsTests(logs):
+    total = logs.count()
+    print( total, 'logs in total by', nowStr())
 
 def runNewExtractionMethods():
+    if len(sys.argv) == 2:
+        logs = readClickstreamFromHDFS()
+        hdfsTests(logs)
+    else:
+        filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
+        logs = getLogs(None, filteredPath, False)
+        keywordsTests(logs)
     #filteringTest()
-    keywordsTests()
