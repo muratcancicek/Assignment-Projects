@@ -28,7 +28,7 @@ def testExtractingLogsByKeywords(logs, keywords):
         print(keyword, searches.count(), productLogs.count())
 
 def readClickstreamFromHDFS():
-    filteredPath = sys.argv[1]
+    fromPath = sys.argv[1]
     logs = readLogs(sc_(), fromPath, True)#
     total = logs.count()
     logs = logs.filter(isRelevant)
