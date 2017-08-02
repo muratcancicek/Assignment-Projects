@@ -47,7 +47,8 @@ def keywordsTests(logs):
         #    printActions(s)
             
 def hdfsTests(logs):
-    logs = logs.map(refererParserOnLog).map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
+    logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\
+    .map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
     #print(total, 'logs in total by', nowStr())
 
 def runNewExtractionMethods():
