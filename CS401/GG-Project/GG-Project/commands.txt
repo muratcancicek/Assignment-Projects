@@ -62,6 +62,9 @@ export COMPUTERNAME=osldevptst02
 /root/anaconda3/bin/python3.5 runGG_Project.py
 git pull & /root/anaconda3/bin/python3.5 runGG_Project.py
 
+python runGG_Project.py hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16
+python runGG_Project.py /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/data/ranking/clickstream/part-r-00000_filtered
+/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/NewJourneyExtractor/NewExtractorRunner.py
 /root/tmux attach -t 
 
 cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project

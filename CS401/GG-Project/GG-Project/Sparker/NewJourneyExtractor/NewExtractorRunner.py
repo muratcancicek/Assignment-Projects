@@ -33,11 +33,14 @@ def keywordsTests():
     else:
         filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     logs = getLogs(None, filteredPath, False)
-    keyword = 'tupperware'
-    keywordDict = searchNProductLogsByKeywords(logs, keyword)
-    sessions = sessionize(keywordDict[keyword])
-    for s in sessions:
-        printActions(s)
+    keywords = 'tupperware'#get32Keywords()
+    keywordDict = searchNProductLogsByKeywords(logs, keywords)
+    print(keywordDict)
+    for v in keywordDict:
+        print(v)
+        sessions = sessionize(keywordDict[v])
+        for s in sessions:
+            printActions(s)
 
 def runNewExtractionMethods():
     #filteringTest()

@@ -27,7 +27,7 @@ def findExistingSearchKeywords(filteredPath):
     logs = getLogs(None, filteredPath, False)
     logs = logs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_SEARCH and KEY_KEYWORD in log.keys())
     keywords32 = get32Keywords()
-    logs = logs.filter(lambda log: log[KEY_KEYWORD].lower() in keywords32)
+    logs = logs.filter(lambda log: str([KEY_KEYWORD]).lower() in keywords32)
     logs = logs.map(lambda log: log[KEY_KEYWORD])
     keywords = logs.distinct()
     print(keywords.count(), 'keywords has been found in data by', nowStr())
