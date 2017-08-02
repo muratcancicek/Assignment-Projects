@@ -47,8 +47,8 @@ def keywordsTests(logs):
         #    printActions(s)
             
 def hdfsTests(logs):
-    total = logs.count()
-    print(total, 'logs in total by', nowStr())
+    logs = logs.map(refererParserOnLog).map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
+    #print(total, 'logs in total by', nowStr())
 
 def runNewExtractionMethods():
     if len(sys.argv) == 2:
@@ -56,4 +56,5 @@ def runNewExtractionMethods():
     else:
         filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     logs = getLogs(None, filteredPath, False)
-    keywordsTests(logs)
+    #keywordsTests(logs)
+    hdfsTests(logs)

@@ -1,0 +1,91 @@
+[root@osldevptst02 GG-Project]# python runGG_Project.py hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered 
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-03 00:26:47.215099: Running on osldevptst02...
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/08/03 00:26:48 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/08/03 00:26:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/03 00:26:49 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+        
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered has been read successfully.
+152 searches and 16 product logs have been found for besiktas by 2017-08-03 00:30:25.046439
+8 searches and 0 product logs have been found for samsung galaxy s5 mini by 2017-08-03 00:33:40.462137
+[Stage 9:>                                                        (0 + 12) / 13]1000000 logs have been parsed by 2017-08-03 00:34:07.018351
+[Stage 11:>                                                       (0 + 12) / 13]1000000 logs have been parsed by 2017-08-03 00:35:56.026632
+1000000 logs have been parsed by 2017-08-03 00:35:56.490424
+1000000 logs have been parsed by 2017-08-03 00:36:08.695406
+[Stage 11:===================================================>    (12 + 1) / 13]1000000 logs have been parsed by 2017-08-03 00:36:44.389126
+476 searches and 31 product logs have been found for samsung galaxy j7 prime by 2017-08-03 00:37:03.225663
+[Stage 13:>                                                       (0 + 12) / 13]1000000 logs have been parsed by 2017-08-03 00:37:31.405126
+1000000 logs have been parsed by 2017-08-03 00:37:36.091325
+1000000 logs have been parsed by 2017-08-03 00:37:40.887126
+1000000 logs have been parsed by 2017-08-03 00:37:41.594954
+1000000 logs have been parsed by 2017-08-03 00:37:46.013001
+1000000 logs have been parsed by 2017-08-03 00:37:49.633266
+[Stage 13:========>                                               (2 + 11) / 13]1000000 logs have been parsed by 2017-08-03 00:37:52.496184
+399 searches and 63 product logs have been found for xiaomi by 2017-08-03 00:40:25.034216
+193 searches and 87 product logs have been found for kamp cadiri by 2017-08-03 00:43:40.961431
+[Stage 21:>                                                       (0 + 12) / 13]2000000 logs have been parsed by 2017-08-03 00:43:51.727587
+[Stage 23:>                                                       (0 + 12) / 13]2000000 logs have been parsed by 2017-08-03 00:45:25.246999
+2000000 logs have been parsed by 2017-08-03 00:45:28.746486
+7 searches and 3 product logs have been found for kirmizi converse by 2017-08-03 00:46:56.390079
+[Stage 25:>                                                       (0 + 12) / 13]2000000 logs have been parsed by 2017-08-03 00:47:07.390189
+2000000 logs have been parsed by 2017-08-03 00:47:08.551981
+2000000 logs have been parsed by 2017-08-03 00:47:08.641968
+2000000 logs have been parsed by 2017-08-03 00:47:12.135104
+2000000 logs have been parsed by 2017-08-03 00:47:14.208012
+[Stage 27:>                                                       (0 + 12) / 13]2000000 logs have been parsed by 2017-08-03 00:48:38.865268
+2000000 logs have been parsed by 2017-08-03 00:48:42.420231
+2000000 logs have been parsed by 2017-08-03 00:48:45.022486
+2000000 logs have been parsed by 2017-08-03 00:48:47.544434
+515 searches and 74 product logs have been found for iphone 7 by 2017-08-03 00:50:19.159961
+3 searches and 0 product logs have been found for galaxy s3 by 2017-08-03 00:53:39.937756
+[Stage 33:========>                                               (2 + 11) / 13]3000000 logs have been parsed by 2017-08-03 00:54:35.090155
+3000000 logs have been parsed by 2017-08-03 00:54:36.013710
+3000000 logs have been parsed by 2017-08-03 00:54:36.205866
+[Stage 35:>                                                       (0 + 12) / 13]3000000 logs have been parsed by 2017-08-03 00:55:51.235106
+[Stage 35:=================>                                       (4 + 9) / 13]3000000 logs have been parsed by 2017-08-03 00:56:16.464088
+1609 searches and 121 product logs have been found for nike air max by 2017-08-03 00:56:49.117398
+[Stage 37:>                                                       (0 + 12) / 13]3000000 logs have been parsed by 2017-08-03 00:57:25.813151
+[Stage 37:============>                                           (3 + 10) / 13]3000000 logs have been parsed by 2017-08-03 00:57:42.170924
+[Stage 37:=================>                                       (4 + 9) / 13]3000000 logs have been parsed by 2017-08-03 00:57:45.144298
+[Stage 37:=====================>                                   (5 + 8) / 13]3000000 logs have been parsed by 2017-08-03 00:57:46.838239
+[Stage 39:====>                                                   (1 + 12) / 13]3000000 logs have been parsed by 2017-08-03 00:59:19.816332
+[Stage 39:==========================>                              (6 + 7) / 13]3000000 logs have been parsed by 2017-08-03 00:59:28.473537
+[Stage 39:==============================>                          (7 + 6) / 13]3000000 logs have been parsed by 2017-08-03 00:59:30.352716
+153 searches and 42 product logs have been found for lg g4 by 2017-08-03 01:00:02.296048
+318 searches and 183 product logs have been found for sandalye kilifi by 2017-08-03 01:03:20.351183
+[Stage 45:>                                                       (0 + 12) / 13]4000000 logs have been parsed by 2017-08-03 01:03:46.411189
+[Stage 47:>                                                       (0 + 12) / 13]4000000 logs have been parsed by 2017-08-03 01:05:13.109453
+4000000 logs have been parsed by 2017-08-03 01:05:14.595252
+4000000 logs have been parsed by 2017-08-03 01:05:28.313454
+4000000 logs have been parsed by 2017-08-03 01:05:31.862111
+76 searches and 42 product logs have been found for dikey elektrikli supurge by 2017-08-03 01:06:33.817612
+[Stage 49:>                                                       (0 + 12) / 13]4000000 logs have been parsed by 2017-08-03 01:07:02.439945
+4000000 logs have been parsed by 2017-08-03 01:07:06.862858
+[Stage 51:>                                                       (0 + 12) / 13]4000000 logs have been parsed by 2017-08-03 01:08:33.327077
+4000000 logs have been parsed by 2017-08-03 01:08:44.311552
+4000000 logs have been parsed by 2017-08-03 01:08:45.401483
+0 searches and 0 product logs have been found for mani jeans kot pantalon by 2017-08-03 01:09:55.430209
+[Stage 53:>                                                       (0 + 12) / 13]4000000 logs have been parsed by 2017-08-03 01:10:23.998903
+4000000 logs have been parsed by 2017-08-03 01:10:26.591925
+83 searches and 21 product logs have been found for samsung galaxy s6 by 2017-08-03 01:13:18.780331
+[Stage 57:>                                                       (0 + 12) / 13]5000000 logs have been parsed by 2017-08-03 01:13:25.825092
+[Stage 57:=================>                                       (4 + 9) / 13]5000000 logs have been parsed by 2017-08-03 01:14:16.411259
+[Stage 59:>                                                       (0 + 12) / 13]5000000 logs have been parsed by 2017-08-03 01:14:56.087228
+5000000 logs have been parsed by 2017-08-03 01:15:00.265135
+2112 searches and 852 product logs have been found for stres carki by 2017-08-03 01:16:41.929209
+[Stage 61:>                                                       (0 + 12) / 13]5000000 logs have been parsed by 2017-08-03 01:16:47.215881
+[Stage 61:=====================>                                   (5 + 8) / 13]5000000 logs have been parsed by 2017-08-03 01:17:38.940141
+[Stage 63:>                                                       (0 + 12) / 13]5000000 logs have been parsed by 2017-08-03 01:18:22.021572
+5000000 logs have been parsed by 2017-08-03 01:18:23.69471

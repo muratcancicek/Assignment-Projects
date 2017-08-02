@@ -273,6 +273,7 @@
     <Content Include="DeepLearningToRank.ipynb" />
     <Content Include="DeepTrainer.ipynb" />
     <Content Include="GG-Project.ipynb" />
+    <Content Include="newOutputs.txt" />
     <Content Include="notes.txt" />
     <Content Include="UpdatedTrainDataGenerator.ipynb" />
   </ItemGroup>
