@@ -54,4 +54,4 @@ def filterSaveLogs(fromPath, toPath):
     logs = logs.filter(isRelevant)
     filtered = logs.count()
     print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
-    #saveRDDToHDFS(logs, toPath)
+    saveRDDToHDFS(logs, toPath)

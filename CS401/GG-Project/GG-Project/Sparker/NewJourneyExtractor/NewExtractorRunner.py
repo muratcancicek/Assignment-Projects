@@ -9,9 +9,9 @@ from LogProcesser.scalaToPython.python_codes.StringUtil import *
 
 def filteringTest():
     #fromPath = joinPath(may17Folder, '2017-05-16/part-r-00000')
-    fromPath = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16/part-r-00000.gz'
-    #fromPath = joinPath(clickstreamFolder, 'part-r-00000')
-    toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
+    fromPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16'
+    #fromPath = joinPath(clickstreamFolder, 'part-r-00000')joinPath(clickstreamFolder, 'part-r-00000_filtered')
+    toPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered'
     filterSaveLogs(fromPath, toPath)
 
 def get32Keywords():
@@ -52,10 +52,10 @@ def hdfsTests(logs):
 
 def runNewExtractionMethods():
     if len(sys.argv) == 2:
-        logs = readClickstreamFromHDFS()
-        hdfsTests(logs)
+        filteringTest()
+        #logs = readClickstreamFromHDFS()
+        #hdfsTests(logs)
     else:
         filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
         logs = getLogs(None, filteredPath, False)
         keywordsTests(logs)
-    #filteringTest()
