@@ -39,16 +39,16 @@ def readClickstreamFromHDFS():
 def keywordsTests(logs):
     keywords = get32Keywords()#'tupperware'
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
-    print(keywordDict)
     for v in keywordDict:
-        print(v)
-        sessions = sessionize(keywordDict[v])
+        print(keywordDict[v][0].coount(), 'searches and', keywordDict[v][1].coount(), 
+              'product logs have been found for', v, 'by', nowStr())
+        #sessions = sessionize(keywordDict[v])
         #for s in sessions:
         #    printActions(s)
             
 def hdfsTests(logs):
     total = logs.count()
-    print( total, 'logs in total by', nowStr())
+    print(total, 'logs in total by', nowStr())
 
 def runNewExtractionMethods():
     if len(sys.argv) == 2:
