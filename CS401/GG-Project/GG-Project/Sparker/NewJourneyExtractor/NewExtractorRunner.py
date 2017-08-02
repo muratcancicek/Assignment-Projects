@@ -40,7 +40,7 @@ def keywordsTests(logs):
     keywords = get32Keywords()#'tupperware'
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     for v in keywordDict:
-        print(keywordDict[v][0].coount(), 'searches and', keywordDict[v][1].coount(), 
+        print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
               'product logs have been found for', v, 'by', nowStr())
         #sessions = sessionize(keywordDict[v])
         #for s in sessions:
