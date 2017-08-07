@@ -26,3 +26,6 @@ def myXrange(i):
         
 def nowStr():
     return str(datetime.now())
+
+def uniqueList(l): 
+    return list(set(l))

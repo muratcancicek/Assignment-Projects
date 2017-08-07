@@ -18,10 +18,10 @@ def isSearch(log):
 
 def specificSearches(logs, keywords):
     searches = logs.filter(isSearch)
-    if isinstance(keywords, str): 
-        keyword = keywords; return searches.filter(lambda log: str(log[KEY_KEYWORD]).lower() == keyword)
+    if len(keywords) == 1: 
+        keyword = keywords[0]; return searches.filter(lambda log: KEY_ID_LIST in log.keys() and str(log[KEY_KEYWORD]).lower() == keyword)
     else:
-        return searches.filter(lambda log: str(log[KEY_KEYWORD]).lower() in keywords)
+        return searches.filter(lambda log: KEY_ID_LIST in log.keys() and str(log[KEY_KEYWORD]).lower() in keywords)
 
 def findExistingSearchKeywords(filteredPath):
     logs = getLogs(None, filteredPath, False)
@@ -48,38 +48,44 @@ def refererParserOnLog(log):
     else:
         log[KEY_REFERER] = {}
     return log
-
-def refersFromSearch(log):
-    referer = log[KEY_REFERER] 
-    referer = refererParser(log[KEY_REFERER]) if type(log[KEY_REFERER]) == str else log[KEY_REFERER]
-    return 'page' in referer.keys() and referer['page'] == 'arama/' and 'k' in referer.keys()
-
-#def idsFromSearches(searches):
-#    fourIds = lambda log: (log[KEY_PERSISTENT_COOKIE], log[KEY_USER_ID_FROM_COOKIE], log[KEY_USER_ID], log[KEY_SESSION_ID])
-#    idTuplus = searches.map(fourIds).collect()
-#    ids = set()
-#    for tple in idTuplus:
-#        ids.union(tple)
-#    return ids
-
-#def productLogsBySearchCookies(logs, searches):
-#    ids = idsFromSearches(searches)
-#    return logs.filter(lambda log: isProduct(log) and log[KEY_PERSISTENT_COOKIE] in cookies)
  
-def productLogsBySearchReferers(logs, searches):
-    #productLogs = productLogsBySearchCookies(logs, searches)
-    productLogs = logs.filter(lambda log: isProduct(log))
-    return productLogs.map(refererParserOnLog).filter(refersFromSearch)
+def specificProductLogs(logs, keywords):
+    def isProductLogsFromSearchOrItems(log):
+        if isProduct(log):
+            referer = refererParserOnLog(log)[KEY_REFERER] 
+            referer = refererParser(log[KEY_REFERER]) if type(log[KEY_REFERER]) == str else log[KEY_REFERER]
+            if log[KEY_MODULE] == KEY_MODULE_ITEM:
+                if 'page' in referer.keys() and referer['page'] == 'arama/' and 'k' in referer.keys():
+                    return referer['k'] in keywords
+                else:
+                    return False
+            elif log[KEY_MODULE] == KEY_MODULE_CART:
+                return 'page' in referer.keys() and str(log[KEY_ID]) in referer['page']
+            elif log[KEY_MODULE] == KEY_MODULE_PAYMENT:
+                return True
+        else:
+            False
+    return logs.filter(isProductLogsFromSearchOrItems)
+
+def productLogsFromBySingleKeyword(searches, productLogs, keyword):
+    listedIds = uniqueList(searches.map(lambda log: log[KEY_ID_LIST]).reduce(lambda a, b: a+b))
+    viewedProductLogs = productLogs.filter(lambda log: log[KEY_ID] in listedIds \
+        and log[KEY_MODULE] == KEY_MODULE_ITEM and log[KEY_REFERER]['k'] == keyword)
+    viewedIds = viewedProductLogs.map(lambda log: log[KEY_ID]).distinct().collect()
+    cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_ID] in viewedIds \
+        and log[KEY_MODULE] == KEY_MODULE_CART or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
+    return viewedProductLogs.union(cartedOrPaidProductLogs)
 
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     searches = searches.filter(lambda log: log[KEY_KEYWORD] == keyword)
-    productLogs = productLogs.filter(lambda log: log[KEY_REFERER]['k'] == keyword)
+    if searches.count() == 0:
+        return (searches, sc_().parallelize([]))
+    productLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
     return (searches, productLogs)
 
 def searchNProductLogsByKeywords(logs, keywords):
-    searches = specificSearches(logs, keywords)
-    productLogs = productLogsBySearchReferers(logs, searches)
     if isinstance(keywords, str): 
-        keyword = keywords; return {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword)}
-    else:
-        return {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword) for keyword in keywords}
+        keywords = [keywords]
+    searches = specificSearches(logs, keywords)
+    productLogs = specificProductLogs(logs, keywords)
+    return {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword) for keyword in keywords}

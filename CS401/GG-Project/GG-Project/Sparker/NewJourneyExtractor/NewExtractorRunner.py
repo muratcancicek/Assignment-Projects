@@ -47,10 +47,15 @@ def keywordsTests(logs):
         #    printActions(s)
             
 def hdfsTests(logs):
-    logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\
-    .map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
-    logs = logs.map(refererParserOnLog).filter(isProduct)\
-    .map(lambda log: log[KEY_REFERER]).distinct().foreach(print)
+    #logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\
+    #.map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
+    #logs = logs.map(refererParserOnLog).filter(isProduct)\
+    #.map(lambda log: log[KEY_REFERER]).distinct().foreach(print).foreach(print)[:-len(str([KEY_ID]))]
+    logs = logs.map(refererParserOnLog).filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART)
+    print(logs.count(), 'logs in total by', nowStr())
+    logs = logs.filter(lambda log: str(log[KEY_ID]) in log[KEY_REFERER]['page'])
+    print(logs.count(), 'logs in total by', nowStr())
+    logs = logs.map(lambda log: log[KEY_REFERER])
     #print(total, 'logs in total by', nowStr())
 
 def runNewExtractionMethods():
@@ -59,5 +64,5 @@ def runNewExtractionMethods():
     else:
         filteredPath = joinPath(clickstreamFolder, 'part-r-00000_filtered')
     logs = getLogs(None, filteredPath, False)
-    #keywordsTests(logs)
-    hdfsTests(logs)
+    keywordsTests(logs)
+    #hdfsTests(logs)
