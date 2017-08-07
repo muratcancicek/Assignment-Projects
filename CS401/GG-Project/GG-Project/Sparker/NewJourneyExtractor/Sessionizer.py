@@ -4,6 +4,7 @@ from LogProcesser.scalaToPython.python_codes.LumberjackConstants import *
 
 KEY_FOUR_IDS = '_trib'
 KEY_ORIGINAL_PERSISTENT_COOKIE = '__c'
+
 def idSetter(log):
     log[KEY_ORIGINAL_PERSISTENT_COOKIE] = log[KEY_PERSISTENT_COOKIE]
     if not KEY_USER_ID_FROM_COOKIE in log.keys():
@@ -17,8 +18,8 @@ def idSetter(log):
 
 def sessionize(logs):
     if isinstance(logs, tuple):
-        (searches, productLogs) = logs
-        logs = searches.union(productLogs)
+        (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
+        logs = searches.union(viewedProductLogs).union(cartedOrPaidProductLogs)
     logs = logs.map(idSetter).collect()
     idSets = []
     sessions = []
@@ -41,6 +42,13 @@ def sessionize(logs):
     print_(len(sessions), 'sessions have been found')
     sessions = [sc_().parallelize(s) for s in sessions]
     return sessions
+
+def sessionize2(logs):
+    (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
+    searches = searches.map(idSetter)
+    viewedProductLogs = viewedProductLogs.map(idSetter)
+    cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(idSetter)
+    #views productLogs.
 
 def preferredProducts(searches, productLogs):
     pass

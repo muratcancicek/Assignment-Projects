@@ -87,14 +87,14 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
                         return True
             return log[KEY_ID] in viewedIds 
     cartedOrPaidProductLogs = cartedOrPaidProductLogs.filter(isViewed)
-    return viewedProductLogs.union(cartedOrPaidProductLogs)
+    return viewedProductLogs, cartedOrPaidProductLogs
 
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     searches = searches.filter(lambda log: log[KEY_KEYWORD] == keyword)
     if searches.count() == 0:
         return (searches, sc_().parallelize([]))
-    productLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
-    return (searches, productLogs)
+    viewedProductLogs, cartedOrPaidProductLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
+    return (searches, viewedProductLogs, cartedOrPaidProductLogs)
 
 def searchNProductLogsByKeywords(logs, keywords):
     if isinstance(keywords, str): 
