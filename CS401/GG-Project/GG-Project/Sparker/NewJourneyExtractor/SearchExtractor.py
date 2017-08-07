@@ -72,8 +72,20 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     viewedProductLogs = productLogs.filter(lambda log: log[KEY_ID] in listedIds \
         and log[KEY_MODULE] == KEY_MODULE_ITEM and log[KEY_REFERER]['k'] == keyword)
     viewedIds = viewedProductLogs.map(lambda log: log[KEY_ID]).distinct().collect()
-    cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_ID] in viewedIds \
-        and log[KEY_MODULE] == KEY_MODULE_CART or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
+    cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART \
+        or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
+    def isViewed(log):
+        if isinstance(log[KEY_ID], int):
+            return log[KEY_ID] in viewedIds 
+        if isinstance(log[KEY_ID], str):
+            if '%' in log[KEY_ID]:
+                processedIds = [i for i in log[KEY_ID].split('%')]
+                for i in processedIds:
+                    if i in viewedIds:
+                        print("print")
+                        return True
+            return log[KEY_ID] in viewedIds 
+    cartedOrPaidProductLogs = cartedOrPaidProductLogs.filter(isViewed)
     return viewedProductLogs.union(cartedOrPaidProductLogs)
 
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):

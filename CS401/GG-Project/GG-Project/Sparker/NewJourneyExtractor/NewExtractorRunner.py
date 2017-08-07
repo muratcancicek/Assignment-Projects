@@ -37,14 +37,14 @@ def readClickstreamFromHDFS():
     return parseAllLogs(logs)
 
 def keywordsTests(logs):
-    keywords = get32Keywords()#'tupperware'
+    keywords = get5Keywords() # 'tupperware' # get32Keywords() #
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     for v in keywordDict:
         print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
               'product logs have been found for', v, 'by', nowStr())
-        #sessions = sessionize(keywordDict[v])
-        #for s in sessions:
-        #    printActions(s)
+        sessions = sessionize(keywordDict[v])
+        for s in sessions:
+            printActions(s)
             
 def hdfsTests(logs):
     #logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\

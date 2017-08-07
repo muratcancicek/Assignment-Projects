@@ -58,13 +58,17 @@ def getActionStringForProductLog(log, productIndex, lastSearchIndexWithId):
         action = 'added to the cart%s.'
     sentence = 'Product with id %i %s%s'
     if lastSearchIndexWithId == -1 or productIndex == -1:
-        return sentence % (log['id'], action % (' not from the searches so far'), title)
+        try:
+            return sentence % (int(log['id']), action % (' not from the searches so far'), title)
+        except ValueError:
+            print_(log)
+            raise ValueError
     sentence = '%i. ' + sentence
     if lastSearchIndexWithId == 0:
         action = action % ('')
     else:
         action = action % (' from the recent %i. search' % (lastSearchIndexWithId + 1))
-    return sentence % (productIndex + 1, log['id'], action, title)
+    return sentence % (productIndex + 1, int(log['id']), action, title)
 
 def getActionForSearch(search, previousLog):
     action = Action.SEARCH_NEW

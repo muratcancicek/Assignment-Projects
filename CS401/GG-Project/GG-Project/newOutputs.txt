@@ -89,3 +89,50 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered has
 [Stage 61:=====================>                                   (5 + 8) / 13]5000000 logs have been parsed by 2017-08-03 01:17:38.940141
 [Stage 63:>                                                       (0 + 12) / 13]5000000 logs have been parsed by 2017-08-03 01:18:22.021572
 5000000 logs have been parsed by 2017-08-03 01:18:23.69471
+
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project>python runGG_Project.py
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-07 16:06:17.854438: Running on MSI...
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/08/07 16:06:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered has been read successfully.
+0 searches and 0 product logs have been found for lenovo k6 note by 2017-08-07 16:08:45.768256
+1 searches and 73 product logs have been found for galaxy s3 by 2017-08-07 16:08:55.216370
+0 searches and 0 product logs have been found for samsung galaxy s5 mini by 2017-08-07 16:09:00.390127
+0 searches and 0 product logs have been found for xiaomi mi5 by 2017-08-07 16:09:06.204272
+0 searches and 0 product logs have been found for besiktas by 2017-08-07 16:09:11.260896
+0 searches and 0 product logs have been found for jbl hoparlor by 2017-08-07 16:09:16.461005
+0 searches and 0 product logs have been found for dikey elektrikli supurge by 2017-08-07 16:09:21.553677
+0 searches and 0 product logs have been found for bisiklet by 2017-08-07 16:09:26.647169
+0 searches and 0 product logs have been found for buzdolabi by 2017-08-07 16:09:31.828281
+0 searches and 0 product logs have been found for sandalye kilifi by 2017-08-07 16:09:37.018147
+7 searches and 83 product logs have been found for tupperware by 2017-08-07 16:09:46.667637
+0 searches and 0 product logs have been found for kot pantalon by 2017-08-07 16:09:51.777322
+0 searches and 0 product logs have been found for iphone 7 kilif by 2017-08-07 16:09:56.883044
+0 searches and 0 product logs have been found for mani jeans kot pantalon by 2017-08-07 16:10:02.136543
+0 searches and 0 product logs have been found for beko 9 kg camasir makinesi by 2017-08-07 16:10:07.476301
+0 searches and 0 product logs have been found for iphone 7 by 2017-08-07 16:10:12.626801
+0 searches and 0 product logs have been found for kol saati by 2017-08-07 16:10:17.806721
+0 searches and 0 product logs have been found for samsung galaxy j7 prime by 2017-08-07 16:10:22.876521
+0 searches and 0 product logs have been found for adidas by 2017-08-07 16:10:28.136748
+0 searches and 0 product logs have been found for samsung by 2017-08-07 16:10:33.239873
+0 searches and 0 product logs have been found for kamp cadiri by 2017-08-07 16:10:38.352949
+0 searches and 0 product logs have been found for zigon sehpa by 2017-08-07 16:10:43.447737
+0 searches and 0 product logs have been found for kirmizi converse by 2017-08-07 16:10:48.823158
+4 searches and 73 product logs have been found for lg g4 by 2017-08-07 16:10:58.503688
+0 searches and 0 product logs have been found for kiz cocuk abiye elbise by 2017-08-07 16:11:03.789806
+0 searches and 0 product logs have been found for avon kadin parfum by 2017-08-07 16:11:08.876332
+1 searches and 73 product logs have been found for nike air max by 2017-08-07 16:11:18.370094
+0 searches and 0 product logs have been found for kadin parfum by 2017-08-07 16:11:23.614836
+1 searches and 73 product logs have been found for samsung galaxy s6 by 2017-08-07 16:11:33.170774
+0 searches and 0 product logs have been found for xiaomi by 2017-08-07 16:11:38.410683
+0 searches and 0 product logs have been found for vestel camasir makinesi by 2017-08-07 16:11:43.739216
+0 searches and 0 product logs have been found for stres carki by 2017-08-07 16:11:48.988374
+2017-08-07 16:11:48.990876: DONE
+########################################################################################
+########################################################################################
+########################################################################################
