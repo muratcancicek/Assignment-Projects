@@ -72,37 +72,6 @@ python runGG_Project.py hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root
 
 cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project
 
-Details
-Type: Task
-Status:TO DO (View Workflow)
-Priority: Minor
-Resolution: Unresolved
-Labels:None
-Description
-Implementing learning to rank project for some keywords and selected features
-Attachments
-Drop files to attach, or browse.
-Sub-Tasks
-1.
-Generating Training Data	 Sub-task	TO DO	
-Muratcan Cicek (AWF)
-2.
-Cleaning Click Stream Data	 Sub-task	TO DO	
-Muratcan Cicek (AWF)
-3.
-Developing Ranking SVM Model	 Sub-task	TO DO	
-Muratcan Cicek (AWF)
-4.
-Training Model	 Sub-task	TO DO	
-Muratcan Cicek (AWF)
-5.
-Testing Model	 Sub-task	TO DO	
-Muratcan Cicek (AWF)
-6.
-Deploying Model	 Sub-task	TO DO	Unassigned	
-7.
-Feature Engineering not detailed	 Sub-task	TO DO	
-Muratcan Cicek (AWF)
 
 ('1dfa7461b110b09c06db83d7e7f61d1e911d969568281802d499cbe02db1c8e6', '668995212aade189a93973ff007c0adc9f004550f196eca582980011ffd3872', '1dfa7461b110b09c06db83d7e7f61d1e911d969568281802d499cbe02db1c8e6')
 ('1dfa7461b110b09c06db83d7e7f61d1e911d969568281802d499cbe02db1c8e6', '668995212aade189a93973ff007c0adc9f004550f196eca582980011ffd3872', '1dfa7461b110b09c06db83d7e7f61d1e911d969568281802d499cbe02db1c8e6')

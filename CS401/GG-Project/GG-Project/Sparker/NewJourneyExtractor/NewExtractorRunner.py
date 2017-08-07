@@ -37,7 +37,7 @@ def readClickstreamFromHDFS():
     return parseAllLogs(logs)
 
 def keywordsTests(logs):
-    keywords = get5Keywords() # 'tupperware' # get32Keywords() #
+    keywords = 'tupperware' # get32Keywords() #get5Keywords() # 
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     for v in keywordDict:
         print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
