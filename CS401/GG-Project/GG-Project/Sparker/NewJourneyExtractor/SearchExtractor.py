@@ -80,7 +80,7 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
         if isinstance(log[KEY_ID], str):
             if '%7C' in log[KEY_ID]:
                 #print(log[KEY_ID])
-                processedIds = [int(i) for i in log[KEY_ID].split('%%7C')]
+                processedIds = [int(i) for i in log[KEY_ID].split('%7C')]
                 for i in processedIds:
                     if i in viewedIds:
                         print("print")
