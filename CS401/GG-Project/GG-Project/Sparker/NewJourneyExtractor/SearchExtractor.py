@@ -94,6 +94,8 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     if searches.count() == 0:
         return (searches, sc_().parallelize([]))
     viewedProductLogs, cartedOrPaidProductLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
+    print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
+           'cart and payments have found for', keyword, 'by', nowStr())
     return (searches, viewedProductLogs, cartedOrPaidProductLogs)
 
 def searchNProductLogsByKeywords(logs, keywords):

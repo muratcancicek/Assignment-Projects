@@ -50,8 +50,8 @@ def parseLog(log):
         log["time"] = str(datetime.datetime.fromtimestamp(int(log["timestamp"])/ 1e3))
     global parseCounter
     parseCounter += 1
-    if parseCounter % 1000000 == 0: 
-        print_('%i logs have been parsed by %s' % (parseCounter, nowStr()))
+    #if parseCounter % 1000000 == 0: 
+    #    print_('%i logs have been parsed by %s' % (parseCounter, nowStr()))
     return log
 
 def parseAllLogs(logs):
