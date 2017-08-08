@@ -34,6 +34,7 @@ def findExistingSearchKeywords(filteredPath):
     return keywords.collect()
 
 def refererParser(rawReferer):
+    if isinstance(rawReferer, dict): return rawReferer
     rawReferer = convertTrChars(urllib.parse.unquote_plus(urllib.parse.unquote_plus(rawReferer)))
     scheme, authority, path, params, query, frag = urlparse(rawReferer) 
     query = [p.split('=') for p in query.split('&')]

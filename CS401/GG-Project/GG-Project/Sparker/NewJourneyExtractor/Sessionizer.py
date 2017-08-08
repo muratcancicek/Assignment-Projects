@@ -1,4 +1,5 @@
 from MainSrc.PythonVersionHandler import *
+from Sparker.NewJourneyExtractor.SearchExtractor import *
 from Sparker.SparkLogProcesser.SparkLogFileHandler import *
 from LogProcesser.scalaToPython.python_codes.LumberjackConstants import *
 
@@ -39,9 +40,26 @@ def sessionize(logs):
             log[KEY_PERSISTENT_COOKIE] =  str(l+1 if l > 0 else l)
             sessions.append([log])
             idSets.append(set(log[KEY_FOUR_IDS]))
-    print_(len(sessions), 'sessions have been found')
-    sessions = [sc_().parallelize(s) for s in sessions]
-    return sessions
+    print_(len(sessions), 'sessions have been found in total by', nowStr())
+    usefulSessions = []
+    for s in sessions:
+        se, pr = False, False
+        for l in s:
+            if isinstance(l, list):
+                print_(l)
+            if isProduct(l):
+                if se:
+                    usefulSessions.append(s)
+                    break
+                else: pr = True
+            elif isSearch(l):
+                if pr:
+                    usefulSessions.append(s)
+                    break
+                else: se = True
+    print_(len(usefulSessions), 'sessions have been found useful by', nowStr())
+    usefulSessions = [sc_().parallelize(s) for s in usefulSessions]
+    return usefulSessions
 
 def sessionize2(logs):
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs

@@ -21,6 +21,18 @@ def get32Keywords():
 
 def get5Keywords():
     return ['lg g4', 'samsung galaxy s6', 'galaxy s3', 'nike air max', 'tupperware']
+            
+def hdfsTests(logs):
+    #logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\
+    #.map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
+    #logs = logs.map(refererParserOnLog).filter(isProduct)\
+    #.map(lambda log: log[KEY_REFERER]).distinct().foreach(print).foreach(print)[:-len(str([KEY_ID]))]
+    logs = logs.map(refererParserOnLog).filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART)
+    print(logs.count(), 'logs in total by', nowStr())
+    logs = logs.filter(lambda log: str(log[KEY_ID]) in log[KEY_REFERER]['page'])
+    print(logs.count(), 'logs in total by', nowStr())
+    logs = logs.map(lambda log: log[KEY_REFERER])
+    #print(total, 'logs in total by', nowStr())
 
 def testExtractingLogsByKeywords(logs, keywords):
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
@@ -41,8 +53,8 @@ def keywordsSessionizingTest(keywordDict):
         #print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
         #      'product logs have been found for', v, 'by', nowStr())
         sessions = sessionize(keywordDict[v])
-        #for s in sessions:
-        #    printActions(s)
+        for s in sessions:
+            printActions(s)
 
 def keywordsSavingTest(keywordDict):
     objectiveLogs = sc_().parallelize([])
@@ -56,24 +68,12 @@ def keywordsSavingTest(keywordDict):
     saveRDDToHDFS(objectiveLogs, toPath)
 
 def keywordsTests(logs):
-    keywords = get32Keywords() # 'tupperware' # get5Keywords() # 
+    keywords = 'tupperware' # get32Keywords() # get5Keywords() # 
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
-    keywordsSavingTest(keywordDict)
-    #keywordsSessionizingTest(keywordDict)
-            
-def hdfsTests(logs):
-    #logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\
-    #.map(lambda log: log[KEY_REFERER]['page']).distinct().foreach(print)
-    #logs = logs.map(refererParserOnLog).filter(isProduct)\
-    #.map(lambda log: log[KEY_REFERER]).distinct().foreach(print).foreach(print)[:-len(str([KEY_ID]))]
-    logs = logs.map(refererParserOnLog).filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART)
-    print(logs.count(), 'logs in total by', nowStr())
-    logs = logs.filter(lambda log: str(log[KEY_ID]) in log[KEY_REFERER]['page'])
-    print(logs.count(), 'logs in total by', nowStr())
-    logs = logs.map(lambda log: log[KEY_REFERER])
-    #print(total, 'logs in total by', nowStr())
+    #keywordsSavingTest(keywordDict)
+    keywordsSessionizingTest(keywordDict)
 
-def runNewExtractionMethods():
+def searchesExtractionTests(logs):
     if len(sys.argv) == 2:
         filteredPath = sys.argv[1]
     else:
@@ -81,3 +81,27 @@ def runNewExtractionMethods():
     logs = getLogs(None, filteredPath, False)
     keywordsTests(logs)
     #hdfsTests(logs)
+    
+def mergeAllParsedLogLines(inputFolder, outputFileName):
+    f = open(outputFileName, 'w')
+    inputFolderList = os.listdir(inputFolder)
+    for i, fileName in enumerate(inputFolderList):
+        if fileName == '_SUCCESS':
+            continue
+        fileName = joinPath(inputFolder, fileName)        
+        part = open(fileName, 'r')
+        for line in part:
+                f.write(line) 
+    f.close() 
+    print_(outputFileName + ' has been written successfully.')
+
+def mergingTest():
+    extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server')
+    outputPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
+    mergeAllParsedLogLines(extractedPath, outputPath)
+    print_(outputPath, 'has', logs.count(), 'logs.')
+
+def runNewExtractionMethods():
+    extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
+    logs = readParsedLogsFromHDFS(extractedPath)
+    keywordsTests(logs)

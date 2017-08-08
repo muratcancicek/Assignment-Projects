@@ -61,8 +61,8 @@ def getActionStringForProductLog(log, productIndex, lastSearchIndexWithId):
         try:
             return sentence % (int(log['id']), action % (' not from the searches so far'), title)
         except ValueError:
-            print_(log)
-            raise ValueError
+            li = [int(i) for i in log['id'].split('%7C')]
+            return sentence % (int(li[0]), action % (' or ' + str(li[1:]) + ' not from the searches so far'), title)
     sentence = '%i. ' + sentence
     if lastSearchIndexWithId == 0:
         action = action % ('')
