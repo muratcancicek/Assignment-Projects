@@ -15,6 +15,7 @@ def print_(*args):
         line += str(ar) + ' '
     line = line[:-1]+'\n'
     print(line[:-1])
+    global WRITE_OUTPUTS
     if WRITE_OUTPUTS:
         outputFileName = paths.joinPath(paths.dataFolder, 'output3.txt')
         if os.path.isfile(outputFileName):

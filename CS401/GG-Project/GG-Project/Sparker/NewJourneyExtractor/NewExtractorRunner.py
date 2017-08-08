@@ -53,6 +53,7 @@ def keywordsSessionizingTest(keywordDict):
         #print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
         #      'product logs have been found for', v, 'by', nowStr())
         sessions = sessionize(keywordDict[v])
+        global WRITE_OUTPUTS
         WRITE_OUTPUTS = False
         for s in sessions:
             printSessionActions(s)
