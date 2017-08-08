@@ -120,4 +120,4 @@ def runNewExtractionMethods():
     #extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
     #logs = readParsedLogsFromHDFS(extractedPath)
     #keywordsTests(logs)
-    #botTest()
+    botTest()
