@@ -46,7 +46,7 @@ def has_c(log):
         return False
     
 def isRelevant(log):
-    return isRelevantModule(log) and not isBot(log) and not has_t(log)# and has_c(log) 
+    return isRelevantModule(log) and not isBot(log) and not has_t(log) and has_c(log) #
 
 def filterSaveLogs(fromPath, toPath):
     logs = readLogs(sc_(), fromPath, True)#
@@ -54,4 +54,4 @@ def filterSaveLogs(fromPath, toPath):
     logs = logs.filter(isRelevant)
     filtered = logs.count()
     print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
-    saveRDDToHDFS(logs, toPath)
+    #saveRDDToHDFS(logs, toPath)
