@@ -46,7 +46,7 @@ def has_c(log):
         return False
     
 def isRelevant(log):
-    return isRelevantModule(log) and not isBot(log) and not has_t(log) and has_c(log) #
+    return isRelevantModule(log) and not isBot(log) and not has_t(log)# and has_c(log) 
 
 def filterSaveLogs(fromPath, toPath):
     logs = readLogs(sc_(), fromPath, True)#

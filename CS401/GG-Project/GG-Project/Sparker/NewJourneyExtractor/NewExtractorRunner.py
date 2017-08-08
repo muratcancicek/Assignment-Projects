@@ -11,7 +11,7 @@ def filteringTest():
     #fromPath = joinPath(may17Folder, '2017-05-16/part-r-00000')
     fromPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16'
     #fromPath = joinPath(clickstreamFolder, 'part-r-00000')joinPath(clickstreamFolder, 'part-r-00000_filtered')
-    toPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered'
+    toPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered_wtc'
     filterSaveLogs(fromPath, toPath)
 
 def get32Keywords():
@@ -105,6 +105,7 @@ def mergingTest():
     print_(outputPath, 'has', logs.count(), 'logs.')
 
 def runNewExtractionMethods():
-    extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
-    logs = readParsedLogsFromHDFS(extractedPath)
-    keywordsTests(logs)
+    #extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
+    #logs = readParsedLogsFromHDFS(extractedPath)
+    #keywordsTests(logs)
+    filteringTest()
