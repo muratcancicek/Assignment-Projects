@@ -105,7 +105,7 @@ def mergingTest():
     print_(outputPath, 'has', logs.count(), 'logs.')
 
 def botTest():
-    fromPath = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16'
+    fromPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16'
     logs = readLogs(sc_(), fromPath, True)#
     total = logs.count()
     logs = logs.filter(lambda l: not '_bot=' in l)
