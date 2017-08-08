@@ -111,7 +111,7 @@ def botTest():
     def b(l):
         i = l.find('_bot=')
         return l[i:i+6]
-    logs = logs.filter(lambda l: not '_bot=' in l).map(b).distinct()
+    logs = logs.filter(lambda l: '_bot=' in l).map(b).distinct()
     logs.foreach(print)
     filtered = logs.count()
     print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
