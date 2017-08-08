@@ -171,3 +171,29 @@ def printLogs(logs, orderedKeys = None, colorMap = {}, group = True):
 
 def printActions(logs, orderedKeys = None, colorMap = {}, group = True):
     printJourney(logs, printLogs = False, group = group)
+
+def printSession(logs, printActions = True, printLogs = True, orderedKeys = None, colorMap = {}):
+    print_(green('Session begins...'))
+    for i, log in enumerate(logs):
+        if 'module' in log.keys():
+            color = None
+            if log['module'] in ['cart', 'payment']:
+                color = blue
+            elif log['module'] == 'item':
+                color = pink
+            elif log['module'] == 'newsession':
+                color = green
+            elif not log['module'] in ['newsession', 'search', 'item' 'cart', 'payment']:
+                color = darkCyan
+            if printActions:
+                Actions.printAction(i, logs, color, not printLogs)
+            if printLogs:
+                #print_(logToStr(log, orderedKeys, colorMap, color))
+                print_(logToStr(log, orderedKeys, colorMap, color))
+    print_(green('Session end.'))
+
+def printSessionLogs(logs, orderedKeys = None, colorMap = {}):
+    printSession(logs, printActions = False)
+
+def printSessionActions(logs, orderedKeys = None, colorMap = {}):
+    printSession(logs, printLogs = False)

@@ -54,7 +54,7 @@ def keywordsSessionizingTest(keywordDict):
         #      'product logs have been found for', v, 'by', nowStr())
         sessions = sessionize(keywordDict[v])
         for s in sessions:
-            printActions(s)
+            printSessionActions(s)
 
 def keywordsSavingTest(keywordDict):
     objectiveLogs = sc_().parallelize([])

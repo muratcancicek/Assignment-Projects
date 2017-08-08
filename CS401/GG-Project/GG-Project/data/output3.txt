@@ -2740,3 +2740,71 @@ D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\rankin
 [95m2017-05-16 10:23:43.565000: Product with id 272035603 clicked not from the searches so far. (tupperware buzdolabi seti 7 li for cookie 36.[0m
 [95m2017-05-16 10:23:44.946000: Product with id 277738230 clicked not from the searches so far. (TUPPERWARE DURU ZEYTINYAGLIK 1 LT for cookie 36.[0m
 [95m2017-05-16 10:23:46.193000: 11. Product with id 282174100 clicked. (Tupperware Mikrofiber Oto Parlat for cookie 36.[0m
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-08 23:20:05.362683: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file has been read by 2017-08-08 23:20:08.520527
+682 searches, 110 views, 18 cart and payments have found for tupperware by 2017-08-08 23:20:49.444573
+95 sessions have been found in total by 2017-08-08 23:21:00.729562
+22 sessions have been found useful by 2017-08-08 23:21:00.732051
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-08 23:23:03.870004: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file has been read by 2017-08-08 23:23:06.998723
+682 searches, 110 views, 18 cart and payments have found for tupperware by 2017-08-08 23:23:47.472408
+95 sessions have been found in total by 2017-08-08 23:23:58.619489
+22 sessions have been found useful by 2017-08-08 23:23:58.620978
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-08 23:24:58.179977: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file has been read by 2017-08-08 23:25:02.377622
+682 searches, 110 views, 18 cart and payments have found for tupperware by 2017-08-08 23:25:43.078176
+95 sessions have been found in total by 2017-08-08 23:25:54.477921
+22 sessions have been found useful by 2017-08-08 23:25:54.479422
+[92mSession begins...[0m
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-08 23:26:51.033223: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file has been read by 2017-08-08 23:26:54.244207
+682 searches, 110 views, 18 cart and payments have found for tupperware by 2017-08-08 23:27:34.627142
+95 sessions have been found in total by 2017-08-08 23:27:45.647913
+22 sessions have been found useful by 2017-08-08 23:27:45.650899
+[92mSession begins...[0m
+2017-05-16 20:10:38.091000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 2.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 20:05:05.311000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:07:47.524000: Page extended, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:07:56.634000: Next Page, Showing 60 products with order wbm on page 4 for tupperware for cookie 1.
+2017-05-16 23:40:39.759000: Next Page, Showing 60 products with order wbm on page 61 for tupperware for cookie 1.
+2017-05-16 23:33:41.118000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 20:09:33.807000: Page narrowed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:36:06.354000: Next Page, Showing 60 products with order wbm on page 36 for tupperware for cookie 1.
+2017-05-16 16:18:04.079000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 20:07:58.789000: Page narrowed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:35:23.694000: Next Page, Showing 60 products with order wbm on page 31 for tupperware for cookie 1.
+2017-05-16 23:41:35.798000: Next Page, Showing 60 products with order wbm on page 66 for tupperware for cookie 1.
+2017-05-16 23:33:55.476000: Previous Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 1.
+2017-05-16 23:32:19.711000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 20:14:44.874000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 1.
+2017-05-16 16:03:27.147000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:38:12.301000: Next Page, Showing 60 products with order wbm on page 51 for tupperware for cookie 1.
+2017-05-16 20:10:59.749000: Previous Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 1.
+2017-05-16 16:08:41.537000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:34:53.047000: Next Page, Showing 60 products with order wbm on page 26 for tupperware for cookie 1.
+2017-05-16 23:39:47.165000: Next Page, Showing 60 products with order wbm on page 61 for tupperware for cookie 1.
+2017-05-16 23:34:18.580000: Previous Page, Showing 60 products with order wbm on page 16 for tupperware for cookie 1.
+2017-05-16 23:37:28.117000: Next Page, Showing 60 products with order wbm on page 46 for tupperware for cookie 1.
+2017-05-16 23:36:45.478000: Previous Page, Showing 60 products with order wbm on page 41 for tupperware for cookie 1.
+2017-05-16 13:08:25.261000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:34:05.493000: Next Page, Showing 60 products with order wbm on page 11 for tupperware for cookie 1.
+2017-05-16 16:08:37.668000: Previous Page, Showing 60 products with order wbm on page 4 for tupperware for cookie 1.
+2017-05-16 23:34:30.572000: Next Page, Showing 60 products with order wbm on page 21 for tupperware for cookie 1.
+2017-05-16 16:15:16.282000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:38:47.692000: Next Page, Showing 60 products with order wbm on page 56 for tupperware for cookie 1.
+2017-05-16 20:10:50.210000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+[95m2017-05-16 20:08:14.786000: 12. Product with id 282235343 clicked. (TUPPERWARE  SAKLAMA KUTUSU F20%21%21%21 EN UYGUN FIYATA for cookie 1.[0m
+[95m2017-05-16 20:09:30.964000: 12. Product with id 282235343 clicked. (TUPPERWARE  SAKLAMA KUTUSU F20%21%21%21 EN UYGUN FIYATA for cookie 1.[0m
