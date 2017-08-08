@@ -172,6 +172,7 @@ def printActions(logs, orderedKeys = None, colorMap = {}, group = True):
     printJourney(logs, printLogs = False, group = group)
     
 def printSession(logs, printActions = True, printLogs = True, orderedKeys = None, colorMap = {}):
+    logs = logs.sortBy(lambda log: log['timestamp'])
     if not isinstance(logs, list):
         logs = logs.collect()
     print_(green('Session begins...'))

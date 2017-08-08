@@ -1,6 +1,7 @@
 from MainSrc.PythonVersionHandler import *
 #from LogAnalyzer import *
 from . import SparkLogAnalyzer as LA
+from LogProcesser.scalaToPython.python_codes.LumberjackParser import *
 
 class Action:
     PRODUCT_REFRESHED = 111 
@@ -124,21 +125,35 @@ def getActionStringForSearch(search, previousLog):
     keyword = search['keyword'] if 'keyword' in search.keys() else 'None'
     return action % (ids, order, pageNum, keyword)
 
+def findProductIdOnSearches(currentLog, previousJourney):
+    lastSearchIndexWithId, productIndex = -1, -1
+    previousJourney.reverse()
+    count = -1
+    for pl in previousJourney:
+        if LA.isSearchLog(pl):
+            count += 1
+            if isinstance(currentLog[KEY_ID], int):
+                for t, jd in enumerate(pl[KEY_ID_LIST]):
+                    if currentLog[KEY_ID] == jd:
+                        return count, t
+            elif isinstance(currentLog[KEY_ID], str):
+                if '%7C' in currentLog[KEY_ID]:
+                    processedIds = [int(i) for i in currentLog[KEY_ID].split('%7C')]
+                    for t, jd in enumerate(pl[KEY_ID_LIST]):
+                        if jd in processedIds:
+                            return count, t
+    return lastSearchIndexWithId, productIndex 
+
 def getActionString(i, logs, showDetails = False):
-    #searchIds = LA.getIdsFromSearches(logs[:i])
     previousLog = logs[i-1] if i > 0 else None   
     currentLog = logs[i]
     previousJourney = logs[:i] #filter(lambda iLog: iLog[0] < i) 
     sentence = '' 
     if LA.cookieChanged(previousLog, currentLog):
-        previousLog = None
-        previousJourney = []
         print_(LA.green('COOKIE CHANGED.'))
     if LA.isProductLog(currentLog): 
-        #if currentLog['id'] in searchIds:
-            previousJourney = LA.sc_().parallelize(previousJourney)
-            lastSearchIndexWithId, productIndex = LA.findLastSearchContainsProduct(currentLog, previousJourney)
-            sentence = getActionStringForProductLog(currentLog, productIndex, lastSearchIndexWithId)
+        lastSearchIndexWithId, productIndex = findProductIdOnSearches(currentLog, previousJourney)
+        sentence = getActionStringForProductLog(currentLog, productIndex, lastSearchIndexWithId)
     elif LA.isSearchLog(currentLog):
              sentence = getActionStringForSearch(currentLog, previousLog)
     else:
