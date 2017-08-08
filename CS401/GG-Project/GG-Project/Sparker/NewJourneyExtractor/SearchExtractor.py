@@ -69,9 +69,12 @@ def specificProductLogs(logs, keywords):
 
 def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     listedIds = uniqueList(searches.map(lambda log: log[KEY_ID_LIST]).reduce(lambda a, b: a+b))
+    print_high_logging(len(listedIds), 'products have listed on searches for', keyword, 'by', nowStr())
     viewedProductLogs = productLogs.filter(lambda log: log[KEY_ID] in listedIds \
         and log[KEY_MODULE] == KEY_MODULE_ITEM and log[KEY_REFERER]['k'] == keyword)
+    print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', nowStr())
     viewedIds = viewedProductLogs.map(lambda log: log[KEY_ID]).distinct().collect()
+    print_logging(len(viewedIds), 'products have clicked on searches for', keyword, 'by', nowStr())
     cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART \
         or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
     def isViewed(log):
@@ -83,24 +86,33 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
                 processedIds = [int(i) for i in log[KEY_ID].split('%7C')]
                 for i in processedIds:
                     if i in viewedIds:
-                        print("print")
                         return True
             return log[KEY_ID] in viewedIds 
     cartedOrPaidProductLogs = cartedOrPaidProductLogs.filter(isViewed)
+    print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
+c = 0
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
+    global c
+    c += 1
+    print_logging(str(c)+'.', keyword.upper() + ':')
     searches = searches.filter(lambda log: log[KEY_KEYWORD] == keyword)
+    print_logging(searches.count(), 'searches have found for', keyword, 'by', nowStr())
     if searches.count() == 0:
-        return (searches, sc_().parallelize([]))
+        print_logging()
+        return (searches, sc_().parallelize([]), sc_().parallelize([]))
     viewedProductLogs, cartedOrPaidProductLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
-    print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
+    if not LOGGING: print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
            'cart and payments have found for', keyword, 'by', nowStr())
+    print_logging()
     return (searches, viewedProductLogs, cartedOrPaidProductLogs)
 
 def searchNProductLogsByKeywords(logs, keywords):
     if isinstance(keywords, str): 
         keywords = [keywords]
     searches = specificSearches(logs, keywords)
+    print_logging(searches.count(), 'searches have found relevant with', len(keywords), 'keywords by', nowStr())
     productLogs = specificProductLogs(logs, keywords)
+    print_logging(productLogs.count(), 'productLogs have found relevant with', len(keywords), 'keywords by', nowStr(), '\n')
     return {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword) for keyword in keywords}

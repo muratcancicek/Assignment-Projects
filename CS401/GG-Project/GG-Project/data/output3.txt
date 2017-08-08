@@ -1,0 +1,129 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-08 03:34:42.879261: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered has been read successfully.
+14 searches have found relevant with 32 keywords by 2017-08-08 03:34:50.536506
+419 productLogs have found relevant with 32 keywords by 2017-08-08 03:34:53.697965 
+
+1. BESIKTAS:
+0 searches have found for besiktas by 2017-08-08 03:34:56.763235
+
+2. KOL SAATI:
+0 searches have found for kol saati by 2017-08-08 03:35:03.392168
+
+3. IPHONE 7:
+0 searches have found for iphone 7 by 2017-08-08 03:35:09.504064
+
+4. IPHONE 7 KILIF:
+0 searches have found for iphone 7 kilif by 2017-08-08 03:35:15.596657
+
+5. STRES CARKI:
+0 searches have found for stres carki by 2017-08-08 03:35:21.746249
+
+6. NIKE AIR MAX:
+1 searches have found for nike air max by 2017-08-08 03:35:27.798531
+60 products have listed on searches for nike air max by 2017-08-08 03:35:33.797741
+0 views have found for nike air max by 2017-08-08 03:35:36.943517
+0 products have clicked on searches for nike air max by 2017-08-08 03:35:40.968104
+0 cart and payments have found for nike air max by 2017-08-08 03:35:44.015285
+
+7. TUPPERWARE:
+7 searches have found for tupperware by 2017-08-08 03:35:47.026207
+120 products have listed on searches for tupperware by 2017-08-08 03:35:52.970172
+10 views have found for tupperware by 2017-08-08 03:35:56.033694
+5 products have clicked on searches for tupperware by 2017-08-08 03:36:00.101229
+0 cart and payments have found for tupperware by 2017-08-08 03:36:03.705009
+
+8. BUZDOLABI:
+0 searches have found for buzdolabi by 2017-08-08 03:36:06.794325
+
+9. VESTEL CAMASIR MAKINESI:
+0 searches have found for vestel camasir makinesi by 2017-08-08 03:36:12.915633
+
+10. SAMSUNG GALAXY J7 PRIME:
+0 searches have found for samsung galaxy j7 prime by 2017-08-08 03:36:18.970818
+
+11. SAMSUNG:
+0 searches have found for samsung by 2017-08-08 03:36:25.068376
+
+12. DIKEY ELEKTRIKLI SUPURGE:
+0 searches have found for dikey elektrikli supurge by 2017-08-08 03:36:31.026049
+
+13. JBL HOPARLOR:
+0 searches have found for jbl hoparlor by 2017-08-08 03:36:37.107279
+
+14. BISIKLET:
+0 searches have found for bisiklet by 2017-08-08 03:36:43.117995
+
+15. KOT PANTALON:
+0 searches have found for kot pantalon by 2017-08-08 03:36:49.107996
+
+16. MANI JEANS KOT PANTALON:
+0 searches have found for mani jeans kot pantalon by 2017-08-08 03:36:55.371834
+
+17. LENOVO K6 NOTE:
+0 searches have found for lenovo k6 note by 2017-08-08 03:37:01.559902
+
+18. SANDALYE KILIFI:
+0 searches have found for sandalye kilifi by 2017-08-08 03:37:07.908772
+
+19. BEKO 9 KG CAMASIR MAKINESI:
+0 searches have found for beko 9 kg camasir makinesi by 2017-08-08 03:37:14.047210
+
+20. XIAOMI:
+0 searches have found for xiaomi by 2017-08-08 03:37:20.143916
+
+21. SAMSUNG GALAXY S6:
+1 searches have found for samsung galaxy s6 by 2017-08-08 03:37:26.173703
+50 products have listed on searches for samsung galaxy s6 by 2017-08-08 03:37:32.128276
+0 views have found for samsung galaxy s6 by 2017-08-08 03:37:35.200214
+0 products have clicked on searches for samsung galaxy s6 by 2017-08-08 03:37:39.226769
+0 cart and payments have found for samsung galaxy s6 by 2017-08-08 03:37:42.293722
+
+22. KADIN PARFUM:
+0 searches have found for kadin parfum by 2017-08-08 03:37:45.359342
+
+23. KIRMIZI CONVERSE:
+0 searches have found for kirmizi converse by 2017-08-08 03:37:51.311756
+
+24. KIZ COCUK ABIYE ELBISE:
+0 searches have found for kiz cocuk abiye elbise by 2017-08-08 03:37:57.358778
+
+25. AVON KADIN PARFUM:
+0 searches have found for avon kadin parfum by 2017-08-08 03:38:03.793542
+
+26. KAMP CADIRI:
+0 searches have found for kamp cadiri by 2017-08-08 03:38:09.838615
+
+27. ADIDAS:
+0 searches have found for adidas by 2017-08-08 03:38:15.909687
+
+28. XIAOMI MI5:
+0 searches have found for xiaomi mi5 by 2017-08-08 03:38:21.853030
+
+29. SAMSUNG GALAXY S5 MINI:
+0 searches have found for samsung galaxy s5 mini by 2017-08-08 03:38:27.912343
+
+30. ZIGON SEHPA:
+0 searches have found for zigon sehpa by 2017-08-08 03:38:33.921692
+
+31. GALAXY S3:
+1 searches have found for galaxy s3 by 2017-08-08 03:38:39.935663
+60 products have listed on searches for galaxy s3 by 2017-08-08 03:38:45.994853
+0 views have found for galaxy s3 by 2017-08-08 03:38:49.085156
+0 products have clicked on searches for galaxy s3 by 2017-08-08 03:38:53.128490
+0 cart and payments have found for galaxy s3 by 2017-08-08 03:38:56.223146
+
+32. LG G4:
+4 searches have found for lg g4 by 2017-08-08 03:38:59.200939
+124 products have listed on searches for lg g4 by 2017-08-08 03:39:05.665701
+0 views have found for lg g4 by 2017-08-08 03:39:08.699813
+0 products have clicked on searches for lg g4 by 2017-08-08 03:39:12.762410
+0 cart and payments have found for lg g4 by 2017-08-08 03:39:15.828536
+
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_local has been saved successfully by 2017-08-08 03:42:53.972663
+2017-08-08 03:42:53.975599: DONE
+########################################################################################
+########################################################################################
+########################################################################################

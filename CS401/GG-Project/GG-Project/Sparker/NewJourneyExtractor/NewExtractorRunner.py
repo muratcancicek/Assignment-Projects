@@ -36,15 +36,30 @@ def readClickstreamFromHDFS():
     print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
     return parseAllLogs(logs)
 
-def keywordsTests(logs):
-    keywords =  get32Keywords() #'tupperware' # get5Keywords() # 
-    keywordDict = searchNProductLogsByKeywords(logs, keywords)
+def keywordsSessionizingTest(keywordDict):
     for v in keywordDict:
-        print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
-              'product logs have been found for', v, 'by', nowStr())
+        #print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
+        #      'product logs have been found for', v, 'by', nowStr())
         sessions = sessionize(keywordDict[v])
         #for s in sessions:
         #    printActions(s)
+
+def keywordsSavingTest(keywordDict):
+    objectiveLogs = sc_().parallelize([])
+    for v in keywordDict:
+        (searches, viewedProductLogs, cartedOrPaidProductLogs) = keywordDict[v]
+        objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
+    if len(sys.argv) == 2:
+        toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_' + str(len(keywordDict.keys())) + '_server')
+    else:
+        toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_' + str(len(keywordDict.keys())) + '_local')
+    saveRDDToHDFS(objectiveLogs, toPath)
+
+def keywordsTests(logs):
+    keywords = 'tupperware' # get32Keywords() # get5Keywords() # 
+    keywordDict = searchNProductLogsByKeywords(logs, keywords)
+    keywordsSavingTest(keywordDict)
+    #keywordsSessionizingTest(keywordDict)
             
 def hdfsTests(logs):
     #logs = logs.map(refererParserOnLog).filter(lambda log: 'page' in log[KEY_REFERER].keys())\

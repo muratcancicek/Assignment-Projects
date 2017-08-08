@@ -146,7 +146,7 @@ def readJourneyFromHDFS(fileName):
 
 def saveRDDToHDFS(rdd, fileName):
     rdd.saveAsTextFile(fileName)
-    print_(fileName, 'has been saved successfully by', nowStr())
+    print_(fileName, 'with', rdd.count(), 'lines has been saved successfully by', nowStr())
 
 def parseAllDay(allDayPath, outputPath):
     logs = getLogs(None, allDayPath).sortBy(lambda log: log['timestamp'])
