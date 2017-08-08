@@ -474,4 +474,367 @@ D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\rankin
 22 sessions have been found useful by 2017-08-08 22:45:32.879385
 ########################################################################################
 ########################################################################################
+################################################################################################################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 01:38:35.467524: Running on osldevptst02...
+/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/data/ranking/clickstream/part-r-00000_filtered_extracted_32_server_file has been read by 2017-08-09 01:38:40.795131
+682 searches, 110 views, 18 cart and payments have found for tupperware by 2017-08-09 01:38:57.834854
+95 sessions have been found in total by 2017-08-09 01:39:00.184458
+22 sessions have been found useful by 2017-08-09 01:39:00.186186
+[92mSession begins...[0m
+2017-05-16 13:08:25.261000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:03:27.147000: Page narrowed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:07:47.524000: Page extended, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:07:56.634000: Next Page, Showing 60 products with order wbm on page 4 for tupperware for cookie 1.
+2017-05-16 16:08:37.668000: Refreshed, Showing 60 products with order wbm on page 4 for tupperware for cookie 1.
+2017-05-16 16:08:41.537000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:15:16.282000: Refreshed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 16:18:04.079000: Refreshed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 20:05:05.311000: Page narrowed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 20:07:58.789000: Page extended, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+[95m2017-05-16 20:08:14.786000: 12. Product with id 282235343 clicked. (TUPPERWARE  SAKLAMA KUTUSU F20%21%21%21 EN UYGUN FIYATA for cookie 1.[0m
+[95m2017-05-16 20:09:15.069000: 12. Product with id 282235343 clicked. (TUPPERWARE  SAKLAMA KUTUSU F20%21%21%21 EN UYGUN FIYATA for cookie 1.[0m
+[95m2017-05-16 20:09:30.964000: 12. Product with id 282235343 clicked. (TUPPERWARE  SAKLAMA KUTUSU F20%21%21%21 EN UYGUN FIYATA for cookie 1.[0m
+2017-05-16 20:09:33.807000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 20:10:38.091000: Refreshed, Showing 60 products with order wbm on page 1 for tupperware for cookie 2.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 20:10:50.210000: Page narrowed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 20:10:59.749000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 1.
+2017-05-16 20:14:44.874000: Refreshed, Showing 60 products with order wbm on page 6 for tupperware for cookie 1.
+2017-05-16 23:32:19.711000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:33:41.118000: Refreshed, Showing 60 products with order wbm on page 1 for tupperware for cookie 1.
+2017-05-16 23:33:55.476000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 1.
+2017-05-16 23:34:05.493000: Next Page, Showing 60 products with order wbm on page 11 for tupperware for cookie 1.
+2017-05-16 23:34:18.580000: Next Page, Showing 60 products with order wbm on page 16 for tupperware for cookie 1.
+2017-05-16 23:34:30.572000: Next Page, Showing 60 products with order wbm on page 21 for tupperware for cookie 1.
+2017-05-16 23:34:53.047000: Next Page, Showing 60 products with order wbm on page 26 for tupperware for cookie 1.
+2017-05-16 23:35:23.694000: Next Page, Showing 60 products with order wbm on page 31 for tupperware for cookie 1.
+2017-05-16 23:36:06.354000: Next Page, Showing 60 products with order wbm on page 36 for tupperware for cookie 1.
+2017-05-16 23:36:45.478000: Next Page, Showing 60 products with order wbm on page 41 for tupperware for cookie 1.
+2017-05-16 23:37:28.117000: Next Page, Showing 60 products with order wbm on page 46 for tupperware for cookie 1.
+2017-05-16 23:38:12.301000: Next Page, Showing 60 products with order wbm on page 51 for tupperware for cookie 1.
+2017-05-16 23:38:47.692000: Next Page, Showing 60 products with order wbm on page 56 for tupperware for cookie 1.
+2017-05-16 23:39:47.165000: Next Page, Showing 60 products with order wbm on page 61 for tupperware for cookie 1.
+[95m2017-05-16 23:40:04.580000: 7. Product with id 272612793 clicked. (TUPPERWARE TUTKU SET RENKLI %28SAKLAMA KABI %29 for cookie 1.[0m
+[95m2017-05-16 23:40:34.776000: 7. Product with id 272612793 clicked. (TUPPERWARE TUTKU SET RENKLI %28SAKLAMA KABI %29 for cookie 1.[0m
+2017-05-16 23:40:39.759000: Searching, Showing 60 products with order wbm on page 61 for tupperware for cookie 1.
+2017-05-16 23:41:35.798000: Next Page, Showing 60 products with order wbm on page 66 for tupperware for cookie 1.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 18:26:53.247000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 3.
+2017-05-16 18:29:06.007000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 3.
+2017-05-16 18:29:38.515000: Next Page, Showing 60 products with order wbm on page 11 for tupperware for cookie 3.
+2017-05-16 18:30:25.864000: Next Page, Showing 60 products with order wbm on page 16 for tupperware for cookie 3.
+2017-05-16 18:31:42.481000: Next Page, Showing 60 products with order wbm on page 21 for tupperware for cookie 3.
+2017-05-16 18:32:32.434000: Next Page, Showing 60 products with order wbm on page 26 for tupperware for cookie 3.
+2017-05-16 18:34:10.863000: Next Page, Showing 60 products with order wbm on page 31 for tupperware for cookie 3.
+2017-05-16 18:35:01.971000: Next Page, Showing 60 products with order wbm on page 36 for tupperware for cookie 3.
+[95m2017-05-16 18:35:55.871000: 42. Product with id 277139558 clicked. (TUPPERWARE ALASKA 4 LU SET 450ML -UCRETSIZ KARGO for cookie 3.[0m
+2017-05-16 18:36:03.135000: Searching, Showing 60 products with order wbm on page 36 for tupperware for cookie 3.
+2017-05-16 18:36:20.466000: Next Page, Showing 60 products with order wbm on page 41 for tupperware for cookie 3.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 18:37:12.259000: Next Page, Showing 60 products with order wbm on page 46 for tupperware for cookie 4.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 18:37:50.489000: Next Page, Showing 60 products with order wbm on page 51 for tupperware for cookie 3.
+[95m2017-05-16 18:38:15.692000: 32. Product with id 282224803 clicked. (TUPPERWARE SAKLAMA KABI - KEK BOREK PUACA COREK SARMA DOLMA YASPASTA PETEK BALDA 1 TANE ASLA YETMEZ for cookie 3.[0m
+2017-05-16 18:38:47.897000: Searching, Showing 60 products with order wbm on page 51 for tupperware for cookie 3.
+2017-05-16 18:39:14.917000: Next Page, Showing 60 products with order wbm on page 52 for tupperware for cookie 3.
+2017-05-16 18:40:07.807000: Next Page, Showing 60 products with order wbm on page 53 for tupperware for cookie 3.
+2017-05-16 18:41:39.302000: Next Page, Showing 60 products with order wbm on page 54 for tupperware for cookie 3.
+2017-05-16 18:42:31.350000: Next Page, Showing 60 products with order wbm on page 59 for tupperware for cookie 3.
+2017-05-16 18:43:48.663000: Next Page, Showing 60 products with order wbm on page 64 for tupperware for cookie 3.
+2017-05-16 18:44:44.141000: Next Page, Showing 60 products with order wbm on page 69 for tupperware for cookie 3.
+2017-05-16 18:45:30.735000: Next Page, Showing 60 products with order wbm on page 70 for tupperware for cookie 3.
+2017-05-16 18:46:07.554000: Next Page, Showing 60 products with order wbm on page 71 for tupperware for cookie 3.
+2017-05-16 18:47:01.658000: Next Page, Showing 60 products with order wbm on page 72 for tupperware for cookie 3.
+2017-05-16 18:47:33.990000: Next Page, Showing 60 products with order wbm on page 73 for tupperware for cookie 3.
+2017-05-16 18:48:20.785000: Next Page, Showing 60 products with order wbm on page 74 for tupperware for cookie 3.
+2017-05-16 18:49:10.689000: Next Page, Showing 60 products with order wbm on page 75 for tupperware for cookie 3.
+2017-05-16 18:49:41.950000: Next Page, Showing 60 products with order wbm on page 76 for tupperware for cookie 3.
+2017-05-16 18:50:27.099000: Next Page, Showing 60 products with order wbm on page 77 for tupperware for cookie 3.
+2017-05-16 18:51:10.490000: Next Page, Showing 60 products with order wbm on page 78 for tupperware for cookie 3.
+[95m2017-05-16 18:51:37.383000: 18. Product with id 273913265 clicked. (TUPPERWARE BUYUK SAKLAMA KABI F 20 KURABIYELIK for cookie 3.[0m
+2017-05-16 18:51:53.170000: Searching, Showing 60 products with order wbm on page 78 for tupperware for cookie 3.
+2017-05-16 18:52:31.007000: Next Page, Showing 60 products with order wbm on page 79 for tupperware for cookie 3.
+2017-05-16 18:53:02.206000: Next Page, Showing 60 products with order wbm on page 80 for tupperware for cookie 3.
+2017-05-16 18:53:43.723000: Next Page, Showing 60 products with order wbm on page 81 for tupperware for cookie 3.
+2017-05-16 18:54:25.106000: Next Page, Showing 60 products with order wbm on page 82 for tupperware for cookie 3.
+[95m2017-05-16 18:54:57.311000: 11. Product with id 282450365 clicked. (Tupperware Sise Suluk 500ml Mercan Renk for cookie 3.[0m
+[95m2017-05-16 18:55:13.440000: 11. Product with id 282450365 clicked. (Tupperware Sise Suluk 500ml Mercan Renk for cookie 3.[0m
+2017-05-16 18:55:17.259000: Searching, Showing 60 products with order wbm on page 82 for tupperware for cookie 3.
+2017-05-16 18:55:47.821000: Next Page, Showing 60 products with order wbm on page 83 for tupperware for cookie 3.
+[95m2017-05-16 18:56:12.068000: 8. Product with id 279670802 clicked. (TUPPERWARE SAG-SOL SUZGEC UCRETSIZ KARGO  for cookie 3.[0m
+2017-05-16 18:57:04.661000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 3.
+2017-05-16 18:57:48.528000: Next Page, Showing 60 products with order wbm on page 2 for tupperware for cookie 3.
+2017-05-16 18:58:31.114000: Next Page, Showing 60 products with order wbm on page 3 for tupperware for cookie 3.
+2017-05-16 18:59:15.226000: Next Page, Showing 47 products with order wbm on page 4 for tupperware for cookie 3.
+2017-05-16 18:59:44.024000: Previous Page, Showing 60 products with order wbm on page 3 for tupperware for cookie 3.
+2017-05-16 19:11:36.744000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 3.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 03:49:43.857000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 4.
+2017-05-16 03:50:12.758000: Order changed, Showing 60 products with order hpa on page 1 for tupperware for cookie 4.
+2017-05-16 03:50:17.059000: Page narrowed, Showing 60 products with order hpa on page 1 for tupperware for cookie 4.
+2017-05-16 03:52:03.297000: Next Page, Showing 60 products with order hpa on page 2 for tupperware for cookie 4.
+2017-05-16 03:53:18.059000: Next Page, Showing 60 products with order hpa on page 3 for tupperware for cookie 4.
+2017-05-16 03:53:58.332000: Next Page, Showing 60 products with order hpa on page 4 for tupperware for cookie 4.
+2017-05-16 03:54:50.393000: Next Page, Showing 60 products with order hpa on page 5 for tupperware for cookie 4.
+2017-05-16 03:55:26.531000: Next Page, Showing 60 products with order hpa on page 6 for tupperware for cookie 4.
+2017-05-16 03:56:46.067000: Next Page, Showing 60 products with order hpa on page 7 for tupperware for cookie 4.
+2017-05-16 03:59:39.221000: Next Page, Showing 60 products with order hpa on page 8 for tupperware for cookie 4.
+2017-05-16 04:00:37.935000: Next Page, Showing 60 products with order hpa on page 9 for tupperware for cookie 4.
+2017-05-16 04:01:27.798000: Next Page, Showing 60 products with order hpa on page 10 for tupperware for cookie 4.
+[95m2017-05-16 04:02:00.800000: 34. Product with id 278488374 clicked. (Tupperware Seker kap 2 lt izgarali for cookie 4.[0m
+2017-05-16 04:02:45.905000: Searching, Showing 60 products with order hpa on page 10 for tupperware for cookie 4.
+2017-05-16 04:03:08.530000: Next Page, Showing 60 products with order hpa on page 11 for tupperware for cookie 4.
+2017-05-16 04:04:43.048000: Next Page, Showing 60 products with order hpa on page 12 for tupperware for cookie 4.
+2017-05-16 04:05:21.747000: Next Page, Showing 60 products with order hpa on page 13 for tupperware for cookie 4.
+2017-05-16 04:06:16.446000: Next Page, Showing 60 products with order hpa on page 14 for tupperware for cookie 4.
+2017-05-16 04:09:30.131000: Next Page, Showing 60 products with order hpa on page 15 for tupperware for cookie 4.
+2017-05-16 04:10:11.105000: Next Page, Showing 60 products with order hpa on page 16 for tupperware for cookie 4.
+2017-05-16 04:10:54.247000: Next Page, Showing 60 products with order hpa on page 17 for tupperware for cookie 4.
+2017-05-16 04:11:44.927000: Next Page, Showing 60 products with order hpa on page 18 for tupperware for cookie 4.
+2017-05-16 04:12:50.456000: Next Page, Showing 60 products with order hpa on page 19 for tupperware for cookie 4.
+2017-05-16 04:13:35.996000: Next Page, Showing 60 products with order hpa on page 20 for tupperware for cookie 4.
+2017-05-16 04:14:37.249000: Next Page, Showing 60 products with order hpa on page 21 for tupperware for cookie 4.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 04:16:38.268000: Next Page, Showing 60 products with order hpa on page 22 for tupperware for cookie 5.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 04:17:06.131000: Next Page, Showing 60 products with order hpa on page 23 for tupperware for cookie 4.
+2017-05-16 04:17:43.554000: Next Page, Showing 60 products with order hpa on page 24 for tupperware for cookie 4.
+2017-05-16 04:18:40.237000: Next Page, Showing 60 products with order hpa on page 25 for tupperware for cookie 4.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 15:08:25.695000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 11.
+2017-05-16 15:09:01.008000: Next Page, Showing 60 products with order wbm on page 2 for tupperware for cookie 11.
+[95m2017-05-16 15:09:21.418000: 27. Product with id 280891434 clicked. (TUPPERWARE GURME MINI KAPLAR 8 LI for cookie 11.[0m
+2017-05-16 15:09:55.794000: Searching, Showing 60 products with order wbm on page 2 for tupperware for cookie 11.
+2017-05-16 15:32:15.101000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 11.
+2017-05-16 15:32:53.325000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 11.
+2017-05-16 15:34:10.888000: Refreshed, Showing 60 products with order wbm on page 6 for tupperware for cookie 11.
+2017-05-16 15:34:15.698000: Next Page, Showing 60 products with order wbm on page 7 for tupperware for cookie 11.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 15:35:03.773000: Refreshed, Showing 60 products with order wbm on page 7 for tupperware for cookie 12.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 15:35:31.982000: Next Page, Showing 60 products with order wbm on page 8 for tupperware for cookie 11.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 16:55:13.246000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 14.
+[95m2017-05-16 16:55:21.305000: 1. Product with id 277738230 clicked. (TUPPERWARE DURU ZEYTINYAGLIK 1 LT for cookie 14.[0m
+[95m2017-05-16 16:55:59.733000: 1. Product with id 277738230 clicked. (TUPPERWARE DURU ZEYTINYAGLIK 1 LT for cookie 14.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-16 16:56:02.084000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 15.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 16:56:07.053000: Order changed, Showing 60 products with order edd on page 1 for tupperware for cookie 14.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 11:09:37.960000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 16.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 11:11:14.960000: Page extended, Showing 60 products with order wbm on page 1 for tupperware for cookie 15.
+[94m2017-05-16 11:57:43.325000: 32. Product with id 279815589%7C277738231 paid for cookie 15.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 13:56:02.044000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 18.
+2017-05-16 13:56:06.827000: Order changed, Showing 60 products with order hpa on page 1 for tupperware for cookie 18.
+[95m2017-05-16 13:57:11.806000: 44. Product with id 273328180 clicked. (TUPPERWARE MIKROFIBER GUZELLIK BEZI.8.99TL. for cookie 18.[0m
+2017-05-16 13:57:24.991000: Searching, Showing 60 products with order hpa on page 1 for tupperware for cookie 18.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 13:57:50.282000: Next Page, Showing 60 products with order hpa on page 2 for tupperware for cookie 19.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 13:59:01.614000: Next Page, Showing 60 products with order hpa on page 3 for tupperware for cookie 18.
+2017-05-16 13:59:42.778000: Next Page, Showing 60 products with order hpa on page 4 for tupperware for cookie 18.
+2017-05-16 14:00:16.875000: Next Page, Showing 60 products with order hpa on page 5 for tupperware for cookie 18.
+[95m2017-05-16 14:00:46.714000: 48. Product with id 276940992 clicked. (TUPPERWARE HUNERLI IKIZLER for cookie 18.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 22:26:37.988000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 21.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 22:28:28.304000: Next Page, Showing 60 products with order wbm on page 2 for tupperware for cookie 20.
+2017-05-16 22:28:32.851000: Page narrowed, Showing 60 products with order wbm on page 2 for tupperware for cookie 20.
+[95m2017-05-16 22:29:18.784000: 44. Product with id 273927998 clicked. (TUPPERWARE Mucize Sekerler 3lu for cookie 20.[0m
+2017-05-16 22:30:02.394000: Searching, Showing 60 products with order wbm on page 2 for tupperware for cookie 20.
+2017-05-16 22:30:12.376000: Next Page, Showing 60 products with order wbm on page 3 for tupperware for cookie 20.
+[95m2017-05-16 22:30:21.896000: 2. Product with id 278036923 clicked. (TUPPERWARE MUCIZE SEKERLER 3 LU SET- SAKLAMADA TREND 1 - 1.5 - 2 LITRE OLCULU SAKLAMADA MUCIZE for cookie 20.[0m
+2017-05-16 22:41:15.923000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 20.
+2017-05-16 22:41:25.035000: Page narrowed, Showing 60 products with order wbm on page 1 for tupperware for cookie 20.
+2017-05-16 22:41:51.720000: Next Page, Showing 60 products with order wbm on page 2 for tupperware for cookie 20.
+2017-05-16 22:42:23.668000: Next Page, Showing 60 products with order wbm on page 3 for tupperware for cookie 20.
+2017-05-16 22:43:13.056000: Next Page, Showing 60 products with order wbm on page 4 for tupperware for cookie 20.
+2017-05-16 22:43:57.812000: Next Page, Showing 60 products with order wbm on page 5 for tupperware for cookie 20.
+2017-05-16 22:44:34.517000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 20.
+2017-05-16 22:45:15.489000: Next Page, Showing 60 products with order wbm on page 7 for tupperware for cookie 20.
+2017-05-16 22:46:10.737000: Next Page, Showing 60 products with order wbm on page 8 for tupperware for cookie 20.
+2017-05-16 22:46:48.482000: Page extended, Showing 60 products with order wbm on page 8 for tupperware for cookie 20.
+2017-05-16 22:47:27.121000: Next Page, Showing 60 products with order wbm on page 9 for tupperware for cookie 20.
+2017-05-16 22:48:00.105000: Next Page, Showing 60 products with order wbm on page 10 for tupperware for cookie 20.
+2017-05-16 22:48:47.305000: Next Page, Showing 60 products with order wbm on page 11 for tupperware for cookie 20.
+2017-05-16 22:49:32.649000: Next Page, Showing 60 products with order wbm on page 12 for tupperware for cookie 20.
+2017-05-16 22:50:14.779000: Next Page, Showing 60 products with order wbm on page 13 for tupperware for cookie 20.
+2017-05-16 22:51:38.470000: Next Page, Showing 60 products with order wbm on page 14 for tupperware for cookie 20.
+2017-05-16 22:52:26.955000: Next Page, Showing 60 products with order wbm on page 15 for tupperware for cookie 20.
+2017-05-16 22:53:00.384000: Next Page, Showing 60 products with order wbm on page 16 for tupperware for cookie 20.
+2017-05-16 23:11:30.852000: Previous Page, Showing 60 products with order wbm on page 1 for tupperware for cookie 20.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 14:34:06.953000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 22.
+[95m2017-05-16 14:35:06.216000: 15. Product with id 272394800 clicked. (TUPPERWARE buzdolabi seti 7 adet sekerkap for cookie 22.[0m
+[95m2017-05-16 14:35:33.668000: 32. Product with id 281207918 clicked. (TUPPERWARE KUBIK SET for cookie 22.[0m
+2017-05-16 14:35:58.152000: Searching, Showing 60 products with order wbm on page 2 for tupperware for cookie 22.
+[95m2017-05-16 14:36:34.621000: 32. Product with id 275953212 clicked. (Tupperware sekerkap izgarali 2 lt for cookie 22.[0m
+[95m2017-05-16 14:37:58.418000: 29. Product with id 280441729 clicked. (Tupperware mucize sekerler %28pembe renk%29 for cookie 22.[0m
+[95m2017-05-16 14:38:42.462000: 52. Product with id 273927998 clicked. (TUPPERWARE Mucize Sekerler 3lu for cookie 22.[0m
+2017-05-16 14:39:26.941000: Searching, Showing 60 products with order wbm on page 3 for tupperware for cookie 22.
+[95m2017-05-16 14:39:53.937000: 15. Product with id 266830899 clicked. (TUPPERWARE MUCIZE SEKERLER for cookie 22.[0m
+[95m2017-05-16 14:40:00.090000: 14. Product with id 278036923 clicked. (TUPPERWARE MUCIZE SEKERLER 3 LU SET- SAKLAMADA TREND 1 - 1.5 - 2 LITRE OLCULU SAKLAMADA MUCIZE for cookie 22.[0m
+[95m2017-05-16 14:43:00.093000: 56. Product with id 272613164 clicked. (TUPPERWARE SEKER UCUZLER RENKLI for cookie 22.[0m
+2017-05-16 14:43:15.881000: Searching, Showing 60 products with order wbm on page 4 for tupperware for cookie 22.
+[95m2017-05-16 14:43:26.645000: 7. Product with id 277818503 clicked. (tupperware SEKERpare 600 ml 3 lu pembe mor for cookie 22.[0m
+[95m2017-05-16 14:44:29.723000: 21. Product with id 282539570 clicked. (TUPPERWARE MUCIZE SEKERLER 3 LU SET *KABINA SIGMAYAN TAZELIK *KARGO BEDAVA for cookie 22.[0m
+[95m2017-05-16 14:45:32.868000: 53. Product with id 280437406 clicked. (tupperware seker set 7 parca %28 3 parca 600 ml ve 4 parca 300 ml %29 for cookie 22.[0m
+2017-05-16 14:45:53.862000: Searching, Showing 60 products with order wbm on page 5 for tupperware for cookie 22.
+2017-05-16 14:46:33.958000: Next Page, Showing 60 products with order wbm on page 6 for tupperware for cookie 22.
+2017-05-16 14:47:13.951000: Next Page, Showing 60 products with order wbm on page 9 for tupperware for cookie 22.
+[95m2017-05-16 14:47:22.619000: 1. Product with id 274619150 clicked. (tupperware sekerpare renkli for cookie 22.[0m
+[95m2017-05-16 14:51:03.045000: 3. Product with id 278132273 clicked. (tupperware berrak set kirmizi for cookie 22.[0m
+[95m2017-05-16 14:51:14.340000: 3. Product with id 278132273 clicked. (tupperware berrak set kirmizi for cookie 22.[0m
+[95m2017-05-16 14:52:18.136000: 36. Product with id 278384984 clicked. (TUPPERWARE SEKER UCUZLER for cookie 22.[0m
+[95m2017-05-16 14:52:34.759000: 38. Product with id 282102261 clicked. (Tupperware Uc Sekerpare Mor - Pembe for cookie 22.[0m
+2017-05-16 15:31:47.235000: Searching, Showing 60 products with order wbm on page 9 for tupperware for cookie 22.
+2017-05-16 15:35:51.231000: Next Page, Showing 60 products with order wbm on page 10 for tupperware for cookie 22.
+[95m2017-05-16 16:03:39.764000: 9. Product with id 279388919 clicked. (TUPPERWARE MUCIZE SEKERLER YENI RENK 2 LITRE %2C 1.5 LITRE VE 1 for cookie 22.[0m
+[95m2017-05-16 16:04:46.920000: 21. Product with id 279273755 clicked. (TUPPERWARE KOMPAKTUS 2 LI SOK FIYAT%21%21%21 for cookie 22.[0m
+2017-05-16 16:06:46.710000: Searching, Showing 60 products with order wbm on page 11 for tupperware for cookie 22.
+2017-05-16 16:08:08.512000: Next Page, Showing 60 products with order wbm on page 15 for tupperware for cookie 22.
+[95m2017-05-16 16:09:03.182000: 37. Product with id 278758330 clicked. (TUPPERWARE BONBON KAPLAR KARGOSUZ SOK FIYAT for cookie 22.[0m
+2017-05-16 16:09:39.779000: Searching, Showing 60 products with order wbm on page 16 for tupperware for cookie 22.
+[95m2017-05-16 16:10:53.769000: 47. Product with id 276920495 clicked. (tupperware yildiz 2.8 litre %2C 1.9 litre ve 1.3 lt SOKKK FIYATA KISA SURELIGINE INDIRIMDE for cookie 22.[0m
+2017-05-16 16:11:29.824000: Searching, Showing 60 products with order wbm on page 17 for tupperware for cookie 22.
+[95m2017-05-16 16:12:37.052000: 24. Product with id 232468993 clicked. (TUPPERWARE EKO TABAK 2LI YESIL 700ML for cookie 22.[0m
+[95m2017-05-16 16:12:57.959000: 49. Product with id 277532035 clicked. (TUPPERWARE BONBON KAPLAR - SAKLAMANIN CIVIL CIVIL SIKI KAPAKLI VE YUMUSAK KAPAKLI YOLU SOKKK FIYAT for cookie 22.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-16 16:13:44.321000: Searching, Showing 60 products with order wbm on page 18 for tupperware for cookie 23.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 16:14:25.606000: 50. Product with id 279650211 clicked. (TUPPERWARE 6 LI MINIK ANTARTIKALAR COK ISLEVSELL for cookie 22.[0m
+[95m2017-05-16 16:14:32.862000: 49. Product with id 279814715 clicked. (TUPPERWARE MUCIZE SEKERLER 2%2B1.5%2B1 LT SUPERR for cookie 22.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 15:24:11.481000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 24.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 15:25:23.574000: Next Page, Showing 60 products with order wbm on page 2 for tupperware for cookie 25.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 15:26:31.774000: Next Page, Showing 60 products with order wbm on page 3 for tupperware for cookie 24.
+2017-05-16 15:27:45.892000: Next Page, Showing 60 products with order wbm on page 4 for tupperware for cookie 24.
+2017-05-16 15:29:03.306000: Next Page, Showing 60 products with order wbm on page 5 for tupperware for cookie 24.
+[95m2017-05-16 15:29:23.819000: 7. Product with id 274865495 clicked. (Tupperware Duru Zeytiyaglik 1 Lt Kapasiteli Kapak Murdum Renk BEDAVA KARGO for cookie 24.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 09:39:12.841000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 26.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 09:40:06.998000: 3. Product with id 276110140 clicked. (TUPPERWARE SUPER SEF 2 KIRMIZI for cookie 25.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 09:33:00.046000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 28.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 09:33:19.022000: 11. Product with id 277904838 clicked. (TUPPERWARE SUPER SEF DOGRAYICI IPLI SEF 1 for cookie 27.[0m
+2017-05-16 21:17:36.201000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 27.
+[95m2017-05-16 21:18:42.945000: 19. Product with id 273366965 clicked. (TUPPERWARE eko sise 500 ml MAVI pembe MOR 3 tanE SISE for cookie 27.[0m
+2017-05-16 21:18:47.339000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 27.
+[92mSession end.[0m
+[92mSession begins...[0m
+[94m2017-05-16 16:42:03.867000: Product with id 267748874 paid or [273015420, 280891434, 276754548, 282836656, 282835501] not from the searches so far for cookie 33.[0m
+2017-05-16 19:14:24.822000: Searching, Showing 2 products with order wbm on page 1 for tupperware for cookie 33.
+2017-05-16 19:18:51.736000: Page extended, Showing 60 products with order wbm on page 1 for tupperware for cookie 33.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 19:19:24.821000: Refreshed, Showing 60 products with order wbm on page 1 for tupperware for cookie 34.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 10:23:37.570000: Searching, Showing 60 products with order wbm on page 12 for tupperware for cookie 36.
+[95m2017-05-16 10:23:42.719000: Product with id 272787537 clicked not from the searches so far. (TUPPERWARE sera 5 parca 9.9 L %2C 4.4 LT %2C1.8 LT YATAY%2C 1.8 LT DIK VE 800 ML for cookie 36.[0m
+[95m2017-05-16 10:23:43.565000: Product with id 272035603 clicked not from the searches so far. (tupperware buzdolabi seti 7 li for cookie 36.[0m
+[95m2017-05-16 10:23:44.946000: Product with id 277738230 clicked not from the searches so far. (TUPPERWARE DURU ZEYTINYAGLIK 1 LT for cookie 36.[0m
+[95m2017-05-16 10:23:46.193000: 11. Product with id 282174100 clicked. (Tupperware Mikrofiber Oto Parlat for cookie 36.[0m
+[95m2017-05-16 10:23:46.989000: Product with id 277923335 clicked not from the searches so far. (tupperware cam bezi for cookie 36.[0m
+[95m2017-05-16 10:23:47.839000: Product with id 273322347 clicked not from the searches so far. (TUPPERWARE mikrofiber COK AMACLI bez 2 adet for cookie 36.[0m
+[95m2017-05-16 10:23:49.641000: Product with id 273322347 clicked not from the searches so far. (TUPPERWARE mikrofiber COK AMACLI bez 2 adet for cookie 36.[0m
+[95m2017-05-16 10:23:50.476000: Product with id 266988041 clicked not from the searches so far. (TUPPERWARE SUPER SEF 1 - KARGOSUZZZ%21%21 - TURKUAZ for cookie 36.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-16 10:24:19.773000: Searching, Showing 60 products with order wbm on page 12 for tupperware for cookie 37.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 10:29:35.852000: Product with id 272787537 clicked not from the searches so far. (TUPPERWARE sera 5 parca 9.9 L %2C 4.4 LT %2C1.8 LT YATAY%2C 1.8 LT DIK VE 800 ML for cookie 36.[0m
+[95m2017-05-16 10:29:37.953000: Product with id 272035603 clicked not from the searches so far. (tupperware buzdolabi seti 7 li for cookie 36.[0m
+[95m2017-05-16 10:29:41.176000: Product with id 277738230 clicked not from the searches so far. (TUPPERWARE DURU ZEYTINYAGLIK 1 LT for cookie 36.[0m
+[95m2017-05-16 10:29:43.629000: 11. Product with id 282174100 clicked. (Tupperware Mikrofiber Oto Parlat for cookie 36.[0m
+[95m2017-05-16 10:29:45.923000: Product with id 277923335 clicked not from the searches so far. (tupperware cam bezi for cookie 36.[0m
+[95m2017-05-16 10:29:48.238000: Product with id 273322347 clicked not from the searches so far. (TUPPERWARE mikrofiber COK AMACLI bez 2 adet for cookie 36.[0m
+[95m2017-05-16 10:29:52.952000: Product with id 266988041 clicked not from the searches so far. (TUPPERWARE SUPER SEF 1 - KARGOSUZZZ%21%21 - TURKUAZ for cookie 36.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 12:47:36.301000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 39.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 12:49:32.947000: 9. Product with id 275966892 clicked. (TUPPERWARE 6 LI SEKERPARE 600 ML 6 ADET SAKLAMA KABI SOK FIYAT for cookie 38.[0m
+2017-05-16 12:55:30.231000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 38.
+2017-05-16 12:56:17.194000: Next Page, Showing 60 products with order wbm on page 2 for tupperware for cookie 38.
+2017-05-16 12:56:51.527000: Next Page, Showing 60 products with order wbm on page 3 for tupperware for cookie 38.
+2017-05-16 12:57:17.972000: Next Page, Showing 60 products with order wbm on page 4 for tupperware for cookie 38.
+2017-05-16 12:58:25.455000: Next Page, Showing 60 products with order wbm on page 5 for tupperware for cookie 38.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 19:01:46.340000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 52.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 19:03:57.888000: 5. Product with id 276110140 clicked. (TUPPERWARE SUPER SEF 2 KIRMIZI for cookie 51.[0m
+[95m2017-05-16 19:04:57.136000: 5. Product with id 276110140 clicked. (TUPPERWARE SUPER SEF 2 KIRMIZI for cookie 51.[0m
+2017-05-16 19:06:30.197000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 51.
+[95m2017-05-16 19:08:07.564000: 5. Product with id 276110140 clicked. (TUPPERWARE SUPER SEF 2 KIRMIZI for cookie 51.[0m
+2017-05-16 19:11:49.596000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 51.
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 14:01:58.376000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 54.
+2017-05-16 15:57:03.721000: Order changed, Showing 60 products with order edd on page 1 for tupperware for cookie 54.
+2017-05-16 15:58:15.876000: Next Page, Showing 60 products with order edd on page 2 for tupperware for cookie 54.
+2017-05-16 15:59:05.022000: Next Page, Showing 60 products with order edd on page 3 for tupperware for cookie 54.
+2017-05-16 15:59:28.565000: Next Page, Showing 60 products with order edd on page 4 for tupperware for cookie 54.
+2017-05-16 15:59:52.762000: Next Page, Showing 60 products with order edd on page 5 for tupperware for cookie 54.
+2017-05-16 16:00:41.689000: Next Page, Showing 60 products with order edd on page 6 for tupperware for cookie 54.
+[92mCOOKIE CHANGED.[0m
+2017-05-16 16:01:10.343000: Next Page, Showing 60 products with order edd on page 7 for tupperware for cookie 55.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 16:02:32.796000: 59. Product with id 282236188 clicked. (TUPPERWARE MINI RENKLI KAPLAR%21%21%21 EN UYGUN FIYATA%21%21%21 for cookie 54.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 14:12:48.286000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 56.
+[92mCOOKIE CHANGED.[0m
+[94m2017-05-16 14:18:19.959000: 5. Product with id 276110140 paid for cookie 55.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 17:46:24.949000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 60.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 17:46:44.626000: 2. Product with id 273507305 clicked. (TUPPERWARE SUPER SEF - MUTFAGINIZIN SEFI for cookie 59.[0m
+[94m2017-05-16 18:03:52.944000: 2. Product with id 273507305 paid for cookie 59.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 14:59:56.997000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 63.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 15:00:07.512000: 1. Product with id 277738230 clicked. (TUPPERWARE DURU ZEYTINYAGLIK 1 LT for cookie 62.[0m
+[95m2017-05-16 15:00:13.422000: 3. Product with id 272457952 clicked. (TUPPERWARE 4LU KAHVATLIK SET SEKER KAP 300ML 4 LU for cookie 62.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 10:44:46.492000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 66.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 10:45:07.617000: 16. Product with id 274849379 clicked. (Tupperware Sise Suluk 500ml Yesil Ucretsiz Kargo for cookie 65.[0m
+[94m2017-05-16 11:57:22.058000: 16. Product with id 274849379%7C275923790 paid for cookie 65.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-16 13:57:15.824000: Searching, Showing 60 products with order wbm on page 1 for tupperware for cookie 67.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-16 13:57:30.878000: 4. Product with id 278774016 clicked. (TUPPERWARE ALASKA SET 5 LI BUZLUK URUNU SOK FIYAT for cookie 66.[0m
+[95m2017-05-16 13:59:08.950000: 22. Product with id 276888933 clicked. (TUPPERWARE sera 3 parca 4.4 LT %2C1.8 LT YATAY%2C1.8 LT DIK for cookie 66.[0m
+[95m2017-05-16 14:00:03.031000: 25. Product with id 275193614 clicked. (tupperware ozel kare 4 lu set%28yeni urun%29 for cookie 66.[0m
+[95m2017-05-16 14:00:09.058000: 31. Product with id 281208041 clicked. (TUPPERWARE KOMPAKTUS SET %281.9 lt-850 ml%29 for cookie 66.[0m
+[95m2017-05-16 14:01:30.235000: 38. Product with id 265297371 clicked. (TUPPERWARE HIZLI SEF %28CIRPICI%29 %21%21%21UCRETSIZ KARGO%21%21%21 for cookie 66.[0m
+[92mSession end.[0m
+2017-08-09 01:39:10.560418: DONE
+########################################################################################
+########################################################################################
 ########################################################################################
