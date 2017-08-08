@@ -104,8 +104,17 @@ def mergingTest():
     mergeAllParsedLogLines(extractedPath, outputPath)
     print_(outputPath, 'has', logs.count(), 'logs.')
 
+def botTest():
+    fromPath = sys.argv[1]
+    logs = readLogs(sc_(), fromPath, True)#
+    total = logs.count()
+    logs = logs.filter(lambda l: not '_bot=' in l)
+    filtered = logs.count()
+    print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
+
+
 def runNewExtractionMethods():
     #extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
     #logs = readParsedLogsFromHDFS(extractedPath)
     #keywordsTests(logs)
-    filteringTest()
+    lTest()
