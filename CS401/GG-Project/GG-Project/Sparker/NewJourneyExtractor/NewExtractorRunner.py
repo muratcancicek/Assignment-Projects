@@ -105,7 +105,7 @@ def mergingTest():
     print_(outputPath, 'has', logs.count(), 'logs.')
 
 def botTest():
-    fromPath = sys.argv[1]
+    fromPath = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16'
     logs = readLogs(sc_(), fromPath, True)#
     total = logs.count()
     logs = logs.filter(lambda l: not '_bot=' in l)
@@ -117,4 +117,4 @@ def runNewExtractionMethods():
     #extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
     #logs = readParsedLogsFromHDFS(extractedPath)
     #keywordsTests(logs)
-    lTest()
+    botTest()
