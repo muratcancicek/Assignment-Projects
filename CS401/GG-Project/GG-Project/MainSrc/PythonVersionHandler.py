@@ -5,6 +5,7 @@ import os
 import paths
 
 PYTHON_VERSION = sys.version_info[0]
+WRITE_OUTPUTS = True
 LOGGING = False
 HIGH_LOGGING = LOGGING and True
 

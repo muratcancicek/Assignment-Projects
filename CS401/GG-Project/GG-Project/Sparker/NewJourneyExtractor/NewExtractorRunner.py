@@ -53,8 +53,10 @@ def keywordsSessionizingTest(keywordDict):
         #print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
         #      'product logs have been found for', v, 'by', nowStr())
         sessions = sessionize(keywordDict[v])
+        WRITE_OUTPUTS = False
         for s in sessions:
             printSessionActions(s)
+        WRITE_OUTPUTS = True
 
 def keywordsSavingTest(keywordDict):
     objectiveLogs = sc_().parallelize([])
