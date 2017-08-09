@@ -53,11 +53,11 @@ def keywordsSessionizingTest(keywordDict):
         #print(keywordDict[v][0].count(), 'searches and', keywordDict[v][1].count(), 
         #      'product logs have been found for', v, 'by', nowStr())
         sessions = sessionize(keywordDict[v])
-        global WRITE_OUTPUTS
-        WRITE_OUTPUTS = False
-        for s in sessions:
-            printSessionActions(s)
-        WRITE_OUTPUTS = True
+        #global WRITE_OUTPUTS
+        #WRITE_OUTPUTS = False
+        #for s in sessions:
+        #    printSessionActions(s)
+        #WRITE_OUTPUTS = True
 
 def keywordsSavingTest(keywordDict):
     objectiveLogs = sc_().parallelize([])
@@ -68,13 +68,14 @@ def keywordsSavingTest(keywordDict):
         toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_' + str(len(keywordDict.keys())) + '_server')
     else:
         toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_' + str(len(keywordDict.keys())) + '_local')
+    objectiveLogs = objectiveLogs.coalesce(6)
     saveRDDToHDFS(objectiveLogs, toPath)
 
 def keywordsTests(logs):
     keywords = 'tupperware' # get32Keywords() # get5Keywords() # 
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
+    keywordsSessionizingTest(keywordDict)
     keywordsSavingTest(keywordDict)
-    #keywordsSessionizingTest(keywordDict)
 
 def searchesExtractionTests(logs):
     if len(sys.argv) == 2:
@@ -120,6 +121,7 @@ def wtcTest():
     fromPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered_wtc'
     logs = readLogs(sc_(), fromPath, True)
     logs = parseAllLogs(logs)
+    keywordsTests(logs)
 
 def runNewExtractionMethods():
     #extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
