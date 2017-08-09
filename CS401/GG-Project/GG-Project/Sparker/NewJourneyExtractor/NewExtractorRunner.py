@@ -51,5 +51,5 @@ def oldTest():
     #filteringTest()
 
 def runNewExtractionMethods():
-    #oldTest()
-    wtcTest()
+    oldTest()
+    #wtcTest()
