@@ -4,6 +4,7 @@ from Sparker.NewJourneyExtractor.BotFilter import *
 from Sparker.NewJourneyExtractor.Sessionizer import *
 from Sparker.NewJourneyExtractor.ReadyTests import *
 from Sparker.NewJourneyExtractor.SearchExtractor import *
+from Sparker.NewJourneyExtractor.NewProductPreferrer import *
 from Sparker.SparkLogProcesser.SparkLogReader import *
 from Sparker.SparkLogProcesser.SparkLogFileHandler import *
 from LogProcesser.scalaToPython.python_codes.StringUtil import *
@@ -50,6 +51,16 @@ def oldTest():
     #botTest()
     #filteringTest()
 
+def preferrerTest():
+    extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file_old')
+    keywords = 'iphone 7' # get32Keywords() # 'tupperware' # get5Keywords() # 
+    logs = readParsedLogsFromHDFS(extractedPath)
+    keywordDict = searchNProductLogsByKeywords(logs, keywords)
+    for v in keywordDict:
+        sessions = sessionize(keywordDict[v])
+        instances = trainingInstances(keywordDict[v])
+
 def runNewExtractionMethods():
-    oldTest()
+    #oldTest()
     #wtcTest()
+    preferrerTest()

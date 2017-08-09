@@ -1,0 +1,57 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 19:23:28.967708: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file_old has been read by 2017-08-09 19:23:33.576081
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 19:27:03.450274: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 19:27:53.837476: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file_old has been read by 2017-08-09 19:27:57.057356
+6110 searches have found relevant with 32 keywords by 2017-08-09 19:28:00.809908
+3017 productLogs have found relevant with 32 keywords by 2017-08-09 19:28:04.692830 
+
+1. BESIKTAS:
+61 searches have found for besiktas by 2017-08-09 19:28:08.211392
+708 products have listed on searches for besiktas by 2017-08-09 19:28:15.115490
+16 views have found for besiktas by 2017-08-09 19:28:18.604934
+15 products have clicked on searches for besiktas by 2017-08-09 19:28:23.153203
+1 cart and payments have found for besiktas by 2017-08-09 19:28:26.586968
+
+2. KOL SAATI:
+61 searches have found for kol saati by 2017-08-09 19:28:30.183589
+1992 products have listed on searches for kol saati by 2017-08-09 19:28:43.332368
+12 views have found for kol saati by 2017-08-09 19:28:46.939715
+8 products have clicked on searches for kol saati by 2017-08-09 19:29:03.512245
+4 cart and payments have found for kol saati by 2017-08-09 19:29:06.898020
+
+3. IPHONE 7:
+327 searches have found for iphone 7 by 2017-08-09 19:29:16.907884
+577 products have listed on searches for iphone 7 by 2017-08-09 19:29:23.749821
+74 views have found for iphone 7 by 2017-08-09 19:29:32.147345
+19 products have clicked on searches for iphone 7 by 2017-08-09 19:29:36.637264
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 19:30:45.546399: Running on MSI...
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\ranking\clickstream\part-r-00000_filtered_extracted_32_server_file_old has been read by 2017-08-09 19:30:49.116842
+327 searches have found relevant with 1 keywords by 2017-08-09 19:30:53.004578
+663 productLogs have found relevant with 1 keywords by 2017-08-09 19:30:56.676020 
+
+1. IPHONE 7:
+327 searches have found for iphone 7 by 2017-08-09 19:31:00.290840
+577 products have listed on searches for iphone 7 by 2017-08-09 19:31:07.889433
+74 views have found for iphone 7 by 2017-08-09 19:31:11.336436
+19 products have clicked on searches for iphone 7 by 2017-08-09 19:31:16.030787
+30 cart and payments have found for iphone 7 by 2017-08-09 19:31:19.604501
+
+173 sessions have been found in total by 2017-08-09 19:31:31.211150
+40 sessions have been found useful by 2017-08-09 19:31:31.213655
+2017-08-09 19:31:31.371264: DONE
+########################################################################################
+########################################################################################
+########################################################################################
