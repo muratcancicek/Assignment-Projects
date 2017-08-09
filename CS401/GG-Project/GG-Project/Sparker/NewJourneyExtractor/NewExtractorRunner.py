@@ -126,4 +126,5 @@ def runNewExtractionMethods():
     #logs = readParsedLogsFromHDFS(extractedPath)
     #keywordsTests(logs)
     #botTest()
-    filteringTest()
+    #filteringTest()
+    wtcTest()
