@@ -16,8 +16,11 @@ def print_(*args):
     line = line[:-1]+'\n'
     print(line[:-1])
     global WRITE_OUTPUTS
-    if WRITE_OUTPUTS:
-        outputFileName = paths.joinPath(paths.dataFolder, 'output3.txt')
+    if WRITE_OUTPUTS:        
+        if paths.COMPUTERNAME == 'osldevptst02':
+            outputFileName = paths.joinPath(paths.dataFolder, 'output3.txt')
+        else:
+            outputFileName = paths.joinPath(paths.dataFolder, 'output_local.txt')
         if os.path.isfile(outputFileName):
             open(outputFileName, 'a').write(line)  
         else:

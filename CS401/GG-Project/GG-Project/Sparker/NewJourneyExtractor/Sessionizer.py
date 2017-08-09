@@ -22,30 +22,7 @@ def idSetter(log):
     log[KEY_FOUR_IDS] = (log[KEY_PERSISTENT_COOKIE], log[KEY_USER_ID_FROM_COOKIE], log[KEY_USER_ID], log[KEY_SESSION_ID])
     return log
 
-def sessionize(logs):
-    if isinstance(logs, tuple):
-        (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
-        logs = searches.union(viewedProductLogs).union(cartedOrPaidProductLogs)
-    logs = logs.map(idSetter).collect()
-    idSets = []
-    sessions = []
-    for log in logs:
-        added = False
-        for i in range(len(idSets)):
-            for id in log[KEY_FOUR_IDS]:
-                if id in idSets[i]:
-                    #print(69)
-                    log[KEY_PERSISTENT_COOKIE] = str(i)
-                    sessions[i].append(log)
-                    idSets[i] = idSets[i].union(log[KEY_FOUR_IDS])
-                    added = True
-                    break
-        if not added:
-            l = len(sessions)
-            log[KEY_PERSISTENT_COOKIE] =  str(l+1 if l > 0 else l)
-            sessions.append([log])
-            idSets.append(set(log[KEY_FOUR_IDS]))
-    print_(len(sessions), 'sessions have been found in total by', nowStr())
+def getUsefulSessions(sessions):
     usefulSessions = []
     for s in sessions:
         se, pr = False, False
@@ -65,6 +42,31 @@ def sessionize(logs):
     print_(len(usefulSessions), 'sessions have been found useful by', nowStr())
     usefulSessions = [sc_().parallelize(s) for s in usefulSessions]
     return usefulSessions
+
+def sessionize(logs):
+    if isinstance(logs, tuple):
+        (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
+        logs = searches.union(viewedProductLogs).union(cartedOrPaidProductLogs)
+    logs = logs.map(idSetter).collect()
+    idSets = []
+    sessions = []
+    for log in logs:
+        added = False
+        for i in range(len(idSets)):
+            for id in log[KEY_FOUR_IDS]:
+                if id in idSets[i]:
+                    log[KEY_PERSISTENT_COOKIE] = str(i)
+                    sessions[i].append(log)
+                    idSets[i] = idSets[i].union(log[KEY_FOUR_IDS])
+                    added = True
+                    break
+        if not added:
+            l = len(sessions)
+            log[KEY_PERSISTENT_COOKIE] =  str(l+1 if l > 0 else l)
+            sessions.append([log])
+            idSets.append(set(log[KEY_FOUR_IDS]))
+    print_(len(sessions), 'sessions have been found in total by', nowStr())
+    return getUsefulSessions(sessions)
 
 def sessionize2(logs):
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
