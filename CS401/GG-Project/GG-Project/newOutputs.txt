@@ -136,3 +136,55 @@ D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\rankin
 ########################################################################################
 ########################################################################################
 ########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 02:39:07.081353: Running on osldevptst02...
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/08/09 02:39:08 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/08/09 02:39:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/09 02:39:09 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+        
+17/08/09 02:39:10 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16 has been read successfully.
+3397341 logs has been filtered from 17798704 logs in total by 2017-08-09 02:40:21.134715
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered_wtc with 3397341 lines has been saved successfully by 2017-08-09 02:42:08.161744
+2017-08-09 02:42:08.162689: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+[root@osldevptst02 GG-Project]# python runGG_Project.py
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-09 02:44:12.667002: Running on osldevptst02...
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/08/09 02:44:14 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/08/09 02:44:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/09 02:44:14 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+        
+17/08/09 02:44:16 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16 has been read successfully.
+1965663 logs has been filtered from 17798704 logs in total by 2017-08-09 02:45:29.970405
+2017-08-09 02:45:29.970521: DONE
+########################################################################################
+########################################################################################
+########################################################################################

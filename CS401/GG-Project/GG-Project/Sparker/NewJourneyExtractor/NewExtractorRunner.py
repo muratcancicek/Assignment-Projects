@@ -73,8 +73,8 @@ def keywordsSavingTest(keywordDict):
 def keywordsTests(logs):
     keywords = 'tupperware' # get32Keywords() # get5Keywords() # 
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
-    #keywordsSavingTest(keywordDict)
-    keywordsSessionizingTest(keywordDict)
+    keywordsSavingTest(keywordDict)
+    #keywordsSessionizingTest(keywordDict)
 
 def searchesExtractionTests(logs):
     if len(sys.argv) == 2:
@@ -116,6 +116,10 @@ def botTest():
     filtered = logs.count()
     print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
 
+def wtcTest():
+    fromPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered_wtc'
+    logs = readLogs(sc_(), fromPath, True)
+    logs = parseAllLogs(logs)
 
 def runNewExtractionMethods():
     #extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file')
