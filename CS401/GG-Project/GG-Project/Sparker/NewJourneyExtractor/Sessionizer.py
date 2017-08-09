@@ -6,7 +6,12 @@ from LogProcesser.scalaToPython.python_codes.LumberjackConstants import *
 KEY_FOUR_IDS = '_trib'
 KEY_ORIGINAL_PERSISTENT_COOKIE = '__c'
 
+cookieCounter = 0
 def idSetter(log):
+    if not KEY_PERSISTENT_COOKIE in log.keys():
+        global cookieCounter
+        log[KEY_PERSISTENT_COOKIE] = cookieCounter
+        cookieCounter += 1
     log[KEY_ORIGINAL_PERSISTENT_COOKIE] = log[KEY_PERSISTENT_COOKIE]
     if not KEY_USER_ID_FROM_COOKIE in log.keys():
         log[KEY_USER_ID_FROM_COOKIE] = log[KEY_PERSISTENT_COOKIE]

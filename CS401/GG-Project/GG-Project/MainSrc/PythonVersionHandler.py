@@ -6,7 +6,7 @@ import paths
 
 PYTHON_VERSION = sys.version_info[0]
 WRITE_OUTPUTS = True
-LOGGING = False
+LOGGING = True
 HIGH_LOGGING = LOGGING and True
 
 def print_(*args):

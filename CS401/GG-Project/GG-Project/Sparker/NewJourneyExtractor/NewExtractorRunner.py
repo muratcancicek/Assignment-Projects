@@ -32,7 +32,7 @@ def keywordsSavingTest(keywordDict):
     saveRDDToHDFS(objectiveLogs, toPath)
 
 def keywordsTests(logs):
-    keywords = 'tupperware' # get32Keywords() # get5Keywords() # 
+    keywords = get32Keywords() # 'tupperware' # get5Keywords() # 
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     keywordsSessionizingTest(keywordDict)
     keywordsSavingTest(keywordDict)
@@ -51,5 +51,5 @@ def oldTest():
     #filteringTest()
 
 def runNewExtractionMethods():
-    oldTest()
-    #wtcTest()
+    #oldTest()
+    wtcTest()
