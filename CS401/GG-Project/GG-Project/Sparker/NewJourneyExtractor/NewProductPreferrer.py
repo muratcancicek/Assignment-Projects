@@ -116,9 +116,16 @@ def productInstances(logs):
                        len(viewedProductLogs), 'viewed productLogs on searches by', nowStr())
     #viewedProductIstances = sc_().parallelize(viewedProductIstances)
     cartedOrPaidIstances = cartedOrPaidProductLogs.map(idSetter) \
-        .map(lambda productLog: findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances)).reduce(lambda a, b: a+b)
-    print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
-                       cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', nowStr())
+        .map(lambda productLog: findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances))
+    if cartedOrPaidIstances.count() > 0:
+        cartedOrPaidIstances = cartedOrPaidIstances.reduce(lambda a, b: a+b)
+        print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
+                           cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', nowStr())
+    else:
+        cartedOrPaidIstances = []
+        print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
+                           cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', nowStr())
+
     #return viewedProductIstances.union(sc_().parallelize(cartedOrPaidIstances))
     return sc_().parallelize(viewedProductIstances + cartedOrPaidIstances)
 
@@ -135,10 +142,10 @@ def trainingInstancesForSingleKeyword(logs):
     print_logging(len(pairs), ' pairs have been found from', instances.count(), ' instances in total', nowStr())
     return pairs
 
-c = 0
+c = 7
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
-    for keyword in keywordDict:
+    for keyword in keywordDict.keys()[8:]:
         global c
         c += 1
         print_logging(str(c)+'.', keyword.upper() + ':')
