@@ -53,10 +53,10 @@ def oldTest():
 
 def preferrerTest():
     extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server')
-    keywords = 'iphone 7' # get32Keywords() # 'tupperware' # get5Keywords() # _file_old
+    keywords = get32Keywords() # 'iphone 7' # 'tupperware' # get5Keywords() # _file_old
     logs = readParsedLogsFromHDFS(extractedPath)
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
-    trainingInstancesDict[v] = trainingInstancesByKeywords(keywordDict)
+    trainingInstancesDict = trainingInstancesByKeywords(keywordDict)
 
 def outputsTest():
     outputFileName = joinPath(dataFolder, 'output3.5_clean.txt')
@@ -79,7 +79,8 @@ def outputsTest2():
     table = []
     while i < len(lines):
         l = lines[i]
-        if ':' == l[-1]:
+        i += 1
+        if ':' == l[-2]:
             table.append([l[(3 if '.' == l[1] else 4):-1]])
     print_(table)
     f.close() 
@@ -89,4 +90,4 @@ def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
     preferrerTest()
-    #outputsTest()
+   # outputsTest2()
