@@ -64,7 +64,7 @@ def outputsTest():
     fileName = joinPath(dataFolder, 'output3.5.txt')      
     part = open(fileName, 'r')
     for line in part:
-        if '95m2017' in line and line[:4] != '2017':
+        if not 'm2017-05-16 ' in line and not 'mCOOKIE ' in line and not 'mSession ' in line and line[:4] != '2017':
             f.write(line) 
     f.close() 
     print_(outputFileName + ' has been written successfully.')
@@ -72,5 +72,5 @@ def outputsTest():
 def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
-    preferrerTest()
-    #outputsTest()
+    #preferrerTest()
+    outputsTest()
