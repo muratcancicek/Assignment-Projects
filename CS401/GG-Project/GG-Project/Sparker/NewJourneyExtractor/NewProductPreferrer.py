@@ -105,6 +105,7 @@ def extendLists(l):
     nl = []
     for e in l:
         nl.extend(e)
+    return nl
 
 def productInstances(logs):
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs

@@ -124,8 +124,8 @@ def evalLog(logText):
         log = eval(fixKeywords(logText))
     global evalCounter 
     evalCounter += 1
-    if evalCounter % 100000 == 0: 
-        print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
+    #if evalCounter % 100000 == 0: 
+    #    print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
     return log
 
 def readParsedLogsFromHDFS(fileName): 
