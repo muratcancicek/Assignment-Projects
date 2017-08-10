@@ -69,7 +69,7 @@ HDFSHadoopFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/hadoop/root/'
 filteredLogsFromMayFolder = joinPath(HDFSRootFolder, 'filteredLogsFromMay')
 HDFSDataFolder = joinPath(HDFSRootFolder, 'data')
 
-may2017Folder = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/'
+may2017Folder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/'
 textTrainDataFolder = '/soe/cicekm/Projects/offlineData'
 
 if COMPUTERNAME == 'MSI': 
