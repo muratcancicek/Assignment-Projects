@@ -68,6 +68,16 @@ def outputsTest():
             f.write(line) 
     f.close() 
     print_(outputFileName + ' has been written successfully.')
+    
+def outputsTest2():
+    outputFileName = joinPath(dataFolder, 'output3.5_clean.txt')
+    f = open(outputFileName, 'r')
+    lines = [] 
+    for line in f:
+        lines.append(line)
+
+    f.close() 
+    print_(outputFileName + ' has been written successfully.')
 
 def runNewExtractionMethods():
     #oldTest()
