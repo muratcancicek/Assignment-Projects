@@ -52,8 +52,8 @@ def oldTest():
     #filteringTest()
 
 def preferrerTest():
-    extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file_old')
-    keywords = get32Keywords() # 'iphone 7' # 'tupperware' # get5Keywords() # 
+    extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server')
+    keywords = get32Keywords() # 'iphone 7' # 'tupperware' # get5Keywords() # _file_old
     logs = readParsedLogsFromHDFS(extractedPath)
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     trainingInstancesDict[v] = trainingInstancesByKeywords(keywordDict)
