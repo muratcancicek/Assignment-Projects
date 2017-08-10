@@ -53,8 +53,9 @@ def findViewedProductIstancesOnSearches(productLog, searches):
     searches = searches.filter(lambda search: specificPreviousSearches(productLog, search)) \
                     .filter(lambda search: specificPreviousSearchesWithId(productLog, search))
     instances = []
+    searches = searches.sortBy(lambda search: search[KEY_TIMESTAMP], ascending = False)
     if searches.count() > 0:
-        search = searches.sortBy(lambda search: search[KEY_TIMESTAMP], ascending = False).first()
+        search = searches.first()
         for i, id in enumerate(search[KEY_ID_LIST]):
             if isinstance(productLog[KEY_ID], int):
                 if productLog[KEY_ID] == id:
