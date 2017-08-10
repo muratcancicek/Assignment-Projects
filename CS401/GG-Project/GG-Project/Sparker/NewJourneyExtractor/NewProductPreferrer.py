@@ -131,7 +131,7 @@ def pairsList(productLog):
 
 def trainingInstancesForSingleKeyword(logs):
     instances = productInstances(logs)
-    pairs = istances.map(pairsList).reduce(lambda a, b: a+b)
+    pairs = instances.map(pairsList).reduce(lambda a, b: a+b)
     print_logging(len(pairs), ' pairs have been found from', instances.count(), ' instances in total', nowStr())
     return pairs
 
