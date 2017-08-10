@@ -138,8 +138,12 @@ def pairsList(productLog):
 
 def trainingInstancesForSingleKeyword(logs):
     instances = productInstances(logs)
-    pairs = instances.map(pairsList).reduce(lambda a, b: a+b)
-    print_logging(len(pairs), ' pairs have been found from', instances.count(), ' instances in total', nowStr())
+    pairs = instances.map(pairsList)
+    if pairs.count() > 0:
+        pairs = pairs.reduce(lambda a, b: a+b)
+        print_logging(len(pairs), 'pairs have been found from', instances.count(), 'instances in total', nowStr())
+    else:
+        print_logging('0 pairs have been found from', instances.count(), 'instances in total', nowStr())
     return pairs
 
 c = 0
