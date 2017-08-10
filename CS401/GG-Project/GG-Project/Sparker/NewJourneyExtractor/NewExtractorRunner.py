@@ -12,7 +12,7 @@ from Sparker.SparkLogProcesser.SparkLogFileHandler import *
 from LogProcesser.scalaToPython.python_codes.StringUtil import *
 
 def may17ExtractionTest():
-    inputPath = joinPath(filteredLogsFromMayFolder, '2017-05-17')
+    inputPath = joinPath(may2017Folder, '2017-05-17')
     keywords = get32Keywords()
     outputPath = joinPath(filteredLogsFromMayFolder, '2017-05-17_extractedLogs')
     saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
