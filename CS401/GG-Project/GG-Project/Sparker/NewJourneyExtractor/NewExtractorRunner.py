@@ -75,7 +75,13 @@ def outputsTest2():
     lines = [] 
     for line in f:
         lines.append(line)
-
+    i = 0
+    keywords = []
+    table = []
+    while i < len(lines):
+        l = lines[i]
+        if ':' == l[-1]:
+            keyword
     f.close() 
     print_(outputFileName + ' has been written successfully.')
 
