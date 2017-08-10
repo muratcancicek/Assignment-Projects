@@ -48,16 +48,16 @@ def has_c(log):
 def isRelevant(log):
     return isRelevantModule(log) and not isBot(log) and not has_t(log) and has_c(log) #
 
-def filterLogsForBots(logs):
-    if LOGGING:
+def filterLogsForBots(logs, printing = False):
+    if LOGGING and printing:
         total = logs.count()
     logs = logs.filter(isRelevant)
-    if LOGGING:
+    if LOGGING and printing:
         filtered = logs.count()
         print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
     return logs
 
-def filterSaveLogs(fromPath, toPath):
+def filterSaveLogs(fromPath, toPath, printing = False):
     logs = readLogs(sc_(), fromPath, True)#
-    logs = filterLogsForBots(logs)
+    logs = filterLogsForBots(logs, printing)
     saveRDDToHDFS(logs, toPath)
