@@ -24,6 +24,7 @@ def getPreparedLogsFromHDFS(inputPaths):
     return parseAllLogs(logs)
 
 def extractLogsByKeywordsFromHDFS(inputPaths, keywords):
+    logs = getPreparedLogsFromHDFS(inputPaths)
     return searchNProductLogsByKeywords(logs, keywords)
 
 def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath):
