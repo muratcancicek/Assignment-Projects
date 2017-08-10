@@ -19,8 +19,11 @@ def readAndFilterLogs(inputPaths):
         logs = readLogsFromMultiplePaths(inputPaths)
     return filterLogsForBots(logs)
 
-def extractLogsByKeywordsFromHDFS(inputPaths, keywords):
+def getPreparedLogsFromHDFS(inputPaths):
     logs = readAndFilterLogs(inputPaths)
+    return parseAllLogs(logs)
+
+def extractLogsByKeywordsFromHDFS(inputPaths, keywords):
     return searchNProductLogsByKeywords(logs, keywords)
 
 def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath):
