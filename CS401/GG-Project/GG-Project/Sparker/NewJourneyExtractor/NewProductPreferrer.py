@@ -131,10 +131,10 @@ def trainingInstancesForSingleKeyword(logs):
 c = 0
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
-    for v in keywordDict:
+    for keyword in keywordDict:
         global c
         c += 1
         print_logging(str(c)+'.', keyword.upper() + ':')
-        trainingInstancesDict[v] = trainingInstancesForSingleKeyword(keywordDict[v])
+        trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
     print_logging()
     return trainingInstancesDict

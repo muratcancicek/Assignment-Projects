@@ -18,7 +18,7 @@ def print_(*args):
     global WRITE_OUTPUTS
     if WRITE_OUTPUTS:        
         if paths.COMPUTERNAME == 'osldevptst02':
-            outputFileName = paths.joinPath(paths.dataFolder, 'output3.txt')
+            outputFileName = paths.joinPath(paths.dataFolder, 'output4.txt')
         else:
             outputFileName = paths.joinPath(paths.dataFolder, 'output_local.txt')
         if os.path.isfile(outputFileName):
