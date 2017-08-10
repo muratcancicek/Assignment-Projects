@@ -14,7 +14,7 @@ def readLogsFromMultiplePaths(inputPaths):
 
 def readAndFilterLogs(inputPaths):
     if isinstance(inputPaths, str):
-        logs = readLogs(sc_(), input, True)
+        logs = readLogs(sc_(), inputPaths, True)
     else:
         logs = readLogsFromMultiplePaths(inputPaths)
     return filterLogsForBots(logs)
