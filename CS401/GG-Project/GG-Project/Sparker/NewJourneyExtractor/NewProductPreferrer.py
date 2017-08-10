@@ -113,12 +113,12 @@ def productInstances(logs):
     viewedProductLogs = viewedProductLogs.map(idSetter).collect()
     viewedProductIstances = extendLists([findViewedProductIstancesOnSearches(productLog, searches) for productLog in viewedProductLogs])
     print_high_logging(len(viewedProductIstances), 'product instances have been found from', 
-                       viewedProductLogs.count(), 'viewed productLogs on searches by', nowStr())
+                       len(viewedProductLogs), 'viewed productLogs on searches by', nowStr())
     #viewedProductIstances = sc_().parallelize(viewedProductIstances)
     cartedOrPaidIstances = cartedOrPaidProductLogs.map(idSetter) \
         .map(lambda productLog: findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances)).reduce(lambda a, b: a+b)
     print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
-                       cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', nowStr())
+                       len(cartedOrPaidProductLogs), 'carted or paid productLogs on searches by', nowStr())
     #return viewedProductIstances.union(sc_().parallelize(cartedOrPaidIstances))
     return sc_().parallelize(viewedProductIstances + cartedOrPaidIstances)
 

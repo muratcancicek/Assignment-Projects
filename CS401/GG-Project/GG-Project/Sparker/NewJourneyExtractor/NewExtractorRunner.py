@@ -58,6 +58,16 @@ def preferrerTest():
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
     trainingInstancesDict[v] = trainingInstancesByKeywords(keywordDict)
 
+def outputsTest():
+    outputFileName = joinPath(dataFolder, 'output3.5_clean.txt')
+    f = open(outputFileName, 'w')
+    fileName = joinPath(inputFolder, fileName)        
+    part = open(fileName, 'r')
+    for line in part:
+            f.write(line) 
+    f.close() 
+    print_(outputFileName + ' has been written successfully.')
+
 def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
