@@ -65,6 +65,8 @@ Day1_lg_g4_DataFolder = joinPath(sparkFolder, 'Day1_lg_g4_Data')
 gitDir = ''
 allLogsPath = ''
 HDFSRootFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/'
+HDFSHadoopFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/hadoop/root/'
+filteredLogsFromMayFolder = joinPath(HDFSRootFolder, 'filteredLogsFromMay')
 HDFSDataFolder = joinPath(HDFSRootFolder, 'data')
 
 may17Folder = 'hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/'

@@ -165,6 +165,10 @@
     <Compile Include="Sparker\NewJourneyExtractor\BotFilter.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sparker\NewJourneyExtractor\FinalizedRunners.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sparker\NewJourneyExtractor\ReadyTests2.py" />
     <Compile Include="Sparker\NewJourneyExtractor\NewExtractorRunner.py">
       <SubType>Code</SubType>
     </Compile>
