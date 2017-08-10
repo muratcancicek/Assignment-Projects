@@ -12,7 +12,7 @@ import time
 WRITING_ALLOWED = False
 def readLogs(_sc, fileName, duplicated = False):
     logs = _sc.textFile(fileName) if duplicated else _sc.textFile(fileName).distinct()
-    print_(fileName + ' has been read successfully.')
+    print_(fileName + ' will be reading by', nowStr())
     return logs
 
 def readAllLogFiles(_sc, folder):
