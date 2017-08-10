@@ -15,7 +15,7 @@ def may17ExtractionTest():
     inputPath = joinPath(filteredLogsFromMayFolder, '2017-05-17')
     keywords = get32Keywords()
     outputPath = joinPath(filteredLogsFromMayFolder, '2017-05-17_extractedLogs')
-    saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath)
+    saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
 
 def runNewExtractionMethods():
     may17ExtractionTest()
