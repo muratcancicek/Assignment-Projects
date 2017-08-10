@@ -77,6 +77,7 @@ def outputsTest2():
         lines.append(line[:-1])
     i = 0
     table = []
+    c = 0
     while i < len(lines):
         l = lines[i]
         i += 1
@@ -88,16 +89,35 @@ def outputsTest2():
                     i += 1
                     l = lines[i]
                     s = l.split()
-                    if len(s) < 1: break
-                    table[-1 if len(table) > 0 else 0].append(int(s[0]))
-                    table[-1 if len(table) > 0 else 0].append(s[-1])
+                    if len(s) < 2: 
+                        t = i
+                        while t < j:
+                            table[-1 if len(table) > 0 else 0].append(0)
+                            table[-1 if len(table) > 0 else 0].append("N/A")
+                            t += 1
+                        break
+                    else:
+                        table[-1 if len(table) > 0 else 0].append(int(s[0]))
+                        table[-1 if len(table) > 0 else 0].append(s[-1])
+            if 'sessions have been found' in l:
+                j = i+1
+                #print_(l)
+                while i < j:
+                    l = lines[i]
+                    if "root" in l:
+                        break
+                    s = l.split()
+                    table[c].append(int(s[0]))
+                    table[c].append(s[-1])
+                    i += 1
+                c += 1
+    print_(c)
     for r in table:
-        print_(r)
+        print_(str(r)[1:-1].replace(", ", ",").replace("'", ""))
     f.close() 
-    print_(outputFileName + ' has been written successfully.')
 
 def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
-    preferrerTest()
-   # outputsTest2()
+    # preferrerTest()
+   outputsTest2()

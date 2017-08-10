@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="data\pairs.txt">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10.py" />
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_eval.py" />
     <Compile Include="DeepLearningToRank\MultiGPU_Tools\cifar10_input.py" />
