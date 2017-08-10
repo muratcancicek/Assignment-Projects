@@ -61,9 +61,10 @@ def preferrerTest():
 def outputsTest():
     outputFileName = joinPath(dataFolder, 'output3.5_clean.txt')
     f = open(outputFileName, 'w')
-    fileName = joinPath(inputFolder, fileName)        
+    fileName = joinPath(dataFolder, 'output3.5.txt')      
     part = open(fileName, 'r')
     for line in part:
+        if line[0] != '[' and line[:0] != '2017':
             f.write(line) 
     f.close() 
     print_(outputFileName + ' has been written successfully.')
@@ -71,4 +72,5 @@ def outputsTest():
 def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
-    preferrerTest()
+    #preferrerTest()
+    outputsTest()

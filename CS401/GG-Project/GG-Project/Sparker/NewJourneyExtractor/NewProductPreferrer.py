@@ -89,7 +89,7 @@ def specificPreviousViews(productLog, viewIstance):
     return False
 
 def findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances):
-    viewedIstances = [instance for instance in viewedIstances if specificPreviousViews(productLog, istance)]
+    viewedIstances = [instance for instance in viewedProductIstances if specificPreviousViews(productLog, istance)]
     if viewedIstances.count() > 0:
         if productLog[KEY_MODULE] == KEY_MODULE_CART:
             coefficient = KEY_CART_COEFFICIENT
