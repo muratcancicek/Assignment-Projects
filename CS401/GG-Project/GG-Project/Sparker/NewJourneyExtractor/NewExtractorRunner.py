@@ -64,7 +64,7 @@ def outputsTest():
     fileName = joinPath(dataFolder, 'output3.5.txt')      
     part = open(fileName, 'r')
     for line in part:
-        if line[0] != '[' and line[:0] != '2017':
+        if '95m2017' in line and line[:4] != '2017':
             f.write(line) 
     f.close() 
     print_(outputFileName + ' has been written successfully.')
