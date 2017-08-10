@@ -89,5 +89,5 @@ def outputsTest2():
 def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
-   #  preferrerTest()
-   outputsTest2()
+    preferrerTest()
+   # outputsTest2()
