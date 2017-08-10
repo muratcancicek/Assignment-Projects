@@ -72,5 +72,5 @@ def outputsTest():
 def runNewExtractionMethods():
     #oldTest()
     #wtcTest()
-    #preferrerTest()
-    outputsTest()
+    preferrerTest()
+    #outputsTest()
