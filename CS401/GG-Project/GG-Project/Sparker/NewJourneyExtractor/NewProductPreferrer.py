@@ -145,7 +145,7 @@ def trainingInstancesForSingleKeyword(logs):
 c = 7
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
-    for keyword in keywordDict.keys()[8:]:
+    for keyword in list(keywordDict.keys()[8:]):
         global c
         c += 1
         print_logging(str(c)+'.', keyword.upper() + ':')
