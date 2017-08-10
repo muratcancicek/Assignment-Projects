@@ -25,7 +25,7 @@ def keywordsSavingTest(keywordDict):
     for v in keywordDict:
         (searches, viewedProductLogs, cartedOrPaidProductLogs) = keywordDict[v]
         objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
-    if len(sys.argv) == 2:
+    if COMPUTERNAME == 'osldevptst02' :
         toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_' + str(len(keywordDict.keys())) + '_server')
     else:
         toPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_' + str(len(keywordDict.keys())) + '_local')
@@ -53,12 +53,10 @@ def oldTest():
 
 def preferrerTest():
     extractedPath = joinPath(clickstreamFolder, 'part-r-00000_filtered_extracted_32_server_file_old')
-    keywords = 'iphone 7' # get32Keywords() # 'tupperware' # get5Keywords() # 
+    keywords = get32Keywords() # 'iphone 7' # 'tupperware' # get5Keywords() # 
     logs = readParsedLogsFromHDFS(extractedPath)
     keywordDict = searchNProductLogsByKeywords(logs, keywords)
-    for v in keywordDict:
-        sessions = sessionize(keywordDict[v])
-        instances = trainingInstances(keywordDict[v])
+    trainingInstancesDict[v] = trainingInstancesByKeywords(keywordDict)
 
 def runNewExtractionMethods():
     #oldTest()
