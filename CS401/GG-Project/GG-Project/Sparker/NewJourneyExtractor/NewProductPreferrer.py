@@ -142,10 +142,10 @@ def trainingInstancesForSingleKeyword(logs):
     print_logging(len(pairs), ' pairs have been found from', instances.count(), ' instances in total', nowStr())
     return pairs
 
-c = 7
+c = 0
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
-    for keyword in list(keywordDict.keys())[8:]:
+    for keyword in keywordDict:
         global c
         c += 1
         print_logging(str(c)+'.', keyword.upper() + ':')
