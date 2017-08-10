@@ -158,3 +158,315 @@ D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output
 ########################################################################################
 ########################################################################################
 2017-08-10 12:05:47.052778: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:16:17.929761: Running on MSI...
+[['BESIKTAS:'], ['KOL SAATI:'], ['IPHONE 7:'], ['IPHONE 7 KILIF:'], ['STRES CARKI:'], ['NIKE AIR MAX:'], ['TUPPERWARE:'], ['BUZDOLABI:'], ['VESTEL CAMASIR MAKINESI:'], ['SAMSUNG GALAXY J7 PRIME:'], ['SAMSUNG:'], ['DIKEY ELEKTRIKLI SUPURGE:'], ['JBL HOPARLOR:'], ['BISIKLET:'], ['KOT PANTALON:'], ['MANI JEANS KOT PANTALON:'], ['LENOVO K6 NOTE:'], ['SANDALYE KILIFI:'], ['BEKO 9 KG CAMASIR MAKINESI:'], ['XIAOMI:'], ['SAMSUNG GALAXY S6:'], ['KADIN PARFUM:'], ['KIRMIZI CONVERSE:'], ['KIZ COCUK ABIYE ELBISE:'], ['AVON KADIN PARFUM:'], ['KAMP CADIRI:'], ['ADIDAS:'], ['XIAOMI MI5:'], ['SAMSUNG GALAXY S5 MINI:'], ['ZIGON SEHPA:'], ['GALAXY S3:'], ['LG G4:']]
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output3.5_clean.txt has been written successfully.
+2017-08-10 12:16:20.342060: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:18:17.683792: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:18:51.137355: Running on MSI...
+[['BESIKTAS'], ['KOL SAATI'], ['IPHONE 7'], ['IPHONE 7 KILIF'], ['STRES CARKI'], ['NIKE AIR MAX'], ['TUPPERWARE'], ['BUZDOLABI'], ['VESTEL CAMASIR MAKINESI'], ['SAMSUNG GALAXY J7 PRIME'], ['SAMSUNG'], ['DIKEY ELEKTRIKLI SUPURGE'], ['JBL HOPARLOR'], ['BISIKLET'], ['KOT PANTALON'], ['MANI JEANS KOT PANTALON'], ['LENOVO K6 NOTE'], ['SANDALYE KILIFI'], ['BEKO 9 KG CAMASIR MAKINESI'], ['XIAOMI'], ['SAMSUNG GALAXY S6'], ['KADIN PARFUM'], ['KIRMIZI CONVERSE'], ['KIZ COCUK ABIYE ELBISE'], ['AVON KADIN PARFUM'], ['KAMP CADIRI'], ['ADIDAS'], ['XIAOMI MI5'], ['SAMSUNG GALAXY S5 MINI'], ['ZIGON SEHPA'], ['GALAXY S3'], ['LG G4']]
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output3.5_clean.txt has been written successfully.
+2017-08-10 12:18:53.561688: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:19:38.672421: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:20:11.408500: Running on MSI...
+[['besiktas'], ['kol saati'], ['iphone 7'], ['iphone 7 kilif'], ['stres carki'], ['nike air max'], ['tupperware'], ['buzdolabi'], ['vestel camasir makinesi'], ['samsung galaxy j7 prime'], ['samsung'], ['dikey elektrikli supurge'], ['jbl hoparlor'], ['bisiklet'], ['kot pantalon'], ['mani jeans kot pantalon'], ['lenovo k6 note'], ['sandalye kilifi'], ['beko 9 kg camasir makinesi'], ['xiaomi'], ['samsung galaxy s6'], ['kadin parfum'], ['kirmizi converse'], ['kiz cocuk abiye elbise'], ['avon kadin parfum'], ['kamp cadiri'], ['adidas'], ['xiaomi mi5'], ['samsung galaxy s5 mini'], ['zigon sehpa'], ['galaxy s3'], ['lg g4']]
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output3.5_clean.txt has been written successfully.
+2017-08-10 12:20:13.838360: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:25:40.823939: Running on MSI...
+['besiktas', '1.', 'BESIKTAS:', '1.', 'BESIKTAS:', '1.', 'BESIKTAS:', '1.', 'BESIKTAS:', '1.', 'BESIKTAS:']
+['kol saati', '2.', 'SAATI:', '2.', 'SAATI:', '2.', 'SAATI:', '2.', 'SAATI:', '2.', 'SAATI:']
+['iphone 7', '3.', '7:', '3.', '7:', '3.', '7:', '3.', '7:', '3.', '7:']
+['iphone 7 kilif', '4.', 'KILIF:', '4.', 'KILIF:', '4.', 'KILIF:', '4.', 'KILIF:', '4.', 'KILIF:']
+['stres carki', '5.', 'CARKI:', '5.', 'CARKI:', '5.', 'CARKI:', '5.', 'CARKI:', '5.', 'CARKI:']
+['nike air max', '6.', 'MAX:', '6.', 'MAX:', '6.', 'MAX:', '6.', 'MAX:', '6.', 'MAX:']
+['tupperware', '7.', 'TUPPERWARE:', '7.', 'TUPPERWARE:', '7.', 'TUPPERWARE:', '7.', 'TUPPERWARE:', '7.', 'TUPPERWARE:']
+['buzdolabi', '8.', 'BUZDOLABI:', '8.', 'BUZDOLABI:', '8.', 'BUZDOLABI:', '8.', 'BUZDOLABI:', '8.', 'BUZDOLABI:']
+['vestel camasir makinesi', '9.', 'MAKINESI:', '9.', 'MAKINESI:', '9.', 'MAKINESI:', '9.', 'MAKINESI:', '9.', 'MAKINESI:']
+['samsung galaxy j7 prime', '10.', 'PRIME:', '10.', 'PRIME:', '10.', 'PRIME:', '10.', 'PRIME:', '10.', 'PRIME:']
+['samsung', '11.', 'SAMSUNG:', '11.', 'SAMSUNG:', '11.', 'SAMSUNG:', '11.', 'SAMSUNG:', '11.', 'SAMSUNG:']
+['dikey elektrikli supurge', '12.', 'SUPURGE:', '12.', 'SUPURGE:', '12.', 'SUPURGE:', '12.', 'SUPURGE:', '12.', 'SUPURGE:']
+['jbl hoparlor', '13.', 'HOPARLOR:', '13.', 'HOPARLOR:', '13.', 'HOPARLOR:', '13.', 'HOPARLOR:', '13.', 'HOPARLOR:']
+['bisiklet', '14.', 'BISIKLET:', '14.', 'BISIKLET:', '14.', 'BISIKLET:', '14.', 'BISIKLET:', '14.', 'BISIKLET:']
+['kot pantalon', '15.', 'PANTALON:', '15.', 'PANTALON:', '15.', 'PANTALON:', '15.', 'PANTALON:', '15.', 'PANTALON:']
+['lenovo k6 note', '17.', 'NOTE:', '17.', 'NOTE:', '17.', 'NOTE:', '17.', 'NOTE:', '17.', 'NOTE:']
+['sandalye kilifi', '18.', 'KILIFI:', '18.', 'KILIFI:', '18.', 'KILIFI:', '18.', 'KILIFI:', '18.', 'KILIFI:']
+['beko 9 kg camasir makinesi', '19.', 'MAKINESI:', '19.', 'MAKINESI:', '19.', 'MAKINESI:', '19.', 'MAKINESI:', '19.', 'MAKINESI:']
+['xiaomi', '20.', 'XIAOMI:', '20.', 'XIAOMI:', '20.', 'XIAOMI:', '20.', 'XIAOMI:', '20.', 'XIAOMI:']
+['samsung galaxy s6', '21.', 'S6:', '21.', 'S6:', '21.', 'S6:', '21.', 'S6:', '21.', 'S6:']
+['kadin parfum', '22.', 'PARFUM:', '22.', 'PARFUM:', '22.', 'PARFUM:', '22.', 'PARFUM:', '22.', 'PARFUM:']
+['kirmizi converse', '23.', 'CONVERSE:', '23.', 'CONVERSE:', '23.', 'CONVERSE:', '23.', 'CONVERSE:', '23.', 'CONVERSE:']
+['kiz cocuk abiye elbise', '24.', 'ELBISE:', '24.', 'ELBISE:', '24.', 'ELBISE:', '24.', 'ELBISE:', '24.', 'ELBISE:']
+['avon kadin parfum', '25.', 'PARFUM:', '25.', 'PARFUM:', '25.', 'PARFUM:', '25.', 'PARFUM:', '25.', 'PARFUM:']
+['kamp cadiri', '26.', 'CADIRI:', '26.', 'CADIRI:', '26.', 'CADIRI:', '26.', 'CADIRI:', '26.', 'CADIRI:']
+['adidas', '27.', 'ADIDAS:', '27.', 'ADIDAS:', '27.', 'ADIDAS:', '27.', 'ADIDAS:', '27.', 'ADIDAS:']
+['xiaomi mi5', '28.', 'MI5:', '28.', 'MI5:', '28.', 'MI5:', '28.', 'MI5:', '28.', 'MI5:']
+['samsung galaxy s5 mini', '29.', 'MINI:', '29.', 'MINI:', '29.', 'MINI:', '29.', 'MINI:', '29.', 'MINI:']
+['galaxy s3', '31.', 'S3:', '31.', 'S3:', '31.', 'S3:', '31.', 'S3:', '31.', 'S3:']
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output3.5_clean.txt has been written successfully.
+2017-08-10 12:25:43.223811: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:26:26.118875: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:28:14.129627: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:29:01.241343: Running on MSI...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:30:07.865642: Running on MSI...
+['947', 'products', 'have', 'listed', 'on', 'searches', 'for', 'besiktas', 'by', '2017-08-09', '04:06:38.719340']
+['45', 'views', 'have', 'found', 'for', 'besiktas', 'by', '2017-08-09', '04:09:06.021360']
+['31', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'besiktas', 'by', '2017-08-09', '04:11:34.611841']
+['3', 'cart', 'and', 'payments', 'have', 'found', 'for', 'besiktas', 'by', '2017-08-09', '04:13:59.260037']
+[]
+['2794', 'products', 'have', 'listed', 'on', 'searches', 'for', 'kol', 'saati', 'by', '2017-08-09', '04:20:13.780279']
+['14', 'views', 'have', 'found', 'for', 'kol', 'saati', 'by', '2017-08-09', '04:22:39.761313']
+['9', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'kol', 'saati', 'by', '2017-08-09', '04:25:10.623853']
+['4', 'cart', 'and', 'payments', 'have', 'found', 'for', 'kol', 'saati', 'by', '2017-08-09', '04:27:40.819795']
+[]
+['1634', 'products', 'have', 'listed', 'on', 'searches', 'for', 'iphone', '7', 'by', '2017-08-09', '04:33:57.322007']
+['156', 'views', 'have', 'found', 'for', 'iphone', '7', 'by', '2017-08-09', '04:36:21.037838']
+['28', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'iphone', '7', 'by', '2017-08-09', '04:38:51.933822']
+['36', 'cart', 'and', 'payments', 'have', 'found', 'for', 'iphone', '7', 'by', '2017-08-09', '04:41:17.384837']
+[]
+['1595', 'products', 'have', 'listed', 'on', 'searches', 'for', 'iphone', '7', 'kilif', 'by', '2017-08-09', '04:47:30.130222']
+['188', 'views', 'have', 'found', 'for', 'iphone', '7', 'kilif', 'by', '2017-08-09', '04:49:56.486527']
+['96', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'iphone', '7', 'kilif', 'by', '2017-08-09', '04:52:22.512625']
+['22', 'cart', 'and', 'payments', 'have', 'found', 'for', 'iphone', '7', 'kilif', 'by', '2017-08-09', '04:54:47.166700']
+[]
+['4239', 'products', 'have', 'listed', 'on', 'searches', 'for', 'stres', 'carki', 'by', '2017-08-09', '05:00:54.393843']
+['2044', 'views', 'have', 'found', 'for', 'stres', 'carki', 'by', '2017-08-09', '05:03:16.644774']
+['387', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'stres', 'carki', 'by', '2017-08-09', '05:05:46.031257']
+['65', 'cart', 'and', 'payments', 'have', 'found', 'for', 'stres', 'carki', 'by', '2017-08-09', '05:08:14.474639']
+[]
+['1844', 'products', 'have', 'listed', 'on', 'searches', 'for', 'nike', 'air', 'max', 'by', '2017-08-09', '05:14:28.145440']
+['313', 'views', 'have', 'found', 'for', 'nike', 'air', 'max', 'by', '2017-08-09', '05:16:54.091530']
+['133', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'nike', 'air', 'max', 'by', '2017-08-09', '05:19:22.034938']
+['14', 'cart', 'and', 'payments', 'have', 'found', 'for', 'nike', 'air', 'max', 'by', '2017-08-09', '05:21:49.406718']
+[]
+['5850', 'products', 'have', 'listed', 'on', 'searches', 'for', 'tupperware', 'by', '2017-08-09', '05:28:03.303015']
+['309', 'views', 'have', 'found', 'for', 'tupperware', 'by', '2017-08-09', '05:30:33.808984']
+['194', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'tupperware', 'by', '2017-08-09', '05:33:04.080143']
+['22', 'cart', 'and', 'payments', 'have', 'found', 'for', 'tupperware', 'by', '2017-08-09', '05:35:30.155160']
+[]
+['2211', 'products', 'have', 'listed', 'on', 'searches', 'for', 'buzdolabi', 'by', '2017-08-09', '05:41:42.055566']
+['87', 'views', 'have', 'found', 'for', 'buzdolabi', 'by', '2017-08-09', '05:44:05.005808']
+['63', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'buzdolabi', 'by', '2017-08-09', '05:46:30.086349']
+['16', 'cart', 'and', 'payments', 'have', 'found', 'for', 'buzdolabi', 'by', '2017-08-09', '05:49:00.915780']
+[]
+['43', 'products', 'have', 'listed', 'on', 'searches', 'for', 'vestel', 'camasir', 'makinesi', 'by', '2017-08-09', '05:55:14.372945']
+['12', 'views', 'have', 'found', 'for', 'vestel', 'camasir', 'makinesi', 'by', '2017-08-09', '05:57:41.629838']
+['10', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'vestel', 'camasir', 'makinesi', 'by', '2017-08-09', '06:00:07.921145']
+['11', 'cart', 'and', 'payments', 'have', 'found', 'for', 'vestel', 'camasir', 'makinesi', 'by', '2017-08-09', '06:02:34.944486']
+[]
+['790', 'products', 'have', 'listed', 'on', 'searches', 'for', 'samsung', 'galaxy', 'j7', 'prime', 'by', '2017-08-09', '06:08:45.040609']
+['65', 'views', 'have', 'found', 'for', 'samsung', 'galaxy', 'j7', 'prime', 'by', '2017-08-09', '06:11:16.963001']
+['18', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'samsung', 'galaxy', 'j7', 'prime', 'by', '2017-08-09', '06:13:48.409525']
+['58', 'cart', 'and', 'payments', 'have', 'found', 'for', 'samsung', 'galaxy', 'j7', 'prime', 'by', '2017-08-09', '06:16:11.754533']
+[]
+['2302', 'products', 'have', 'listed', 'on', 'searches', 'for', 'samsung', 'by', '2017-08-09', '06:22:27.355116']
+['73', 'views', 'have', 'found', 'for', 'samsung', 'by', '2017-08-09', '06:24:57.690813']
+['44', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'samsung', 'by', '2017-08-09', '06:27:28.123075']
+['79', 'cart', 'and', 'payments', 'have', 'found', 'for', 'samsung', 'by', '2017-08-09', '06:29:57.636116']
+[]
+['307', 'products', 'have', 'listed', 'on', 'searches', 'for', 'dikey', 'elektrikli', 'supurge', 'by', '2017-08-09', '06:36:11.716798']
+['54', 'views', 'have', 'found', 'for', 'dikey', 'elektrikli', 'supurge', 'by', '2017-08-09', '06:38:37.198597']
+['28', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'dikey', 'elektrikli', 'supurge', 'by', '2017-08-09', '06:41:03.846404']
+['29', 'cart', 'and', 'payments', 'have', 'found', 'for', 'dikey', 'elektrikli', 'supurge', 'by', '2017-08-09', '06:43:30.759018']
+[]
+['125', 'products', 'have', 'listed', 'on', 'searches', 'for', 'jbl', 'hoparlor', 'by', '2017-08-09', '06:49:43.764178']
+['14', 'views', 'have', 'found', 'for', 'jbl', 'hoparlor', 'by', '2017-08-09', '06:52:10.117845']
+['8', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'jbl', 'hoparlor', 'by', '2017-08-09', '06:54:37.521204']
+['2', 'cart', 'and', 'payments', 'have', 'found', 'for', 'jbl', 'hoparlor', 'by', '2017-08-09', '06:57:06.615901']
+[]
+['8617', 'products', 'have', 'listed', 'on', 'searches', 'for', 'bisiklet', 'by', '2017-08-09', '07:03:15.311644']
+['228', 'views', 'have', 'found', 'for', 'bisiklet', 'by', '2017-08-09', '07:05:39.033760']
+['113', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'bisiklet', 'by', '2017-08-09', '07:08:04.610920']
+['54', 'cart', 'and', 'payments', 'have', 'found', 'for', 'bisiklet', 'by', '2017-08-09', '07:10:29.966391']
+[]
+[]
+['16.', 'MANI', 'JEANS', 'KOT', 'PANTALON:']
+['0', 'searches', 'have', 'found', 'for', 'mani', 'jeans', 'kot', 'pantalon', 'by', '2017-08-09', '07:16:39.634760']
+[]
+['17.', 'LENOVO', 'K6', 'NOTE:']
+['658', 'products', 'have', 'listed', 'on', 'searches', 'for', 'lenovo', 'k6', 'note', 'by', '2017-08-09', '07:24:55.820578']
+['14', 'views', 'have', 'found', 'for', 'lenovo', 'k6', 'note', 'by', '2017-08-09', '07:27:20.042660']
+['4', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'lenovo', 'k6', 'note', 'by', '2017-08-09', '07:29:47.754020']
+['6', 'cart', 'and', 'payments', 'have', 'found', 'for', 'lenovo', 'k6', 'note', 'by', '2017-08-09', '07:32:16.272124']
+[]
+['783', 'products', 'have', 'listed', 'on', 'searches', 'for', 'sandalye', 'kilifi', 'by', '2017-08-09', '07:38:33.811362']
+['354', 'views', 'have', 'found', 'for', 'sandalye', 'kilifi', 'by', '2017-08-09', '07:41:01.324265']
+['77', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'sandalye', 'kilifi', 'by', '2017-08-09', '07:43:27.727811']
+['13', 'cart', 'and', 'payments', 'have', 'found', 'for', 'sandalye', 'kilifi', 'by', '2017-08-09', '07:45:57.045118']
+[]
+['5', 'products', 'have', 'listed', 'on', 'searches', 'for', 'beko', '9', 'kg', 'camasir', 'makinesi', 'by', '2017-08-09', '07:52:12.022248']
+['0', 'views', 'have', 'found', 'for', 'beko', '9', 'kg', 'camasir', 'makinesi', 'by', '2017-08-09', '07:54:38.567895']
+['0', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'beko', '9', 'kg', 'camasir', 'makinesi', 'by', '2017-08-09', '07:57:04.540746']
+['0', 'cart', 'and', 'payments', 'have', 'found', 'for', 'beko', '9', 'kg', 'camasir', 'makinesi', 'by', '2017-08-09', '07:59:28.601455']
+[]
+['1465', 'products', 'have', 'listed', 'on', 'searches', 'for', 'xiaomi', 'by', '2017-08-09', '08:05:47.822280']
+['128', 'views', 'have', 'found', 'for', 'xiaomi', 'by', '2017-08-09', '08:08:15.414988']
+['38', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'xiaomi', 'by', '2017-08-09', '08:10:45.541296']
+['67', 'cart', 'and', 'payments', 'have', 'found', 'for', 'xiaomi', 'by', '2017-08-09', '08:13:08.268916']
+[]
+['129', 'products', 'have', 'listed', 'on', 'searches', 'for', 'samsung', 'galaxy', 's6', 'by', '2017-08-09', '08:19:10.641039']
+['38', 'views', 'have', 'found', 'for', 'samsung', 'galaxy', 's6', 'by', '2017-08-09', '08:21:37.496811']
+['10', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'samsung', 'galaxy', 's6', 'by', '2017-08-09', '08:24:05.156518']
+['2', 'cart', 'and', 'payments', 'have', 'found', 'for', 'samsung', 'galaxy', 's6', 'by', '2017-08-09', '08:26:29.116036']
+[]
+['60', 'products', 'have', 'listed', 'on', 'searches', 'for', 'kadin', 'parfum', 'by', '2017-08-09', '08:32:41.095667']
+['1', 'views', 'have', 'found', 'for', 'kadin', 'parfum', 'by', '2017-08-09', '08:35:09.517086']
+['1', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'kadin', 'parfum', 'by', '2017-08-09', '08:37:39.460549']
+['0', 'cart', 'and', 'payments', 'have', 'found', 'for', 'kadin', 'parfum', 'by', '2017-08-09', '08:40:06.805549']
+[]
+['74', 'products', 'have', 'listed', 'on', 'searches', 'for', 'kirmizi', 'converse', 'by', '2017-08-09', '08:46:18.375694']
+['5', 'views', 'have', 'found', 'for', 'kirmizi', 'converse', 'by', '2017-08-09', '08:48:42.993179']
+['1', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'kirmizi', 'converse', 'by', '2017-08-09', '08:51:09.812540']
+['2', 'cart', 'and', 'payments', 'have', 'found', 'for', 'kirmizi', 'converse', 'by', '2017-08-09', '08:53:35.244798']
+[]
+['396', 'products', 'have', 'listed', 'on', 'searches', 'for', 'kiz', 'cocuk', 'abiye', 'elbise', 'by', '2017-08-09', '08:59:45.731553']
+['961', 'views', 'have', 'found', 'for', 'kiz', 'cocuk', 'abiye', 'elbise', 'by', '2017-08-09', '09:02:13.008532']
+['179', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'kiz', 'cocuk', 'abiye', 'elbise', 'by', '2017-08-09', '09:04:36.742700']
+['21', 'cart', 'and', 'payments', 'have', 'found', 'for', 'kiz', 'cocuk', 'abiye', 'elbise', 'by', '2017-08-09', '09:07:00.350943']
+[]
+['60', 'products', 'have', 'listed', 'on', 'searches', 'for', 'avon', 'kadin', 'parfum', 'by', '2017-08-09', '09:13:09.772880']
+['1', 'views', 'have', 'found', 'for', 'avon', 'kadin', 'parfum', 'by', '2017-08-09', '09:15:38.425297']
+['1', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'avon', 'kadin', 'parfum', 'by', '2017-08-09', '09:18:04.253536']
+['1', 'cart', 'and', 'payments', 'have', 'found', 'for', 'avon', 'kadin', 'parfum', 'by', '2017-08-09', '09:20:32.694860']
+[]
+['1192', 'products', 'have', 'listed', 'on', 'searches', 'for', 'kamp', 'cadiri', 'by', '2017-08-09', '09:26:47.566264']
+['188', 'views', 'have', 'found', 'for', 'kamp', 'cadiri', 'by', '2017-08-09', '09:29:15.928364']
+['100', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'kamp', 'cadiri', 'by', '2017-08-09', '09:31:45.581936']
+['57', 'cart', 'and', 'payments', 'have', 'found', 'for', 'kamp', 'cadiri', 'by', '2017-08-09', '09:34:14.648018']
+[]
+['3463', 'products', 'have', 'listed', 'on', 'searches', 'for', 'adidas', 'by', '2017-08-09', '09:40:28.010734']
+['21', 'views', 'have', 'found', 'for', 'adidas', 'by', '2017-08-09', '09:42:53.472232']
+['17', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'adidas', 'by', '2017-08-09', '09:45:20.021217']
+['2', 'cart', 'and', 'payments', 'have', 'found', 'for', 'adidas', 'by', '2017-08-09', '09:47:48.766062']
+[]
+['918', 'products', 'have', 'listed', 'on', 'searches', 'for', 'xiaomi', 'mi5', 'by', '2017-08-09', '09:53:59.778786']
+['39', 'views', 'have', 'found', 'for', 'xiaomi', 'mi5', 'by', '2017-08-09', '09:56:27.385927']
+['10', 'products', 'have', 'clicked', 'on', 'searches', 'for', 'xiaomi', 'mi5', 'by', '2017-08-09', '09:58:53.337966']
+['45', 'cart', 'and', 'payments', 'have', 'found', 'for', 'xiaomi', 'mi5', 'by', '2017-08-09', '10:01:19.682690']
+[]
+[]
+['30.', 'ZIGON', 'SEHPA:']
+['333', 'searches', 'have', 'found', 'for', 'zigon', 'sehpa', 'by', '2017-08-09', '10:07:39.581202']
+['2880', 'products', 'have', 'listed', 'on', 'searches', 'for', 'zigon', 'sehpa', 'by', '2017-08-09', '10:11:50.131173']
+['50', 'views', 'have', 'found', 'for', 'zigon', 'sehpa', 'by', '2017-08-09', '10:14:16.266258']
+[]
+['32.', 'LG', 'G4:']
+['161', 'searches', 'have', 'found', 'for', 'lg', 'g4', 'by', '2017-08-09', '10:25:24.801370']
+['635', 'products', 'have', 'listed', 'on', 'searches', 'for', 'lg', 'g4', 'by', '2017-08-09', '10:29:31.949939']
+['53', 'views', 'have', 'found', 'for', 'lg', 'g4', 'by', '2017-08-09', '10:31:58.771822']
+['besiktas']
+['kol saati']
+['iphone 7']
+['iphone 7 kilif']
+['stres carki']
+['nike air max']
+['tupperware']
+['buzdolabi']
+['vestel camasir makinesi']
+['samsung galaxy j7 prime']
+['samsung']
+['dikey elektrikli supurge']
+['jbl hoparlor']
+['bisiklet']
+['kot pantalon']
+['lenovo k6 note']
+['sandalye kilifi']
+['beko 9 kg camasir makinesi']
+['xiaomi']
+['samsung galaxy s6']
+['kadin parfum']
+['kirmizi converse']
+['kiz cocuk abiye elbise']
+['avon kadin parfum']
+['kamp cadiri']
+['adidas']
+['xiaomi mi5']
+['samsung galaxy s5 mini']
+['galaxy s3']
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output3.5_clean.txt has been written successfully.
+2017-08-10 12:30:10.381580: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-10 12:32:21.014281: Running on MSI...
+['besiktas', 947, '04:06:38.719340', 45, '04:09:06.021360', 31, '04:11:34.611841', 3, '04:13:59.260037']
+['kol saati', 2794, '04:20:13.780279', 14, '04:22:39.761313', 9, '04:25:10.623853', 4, '04:27:40.819795']
+['iphone 7', 1634, '04:33:57.322007', 156, '04:36:21.037838', 28, '04:38:51.933822', 36, '04:41:17.384837']
+['iphone 7 kilif', 1595, '04:47:30.130222', 188, '04:49:56.486527', 96, '04:52:22.512625', 22, '04:54:47.166700']
+['stres carki', 4239, '05:00:54.393843', 2044, '05:03:16.644774', 387, '05:05:46.031257', 65, '05:08:14.474639']
+['nike air max', 1844, '05:14:28.145440', 313, '05:16:54.091530', 133, '05:19:22.034938', 14, '05:21:49.406718']
+['tupperware', 5850, '05:28:03.303015', 309, '05:30:33.808984', 194, '05:33:04.080143', 22, '05:35:30.155160']
+['buzdolabi', 2211, '05:41:42.055566', 87, '05:44:05.005808', 63, '05:46:30.086349', 16, '05:49:00.915780']
+['vestel camasir makinesi', 43, '05:55:14.372945', 12, '05:57:41.629838', 10, '06:00:07.921145', 11, '06:02:34.944486']
+['samsung galaxy j7 prime', 790, '06:08:45.040609', 65, '06:11:16.963001', 18, '06:13:48.409525', 58, '06:16:11.754533']
+['samsung', 2302, '06:22:27.355116', 73, '06:24:57.690813', 44, '06:27:28.123075', 79, '06:29:57.636116']
+['dikey elektrikli supurge', 307, '06:36:11.716798', 54, '06:38:37.198597', 28, '06:41:03.846404', 29, '06:43:30.759018']
+['jbl hoparlor', 125, '06:49:43.764178', 14, '06:52:10.117845', 8, '06:54:37.521204', 2, '06:57:06.615901']
+['bisiklet', 8617, '07:03:15.311644', 228, '07:05:39.033760', 113, '07:08:04.610920', 54, '07:10:29.966391']
+['kot pantalon']
+['mani jeans kot pantalon']
+['lenovo k6 note', 658, '07:24:55.820578', 14, '07:27:20.042660', 4, '07:29:47.754020', 6, '07:32:16.272124']
+['sandalye kilifi', 783, '07:38:33.811362', 354, '07:41:01.324265', 77, '07:43:27.727811', 13, '07:45:57.045118']
+['beko 9 kg camasir makinesi', 5, '07:52:12.022248', 0, '07:54:38.567895', 0, '07:57:04.540746', 0, '07:59:28.601455']
+['xiaomi', 1465, '08:05:47.822280', 128, '08:08:15.414988', 38, '08:10:45.541296', 67, '08:13:08.268916']
+['samsung galaxy s6', 129, '08:19:10.641039', 38, '08:21:37.496811', 10, '08:24:05.156518', 2, '08:26:29.116036']
+['kadin parfum', 60, '08:32:41.095667', 1, '08:35:09.517086', 1, '08:37:39.460549', 0, '08:40:06.805549']
+['kirmizi converse', 74, '08:46:18.375694', 5, '08:48:42.993179', 1, '08:51:09.812540', 2, '08:53:35.244798']
+['kiz cocuk abiye elbise', 396, '08:59:45.731553', 961, '09:02:13.008532', 179, '09:04:36.742700', 21, '09:07:00.350943']
+['avon kadin parfum', 60, '09:13:09.772880', 1, '09:15:38.425297', 1, '09:18:04.253536', 1, '09:20:32.694860']
+['kamp cadiri', 1192, '09:26:47.566264', 188, '09:29:15.928364', 100, '09:31:45.581936', 57, '09:34:14.648018']
+['adidas', 3463, '09:40:28.010734', 21, '09:42:53.472232', 17, '09:45:20.021217', 2, '09:47:48.766062']
+['xiaomi mi5', 918, '09:53:59.778786', 39, '09:56:27.385927', 10, '09:58:53.337966', 45, '10:01:19.682690']
+['samsung galaxy s5 mini']
+['zigon sehpa', 2880, '10:11:50.131173', 50, '10:14:16.266258', 31, '10:16:40.023850', 29, '10:19:04.256373']
+['galaxy s3']
+['lg g4', 635, '10:29:31.949939', 53, '10:31:58.771822', 10, '10:34:24.472315', 8, '10:36:49.079098']
+D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project\data\output3.5_clean.txt has been written successfully.
+2017-08-10 12:32:23.496771: DONE
+########################################################################################
+########################################################################################
+########################################################################################

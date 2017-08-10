@@ -150,10 +150,19 @@ def trainingInstancesForSingleKeyword(logs):
 c = 0
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
+    k = ["MANI JEANS KOT PANTALON", "LG G4", "ADIDAS", "TUPPERWARE", "XIAOMI MI5", "JBL HOPARLOR", 
+         "BESIKTAS", "SAMSUNG", "KOT PANTALON", "DIKEY ELEKTRIKLI SUPURGE", "BEKO 9 KG CAMASIR MAKINESI", "GALAXY S3",
+         "SAMSUNG GALAXY S5 MINI"]
+    k = [i.lower() for i in k]
     for keyword in keywordDict:
+        if keyword.lower() in k:
+            continue
         global c
         c += 1
         print_logging(str(c)+'.', keyword.upper() + ':')
-        trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
+        try:
+            trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
+        except:
+            print_("ERROR")
     print_logging()
     return trainingInstancesDict

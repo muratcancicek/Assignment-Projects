@@ -74,15 +74,25 @@ def outputsTest2():
     f = open(outputFileName, 'r')
     lines = [] 
     for line in f:
-        lines.append(line)
+        lines.append(line[:-1])
     i = 0
     table = []
     while i < len(lines):
         l = lines[i]
         i += 1
-        if ':' == l[-2]:
-            table.append([l[(3 if '.' == l[1] else 4):-1]])
-    print_(table)
+        if len(l) > 2:
+            if ':' == l[-1]:
+                table.append([l[(3 if '.' == l[1] else 4):-1].lower()])
+                j = i+5
+                while i < j:
+                    i += 1
+                    l = lines[i]
+                    s = l.split()
+                    if len(s) < 1: break
+                    table[-1 if len(table) > 0 else 0].append(int(s[0]))
+                    table[-1 if len(table) > 0 else 0].append(s[-1])
+    for r in table:
+        print_(r)
     f.close() 
     print_(outputFileName + ' has been written successfully.')
 
