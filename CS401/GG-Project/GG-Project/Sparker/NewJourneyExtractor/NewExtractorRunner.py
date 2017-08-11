@@ -33,4 +33,5 @@ def m16():
     saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
 
 def runNewExtractionMethods():
-    may17ExtractionTest(18)
+    #may17ExtractionTest(18)
+    m16()
