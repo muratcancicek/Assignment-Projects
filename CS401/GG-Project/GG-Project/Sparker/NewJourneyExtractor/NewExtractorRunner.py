@@ -28,7 +28,7 @@ def pairLabellingFromObjectiveLogsTest(day):
 
 def m16():
     keywords = get32Keywords()
-    extractedPath = joinPath(filteredLogsFromMayFolder, '2017-05-16_filtered')
+    inputPath = joinPath(filteredLogsFromMayFolder, '2017-05-16_filtered')
     outputPath = joinPath(filteredLogsFromMayFolder, '2017-05-16_extractedLogs')
     saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
 
