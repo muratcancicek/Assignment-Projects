@@ -9,25 +9,6 @@ KEY_PRODUCT_COEFFICIENT = 1
 KEY_CART_COEFFICIENT = 5
 KEY_PAYMENT_COEFFICIENT = 10
 
-def findProductIdOnSearches(currentLog, previousJourney):
-    lastSearchIndexWithId, productIndex = -1, -1
-    previousJourney.reverse()
-    count = -1
-    for pl in previousJourney:
-        if LA.isSearchLog(pl):
-            count += 1
-            if isinstance(currentLog[KEY_ID], int):
-                for t, jd in enumerate(pl[KEY_ID_LIST]):
-                    if currentLog[KEY_ID] == jd:
-                        return count, t
-            elif isinstance(currentLog[KEY_ID], str):
-                if '%7C' in currentLog[KEY_ID]:
-                    processedIds = [int(i) for i in currentLog[KEY_ID].split('%7C')]
-                    for t, jd in enumerate(pl[KEY_ID_LIST]):
-                        if jd in processedIds:
-                            return count, t
-    return lastSearchIndexWithId, productIndex 
-
 def specificPreviousSearches(productLog, search):
     if search[KEY_TIMESTAMP] < productLog[KEY_TIMESTAMP]:
         for id in productLog[KEY_FOUR_IDS]:

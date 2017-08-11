@@ -76,3 +76,10 @@ cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project
 /root/anaconda3/bin/jupyter notebook --port=8891
 
   http://osldevptst02.host.gittigidiyor.net:8891/?token=1a9e52ff6e52515a0a4ee28361041a481cf5d3d5b9d8a251
+
+
+ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
+  
+scp deneme.txt hguney@cybfnddev%host.gittigidiyor.net@aslfndpslr03.host.gittigidiyor.net@ap-cyb-psmp.pool.gittigidiyor.net:/tmp
+scp televizyon.txt miek@cybdbhdpt%host.gittigidiyor.net@osldevptst02.host.gittigidiyor.net@ap-cyb-psmp.pool.gittigidiyor.net:/tmp
+ 

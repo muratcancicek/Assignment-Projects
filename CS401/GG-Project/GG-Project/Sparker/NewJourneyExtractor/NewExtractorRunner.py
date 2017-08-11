@@ -17,6 +17,20 @@ def may17ExtractionTest(day):
     keywords = get32Keywords()
     outputPath = joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
     saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
+    
+def pairLabellingFromObjectiveLogsTest(day):
+    keywords = 'iphone 7' # get32Keywords() # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
+    dateStr = '2017-05-' + str(day)
+    extractedPath = joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
+    logs = readParsedLogsFromHDFS(extractedPath)
+    keywordDict = searchNProductLogsByKeywords(logs, keywords)
+    trainingInstancesDict = trainingInstancesByKeywords(keywordDict)
+
+def m16():
+    keywords = get32Keywords()
+    extractedPath = joinPath(filteredLogsFromMayFolder, '2017-05-16_filtered')
+    outputPath = joinPath(filteredLogsFromMayFolder, '2017-05-16_extractedLogs')
+    saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
 
 def runNewExtractionMethods():
     may17ExtractionTest(18)
