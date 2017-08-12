@@ -69,27 +69,21 @@ def specificProductLogs(logs, keywords):
     return logs.filter(isProductLogsFromSearchOrItems)
 
 def productLogsFromBySingleKeyword(searches, productLogs, keyword):
-    listedIds = uniqueList(searches.map(lambda log: log[KEY_ID_LIST]).reduce(lambda a, b: a+b))
-    print_high_logging(len(listedIds), 'products have listed on searches for', keyword, 'by', nowStr())
-    viewedProductLogs = productLogs.filter(lambda log: log[KEY_ID] in listedIds \
-        and log[KEY_MODULE] == KEY_MODULE_ITEM and log[KEY_REFERER]['k'] == keyword)
+    listedIds = searches.flatMap(lambda log: log[KEY_ID_LIST]).distinct().map(lambda i: (i, i))
+    print_high_logging(listedIds.count(), 'products have listed on searches for', keyword, 'by', nowStr())
+    viewedProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_ITEM and log[KEY_REFERER]['k'] == keyword).map(lambda log: (log[KEY_ID], log))
+    viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1])
     print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', nowStr())
-    viewedIds = viewedProductLogs.map(lambda log: log[KEY_ID]).distinct().collect()
-    print_logging(len(viewedIds), 'products have clicked on searches for', keyword, 'by', nowStr())
-    cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART \
-        or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
-    def isViewed(log):
+    viewedIds = viewedProductLogs.map(lambda kv: (kv[0], kv[0])).distinct()
+    print_logging(viewedIds.count(), 'products have clicked on searches for', keyword, 'by', nowStr())
+    cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
+    def singleId(log):
         if isinstance(log[KEY_ID], int):
-            return log[KEY_ID] in viewedIds 
+            return [(log[KEY_ID], log)]
         if isinstance(log[KEY_ID], str):
             if '%7C' in log[KEY_ID]:
-                #print(log[KEY_ID])
-                processedIds = [int(i) for i in log[KEY_ID].split('%7C')]
-                for i in processedIds:
-                    if i in viewedIds:
-                        return True
-            return log[KEY_ID] in viewedIds 
-    cartedOrPaidProductLogs = cartedOrPaidProductLogs.filter(isViewed)
+                return [(int(i), log) for i in log[KEY_ID].split('%7C')]
+    cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId))
     print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
