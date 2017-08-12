@@ -286,12 +286,8 @@
     <Content Include="data\ranking\logInfo\part-r-00000\TcDominantKwyowrds.xlsx" />
     <Content Include="data\spark\usps-4-9-test.csv" />
     <Content Include="data\spark\usps-4-9-train.csv" />
-    <Content Include="DeepLearningToRank.ipynb" />
-    <Content Include="DeepTrainer.ipynb" />
-    <Content Include="GG-Project.ipynb" />
     <Content Include="newOutputs.txt" />
     <Content Include="notes.txt" />
-    <Content Include="UpdatedTrainDataGenerator.ipynb" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
