@@ -53,6 +53,7 @@ cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
 ssh miek@ap-cyb-psmp.pool.gittigidiyor.net
 
 cybdbhdpt#host.gittigidiyor.net
+osldevptst02.host.gittigidiyor.net:8889
 
 export SPARK_HOME=/opt/spark 
 export PATH=$SPARK_HOME/bin:$PATH
@@ -83,3 +84,6 @@ ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
 scp deneme.txt hguney@cybfnddev%host.gittigidiyor.net@aslfndpslr03.host.gittigidiyor.net@ap-cyb-psmp.pool.gittigidiyor.net:/tmp
 scp televizyon.txt miek@cybdbhdpt%host.gittigidiyor.net@osldevptst02.host.gittigidiyor.net@ap-cyb-psmp.pool.gittigidiyor.net:/tmp
  
+jupyter notebook password
+
+'sha1:330db20887e9:6999612846feaa3947198b5705493d326bb78d7d'
