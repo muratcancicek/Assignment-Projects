@@ -1,0 +1,1082 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-12 01:28:23.749227: Running on osldevptst02...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-12 01:29:33.319202: Running on osldevptst02...
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-12 01:31:00.024351: Running on osldevptst02...
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-16_filtered will be reading by 2017-08-12 01:31:05.741620
+3397341 have been prepared by 2017-08-12 01:35:10.231519
+12947 searches have found relevant with 32 keywords by 2017-08-12 01:38:31.224831
+32789 productLogs have found relevant with 32 keywords by 2017-08-12 01:42:19.187595 
+
+1. BESIKTAS:
+170 searches have found for besiktas by 2017-08-12 01:45:48.666233
+947 products have listed on searches for besiktas by 2017-08-12 01:52:19.102984
+45 views have found for besiktas by 2017-08-12 01:56:03.717950
+31 products have clicked on searches for besiktas by 2017-08-12 01:59:53.860142
+3 cart and payments have found for besiktas by 2017-08-12 02:03:30.735005
+
+2. KOL SAATI:
+98 searches have found for kol saati by 2017-08-12 02:07:00.004772
+2794 products have listed on searches for kol saati by 2017-08-12 02:13:40.000060
+14 views have found for kol saati by 2017-08-12 02:17:17.474450
+9 products have clicked on searches for kol saati by 2017-08-12 02:21:15.144023
+4 cart and payments have found for kol saati by 2017-08-12 02:25:07.442651
+
+3. IPHONE 7:
+573 searches have found for iphone 7 by 2017-08-12 02:28:19.155092
+1634 products have listed on searches for iphone 7 by 2017-08-12 02:34:53.750028
+156 views have found for iphone 7 by 2017-08-12 02:38:52.488880
+28 products have clicked on searches for iphone 7 by 2017-08-12 02:42:33.280978
+36 cart and payments have found for iphone 7 by 2017-08-12 02:46:34.342887
+
+4. IPHONE 7 KILIF:
+147 searches have found for iphone 7 kilif by 2017-08-12 02:49:55.729769
+1595 products have listed on searches for iphone 7 kilif by 2017-08-12 02:56:23.586010
+188 views have found for iphone 7 kilif by 2017-08-12 03:00:21.545043
+96 products have clicked on searches for iphone 7 kilif by 2017-08-12 03:04:14.589249
+22 cart and payments have found for iphone 7 kilif by 2017-08-12 03:08:07.804400
+
+5. STRES CARKI:
+3134 searches have found for stres carki by 2017-08-12 03:11:33.255142
+4239 products have listed on searches for stres carki by 2017-08-12 03:18:17.002224
+2044 views have found for stres carki by 2017-08-12 03:21:57.522447
+387 products have clicked on searches for stres carki by 2017-08-12 03:26:02.801688
+65 cart and payments have found for stres carki by 2017-08-12 03:29:41.904598
+
+6. NIKE AIR MAX:
+1429 searches have found for nike air max by 2017-08-12 03:33:06.164739
+1844 products have listed on searches for nike air max by 2017-08-12 03:39:38.102691
+313 views have found for nike air max by 2017-08-12 03:43:29.353255
+133 products have clicked on searches for nike air max by 2017-08-12 03:47:27.984602
+14 cart and payments have found for nike air max by 2017-08-12 03:51:25.204747
+
+7. TUPPERWARE:
+1132 searches have found for tupperware by 2017-08-12 03:54:51.083457
+5850 products have listed on searches for tupperware by 2017-08-12 04:01:27.707525
+309 views have found for tupperware by 2017-08-12 04:05:30.013855
+194 products have clicked on searches for tupperware by 2017-08-12 04:09:18.538346
+22 cart and payments have found for tupperware by 2017-08-12 04:13:06.933719
+
+8. BUZDOLABI:
+421 searches have found for buzdolabi by 2017-08-12 04:16:30.549175
+2211 products have listed on searches for buzdolabi by 2017-08-12 04:23:08.839391
+87 views have found for buzdolabi by 2017-08-12 04:26:57.347023
+63 products have clicked on searches for buzdolabi by 2017-08-12 04:30:52.683296
+16 cart and payments have found for buzdolabi by 2017-08-12 04:34:48.775880
+
+9. VESTEL CAMASIR MAKINESI:
+16 searches have found for vestel camasir makinesi by 2017-08-12 04:38:07.007480
+43 products have listed on searches for vestel camasir makinesi by 2017-08-12 04:44:47.233747
+12 views have found for vestel camasir makinesi by 2017-08-12 04:48:30.896294
+10 products have clicked on searches for vestel camasir makinesi by 2017-08-12 04:52:22.469124
+11 cart and payments have found for vestel camasir makinesi by 2017-08-12 04:56:18.040211
+
+10. SAMSUNG GALAXY J7 PRIME:
+515 searches have found for samsung galaxy j7 prime by 2017-08-12 04:59:29.094947
+790 products have listed on searches for samsung galaxy j7 prime by 2017-08-12 05:06:04.015039
+65 views have found for samsung galaxy j7 prime by 2017-08-12 05:10:05.013881
+18 products have clicked on searches for samsung galaxy j7 prime by 2017-08-12 05:13:57.020451
+58 cart and payments have found for samsung galaxy j7 prime by 2017-08-12 05:17:37.362342
+
+11. SAMSUNG:
+263 searches have found for samsung by 2017-08-12 05:21:00.964846
+2302 products have listed on searches for samsung by 2017-08-12 05:27:45.324347
+73 views have found for samsung by 2017-08-12 05:31:42.916491
+44 products have clicked on searches for samsung by 2017-08-12 05:35:33.981929
+79 cart and payments have found for samsung by 2017-08-12 05:39:40.741450
+
+12. DIKEY ELEKTRIKLI SUPURGE:
+39 searches have found for dikey elektrikli supurge by 2017-08-12 05:42:56.507818
+307 products have listed on searches for dikey elektrikli supurge by 2017-08-12 05:49:43.031908
+54 views have found for dikey elektrikli supurge by 2017-08-12 05:53:39.390153
+28 products have clicked on searches for dikey elektrikli supurge by 2017-08-12 05:57:19.263385
+29 cart and payments have found for dikey elektrikli supurge by 2017-08-12 06:01:18.282412
+
+13. JBL HOPARLOR:
+11 searches have found for jbl hoparlor by 2017-08-12 06:04:40.813799
+125 products have listed on searches for jbl hoparlor by 2017-08-12 06:11:17.147802
+14 views have found for jbl hoparlor by 2017-08-12 06:15:02.333846
+8 products have clicked on searches for jbl hoparlor by 2017-08-12 06:18:58.001793
+2 cart and payments have found for jbl hoparlor by 2017-08-12 06:22:48.780658
+
+14. BISIKLET:
+1294 searches have found for bisiklet by 2017-08-12 06:26:17.335884
+8617 products have listed on searches for bisiklet by 2017-08-12 06:32:48.292560
+228 views have found for bisiklet by 2017-08-12 06:36:32.830206
+113 products have clicked on searches for bisiklet by 2017-08-12 06:40:29.321003
+54 cart and payments have found for bisiklet by 2017-08-12 06:44:24.768887
+
+15. KOT PANTALON:
+0 searches have found for kot pantalon by 2017-08-12 06:47:47.337237
+
+16. MANI JEANS KOT PANTALON:
+0 searches have found for mani jeans kot pantalon by 2017-08-12 06:54:28.175020
+
+17. LENOVO K6 NOTE:
+76 searches have found for lenovo k6 note by 2017-08-12 07:01:04.143961
+658 products have listed on searches for lenovo k6 note by 2017-08-12 07:07:45.981878
+14 views have found for lenovo k6 note by 2017-08-12 07:11:47.939880
+4 products have clicked on searches for lenovo k6 note by 2017-08-12 07:15:33.872165
+6 cart and payments have found for lenovo k6 note by 2017-08-12 07:19:28.722659
+
+18. SANDALYE KILIFI:
+285 searches have found for sandalye kilifi by 2017-08-12 07:22:53.023046
+783 products have listed on searches for sandalye kilifi by 2017-08-12 07:29:34.844949
+354 views have found for sandalye kilifi by 2017-08-12 07:33:17.126790
+77 products have clicked on searches for sandalye kilifi by 2017-08-12 07:37:13.996010
+13 cart and payments have found for sandalye kilifi by 2017-08-12 07:41:01.166906
+
+19. BEKO 9 KG CAMASIR MAKINESI:
+1 searches have found for beko 9 kg camasir makinesi by 2017-08-12 07:44:25.596984
+5 products have listed on searches for beko 9 kg camasir makinesi by 2017-08-12 07:51:02.675714
+0 views have found for beko 9 kg camasir makinesi by 2017-08-12 07:54:56.867307
+0 products have clicked on searches for beko 9 kg camasir makinesi by 2017-08-12 07:58:49.363724
+0 cart and payments have found for beko 9 kg camasir makinesi by 2017-08-12 08:02:54.135178
+
+20. XIAOMI:
+527 searches have found for xiaomi by 2017-08-12 08:06:00.229247
+1465 products have listed on searches for xiaomi by 2017-08-12 08:12:32.951624
+128 views have found for xiaomi by 2017-08-12 08:16:34.178773
+38 products have clicked on searches for xiaomi by 2017-08-12 08:20:33.112396
+67 cart and payments have found for xiaomi by 2017-08-12 08:24:22.729216
+
+21. SAMSUNG GALAXY S6:
+50 searches have found for samsung galaxy s6 by 2017-08-12 08:27:44.804847
+129 products have listed on searches for samsung galaxy s6 by 2017-08-12 08:34:33.064891
+38 views have found for samsung galaxy s6 by 2017-08-12 08:38:09.213656
+10 products have clicked on searches for samsung galaxy s6 by 2017-08-12 08:42:06.512506
+2 cart and payments have found for samsung galaxy s6 by 2017-08-12 08:46:00.217101
+
+22. KADIN PARFUM:
+1 searches have found for kadin parfum by 2017-08-12 08:49:30.124228
+60 products have listed on searches for kadin parfum by 2017-08-12 08:56:01.810304
+1 views have found for kadin parfum by 2017-08-12 08:59:55.024985
+1 products have clicked on searches for kadin parfum by 2017-08-12 09:03:37.738432
+0 cart and payments have found for kadin parfum by 2017-08-12 09:07:39.191494
+
+23. KIRMIZI CONVERSE:
+8 searches have found for kirmizi converse by 2017-08-12 09:10:56.238240
+74 products have listed on searches for kirmizi converse by 2017-08-12 09:17:32.450747
+5 views have found for kirmizi converse by 2017-08-12 09:21:34.732141
+1 products have clicked on searches for kirmizi converse by 2017-08-12 09:25:17.284984
+2 cart and payments have found for kirmizi converse by 2017-08-12 09:29:18.831204
+
+24. KIZ COCUK ABIYE ELBISE:
+481 searches have found for kiz cocuk abiye elbise by 2017-08-12 09:32:42.590156
+396 products have listed on searches for kiz cocuk abiye elbise by 2017-08-12 09:39:26.358874
+961 views have found for kiz cocuk abiye elbise by 2017-08-12 09:43:14.787222
+179 products have clicked on searches for kiz cocuk abiye elbise by 2017-08-12 09:47:24.467833
+21 cart and payments have found for kiz cocuk abiye elbise by 2017-08-12 09:51:11.041186
+
+25. AVON KADIN PARFUM:
+1 searches have found for avon kadin parfum by 2017-08-12 09:54:34.579838
+60 products have listed on searches for avon kadin parfum by 2017-08-12 10:01:18.013496
+1 views have found for avon kadin parfum by 2017-08-12 10:05:14.818779
+1 products have clicked on searches for avon kadin parfum by 2017-08-12 10:09:10.464129
+1 cart and payments have found for avon kadin parfum by 2017-08-12 10:13:12.595028
+
+26. KAMP CADIRI:
+351 searches have found for kamp cadiri by 2017-08-12 10:16:41.432620
+1192 products have listed on searches for kamp cadiri by 2017-08-12 10:23:10.008890
+188 views have found for kamp cadiri by 2017-08-12 10:27:03.563536
+100 products have clicked on searches for kamp cadiri by 2017-08-12 10:31:00.454509
+57 cart and payments have found for kamp cadiri by 2017-08-12 10:34:45.513720
+
+27. ADIDAS:
+383 searches have found for adidas by 2017-08-12 10:38:02.774106
+3463 products have listed on searches for adidas by 2017-08-12 10:44:28.910982
+21 views have found for adidas by 2017-08-12 10:48:14.613830
+17 products have clicked on searches for adidas by 2017-08-12 10:52:14.469497
+2 cart and payments have found for adidas by 2017-08-12 10:55:57.745932
+
+28. XIAOMI MI5:
+108 searches have found for xiaomi mi5 by 2017-08-12 10:59:21.533928
+918 products have listed on searches for xiaomi mi5 by 2017-08-12 11:06:04.718053
+39 views have found for xiaomi mi5 by 2017-08-12 11:09:59.909482
+10 products have clicked on searches for xiaomi mi5 by 2017-08-12 11:13:54.304914
+45 cart and payments have found for xiaomi mi5 by 2017-08-12 11:17:50.079042
+
+29. SAMSUNG GALAXY S5 MINI:
+0 searches have found for samsung galaxy s5 mini by 2017-08-12 11:21:12.926507
+
+30. ZIGON SEHPA:
+333 searches have found for zigon sehpa by 2017-08-12 11:27:41.600333
+2880 products have listed on searches for zigon sehpa by 2017-08-12 11:34:18.588864
+50 views have found for zigon sehpa by 2017-08-12 11:38:19.360227
+31 products have clicked on searches for zigon sehpa by 2017-08-12 11:42:11.656215
+29 cart and payments have found for zigon sehpa by 2017-08-12 11:45:51.881681
+
+31. GALAXY S3:
+0 searches have found for galaxy s3 by 2017-08-12 11:49:29.239905
+
+32. LG G4:
+161 searches have found for lg g4 by 2017-08-12 11:55:58.381098
+635 products have listed on searches for lg g4 by 2017-08-12 12:02:47.228245
+53 views have found for lg g4 by 2017-08-12 12:06:23.637681
+10 products have clicked on searches for lg g4 by 2017-08-12 12:10:20.119017
+8 cart and payments have found for lg g4 by 2017-08-12 12:14:12.899929
+
+Objective logs has been merged by 2017-08-12 12:14:14.799595
+/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/data/ranking/clickstream/part-r-00000_filtered_extracted_32_server has been read by 2017-08-12 19:58:08.883075
+573 searches have found relevant with 1 keywords by 2017-08-12 19:58:24.293282
+824 productLogs have found relevant with 1 keywords by 2017-08-12 19:58:28.366254 
+
+1. IPHONE 7:
+573 searches have found for iphone 7 by 2017-08-12 19:58:32.150917
+1634 products have listed on searches for iphone 7 by 2017-08-12 19:58:38.147252
+156 views have found for iphone 7 by 2017-08-12 19:58:41.374367
+28 products have clicked on searches for iphone 7 by 2017-08-12 19:58:47.551959
+37 cart and payments have found for iphone 7 by 2017-08-12 19:58:50.907802
+
+208 sessions have been found in total by 2017-08-12 19:59:03.009115
+67 sessions have been found useful by 2017-08-12 19:59:03.018120
+[92mSession begins...[0m
+2017-05-16 21:33:20.704000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-05-16 21:33:42.058000: 1. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 0.[0m
+[92mSession end.[0m
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-16_extractedLogs has been read by 2017-08-12 20:09:15.036160
+573 searches have found relevant with 1 keywords by 2017-08-12 20:11:50.208006
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-17_extractedLogs has been read by 2017-08-12 20:13:52.010515
+551 searches have found relevant with 1 keywords by 2017-08-12 20:14:17.426172
+734 productLogs have found relevant with 1 keywords by 2017-08-12 20:14:20.230784 
+
+2. IPHONE 7:
+551 searches have found for iphone 7 by 2017-08-12 20:14:23.317005
+1980 products have listed on searches for iphone 7 by 2017-08-12 20:14:29.131918
+176 views have found for iphone 7 by 2017-08-12 20:14:32.051004
+30 products have clicked on searches for iphone 7 by 2017-08-12 20:14:36.708352
+23 cart and payments have found for iphone 7 by 2017-08-12 20:14:39.887902
+
+183 sessions have been found in total by 2017-08-12 20:14:52.595119
+56 sessions have been found useful by 2017-08-12 20:14:52.626224
+[92mSession begins...[0m
+[95m2017-05-17 10:12:42.996000: Product with id 281675463 clicked not from the searches so far. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 75.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:51:16.111000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 1.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:51:29.571000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+2017-05-17 12:06:13.552000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:06:21.552000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 1.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:06:26.443000: Page narrowed, Showing 36 products with order wbm on page 1 for iphone 7 for cookie 2.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:06:31.691000: Order changed, Showing 36 products with order hpa on page 1 for iphone 7 for cookie 3.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 13:02:13.458000: Order changed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 2.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:02:18.628000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 86.[0m
+[95m2017-05-17 14:27:24.864000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 86.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 14:28:01.931000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 3.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 14:50:39.378000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+2017-05-17 14:52:19.302000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:52:30.356000: 1. Product with id 280390270 clicked. (APPLE IPHONE 7 PLUS 128GB JETBLACK CEP TELEFONU ***RESMI DISTRIBUTOR GARANTILI*** for cookie 75.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:00:34.769000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:29:52.957000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 1.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 18:17:08.351000: 7. Product with id 281852810 clicked. (Apple iPhone 7 128Gb Apple Turkiye Garantili for cookie 4.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 22:15:46.111000: 18. Product with id 274957218 clicked. (APPLE IPHONE 7 PLUS%2C 256GB%2C 12MP%2C SIYAH MN4W2TU-A for cookie 75.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:11:08.548000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 1.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:12:03.714000: 39. Product with id 282800552 clicked. (Iphone 7 plus gumus ve altin rengi mevcut. for cookie 29.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:13:09.900000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:22:49.466000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 29.[0m
+[95m2017-05-17 23:23:13.520000: 6. Product with id 281852810 clicked. (Apple iPhone 7 128Gb Apple Turkiye Garantili for cookie 29.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:28:53.296000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 1.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:29:18.044000: 4. Product with id 281893441 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 3.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:29:55.166000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 2.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:30:04.578000: 8. Product with id 282103698 clicked. (APPLE IPHONE 7 PLUS 32GB CEP TELEFONU ***RESMI DISTRIBUTOR GARANTILI*** for cookie 3.[0m
+2017-05-17 23:30:50.237000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 3.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:36:28.287000: 8. Product with id 282103698 clicked. (APPLE IPHONE 7 PLUS 32GB CEP TELEFONU ***RESMI DISTRIBUTOR GARANTILI*** for cookie 4.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-17 00:48:52.349000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 08:18:06.828000: 4. Product with id 281731543 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 31.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:47:17.559000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+2017-05-17 08:47:34.620000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:47:43.047000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:48:01.371000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 09:00:25.612000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 10:53:53.039000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 10:57:13.545000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:00:57.417000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:01:37.406000: Page narrowed, Showing 13 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 11:39:37.609000: 35. Product with id 282057902 clicked from the recent 2. search. (Apple iPhone 7 Plus 32Gb Siyah for cookie 32.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:42:06.391000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 11:42:21.281000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:43:13.142000: Order changed, Showing 60 products with order hpd on page 1 for iphone 7 for cookie 41.
+2017-05-17 11:43:40.398000: Refreshed, Showing 60 products with order hpd on page 1 for iphone 7 for cookie 41.
+2017-05-17 11:44:00.061000: Order changed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:50:46.576000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:59:45.057000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:13:40.123000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:13:42.384000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:13:51.610000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:14:02.658000: 5. Product with id 281731543 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 73.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:14:09.822000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:15:14.665000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 32.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:25:27.824000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+2017-05-17 12:31:38.840000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:32:40.154000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:54:05.221000: 7. Product with id 282482613 clicked from the recent 14. search. (Iphone 7 32 gb 2 ay kullanildi 0 dan farksiz for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:54:40.460000: 5. Product with id 282625834 clicked from the recent 14. search. (iphone 7 32 GB Mat Siyah for cookie 39.[0m
+[95m2017-05-17 12:54:53.156000: 1. Product with id 282874846 clicked from the recent 14. search. (iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 39.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:59:36.655000: 1. Product with id 282846718 clicked from the recent 3. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:20:39.277000: 4. Product with id 281893441 clicked from the recent 3. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 35.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:26:11.159000: 7. Product with id 282482613 clicked from the recent 14. search. (Iphone 7 32 gb 2 ay kullanildi 0 dan farksiz for cookie 39.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:27:14.367000: 3. Product with id 269038912 clicked. (Apple iPhone 7 Plus 128 GB %28Apple Turkiye Garantili%29 for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:03:49.912000: 3. Product with id 281675463 clicked from the recent 3. search. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:21:41.526000: 5. Product with id 281731543 clicked from the recent 3. search. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 38.[0m
+2017-05-17 15:20:56.850000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[95m2017-05-17 15:21:07.352000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 38.[0m
+2017-05-17 15:21:13.375000: Searching, Showing 60 products with order hpd on page 1 for iphone 7 for cookie 38.
+[95m2017-05-17 15:21:58.855000: 1. Product with id 281213008 clicked. (Apple iPhone 7 PLUS 5.5 4.5G LTE 12MP Kamera 3GB Ram 32GB Siyah for cookie 38.[0m
+2017-05-17 15:22:32.886000: Searching, Showing 60 products with order hpd on page 3 for iphone 7 for cookie 38.
+[95m2017-05-17 15:23:13.193000: 34. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 38.[0m
+[95m2017-05-17 15:23:14.130000: 34. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 38.[0m
+[95m2017-05-17 15:23:16.048000: 35. Product with id 283085037 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 38.[0m
+[95m2017-05-17 15:23:27.498000: 38. Product with id 282625834 clicked. (iphone 7 32 GB Mat Siyah for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 15:58:35.727000: 58. Product with id 280390270 clicked from the recent 2. search. (APPLE IPHONE 7 PLUS 128GB JETBLACK CEP TELEFONU ***RESMI DISTRIBUTOR GARANTILI*** for cookie 35.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 16:21:10.458000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[95m2017-05-17 16:57:28.512000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 17:11:44.323000: 7. Product with id 281852810 clicked. (Apple iPhone 7 128Gb Apple Turkiye Garantili for cookie 31.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:18:28.221000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:21:08.800000: Next Page, Showing 60 products with order wbm on page 2 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 17:43:52.189000: 11. Product with id 281731817 clicked from the recent 2. search. (APPLE iPhone 7 32 GB Gold Akilli Telefon Apple Turkiye Garantili for cookie 39.[0m
+[95m2017-05-17 17:45:33.016000: 11. Product with id 281731817 clicked from the recent 2. search. (APPLE iPhone 7 32 GB Gold Akilli Telefon Apple Turkiye Garantili for cookie 39.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 18:30:37.707000: 6. Product with id 281731649 clicked from the recent 2. search. (APPLE iPhone 7 32 GB Silver Akilli Telefon Apple Turkiye Garantili for cookie 31.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 18:45:50.556000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+2017-05-17 18:47:14.782000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:00:16.755000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 19:07:07.636000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:15:06.882000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+2017-05-17 19:16:39.765000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+2017-05-17 19:17:37.779000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+2017-05-17 19:19:27.345000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:29:31.868000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:39:01.076000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:45:35.440000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 20:13:17.034000: Category set as tc, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 20:13:38.228000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 20:57:32.588000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 21:08:47.854000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 21:51:58.067000: 8. Product with id 269038912 clicked. (Apple iPhone 7 Plus 128 GB %28Apple Turkiye Garantili%29 for cookie 31.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 22:26:25.162000: 16. Product with id 267032702 clicked. (Apple iPhone 7 Plus 32 GB %28Apple Turkiye Garantili%29 for cookie 41.[0m
+[95m2017-05-17 22:26:37.164000: 16. Product with id 267032702 clicked. (Apple iPhone 7 Plus 32 GB %28Apple Turkiye Garantili%29 for cookie 41.[0m
+[95m2017-05-17 22:26:55.914000: 25. Product with id 279453610 clicked. (Apple iPhone 7 128GB Black %28Apple Turkiye for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:05:12.269000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+2017-05-17 23:07:37.248000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:07:45.746000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:07:54.386000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+2017-05-17 23:09:24.332000: Next Page, Showing 60 products with order wbm on page 2 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:10:38.408000: Next Page, Showing 60 products with order wbm on page 3 for iphone 7 for cookie 38.
+2017-05-17 23:11:32.680000: Next Page, Showing 60 products with order wbm on page 4 for iphone 7 for cookie 38.
+2017-05-17 23:14:36.429000: Previous Page, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:14:44.987000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 23:14:49.140000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 23:14:54.651000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:14:58.546000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:23:56.581000: 1. Product with id 282846718 clicked from the recent 13. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 35.[0m
+[95m2017-05-17 23:24:24.729000: 4. Product with id 281893441 clicked from the recent 13. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 35.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:27:57.099000: 4. Product with id 281893441 clicked from the recent 13. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 38.[0m
+[95m2017-05-17 23:32:15.015000: 35. Product with id 282057877 clicked from the recent 13. search. (Apple iPhone 7 32Gb Black for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:55:12.855000: 1. Product with id 282846718 clicked from the recent 13. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 39.[0m
+[92mSession end.[0m
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-17_extractedLogs has been read by 2017-08-12 20:24:00.363672
+551 searches have found relevant with 1 keywords by 2017-08-12 20:24:16.641112
+734 productLogs have found relevant with 1 keywords by 2017-08-12 20:24:20.364903 
+
+1. IPHONE 7:
+551 searches have found for iphone 7 by 2017-08-12 20:24:24.032769
+1980 products have listed on searches for iphone 7 by 2017-08-12 20:24:30.076114
+176 views have found for iphone 7 by 2017-08-12 20:24:33.199341
+30 products have clicked on searches for iphone 7 by 2017-08-12 20:24:39.390962
+23 cart and payments have found for iphone 7 by 2017-08-12 20:24:42.238962
+
+182 sessions have been found in total by 2017-08-12 20:24:54.737939
+52 sessions have been found useful by 2017-08-12 20:24:54.768929
+[92mSession begins...[0m
+2017-05-17 00:48:52.349000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 08:18:06.828000: 4. Product with id 281731543 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 31.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:47:17.559000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+2017-05-17 08:47:34.620000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:47:43.047000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:48:01.371000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 09:00:25.612000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 10:10:57.890000: 2. Product with id 281675463 clicked. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 85.[0m
+[95m2017-05-17 10:12:19.201000: 3. Product with id 281893441 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 85.[0m
+[95m2017-05-17 10:12:42.996000: 2. Product with id 281675463 clicked. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 10:53:53.039000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 10:57:13.545000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:00:57.417000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:01:37.406000: Page narrowed, Showing 13 products with order wbm on page 1 for iphone 7 for cookie 41.
+[95m2017-05-17 11:07:42.816000: 1. Product with id 282846718 clicked from the recent 2. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 41.[0m
+[95m2017-05-17 11:08:25.818000: 9. Product with id 251039704 clicked from the recent 2. search. (Apple iPhone 7 32 GB %28Apple Turkiye Garantili%29 for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 11:09:19.462000: 9. Product with id 251039704 clicked from the recent 2. search. (Apple iPhone 7 32 GB %28Apple Turkiye Garantili%29 for cookie 73.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:42:06.391000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 11:42:21.281000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:43:13.142000: Order changed, Showing 60 products with order hpd on page 1 for iphone 7 for cookie 41.
+2017-05-17 11:43:40.398000: Refreshed, Showing 60 products with order hpd on page 1 for iphone 7 for cookie 41.
+2017-05-17 11:44:00.061000: Order changed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:50:46.576000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:59:45.057000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:13:40.123000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:13:42.384000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 80.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:13:51.610000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:14:02.658000: 5. Product with id 281731543 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:14:09.822000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:15:14.665000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 32.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:25:27.824000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+2017-05-17 12:31:38.840000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:32:40.154000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:54:05.221000: 7. Product with id 282482613 clicked from the recent 14. search. (Iphone 7 32 gb 2 ay kullanildi 0 dan farksiz for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:54:40.460000: 5. Product with id 282625834 clicked from the recent 14. search. (iphone 7 32 GB Mat Siyah for cookie 39.[0m
+[95m2017-05-17 12:54:53.156000: 1. Product with id 282874846 clicked from the recent 14. search. (iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 39.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:02:18.628000: 1. Product with id 282846718 clicked from the recent 3. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:20:39.277000: 4. Product with id 281893441 clicked from the recent 3. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 35.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:26:11.159000: 7. Product with id 282482613 clicked from the recent 14. search. (Iphone 7 32 gb 2 ay kullanildi 0 dan farksiz for cookie 39.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:27:14.367000: 3. Product with id 269038912 clicked. (Apple iPhone 7 Plus 128 GB %28Apple Turkiye Garantili%29 for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:36:32.569000: 3. Product with id 281675463 clicked from the recent 3. search. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 85.[0m
+[95m2017-05-17 13:37:11.062000: 9. Product with id 251039704 clicked from the recent 3. search. (Apple iPhone 7 32 GB %28Apple Turkiye Garantili%29 for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:03:49.912000: 3. Product with id 281675463 clicked from the recent 3. search. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:21:41.526000: 5. Product with id 281731543 clicked from the recent 3. search. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 38.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:27:24.864000: 1. Product with id 282846718 clicked from the recent 3. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 41.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:20:56.850000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 15:21:07.352000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:21:13.375000: Searching, Showing 60 products with order hpd on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 15:21:58.855000: 1. Product with id 281213008 clicked. (Apple iPhone 7 PLUS 5.5 4.5G LTE 12MP Kamera 3GB Ram 32GB Siyah for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:22:32.886000: Searching, Showing 60 products with order hpd on page 3 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 15:23:13.193000: 34. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 85.[0m
+[95m2017-05-17 15:23:14.130000: 34. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 85.[0m
+[95m2017-05-17 15:23:16.048000: 35. Product with id 283085037 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 85.[0m
+[95m2017-05-17 15:23:27.498000: 38. Product with id 282625834 clicked. (iphone 7 32 GB Mat Siyah for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 15:58:35.727000: 58. Product with id 280390270 clicked from the recent 2. search. (APPLE IPHONE 7 PLUS 128GB JETBLACK CEP TELEFONU ***RESMI DISTRIBUTOR GARANTILI*** for cookie 35.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 16:21:10.458000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:18:28.221000: Category set as tc, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:21:08.800000: Next Page, Showing 60 products with order wbm on page 2 for iphone 7 for cookie 31.
+[95m2017-05-17 18:30:37.707000: 6. Product with id 281731649 clicked from the recent 2. search. (APPLE iPhone 7 32 GB Silver Akilli Telefon Apple Turkiye Garantili for cookie 31.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 18:45:50.556000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+2017-05-17 18:47:14.782000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:00:16.755000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 19:07:07.636000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:15:06.882000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+2017-05-17 19:16:39.765000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+2017-05-17 19:17:37.779000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+2017-05-17 19:19:27.345000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 19:21:52.610000: 7. Product with id 281852810 clicked from the recent 7. search. (Apple iPhone 7 128Gb Apple Turkiye Garantili for cookie 85.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:29:31.868000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:39:01.076000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:45:35.440000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 20:13:17.034000: Category set as tc, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 20:13:38.228000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 20:57:32.588000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 21:08:47.854000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:05:12.269000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+2017-05-17 23:07:37.248000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 31.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:07:45.746000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 32.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:07:54.386000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 35.
+2017-05-17 23:09:24.332000: Next Page, Showing 60 products with order wbm on page 2 for iphone 7 for cookie 35.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:10:38.408000: Next Page, Showing 60 products with order wbm on page 3 for iphone 7 for cookie 38.
+2017-05-17 23:11:32.680000: Next Page, Showing 60 products with order wbm on page 4 for iphone 7 for cookie 38.
+2017-05-17 23:14:36.429000: Previous Page, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 38.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:14:44.987000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 23:14:49.140000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+2017-05-17 23:14:54.651000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 39.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:14:58.546000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 41.
+[92mSession end.[0m
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-17_extractedLogs has been read by 2017-08-12 20:52:52.632851
+11310 searches have found relevant with 32 keywords by 2017-08-12 20:53:06.843182
+5645 productLogs have found relevant with 32 keywords by 2017-08-12 20:53:09.792980 
+
+2. BESIKTAS:
+161 searches have found for besiktas by 2017-08-12 20:53:13.204872
+2100 products have listed on searches for besiktas by 2017-08-12 20:53:18.883235
+30 views have found for besiktas by 2017-08-12 20:53:21.915636
+25 products have clicked on searches for besiktas by 2017-08-12 20:53:26.710732
+4 cart and payments have found for besiktas by 2017-08-12 20:53:29.567458
+
+3. KOL SAATI:
+87 searches have found for kol saati by 2017-08-12 20:53:32.342506
+1911 products have listed on searches for kol saati by 2017-08-12 20:53:37.985047
+16 views have found for kol saati by 2017-08-12 20:53:41.349323
+11310 searches have found relevant with 32 keywords by 2017-08-12 20:54:07.785214
+5645 productLogs have found relevant with 32 keywords by 2017-08-12 20:54:10.842078 
+
+4. BESIKTAS:
+161 searches have found for besiktas by 2017-08-12 20:54:13.626673
+2100 products have listed on searches for besiktas by 2017-08-12 20:54:19.592610
+30 views have found for besiktas by 2017-08-12 20:54:22.663598
+25 products have clicked on searches for besiktas by 2017-08-12 20:54:27.255938
+4 cart and payments have found for besiktas by 2017-08-12 20:54:30.160870
+
+5. KOL SAATI:
+87 searches have found for kol saati by 2017-08-12 20:54:32.954349
+1911 products have listed on searches for kol saati by 2017-08-12 20:54:38.357460
+16 views have found for kol saati by 2017-08-12 20:54:41.492867
+14 products have clicked on searches for kol saati by 2017-08-12 20:54:46.305000
+5 cart and payments have found for kol saati by 2017-08-12 20:54:49.235302
+
+6. IPHONE 7:
+551 searches have found for iphone 7 by 2017-08-12 20:54:52.140576
+1980 products have listed on searches for iphone 7 by 2017-08-12 20:54:58.472510
+176 views have found for iphone 7 by 2017-08-12 20:55:01.142552
+30 products have clicked on searches for iphone 7 by 2017-08-12 20:55:05.962394
+23 cart and payments have found for iphone 7 by 2017-08-12 20:55:09.150640
+
+7. IPHONE 7 KILIF:
+146 searches have found for iphone 7 kilif by 2017-08-12 20:55:11.866808
+1556 products have listed on searches for iphone 7 kilif by 2017-08-12 20:55:17.782902
+126 views have found for iphone 7 kilif by 2017-08-12 20:55:20.970583
+68 products have clicked on searches for iphone 7 kilif by 2017-08-12 20:55:25.906431
+20 cart and payments have found for iphone 7 kilif by 2017-08-12 20:55:28.999682
+
+8. STRES CARKI:
+2882 searches have found for stres carki by 2017-08-12 20:55:31.944295
+3793 products have listed on searches for stres carki by 2017-08-12 20:55:38.111500
+1878 views have found for stres carki by 2017-08-12 20:55:41.318870
+309 products have clicked on searches for stres carki by 2017-08-12 20:55:46.249865
+58 cart and payments have found for stres carki by 2017-08-12 20:55:49.162684
+
+9. NIKE AIR MAX:
+1203 searches have found for nike air max by 2017-08-12 20:55:52.089772
+1890 products have listed on searches for nike air max by 2017-08-12 20:55:57.834720
+361 views have found for nike air max by 2017-08-12 20:56:00.927249
+160 products have clicked on searches for nike air max by 2017-08-12 20:56:05.370888
+14 cart and payments have found for nike air max by 2017-08-12 20:56:08.221713
+
+10. TUPPERWARE:
+1048 searches have found for tupperware by 2017-08-12 20:56:11.035964
+6064 products have listed on searches for tupperware by 2017-08-12 20:56:16.526011
+319 views have found for tupperware by 2017-08-12 20:56:19.957342
+168 products have clicked on searches for tupperware by 2017-08-12 20:56:25.242983
+13 cart and payments have found for tupperware by 2017-08-12 20:56:28.296304
+
+11. BUZDOLABI:
+475 searches have found for buzdolabi by 2017-08-12 20:56:31.808586
+2289 products have listed on searches for buzdolabi by 2017-08-12 20:56:37.571241
+113 views have found for buzdolabi by 2017-08-12 20:56:40.406114
+71 products have clicked on searches for buzdolabi by 2017-08-12 20:56:45.406390
+21 cart and payments have found for buzdolabi by 2017-08-12 20:56:48.311519
+
+12. VESTEL CAMASIR MAKINESI:
+4 searches have found for vestel camasir makinesi by 2017-08-12 20:56:51.383004
+43 products have listed on searches for vestel camasir makinesi by 2017-08-12 20:56:57.099808
+13 views have found for vestel camasir makinesi by 2017-08-12 20:57:00.127211
+9 products have clicked on searches for vestel camasir makinesi by 2017-08-12 20:57:04.506256
+8 cart and payments have found for vestel camasir makinesi by 2017-08-12 20:57:07.379333
+
+13. SAMSUNG GALAXY J7 PRIME:
+495 searches have found for samsung galaxy j7 prime by 2017-08-12 20:57:10.174634
+831 products have listed on searches for samsung galaxy j7 prime by 2017-08-12 20:57:15.641274
+30 views have found for samsung galaxy j7 prime by 2017-08-12 20:57:18.519213
+10 products have clicked on searches for samsung galaxy j7 prime by 2017-08-12 20:57:22.834159
+98 cart and payments have found for samsung galaxy j7 prime by 2017-08-12 20:57:25.797920
+
+14. SAMSUNG:
+244 searches have found for samsung by 2017-08-12 20:57:28.406217
+2235 products have listed on searches for samsung by 2017-08-12 20:57:34.392615
+42 views have found for samsung by 2017-08-12 20:57:37.770222
+25 products have clicked on searches for samsung by 2017-08-12 20:57:42.614348
+93 cart and payments have found for samsung by 2017-08-12 20:57:45.356974
+
+15. DIKEY ELEKTRIKLI SUPURGE:
+91 searches have found for dikey elektrikli supurge by 2017-08-12 20:57:48.059545
+314 products have listed on searches for dikey elektrikli supurge by 2017-08-12 20:57:53.190115
+57 views have found for dikey elektrikli supurge by 2017-08-12 20:57:56.161749
+36 products have clicked on searches for dikey elektrikli supurge by 2017-08-12 20:58:00.984679
+17 cart and payments have found for dikey elektrikli supurge by 2017-08-12 20:58:03.722793
+
+16. JBL HOPARLOR:
+28 searches have found for jbl hoparlor by 2017-08-12 20:58:06.830257
+365 products have listed on searches for jbl hoparlor by 2017-08-12 20:58:12.448423
+14 views have found for jbl hoparlor by 2017-08-12 20:58:15.398746
+7 products have clicked on searches for jbl hoparlor by 2017-08-12 20:58:19.572329
+8 cart and payments have found for jbl hoparlor by 2017-08-12 20:58:22.230606
+
+17. BISIKLET:
+855 searches have found for bisiklet by 2017-08-12 20:58:25.025566
+6781 products have listed on searches for bisiklet by 2017-08-12 20:58:30.558326
+160 views have found for bisiklet by 2017-08-12 20:58:34.323271
+97 products have clicked on searches for bisiklet by 2017-08-12 20:58:39.444543
+34 cart and payments have found for bisiklet by 2017-08-12 20:58:42.157143
+
+18. KOT PANTALON:
+1 searches have found for kot pantalon by 2017-08-12 20:58:44.773878
+60 products have listed on searches for kot pantalon by 2017-08-12 20:58:50.560789
+0 views have found for kot pantalon by 2017-08-12 20:58:53.516200
+0 products have clicked on searches for kot pantalon by 2017-08-12 20:58:57.797826
+0 cart and payments have found for kot pantalon by 2017-08-12 20:59:00.569780
+
+19. MANI JEANS KOT PANTALON:
+0 searches have found for mani jeans kot pantalon by 2017-08-12 20:59:03.485545
+
+20. LENOVO K6 NOTE:
+63 searches have found for lenovo k6 note by 2017-08-12 20:59:09.866163
+522 products have listed on searches for lenovo k6 note by 2017-08-12 20:59:15.566066
+15 views have found for lenovo k6 note by 2017-08-12 20:59:18.526014
+4 products have clicked on searches for lenovo k6 note by 2017-08-12 20:59:23.060939
+1 cart and payments have found for lenovo k6 note by 2017-08-12 20:59:25.673799
+
+21. SANDALYE KILIFI:
+303 searches have found for sandalye kilifi by 2017-08-12 20:59:28.396393
+775 products have listed on searches for sandalye kilifi by 2017-08-12 20:59:34.381862
+387 views have found for sandalye kilifi by 2017-08-12 20:59:37.115658
+81 products have clicked on searches for sandalye kilifi by 2017-08-12 20:59:41.915372
+14 cart and payments have found for sandalye kilifi by 2017-08-12 20:59:44.589767
+
+22. BEKO 9 KG CAMASIR MAKINESI:
+0 searches have found for beko 9 kg camasir makinesi by 2017-08-12 20:59:47.703609
+
+23. XIAOMI:
+387 searches have found for xiaomi by 2017-08-12 20:59:52.794665
+579 products have listed on searches for xiaomi by 2017-08-12 20:59:58.429622
+71 views have found for xiaomi by 2017-08-12 21:00:01.435171
+23 products have clicked on searches for xiaomi by 2017-08-12 21:00:05.864559
+112 cart and payments have found for xiaomi by 2017-08-12 21:00:08.803758
+
+24. SAMSUNG GALAXY S6:
+44 searches have found for samsung galaxy s6 by 2017-08-12 21:00:11.660270
+211 products have listed on searches for samsung galaxy s6 by 2017-08-12 21:00:17.344705
+12 views have found for samsung galaxy s6 by 2017-08-12 21:00:20.055660
+6 products have clicked on searches for samsung galaxy s6 by 2017-08-12 21:00:24.352968
+2 cart and payments have found for samsung galaxy s6 by 2017-08-12 21:00:27.218289
+
+25. KADIN PARFUM:
+0 searches have found for kadin parfum by 2017-08-12 21:00:30.061225
+
+26. KIRMIZI CONVERSE:
+2 searches have found for kirmizi converse by 2017-08-12 21:00:35.632877
+61 products have listed on searches for kirmizi converse by 2017-08-12 21:00:41.020264
+3 views have found for kirmizi converse by 2017-08-12 21:00:43.743932
+2 products have clicked on searches for kirmizi converse by 2017-08-12 21:00:47.856044
+0 cart and payments have found for kirmizi converse by 2017-08-12 21:00:50.586366
+
+27. KIZ COCUK ABIYE ELBISE:
+775 searches have found for kiz cocuk abiye elbise by 2017-08-12 21:00:53.213770
+464 products have listed on searches for kiz cocuk abiye elbise by 2017-08-12 21:00:58.880344
+910 views have found for kiz cocuk abiye elbise by 2017-08-12 21:01:01.498098
+204 products have clicked on searches for kiz cocuk abiye elbise by 2017-08-12 21:01:06.039089
+24 cart and payments have found for kiz cocuk abiye elbise by 2017-08-12 21:01:08.960290
+
+28. AVON KADIN PARFUM:
+0 searches have found for avon kadin parfum by 2017-08-12 21:01:11.887967
+
+29. KAMP CADIRI:
+276 searches have found for kamp cadiri by 2017-08-12 21:01:17.940716
+1237 products have listed on searches for kamp cadiri by 2017-08-12 21:01:23.502310
+129 views have found for kamp cadiri by 2017-08-12 21:01:26.589712
+69 products have clicked on searches for kamp cadiri by 2017-08-12 21:01:31.594158
+26 cart and payments have found for kamp cadiri by 2017-08-12 21:01:34.371286
+
+30. ADIDAS:
+573 searches have found for adidas by 2017-08-12 21:01:37.335312
+3570 products have listed on searches for adidas by 2017-08-12 21:01:43.362939
+40 views have found for adidas by 2017-08-12 21:01:46.711778
+29 products have clicked on searches for adidas by 2017-08-12 21:01:51.642782
+4 cart and payments have found for adidas by 2017-08-12 21:01:54.858958
+
+31. XIAOMI MI5:
+133 searches have found for xiaomi mi5 by 2017-08-12 21:01:57.684643
+1334 products have listed on searches for xiaomi mi5 by 2017-08-12 21:02:03.529672
+51 views have found for xiaomi mi5 by 2017-08-12 21:02:06.571216
+13 products have clicked on searches for xiaomi mi5 by 2017-08-12 21:02:11.354200
+93 cart and payments have found for xiaomi mi5 by 2017-08-12 21:02:14.180771
+
+32. SAMSUNG GALAXY S5 MINI:
+11 searches have found for samsung galaxy s5 mini by 2017-08-12 21:02:17.286895
+60 products have listed on searches for samsung galaxy s5 mini by 2017-08-12 21:02:22.786825
+6 views have found for samsung galaxy s5 mini by 2017-08-12 21:02:25.267524
+5 products have clicked on searches for samsung galaxy s5 mini by 2017-08-12 21:02:30.205270
+0 cart and payments have found for samsung galaxy s5 mini by 2017-08-12 21:02:33.182794
+
+33. ZIGON SEHPA:
+330 searches have found for zigon sehpa by 2017-08-12 21:02:36.004666
+3863 products have listed on searches for zigon sehpa by 2017-08-12 21:02:41.459459
+90 views have found for zigon sehpa by 2017-08-12 21:02:44.776884
+67 products have clicked on searches for zigon sehpa by 2017-08-12 21:02:49.796068
+28 cart and payments have found for zigon sehpa by 2017-08-12 21:02:52.842908
+
+34. GALAXY S3:
+6 searches have found for galaxy s3 by 2017-08-12 21:02:55.703522
+75 products have listed on searches for galaxy s3 by 2017-08-12 21:03:01.813427
+2 views have found for galaxy s3 by 2017-08-12 21:03:04.794344
+2 products have clicked on searches for galaxy s3 by 2017-08-12 21:03:09.220940
+1 cart and payments have found for galaxy s3 by 2017-08-12 21:03:12.005891
+
+35. LG G4:
+136 searches have found for lg g4 by 2017-08-12 21:03:14.917063
+706 products have listed on searches for lg g4 by 2017-08-12 21:03:20.772117
+36 views have found for lg g4 by 2017-08-12 21:03:23.704941
+11 products have clicked on searches for lg g4 by 2017-08-12 21:03:28.025124
+5 cart and payments have found for lg g4 by 2017-08-12 21:03:31.214913
+
+203 sessions have been found in total by 2017-08-12 21:03:44.401244
+60 sessions have been found useful by 2017-08-12 21:03:44.418129
+[92mSession begins...[0m
+2017-05-17 02:13:53.994000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 74.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 02:16:26.986000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 75.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 07:01:51.572000: 2. Product with id 281675463 clicked from the recent 2. search. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 181.[0m
+[95m2017-05-17 07:04:50.025000: 2. Product with id 281675463 clicked from the recent 2. search. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 181.[0m
+[95m2017-05-17 07:05:26.986000: 3. Product with id 281893441 clicked from the recent 2. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 181.[0m
+[95m2017-05-17 07:07:17.760000: 3. Product with id 281893441 clicked from the recent 2. search. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 181.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:41:57.545000: Searching, Showing 60 products with order hpa on page 11 for iphone 7 for cookie 65.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:42:09.915000: Next Page, Showing 60 products with order hpa on page 16 for iphone 7 for cookie 66.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:42:16.587000: Next Page, Showing 60 products with order hpa on page 21 for iphone 7 for cookie 69.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:42:27.835000: Next Page, Showing 60 products with order hpa on page 26 for iphone 7 for cookie 71.
+2017-05-17 08:42:41.667000: Next Page, Showing 60 products with order hpa on page 31 for iphone 7 for cookie 71.
+2017-05-17 08:42:59.712000: Next Page, Showing 60 products with order hpa on page 36 for iphone 7 for cookie 71.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:43:18.229000: Next Page, Showing 60 products with order hpa on page 41 for iphone 7 for cookie 72.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:43:21.949000: Next Page, Showing 60 products with order hpa on page 46 for iphone 7 for cookie 73.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:43:30.716000: Next Page, Showing 60 products with order hpa on page 51 for iphone 7 for cookie 74.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:43:47.223000: Next Page, Showing 60 products with order hpa on page 56 for iphone 7 for cookie 75.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:43:52.851000: Next Page, Showing 60 products with order hpa on page 61 for iphone 7 for cookie 78.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:47:50.190000: Order changed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 69.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:47:54.062000: Category set as tc, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 71.
+2017-05-17 08:48:30.140000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 71.
+2017-05-17 08:49:13.086000: Order changed, Showing 60 products with order hpa on page 1 for iphone 7 for cookie 71.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:50:36.670000: Refreshed, Showing 60 products with order hpa on page 1 for iphone 7 for cookie 72.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 08:50:47.715000: Refreshed, Showing 60 products with order hpa on page 1 for iphone 7 for cookie 73.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 10:10:57.890000: 9. Product with id 281675463 clicked. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 94.[0m
+[95m2017-05-17 10:12:19.201000: 6. Product with id 281893441 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 94.[0m
+[95m2017-05-17 10:12:42.996000: 9. Product with id 281675463 clicked. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 94.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 10:32:24.076000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 78.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 11:20:12.052000: Product with id 282846718 clicked not from the searches so far. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 94.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:36:23.531000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 71.
+2017-05-17 11:36:55.474000: Next Page, Showing 60 products with order wbm on page 2 for iphone 7 for cookie 71.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:37:59.380000: Previous Page, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 65.
+[95m2017-05-17 11:39:37.609000: 35. Product with id 282057902 clicked. (Apple iPhone 7 Plus 32Gb Siyah for cookie 65.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 11:52:49.473000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 75.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 11:53:00.152000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 106.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:13:42.384000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 79.[0m
+[95m2017-05-17 12:14:02.658000: 5. Product with id 281731543 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 79.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:21:13.113000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 74.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 12:53:14.801000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 78.
+[95m2017-05-17 12:54:40.460000: 1. Product with id 282625834 clicked from the recent 8. search. (iphone 7 32 GB Mat Siyah for cookie 78.[0m
+[95m2017-05-17 12:54:53.156000: 38. Product with id 282874846 clicked from the recent 5. search. (iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 78.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 12:59:36.655000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 79.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:14:27.733000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 78.[0m
+[95m2017-05-17 13:26:11.159000: 3. Product with id 282482613 clicked from the recent 8. search. (Iphone 7 32 gb 2 ay kullanildi 0 dan farksiz for cookie 78.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:36:32.569000: 3. Product with id 281675463 clicked. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 72.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 13:37:11.062000: 9. Product with id 251039704 clicked. (Apple iPhone 7 32 GB %28Apple Turkiye Garantili%29 for cookie 73.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:03:49.912000: 3. Product with id 281675463 clicked. (APPLE iPhone 7 32 GB Siyah Akilli Telefon Apple Turkiye Garantili for cookie 79.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 14:19:28.192000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 75.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 14:20:49.867000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 66.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 14:21:41.526000: 5. Product with id 281731543 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 65.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:52:46.375000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 71.
+2017-05-17 15:52:51.269000: Category set as tc, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 71.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 15:53:42.749000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 72.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:04:39.797000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 71.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:04:53.474000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 69.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:40:45.288000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 78.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 18:09:26.634000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 65.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 18:09:42.292000: 2. Product with id 281404224 clicked. (iPhone 7 128Gb RED - Apple Turkiye Garantilidir for cookie 106.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 18:11:37.864000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 66.
+2017-05-17 18:22:27.823000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 66.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 18:22:36.366000: Order changed, Showing 60 products with order hpa on page 1 for iphone 7 for cookie 69.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 18:22:40.845000: Category set as tc, Showing 60 products with order hpa on page 1 for iphone 7 for cookie 71.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:12:26.087000: Order changed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 65.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:13:59.274000: Page narrowed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 66.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 19:14:03.337000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 72.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 19:21:52.610000: 7. Product with id 281852810 clicked. (Apple iPhone 7 128Gb Apple Turkiye Garantili for cookie 94.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 20:00:54.736000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 73.
+2017-05-17 22:08:06.157000: Page extended, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 73.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 22:26:25.162000: 16. Product with id 267032702 clicked. (Apple iPhone 7 Plus 32 GB %28Apple Turkiye Garantili%29 for cookie 181.[0m
+[95m2017-05-17 22:26:37.164000: 16. Product with id 267032702 clicked. (Apple iPhone 7 Plus 32 GB %28Apple Turkiye Garantili%29 for cookie 181.[0m
+[95m2017-05-17 22:26:55.914000: 25. Product with id 279453610 clicked. (Apple iPhone 7 128GB Black %28Apple Turkiye for cookie 181.[0m
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:22:49.763000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 78.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 23:50:50.905000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 74.
+[92mCOOKIE CHANGED.[0m
+[95m2017-05-17 23:55:12.855000: 1. Product with id 282846718 clicked. (Apple iPhone 7 32 Gb %28 Apple Turkiye Garantili %29 for cookie 78.[0m
+[92mSession end.[0m
+33 sessions have been found in total by 2017-08-12 21:14:43.952315
+9 sessions have been found useful by 2017-08-12 21:14:43.953127
+[92mSession begins...[0m
+2017-05-17 16:57:53.301000: Searching, Showing 60 products with order wbm on page 1 for besiktas for cookie 15.
+2017-05-17 16:57:57.693000: Page narrowed, Showing 60 products with order wbm on page 1 for besiktas for cookie 15.
+2017-05-17 16:58:05.393000: Order changed, Showing 60 products with order hpa on page 1 for besiktas for cookie 15.
+[95m2017-05-17 16:59:13.391000: 49. Product with id 280758096 clicked. (Besiktas Fermuarli Emniyet Kemer Kilifi for cookie 15.[0m
+2017-05-17 16:59:42.326000: Searching, Showing 60 products with order hpa on page 2 for besiktas for cookie 15.
+[95m2017-05-17 17:00:10.751000: 16. Product with id 267180209 clicked. (BESIKTAS ASMALI IP SUS for cookie 15.[0m
+[95m2017-05-17 17:01:05.981000: 48. Product with id 264206422 clicked. (Oto Kokusu Bjk 2%2CLi Asma Koku. for cookie 15.[0m
+2017-05-17 17:01:55.212000: Searching, Showing 60 products with order hpa on page 3 for besiktas for cookie 15.
+[95m2017-05-17 17:02:59.343000: 49. Product with id 280758096 clicked from the recent 3. search. (Besiktas Fermuarli Emniyet Kemer Kilifi for cookie 15.[0m
+2017-05-17 17:11:58.373000: Searching, Showing 60 products with order hpa on page 4 for besiktas for cookie 15.
+2017-05-17 17:13:20.843000: Next Page, Showing 60 products with order hpa on page 5 for besiktas for cookie 15.
+2017-05-17 17:13:51.550000: Next Page, Showing 60 products with order hpa on page 6 for besiktas for cookie 15.
+[94m2017-05-17 17:19:26.339000: 49. Product with id 280758096 paid from the recent 6. search for cookie 15.[0m
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:19:51.125000: Searching, Showing 60 products with order hpa on page 7 for besiktas for cookie 16.
+[92mCOOKIE CHANGED.[0m
+2017-05-17 17:21:34.595000: Next Page, Showing 60 products with order hpa on page 8 for besiktas for cookie 15.
+[92mSession end.[0m
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-17_extractedLogs has been read by 2017-08-12 21:25:55.137000
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-17_extractedLogs has been read by 2017-08-12 21:28:06.853032
+2100 products have listed on searches for besiktas by 2017-08-12 21:28:38.822998
+30 views have found for besiktas by 2017-08-12 21:28:41.784024
+1911 products have listed on searches for kol saati by 2017-08-12 21:28:58.621852
+16 views have found for kol saati by 2017-08-12 21:29:01.883935
+1980 products have listed on searches for iphone 7 by 2017-08-12 21:29:18.846115
+176 views have found for iphone 7 by 2017-08-12 21:29:21.761290
+1556 products have listed on searches for iphone 7 kilif by 2017-08-12 21:29:37.910329
+126 views have found for iphone 7 kilif by 2017-08-12 21:29:40.972347
+3793 products have listed on searches for stres carki by 2017-08-12 21:29:57.139130
+1878 views have found for stres carki by 2017-08-12 21:30:00.282932
+1890 products have listed on searches for nike air max by 2017-08-12 21:30:17.324051
+361 views have found for nike air max by 2017-08-12 21:30:20.427171
+6064 products have listed on searches for tupperware by 2017-08-12 21:30:36.175687
+319 views have found for tupperware by 2017-08-12 21:30:39.387845
+2289 products have listed on searches for buzdolabi by 2017-08-12 21:30:56.065532
+113 views have found for buzdolabi by 2017-08-12 21:30:59.483665
+43 products have listed on searches for vestel camasir makinesi by 2017-08-12 21:31:15.513220
+13 views have found for vestel camasir makinesi by 2017-08-12 21:31:18.544333
+831 products have listed on searches for samsung galaxy j7 prime by 2017-08-12 21:31:34.499359
+30 views have found for samsung galaxy j7 prime by 2017-08-12 21:31:37.242344
+2235 products have listed on searches for samsung by 2017-08-12 21:31:53.415597
+42 views have found for samsung by 2017-08-12 21:31:56.800617
+314 products have listed on searches for dikey elektrikli supurge by 2017-08-12 21:32:13.430791
+57 views have found for dikey elektrikli supurge by 2017-08-12 21:32:16.522585
+365 products have listed on searches for jbl hoparlor by 2017-08-12 21:32:33.006377
+14 views have found for jbl hoparlor by 2017-08-12 21:32:35.899392
+6781 products have listed on searches for bisiklet by 2017-08-12 21:32:51.559381
+160 views have found for bisiklet by 2017-08-12 21:32:55.214426
+60 products have listed on searches for kot pantalon by 2017-08-12 21:33:12.036027
+0 views have found for kot pantalon by 2017-08-12 21:33:15.031800
+522 products have listed on searches for lenovo k6 note by 2017-08-12 21:33:36.899501
+15 views have found for lenovo k6 note by 2017-08-12 21:33:39.882300
+775 products have listed on searches for sandalye kilifi by 2017-08-12 21:33:55.735218
+387 views have found for sandalye kilifi by 2017-08-12 21:33:58.618323
+579 products have listed on searches for xiaomi by 2017-08-12 21:34:20.256715
+71 views have found for xiaomi by 2017-08-12 21:34:22.980780
+211 products have listed on searches for samsung galaxy s6 by 2017-08-12 21:34:38.106776
+12 views have found for samsung galaxy s6 by 2017-08-12 21:34:40.823173
+61 products have listed on searches for kirmizi converse by 2017-08-12 21:35:03.429184
+3 views have found for kirmizi converse by 2017-08-12 21:35:06.343537
+464 products have listed on searches for kiz cocuk abiye elbise by 2017-08-12 21:35:22.890317
+910 views have found for kiz cocuk abiye elbise by 2017-08-12 21:35:25.903649
+1237 products have listed on searches for kamp cadiri by 2017-08-12 21:35:47.819044
+129 views have found for kamp cadiri by 2017-08-12 21:35:50.741634
+3570 products have listed on searches for adidas by 2017-08-12 21:36:07.494332
+40 views have found for adidas by 2017-08-12 21:36:10.673896
+1334 products have listed on searches for xiaomi mi5 by 2017-08-12 21:36:26.478826
+51 views have found for xiaomi mi5 by 2017-08-12 21:36:29.812949
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-17_extractedLogs has been read by 2017-08-12 21:37:58.924492
+33 sessions have been found in total by 2017-08-12 21:47:48.138848
+8 sessions have been found useful by 2017-08-12 21:47:48.152130
+[92mSession begins...[0m
+2017-05-17 08:56:18.639000: Searching, Showing 60 products with order wbm on page 1 for besiktas for cookie 19.
+[95m2017-05-17 08:56:55.414000: 9. Product with id 277332365 clicked. (BJK BESIKTAS KARA KARTAL CAKMAK ZIPPO TARZ - CARSI - BESIKTAS TARAFTAR CAKMAK for cookie 18.[0m
+2017-05-17 08:58:36.140000: Searching, Showing 60 products with order wbm on page 1 for besiktas for cookie 18.
+[95m2017-05-17 08:58:53.136000: 25. Product with id 281346076 clicked. (BESIKTAS ZIPPO CAKMAK - BJK CARSI FANATIK TARAFTAR ZIPPO TARZ ORJINAL FATURALI HEDIYE for cookie 18.[0m
+2017-05-17 08:59:21.917000: Searching, Showing 60 products with order wbm on page 1 for besiktas for cookie 18.
+[94m2017-05-17 09:15:03.021000: 4. Product with id 280952557%7C279387817%7C276196187 paid for cookie 18.[0m
+[92mSession end.[0m
+[92mSession begins...[0m
+2017-05-17 16:57:53.301000: Searching, Showing 60 products with order wbm on page 1 for besiktas for cookie 15.
+2017-05-17 16:57:57.693000: Page narrowed, Showing 60 products with order wbm on page 1 for besiktas for cookie 15.
+2017-05-17 16:58:05.393000: Order changed, Showing 60 products with order hpa on page 1 for besiktas for cookie 15.
+[95m2017-05-17 16:59:13.391000: 49. Product with id 280758096 clicked. (Besiktas Fermuarli Emniyet Kemer Kilifi for cookie 15.[0m
+2017-05-17 16:59:42.326000: Searching, Showing 60 products with order hpa on page 2 for besiktas for cookie 15.
+[95m2017-05-17 17:00:10.751000: 16. Product with id 267180209 clicked. (BESIKTAS ASMALI IP SUS for cookie 15.[0m
+[95m2017-05-17 17:01:05.981000: 48. Product with id 264206422 clicked. (Oto Kokusu Bjk 2%2CLi Asma Koku. for cookie 15.[0m
+2017-05-17 17:01:55.212000: Searching, Showing 60 products with order hpa on page 3 for besiktas for cookie 15.
+[95m2017-05-17 17:02:59.343000: 49. Product with id 280758096 clicked from the recent 3. search. (Besiktas Fermuarli Emniyet Kemer Kilifi for cookie 15.[0m
+2017-05-17 17:11:58.373000: Searching, Showing 60 products with order hpa on page 4 for besiktas for cookie 15.
+2017-05-17 17:13:20.843000: Next Page, Showing 60 products with order hpa on page 5 for besiktas for cookie 15.
+2017-05-17 17:13:51.550000: Next Page, Showing 60 products with order hpa on page 6 for besiktas for cookie 15.
+[94m2017-05-17 17:19:26.339000: 49. Product with id 280758096 paid from the recent 6. search for cookie 15.[0m
+2017-05-17 17:19:51.125000: Searching, Showing 60 products with order hpa on page 7 for besiktas for cookie 16.
+2017-05-17 17:21:34.595000: Next Page, Showing 60 products with order hpa on page 8 for besiktas for cookie 15.
+[92mSession end.[0m
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-16_extractedLogs with 18131 lines has been saved successfully by 2017-08-13 00:59:48.589032
+2017-08-13 00:59:48.593000: DONE
+########################################################################################
+########################################################################################
+########################################################################################

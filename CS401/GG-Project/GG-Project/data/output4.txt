@@ -2046,3 +2046,220 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/201
 ########################################################################################
 ########################################################################################
 ########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-11 22:23:35.921942: Running on osldevptst02...
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-18 will be reading by 2017-08-11 22:23:41.356439
+10829 searches have found relevant with 32 keywords by 2017-08-11 22:28:13.771835
+26515 productLogs have found relevant with 32 keywords by 2017-08-11 22:32:02.223795 
+
+1. BESIKTAS:
+210 searches have found for besiktas by 2017-08-11 22:35:15.666719
+3075 products have listed on searches for besiktas by 2017-08-11 22:41:34.920967
+24 views have found for besiktas by 2017-08-11 22:45:12.907979
+17 products have clicked on searches for besiktas by 2017-08-11 22:48:53.964122
+5 cart and payments have found for besiktas by 2017-08-11 22:52:27.506351
+
+2. KOL SAATI:
+75 searches have found for kol saati by 2017-08-11 22:55:41.391769
+1870 products have listed on searches for kol saati by 2017-08-11 23:01:39.239459
+23 views have found for kol saati by 2017-08-11 23:05:18.523350
+22 products have clicked on searches for kol saati by 2017-08-11 23:09:04.638726
+3 cart and payments have found for kol saati by 2017-08-11 23:12:40.386314
+
+3. IPHONE 7:
+602 searches have found for iphone 7 by 2017-08-11 23:15:45.630987
+2228 products have listed on searches for iphone 7 by 2017-08-11 23:22:06.690848
+204 views have found for iphone 7 by 2017-08-11 23:25:39.543436
+38 products have clicked on searches for iphone 7 by 2017-08-11 23:29:12.740063
+15 cart and payments have found for iphone 7 by 2017-08-11 23:32:47.550695
+
+4. IPHONE 7 KILIF:
+113 searches have found for iphone 7 kilif by 2017-08-11 23:35:53.478126
+1173 products have listed on searches for iphone 7 kilif by 2017-08-11 23:42:05.238052
+100 views have found for iphone 7 kilif by 2017-08-11 23:45:40.538695
+48 products have clicked on searches for iphone 7 kilif by 2017-08-11 23:49:15.145991
+16 cart and payments have found for iphone 7 kilif by 2017-08-11 23:52:55.011025
+
+5. STRES CARKI:
+2860 searches have found for stres carki by 2017-08-11 23:56:02.275938
+4053 products have listed on searches for stres carki by 2017-08-12 00:02:09.974025
+1866 views have found for stres carki by 2017-08-12 00:05:47.829707
+380 products have clicked on searches for stres carki by 2017-08-12 00:09:23.413248
+60 cart and payments have found for stres carki by 2017-08-12 00:12:57.787691
+
+6. NIKE AIR MAX:
+987 searches have found for nike air max by 2017-08-12 00:16:05.510972
+1874 products have listed on searches for nike air max by 2017-08-12 00:22:20.538771
+305 views have found for nike air max by 2017-08-12 00:25:55.682183
+122 products have clicked on searches for nike air max by 2017-08-12 00:29:27.561889
+12 cart and payments have found for nike air max by 2017-08-12 00:33:05.881655
+
+7. TUPPERWARE:
+818 searches have found for tupperware by 2017-08-12 00:36:07.836038
+5309 products have listed on searches for tupperware by 2017-08-12 00:42:29.418064
+250 views have found for tupperware by 2017-08-12 00:46:08.293288
+154 products have clicked on searches for tupperware by 2017-08-12 00:49:44.655054
+22 cart and payments have found for tupperware by 2017-08-12 00:53:17.888755
+
+8. BUZDOLABI:
+474 searches have found for buzdolabi by 2017-08-12 00:56:23.074195
+2619 products have listed on searches for buzdolabi by 2017-08-12 01:02:40.985491
+90 views have found for buzdolabi by 2017-08-12 01:06:12.349011
+50 products have clicked on searches for buzdolabi by 2017-08-12 01:09:53.731928
+11 cart and payments have found for buzdolabi by 2017-08-12 01:13:31.152558
+
+9. VESTEL CAMASIR MAKINESI:
+12 searches have found for vestel camasir makinesi by 2017-08-12 01:16:39.040953
+105 products have listed on searches for vestel camasir makinesi by 2017-08-12 01:22:45.504490
+4 views have found for vestel camasir makinesi by 2017-08-12 01:26:19.588553
+4 products have clicked on searches for vestel camasir makinesi by 2017-08-12 01:29:58.369059
+1 cart and payments have found for vestel camasir makinesi by 2017-08-12 01:35:38.487102
+
+10. SAMSUNG GALAXY J7 PRIME:
+408 searches have found for samsung galaxy j7 prime by 2017-08-12 01:41:53.176450
+554 products have listed on searches for samsung galaxy j7 prime by 2017-08-12 01:54:07.268852
+51 views have found for samsung galaxy j7 prime by 2017-08-12 02:01:32.175966
+19 products have clicked on searches for samsung galaxy j7 prime by 2017-08-12 02:08:16.262591
+41 cart and payments have found for samsung galaxy j7 prime by 2017-08-12 02:15:26.974750
+
+11. SAMSUNG:
+279 searches have found for samsung by 2017-08-12 02:21:19.808728
+2240 products have listed on searches for samsung by 2017-08-12 02:34:05.760052
+63 views have found for samsung by 2017-08-12 02:41:07.783207
+29 products have clicked on searches for samsung by 2017-08-12 02:47:55.538279
+70 cart and payments have found for samsung by 2017-08-12 02:54:58.472281
+
+12. DIKEY ELEKTRIKLI SUPURGE:
+88 searches have found for dikey elektrikli supurge by 2017-08-12 03:00:54.941251
+247 products have listed on searches for dikey elektrikli supurge by 2017-08-12 03:13:01.492031
+49 views have found for dikey elektrikli supurge by 2017-08-12 03:19:53.839333
+35 products have clicked on searches for dikey elektrikli supurge by 2017-08-12 03:27:01.696088
+19 cart and payments have found for dikey elektrikli supurge by 2017-08-12 03:34:02.858847
+
+13. JBL HOPARLOR:
+14 searches have found for jbl hoparlor by 2017-08-12 03:40:15.925852
+221 products have listed on searches for jbl hoparlor by 2017-08-12 03:51:59.466796
+10 views have found for jbl hoparlor by 2017-08-12 03:58:52.712209
+6 products have clicked on searches for jbl hoparlor by 2017-08-12 04:05:52.881252
+9 cart and payments have found for jbl hoparlor by 2017-08-12 04:12:57.921354
+
+14. BISIKLET:
+955 searches have found for bisiklet by 2017-08-12 04:19:10.246107
+8047 products have listed on searches for bisiklet by 2017-08-12 04:31:17.820115
+170 views have found for bisiklet by 2017-08-12 04:38:19.566592
+81 products have clicked on searches for bisiklet by 2017-08-12 04:45:28.587937
+21 cart and payments have found for bisiklet by 2017-08-12 04:52:36.291782
+
+15. KOT PANTALON:
+0 searches have found for kot pantalon by 2017-08-12 04:58:50.034537
+
+16. MANI JEANS KOT PANTALON:
+0 searches have found for mani jeans kot pantalon by 2017-08-12 05:10:55.483234
+
+17. LENOVO K6 NOTE:
+30 searches have found for lenovo k6 note by 2017-08-12 05:23:31.847003
+124 products have listed on searches for lenovo k6 note by 2017-08-12 05:35:16.341112
+10 views have found for lenovo k6 note by 2017-08-12 05:42:04.614915
+5 products have clicked on searches for lenovo k6 note by 2017-08-12 05:48:51.914055
+7 cart and payments have found for lenovo k6 note by 2017-08-12 05:55:48.732875
+
+18. SANDALYE KILIFI:
+222 searches have found for sandalye kilifi by 2017-08-12 06:01:50.327082
+429 products have listed on searches for sandalye kilifi by 2017-08-12 06:14:11.274439
+353 views have found for sandalye kilifi by 2017-08-12 06:21:16.421882
+68 products have clicked on searches for sandalye kilifi by 2017-08-12 06:28:01.286452
+11 cart and payments have found for sandalye kilifi by 2017-08-12 06:35:08.894587
+
+19. BEKO 9 KG CAMASIR MAKINESI:
+0 searches have found for beko 9 kg camasir makinesi by 2017-08-12 06:41:04.458864
+
+20. XIAOMI:
+402 searches have found for xiaomi by 2017-08-12 06:53:06.030055
+978 products have listed on searches for xiaomi by 2017-08-12 07:05:09.995864
+59 views have found for xiaomi by 2017-08-12 07:11:57.464717
+26 products have clicked on searches for xiaomi by 2017-08-12 07:19:13.470685
+23 cart and payments have found for xiaomi by 2017-08-12 07:25:59.508848
+
+21. SAMSUNG GALAXY S6:
+67 searches have found for samsung galaxy s6 by 2017-08-12 07:32:33.200343
+679 products have listed on searches for samsung galaxy s6 by 2017-08-12 07:44:36.832544
+10 views have found for samsung galaxy s6 by 2017-08-12 07:51:45.098810
+4 products have clicked on searches for samsung galaxy s6 by 2017-08-12 07:58:33.752265
+0 cart and payments have found for samsung galaxy s6 by 2017-08-12 08:05:44.640515
+
+22. KADIN PARFUM:
+31 searches have found for kadin parfum by 2017-08-12 08:12:04.363705
+1675 products have listed on searches for kadin parfum by 2017-08-12 08:23:57.615843
+0 views have found for kadin parfum by 2017-08-12 08:30:50.495402
+0 products have clicked on searches for kadin parfum by 2017-08-12 08:37:57.052191
+0 cart and payments have found for kadin parfum by 2017-08-12 08:45:13.650567
+
+23. KIRMIZI CONVERSE:
+5 searches have found for kirmizi converse by 2017-08-12 08:50:46.389722
+43 products have listed on searches for kirmizi converse by 2017-08-12 09:03:15.914787
+11 views have found for kirmizi converse by 2017-08-12 09:10:11.681199
+7 products have clicked on searches for kirmizi converse by 2017-08-12 09:17:02.074013
+3 cart and payments have found for kirmizi converse by 2017-08-12 09:24:08.377339
+
+24. KIZ COCUK ABIYE ELBISE:
+397 searches have found for kiz cocuk abiye elbise by 2017-08-12 09:29:49.932737
+425 products have listed on searches for kiz cocuk abiye elbise by 2017-08-12 09:42:07.597132
+686 views have found for kiz cocuk abiye elbise by 2017-08-12 09:48:45.843779
+140 products have clicked on searches for kiz cocuk abiye elbise by 2017-08-12 09:55:39.956327
+13 cart and payments have found for kiz cocuk abiye elbise by 2017-08-12 10:02:24.957419
+
+25. AVON KADIN PARFUM:
+0 searches have found for avon kadin parfum by 2017-08-12 10:08:28.368016
+
+26. KAMP CADIRI:
+166 searches have found for kamp cadiri by 2017-08-12 10:20:24.026971
+1002 products have listed on searches for kamp cadiri by 2017-08-12 10:33:04.799730
+24 views have found for kamp cadiri by 2017-08-12 10:40:21.449529
+21 products have clicked on searches for kamp cadiri by 2017-08-12 10:47:24.525368
+19 cart and payments have found for kamp cadiri by 2017-08-12 10:54:28.030851
+
+27. ADIDAS:
+272 searches have found for adidas by 2017-08-12 11:00:20.279835
+2468 products have listed on searches for adidas by 2017-08-12 11:12:32.950251
+11 views have found for adidas by 2017-08-12 11:19:08.939609
+10 products have clicked on searches for adidas by 2017-08-12 11:26:19.171222
+0 cart and payments have found for adidas by 2017-08-12 11:33:26.522592
+
+28. XIAOMI MI5:
+90 searches have found for xiaomi mi5 by 2017-08-12 11:39:21.472875
+660 products have listed on searches for xiaomi mi5 by 2017-08-12 11:51:36.912986
+46 views have found for xiaomi mi5 by 2017-08-12 11:58:32.366756
+20 products have clicked on searches for xiaomi mi5 by 2017-08-12 12:05:35.041719
+40 cart and payments have found for xiaomi mi5 by 2017-08-12 12:12:32.879838
+
+29. SAMSUNG GALAXY S5 MINI:
+1 searches have found for samsung galaxy s5 mini by 2017-08-12 12:18:58.309782
+5 products have listed on searches for samsung galaxy s5 mini by 2017-08-12 12:32:33.692827
+0 views have found for samsung galaxy s5 mini by 2017-08-12 12:40:26.343971
+0 products have clicked on searches for samsung galaxy s5 mini by 2017-08-12 12:48:14.508624
+0 cart and payments have found for samsung galaxy s5 mini by 2017-08-12 12:56:09.646878
+
+30. ZIGON SEHPA:
+282 searches have found for zigon sehpa by 2017-08-12 13:03:17.530416
+2680 products have listed on searches for zigon sehpa by 2017-08-12 13:17:07.457873
+56 views have found for zigon sehpa by 2017-08-12 13:24:59.322086
+30 products have clicked on searches for zigon sehpa by 2017-08-12 13:32:51.267118
+32 cart and payments have found for zigon sehpa by 2017-08-12 13:40:52.880347
+
+31. GALAXY S3:
+18 searches have found for galaxy s3 by 2017-08-12 13:47:51.696728
+485 products have listed on searches for galaxy s3 by 2017-08-12 14:01:40.946714
+0 views have found for galaxy s3 by 2017-08-12 14:09:25.055831
+0 products have clicked on searches for galaxy s3 by 2017-08-12 14:17:26.349634
+0 cart and payments have found for galaxy s3 by 2017-08-12 14:25:11.415084
+
+32. LG G4:
+161 searches have found for lg g4 by 2017-08-12 14:32:08.475914
+1103 products have listed on searches for lg g4 by 2017-08-12 14:45:35.805832
+32 views have found for lg g4 by 2017-08-12 14:53:31.503015
+12 products have clicked on searches for lg g4 by 2017-08-12 15:01:20.771683
+7 cart and payments have found for lg g4 by 2017-08-12 15:09:30.632387
+
+Objective logs has been merged by 2017-08-12 15:09:33.121031
