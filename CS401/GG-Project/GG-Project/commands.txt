@@ -79,3 +79,22 @@ ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
  
 /root/anaconda3/bin/jupyter notebook --no-browser --port=8891
 /root/anaconda3/bin/jupyter notebook --port=8891
+
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/08/13 03:11:10 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/08/13 03:11:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/13 03:11:13 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+
+spark.executor.memory   512m
+spark.executor.extraLibraryPath /root/ephemeral-hdfs/lib/native/
+spark.executor.extraClassPath   /root/ephemeral-hdfs/conf
+spark.executor.instances 2

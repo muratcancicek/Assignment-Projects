@@ -92,7 +92,7 @@ def extendLists(l):
 def productInstances(logs):
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
     searches = searches.map(idSetter)
-    viewedProductLogs = viewedProductLogs.map(idSetter).collect()
+    viewedProductLogs = viewedProductLogs.map(lambda kv: (kv[0], idSetter(kv[1]))).collect()
     viewedProductIstances = extendLists([findViewedProductIstancesOnSearches(productLog, searches) for productLog in viewedProductLogs])
     print_high_logging(len(viewedProductIstances), 'product instances have been found from', 
                        len(viewedProductLogs), 'viewed productLogs on searches by', nowStr())

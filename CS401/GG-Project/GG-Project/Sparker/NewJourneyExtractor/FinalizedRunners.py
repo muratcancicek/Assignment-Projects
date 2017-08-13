@@ -41,5 +41,5 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
         (searches, viewedProductLogs, cartedOrPaidProductLogs) = keywordDict[v]
         objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
     print_logging('Objective logs has been merged by', nowStr())
-    #objectiveLogs = objectiveLogs.coalesce(24)
+    objectiveLogs = objectiveLogs.coalesce(24)
     saveRDDToHDFS(objectiveLogs, outputPath)
