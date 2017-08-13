@@ -40,7 +40,7 @@ def runSparkLogOperatorTests(logs):
     readTextFileTest(logs)
     #extractAllTCJourneysTest()
     
-def addPyFiles(sc, dr = gitDir):
+def addPyFiles(sc, dr = joinPath(joinPath(joinPath(gitDir, 'CS401'), 'GG-Project'), 'GG-Project')):
     for filename in os.listdir(dr):
         p = joinPath(dr, filename)
         if filename[-3:] == '.py':
