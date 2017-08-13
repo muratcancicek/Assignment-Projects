@@ -40,13 +40,22 @@ def runSparkLogOperatorTests(logs):
     readTextFileTest(logs)
     #extractAllTCJourneysTest()
     
+def addPyFiles(sc, dr = gitDir):
+    for filename in os.listdir(dr):
+        p = joinPath(dr, filename)
+        if filename[-3:] == '.py':
+            sc.addPyFile(p) 
+        elif os.path.isdir(p):
+            sc = addPyFiles(sc, p)
+    return sc
+
 def runSpark():
     conf = SparkConf()
     conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
     conf.set("spark.executor.memory", "12g")
     conf.set("spark.executor.instances", "2")
     sc = SparkContext(conf=conf) 
-    sc.addPyFiles() 
+    sc = addPyFiles(sc)
     setSparkContext(sc)
 
 def run(): 
