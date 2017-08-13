@@ -40,8 +40,12 @@ def runSparkLogOperatorTests(logs):
     readTextFileTest(logs)
     #extractAllTCJourneysTest()
     
-def runSpark(): 
-    sc = SparkContext() 
+def runSpark():
+    conf = SparkConf()
+    conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
+    conf.set("spark.executor.memory", "12g")
+    conf.set("spark.executor.instances", "2")
+    sc = SparkContext(conf=conf) 
     #sc.setSystemProperty('spark.executor.instances', 24) 
     setSparkContext(sc)
 
