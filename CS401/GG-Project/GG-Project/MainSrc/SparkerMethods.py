@@ -49,7 +49,7 @@ def addPyFiles(sc, dr = joinPath(joinPath(joinPath(gitDir, 'CS401'), 'GG-Project
         if filename[-3:] == '.py':
             sc.addPyFile(p) 
         elif os.path.isdir(p):
-            sc.addPyFile(p) 
+            ##sc.addPyFile(p) 
             sc = addPyFiles(sc, p)
     return sc
 
