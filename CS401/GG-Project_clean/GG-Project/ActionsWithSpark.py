@@ -1,6 +1,6 @@
 from PythonVersionHandler import *
 #from LogAnalyzer import *
-from . import SparkLogAnalyzer as LA
+import SparkLogAnalyzer as LA
 from LumberjackParser import *
 
 class Action:
