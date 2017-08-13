@@ -49,6 +49,7 @@ cybdbhdpt#host.gittigidiyor.net
 osldevptst02.host.gittigidiyor.net
 sudo su -
 cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+cd /root/Projects/Assignment-Projects/CS401/GG-Project_clean/GG-Project/
 
 ssh miek@ap-cyb-psmp.pool.gittigidiyor.net
 

@@ -1,6 +1,6 @@
 import LumberjackParser as LumberjackParser
 from PythonVersionHandler import *
-from LogProcesser.JsonIO import *
+#from LogProcesser.JsonIO import *
 import ActionsWithSpark as Actions
 from PySparkImports import *
 import SparkLogAnalyzer as LA
