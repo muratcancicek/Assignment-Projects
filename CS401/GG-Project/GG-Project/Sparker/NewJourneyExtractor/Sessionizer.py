@@ -71,8 +71,8 @@ def sessionize(logs):
 def sessionize2(logs):
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
     searches = searches.map(idSetter)
-    viewedProductLogs = viewedProductLogs.map(idSetter)
-    cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(idSetter)
+    viewedProductLogs = viewedProductLogs.map(lambda vk: (vk[0], idSetter(vk[1])))
+    cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda vk: (vk[0], idSetter(vk[1])))
     #views productLogs.
 
 def preferredProducts(searches, productLogs):

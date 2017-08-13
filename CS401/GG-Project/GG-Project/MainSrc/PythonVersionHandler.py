@@ -18,7 +18,7 @@ def print_(*args):
     global WRITE_OUTPUTS
     if WRITE_OUTPUTS:        
         if paths.COMPUTERNAME == 'osldevptst02':
-            outputFileName = paths.joinPath(paths.dataFolder, 'output6.txt')
+            outputFileName = paths.joinPath(paths.dataFolder, 'output7.txt')
         else:
             outputFileName = paths.joinPath(paths.dataFolder, 'output_local.txt')
         if os.path.isfile(outputFileName):
@@ -35,7 +35,7 @@ def print_logging(*args):
         print_(line[:-1])
 
 def print_high_logging(*args):
-    if HIGH_LOGGING: 
+    if LOGGING and HIGH_LOGGING: 
         line = ''
         for ar in args:
             line += str(ar) + ' '

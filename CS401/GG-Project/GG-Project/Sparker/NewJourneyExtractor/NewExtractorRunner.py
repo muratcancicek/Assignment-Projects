@@ -55,6 +55,6 @@ def joinTests():
     #print(products.join(products2).collect())
 
 def runNewExtractionMethods():
-    #may17ExtractionTest(18)
+    may17ExtractionTest(19)
     #joinTests()
-    printAct(16)
+    #printAct(16)
