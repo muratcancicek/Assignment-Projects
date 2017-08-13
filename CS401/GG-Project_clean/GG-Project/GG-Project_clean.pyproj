@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>887590d4-e2e9-4a4e-b894-e24e666ac32f</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>runGG_Project_clean.py</StartupFile>
+    <SearchPath>C:\Fast_STORAGE\spark-2.1.0-bin-hadoop2.3\python\</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>GG-Project_clean</Name>
+    <RootNamespace>GG-Project</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BotUtil.py" />
+    <Compile Include="LumberjackConstants.py" />
+    <Compile Include="LumberjackParser.py" />
+    <Compile Include="pairs.txt">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PythonVersionHandler.py" />
+    <Compile Include="SparkerMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="paths.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BotFilter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FinalizedRunners.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReadyTests2.py" />
+    <Compile Include="NewExtractorRunner.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewProductPreferrer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductGetter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReadyTests.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SearchExtractor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sessionizer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PySparkImports.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runGG_Project_clean.py" />
+    <Compile Include="ActionsWithSpark.py" />
+    <Compile Include="SparkLogOperator.py" />
+    <Compile Include="SparkLogOperatorTests.py" />
+    <Compile Include="SparkLogAnalyzer.py" />
+    <Compile Include="SparkLogAnalyzerTests.py" />
+    <Compile Include="SparkLogFileHandler.py" />
+    <Compile Include="SparkLogReader.py" />
+    <Compile Include="StringUtil.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="commands.txt" />
+    <Content Include="output.txt" />
+    <Content Include="keywords" />
+    <Content Include="newOutputs.txt" />
+    <Content Include="notes.txt" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

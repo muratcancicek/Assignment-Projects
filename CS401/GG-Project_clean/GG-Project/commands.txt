@@ -1,0 +1,100 @@
+
+cd /Users/miek/Documents/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+
+sshpass -p 'eBay@2017' ssh miek@127.0.0.1 
+sshpass -p 'eBay@2017' ssh miek@10.200.133.227
+sshpass -p 3022 'eBay@2017' ssh miek@10.200.133.227
+ssh -p 22 miek@10.200.133.227   
+ssh miek@10.200.133.227   
+10.200.133.227:5900
+
+ssh root@osldevptst02.host.gittigidiyor.net     F!T(9D2m
+eBay@2017
+
+export SPARK_HOME="/opt/spark"
+
+/usr/local/spark
+export SPARK_HOME=/usr/local/spark
+
+export SPARK_HOME=/opt/spark
+PATH=~/anaconda/bin:"$PATH"
+export COMPUTERNAME=osldevptst02
+source /etc/environment 
+
+export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-VERSION-src.zip:$PYTHONPATH
+
+cd /soe/cicekm/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+git reset --hard
+git pull
+python runGG_Project.py
+
+/opt/spark/bin/spark-submit --num-executors 24
+
+/opt/zeppelin-0.7.0-bin-all/bin/zeppelin-daemon.sh restart
+
+/opt/pythonzeppelin/pythonzeppelin/bin
+cd /root/Projects/Assignment-Projects/CS466/MNIST_Tensorflow/MNIST_Tensorflow
+
+osldevptst02.host.gittigidiyor.net:8888/?token=f4813d8a9b926e70bd21f1390e707aa621c1662e9a1411f8
+
+jupyter notebook --no-browser  --port 9999
+scp -r root@osldevptst02.host.gittigidiyor.net:/root/Projects/TrainData6/* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/Projects/offlineData/
+scp -r ./* cicekm@citrisdance.soe.ucsc.edu:/soe/cicekm/Projects/offlineData/
+49294952
+65760428
+
+root@osldevptst02.host.gittigidiyor.net
+ssh miek@ap-cyb-psmp.pool.gittigidiyor.net
+cybdbhdpt#host.gittigidiyor.net
+osldevptst02.host.gittigidiyor.net
+sudo su -
+cd /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/
+
+ssh miek@ap-cyb-psmp.pool.gittigidiyor.net
+
+cybdbhdpt#host.gittigidiyor.net
+osldevptst02.host.gittigidiyor.net:8889
+
+export SPARK_HOME=/opt/spark 
+export PATH=$SPARK_HOME/bin:$PATH
+export PATH=/root/anaconda3/bin:$PATH
+export COMPUTERNAME=osldevptst02
+/root/anaconda3/bin/python3.5
+/root/anaconda3/bin/python3.5 runGG_Project.py
+git pull & /root/anaconda3/bin/python3.5 runGG_Project.py
+
+python runGG_Project.py hdfs://osldevptst02.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-16
+python runGG_Project.py /root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/data/ranking/clickstream/part-r-00000_filtered
+/root/Projects/Assignment-Projects/CS401/GG-Project/GG-Project/Sparker/NewJourneyExtractor/NewExtractorRunner.py
+/root/tmux attach -t 
+
+
+python runGG_Project.py hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered 
+
+cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project
+
+jupyter notebook --allow-root
+
+ssh -N -f -L 58089:localhost:8889 root@osldevptst02.host.gittigidiyor.net
+ 
+/root/anaconda3/bin/jupyter notebook --no-browser --port=8891
+/root/anaconda3/bin/jupyter notebook --port=8891
+
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+17/08/13 03:11:10 WARN SparkContext: Support for Java 7 is deprecated as of Spark 2.0.0
+17/08/13 03:11:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/13 03:11:13 WARN SparkConf: 
+SPARK_WORKER_INSTANCES was detected (set to '1').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --num-executors to specify the number of executors
+ - Or set SPARK_EXECUTOR_INSTANCES
+ - spark.executor.instances to configure the number of instances in the spark config.
+
+spark.executor.memory   512m
+spark.executor.extraLibraryPath /root/ephemeral-hdfs/lib/native/
+spark.executor.extraClassPath   /root/ephemeral-hdfs/conf
+spark.executor.instances 2
