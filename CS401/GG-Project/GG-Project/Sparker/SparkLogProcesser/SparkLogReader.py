@@ -34,7 +34,10 @@ def convertPossibleType(value):
         return value
     if math.isinf(value) and value > 0:
         return value
-    return value if value - int(value) > 0 else int(value)
+    try:
+        return value if value - int(value) > 0 else int(value)
+    except ValueError:
+        return 0
 
 parseCounter = 0
 def parseLog(log):
