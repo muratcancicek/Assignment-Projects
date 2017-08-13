@@ -5,6 +5,8 @@ import os
 import paths
 
 PYTHON_VERSION = sys.version_info[0]
+os.environ['PYSPARK_PYTHON'] = 'python3'
+
 WRITE_OUTPUTS = True
 LOGGING = True
 HIGH_LOGGING = LOGGING and True
