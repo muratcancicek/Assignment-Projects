@@ -4,7 +4,7 @@ from SparkLogReader import *
 from SparkLogFileHandler import *
 from StringUtil import *
 from BotFilter import *
-from urllib.parse import urlparse
+#from urllib.parse import urlparse
 import urllib
 
 def iriTest():

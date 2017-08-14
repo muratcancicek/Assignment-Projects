@@ -23,26 +23,26 @@ def getAbsolutePath(fileName):
 PYTHON_VERSION = sys.version_info[0]
 
 pulled = False
-if not COMPUTERNAME in ['UCSC:citrisdense', None]:
-    import git
-    def gitPull(gitDir):   
-        if pulled: return
-        g = git.cmd.Git(gitDir)
-        #global pulled
-        pulled = True
-        g.pull()
+#if not COMPUTERNAME in ['UCSC:citrisdense', None]:
+#    import git
+#    def gitPull(gitDir):   
+#        if pulled: return
+#        g = git.cmd.Git(gitDir)
+#        #global pulled
+#        pulled = True
+#        g.pull()
     
-    def gitPush(gitDir):
-        repo = git.Repo(gitDir)
-        origin = repo.remote(name='origin')
-        index = repo.index
-        #author = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
-        #committer = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
-        # commit by commit message and author and committer
-        index.commit("Auto-commit")
-        origin.push()
-        print('Pushed')
-        sys.exit()
+#    def gitPush(gitDir):
+#        repo = git.Repo(gitDir)
+#        origin = repo.remote(name='origin')
+#        index = repo.index
+#        #author = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
+#        #committer = git.Actor("Muratcan Cicek", "muratcancicek0@gmail.com")
+#        # commit by commit message and author and committer
+#        index.commit("Auto-commit")
+#        origin.push()
+#        print('Pushed')
+#        sys.exit()
     
 dataFolder = getAbsolutePath('data')
 #if COMPUTERNAME == 'osldevptst02':
