@@ -17,7 +17,7 @@ def runSpark():
     conf = PySparkImports.SparkConf()
     conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
     conf.set("spark.executor.memory", "12g")
-    conf.set("spark.executor.instances", "2")
+    conf.set("spark.executor.instances", "1")
     sc = PySparkImports.SparkContext(conf=conf) 
     dr = paths.joinPath(paths.joinPath(paths.joinPath(paths.gitDir, 'CS401'), 'GG-Project'), 'GG-Project')
     sc = addPyFiles(sc, dr)
