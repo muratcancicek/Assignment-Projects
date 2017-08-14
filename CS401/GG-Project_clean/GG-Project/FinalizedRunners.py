@@ -4,14 +4,18 @@ def readLogsFromMultiplePaths(inputPaths):
     for p in inputPaths:
         logs.union(readLogs(sc_(), p, True))
 
-def readAndFilterLogs(inputPaths):
+def readLogs(inputPaths):
     if isinstance(inputPaths, str):
         import SparkLogReader
         logs = SparkLogReader.readLogs(sc_(), inputPaths, True)
     else:
         logs = readLogsFromMultiplePaths(inputPaths)
+        
+def readAndFilterLogs(inputPaths):
+    logs = readLogs(inputPaths)
     import BotFilter
     return BotFilter.filterLogsForBots(logs)
+
 
 def getPreparedLogsFromHDFS(inputPaths, filtering = True):
     if filtering:
@@ -21,8 +25,11 @@ def getPreparedLogsFromHDFS(inputPaths, filtering = True):
     else:
         import SparkLogFileHandler, PythonVersionHandler
         logs = SparkLogFileHandler.sc_().parallelize([])
-        for p in inputPaths:
+        if isinstance(inputPaths, str):
             logs = SparkLogFileHandler.readParsedLogsFromHDFS(p)
+        else:
+            for p in inputPaths:
+                logs = SparkLogFileHandler.readParsedLogsFromHDFS(p)
     PythonVersionHandler.print_logging(logs.count(), 'have been prepared by', nowStr())
     return logs
 
