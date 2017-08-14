@@ -2,27 +2,29 @@ from paths import *
 from PythonVersionHandler import *
 #from SecondTermMethods import run as runSecondTermMethods
 #from FirstTermMethods import run as runFirstTermMethods
-from SparkerMethods import run as runSparkerMethods
 #from DeepLearningToRank.DeepLearningToRankTest import runTests
 
 def printSeparater():
+    import PythonVersionHandler
     for n in range(3):
-        print_('#' * 88)
+        PythonVersionHandler.print_('#' * 88)
         
 def main(method = None, kill = True):
     printSeparater()
-    print_('%s:' % nowStr(), 'Running on', COMPUTERNAME + '...')
+    import PythonVersionHandler, paths
+    PythonVersionHandler.print_('%s:' % PythonVersionHandler.nowStr(), 'Running on', paths.COMPUTERNAME + '...')
 
     if method == None:
-        runSparkerMethods()
-        #runTests()
+        import SparkerMethods
+        SparkerMethods.runSparkerMethods()
     else:
         method()
 
-    print_('%s:' % nowStr(), 'DONE')
+    PythonVersionHandler.print_('%s:' % nowStr(), 'DONE')
     printSeparater()
 
     if  COMPUTERNAME != 'UCSC:citrisdense' and kill:
+        import sys
         sys.exit() 
 
 if __name__ == "__main__":
