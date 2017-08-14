@@ -100,3 +100,8 @@ spark.executor.memory   512m
 spark.executor.extraLibraryPath /root/ephemeral-hdfs/lib/native/
 spark.executor.extraClassPath   /root/ephemeral-hdfs/conf
 spark.executor.instances 2
+
+
+export PYSPARK_PYTHON=/root/anaconda3/bin/python3.5
+export PYSPARK_DRIVER_PYTHON=/root/anaconda3/bin/python3.5
+export
