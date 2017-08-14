@@ -5,7 +5,7 @@ import os
 import paths
 
 PYTHON_VERSION = sys.version_info[0]
-os.environ['PYSPARK_PYTHON'] = '/root/anaconda3/bin/python'
+#os.environ['PYSPARK_PYTHON'] = '/root/anaconda3/bin/python'
 
 WRITE_OUTPUTS = True
 LOGGING = True
