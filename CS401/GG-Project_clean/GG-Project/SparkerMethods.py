@@ -1,5 +1,5 @@
 l = []
-def addPyFiles(sc, dr = joinPath(joinPath(joinPath(gitDir, 'CS401'), 'GG-Project'), 'GG-Project')):
+def addPyFiles(sc, ):
     import os
     for filename in os.listdir(dr):
         #if filename in l: continue
@@ -13,13 +13,14 @@ def addPyFiles(sc, dr = joinPath(joinPath(joinPath(gitDir, 'CS401'), 'GG-Project
     return sc
 
 def runSpark():
-    import PySparkImports, SparkLogFileHandler
+    import PythonVersionHandler, PySparkImports, SparkLogFileHandler
     conf = PySparkImports.SparkConf()
     conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
     conf.set("spark.executor.memory", "12g")
     conf.set("spark.executor.instances", "2")
     sc = PySparkImports.SparkContext(conf=conf) 
-    sc = addPyFiles(sc)
+    dr = PythonVersionHandler.joinPath(PythonVersionHandler.joinPath(PythonVersionHandler.joinPath(gitDir, 'CS401'), 'GG-Project'), 'GG-Project')
+    sc = addPyFiles(sc, dr)
     SparkLogFileHandler.setSparkContext(sc)
 
 def run(): 
