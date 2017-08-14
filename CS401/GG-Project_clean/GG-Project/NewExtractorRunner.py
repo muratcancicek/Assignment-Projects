@@ -63,8 +63,9 @@ def testMultipleExtractors():
     dateStr = '2017-05-' + str(16)
     import paths, FinalizedRunners
     inputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
-    FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
-
+    logs = FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
+    logs = logs.coalesce(24)
+    print_(logs.count())
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
