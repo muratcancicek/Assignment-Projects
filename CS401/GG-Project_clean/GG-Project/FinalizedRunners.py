@@ -30,7 +30,7 @@ def getPreparedLogsFromHDFS(inputPaths, filtering = True):
         else:
             for p in inputPaths:
                 logs = SparkLogFileHandler.readParsedLogsFromHDFS(p)
-    PythonVersionHandler.print_logging(logs.count(), 'have been prepared by', nowStr())
+    PythonVersionHandler.print_logging(logs.count(), 'have been prepared by', PythonVersionHandler.nowStr())
     return logs
 
 def extractLogsByKeywordsFromHDFS(inputPaths, keywords, filtering = True):
@@ -45,6 +45,6 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
     for v in keywordDict:
         (searches, viewedProductLogs, cartedOrPaidProductLogs) = keywordDict[v]
         objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
-    PythonVersionHandler.print_logging('Objective logs has been merged by', nowStr())
+    PythonVersionHandler.print_logging('Objective logs has been merged by', PythonVersionHandler.nowStr())
     objectiveLogs = objectiveLogs.coalesce(24)
     SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)

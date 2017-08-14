@@ -105,3 +105,7 @@ spark.executor.instances 2
 export PYSPARK_PYTHON=/root/anaconda3/bin/python3.5
 export PYSPARK_DRIVER_PYTHON=/root/anaconda3/bin/python3.5
 export
+export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH
+
+unset PYSPARK_PYTHON
+unset PYSPARK_DRIVER_PYTHON
