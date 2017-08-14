@@ -26,7 +26,7 @@ def getPreparedLogsFromHDFS(inputPaths, filtering = True):
         import SparkLogFileHandler, PythonVersionHandler
         logs = SparkLogFileHandler.sc_().parallelize([])
         if isinstance(inputPaths, str):
-            logs = SparkLogFileHandler.readParsedLogsFromHDFS(p)
+            logs = SparkLogFileHandler.readParsedLogsFromHDFS(inputPaths)
         else:
             for p in inputPaths:
                 logs = SparkLogFileHandler.readParsedLogsFromHDFS(p)
