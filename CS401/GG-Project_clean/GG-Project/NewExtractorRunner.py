@@ -59,7 +59,15 @@ def joinTests():
     #products2 = products2.map(lambda p: (p['i'], p))
     #print(products.join(products2).collect())
 
+def testMultipleExtractors():
+    dateStr = '2017-05-' + str(16)
+    import paths, FinalizedRunners
+    inputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
+    FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
+
+
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
-    joinTests()
     #printAct(16)
+    #joinTests()
+    testMultipleExtractors()
