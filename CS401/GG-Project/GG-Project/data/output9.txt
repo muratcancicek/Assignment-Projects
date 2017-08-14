@@ -241,3 +241,8 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-15 w
 12 cart and payments have found for lg g4 by 2017-08-14 14:44:38.637043
 
 Objective logs has been merged by 2017-08-14 14:44:40.002663
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay/2017-05-15_extractedLogs with 18134 lines has been saved successfully by 2017-08-14 17:38:19.063596
+2017-08-14 17:38:19.066256: DONE
+########################################################################################
+########################################################################################
+########################################################################################
