@@ -73,6 +73,7 @@ python runGG_Project.py /root/Projects/Assignment-Projects/CS401/GG-Project/GG-P
 python runGG_Project.py hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/2017-05-16_filtered 
 
 cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project\GG-Project
+cd /d D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project_clean\GG-Project
 
 jupyter notebook --allow-root
 

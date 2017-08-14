@@ -2,7 +2,7 @@ WRITING_ALLOWED = False
 def readLogs(_sc, fileName, duplicated = False):
     logs = _sc.textFile(fileName) if duplicated else _sc.textFile(fileName).distinct()
     import PythonVersionHandler
-    PythonVersionHandler.print_(fileName + ' will be reading by', nowStr())
+    PythonVersionHandler.print_(fileName + ' will be reading by', PythonVersionHandler.nowStr())
     return logs
 
 def readAllLogFiles(_sc, folder):
@@ -50,7 +50,7 @@ def parseLog(log):
     global parseCounter
     parseCounter += 1
     #if parseCounter % 1000000 == 0: 
-    #    print_('%i logs have been parsed by %s' % (parseCounter, nowStr()))
+    #    print_('%i logs have been parsed by %s' % (parseCounter, PythonVersionHandler.nowStr()))
     return log
 
 def parseAllLogs(logs):

@@ -16,11 +16,11 @@ def main(method = None, kill = True):
 
     if method == None:
         import SparkerMethods
-        SparkerMethods.runSparkerMethods()
+        SparkerMethods.run()
     else:
         method()
 
-    PythonVersionHandler.print_('%s:' % nowStr(), 'DONE')
+    PythonVersionHandler.print_('%s:' % PythonVersionHandler.nowStr(), 'DONE')
     printSeparater()
 
     if  COMPUTERNAME != 'UCSC:citrisdense' and kill:

@@ -25,7 +25,7 @@ def evalLog(logText):
     global evalCounter 
     evalCounter += 1
     #if evalCounter % 100000 == 0: 
-    #    print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, nowStr()))
+    #    print_('%i logs have been evaluated to Python Dict by %s' % (evalCounter, PythonVersionHandler.nowStr()))
     return log
 
 def readParsedLogsFromHDFS(fileName): 
@@ -34,10 +34,10 @@ def readParsedLogsFromHDFS(fileName):
     evalCounter = 0
     logs = logs.map(evalLog)
     import PythonVersionHandler
-    PythonVersionHandler.print_(fileName, 'has been read by', nowStr())
+    PythonVersionHandler.print_(fileName, 'has been read by', PythonVersionHandler.nowStr())
     return logs
 
 def saveRDDToHDFS(rdd, fileName):
     rdd.saveAsTextFile(fileName)
     import PythonVersionHandler
-    PythonVersionHandler.print_(fileName, 'with', rdd.count(), 'lines has been saved successfully by', nowStr())
+    PythonVersionHandler.print_(fileName, 'with', rdd.count(), 'lines has been saved successfully by', PythonVersionHandler.nowStr())

@@ -61,5 +61,5 @@ def joinTests():
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
-    #joinTests()
-    printAct(16)
+    joinTests()
+    #printAct(16)

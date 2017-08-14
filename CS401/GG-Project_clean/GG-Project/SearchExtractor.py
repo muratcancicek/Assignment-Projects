@@ -30,7 +30,7 @@ def findExistingSearchKeywords(filteredPath):
     logs = logs.filter(lambda log: str([KEY_KEYWORD]).lower() in keywords32)
     logs = logs.map(lambda log: log[KEY_KEYWORD])
     keywords = logs.distinct()
-    print(keywords.count(), 'keywords has been found in data by', nowStr())
+    print(keywords.count(), 'keywords has been found in data by', PythonVersionHandler.nowStr())
     return keywords.collect()
 
 def refererParser(rawReferer):
@@ -70,12 +70,12 @@ def specificProductLogs(logs, keywords):
 
 def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     listedIds = searches.flatMap(lambda log: log[KEY_ID_LIST]).distinct().map(lambda i: (i, i))
-    print_high_logging(listedIds.count(), 'products have listed on searches for', keyword, 'by', nowStr())
+    print_high_logging(listedIds.count(), 'products have listed on searches for', keyword, 'by', PythonVersionHandler.nowStr())
     viewedProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_ITEM and log[KEY_REFERER]['k'] == keyword).map(lambda log: (log[KEY_ID], log))
     viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1])
-    print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', nowStr())
+    print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
     viewedIds = viewedProductLogs.map(lambda kv: (kv[0], kv[0])).distinct()
-    print_logging(viewedIds.count(), 'products have clicked on searches for', keyword, 'by', nowStr())
+    print_logging(viewedIds.count(), 'products have clicked on searches for', keyword, 'by', PythonVersionHandler.nowStr())
     cartedOrPaidProductLogs = productLogs.filter(lambda log: log[KEY_MODULE] == KEY_MODULE_CART or log[KEY_MODULE] == KEY_MODULE_PAYMENT)
     def singleId(log):
         if isinstance(log[KEY_ID], int):
@@ -84,7 +84,7 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
             if '%7C' in log[KEY_ID]:
                 return [(int(i), log) for i in log[KEY_ID].split('%7C')]
     cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId))
-    print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', nowStr())
+    print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
 c = 0
@@ -93,13 +93,13 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     c += 1
     print_logging(str(c)+'.', keyword.upper() + ':')
     searches = searches.filter(lambda log: log[KEY_KEYWORD] == keyword)
-    print_logging(searches.count(), 'searches have found for', keyword, 'by', nowStr())
+    print_logging(searches.count(), 'searches have found for', keyword, 'by', PythonVersionHandler.nowStr())
     if searches.count() == 0:
         print_logging()
         return (searches, sc_().parallelize([]), sc_().parallelize([]))
     viewedProductLogs, cartedOrPaidProductLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
     if not LOGGING: print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
-           'cart and payments have found for', keyword, 'by', nowStr())
+           'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     print_logging()
     return (searches, viewedProductLogs, cartedOrPaidProductLogs)
 
@@ -107,7 +107,7 @@ def searchNProductLogsByKeywords(logs, keywords):
     if isinstance(keywords, str): 
         keywords = [keywords]
     searches = specificSearches(logs, keywords)
-    print_logging(searches.count(), 'searches have found relevant with', len(keywords), 'keywords by', nowStr())
+    print_logging(searches.count(), 'searches have found relevant with', len(keywords), 'keywords by', PythonVersionHandler.nowStr())
     productLogs = specificProductLogs(logs, keywords)
-    print_logging(productLogs.count(), 'productLogs have found relevant with', len(keywords), 'keywords by', nowStr(), '\n')
+    print_logging(productLogs.count(), 'productLogs have found relevant with', len(keywords), 'keywords by', PythonVersionHandler.nowStr(), '\n')
     return {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword) for keyword in keywords}
