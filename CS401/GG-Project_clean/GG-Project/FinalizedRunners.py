@@ -53,7 +53,7 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
     for keyword in keywords:
-        searchNProductLogs = SearchExtractor.searchNProductLogsBySingleKeyword(logs, keyword)
+        searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
         pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
         if pairs.isEmpty():
             return
