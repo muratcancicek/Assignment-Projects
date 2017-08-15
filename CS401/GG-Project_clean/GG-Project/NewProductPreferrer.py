@@ -38,9 +38,13 @@ def instanceListFromActions(sp):
             if pid in sp[0][KEY_ID_LIST]:
                 s.extend(coefficient * [(sp[1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(pid)])])
         return s
-
+a = False
 def labelPairs(s):
     s = []
+    global a
+    if not a:
+        print_(s)
+        a = True
     for i in s[1]:
         s.append(((s[0], i), 1))
         s.append(((i, s[0]), 0))
@@ -61,15 +65,14 @@ def getLabeledPairs(searches, productLogs):
     searchedLogs = searchedLogs.map(lambda sp: sp[1]).filter(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][1][KEY_TIMESTAMP])
     searchedLogs = searchedLogs.filter(lambda sp: specificPreviousSearchesWithId(sp[1][1], sp[0]))
     searchedLogs = searchedLogs.map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
-    print_(searchedLogs.count(), "logs", nowStr())
     searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][1][KEY_TIMESTAMP], ascending = False)\
         .groupBy(lambda sp: sp[1][1][KEY_TIMESTAMP])\
         .map(lambda tsp: list(tsp[1])[0])
     print_(searchedLogs.count(), "logs", nowStr())
     pairs = searchedLogs.flatMap(lambda s: instanceListFromActions(s))
-    print_(pairs.count(), "pair")
+    print_(pairs.count(), "pair", nowStr())
     pairs = pairs.flatMap(labelPairs)
-    print_(pairs.count(), "pair")
+    print_(pairs.count(), "pair", nowStr())
     return pairs
 
 def trainingInstancesForSingleKeyword(logs):
