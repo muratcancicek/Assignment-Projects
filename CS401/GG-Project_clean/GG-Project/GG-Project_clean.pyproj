@@ -77,6 +77,7 @@
     <Compile Include="SparkLogFileHandler.py" />
     <Compile Include="SparkLogReader.py" />
     <Compile Include="StringUtil.py" />
+    <Compile Include="Trainer.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="commands.txt" />
