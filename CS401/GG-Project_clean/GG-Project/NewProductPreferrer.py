@@ -93,12 +93,12 @@ def productInstances(logs):
     import PythonVersionHandler
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
     searches = searches.map(idSetter)
-    viewedProductLogs = viewedProductLogs.map(lambda kv: (kv[0], idSetter(kv[1]))).collect()
+    viewedProductLogs = viewedProductLogs.map(lambda kv: idSetter(kv[1])).collect()
     viewedProductIstances = extendLists([findViewedProductIstancesOnSearches(productLog[1], searches) for productLog in viewedProductLogs])
     PythonVersionHandler.print_high_logging(len(viewedProductIstances), 'product instances have been found from', 
                        len(viewedProductLogs), 'viewed productLogs on searches by', PythonVersionHandler.nowStr())
     #viewedProductIstances = sc_().parallelize(viewedProductIstances)
-    cartedOrPaidIstances = cartedOrPaidProductLogs.map(lambda kv: (kv[0], idSetter(kv[1]))) \
+    cartedOrPaidIstances = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1])) \
         .map(lambda productLog: findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances))
     if cartedOrPaidIstances.count() > 0:
         cartedOrPaidIstances = cartedOrPaidIstances.reduce(lambda a, b: a+b)
