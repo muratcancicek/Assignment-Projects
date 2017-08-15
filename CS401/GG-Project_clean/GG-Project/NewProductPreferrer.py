@@ -96,6 +96,5 @@ def trainingInstancesByKeywords(keywordDict):
         PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
         trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
         PythonVersionHandler.print_logging(trainingInstancesDict[keyword].count(), 'pairs have been labeled by', PythonVersionHandler.nowStr())
-    PythonVersionHandler.print_logging()
-    PythonVersionHandler.print_logging()
+        PythonVersionHandler.print_logging()
     return trainingInstancesDict
