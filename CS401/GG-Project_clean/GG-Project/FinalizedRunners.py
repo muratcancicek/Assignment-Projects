@@ -52,6 +52,12 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
 def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filtering = False):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
+    def tp(log):
+        if isinstance(log, tuple):
+            if isinstance(log[1], tuple): return log[1][1]
+            else: return log[1]
+        else: return log
+    logs = logs.map(tp)
     for keyword in keywords:
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
         pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
