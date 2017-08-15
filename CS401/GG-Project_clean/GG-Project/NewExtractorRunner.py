@@ -27,6 +27,7 @@ def pairLabellingFromObjectiveLogsTest(day):
     logs = SparkLogFileHandler.readParsedLogsFromHDFS(extractedPath)
     keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
     trainingInstancesDict = NewProductPreferrer.trainingInstancesByKeywords(keywordDict)
+    objectiveLogs = SparkLogFileHandler.sc_().parallelize([])
     for v in trainingInstancesDict:
         (searches, viewedProductLogs, cartedOrPaidProductLogs) = trainingInstancesDict[v]
         objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
