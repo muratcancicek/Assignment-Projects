@@ -100,6 +100,7 @@ def getLabeledPairs(searches, productLogs):
         else:
             productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[KEY_ID], kv)))
     searchedLogs = searches.join(productLogs)
+    print_(searchedLogs.count(), "logs")
     searchedLogs = searchedLogs.distinct()
     searchedLogs = searchedLogs.map(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][KEY_TIMESTAMP] and specificPreviousSearchesWithId(sp[1], sp[0]))
     searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][KEY_TIMESTAMP], ascending = False)\
@@ -168,7 +169,6 @@ def trainingInstancesForSingleKeyword(logs):
     cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1][1]))
     pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
     if pairs.count() > 0:
-        pairs = pairs.reduce(lambda a, b: a+b)
         PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found in total', nowStr())
     else:
         PythonVersionHandler.print_logging('0 pairs have been found from in total', nowStr())
