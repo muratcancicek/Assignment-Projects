@@ -99,7 +99,9 @@ def getLabeledPairs(searches, productLogs):
             productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
         else:
             productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[KEY_ID], kv)))
-        searchedLogs.union(subSearches.join(productLogs))
+        subSearches = subSearches.join(productLogs)
+        print_(subSearches.count(), "sub logs")
+        searchedLogs.union(subSearches)
     print_(searchedLogs.count(), "logs")
     searchedLogs = searchedLogs.map(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][KEY_TIMESTAMP] and specificPreviousSearchesWithId(sp[1], sp[0]))
     searchedLogs = searchedLogs.distinct()
