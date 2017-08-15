@@ -22,7 +22,7 @@ def may17ExtractionTest(day):
 def pairLabellingFromObjectiveLogsTest(day):
     keywords = 'iphone 7' # get32Keywords() # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
     dateStr = '2017-05-' + str(day)
-    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
     logs = SparkLogFileHandler.readParsedLogsFromHDFS(extractedPath)
     keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)

@@ -90,23 +90,24 @@ def extendLists(l):
     return nl
 
 def productInstances(logs):
+    import PythonVersionHandler
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
     searches = searches.map(idSetter)
     viewedProductLogs = viewedProductLogs.map(lambda kv: (kv[0], idSetter(kv[1]))).collect()
-    viewedProductIstances = extendLists([findViewedProductIstancesOnSearches(productLog, searches) for productLog in viewedProductLogs])
-    print_high_logging(len(viewedProductIstances), 'product instances have been found from', 
-                       len(viewedProductLogs), 'viewed productLogs on searches by', nowStr())
+    viewedProductIstances = extendLists([findViewedProductIstancesOnSearches(productLog[1], searches) for productLog in viewedProductLogs])
+    PythonVersionHandler.print_high_logging(len(viewedProductIstances), 'product instances have been found from', 
+                       len(viewedProductLogs), 'viewed productLogs on searches by', PythonVersionHandler.nowStr())
     #viewedProductIstances = sc_().parallelize(viewedProductIstances)
     cartedOrPaidIstances = cartedOrPaidProductLogs.map(idSetter) \
         .map(lambda productLog: findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances))
     if cartedOrPaidIstances.count() > 0:
         cartedOrPaidIstances = cartedOrPaidIstances.reduce(lambda a, b: a+b)
-        print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
-                           cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', nowStr())
+        PythonVersionHandler.print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
+                           cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', PythonVersionHandler.nowStr())
     else:
         cartedOrPaidIstances = []
-        print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
-                           cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', nowStr())
+        PythonVersionHandler.print_high_logging(len(cartedOrPaidIstances), 'carted or paid instances have been found from', 
+                           cartedOrPaidProductLogs.count(), 'carted or paid productLogs on searches by', PythonVersionHandler.nowStr())
 
     #return viewedProductIstances.union(sc_().parallelize(cartedOrPaidIstances))
     return sc_().parallelize(viewedProductIstances + cartedOrPaidIstances)
