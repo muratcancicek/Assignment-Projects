@@ -95,10 +95,10 @@ def getLabeledPairs(searches, productLogs):
     for id_key in [KEY_PERSISTENT_COOKIE,KEY_USER_ID_FROM_COOKIE,KEY_USER_ID,KEY_SESSION_ID]:
         searches = searches.map(lambda search: (search[id_key], search))
         pair = productLogs.first()
-        if isinstance(pair[1], tuple):  
+        if isinstance(pair, tuple):  
             productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
         else:
-            productLogs = productLogs.map(lambda kv: (kv[1][id_key], (kv[0], kv[1])))
+            productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[KEY_ID], kv)))
         searchedLogs.join(searches.join(productLogs))
     searchedLogs = searchedLogs.distinct()
     searchedLogs = searchedLogs.map(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][KEY_TIMESTAMP] and specificPreviousSearchesWithId(sp[1], sp[0]))
