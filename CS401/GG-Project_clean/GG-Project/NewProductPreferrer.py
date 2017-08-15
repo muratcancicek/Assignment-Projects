@@ -103,21 +103,21 @@ def getLabeledPairs(searches, productLogs):
         searchedLogs = searchedLogs.union(subSearches)
     searchedLogs = searchedLogs.map(lambda sp: sp[1]).filter(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][1][KEY_TIMESTAMP])
     searchedLogs = searchedLogs.filter(lambda sp: specificPreviousSearchesWithId(sp[1][1], sp[0]))
-    print_(searchedLogs.count(), "logs")
     searchedLogs = searchedLogs.map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
     print_(searchedLogs.count(), "logs")
-    searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][KEY_TIMESTAMP], ascending = False)\
-        .groupBy(lambda sp: sp[1][KEY_TIMESTAMP])\
+    searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][1][KEY_TIMESTAMP], ascending = False)\
+        .groupBy(lambda sp: sp[1][1][KEY_TIMESTAMP])\
         .map(lambda tsp: tsp[1][0])
+    print_(searchedLogs.count(), "logs")
     def idPairs(sp):
-        if sp[1][KEY_MODULE] == KEY_MODULE_CART:
+        if sp[1][1][KEY_MODULE] == KEY_MODULE_CART:
             coefficient = KEY_CART_COEFFICIENT
-        if sp[1][KEY_MODULE] == KEY_MODULE_PAYMENT:
+        if sp[1][1][KEY_MODULE] == KEY_MODULE_PAYMENT:
             coefficient = KEY_PAYMENT_COEFFICIENT
         else:
             coefficient = KEY_PRODUCT_COEFFICIENT
-        if isInstance(sp[1][KEY_ID], int):
-            return coefficient * [(sp[1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(sp[1][KEY_ID])])]
+        if isInstance(sp[1][1][KEY_ID], int):
+            return coefficient * [(sp[1][1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(sp[1][1][KEY_ID])])]
         else:
             processedIds = [int(i) for i in productLog[KEY_ID].split('%7C')]
             s = []
