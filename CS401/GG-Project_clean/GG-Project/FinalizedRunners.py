@@ -50,9 +50,9 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
     SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
 
     
-def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder):
+def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filtering = filtering):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
-    logs = SparkLogFileHandler.readParsedLogsFromHDFS(extractedPath)
+    logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
     keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
     trainingInstancesDict = NewProductPreferrer.trainingInstancesByKeywords(keywordDict)
     for keyword in trainingInstancesDict:

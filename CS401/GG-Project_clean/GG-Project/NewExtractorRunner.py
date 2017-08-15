@@ -66,7 +66,7 @@ def pairingTest(day):
     import paths, SparkLogFileHandler, FinalizedRunners
     extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
     outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, dateStr)
-    FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder)
+    FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder, filtering = False)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
