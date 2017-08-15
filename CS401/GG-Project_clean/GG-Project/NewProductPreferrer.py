@@ -73,8 +73,11 @@ def getLabeledPairs(searches, productLogs):
     return pairs
 
 def trainingInstancesForSingleKeyword(logs):
-    import PythonVersionHandler
+    import PythonVersionHandler, SparkLogFileHandler
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
+    if viewedProductLogs.isEmpty() or cartedOrPaidProductLogs.isEmpty():
+        PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
+        return SparkLogFileHandler.sc_().parallelize([])
     searches = searches.map(idSetter)
     viewedProductLogs = viewedProductLogs.map(lambda kv: idSetter(kv[1]))
     cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1][1]))
@@ -95,5 +98,6 @@ def trainingInstancesByKeywords(keywordDict):
         PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
         trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
         PythonVersionHandler.print_logging(trainingInstancesDict[keyword].count(), 'pairs have been labeled by', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_logging()
     PythonVersionHandler.print_logging()
     return trainingInstancesDict

@@ -56,6 +56,9 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
     keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
     trainingInstancesDict = NewProductPreferrer.trainingInstancesByKeywords(keywordDict)
     for keyword in trainingInstancesDict:
-        pairs = trainingInstancesDict[keyword].coalesce(24)
-        outputPath = paths.joinPath(outputFolder, keyword + '_pairs')
-        SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+        if trainingInstancesDict[keyword].isEmpty():
+            return
+        else:
+            pairs = trainingInstancesDict[keyword].coalesce(24)
+            outputPath = paths.joinPath(outputFolder, keyword + '_pairs')
+            SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
