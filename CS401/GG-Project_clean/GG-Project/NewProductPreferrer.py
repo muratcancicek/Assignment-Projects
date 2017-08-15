@@ -98,7 +98,7 @@ def productInstances(logs):
     PythonVersionHandler.print_high_logging(len(viewedProductIstances), 'product instances have been found from', 
                        len(viewedProductLogs), 'viewed productLogs on searches by', PythonVersionHandler.nowStr())
     #viewedProductIstances = sc_().parallelize(viewedProductIstances)
-    cartedOrPaidIstances = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1])) \
+    cartedOrPaidIstances = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1][1])) \
         .map(lambda productLog: findcartedOrPaidProductIstancesOnViews(productLog, viewedProductIstances))
     if cartedOrPaidIstances.count() > 0:
         cartedOrPaidIstances = cartedOrPaidIstances.reduce(lambda a, b: a+b)
