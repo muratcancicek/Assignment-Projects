@@ -32,7 +32,7 @@ def instanceListFromActions(sp):
     if isinstance(sp[1][1][KEY_ID], int):
         return coefficient * [(sp[1][1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(sp[1][1][KEY_ID])])]
     else:
-        processedIds = [int(i) for i in productLog[KEY_ID].split('%7C')]
+        processedIds = [int(i) for i in sp[1][1][KEY_ID].split('%7C')]
         s = []
         for pid in processedIds:
             if pid in sp[0][KEY_ID_LIST]:
@@ -55,6 +55,8 @@ def getLabeledPairs(searches, productLogs):
     searchedLogs = SparkLogFileHandler.sc_().parallelize([])
     for id_key in [KEY_PERSISTENT_COOKIE,KEY_USER_ID_FROM_COOKIE,KEY_USER_ID,KEY_SESSION_ID]:
         subSearches = searches.map(lambda search: (search[id_key], search))
+        if productLogs.isEmpty():
+            PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
         pair = productLogs.first()
         if isinstance(pair, tuple):  
             productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
