@@ -67,3 +67,8 @@ D:\OneDrive\Projects\Assignment-Projects\CS401\GG-Project_clean\GG-Project\data\
 ########################################################################################
 2017-08-14 23:29:22.630000: Running on MSI...
 hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay\2017-05-16_extractedLogs has been read by 2017-08-14 23:29:26.176000
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-15 23:41:09.607000: Running on MSI...
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/filteredLogsFromMay\2017-05-17_extractedLogs has been read by 2017-08-15 23:41:14.793000

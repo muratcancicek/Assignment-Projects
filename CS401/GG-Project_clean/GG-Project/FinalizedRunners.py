@@ -56,7 +56,7 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
         pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
         if pairs.isEmpty():
-            return
+            continue
         else:
             pairs = pairs.coalesce(24)
             outputPath = paths.joinPath(outputFolder, keyword.replace(' ', '_') + '_pairs')
