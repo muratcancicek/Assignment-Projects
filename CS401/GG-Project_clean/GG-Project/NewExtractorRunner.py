@@ -20,7 +20,7 @@ def may17ExtractionTest(day):
     FinalizedRunners.saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
 
 def pairingTest(day):
-    keywords = get32Keywords() # 'iphone 7' # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
+    keywords = 'zigon sehpa' # get32Keywords() # 'iphone 7' # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
     dateStr = '2017-05-' + str(day)
     import paths, SparkLogFileHandler, FinalizedRunners
     extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')

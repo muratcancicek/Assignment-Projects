@@ -36,15 +36,11 @@ def instanceListFromActions(sp):
         s = []
         for pid in processedIds:
             if pid in sp[0][KEY_ID_LIST]:
-                s.extend(coefficient * [(sp[1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(pid)])])
+                s.extend(coefficient * [(sp[1][1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(pid)])])
         return s
 a = False
 def labelPairs(s):
     pairs = []
-    #global a
-    #if not a:
-    #    print_(s)
-    #    a = True
     for i in s[1]:
         pairs.append(((s[0], i), 1))
         pairs.append(((i, s[0]), 0))
