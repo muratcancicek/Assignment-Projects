@@ -32,4 +32,4 @@ def runNewExtractionMethods():
     #printAct(16)
     #joinTests()
     #coalesceAll([16, 18, 19], 24)
-    pairingTest(17)
+    pairingTest(16)
