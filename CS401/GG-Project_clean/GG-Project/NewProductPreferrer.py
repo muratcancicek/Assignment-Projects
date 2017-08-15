@@ -66,7 +66,7 @@ def getLabeledPairs(searches, productLogs):
         .groupBy(lambda sp: sp[1][1][KEY_TIMESTAMP])\
         .map(lambda tsp: list(tsp[1])[0])
     print_(searchedLogs.count(), "logs", nowStr())
-    pairs = searchedLogs.map().flatMap(lambda s: instanceListFromActions(s))
+    pairs = searchedLogs.flatMap(lambda s: instanceListFromActions(s))
     print_(pairs.count(), "pair")
     pairs = pairs.flatMap(labelPairs)
     print_(pairs.count(), "pair")
