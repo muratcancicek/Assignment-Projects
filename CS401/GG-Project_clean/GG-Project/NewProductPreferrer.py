@@ -89,6 +89,47 @@ def extendLists(l):
         nl.extend(e)
     return nl
 
+def getLabeledPairs(searches, productLogs):
+    import SparkLogFileHandler
+    searchedLogs = SparkLogFileHandler.sc_().parallelize([])
+    for id_key in [KEY_PERSISTENT_COOKIE,KEY_USER_ID_FROM_COOKIE,KEY_USER_ID,KEY_SESSION_ID]:
+        searches = searches.map(lambda search: (search[id_key], search))
+        pair = productLogs.first()
+        if isinstance(pair[1], tuple):  
+            productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
+        else:
+            productLogs = productLogs.map(lambda kv: (kv[1][id_key], (kv[0], kv[1])))
+        searchedLogs.join(searches.join(productLogs))
+    searchedLogs = searchedLogs.distinct()
+    searchedLogs = searchedLogs.map(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][KEY_TIMESTAMP] and specificPreviousSearchesWithId(sp[1], sp[0]))
+    searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][KEY_TIMESTAMP], ascending = False)\
+        .groupBy(lambda sp: sp[1][KEY_TIMESTAMP])\
+        .map(lambda tsp: tsp[1][0])
+    def idPairs(sp):
+        if sp[1][KEY_MODULE] == KEY_MODULE_CART:
+            coefficient = KEY_CART_COEFFICIENT
+        if sp[1][KEY_MODULE] == KEY_MODULE_PAYMENT:
+            coefficient = KEY_PAYMENT_COEFFICIENT
+        else:
+            coefficient = KEY_PRODUCT_COEFFICIENT
+        if isInstance(sp[1][KEY_ID], int):
+            return coefficient * [(sp[1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(sp[1][KEY_ID])])]
+        else:
+            processedIds = [int(i) for i in productLog[KEY_ID].split('%7C')]
+            s = []
+            for pid in processedIds:
+                if pid in sp[0][KEY_ID_LIST]:
+                   s.extend(coefficient * [(sp[1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(pid)])])
+            return s
+    def pairn(s):
+        s = []
+        for i in s[1]:
+            s.append(((s[0], i), 1))
+            s.append(((i, s[0]), 0))
+        return s
+    pairs = searchedLogs.map(idPairs).flatMap(lambda s: s).flatMap(pairn)
+    return pairs
+
 def productInstances(logs):
     import PythonVersionHandler
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
@@ -121,8 +162,8 @@ def pairsList(productLog):
 
 def trainingInstancesForSingleKeyword(logs):
     import PythonVersionHandler
-    instances = productInstances(logs)
-    pairs = instances.map(pairsList)
+    (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
+    pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
     if pairs.count() > 0:
         pairs = pairs.reduce(lambda a, b: a+b)
         PythonVersionHandler.print_logging(len(pairs), 'pairs have been found from', instances.count(), 'instances in total', nowStr())
