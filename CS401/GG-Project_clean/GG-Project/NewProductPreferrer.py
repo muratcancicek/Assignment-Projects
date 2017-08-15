@@ -93,7 +93,7 @@ def getLabeledPairs(searches, productLogs):
     import SparkLogFileHandler
     searchedLogs = SparkLogFileHandler.sc_().parallelize([])
     for id_key in [KEY_PERSISTENT_COOKIE,KEY_USER_ID_FROM_COOKIE,KEY_USER_ID,KEY_SESSION_ID]:
-        searches = searches.map(lambda search: (search[id_key], search))
+        searches = searches.map(lambda search: (search[0][id_key], search[1]))
         pair = productLogs.first()
         if isinstance(pair, tuple):  
             productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
