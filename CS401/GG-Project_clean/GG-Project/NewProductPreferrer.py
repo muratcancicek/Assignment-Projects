@@ -107,7 +107,7 @@ def getLabeledPairs(searches, productLogs):
     print_(searchedLogs.count(), "logs")
     searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][1][KEY_TIMESTAMP], ascending = False)\
         .groupBy(lambda sp: sp[1][1][KEY_TIMESTAMP])\
-        .map(lambda tsp: tsp[1][0])
+        .map(lambda tsp: list(tsp[1])[0])
     print_(searchedLogs.count(), "logs")
     def idPairs(sp):
         if sp[1][1][KEY_MODULE] == KEY_MODULE_CART:
@@ -132,6 +132,7 @@ def getLabeledPairs(searches, productLogs):
             s.append(((i, s[0]), 0))
         return s
     pairs = searchedLogs.map(idPairs).flatMap(lambda s: s).flatMap(pairn)
+    print_(pairs.count(), "pair")
     return pairs
 
 def productInstances(logs):
