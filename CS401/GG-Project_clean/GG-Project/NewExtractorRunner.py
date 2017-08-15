@@ -30,7 +30,7 @@ def pairLabellingFromObjectiveLogsTest(day):
     objectiveLogs = SparkLogFileHandler.sc_().parallelize([])
     for v in trainingInstancesDict:
         pairs = trainingInstancesDict[v]
-        objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
+        objectiveLogs = objectiveLogs.union(pairs)
     PythonVersionHandler.print_logging('Objective logs has been merged by', PythonVersionHandler.nowStr())
     objectiveLogs = objectiveLogs.coalesce(24)
     outputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_iPhone7pairs')
