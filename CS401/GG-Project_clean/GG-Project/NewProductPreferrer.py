@@ -6,8 +6,8 @@ from Sessionizer import *
 
 KEY_PREFERRED_ID_LIST ='preferred_ids'
 KEY_PRODUCT_COEFFICIENT = 1
-KEY_CART_COEFFICIENT = 5
-KEY_PAYMENT_COEFFICIENT = 10
+KEY_CART_COEFFICIENT = 10
+KEY_PAYMENT_COEFFICIENT = 50
 
 def specificPreviousSearches(productLog, search):
     if search[KEY_TIMESTAMP] < productLog[KEY_TIMESTAMP]:

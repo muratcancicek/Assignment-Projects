@@ -22,11 +22,18 @@ def may17ExtractionTest(day):
 def pairLabellingFromObjectiveLogsTest(day):
     keywords = 'iphone 7' # get32Keywords() # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
     dateStr = '2017-05-' + str(day)
-    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer
     extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
     logs = SparkLogFileHandler.readParsedLogsFromHDFS(extractedPath)
     keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
-    trainingInstancesDict = FinalizedRunners.trainingInstancesByKeywords(keywordDict)
+    trainingInstancesDict = NewProductPreferrer.trainingInstancesByKeywords(keywordDict)
+    for v in trainingInstancesDict:
+        (searches, viewedProductLogs, cartedOrPaidProductLogs) = trainingInstancesDict[v]
+        objectiveLogs = objectiveLogs.union(searches).union(viewedProductLogs).union(cartedOrPaidProductLogs)
+    PythonVersionHandler.print_logging('Objective logs has been merged by', PythonVersionHandler.nowStr())
+    objectiveLogs = objectiveLogs.coalesce(24)
+    outputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_iPhone7pairs')
+    SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
 
 def m16():
     keywords = get32Keywords()
