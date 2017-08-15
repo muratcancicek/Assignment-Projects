@@ -105,6 +105,17 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     PythonVersionHandler.print_logging()
     return (searches, viewedProductLogs, cartedOrPaidProductLogs)
 
+def searchNProductLogsForSingleKeyword(logs, keywords):
+    import PythonVersionHandler
+    if isinstance(keywords, str): 
+        keywords = [keywords]
+    searches = specificSearches(logs, keywords)
+    PythonVersionHandler.print_logging(searches.count(), 'searches have found relevant with', len(keywords), 'keywords by', PythonVersionHandler.nowStr())
+    productLogs = specificProductLogs(logs, keywords)
+    PythonVersionHandler.print_logging(productLogs.count(), 'productLogs have found relevant with', len(keywords), 'keywords by', PythonVersionHandler.nowStr(), '\n')
+    return searchNProductLogsBySingleKeyword(searches, productLogs, keywords[0])
+
+
 def searchNProductLogsByKeywords(logs, keywords):
     import PythonVersionHandler
     if isinstance(keywords, str): 

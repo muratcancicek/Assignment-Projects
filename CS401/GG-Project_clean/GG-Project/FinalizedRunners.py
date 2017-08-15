@@ -49,20 +49,16 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
     objectiveLogs = objectiveLogs.coalesce(24)
     SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
     
-c = 0
 def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filtering = False):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
     for keyword in keywords:
-        global c
-        c += 1
-        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
-        keywordDict = SearchExtractor.searchNProductLogsBySingleKeyword(logs, keyword)
-        searchNProductLogs = NewProductPreferrer.trainingInstancesForSingleKeyword(keywordDict)
-        if trainingInstancesDict[keyword].isEmpty():
+        searchNProductLogs = SearchExtractor.searchNProductLogsBySingleKeyword(logs, keyword)
+        pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
+        if pairs.isEmpty():
             return
         else:
-            pairs = trainingInstancesDict[keyword].coalesce(24)
+            pairs = pairs.coalesce(24)
             outputPath = paths.joinPath(outputFolder, keyword.replace(' ', '_') + '_pairs')
             SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
