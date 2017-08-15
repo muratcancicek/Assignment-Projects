@@ -59,16 +59,18 @@ def joinTests():
     #products2 = products2.map(lambda p: (p['i'], p))
     #print(products.join(products2).collect())
 
-def testMultipleExtractors():
-    dateStr = '2017-05-' + str(16)
-    import paths, FinalizedRunners
-    inputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
-    logs = FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
-    logs = logs.coalesce(24)
-    print_(logs.count())
+def coalesceAll(days, p):
+    for d in days:
+        dateStr = '2017-05-' + str(d)
+        import paths, SparkLogFileHandler, FinalizedRunners
+        inputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
+        outputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs_coalesced')
+        logs = FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
+        logs = logs.coalesce(p)
+        SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
     #printAct(16)
     #joinTests()
-    testMultipleExtractors()
+    coalesceAll([16, 18, 19], 24)
