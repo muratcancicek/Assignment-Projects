@@ -48,3 +48,14 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
     PythonVersionHandler.print_logging('Objective logs has been merged by', PythonVersionHandler.nowStr())
     objectiveLogs = objectiveLogs.coalesce(24)
     SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
+
+    
+def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder):
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
+    logs = SparkLogFileHandler.readParsedLogsFromHDFS(extractedPath)
+    keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
+    trainingInstancesDict = NewProductPreferrer.trainingInstancesByKeywords(keywordDict)
+    for keyword in trainingInstancesDict:
+        pairs = trainingInstancesDict[keyword].coalesce(24)
+        outputPath = paths.joinPath(outputFolder, keyword + '_pairs')
+        SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)

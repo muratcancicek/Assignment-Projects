@@ -68,11 +68,8 @@ def getLabeledPairs(searches, productLogs):
     searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][1][KEY_TIMESTAMP], ascending = False)\
         .groupBy(lambda sp: sp[1][1][KEY_TIMESTAMP])\
         .map(lambda tsp: list(tsp[1])[0])
-    print_(searchedLogs.count(), "logs", nowStr())
     pairs = searchedLogs.flatMap(lambda s: instanceListFromActions(s))
-    print_(pairs.count(), "pair", nowStr())
     pairs = pairs.flatMap(labelPairs)
-    print_(pairs.count(), "pair", nowStr())
     return pairs
 
 def trainingInstancesForSingleKeyword(logs):
@@ -83,9 +80,9 @@ def trainingInstancesForSingleKeyword(logs):
     cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1][1]))
     pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
     if pairs.count() > 0:
-        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found in total', nowStr())
+        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found by', nowStr())
     else:
-        PythonVersionHandler.print_logging('0 pairs have been found from in total', nowStr())
+        PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
     return pairs
 
 c = 0
@@ -97,5 +94,6 @@ def trainingInstancesByKeywords(keywordDict):
         c += 1
         PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
         trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
+        PythonVersionHandler.print_logging(trainingInstancesDict[keyword].count(), 'pairs have been labeled by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_logging()
     return trainingInstancesDict

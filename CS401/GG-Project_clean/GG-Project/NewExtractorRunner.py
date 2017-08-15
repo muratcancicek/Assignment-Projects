@@ -18,23 +18,6 @@ def may17ExtractionTest(day):
     keywords = get32Keywords()
     outputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
     FinalizedRunners.saveExtractedLogsByKeywordsFromHDFS(inputPath, keywords, outputPath)
-    
-def pairLabellingFromObjectiveLogsTest(day):
-    keywords = 'iphone 7' # get32Keywords() # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
-    dateStr = '2017-05-' + str(day)
-    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
-    extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
-    logs = SparkLogFileHandler.readParsedLogsFromHDFS(extractedPath)
-    keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
-    trainingInstancesDict = NewProductPreferrer.trainingInstancesByKeywords(keywordDict)
-    objectiveLogs = SparkLogFileHandler.sc_().parallelize([])
-    for v in trainingInstancesDict:
-        pairs = trainingInstancesDict[v]
-        objectiveLogs = objectiveLogs.union(pairs)
-    PythonVersionHandler.print_logging('Objective logs has been merged by', PythonVersionHandler.nowStr())
-    objectiveLogs = objectiveLogs.coalesce(24)
-    outputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_iPhone7pairs')
-    SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
 
 def m16():
     keywords = get32Keywords()
@@ -77,9 +60,17 @@ def coalesceAll(days, p):
         logs = logs.coalesce(p)
         SparkLogFileHandler.saveRDDToHDFS(logs, outputPath)
 
+def pairingTest(day):
+    keywords = get32Keywords() # 'iphone 7' # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
+    dateStr = '2017-05-' + str(day)
+    import paths, SparkLogFileHandler, FinalizedRunners
+    extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
+    outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, dateStr)
+    FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder)
+
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
     #printAct(16)
     #joinTests()
     #coalesceAll([16, 18, 19], 24)
-    pairLabellingFromObjectiveLogsTest(17)
+    pairingTest(17)
