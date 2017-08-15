@@ -40,15 +40,15 @@ def instanceListFromActions(sp):
         return s
 a = False
 def labelPairs(s):
-    s = []
-    global a
-    if not a:
-        print_(s)
-        a = True
+    pairs = []
+    #global a
+    #if not a:
+    #    print_(s)
+    #    a = True
     for i in s[1]:
-        s.append(((s[0], i), 1))
-        s.append(((i, s[0]), 0))
-    return s
+        pairs.append(((s[0], i), 1))
+        pairs.append(((i, s[0]), 0))
+    return pairs
 
 def getLabeledPairs(searches, productLogs):
     import SparkLogFileHandler
