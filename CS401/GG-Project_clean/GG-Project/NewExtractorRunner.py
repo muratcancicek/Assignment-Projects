@@ -80,4 +80,5 @@ def runNewExtractionMethods():
     #may17ExtractionTest(21)
     #printAct(16)
     #joinTests()
-    coalesceAll([16, 18, 19], 24)
+    #coalesceAll([16, 18, 19], 24)
+    pairLabellingFromObjectiveLogsTest(16)
