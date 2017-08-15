@@ -38,6 +38,13 @@ def mergeAll():
     logs = logs.coalesce(24)
     SparkLogFileHandler.saveRDDToHDFS(logs, outputPath)
 
+def pairAllTest():
+    keywords = get32Keywords() 
+    import paths, SparkLogFileHandler, FinalizedRunners
+    extractedPath =  paths.joinPath(filteredLogsFromMayFolder, 'allWeek_extractedLogs')
+    outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
+    FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder, filtering = False)
+
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
@@ -45,4 +52,5 @@ def runNewExtractionMethods():
     #joinTests()
     #coalesceAll([16, 18, 19], 24)
     #pairingTest(16)
-    mergeAll()
+    #mergeAll()
+    pairAllTest()
