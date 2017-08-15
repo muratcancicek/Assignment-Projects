@@ -120,31 +120,24 @@ def pairsList(productLog):
     return pList
 
 def trainingInstancesForSingleKeyword(logs):
+    import PythonVersionHandler
     instances = productInstances(logs)
     pairs = instances.map(pairsList)
     if pairs.count() > 0:
         pairs = pairs.reduce(lambda a, b: a+b)
-        print_logging(len(pairs), 'pairs have been found from', instances.count(), 'instances in total', nowStr())
+        PythonVersionHandler.print_logging(len(pairs), 'pairs have been found from', instances.count(), 'instances in total', nowStr())
     else:
-        print_logging('0 pairs have been found from', instances.count(), 'instances in total', nowStr())
+        PythonVersionHandler.print_logging('0 pairs have been found from', instances.count(), 'instances in total', nowStr())
     return pairs
 
 c = 0
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
-    k = ["MANI JEANS KOT PANTALON", "LG G4", "ADIDAS", "TUPPERWARE", "XIAOMI MI5", "JBL HOPARLOR", 
-         "BESIKTAS", "SAMSUNG", "KOT PANTALON", "DIKEY ELEKTRIKLI SUPURGE", "BEKO 9 KG CAMASIR MAKINESI", "GALAXY S3",
-         "SAMSUNG GALAXY S5 MINI"]
-    k = [i.lower() for i in k]
+    import PythonVersionHandler
     for keyword in keywordDict:
-        if keyword.lower() in k:
-            continue
         global c
         c += 1
-        print_logging(str(c)+'.', keyword.upper() + ':')
-        try:
-            trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
-        except:
-            print_("ERROR")
-    print_logging()
+        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
+        trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
+    PythonVersionHandler.print_logging()
     return trainingInstancesDict
