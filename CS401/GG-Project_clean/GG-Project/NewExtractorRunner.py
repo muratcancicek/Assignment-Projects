@@ -27,9 +27,22 @@ def pairingTest(day):
     outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, dateStr)
     FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder, filtering = False)
 
+def mergeAll():
+    import paths, SparkLogFileHandler, FinalizedRunners
+    outputPath = paths.joinPath(filteredLogsFromMayFolder, 'allWeek_extractedLogs')
+    logs = SparkLogFileHandler.sc_().parallelize([])
+    for d in range(15, 22):
+        dateStr = '2017-05-' + str(d)
+        inputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
+        logs = logs.union(FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False))
+    logs = logs.coalesce(24)
+    SparkLogFileHandler.saveRDDToHDFS(logs, outputPath)
+
+
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
     #printAct(16)
     #joinTests()
     #coalesceAll([16, 18, 19], 24)
-    pairingTest(16)
+    #pairingTest(16)
+    mergeAll()
