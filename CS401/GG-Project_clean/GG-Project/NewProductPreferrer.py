@@ -169,9 +169,9 @@ def trainingInstancesForSingleKeyword(logs):
     pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
     if pairs.count() > 0:
         pairs = pairs.reduce(lambda a, b: a+b)
-        PythonVersionHandler.print_logging(len(pairs), 'pairs have been found from', instances.count(), 'instances in total', nowStr())
+        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found in total', nowStr())
     else:
-        PythonVersionHandler.print_logging('0 pairs have been found from', instances.count(), 'instances in total', nowStr())
+        PythonVersionHandler.print_logging('0 pairs have been found from in total', nowStr())
     return pairs
 
 c = 0
