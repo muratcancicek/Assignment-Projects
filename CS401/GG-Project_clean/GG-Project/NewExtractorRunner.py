@@ -22,7 +22,6 @@ def may17ExtractionTest(day):
 def pairingTest(day):
     keywords = get32Keywords() # 'zigon sehpa' # 'iphone 7' # "BEKO 9 KG CAMASIR MAKINESI" # 'tupperware' # get5Keywords() # _file_old
     dateStr = '2017-05-' + str(day)
-    print(keywords)
     import paths, SparkLogFileHandler, FinalizedRunners
     extractedPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs')
     outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, dateStr)
