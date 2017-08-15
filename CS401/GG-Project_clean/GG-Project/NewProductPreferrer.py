@@ -163,6 +163,9 @@ def pairsList(productLog):
 def trainingInstancesForSingleKeyword(logs):
     import PythonVersionHandler
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
+    searches = searches.map(idSetter)
+    viewedProductLogs = viewedProductLogs.map(lambda kv: idSetter(kv[1]))
+    cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda kv: idSetter(kv[1][1]))
     pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
     if pairs.count() > 0:
         pairs = pairs.reduce(lambda a, b: a+b)
