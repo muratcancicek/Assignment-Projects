@@ -67,7 +67,7 @@ def coalesceAll(days, p):
         outputPath = paths.joinPath(filteredLogsFromMayFolder, dateStr + '_extractedLogs_coalesced')
         logs = FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
         logs = logs.coalesce(p)
-        SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
+        SparkLogFileHandler.saveRDDToHDFS(logs, outputPath)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
