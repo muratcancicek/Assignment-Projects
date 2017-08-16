@@ -74,6 +74,6 @@ def runNewExtractionMethods():
     #pairAllTest()
     #outputsTest2()
     #trainTest()
-    pairingTest(17)
+    pairingTest(21)
     pairingTest(18)
     #trainAllTest()
