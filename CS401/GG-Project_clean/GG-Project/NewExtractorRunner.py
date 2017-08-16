@@ -63,6 +63,7 @@ def trainAllTest():
         keyword = keyword.lower().replace(' ', '_')
         if keyword in l:
             PythonVersionHandler.print_logging('Weights have already been learned for this keyword')
+            continue
         pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
         pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
         outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
@@ -79,6 +80,6 @@ def runNewExtractionMethods():
     #pairAllTest()
     #outputsTest2()
     #trainTest()
-    pairingTest(21)
-    pairingTest(18)
-    #trainAllTest()
+    #pairingTest(21)
+    #pairingTest(18)
+    trainAllTest()
