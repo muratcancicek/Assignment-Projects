@@ -84,12 +84,21 @@ def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = T
         evaluateModelOnData(model, data, dataName, modelName)
     return model
 
-def train(labeledPairsPath, productsPath, outputPath):
+def saveSpecificProduct(products, outputPath):
+    import paths, SparkLogFileHandler
+    product = products.map(lambda x: tuple([x[0]]+x[1].toArray()))
+    try: 
+       SparkLogFileHandler.saveRDDToHDFS(products, outputPath)
+    except:
+        pass
+
+
+def train(labeledPairsPath, productsPath, outputPath, saving = True):
     labeledPairs = readLabeledPairs(labeledPairsPath)
     ids = labeledPairs.flatMap(lambda i: i[0]).distinct()
     products = getProducts(ids, productsPath)
-    import paths, SparkLogFileHandler
-    SparkLogFileHandler.saveRDDToHDFS(products, outputPath)
+    if saving:
+        saveSpecificProduct(products, outputPath)
     trainData = generateTrainData(labeledPairs, products)
     trainData, testData = splitDataScientifically(trainData)
     model = trainPairWiseData(trainData, dataName = 'TrainData')
