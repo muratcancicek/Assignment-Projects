@@ -66,10 +66,10 @@ def trainAllTest():
     for c, keyword in enumerate(get32Keywords()):
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.lower().replace(' ', '_')
-        if keyword in l:
-            PythonVersionHandler.print_logging('Weights have already been learned for this keyword')
-            continue
-        elif keyword in d:
+        #if keyword in l:
+        #    PythonVersionHandler.print_logging('Weights have already been learned for this keyword')
+        #    continue
+        if keyword in d:
             PythonVersionHandler.print_logging('Pairs do not exist for this keyword')
             continue
         elif keyword in p:
@@ -79,10 +79,10 @@ def trainAllTest():
         pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
         outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
         productVectorFolder = outputPath
-        Trainer.train(pairsPath, newProductVectorFolder, outputPath)
+        Trainer.train(pairsPath, productVectorFolder, outputPath, saving = False)
 
 def runNewExtractionMethods():
-    #may17ExtractionTest(21)
+    #may17ExtractionTest(21)el
     #printAct(16)
     #joinTests()
     #coalesceAll([16, 18, 19], 24)
@@ -94,3 +94,12 @@ def runNewExtractionMethods():
     #pairingTest(21)
     #pairingTest(18)
     trainAllTest()
+    feature_names = ['photos', 'feedbackPercantageBlock', 'memberSoldCount','windowOptionFlag', 'price', 'soldCount',
+            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag']
+    Trainer.setFeatureVector(feature_names)
+    trainAllTest()
+    pairingTest(15)
+    pairingTest(18)
+    pairingTest(19)
+    pairingTest(20)
+    pairingTest(21)

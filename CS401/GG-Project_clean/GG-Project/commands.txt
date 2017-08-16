@@ -119,3 +119,7 @@ photos,soldCount,feedbackPercentage,memberSoldCount,
 memberSegment,subtitleFlag,brandNew,freeCargo,
 dailyOffer,windowOptionFlag,price,productCount,
 hasphotos,feedbackPercantageBlock
+
+photos,soldCount,feedbackPercentage,memberSoldCount,
+memberSegment,subtitleFlag,brandNew,freeCargo,
+dailyOffer,windowOptionFlag

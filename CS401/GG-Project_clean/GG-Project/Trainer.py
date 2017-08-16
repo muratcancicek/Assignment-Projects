@@ -84,6 +84,10 @@ def generateTrainData(labeledPairs, products):  #TO DO
 
 def splitDataScientifically(data, weights = [0.70, 0.30]):
     import PythonVersionHandler
+    if data.count() > 7000:
+        weights = [0.90, 0.10]
+    else: 
+        weights = [0.80, 0.20]
     trainData, testData = data.randomSplit(weights)
     PythonVersionHandler.print_high_logging(trainData.count(), 'instances have been selected to be trained', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_high_logging(testData.count(), 'instances have been selected to be tested', PythonVersionHandler.nowStr())
@@ -115,7 +119,6 @@ def saveSpecificProduct(products, outputPath):
        SparkLogFileHandler.saveRDDToHDFS(products, outputPath)
     except:
         pass
-
 
 def train(labeledPairsPath, productsPath, outputPath, saving = True):
     try:
