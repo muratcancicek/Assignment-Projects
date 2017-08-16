@@ -1,5 +1,22 @@
 
-def evalProduct(productText):
+features = {'photos': 0, 'soldCount': 1, 'feedbackPercentage': 2, 'memberSoldCount': 3, 'memberSegment': 4, 
+            'subtitleFlag': 5, 'brandNew': 6, 'freeCargo': 7, 'dailyOffer': 8, 'windowOptionFlag': 9, 'price': 10,
+            'productCount': 11, 'hasphotos': 12, 'feedbackPercantageBlock': 13}
+featuresList = list(features.keys())
+featureVector = None
+
+def setFeatureVector(feature_names):
+    global featureVector
+    featureVector = [features[name] for name in feature_names]
+
+def getFeatureVector():
+    global featureVector
+    if featureVector == None:
+        return features.values()
+    else:
+        return 
+        
+def evalProduct(productText, fVector):
     if 'D' in productText:
         productText = productText.replace('DenseVector([', '')[:-3] + ')'
     product = eval(productText)
@@ -19,10 +36,14 @@ def readProductsFromHDFS(fileName = None):
 
 
 def getProducts(ids, fileName = None):
-    import PySparkImports
     products = readProductsFromHDFS(fileName)
     ids = ids.map(lambda i: (i, i))
-    foundProducts = ids.join(products).map(lambda p: (p[1][0], PySparkImports.DenseVector(p[1][1])))
+    featureVector = getFeatureVector()
+    def getReducedVector(vector):
+        import PySparkImports
+        vector = [vector[i] for i in featureVector] 
+        return PySparkImports.DenseVector(vector)
+    foundProducts = ids.join(products).map(lambda p: getReducedVector(p[1][0],(p[1][1])))
     import PythonVersionHandler
     PythonVersionHandler.print_logging(foundProducts.count(), 'products have been found in database to train by', PythonVersionHandler.nowStr())
     #print_(products.first())

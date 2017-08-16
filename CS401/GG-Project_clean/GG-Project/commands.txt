@@ -115,7 +115,7 @@ unset PYSPARK_DRIVER_PYTHON
 -0.025791233503, -0.0527113288362, -0.557660038925, 0.166599339747,
  0.0, -0.381819267663]
 
- photos,soldCount,feedbackPercentage,memberSoldCount,
- memberSegment,subtitleFlag,brandNew,freeCargo,
- dailyOffer,windowOptionFlag,price,productCount,
- hasphotos,feedbackPercantageBlock
+photos,soldCount,feedbackPercentage,memberSoldCount,
+memberSegment,subtitleFlag,brandNew,freeCargo,
+dailyOffer,windowOptionFlag,price,productCount,
+hasphotos,feedbackPercantageBlock
