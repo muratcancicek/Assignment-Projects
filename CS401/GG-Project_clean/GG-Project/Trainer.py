@@ -14,7 +14,7 @@ def getFeatureVector():
     if featureVector == None:
         return features.values()
     else:
-        return features
+        return featureVector
         
 def evalProduct(productText):
     if 'D' in productText:
@@ -33,7 +33,6 @@ def readProductsFromHDFS(fileName = None):
     #print_(products.first())
     #print_(fileName, products.count(), ' products have been read successfully by', nowStr())
     return products
-
 
 def getProducts(ids, fileName = None):
     products = readProductsFromHDFS(fileName)
