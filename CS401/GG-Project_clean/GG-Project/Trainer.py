@@ -16,7 +16,7 @@ def getFeatureVector():
     else:
         return 
         
-def evalProduct(productText, fVector):
+def evalProduct(productText):
     if 'D' in productText:
         productText = productText.replace('DenseVector([', '')[:-3] + ')'
     product = eval(productText)
@@ -43,7 +43,7 @@ def getProducts(ids, fileName = None):
         import PySparkImports
         vector = [vector[i] for i in featureVector] 
         return PySparkImports.DenseVector(vector)
-    foundProducts = ids.join(products).map(lambda p: getReducedVector(p[1][0],(p[1][1])))
+    foundProducts = ids.join(products).map(lambda p: (p[1][0], getReducedVector(p[1][1])))
     import PythonVersionHandler
     PythonVersionHandler.print_logging(foundProducts.count(), 'products have been found in database to train by', PythonVersionHandler.nowStr())
     #print_(products.first())
