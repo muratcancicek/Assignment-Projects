@@ -45,6 +45,13 @@ def pairAllTest():
     outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
     FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder, filtering = False)
 
+def trainTest():
+    import paths, SparkLogFileHandler, FinalizedRunners, Trainer
+    keyword = 'samsung_galaxy_s5_mini'
+    pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
+    pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
+    outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
+    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
@@ -53,4 +60,5 @@ def runNewExtractionMethods():
     #coalesceAll([16, 18, 19], 24)
     #pairingTest(16)
     #mergeAll()
-    pairAllTest()
+    #pairAllTest()
+    trainTest()

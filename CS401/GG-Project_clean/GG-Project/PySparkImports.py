@@ -21,3 +21,11 @@ import pyspark.mllib.linalg
 from pyspark.rdd import RDD, PipelinedRDD
 from pyspark.mllib.feature import Normalizer
 from py4j.protocol import Py4JJavaError
+
+from pyspark.mllib.regression import LabeledPoint
+from pyspark.mllib.classification import SVMWithSGD, SVMModel
+from pyspark.mllib.feature import StandardScaler, StandardScalerModel
+from pyspark.mllib.feature import Normalizer
+from pyspark.mllib.util import MLUtils
+from pyspark.mllib.linalg import DenseVector, SparseVector, Vectors 
+from pyspark.mllib.common import *
