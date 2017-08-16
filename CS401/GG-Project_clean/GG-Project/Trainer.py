@@ -27,6 +27,8 @@ def getProducts(ids, fileName = None):
     PythonVersionHandler.print_logging(foundProducts.count(), 'products have been found in database to train by', PythonVersionHandler.nowStr())
     #print_(products.first())
     #products = products.map(lambda x: (x[0], DenseVector(x[1:])))
+    f = foundProducts.collect()
+    print(f)
     return foundProducts
 
 def readLabeledPairs(path):
