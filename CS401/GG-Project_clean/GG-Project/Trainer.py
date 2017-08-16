@@ -75,14 +75,14 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     truePredictionCount = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count()
     instanceCount = data.count()
     accuracy = 100 * truePredictionCount / float(instanceCount)
-    PythonVersionHandler.print_high_logging('\n'+modelName, 'has been evaluated on', dataName, 'by', nowStr())
+    PythonVersionHandler.print_high_logging('\n'+modelName, 'has been evaluated on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_logging('The result accuracy is %' + '%.3f\n' % (accuracy))
     return labelsAndPreds
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     import PySparkImports, PythonVersionHandler
     model = PySparkImports.SVMWithSGD.train(data, iterations=100)
-    PythonVersionHandler.print_high_logging('\n'+modelName, 'has been trained on', dataName, 'by', nowStr())
+    PythonVersionHandler.print_high_logging('\n'+modelName, 'has been trained on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
     if evaluate:
         evaluateModelOnData(model, data, dataName, modelName)
