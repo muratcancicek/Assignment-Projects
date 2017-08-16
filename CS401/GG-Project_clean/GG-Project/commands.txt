@@ -109,3 +109,13 @@ export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH
 
 unset PYSPARK_PYTHON
 unset PYSPARK_DRIVER_PYTHON
+
+[0.121767211499, 0.220915407842, -0.272126544939, 0.34604911339, 
+0.00152295897418, 0.3585229819, 0.0, 0.103452630451, 
+-0.025791233503, -0.0527113288362, -0.557660038925, 0.166599339747,
+ 0.0, -0.381819267663]
+
+ photos,soldCount,feedbackPercentage,memberSoldCount,
+ memberSegment,subtitleFlag,brandNew,freeCargo,
+ dailyOffer,windowOptionFlag,price,productCount,
+ hasphotos,feedbackPercantageBlock
