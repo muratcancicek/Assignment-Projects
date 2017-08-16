@@ -47,7 +47,7 @@ def pairAllTest():
     
 def trainTest():
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
-    keyword = 'AVON KADIN PARFUM'.lower().replace(' ', '_') #'galaxy_s3' #'samsung_galaxy_s5_mini'
+    keyword = 'KIZ COCUK ABIYE ELBISE'.lower().replace(' ', '_') #'galaxy_s3' #'samsung_galaxy_s5_mini'
     pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
