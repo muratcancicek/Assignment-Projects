@@ -75,5 +75,5 @@ def trainForKeyword(keyword):
     pairsFolder = paths.joinPath(paths.labeledPairsMayFromMayFolder, 'allWeek')
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
-    productVectorFolder = outputPath
+    ProductVectorFolder = outputPath
     Trainer.train(pairsPath, ProductVectorFolder, outputPath, saving = False)
