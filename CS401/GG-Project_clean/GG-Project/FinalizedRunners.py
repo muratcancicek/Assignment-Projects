@@ -66,5 +66,15 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
         else:
             pairs = pairs.coalesce(24)
             outputPath = paths.joinPath(outputFolder, keyword.replace(' ', '_') + '_pairs')
-            SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+            #SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
+
+
+def trainForKeyword(keyword):
+    keyword = keyword.lower().replace(' ', '_')
+    import paths, SparkLogFileHandler, FinalizedRunners, Trainer
+    pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
+    pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
+    outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
+    productVectorFolder = outputPath
+    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
