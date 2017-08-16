@@ -59,7 +59,7 @@ def trainAllTest():
     l = ['besiktas', 'kol_saati', 'iphone_7', 'iphone_7_kilif', 'nike_air_max', 'tupperware', 'stres_carki', 
     'buzdolabi', 'vestel_camasir_makinesi', 'samsung_galaxy_j7_prime', 'samsung', 'dikey_elektrikli_supurge', 'jbl_hoparlor', 'bisiklet']
     for c, keyword in enumerate(get32Keywords()):
-        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
+        PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.lower().replace(' ', '_')
         if keyword in l:
             PythonVersionHandler.print_logging('Weights have already been learned for this keyword')
