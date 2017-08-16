@@ -58,9 +58,11 @@ def trainAllTest():
     import paths, PythonVersionHandler, SparkLogFileHandler, FinalizedRunners, Trainer
     l = ['besiktas', 'kol_saati', 'iphone_7', 'iphone_7_kilif', 'nike_air_max', 'tupperware', 'stres_carki', 
     'buzdolabi', 'vestel_camasir_makinesi', 'samsung_galaxy_j7_prime', 'samsung', 'dikey_elektrikli_supurge', 
-    'jbl_hoparlor', 'bisiklet', 'lenovo_k6_note', 'sandalye_kilifi', 'xiaomi', 'samsung_galaxy_s6']
+    'jbl_hoparlor', 'bisiklet', 'lenovo_k6_note', 'sandalye_kilifi', 'xiaomi', 'samsung_galaxy_s6', 
+    'kirmizi_converse', 'kiz_cocuk_abiye_elbise', 'avon_kadin_parfum', 'kamp_cadiri', 'adidas', 'xiaomi_mi5',
+    'samsung_galaxy_s5_mini']
     d = ['beko_9_kg_camasir_makinesi', 'kot_pantalon', 'mani_jeans_kot_pantalon']
-    p = ['kadin_parfum']
+    p = ['kadin_parfum', 'samsung_galaxy_s5_mini']
     for c, keyword in enumerate(get32Keywords()):
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.lower().replace(' ', '_')
