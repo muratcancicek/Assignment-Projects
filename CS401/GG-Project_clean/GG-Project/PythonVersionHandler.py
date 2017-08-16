@@ -20,7 +20,7 @@ def print_(*args):
     global WRITE_OUTPUTS
     if WRITE_OUTPUTS:        
         if paths.COMPUTERNAME == 'osldevptst02':
-            outputFileName = 'output16.txt'
+            outputFileName = 'output17.txt'
         else:
             outputFileName = 'output_local.txt'
         if os.path.isfile(outputFileName):

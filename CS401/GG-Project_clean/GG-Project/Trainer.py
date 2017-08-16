@@ -12,7 +12,7 @@ def setFeatureVector(feature_names):
 def getFeatureVector():
     global featureVector
     if featureVector == None:
-        return features.values()
+        return list(features.values())
     else:
         return featureVector
         
