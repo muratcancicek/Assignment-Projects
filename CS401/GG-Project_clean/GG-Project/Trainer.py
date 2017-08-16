@@ -27,7 +27,7 @@ def getProducts(ids, fileName = None):
     PythonVersionHandler.print_logging(foundProducts.count(), 'products have been found in database to train by', PythonVersionHandler.nowStr())
     #print_(products.first())
     #products = products.map(lambda x: (x[0], DenseVector(x[1:])))
-    return products
+    return foundProducts
 
 def readLabeledPairs(path):
     import paths, PythonVersionHandler, SparkLogFileHandler
@@ -46,7 +46,7 @@ def normalizeTrainData(data):
 
 def scaleTrainData(features):
     import PythonVersionHandler, PySparkImports
-    scaler = StandardScaler(withMean=True, withStd=True).fit(features)
+    scaler = PySparkImports.StandardScaler(withMean=True, withStd=True).fit(features)
     PythonVersionHandler.print_high_logging(data.count(), 'instances have been scaled by', PythonVersionHandler.nowStr())
     return scaler.transform(features)#.map(lambda x: PySparkImports.Vectors.dense(x.toArray()))
 
