@@ -72,7 +72,7 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
 def trainForKeyword(keyword):
     keyword = keyword.lower().replace(' ', '_')
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
-    pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
+    pairsFolder = paths.joinPath(paths.labeledPairsMayFromMayFolder, 'allWeek')
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
     productVectorFolder = outputPath
