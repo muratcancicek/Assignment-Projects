@@ -14,7 +14,7 @@ def getFeatureVector():
     if featureVector == None:
         return features.values()
     else:
-        return 
+        return features
         
 def evalProduct(productText):
     if 'D' in productText:
