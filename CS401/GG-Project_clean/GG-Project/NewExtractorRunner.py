@@ -52,7 +52,7 @@ def trainTest():
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
     productVectorFolder = outputPath
-    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
+    Trainer.train(pairsPath, productVectorFolder, outputPath, False)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
@@ -62,4 +62,5 @@ def runNewExtractionMethods():
     #pairingTest(16)
     #mergeAll()
     #pairAllTest()
+    #outputsTest2()
     trainTest()

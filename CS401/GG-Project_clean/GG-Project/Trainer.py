@@ -1,7 +1,7 @@
 
 def evalProduct(productText):
     if 'D' in productText:
-        productText = productText.replace('DenseVector(', '')[:-1]
+        productText = productText.replace('DenseVector([', '')[:-3] + ')'
     product = eval(productText)
     product = (product[0], product[1:])
     return product

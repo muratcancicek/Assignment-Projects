@@ -70,7 +70,7 @@ def outputsTest():
     print_(outputFileName + ' has been written successfully.')
     
 def outputsTest2():
-    outputFileName = joinPath(dataFolder, 'output3.5_clean.txt')
+    outputFileName = 'output3.5_clean.txt'
     f = open(outputFileName, 'r')
     lines = [] 
     for line in f:
