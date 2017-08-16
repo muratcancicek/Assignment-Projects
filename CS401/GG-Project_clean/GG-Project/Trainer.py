@@ -79,7 +79,8 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     return labelsAndPreds
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
-    model = SVMWithSGD.train(data, iterations=100)
+    import PySparkImports
+    model = PySparkImports.SVMWithSGD.train(data, iterations=100)
     print_('\n'+modelName, 'has been trained on', dataName, 'by', nowStr())
     print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
     if evaluate:
