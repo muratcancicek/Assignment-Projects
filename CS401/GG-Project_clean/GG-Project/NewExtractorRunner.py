@@ -51,7 +51,8 @@ def trainTest():
     pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
-    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
+    productVectorFolder = outputPath
+    Trainer.train(pairsPath, outputPath, outputPath, saving = False)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
