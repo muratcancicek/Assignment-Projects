@@ -65,8 +65,8 @@ def generateTrainData(labeledPairs, products):  #TO DO
 def splitDataScientifically(data, weights = [0.70, 0.30]):
     import PythonVersionHandler
     trainData, testData = data.randomSplit(weights)
-    PythonVersionHandler.print_high_logging(trainData.count(), 'distinct instances have been selected to be trained', PythonVersionHandler.nowStr())
-    PythonVersionHandler.print_high_logging(testData.count(), 'distinct instances have been selected to be tested', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_high_logging(trainData.count(), 'instances have been selected to be trained', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_high_logging(testData.count(), 'instances have been selected to be tested', PythonVersionHandler.nowStr())
     return trainData, testData
 
 def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):

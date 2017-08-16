@@ -47,12 +47,12 @@ def pairAllTest():
 
 def trainTest():
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
-    keyword = 'galaxy_s3' #'samsung_galaxy_s5_mini'
+    keyword = 'AVON KADIN PARFUM'.lower() #'galaxy_s3' #'samsung_galaxy_s5_mini'
     pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
     productVectorFolder = outputPath
-    Trainer.train(pairsPath, productVectorFolder, outputPath, False)
+    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
