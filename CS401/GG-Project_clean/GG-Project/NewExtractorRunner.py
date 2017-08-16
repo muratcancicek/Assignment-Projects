@@ -44,10 +44,19 @@ def pairAllTest():
     extractedPath =  paths.joinPath(filteredLogsFromMayFolder, 'allWeek_extractedLogs')
     outputFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
     FinalizedRunners.pairLabellingFromObjectiveLogsTest(extractedPath, keywords, outputFolder, filtering = False)
-
+    
 def trainTest():
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
     keyword = 'AVON KADIN PARFUM'.lower().replace(' ', '_') #'galaxy_s3' #'samsung_galaxy_s5_mini'
+    pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
+    pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
+    outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
+    productVectorFolder = outputPath
+    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
+
+def trainAllTest():
+    import paths, SparkLogFileHandler, FinalizedRunners, Trainer
+    keyword = 'KIZ COCUK ABIYE ELBISE'.lower().replace(' ', '_') #'AVON KADIN PARFUM''galaxy_s3' #'samsung_galaxy_s5_mini'
     pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
     pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
     outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
