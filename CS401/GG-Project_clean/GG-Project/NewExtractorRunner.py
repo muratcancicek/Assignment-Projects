@@ -58,13 +58,20 @@ def trainAllTest():
     import paths, PythonVersionHandler, SparkLogFileHandler, FinalizedRunners, Trainer
     l = ['besiktas', 'kol_saati', 'iphone_7', 'iphone_7_kilif', 'nike_air_max', 'tupperware', 'stres_carki', 
     'buzdolabi', 'vestel_camasir_makinesi', 'samsung_galaxy_j7_prime', 'samsung', 'dikey_elektrikli_supurge', 
-    'jbl_hoparlor', 'bisiklet', 'kot_pantalon', 'lenovo_k6_note', 'mani_jeans_kot_pantalon', 'sandalye_kilifi',
-    'beko_9_kg_camasir_makinesi', 'xiaomi', 'samsung_galaxy_s6']
+    'jbl_hoparlor', 'bisiklet', 'lenovo_k6_note', 'sandalye_kilifi', 'xiaomi', 'samsung_galaxy_s6']
+    d = ['beko_9_kg_camasir_makinesi', 'kot_pantalon', 'mani_jeans_kot_pantalon']
+    p = ['kadin_parfum']
     for c, keyword in enumerate(get32Keywords()):
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.lower().replace(' ', '_')
         if keyword in l:
             PythonVersionHandler.print_logging('Weights have already been learned for this keyword')
+            continue
+        elif keyword in d:
+            PythonVersionHandler.print_logging('Pairs do not exist for this keyword')
+            continue
+        elif keyword in p:
+            PythonVersionHandler.print_logging('TrainingData could not be generated for this keyword')
             continue
         pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
         pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
