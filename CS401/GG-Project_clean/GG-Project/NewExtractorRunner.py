@@ -56,12 +56,13 @@ def trainTest():
 
 def trainAllTest():
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
-    keyword = 'KIZ COCUK ABIYE ELBISE'.lower().replace(' ', '_') #'AVON KADIN PARFUM''galaxy_s3' #'samsung_galaxy_s5_mini'
-    pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
-    pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
-    outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
-    productVectorFolder = outputPath
-    Trainer.train(pairsPath, newProductVectorFolder, outputPath)
+    for keyword in get32Keywords():
+        keyword = keyword.lower().replace(' ', '_')
+        pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
+        pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
+        outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
+        productVectorFolder = outputPath
+        Trainer.train(pairsPath, newProductVectorFolder, outputPath)
 
 def runNewExtractionMethods():
     #may17ExtractionTest(21)
@@ -72,4 +73,5 @@ def runNewExtractionMethods():
     #mergeAll()
     #pairAllTest()
     #outputsTest2()
-    trainTest()
+    #trainTest()
+    trainAllTest()
