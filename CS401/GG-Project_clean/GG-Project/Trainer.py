@@ -70,19 +70,20 @@ def splitDataScientifically(data, weights = [0.70, 0.30]):
     return trainData, testData
 
 def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
+    import PythonVersionHandler
     labelsAndPreds = data.map(lambda p: (p.label, model.predict(p.features)))
     truePredictionCount = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count()
     instanceCount = data.count()
     accuracy = 100 * truePredictionCount / float(instanceCount)
-    print_('\n'+modelName, 'has been evaluated on', dataName, 'by', nowStr())
-    print_('The result accuracy is %' + '%.3f\n' % (accuracy))
+    PythonVersionHandler.print_high_logging('\n'+modelName, 'has been evaluated on', dataName, 'by', nowStr())
+    PythonVersionHandler.print_logging('The result accuracy is %' + '%.3f\n' % (accuracy))
     return labelsAndPreds
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
-    import PySparkImports
+    import PySparkImports, PythonVersionHandler
     model = PySparkImports.SVMWithSGD.train(data, iterations=100)
-    print_('\n'+modelName, 'has been trained on', dataName, 'by', nowStr())
-    print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
+    PythonVersionHandler.print_high_logging('\n'+modelName, 'has been trained on', dataName, 'by', nowStr())
+    PythonVersionHandler.print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
     if evaluate:
         evaluateModelOnData(model, data, dataName, modelName)
     return model
