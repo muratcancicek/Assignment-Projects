@@ -55,9 +55,14 @@ def trainTest():
     Trainer.train(pairsPath, newProductVectorFolder, outputPath)
 
 def trainAllTest():
-    import paths, SparkLogFileHandler, FinalizedRunners, Trainer
-    for keyword in get32Keywords():
+    import paths, PythonVersionHandler, SparkLogFileHandler, FinalizedRunners, Trainer
+    l = ['besiktas', 'kol_saati', 'iphone_7', 'iphone_7_kilif', 'stres_carki', 'buzdolabi', 'vestel_camasir_makinesi',
+    'samsung_galaxy_j7_prime', 'samsung', 'dikey_elektrikli_supurge', 'jbl_hoparlor', 'bisiklet']
+    for c, keyword in enumerate(get32Keywords()):
+        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
         keyword = keyword.lower().replace(' ', '_')
+        if keyword in l:
+            PythonVersionHandler.print_logging('Weights have already been learned for this keyword')
         pairsFolder = paths.joinPath(labeledPairsMayFromMayFolder, 'allWeek')
         pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
         outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')

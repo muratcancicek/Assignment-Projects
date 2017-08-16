@@ -98,12 +98,19 @@ def saveSpecificProduct(products, outputPath):
 
 
 def train(labeledPairsPath, productsPath, outputPath, saving = True):
-    labeledPairs = readLabeledPairs(labeledPairsPath)
+    try:
+        labeledPairs = readLabeledPairs(labeledPairsPath)
+    except:
+        import PythonVersionHandler
+        PythonVersionHandler.print_(labeledPairsPath, 'does not exist!!!')
+        return
     ids = labeledPairs.flatMap(lambda i: i[0]).distinct()
     products = getProducts(ids, productsPath)
     if saving:
         saveSpecificProduct(products, outputPath)
     trainData = generateTrainData(labeledPairs, products)
+    if trainData.isEmpty(): 
+        return 
     trainData, testData = splitDataScientifically(trainData)
     model = trainPairWiseData(trainData, dataName = 'TrainData')
     evaluateModelOnData(model, testData, dataName = 'TestData')
