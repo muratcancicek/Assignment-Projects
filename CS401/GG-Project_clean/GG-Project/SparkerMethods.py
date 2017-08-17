@@ -1,7 +1,7 @@
 l = []
 def addPyFiles(sc, dr):
     import os, paths
-    for filename in os.listdir(dr):
+    for filename in os.listdir('/root/Projects/Assignment-Projects/CS401/GG-Project_clean/GG-Project'):
         #if filename in l: continue
         l.append(filename)
         p = paths.joinPath(dr, filename)
