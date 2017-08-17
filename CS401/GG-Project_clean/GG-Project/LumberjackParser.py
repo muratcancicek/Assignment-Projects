@@ -9,7 +9,7 @@ def isBotAgent(m):
     return not isMobile(m) and L.KEY_AGENT in m and BotUtil.isBotAgent(m[L.KEY_AGENT])
 a =0
 def parse(input):
-    import LumberjackConstants as L
+    import StringUtil, LumberjackConstants as L
     str = input[:-1].split('\t')
     #global a
     #a += 1
