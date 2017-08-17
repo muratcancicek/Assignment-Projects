@@ -1,14 +1,15 @@
 
 def isMobile(m):
-    return KEY_TYPE in m.keys() and (m[KEY_TYPE] == KEY_TYPE_MOBILE_SITE or m[KEY_TYPE] == KEY_TYPE_MOBILE_DEVICE)
+    import LumberjackConstants as L
+    return L.KEY_TYPE in m.keys() and (m[L.KEY_TYPE] == L.KEY_TYPE_MOBILE_SITE or m[L.KEY_TYPE] == L.KEY_TYPE_MOBILE_DEVICE)
 
 def isBotAgent(m):
     import BotUtil
-    from LumberjackConstants import *
-    return not isMobile(m) and KEY_AGENT in m and BotUtil.isBotAgent(m[KEY_AGENT])
+    import LumberjackConstants as L
+    return not isMobile(m) and L.KEY_AGENT in m and BotUtil.isBotAgent(m[L.KEY_AGENT])
 a =0
 def parse(input):
-    from LumberjackConstants import *
+    import LumberjackConstants as L
     str = input[:-1].split('\t')
     #global a
     #a += 1
@@ -30,21 +31,21 @@ def parse(input):
             map[len(map.keys())] = pair[0]
 
     memberId = '0'
-    if (KEY_USER_ID in map):
-        memberId = map[KEY_USER_ID]
-    elif ((KEY_USER_ID_FROM_COOKIE) in map):
-        if (',' in map[KEY_USER_ID_FROM_COOKIE]):
-            values = map[KEY_USER_ID_FROM_COOKIE].split(',')
+    if (L.KEY_USER_ID in map):
+        memberId = map[L.KEY_USER_ID]
+    elif ((L.KEY_USER_ID_FROM_COOKIE) in map):
+        if (',' in map[L.KEY_USER_ID_FROM_COOKIE]):
+            values = map[L.KEY_USER_ID_FROM_COOKIE].split(',')
             if (len(values) == 2):
                 memberId = values[1]
             else:
                 memberId = '0'
         else:
-            memberId = map[KEY_USER_ID_FROM_COOKIE]
+            memberId = map[L.KEY_USER_ID_FROM_COOKIE]
     else:
         memberId = '0'
     if not memberId == '0':
-        map[KEY_USER_ID_FOUND] = memberId
-    map[KEY_TIMESTAMP] = str[0]
+        map[L.KEY_USER_ID_FOUND] = memberId
+    map[L.KEY_TIMESTAMP] = str[0]
     return map
 
