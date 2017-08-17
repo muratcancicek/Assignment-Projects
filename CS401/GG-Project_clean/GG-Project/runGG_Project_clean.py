@@ -1,8 +1,10 @@
-from paths import *
-from PythonVersionHandler import *
-#from SecondTermMethods import run as runSecondTermMethods
-#from FirstTermMethods import run as runFirstTermMethods
-#from DeepLearningToRank.DeepLearningToRankTest import runTests
+import os
+import sys
+SPARK_HOME = os.environ['SPARK_HOME']
+
+# Add the PySpark\\py4j to the Python Path
+sys.path.insert(0, os.path.join(SPARK_HOME, "python", "lib"))
+sys.path.insert(0, os.path.join(SPARK_HOME, "python"))
 
 def printSeparater():
     import PythonVersionHandler
