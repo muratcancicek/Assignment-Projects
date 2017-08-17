@@ -2,13 +2,13 @@ def readLogsFromMultiplePaths(inputPaths):
     import SparkLogFileHandler
     logs = SparkLogFileHandler.sc_().parallelize([])
     for p in inputPaths:
-        logs = logs.union(readLogs(sc_(), p, True))
+        logs = logs.union(readLogs(SparkLogFileHandler.sc_(), p, True))
     return logs
 
 def readLogs(inputPaths):
     if isinstance(inputPaths, str):
-        import SparkLogReader
-        logs = SparkLogReader.readLogs(sc_(), inputPaths, True)
+        import SparkLogFileHandler, SparkLogReader
+        logs = SparkLogReader.readLogs(SparkLogFileHandler.sc_(), inputPaths, True)
     else:
         logs = readLogsFromMultiplePaths(inputPaths)
     return logs
