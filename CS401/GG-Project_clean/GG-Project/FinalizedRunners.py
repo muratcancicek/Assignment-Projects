@@ -66,7 +66,7 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
         else:
             pairs = pairs.coalesce(24)
             outputPath = paths.joinPath(outputFolder, keyword.replace(' ', '_') + '_pairs')
-            #SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+            SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
 
 def trainForKeyword(keyword):
