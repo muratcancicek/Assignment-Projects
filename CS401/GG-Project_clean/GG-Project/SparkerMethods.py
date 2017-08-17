@@ -1,7 +1,7 @@
 l = []
 def addPyFiles(sc, dr):
     import os, paths
-    for filename in os.listdir('/root/Projects/Assignment-Projects/CS401/GG-Project_clean/GG-Project'):
+    for filename in os.listdir(dr):
         #if filename in l: continue
         l.append(filename)
         p = paths.joinPath(dr, filename)
@@ -20,7 +20,7 @@ def runSpark():
     conf.set("spark.executor.memory", "12g")
     conf.set("spark.executor.instances", "6")
     sc = pyspark.SparkContext(conf=conf) 
-    dr = paths.joinPath(paths.joinPath(paths.joinPath(paths.gitDir, 'CS401'), 'GG-Project'), 'GG-Project')
+    dr = paths.joinPath(paths.joinPath(paths.joinPath(paths.gitDir, 'CS401'), 'GG-Project_clean'), 'GG-Project')
     sc = addPyFiles(sc, dr)
     SparkLogFileHandler.setSparkContext(sc)
 
