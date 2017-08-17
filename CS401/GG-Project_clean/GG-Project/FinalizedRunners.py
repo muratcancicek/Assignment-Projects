@@ -21,8 +21,8 @@ def readAndFilterLogs(inputPaths):
 
 def getPreparedLogsFromHDFS(inputPaths, filtering = True):
     if filtering:
-        import BotFilter, SparkLogReader
-        logs = BotFilter.readAndFilterLogs(inputPaths)
+        import SparkLogReader
+        logs = readAndFilterLogs(inputPaths)
         logs = SparkLogReader.parseAllLogs(logs)
     else:
         import SparkLogFileHandler, PythonVersionHandler
