@@ -6,6 +6,7 @@ def addPyFiles(sc, dr):
         l.append(filename)
         p = paths.joinPath(dr, filename)
         if filename[-3:] == '.py':
+            print(p)
             sc.addPyFile(p) 
         #elif os.path.isdir(p):
         #    ##sc.addPyFile(p) 
