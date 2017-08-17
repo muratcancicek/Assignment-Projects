@@ -94,6 +94,7 @@ def runNewExtractionMethods():
     #pairingTest(21)
     #pairingTest(18)
     #trainAllTest()
+    import Trainer
     feature_names = ['photos', 'feedbackPercantageBlock', 'memberSoldCount','windowOptionFlag', 'price', 'soldCount',
             'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag']
     Trainer.setFeatureVector(feature_names)
