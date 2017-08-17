@@ -3,36 +3,36 @@ KEY_PRODUCT_COEFFICIENT = 1
 KEY_CART_COEFFICIENT = 10
 KEY_PAYMENT_COEFFICIENT = 50
 def specificPreviousSearchesWithId(productLog, search):
-    from LumberjackConstants import *
+    import LumberjackConstants as L
     onSearch = False
-    if isinstance(productLog[KEY_ID], int):
-        if productLog[KEY_ID] in search[KEY_ID_LIST]:
+    if isinstance(productLog[L.KEY_ID], int):
+        if productLog[L.KEY_ID] in search[L.KEY_ID_LIST]:
             onSearch = True
-    elif isinstance(productLog[KEY_ID], str):
-        if '%7C' in productLog[KEY_ID]:
-            processedIds = [int(i) for i in productLog[KEY_ID].split('%7C')]
+    elif isinstance(productLog[L.KEY_ID], str):
+        if '%7C' in productLog[L.KEY_ID]:
+            processedIds = [int(i) for i in productLog[L.KEY_ID].split('%7C')]
             for id in processedIds:
-                if id in search[KEY_ID_LIST]:
+                if id in search[L.KEY_ID_LIST]:
                     onSearch = True
                     break
     return onSearch
 
 def instanceListFromActions(sp):
-    from LumberjackConstants import *
-    if sp[1][1][KEY_MODULE] == KEY_MODULE_CART:
-        coefficient = KEY_CART_COEFFICIENT
-    if sp[1][1][KEY_MODULE] == KEY_MODULE_PAYMENT:
-        coefficient = KEY_PAYMENT_COEFFICIENT
+    import LumberjackConstants as L
+    if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_CART:
+        coefficient = L.KEY_CART_COEFFICIENT
+    if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_PAYMENT:
+        coefficient = L.KEY_PAYMENT_COEFFICIENT
     else:
-        coefficient = KEY_PRODUCT_COEFFICIENT
-    if isinstance(sp[1][1][KEY_ID], int):
-        return coefficient * [(sp[1][1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(sp[1][1][KEY_ID])])]
+        coefficient = L.KEY_PRODUCT_COEFFICIENT
+    if isinstance(sp[1][1][L.KEY_ID], int):
+        return coefficient * [(sp[1][1][L.KEY_ID], sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(sp[1][1][L.KEY_ID])])]
     else:
-        processedIds = [int(i) for i in sp[1][1][KEY_ID].split('%7C')]
+        processedIds = [int(i) for i in sp[1][1][L.KEY_ID].split('%7C')]
         s = []
         for pid in processedIds:
-            if pid in sp[0][KEY_ID_LIST]:
-                s.extend(coefficient * [(sp[1][1][KEY_ID], sp[0][KEY_ID_LIST][:sp[0][KEY_ID_LIST].index(pid)])])
+            if pid in sp[0][L.KEY_ID_LIST]:
+                s.extend(coefficient * [(sp[1][1][L.KEY_ID], sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(pid)])])
         return s
 a = False
 def labelPairs(s):
@@ -45,7 +45,7 @@ def labelPairs(s):
 def getLabeledPairs(searches, productLogs):
     import SparkLogFileHandler, LumberjackConstants as L
     searchedLogs = SparkLogFileHandler.sc_().parallelize([])
-    for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.L.KEY_SESSION_ID]:
+    for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.KEY_SESSION_ID]:
         subSearches = searches.map(lambda search: (search[id_key], search))
         if productLogs.isEmpty():
             PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())

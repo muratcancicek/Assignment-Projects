@@ -27,9 +27,6 @@
     <Compile Include="BotUtil.py" />
     <Compile Include="LumberjackConstants.py" />
     <Compile Include="LumberjackParser.py" />
-    <Compile Include="pairs.txt">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="PythonVersionHandler.py" />
     <Compile Include="SparkerMethods.py">
       <SubType>Code</SubType>
@@ -78,8 +75,6 @@
     <Content Include="commands.txt" />
     <Content Include="keywords27" />
     <Content Include="keywords" />
-    <Content Include="newOutputs.txt" />
-    <Content Include="notes.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
