@@ -94,10 +94,12 @@ def splitDataScientifically(data, weights = [0.70, 0.30]):
     return trainData, testData
 
 def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
+    instanceCount = data.count()
+    if instanceCount == 0:
+        return
     import PythonVersionHandler
     labelsAndPreds = data.map(lambda p: (p.label, model.predict(p.features)))
     truePredictionCount = labelsAndPreds.filter(lambda vp: vp[0] == vp[1]).count()
-    instanceCount = data.count()
     accuracy = 100 * truePredictionCount / float(instanceCount)
     PythonVersionHandler.print_high_logging('\n'+modelName, 'has been evaluated on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_logging('The result accuracy is %' + '%.3f\n' % (accuracy))
