@@ -12,8 +12,8 @@ def addPyFiles(sc, dr):
         #    sc = addPyFiles(sc, p)
     return sc
 
+import pyspark
 def runSpark():
-    import pyspark
     import paths, SparkLogFileHandler
     conf = pyspark.SparkConf()
     conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
