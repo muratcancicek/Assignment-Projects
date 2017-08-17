@@ -47,15 +47,17 @@ def isRelevant(log):
     return isRelevantModule(log) and not isBot(log) and not has_t(log)
 
 def filterLogsForBots(logs, printing = True):
-    if LOGGING and printing:
+    import PythonVersionHandler
+    if PythonVersionHandler.LOGGING and printing:
         total = logs.count()
     logs = logs.filter(isRelevant)
-    if LOGGING and printing:
+    if PythonVersionHandler.LOGGING and printing:
         filtered = logs.count()
         print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
     return logs
 
 def filterSaveLogs(fromPath, toPath, printing = True):
-    logs = readLogs(sc_(), fromPath, True) 
+    import SparkLogFileHandler
+    logs = readLogs(SparkLogFileHandler.sc_(), fromPath, True) 
     logs = filterLogsForBots(logs, printing)
-    saveRDDToHDFS(logs, toPath)
+    SparkLogFileHandler.saveRDDToHDFS(logs, toPath)
