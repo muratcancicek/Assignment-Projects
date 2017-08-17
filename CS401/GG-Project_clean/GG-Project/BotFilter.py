@@ -11,35 +11,40 @@ def getValueOf(key, log):
     end = begin + (end if end != -1 else len(log))
     return log[begin:end]
 
-relevantModules = [KEY_MODULE_SEARCH, KEY_MODULE_ITEM, KEY_MODULE_CART, KEY_MODULE_PAYMENT]
+import LumberjackConstants as L
+relevantModules = [L.KEY_MODULE_SEARCH, L.KEY_MODULE_ITEM, L.KEY_MODULE_CART, L.KEY_MODULE_PAYMENT]
 def isRelevantModule(log):
+    import LumberjackConstants as L
     try:
-        return getValueOf(KEY_MODULE, log) in relevantModules
+        return getValueOf(L.KEY_MODULE, log) in relevantModules
     except KeyError:
         return False
 
 def isBot(log):
+    import LumberjackConstants as L
     try:
-        return  getValueOf(KEY_BOT, log) != '0'
+        return  getValueOf(L.KEY_BOT, log) != '0'
     except KeyError:
         return False
 
 def has_t(log):
+    import LumberjackConstants as L
     try:
-        getValueOf(KEY_TYPE, log)
+        getValueOf(L.KEY_TYPE, log)
         return True
     except KeyError:
         return False
 
 def has_c(log):
+    import LumberjackConstants as L
     try:
-        getValueOf(KEY_PERSISTENT_COOKIE, log)
+        getValueOf(L.KEY_PERSISTENT_COOKIE, log)
         return True
     except KeyError:
         return False
     
 def isRelevant(log):
-    return isRelevantModule(log) and not isBot(log) and not has_t(log)# and has_c(log) 
+    return isRelevantModule(log) and not isBot(log) and not has_t(log)
 
 def filterLogsForBots(logs, printing = True):
     if LOGGING and printing:
@@ -51,6 +56,6 @@ def filterLogsForBots(logs, printing = True):
     return logs
 
 def filterSaveLogs(fromPath, toPath, printing = True):
-    logs = readLogs(sc_(), fromPath, True)#
+    logs = readLogs(sc_(), fromPath, True) 
     logs = filterLogsForBots(logs, printing)
     saveRDDToHDFS(logs, toPath)
