@@ -1,11 +1,5 @@
-from paths import *
-from PythonVersionHandler import *
-from SparkLogReader import *
-from SparkLogFileHandler import *
-from StringUtil import *
-from BotFilter import *
+
 #from urllib.parse import urlparse
-import urllib
 
 def iriTest():
     print_(refererParser('http%3A%2F%2Fwww.gittigidiyor.com%2Farama%2F%3Fk%3Dnike%2520%25C3%25A7ocuk%2520ayakkab%25C4%25B1'))
@@ -40,8 +34,9 @@ def findExistingSearchKeywords(filteredPath):
 def refererParser(rawReferer):
     if isinstance(rawReferer, dict): return rawReferer
     import LumberjackConstants as L
+    import urllib
     rawReferer = convertTrChars(urllib.parse.unquote_plus(urllib.parse.unquote_plus(rawReferer)))
-    scheme, authority, path, params, query, frag = urlparse(rawReferer) 
+    scheme, authority, path, params, query, frag = urllib.parse.urlparse(rawReferer) 
     query = [p.split('=') for p in query.split('&')]
     query = [p for p in query if len(p) == 2]
     referer = {p[0]: p[1] for p in query}
