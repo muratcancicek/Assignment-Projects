@@ -53,7 +53,7 @@ def filterLogsForBots(logs, printing = True):
     logs = logs.filter(isRelevant)
     if PythonVersionHandler.LOGGING and printing:
         filtered = logs.count()
-        print(filtered, 'logs has been filtered from', total, 'logs in total by', nowStr())
+        print(filtered, 'logs has been filtered from', total, 'logs in total by', PythonVersionHandler.nowStr())
     return logs
 
 def filterSaveLogs(fromPath, toPath, printing = True):

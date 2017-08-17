@@ -6,7 +6,7 @@ def addPyFiles(sc, dr):
         l.append(filename)
         p = paths.joinPath(dr, filename)
         if filename[-3:] == '.py':
-            print(p)
+            #print(p)
             sc.addPyFile(p) 
         #elif os.path.isdir(p):
         #    ##sc.addPyFile(p) 
@@ -18,7 +18,7 @@ def runSpark():
     conf = pyspark.SparkConf()
     conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
     conf.set("spark.executor.memory", "12g")
-    conf.set("spark.executor.instances", "6")
+    conf.set("spark.executor.instances", "2")
     sc = pyspark.SparkContext(conf=conf) 
     dr = paths.joinPath(paths.joinPath(paths.joinPath(paths.gitDir, 'CS401'), 'GG-Project_clean'), 'GG-Project')
     sc = addPyFiles(sc, dr)
