@@ -1,14 +1,11 @@
-from paths import *
-from PythonVersionHandler import *
-from BotFilter import *
-from Sessionizer import *
-from SearchExtractor import *
-from SparkLogReader import *
-from SparkLogFileHandler import *
-from StringUtil import *
 
 def get32Keywords():
     keywords = open('keywords', 'rb').readlines()
+    keywords = [convertTrChars(keyword.decode("utf-8")).replace('\n', '').lower() for keyword in keywords]
+    return keywords
+
+def get27Keywords():
+    keywords = open('keywords27', 'rb').readlines()
     keywords = [convertTrChars(keyword.decode("utf-8")).replace('\n', '').lower() for keyword in keywords]
     return keywords
 

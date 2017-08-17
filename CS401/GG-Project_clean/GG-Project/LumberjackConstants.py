@@ -1,5 +1,3 @@
-
-
 KEY_MODULE = "module"
 KEY_SESSION_ID = "sid"
 KEY_USER_ID = "uid"

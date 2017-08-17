@@ -1,8 +1,4 @@
-from datetime import datetime
-import time
 import sys
-import os
-import paths
 
 PYTHON_VERSION = sys.version_info[0]
 #os.environ['PYSPARK_PYTHON'] = '/root/anaconda3/bin/python'
@@ -12,6 +8,7 @@ LOGGING = True
 HIGH_LOGGING = LOGGING and True
 
 def print_(*args):
+    import os, paths
     line = ''
     for ar in args:
         line += str(ar) + ' '
@@ -20,9 +17,9 @@ def print_(*args):
     global WRITE_OUTPUTS
     if WRITE_OUTPUTS:        
         if paths.COMPUTERNAME == 'osldevptst02':
-            outputFileName = 'output19.txt'
+            outputFileName = paths.joinPath('outputs', 'output20.txt')
         else:
-            outputFileName = 'output_local.txt'
+            outputFileName = paths.joinPath('outputs', 'output_local.txt')
         if os.path.isfile(outputFileName):
             open(outputFileName, 'a').write(line)  
         else:
@@ -51,6 +48,7 @@ def myXrange(i):
         return range(i)
         
 def nowStr():
+    from datetime import datetime
     return str(datetime.now())
 
 def uniqueList(l): 

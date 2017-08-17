@@ -53,9 +53,6 @@
     <Compile Include="NewProductPreferrer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ProductGetter.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="ReadyTests.py">
       <SubType>Code</SubType>
     </Compile>
@@ -71,9 +68,7 @@
     <Compile Include="runGG_Project_clean.py" />
     <Compile Include="ActionsWithSpark.py" />
     <Compile Include="SparkLogOperator.py" />
-    <Compile Include="SparkLogOperatorTests.py" />
     <Compile Include="SparkLogAnalyzer.py" />
-    <Compile Include="SparkLogAnalyzerTests.py" />
     <Compile Include="SparkLogFileHandler.py" />
     <Compile Include="SparkLogReader.py" />
     <Compile Include="StringUtil.py" />
@@ -81,7 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="commands.txt" />
-    <Content Include="output.txt" />
+    <Content Include="keywords27" />
     <Content Include="keywords" />
     <Content Include="newOutputs.txt" />
     <Content Include="notes.txt" />

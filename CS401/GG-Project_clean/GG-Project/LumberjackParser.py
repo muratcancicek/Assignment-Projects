@@ -1,14 +1,14 @@
-from LumberjackConstants import * 
-import StringUtil
-import BotUtil
 
 def isMobile(m):
     return KEY_TYPE in m.keys() and (m[KEY_TYPE] == KEY_TYPE_MOBILE_SITE or m[KEY_TYPE] == KEY_TYPE_MOBILE_DEVICE)
 
 def isBotAgent(m):
+    import BotUtil
+    from LumberjackConstants import *
     return not isMobile(m) and KEY_AGENT in m and BotUtil.isBotAgent(m[KEY_AGENT])
 a =0
 def parse(input):
+    from LumberjackConstants import *
     str = input[:-1].split('\t')
     #global a
     #a += 1

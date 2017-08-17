@@ -1,9 +1,4 @@
-from PythonVersionHandler import *
-import SparkLogReader as LogReader
-from PySparkImports import *
-from SparkLogFileHandler import *
-#from LogProcesser.JsonIO import *
-from paths import *
+
 
 TEST_LOGS_FILE = 'part-r-00000'
 TEST_LOGS_FILE_ORINAL = 'part-r-00000_original'

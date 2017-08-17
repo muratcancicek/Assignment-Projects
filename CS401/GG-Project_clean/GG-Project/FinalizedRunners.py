@@ -2,7 +2,8 @@ def readLogsFromMultiplePaths(inputPaths):
     import SparkLogFileHandler
     logs = SparkLogFileHandler.sc_().parallelize([])
     for p in inputPaths:
-        logs.union(readLogs(sc_(), p, True))
+        logs = logs.union(readLogs(sc_(), p, True))
+    return logs
 
 def readLogs(inputPaths):
     if isinstance(inputPaths, str):
@@ -10,6 +11,7 @@ def readLogs(inputPaths):
         logs = SparkLogReader.readLogs(sc_(), inputPaths, True)
     else:
         logs = readLogsFromMultiplePaths(inputPaths)
+    return logs
         
 def readAndFilterLogs(inputPaths):
     logs = readLogs(inputPaths)
@@ -48,15 +50,16 @@ def saveExtractedLogsByKeywordsFromHDFS(inputPaths, keywords, outputPath, filter
     PythonVersionHandler.print_logging('Objective logs has been merged by', PythonVersionHandler.nowStr())
     objectiveLogs = objectiveLogs.coalesce(24)
     SparkLogFileHandler.saveRDDToHDFS(objectiveLogs, outputPath)
-    
+
+def tp(log):
+    if isinstance(log, tuple):
+        if isinstance(log[1], tuple): return log[1][1]
+        else: return log[1]
+    else: return log
+
 def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filtering = False):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
-    def tp(log):
-        if isinstance(log, tuple):
-            if isinstance(log[1], tuple): return log[1][1]
-            else: return log[1]
-        else: return log
     logs = logs.map(tp)
     for keyword in keywords:
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
@@ -67,6 +70,28 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
             pairs = pairs.coalesce(24)
             outputPath = paths.joinPath(outputFolder, keyword.replace(' ', '_') + '_pairs')
             SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+        PythonVersionHandler.print_logging()
+    
+def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering = True):
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
+    logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
+    logs = logs.map(tp)
+    for keyword in keywords:
+        keyword_name = keyword.replace(' ', '_')
+        searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
+        if pairs.isEmpty():
+            continue
+        else:
+            searchNProductLogs = searchNProductLogs.coalesce(24)
+            outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
+            SparkLogFileHandler.saveRDDToHDFS(searchNProductLogs, outputPath)
+            pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
+            if pairs.isEmpty():
+                continue
+            else:
+                pairs = pairs.coalesce(24)
+                outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
+                SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
 
 def trainForKeyword(keyword, folder = 'allWeek'):

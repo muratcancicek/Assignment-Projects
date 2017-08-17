@@ -1,10 +1,3 @@
-from PythonVersionHandler import *
-from SparkLogFileHandler import *
-from SparkLogAnalyzer import *
-from SparkLogReader import *
-import SparkLogFileHandler 
-#from LogProcesser.JsonIO import *
-import SparkLogReader as LogReader 
 
 def getKeywords():
     keywords = []

@@ -1,14 +1,9 @@
-from paths import *
-from PythonVersionHandler import *
-from SearchExtractor import *
-from LumberjackConstants import *
-from Sessionizer import *
-
 KEY_PREFERRED_ID_LIST ='preferred_ids'
 KEY_PRODUCT_COEFFICIENT = 1
 KEY_CART_COEFFICIENT = 10
 KEY_PAYMENT_COEFFICIENT = 50
 def specificPreviousSearchesWithId(productLog, search):
+    from LumberjackConstants import *
     onSearch = False
     if isinstance(productLog[KEY_ID], int):
         if productLog[KEY_ID] in search[KEY_ID_LIST]:
@@ -23,6 +18,7 @@ def specificPreviousSearchesWithId(productLog, search):
     return onSearch
 
 def instanceListFromActions(sp):
+    from LumberjackConstants import *
     if sp[1][1][KEY_MODULE] == KEY_MODULE_CART:
         coefficient = KEY_CART_COEFFICIENT
     if sp[1][1][KEY_MODULE] == KEY_MODULE_PAYMENT:
@@ -47,9 +43,9 @@ def labelPairs(s):
     return pairs
 
 def getLabeledPairs(searches, productLogs):
-    import SparkLogFileHandler
+    import SparkLogFileHandler, LumberjackConstants as L
     searchedLogs = SparkLogFileHandler.sc_().parallelize([])
-    for id_key in [KEY_PERSISTENT_COOKIE,KEY_USER_ID_FROM_COOKIE,KEY_USER_ID,KEY_SESSION_ID]:
+    for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.L.KEY_SESSION_ID]:
         subSearches = searches.map(lambda search: (search[id_key], search))
         if productLogs.isEmpty():
             PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
@@ -57,14 +53,14 @@ def getLabeledPairs(searches, productLogs):
         if isinstance(pair, tuple):  
             productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
         else:
-            productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[KEY_ID], kv)))
+            productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[L.KEY_ID], kv)))
         subSearches = subSearches.join(productLogs)
         searchedLogs = searchedLogs.union(subSearches)
-    searchedLogs = searchedLogs.map(lambda sp: sp[1]).filter(lambda sp: sp[0][KEY_TIMESTAMP] < sp[1][1][KEY_TIMESTAMP])
+    searchedLogs = searchedLogs.map(lambda sp: sp[1]).filter(lambda sp: sp[0][L.KEY_TIMESTAMP] < sp[1][1][L.KEY_TIMESTAMP])
     searchedLogs = searchedLogs.filter(lambda sp: specificPreviousSearchesWithId(sp[1][1], sp[0]))
     searchedLogs = searchedLogs.map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
-    searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][1][KEY_TIMESTAMP], ascending = False)\
-        .groupBy(lambda sp: sp[1][1][KEY_TIMESTAMP])\
+    searchedLogs = searchedLogs.sortBy(lambda sp: sp[1][1][L.KEY_TIMESTAMP], ascending = False)\
+        .groupBy(lambda sp: sp[1][1][L.KEY_TIMESTAMP])\
         .map(lambda tsp: list(tsp[1])[0])
     pairs = searchedLogs.flatMap(lambda s: instanceListFromActions(s))
     pairs = pairs.flatMap(labelPairs)

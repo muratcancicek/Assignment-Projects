@@ -1,13 +1,3 @@
-from paths import *
-from PythonVersionHandler import *
-from BotFilter import *
-from Sessionizer import *
-from ReadyTests import *
-from SearchExtractor import *
-from NewProductPreferrer import *
-from SparkLogReader import *
-from SparkLogFileHandler import *
-from StringUtil import *
 
 def keywordsSessionizingTest(keywordDict):
     for v in keywordDict:

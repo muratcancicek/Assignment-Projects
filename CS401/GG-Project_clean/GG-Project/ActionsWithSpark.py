@@ -1,8 +1,3 @@
-from PythonVersionHandler import *
-#from LogAnalyzer import *
-import SparkLogAnalyzer as LA
-from LumberjackParser import *
-
 class Action:
     PRODUCT_REFRESHED = 111 
     PRODUCT_CLICKED_LAST_SEARCH = 1

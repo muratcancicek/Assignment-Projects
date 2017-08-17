@@ -1,16 +1,3 @@
-from paths import *
-from PythonVersionHandler import *
-from BotFilter import *
-from Sessionizer import *
-from ReadyTests import *
-from ReadyTests2 import *
-from FinalizedRunners import *
-from SearchExtractor import *
-from NewProductPreferrer import *
-from SparkLogReader import *
-from SparkLogFileHandler import *
-from StringUtil import *
-
 def may17ExtractionTest(day):
     dateStr = '2017-05-' + str(day)
     import paths, FinalizedRunners
@@ -80,27 +67,22 @@ def trainAllTest():
         outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
         productVectorFolder = outputPath
         Trainer.train(pairsPath, productVectorFolder, outputPath, saving = False)
+        
+def may17WeekExtractionTest(firstDay, lastDay):
+    import paths, FinalizedRunners, ReadyTests
+    inputPaths = []
+    for day in range(firstDay, lastDay + 1):
+        dateStr = '2017-05-' + str(day)
+        inputPath = paths.joinPath(paths.may2017Folder, dateStr)
+        inputPaths.append(inputPath)
+    keywords = ReadyTests.get27Keywords()
+    outputPath = paths.joinPath(paths.labeledPairsMayFromMayFolder, 'secondWeek')
+    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPath, keywords, outputPath)
 
 def runNewExtractionMethods():
-    #may17ExtractionTest(21)el
-    #printAct(16)
-    #joinTests()
-    #coalesceAll([16, 18, 19], 24)
-    #pairingTest(16)
-    #mergeAll()
-    #pairAllTest()
-    #outputsTest2()
-    #trainTest()
-    #pairingTest(21)
-    #pairingTest(18)
+    #import Trainer
+    #feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
+    #        'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+    #Trainer.setFeatureVector(feature_names)
     #trainAllTest()
-    import Trainer
-    feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
-            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
-    Trainer.setFeatureVector(feature_names)
-    trainAllTest()
-    pairingTest(15)
-    pairingTest(18)
-    pairingTest(19)
-    pairingTest(20)
-    pairingTest(21)
+    may17WeekExtractionTest(22, 28)
