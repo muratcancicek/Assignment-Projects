@@ -158,3 +158,54 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 w
 672 views have found for besiktas by 2017-08-18 11:29:57.988734
 189 products have clicked on searches for besiktas by 2017-08-18 11:29:59.249175
 523 cart and payments have found for besiktas by 2017-08-18 11:47:54.980075
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-18 20:27:39.065568: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-18 20:27:45.360204
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-18 20:27:46.289628
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-18 20:27:46.392306
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-18 20:27:46.487549
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-18 20:27:46.574989
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-18 20:27:46.660932
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-18 20:27:46.749619
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-18 20:28:41.400748: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-18 20:28:47.457963
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-18 20:28:48.360549
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-18 20:28:48.477684
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-18 20:28:48.577425
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-18 20:28:48.665028
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-18 20:28:48.750496
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-18 20:28:48.838126
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-18 20:30:01.353240: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-18 20:30:07.543921
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-18 20:30:08.537582
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-18 20:30:08.773381
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-18 20:30:08.874886
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-18 20:30:08.968569
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-18 20:30:09.062494
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-18 20:30:09.153012
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-18 20:44:05.009555: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-18 20:44:11.216723
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-18 20:44:12.145999
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-18 20:44:12.246771
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-18 20:44:12.338670
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-18 20:44:12.429172
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-18 20:44:12.529760
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-18 20:44:12.623528
+22810658 have been prepared by 2017-08-18 21:05:07.734683
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-18 21:20:10.479649
+3475 products have listed on searches for besiktas by 2017-08-18 21:50:30.421338
+672 views have found for besiktas by 2017-08-18 22:08:54.866304
+189 products have clicked on searches for besiktas by 2017-08-18 22:08:56.165518
+523 cart and payments have found for besiktas by 2017-08-18 22:27:13.767782

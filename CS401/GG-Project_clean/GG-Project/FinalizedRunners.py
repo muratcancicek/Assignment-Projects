@@ -80,19 +80,16 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
     for keyword in keywords:
         keyword_name = keyword.replace(' ', '_')
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
+        searchNProductLogs = searchNProductLogs.coalesce(24)
+        outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
+        SparkLogFileHandler.saveRDDToHDFS(searchNProductLogs, outputPath)
+        pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
         if pairs.isEmpty():
             continue
         else:
-            searchNProductLogs = searchNProductLogs.coalesce(24)
-            outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
-            SparkLogFileHandler.saveRDDToHDFS(searchNProductLogs, outputPath)
-            pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
-            if pairs.isEmpty():
-                continue
-            else:
-                pairs = pairs.coalesce(24)
-                outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
-                SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+            pairs = pairs.coalesce(24)
+            outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
+            SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
 
 def trainForKeyword(keyword, folder = 'allWeek'):
