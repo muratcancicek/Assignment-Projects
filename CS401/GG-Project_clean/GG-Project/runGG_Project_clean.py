@@ -14,7 +14,7 @@ def printSeparater():
 def main(method = None, kill = True):
     printSeparater()
     import PythonVersionHandler, paths
-    PythonVersionHandler.print_('%s:' % PythonVersionHandler.nowStr(), 'Running on', paths.COMPUTERNAME + '...')
+    PythonVersionHandler.print_('%s:' % PythonVersionHandler.nowStr(), 'Running on', paths.COMPUTERNAME)
 
     if method == None:
         import SparkerMethods
