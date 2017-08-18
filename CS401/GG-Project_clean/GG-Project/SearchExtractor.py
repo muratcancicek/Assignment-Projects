@@ -105,7 +105,7 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
         PythonVersionHandler.print_logging()
         return (searches, sc_().parallelize([]), sc_().parallelize([]))
     viewedProductLogs, cartedOrPaidProductLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
-    if not LOGGING: PythonVersionHandler.print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
+    if not PythonVersionHandler.LOGGING: PythonVersionHandler.print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
            'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     #PythonVersionHandler.print_logging()
     return (searches, viewedProductLogs, cartedOrPaidProductLogs)
