@@ -33,9 +33,8 @@ def findExistingSearchKeywords(filteredPath):
 
 def refererParser(rawReferer):
     if isinstance(rawReferer, dict): return rawReferer
-    import LumberjackConstants as L
-    import urllib
-    rawReferer = convertTrChars(urllib.parse.unquote_plus(urllib.parse.unquote_plus(rawReferer)))
+    import urllib, StringUtil , LumberjackConstants as L
+    rawReferer = StringUtil.convertTrChars(urllib.parse.unquote_plus(urllib.parse.unquote_plus(rawReferer)))
     scheme, authority, path, params, query, frag = urllib.parse.urlparse(rawReferer) 
     query = [p.split('=') for p in query.split('&')]
     query = [p for p in query if len(p) == 2]
