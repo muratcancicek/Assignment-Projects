@@ -20,11 +20,11 @@ def specificPreviousSearchesWithId(productLog, search):
 def instanceListFromActions(sp):
     import LumberjackConstants as L
     if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_CART:
-        coefficient = L.KEY_CART_COEFFICIENT
+        coefficient = KEY_CART_COEFFICIENT
     if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_PAYMENT:
-        coefficient = L.KEY_PAYMENT_COEFFICIENT
+        coefficient = KEY_PAYMENT_COEFFICIENT
     else:
-        coefficient = L.KEY_PRODUCT_COEFFICIENT
+        coefficient = KEY_PRODUCT_COEFFICIENT
     if isinstance(sp[1][1][L.KEY_ID], int):
         return coefficient * [(sp[1][1][L.KEY_ID], sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(sp[1][1][L.KEY_ID])])]
     else:
