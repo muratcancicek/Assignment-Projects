@@ -88,4 +88,4 @@ def runNewExtractionMethods():
     #may17ExtractionTest(29)
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
-    #may17WeekExtractionTest(22, 28)
+    may17WeekExtractionTest(22, 28)
