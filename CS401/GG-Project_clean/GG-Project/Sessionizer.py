@@ -9,14 +9,14 @@ def idSetter(log):
         global cookieCounter
         log[L.KEY_PERSISTENT_COOKIE] = cookieCounter
         cookieCounter += 1
-    log[L.KEY_ORIGINAL_PERSISTENT_COOKIE] = log[L.KEY_PERSISTENT_COOKIE]
+    log[KEY_ORIGINAL_PERSISTENT_COOKIE] = log[L.KEY_PERSISTENT_COOKIE]
     if not L.KEY_USER_ID_FROM_COOKIE in log.keys():
         log[L.KEY_USER_ID_FROM_COOKIE] = log[L.KEY_PERSISTENT_COOKIE]
     if not L.KEY_SESSION_ID in log.keys():
         log[L.KEY_SESSION_ID] = log[L.KEY_PERSISTENT_COOKIE]
     if not L.KEY_USER_ID in log.keys():
         log[L.KEY_USER_ID] = log[L.KEY_PERSISTENT_COOKIE]
-    log[L.KEY_FOUR_IDS] = (log[L.KEY_PERSISTENT_COOKIE], log[L.KEY_USER_ID_FROM_COOKIE], log[L.KEY_USER_ID], log[L.KEY_SESSION_ID])
+    log[KEY_FOUR_IDS] = (log[L.KEY_PERSISTENT_COOKIE], log[L.KEY_USER_ID_FROM_COOKIE], log[L.KEY_USER_ID], log[L.KEY_SESSION_ID])
     return log
 
 def getUsefulSessions(sessions):
