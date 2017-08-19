@@ -70,12 +70,12 @@ def trainAllTest():
         
 def may17WeekExtractionTest(firstDay, lastDay):
     import paths, FinalizedRunners, ReadyTests
-    inputPaths = []
-    for day in range(firstDay, lastDay + 1):
-        dateStr = '2017-05-' + str(day)
-        inputPath = paths.joinPath(paths.may2017Folder, dateStr)
-        inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()
+    inputPaths = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek/besiktas/besiktas_extractedLogs' # []
+    #for day in range(firstDay, lastDay + 1):
+    #    dateStr = '2017-05-' + str(day)
+    #    inputPath = paths.joinPath(paths.may2017Folder, dateStr)
+    #    inputPaths.append(inputPath)
+    keywords = 'basiktas'# ReadyTests.get27Keywords()
     outputPath = paths.joinPath(paths.labeledPairsMayFromMayFolder, 'secondWeek')
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 

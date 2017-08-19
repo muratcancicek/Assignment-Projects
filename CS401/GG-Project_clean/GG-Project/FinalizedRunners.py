@@ -77,7 +77,7 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
     logs = logs.map(tp)
-    for keyword in keywords:
+    for keyword in [keywords]:
         keyword_name = keyword.replace(' ', '_')
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
         snpl = SparkLogFileHandler.sc_().parallelize([])
