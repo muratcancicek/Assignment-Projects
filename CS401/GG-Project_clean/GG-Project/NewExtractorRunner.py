@@ -76,7 +76,7 @@ def may17WeekExtractionTest(firstDay, lastDay):
         inputPath = paths.joinPath(paths.may2017Folder, dateStr)
         inputPaths.append(inputPath)
     keywords = ReadyTests.get27Keywords()
-    outputPath = paths.joinPath(paths.labeledPairsMayFromMayFolder, 'secondWeek')
+    outputPath = paths.joinPath(paths.labeledPairsMayFromMayFolder, 'secondWeek_extractedLogs')
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 
 def runNewExtractionMethods():
