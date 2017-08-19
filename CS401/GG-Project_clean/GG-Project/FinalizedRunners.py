@@ -80,9 +80,12 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
     for keyword in keywords:
         keyword_name = keyword.replace(' ', '_')
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
-        searchNProductLogs = searchNProductLogs.coalesce(24)
+        snpl = SparkLogFileHandler.sc_().parallelize([])
+        for o in searchNProductLogs:
+            snpl = snpl.union(o)
+        snpl = snpl.coalesce(24)
         outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
-        SparkLogFileHandler.saveRDDToHDFS(searchNProductLogs, outputPath)
+        SparkLogFileHandler.saveRDDToHDFS(snpl, outputPath)
         pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
         if pairs.isEmpty():
             continue
