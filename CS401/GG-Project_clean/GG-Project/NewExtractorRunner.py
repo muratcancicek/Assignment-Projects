@@ -85,4 +85,7 @@ def runNewExtractionMethods():
     #        'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
     #Trainer.setFeatureVector(feature_names)
     #trainAllTest()
-    may17WeekExtractionTest(22, 28)
+    may17ExtractionTest(29)
+    may17ExtractionTest(30)
+    may17ExtractionTest(31)
+    #may17WeekExtractionTest(22, 28)
