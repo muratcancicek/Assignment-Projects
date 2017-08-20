@@ -16,7 +16,7 @@ def addPyFiles(sc, dr):
 def runSpark():
     import paths, pyspark, SparkLogFileHandler
     conf = pyspark.SparkConf()
-    conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
+    #conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")
     conf.set("spark.executor.memory", "12g")
     conf.set("spark.executor.instances", "2")
     sc = pyspark.SparkContext(conf=conf) 
