@@ -25,7 +25,7 @@ def main(method = None, kill = True):
     PythonVersionHandler.print_('%s:' % PythonVersionHandler.nowStr(), 'DONE')
     printSeparater()
 
-    if  COMPUTERNAME != 'UCSC:citrisdense' and kill:
+    if  paths.COMPUTERNAME != 'UCSC:citrisdense' and kill:
         import sys
         sys.exit() 
 
