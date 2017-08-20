@@ -95,10 +95,10 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
             SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
 
-def trainForKeyword(keyword, folder = 'allWeek'):
+def trainForKeyword(keyword, folder = 'allWeek', saving = False):
     keyword = keyword.lower().replace(' ', '_')
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
     pairsPath = paths.joinPath(folder, keyword + '_pairs')
     outputPath = paths.joinPath(folder, keyword + '_products')
     #ProductVectorFolder = outputPath
-    Trainer.train(pairsPath, paths.newProductVectorFolder, outputPath, saving = True)
+    Trainer.train(pairsPath, paths.newProductVectorFolder, outputPath, saving = saving)

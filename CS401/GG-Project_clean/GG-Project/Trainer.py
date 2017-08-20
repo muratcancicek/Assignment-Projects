@@ -7,6 +7,9 @@ featureVector = None
 
 def setFeatureVector(feature_names):
     global featureVector
+    import PythonVersionHandler
+    PythonVersionHandler.print_(PythonVersionHandler.nowStr() + ': Features selected for the following trains:')
+    PythonVersionHandler.print_(feature_names)
     featureVector = [features[name] for name in feature_names]
 
 def getFeatureVector():

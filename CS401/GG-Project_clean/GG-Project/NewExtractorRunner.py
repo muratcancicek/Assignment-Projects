@@ -81,13 +81,13 @@ def may17WeekExtractionTest(firstDay, lastDay):
 
 def trainingTest21():
     import paths, FinalizedRunners, Trainer
-    #feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
-    #        'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
-    #Trainer.setFeatureVector(feature_names)
+    feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
+            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+    Trainer.setFeatureVector(feature_names)
     keywords = ['besiktas', 'kol_saati', 'iphone_7', 'iphone_7_kilif']
-    for keyword in keywords[3:]: 
+    for keyword in keywords: 
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
-        FinalizedRunners.trainForKeyword(keyword, folder)
+        FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
 
 def runNewExtractionMethods():
     #trainAllTest()
