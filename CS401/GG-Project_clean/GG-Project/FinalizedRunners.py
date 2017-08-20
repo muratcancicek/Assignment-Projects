@@ -98,8 +98,7 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
 def trainForKeyword(keyword, folder = 'allWeek'):
     keyword = keyword.lower().replace(' ', '_')
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
-    pairsFolder = paths.joinPath(paths.labeledPairsMayFromMayFolder, folder)
-    pairsPath = paths.joinPath(pairsFolder, keyword + '_pairs')
-    outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
+    pairsPath = paths.joinPath(folder, keyword + '_pairs')
+    outputPath = paths.joinPath(folder, keyword + '_products')
     ProductVectorFolder = outputPath
     Trainer.train(pairsPath, ProductVectorFolder, outputPath, saving = False)
