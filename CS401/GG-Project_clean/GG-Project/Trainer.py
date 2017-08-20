@@ -65,8 +65,8 @@ def normalizeTrainData(data):
     return labels.zip(normalizer1.transform(features)).map(lambda x: LabeledPoint(x[0], x[1]))
 
 def scaleTrainData(features):
-    import PythonVersionHandler, PySparkImports
-    scaler = PySparkImports.StandardScaler(withMean=True, withStd=True).fit(features)
+    import PythonVersionHandler, pyspark.mllib.feature
+    scaler = pyspark.mllib.feature.StandardScaler(withMean=True, withStd=True).fit(features)
     PythonVersionHandler.print_high_logging(features.count(), 'instances have been scaled by', PythonVersionHandler.nowStr())
     return scaler.transform(features)
 
