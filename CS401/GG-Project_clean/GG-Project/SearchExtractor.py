@@ -97,13 +97,13 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     global c
     c += 1
     import LumberjackConstants as L
-    import PythonVersionHandler
+    import PythonVersionHandler, SparkLogFileHandler
     PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
     searches = searches.filter(lambda log: log[L.KEY_KEYWORD] == keyword)
     PythonVersionHandler.print_logging(searches.count(), 'searches have found for', keyword, 'by', PythonVersionHandler.nowStr())
     if searches.count() == 0:
         PythonVersionHandler.print_logging()
-        return (searches, sc_().parallelize([]), sc_().parallelize([]))
+        return (searches, SparkLogFileHandler.sc_().parallelize([]), SparkLogFileHandler.sc_().parallelize([]))
     viewedProductLogs, cartedOrPaidProductLogs = productLogsFromBySingleKeyword(searches, productLogs, keyword)
     if not PythonVersionHandler.LOGGING: PythonVersionHandler.print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
            'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
