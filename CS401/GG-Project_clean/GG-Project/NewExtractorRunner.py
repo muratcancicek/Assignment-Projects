@@ -80,14 +80,14 @@ def may17WeekExtractionTest(firstDay, lastDay):
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 
 def trainingTest21():
-    #import Trainer
+    import paths, FinalizedRunners, Trainer
     #feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
     #        'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
     #Trainer.setFeatureVector(feature_names)
     keywords = ['besiktas', 'kol_saati', 'iphone_7']
     for keyword in keywords: 
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
-        trainForKeyword(keyword, folder)
+        FinalizedRunners.trainForKeyword(keyword, folder)
 
 def runNewExtractionMethods():
     #trainAllTest()
