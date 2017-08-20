@@ -48,7 +48,7 @@ def getLabeledPairs(searches, productLogs):
     for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.KEY_SESSION_ID]:
         subSearches = searches.map(lambda search: (search[id_key], search))
         if productLogs.isEmpty():
-            PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
+            PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
         pair = productLogs.first()
         if isinstance(pair, tuple):  
             productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
@@ -70,16 +70,16 @@ def trainingInstancesForSingleKeyword(logs):
     import PythonVersionHandler, SparkLogFileHandler, Sessionizer
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
     if searches.isEmpty() or (viewedProductLogs.isEmpty() and cartedOrPaidProductLogs.isEmpty()):
-        PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
+        PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
         return SparkLogFileHandler.sc_().parallelize([])
     searches = searches.map(Sessionizer.idSetter)
     viewedProductLogs = viewedProductLogs.map(lambda kv: Sessionizer.idSetter(kv[1]))
     cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda kv: Sessionizer.idSetter(kv[1][1]))
     pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
     if pairs.count() > 0:
-        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found by', nowStr())
+        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found by', PythonVersionHandler.nowStr())
     else:
-        PythonVersionHandler.print_logging('0 pairs have been found by', nowStr())
+        PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
     return pairs
 
 c = 0
