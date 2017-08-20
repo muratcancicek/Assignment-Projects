@@ -75,7 +75,7 @@ def may17WeekExtractionTest(firstDay, lastDay):
         dateStr = '2017-05-' + str(day)
         inputPath = paths.joinPath(paths.may2017Folder, dateStr)
         inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()
+    keywords = ['Muhtemelen Furkan ortapedik']# ReadyTests.get27Keywords()
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'secondWeek')
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 

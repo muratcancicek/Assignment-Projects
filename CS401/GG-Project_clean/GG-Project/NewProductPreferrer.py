@@ -21,7 +21,7 @@ def instanceListFromActions(sp):
     import LumberjackConstants as L
     if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_CART:
         coefficient = KEY_CART_COEFFICIENT
-    if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_PAYMENT:
+    elif sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_PAYMENT:
         coefficient = KEY_PAYMENT_COEFFICIENT
     else:
         coefficient = KEY_PRODUCT_COEFFICIENT
@@ -43,7 +43,7 @@ def labelPairs(s):
     return pairs
 
 def getLabeledPairs(searches, productLogs):
-    import SparkLogFileHandler, LumberjackConstants as L
+    import PythonVersionHandler, SparkLogFileHandler, LumberjackConstants as L
     searchedLogs = SparkLogFileHandler.sc_().parallelize([])
     for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.KEY_SESSION_ID]:
         subSearches = searches.map(lambda search: (search[id_key], search))
