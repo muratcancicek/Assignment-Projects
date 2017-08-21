@@ -38,7 +38,7 @@ def getUsefulSessions(sessions):
                     usefulSessions.append(s)
                     break
                 else: se = True
-    PythonVersionHandler.print_(len(usefulSessions), 'sessions have been found useful by', nowStr())
+    PythonVersionHandler.print_(len(usefulSessions), 'sessions have been found useful by', PythonVersionHandler.nowStr())
     usefulSessions = [SparkLogFileHandler.sc_().parallelize(s) for s in usefulSessions]
     return usefulSessions
 
@@ -66,7 +66,7 @@ def sessionize(logs):
             sessions.append([log])
             idSets.append(set(log[KEY_FOUR_IDS]))
     import PythonVersionHandler
-    PythonVersionHandler.print_(len(sessions), 'sessions have been found in total by', nowStr())
+    PythonVersionHandler.print_(len(sessions), 'sessions have been found in total by', PythonVersionHandler.nowStr())
     return getUsefulSessions(sessions)
 
 def sessionize2(logs):
