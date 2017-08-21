@@ -64,7 +64,7 @@ def sessionize(logs):
             l = len(sessions)
             log[L.KEY_PERSISTENT_COOKIE] =  str(l+1 if l > 0 else l)
             sessions.append([log])
-            idSets.append(set(log[L.KEY_FOUR_IDS]))
+            idSets.append(set(log[KEY_FOUR_IDS]))
     import PythonVersionHandler
     PythonVersionHandler.print_(len(sessions), 'sessions have been found in total by', nowStr())
     return getUsefulSessions(sessions)
