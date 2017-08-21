@@ -14,6 +14,14 @@ def addPyFiles(sc, dr):
     return sc
 
 def runSpark():
+    import os
+    import sys
+    SPARK_HOME = os.environ['SPARK_HOME']
+
+    # Add the PySpark\\py4j to the Python Path
+    sys.path.insert(0, os.path.join(SPARK_HOME, "python", "lib"))
+    sys.path.insert(0, os.path.join(SPARK_HOME, "python"))
+
     import paths, pyspark, SparkLogFileHandler
     conf = pyspark.SparkConf()
     #conf.set("spark.master", "spark://osldevptst02.host.gittigidiyor.net:7077")

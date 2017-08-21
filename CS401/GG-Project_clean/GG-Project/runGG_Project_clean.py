@@ -1,10 +1,3 @@
-import os
-import sys
-SPARK_HOME = os.environ['SPARK_HOME']
-
-# Add the PySpark\\py4j to the Python Path
-sys.path.insert(0, os.path.join(SPARK_HOME, "python", "lib"))
-sys.path.insert(0, os.path.join(SPARK_HOME, "python"))
 
 def printSeparater():
     import PythonVersionHandler
