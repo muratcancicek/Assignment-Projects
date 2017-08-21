@@ -100,5 +100,8 @@ def trainForKeyword(keyword, folder = 'allWeek', saving = False):
     import paths, SparkLogFileHandler, FinalizedRunners, Trainer
     pairsPath = paths.joinPath(folder, keyword + '_pairs')
     outputPath = paths.joinPath(folder, keyword + '_products')
-    #ProductVectorFolder = outputPath
-    Trainer.train(pairsPath, paths.newProductVectorFolder, outputPath, saving = saving)
+    if saving:
+        productVectorFolder = paths.newProductVectorFolder
+    else:
+        productVectorFolder = outputPath
+    Trainer.train(pairsPath, productVectorFolder, outputPath, saving = saving)
