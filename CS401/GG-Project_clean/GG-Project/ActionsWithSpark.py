@@ -19,10 +19,16 @@ class Action:
     SEARCH_EXTENDED = 14
     SEARCH_NARROWED = 15
 
+productModules = ['cart', 'payment', 'item']
+def isProductLog(log):
+    return 'module' in list(log.keys()) and log['module'] in productModules
+
+def isSearchLog(log):
+    return 'module' in list(log.keys()) and log['module'] == 'search'
+
 
 def isProductClickedAfterSearch(previousLog, currentLog):
-    import SearchExtractor
-    return SearchExtractor.isProduct(currentLog) and SearchExtractor.isSearch(previousLog)
+    return isProductLog(currentLog) and isSearchLog(previousLog)
 
 def getActionForProductLog(log, productIndex, lastSearchIndexWithId):
     action = Action.PRODUCT_CLICKED_LAST_SEARCH
@@ -69,8 +75,7 @@ def getActionStringForProductLog(log, productIndex, lastSearchIndexWithId):
 
 def getActionForSearch(search, previousLog):
     action = Action.SEARCH_NEW
-    import SearchExtractor
-    if previousLog == None or not SearchExtractor.isSearch(previousLog):
+    if previousLog == None or not isSearchLog(previousLog):
         action = Action.SEARCH_NEW
     elif search['orderBy'] != previousLog['orderBy']:
         action = Action.SEARCH_ORDER_CHANGED
@@ -93,7 +98,7 @@ def getActionForSearch(search, previousLog):
 def getActionStringForSearch(search, previousLog):
     action = 'Showing %i products with order %s on page %i for %s.'
     import SearchExtractor
-    if previousLog == None or not SearchExtractor.isSearch(previousLog):
+    if previousLog == None or not isSearchLog(previousLog):
         action = 'Searching, ' + action
     elif 'orderBy' in search.keys() and 'orderBy' in previousLog.keys() \
         and search['orderBy'] != previousLog['orderBy']:
@@ -127,18 +132,18 @@ def findProductIdOnSearches(currentLog, previousJourney):
     lastSearchIndexWithId, productIndex = -1, -1
     previousJourney.reverse()
     count = -1
-    import SearchExtractor
+    import LumberjackConstants as L
     for pl in previousJourney:
-        if SearchExtractor.isSearch(pl):
+        if isSearchLog(pl):
             count += 1
-            if isinstance(currentLog[KEY_ID], int):
-                for t, jd in enumerate(pl[KEY_ID_LIST]):
-                    if currentLog[KEY_ID] == jd:
+            if isinstance(currentLog[L.KEY_ID], int):
+                for t, jd in enumerate(pl[L.KEY_ID_LIST]):
+                    if currentLog[L.KEY_ID] == jd:
                         return count, t
-            elif isinstance(currentLog[KEY_ID], str):
-                if '%7C' in currentLog[KEY_ID]:
-                    processedIds = [int(i) for i in currentLog[KEY_ID].split('%7C')]
-                    for t, jd in enumerate(pl[KEY_ID_LIST]):
+            elif isinstance(currentLog[L.KEY_ID], str):
+                if '%7C' in currentLog[L.KEY_ID]:
+                    processedIds = [int(i) for i in currentLog[L.KEY_ID].split('%7C')]
+                    for t, jd in enumerate(pl[L.KEY_ID_LIST]):
                         if jd in processedIds:
                             return count, t
     return lastSearchIndexWithId, productIndex 
@@ -157,13 +162,13 @@ def getActionString(i, logs, showDetails = False):
     currentLog = logs[i]
     previousJourney = logs[:i] #filter(lambda iLog: iLog[0] < i) 
     sentence = '' 
-    import PythonVersionHandler, Printing, SearchExtractor
+    import PythonVersionHandler, Printing
     if cookieChanged(previousLog, currentLog):
         PythonVersionHandler.print_(Printing.green('COOKIE CHANGED.'))
-    if SearchExtractor.isProduct(currentLog): 
+    if isProductLog(currentLog): 
         lastSearchIndexWithId, productIndex = findProductIdOnSearches(currentLog, previousJourney)
         sentence = getActionStringForProductLog(currentLog, productIndex, lastSearchIndexWithId)
-    elif SearchExtractor.isSearch(currentLog):
+    elif isSearchLog(currentLog):
              sentence = getActionStringForSearch(currentLog, previousLog)
     else:
         sentence = currentLog['module'] + '.'
