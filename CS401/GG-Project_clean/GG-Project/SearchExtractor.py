@@ -6,7 +6,7 @@ def iriTest():
 
 def isProduct(log):
     if isinstance(log, tuple): 
-        if isinstance(log[1][1], tuple): log = log[1][1]
+        if isinstance(log[1], tuple): log = log[1][1]
         else: log = log[1]
     import LumberjackConstants as L
     return log[L.KEY_MODULE] in [L.KEY_MODULE_ITEM, L.KEY_MODULE_CART, L.KEY_MODULE_PAYMENT]
