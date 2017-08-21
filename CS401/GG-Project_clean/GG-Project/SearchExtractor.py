@@ -5,6 +5,9 @@ def iriTest():
     print_(refererParser('http%3A%2F%2Fwww.gittigidiyor.com%2Farama%2F%3Fk%3Dnike%2520%25C3%25A7ocuk%2520ayakkab%25C4%25B1'))
 
 def isProduct(log):
+    if isinstance(log, tuple): 
+        if isinstance(log[1][1], tuple): log = log[1][1]
+        else: log = log[1]
     import LumberjackConstants as L
     return log[L.KEY_MODULE] in [L.KEY_MODULE_ITEM, L.KEY_MODULE_CART, L.KEY_MODULE_PAYMENT]
 
