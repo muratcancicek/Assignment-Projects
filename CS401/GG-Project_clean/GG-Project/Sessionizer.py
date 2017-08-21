@@ -21,19 +21,19 @@ def idSetter(log):
 
 def getUsefulSessions(sessions):
     import LumberjackConstants as L
-    import PythonVersionHandler, SparkLogFileHandler
+    import PythonVersionHandler, SparkLogFileHandler, SearchExtractor
     usefulSessions = []
     for s in sessions:
         se, pr = False, False
         for l in s:
             if isinstance(l, list):
                 print_(l)
-            if isProduct(l):
+            if SearchExtractor.isProduct(l):
                 if se:
                     usefulSessions.append(s)
                     break
                 else: pr = True
-            elif isSearch(l):
+            elif SearchExtractor.isSearch(l):
                 if pr:
                     usefulSessions.append(s)
                     break
