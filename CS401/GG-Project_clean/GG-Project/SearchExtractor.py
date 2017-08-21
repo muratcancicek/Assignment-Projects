@@ -92,6 +92,12 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     PythonVersionHandler.print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
+def untuple(log):
+    if isinstance(log, tuple): 
+        if isinstance(log[1], tuple): return log[1][1]
+        else: return log[1]
+    else: return log
+
 c = 0
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     global c
@@ -108,13 +114,7 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     if not PythonVersionHandler.LOGGING: PythonVersionHandler.print_(searches.count(), 'searches,', viewedProductLogs.count(), 'views,', cartedOrPaidProductLogs.count(), 
            'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     #PythonVersionHandler.print_logging()
-    return (searches, viewedProductLogs, cartedOrPaidProductLogs)
-
-def untuple(log):
-    if isinstance(log, tuple): 
-        if isinstance(log[1], tuple): return log[1][1]
-        else: return log[1]
-    else: return log
+    return (searches, viewedProductLogs.map(untuple), cartedOrPaidProductLogs.map(untuple))
 
 def searchNProductLogsForSingleKeyword(logs, keywords, parsed = False):
     if parsed:
