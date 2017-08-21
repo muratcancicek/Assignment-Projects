@@ -139,17 +139,27 @@ def findProductIdOnSearches(currentLog, previousJourney):
                             return count, t
     return lastSearchIndexWithId, productIndex 
 
+def cookieChanged(previousLog, currentLog):
+    if previousLog == None or \
+        ('_c' in previousLog.keys() and not '_c' in currentLog.keys()) or \
+        (not '_c' in previousLog.keys() and '_c' in currentLog.keys()) or \
+        (not '_c' in previousLog.keys() and not '_c' in currentLog.keys()):
+        return False
+    else:
+        return previousLog['_c'] != currentLog['_c']
+
 def getActionString(i, logs, showDetails = False):
     previousLog = logs[i-1] if i > 0 else None   
     currentLog = logs[i]
     previousJourney = logs[:i] #filter(lambda iLog: iLog[0] < i) 
     sentence = '' 
-    if LA.cookieChanged(previousLog, currentLog):
-        print_(LA.green('COOKIE CHANGED.'))
-    if LA.isProductLog(currentLog): 
+    import PythonVersionHandler, Printing, SearchExtractor
+    if cookieChanged(previousLog, currentLog):
+        PythonVersionHandler.print_(Printing.green('COOKIE CHANGED.'))
+    if SearchExtractor.isProduct(currentLog): 
         lastSearchIndexWithId, productIndex = findProductIdOnSearches(currentLog, previousJourney)
         sentence = getActionStringForProductLog(currentLog, productIndex, lastSearchIndexWithId)
-    elif LA.isSearchLog(currentLog):
+    elif SearchExtractor.isSearch(currentLog):
              sentence = getActionStringForSearch(currentLog, previousLog)
     else:
         sentence = currentLog['module'] + '.'
@@ -161,8 +171,9 @@ def getActionString(i, logs, showDetails = False):
     return sentence  
 
 def printAction(i, logs, color, showDetails = False):
+    import PythonVersionHandler
     actionString = getActionString(i, logs, showDetails)
     if color == None:
-        print_(actionString)
+        PythonVersionHandler.print_(actionString)
     else:
-        print_(color(actionString))
+        PythonVersionHandler.print_(color(actionString))

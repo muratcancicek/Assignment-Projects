@@ -1,7 +1,7 @@
 import sys
-#if sys.version_info[0] == 3:
-#    import colorama
-#    colorama.init()
+if sys.version_info[0] == 3:
+    import colorama
+    colorama.init()
 class bcolors:
     PINK = '\033[95m'
     CYAN = '\033[96m'

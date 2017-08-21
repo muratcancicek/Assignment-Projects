@@ -150,26 +150,26 @@ def printSession(logs, printActions = True, printLogs = True, orderedKeys = None
     logs = logs.sortBy(lambda log: log['timestamp'])
     if not isinstance(logs, list):
         logs = logs.collect()
-    import PythonVersionHandler
-    PythonVersionHandler.print_(green('Session begins...'))
+    import PythonVersionHandler, Printing
+    PythonVersionHandler.print_(Printing.green('Session begins...'))
     for i, log in enumerate(logs):
         if 'module' in log.keys():
             color = None
             if log['module'] in ['cart', 'payment']:
-                color = blue
+                color = Printing.blue
             elif log['module'] == 'item':
-                color = pink
+                color = Printing.pink
             elif log['module'] == 'newsession':
-                color = green
+                color = Printing.green
             elif not log['module'] in ['newsession', 'search', 'item' 'cart', 'payment']:
-                color = darkCyan
+                color = Printing.darkCyan
             if printActions:
                 import ActionsWithSpark
                 ActionsWithSpark.printAction(i, logs, color, not printLogs)
             if printLogs:
                 #print_(logToStr(log, orderedKeys, colorMap, color))
                 PythonVersionHandler.print_(logToStr(log, orderedKeys, colorMap, color))
-    PythonVersionHandler.print_(green('Session end.'))
+    PythonVersionHandler.print_(Printing.green('Session end.'))
 
 def printSessionLogs(logs, orderedKeys = None, colorMap = {}):
     printSession(logs, printActions = False)
