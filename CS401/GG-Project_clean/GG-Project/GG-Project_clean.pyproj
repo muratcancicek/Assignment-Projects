@@ -68,6 +68,9 @@
     <Compile Include="SparkLogAnalyzer.py" />
     <Compile Include="SparkLogFileHandler.py" />
     <Compile Include="SparkLogReader.py" />
+    <Compile Include="StepStepRanking.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="StringUtil.py" />
     <Compile Include="Trainer.py" />
   </ItemGroup>
