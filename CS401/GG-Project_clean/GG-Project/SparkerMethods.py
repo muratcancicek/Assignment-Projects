@@ -21,6 +21,7 @@ def runSpark():
     # Add the PySpark\\py4j to the Python Path
     sys.path.insert(0, os.path.join(SPARK_HOME, "python", "lib"))
     sys.path.insert(0, os.path.join(SPARK_HOME, "python"))
+    sys.path.insert(0, os.path.join(SPARK_HOME, "python", "lib", "py4j-0.10.4-src.zip"))
 
     import paths, pyspark, SparkLogFileHandler
     conf = pyspark.SparkConf()
