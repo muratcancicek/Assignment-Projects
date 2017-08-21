@@ -21,7 +21,8 @@ class Action:
 
 
 def isProductClickedAfterSearch(previousLog, currentLog):
-    return LA.isProductLog(currentLog) and LA.isSearchLog(previousLog)
+    import SearchExtractor
+    return SearchExtractor.isProduct(currentLog) and SearchExtractor.isSearch(previousLog)
 
 def getActionForProductLog(log, productIndex, lastSearchIndexWithId):
     action = Action.PRODUCT_CLICKED_LAST_SEARCH
@@ -68,7 +69,8 @@ def getActionStringForProductLog(log, productIndex, lastSearchIndexWithId):
 
 def getActionForSearch(search, previousLog):
     action = Action.SEARCH_NEW
-    if previousLog == None or not LA.isSearchLog(previousLog):
+    import SearchExtractor
+    if previousLog == None or not SearchExtractor.isSearch(previousLog):
         action = Action.SEARCH_NEW
     elif search['orderBy'] != previousLog['orderBy']:
         action = Action.SEARCH_ORDER_CHANGED
@@ -90,7 +92,8 @@ def getActionForSearch(search, previousLog):
 
 def getActionStringForSearch(search, previousLog):
     action = 'Showing %i products with order %s on page %i for %s.'
-    if previousLog == None or not LA.isSearchLog(previousLog):
+    import SearchExtractor
+    if previousLog == None or not SearchExtractor.isSearch(previousLog):
         action = 'Searching, ' + action
     elif 'orderBy' in search.keys() and 'orderBy' in previousLog.keys() \
         and search['orderBy'] != previousLog['orderBy']:
@@ -124,8 +127,9 @@ def findProductIdOnSearches(currentLog, previousJourney):
     lastSearchIndexWithId, productIndex = -1, -1
     previousJourney.reverse()
     count = -1
+    import SearchExtractor
     for pl in previousJourney:
-        if LA.isSearchLog(pl):
+        if SearchExtractor.isSearch(pl):
             count += 1
             if isinstance(currentLog[KEY_ID], int):
                 for t, jd in enumerate(pl[KEY_ID_LIST]):
