@@ -21,6 +21,7 @@ def idSetter(log):
 
 def getUsefulSessions(sessions):
     import LumberjackConstants as L
+    import PythonVersionHandler, SparkLogFileHandler
     usefulSessions = []
     for s in sessions:
         se, pr = False, False
@@ -37,8 +38,8 @@ def getUsefulSessions(sessions):
                     usefulSessions.append(s)
                     break
                 else: se = True
-    print_(len(usefulSessions), 'sessions have been found useful by', nowStr())
-    usefulSessions = [sc_().parallelize(s) for s in usefulSessions]
+    PythonVersionHandler.print_(len(usefulSessions), 'sessions have been found useful by', nowStr())
+    usefulSessions = [SparkLogFileHandler.sc_().parallelize(s) for s in usefulSessions]
     return usefulSessions
 
 def sessionize(logs):
@@ -52,11 +53,11 @@ def sessionize(logs):
     for log in logs:
         added = False
         for i in range(len(idSets)):
-            for id in log[L.KEY_FOUR_IDS]:
+            for id in log[KEY_FOUR_IDS]:
                 if id in idSets[i]:
                     log[L.KEY_PERSISTENT_COOKIE] = str(i)
                     sessions[i].append(log)
-                    idSets[i] = idSets[i].union(log[L.KEY_FOUR_IDS])
+                    idSets[i] = idSets[i].union(log[KEY_FOUR_IDS])
                     added = True
                     break
         if not added:
@@ -64,7 +65,8 @@ def sessionize(logs):
             log[L.KEY_PERSISTENT_COOKIE] =  str(l+1 if l > 0 else l)
             sessions.append([log])
             idSets.append(set(log[L.KEY_FOUR_IDS]))
-    print_(len(sessions), 'sessions have been found in total by', nowStr())
+    import PythonVersionHandler
+    PythonVersionHandler.print_(len(sessions), 'sessions have been found in total by', nowStr())
     return getUsefulSessions(sessions)
 
 def sessionize2(logs):
