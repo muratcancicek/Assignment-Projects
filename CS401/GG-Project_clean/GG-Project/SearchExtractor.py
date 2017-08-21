@@ -9,6 +9,7 @@ def isProduct(log):
     return log[L.KEY_MODULE] in [L.KEY_MODULE_ITEM, L.KEY_MODULE_CART, L.KEY_MODULE_PAYMENT]
 
 def isSearch(log):
+    if isinstance(log, tuple): return False
     import LumberjackConstants as L
     return log[L.KEY_MODULE] == L.KEY_MODULE_SEARCH and L.KEY_KEYWORD in log.keys()
 
