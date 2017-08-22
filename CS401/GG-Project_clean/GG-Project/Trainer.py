@@ -111,7 +111,7 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     import pyspark.mllib.classification, PythonVersionHandler
-    model = pyspark.mllib.classification.SVMWithSGD.train(data, iterations=100)
+    model = pyspark.mllib.classification.SVMWithSGD.train(data, iterations=1000)
     PythonVersionHandler.print_high_logging('\n'+modelName, 'has been trained on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
     if evaluate:
