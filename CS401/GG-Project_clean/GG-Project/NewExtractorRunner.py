@@ -72,7 +72,7 @@ def august(firstDay, lastDay):
     import paths, FinalizedRunners, ReadyTests
     inputPaths =['hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31']
     for day in range(firstDay, lastDay + 1):
-        dateStr = '2017-08-' + str(day)
+        dateStr = '2017-08-0' + str(day)
         inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
     keywords = ['iphone_7']
