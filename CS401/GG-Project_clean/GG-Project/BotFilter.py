@@ -27,19 +27,18 @@ def isBot(log):
     except KeyError:
         return False
 
-def has_t(log):
-    import LumberjackConstants as L
-    try:
-        getValueOf(L.KEY_TYPE, log)
-        return True
-    except KeyError:
-        return False
-
 def has_c(log):
     import LumberjackConstants as L
     try:
         getValueOf(L.KEY_PERSISTENT_COOKIE, log)
         return True
+    except KeyError:
+        return False
+
+def has_t(log):
+    import LumberjackConstants as L
+    try:
+        return getValueOf(L.KEY_TYPE, log) == L.KEY_TYPE_MOBILE_DEVICE
     except KeyError:
         return False
     

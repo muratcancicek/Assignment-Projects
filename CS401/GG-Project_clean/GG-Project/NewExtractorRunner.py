@@ -68,15 +68,15 @@ def trainAllTest():
         productVectorFolder = outputPath
         Trainer.train(pairsPath, productVectorFolder, outputPath, saving = False)
         
-def may17WeekExtractionTest(firstDay, lastDay):
+def august(firstDay, lastDay):
     import paths, FinalizedRunners, ReadyTests
-    inputPaths =[]
+    inputPaths =['hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31']
     for day in range(firstDay, lastDay + 1):
-        dateStr = '2017-05-' + str(day)
-        inputPath = paths.joinPath(paths.may2017Folder, dateStr)
+        dateStr = '2017-08-' + str(day)
+        inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()
-    outputPath = paths.joinPath(paths.HDFSRootFolder, 'secondWeek')
+    keywords = ['iphone_7']
+    outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 
 def trainingTest21():
@@ -94,5 +94,5 @@ def runNewExtractionMethods():
     #may17ExtractionTest(29)
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
-    #may17WeekExtractionTest(22, 28)
-    trainingTest21()
+    august(1, 6)
+    #trainingTest21()

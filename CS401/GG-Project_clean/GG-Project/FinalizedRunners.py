@@ -92,6 +92,27 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
         else:
             pairs = pairs.coalesce(24)
             outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
+    
+def extractObjectiveLogs(inputPaths, keywords, outputFolder, filtering = True):
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
+    logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
+    logs = logs.map(tp)
+    keywordDict = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
+    for keyword in keywordDict:
+        searchNProductLogs = keywordDict[keyword]
+        snpl = SparkLogFileHandler.sc_().parallelize([])
+        for o in searchNProductLogs:
+            snpl = snpl.union(o)
+        snpl = snpl.coalesce(24)
+        keyword_name = keyword.replace(' ', '_')
+        outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
+        SparkLogFileHandler.saveRDDToHDFS(snpl, outputPath)
+        pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
+        if pairs.isEmpty():
+            continue
+        else:
+            pairs = pairs.coalesce(24)
+            outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
             SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
 

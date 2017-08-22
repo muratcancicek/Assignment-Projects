@@ -136,4 +136,6 @@ def searchNProductLogsByKeywords(logs, keywords, parsed = False):
     PythonVersionHandler.print_logging(searches.count(), 'searches have found relevant with', len(keywords), 'keywords by', PythonVersionHandler.nowStr())
     productLogs = specificProductLogs(logs, keywords)
     PythonVersionHandler.print_logging(productLogs.count(), 'productLogs have found relevant with', len(keywords), 'keywords by', PythonVersionHandler.nowStr(), '\n')
-    return {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword) for keyword in keywords}
+    d = {keyword: searchNProductLogsBySingleKeyword(searches, productLogs, keyword) for keyword in keywords}
+    global c
+    return d

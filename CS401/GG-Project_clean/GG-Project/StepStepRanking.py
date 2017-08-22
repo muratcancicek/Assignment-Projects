@@ -7,9 +7,9 @@ def findProducts_ById(i, path):
         ids = SparkLogFileHandler.sc_().parallelize([int(i)])
     products = Trainer.getProducts(ids, path)
     if products.isEmpty():
-        import paths
-        products = Trainer.getProducts(ids, paths.newProductVectorFolder)
-        if products.isEmpty():
+        #import paths
+        #products = Trainer.getProducts(ids, paths.newProductVectorFolder)
+        #if products.isEmpty():
             import PythonVersionHandler
             PythonVersionHandler.print_('Products cannot be found in the database.')
     return products
@@ -25,17 +25,18 @@ def findPairById(i1, i2, path):
     pairs = Trainer.readLabeledPairs(path)
     pairs = pairs.filter(lambda p: (i1, i2) == p[0])
     import PythonVersionHandler
-    PythonVersionHandler.print_(pairs.count(), 'Instances have been found for this pair.')
+    PythonVersionHandler.print_high_logging(pairs.count(), 'Instances have been found for this pair.')
     pairsP = pairs.filter(lambda p: 1 == p[1])
-    PythonVersionHandler.print_(pairsP.count(), 'Positive instances have been found for this pair.')
+    PythonVersionHandler.print_high_logging(pairsP.count(), 'Positive instances have been found for this pair.')
     pairsN = pairs.filter(lambda p: 0 == p[1])
-    PythonVersionHandler.print_(pairsN.count(), 'Negative instances have been found for this pair.')
-    
-def mmmm(i, path):
-import Trainer
-pairs = Trainer.readLabeledPairs(path)
-data1 = pairs.map(lambda p: p[0][0])
-data1 = Trainer.getProducts(data1, path)
-data2 = pairs.map(lambda p: p[0][1])
-    data2 = Trainer.getProducts(data2, path)
-    label = pairs.map(lambda p: p[1])
+    PythonVersionHandler.print_high_logging(pairsN.count(), 'Negative instances have been found for this pair.')
+    return (pairsP, pairsN)
+
+def generatePairs(ids):
+    pairs = []
+    for id1 in ids:
+        for id2 in ids:
+            if id1 != id2:
+                pairs.append(id1, id2, findPairById(id1, id2))
+    for p in pairs:
+        pass

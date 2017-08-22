@@ -32,7 +32,7 @@ def instanceListFromActions(sp):
         s = []
         for pid in processedIds:
             if pid in sp[0][L.KEY_ID_LIST]:
-                s.extend(coefficient * [(sp[1][1][L.KEY_ID], sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(pid)])])
+                s.extend(coefficient * [(pid, sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(pid)])])
         return s
 a = False
 def labelPairs(s):
@@ -86,11 +86,12 @@ c = 0
 def trainingInstancesByKeywords(keywordDict):
     trainingInstancesDict = {}
     import PythonVersionHandler
+    global c
     for keyword in keywordDict:
-        global c
         c += 1
         PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
         trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
         PythonVersionHandler.print_logging(trainingInstancesDict[keyword].count(), 'pairs have been labeled by', PythonVersionHandler.nowStr())
         PythonVersionHandler.print_logging()
+    c = 0
     return trainingInstancesDict
