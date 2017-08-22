@@ -32,10 +32,10 @@ def findPairById(i1, i2, path):
     PythonVersionHandler.print_(pairsN.count(), 'Negative instances have been found for this pair.')
     
 def mmmm(i, path):
-    import Trainer
-    pairs = Trainer.readLabeledPairs(path)
-    data1 = pairs.map(lambda p: p[0][0])
-    data1 = Trainer.getProducts(data1, path)
-    data2 = pairs.map(lambda p: p[0][1])
+import Trainer
+pairs = Trainer.readLabeledPairs(path)
+data1 = pairs.map(lambda p: p[0][0])
+data1 = Trainer.getProducts(data1, path)
+data2 = pairs.map(lambda p: p[0][1])
     data2 = Trainer.getProducts(data2, path)
     label = pairs.map(lambda p: p[1])
