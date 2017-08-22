@@ -1,0 +1,525 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-18 22:36:12.664044: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-18 22:36:18.912952
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-18 22:36:19.865226
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-18 22:36:19.972160
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-18 22:36:20.068849
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-18 22:36:20.158241
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-18 22:36:20.253670
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-18 22:36:20.353142
+22810658 have been prepared by 2017-08-18 22:57:36.708988
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-18 23:13:19.724895
+3475 products have listed on searches for besiktas by 2017-08-18 23:44:12.850124
+672 views have found for besiktas by 2017-08-19 00:01:38.036556
+189 products have clicked on searches for besiktas by 2017-08-19 00:01:39.315784
+523 cart and payments have found for besiktas by 2017-08-19 00:18:55.752048
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 10:01:03.741191: Running on osldevptst02
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 10:23:20.764197: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-19 10:23:26.801804
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-19 10:23:27.690086
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-19 10:23:27.785318
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-19 10:23:27.874769
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-19 10:23:27.958311
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-19 10:23:28.046799
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-19 10:23:28.140626
+22810658 have been prepared by 2017-08-19 10:44:21.093859
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-19 10:59:58.187286
+3475 products have listed on searches for besiktas by 2017-08-19 11:30:58.368249
+672 views have found for besiktas by 2017-08-19 11:48:08.585943
+189 products have clicked on searches for besiktas by 2017-08-19 11:48:09.871566
+523 cart and payments have found for besiktas by 2017-08-19 12:06:43.882863
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 12:21:45.327969: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-19 12:21:51.544087
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-19 12:21:52.465534
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-19 12:21:52.564775
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-19 12:21:52.653753
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-19 12:21:52.740607
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-19 12:21:52.825813
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-19 12:21:52.913342
+22810658 have been prepared by 2017-08-19 12:43:03.347009
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-19 12:59:12.815142
+3475 products have listed on searches for besiktas by 2017-08-19 13:29:41.859734
+672 views have found for besiktas by 2017-08-19 13:46:40.357452
+189 products have clicked on searches for besiktas by 2017-08-19 13:46:41.648107
+523 cart and payments have found for besiktas by 2017-08-19 14:04:01.599037
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek/besiktas/besiktas_extractedLogs with 3166 lines has been saved successfully by 2017-08-19 14:39:26.153505
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 14:56:35.401058: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek/besiktas/besiktas_extractedLogs will be reading by 2017-08-19 14:56:41.656181
+0 have been prepared by 2017-08-19 14:56:47.341628
+1. BASIKTAS:
+0 searches have found for basiktas by 2017-08-19 14:56:47.619487
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 14:59:18.365386: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek/besiktas/besiktas_extractedLogs will be reading by 2017-08-19 14:59:24.534132
+0 have been prepared by 2017-08-19 14:59:33.375914
+1. BESIKTAS:
+0 searches have found for besiktas by 2017-08-19 14:59:33.646627
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 15:02:12.505329: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek/besiktas/besiktas_extractedLogs will be reading by 2017-08-19 15:02:18.692796
+0 have been prepared by 2017-08-19 15:02:24.125801
+1. BESIKTAS:
+0 searches have found for besiktas by 2017-08-19 15:02:24.391358
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 15:04:14.020986: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-19 15:04:20.231123
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-19 15:04:21.249948
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-19 15:04:21.481482
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-19 15:04:21.581713
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-19 15:04:21.677745
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-19 15:04:21.765080
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-19 15:04:21.852930
+22810658 have been prepared by 2017-08-19 15:25:11.033587
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-19 15:40:09.680156
+3475 products have listed on searches for besiktas by 2017-08-19 16:11:53.865653
+672 views have found for besiktas by 2017-08-19 16:29:09.035729
+189 products have clicked on searches for besiktas by 2017-08-19 16:29:10.313721
+523 cart and payments have found for besiktas by 2017-08-19 16:46:40.820906
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek/besiktas/besiktas_extractedLogs with 3166 lines has been saved successfully by 2017-08-19 17:22:15.526274
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 17:35:14.768629: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-19 17:35:20.990167
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-19 17:35:21.905192
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-19 17:35:22.012814
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-19 17:35:22.102871
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-19 17:35:22.189933
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-19 17:35:22.275868
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-19 17:35:22.364209
+22810658 have been prepared by 2017-08-19 17:57:19.084398
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-19 18:13:23.594052
+3475 products have listed on searches for besiktas by 2017-08-19 18:46:01.469303
+672 views have found for besiktas by 2017-08-19 19:03:34.826759
+189 products have clicked on searches for besiktas by 2017-08-19 19:03:36.094890
+523 cart and payments have found for besiktas by 2017-08-19 19:21:17.951848
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 19:38:35.671951: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-19 19:38:41.795738
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-19 19:38:42.716970
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-19 19:38:42.816999
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-19 19:38:42.907659
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-19 19:38:42.995624
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-19 19:38:43.082032
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-19 19:38:43.182197
+22810658 have been prepared by 2017-08-19 19:59:39.854652
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-19 20:16:27.885451
+3475 products have listed on searches for besiktas by 2017-08-19 20:48:04.988401
+672 views have found for besiktas by 2017-08-19 21:05:47.347836
+189 products have clicked on searches for besiktas by 2017-08-19 21:05:48.664667
+523 cart and payments have found for besiktas by 2017-08-19 21:24:18.668147
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-19 21:38:32.469413: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-19 21:38:38.764053
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-19 21:38:39.724317
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-19 21:38:39.822366
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-19 21:38:39.917204
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-19 21:38:40.008535
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-19 21:38:40.104750
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-19 21:38:40.205517
+22810658 have been prepared by 2017-08-19 21:59:32.375442
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-19 22:15:02.485749
+3475 products have listed on searches for besiktas by 2017-08-19 22:46:06.828456
+672 views have found for besiktas by 2017-08-19 23:04:19.136148
+189 products have clicked on searches for besiktas by 2017-08-19 23:04:20.407838
+523 cart and payments have found for besiktas by 2017-08-19 23:22:23.040729
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/labeledPairs/secondWeek_extractedLogs/besiktas/besiktas_extractedLogs with 3166 lines has been saved successfully by 2017-08-19 23:58:23.627997
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-20 01:08:44.361240: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-20 01:08:50.652284
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-20 01:08:51.623173
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-20 01:08:51.723508
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-20 01:08:51.819586
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-20 01:08:51.915801
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-20 01:08:52.002205
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-20 01:08:52.091282
+22810658 have been prepared by 2017-08-20 01:30:09.154984
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-20 01:46:22.157749
+3475 products have listed on searches for besiktas by 2017-08-20 02:17:03.176633
+672 views have found for besiktas by 2017-08-20 02:34:50.230225
+189 products have clicked on searches for besiktas by 2017-08-20 02:34:51.502243
+523 cart and payments have found for besiktas by 2017-08-20 02:52:13.535716
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-20 11:47:54.744312: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-20 11:48:00.982377
+3577120 have been prepared by 2017-08-20 11:53:42.693675
+1. BESIKTAS:
+346 searches have found for besiktas by 2017-08-20 11:57:53.099741
+1769 products have listed on searches for besiktas by 2017-08-20 12:06:47.769942
+86 views have found for besiktas by 2017-08-20 12:11:35.454864
+59 products have clicked on searches for besiktas by 2017-08-20 12:11:36.208989
+42 cart and payments have found for besiktas by 2017-08-20 12:16:51.429638
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_extractedLogs with 474 lines has been saved successfully by 2017-08-20 12:25:36.192648
+3506 pairs have been found by 2017-08-20 12:36:14.038942
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 3506 lines has been saved successfully by 2017-08-20 12:36:17.603509
+
+2. KOL SAATI:
+93 searches have found for kol saati by 2017-08-20 12:40:59.086678
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-20 12:52:03.781376: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-20 12:52:09.879874
+3577120 have been prepared by 2017-08-20 12:58:24.589493
+1. MUHTEMELEN FURKAN ORTAPEDIK:
+0 searches have found for Muhtemelen Furkan ortapedik by 2017-08-20 13:02:38.193264
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-20 13:10:32.995570: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-20 13:10:39.184949
+3577120 have been prepared by 2017-08-20 13:16:19.386855
+1. MUHTEMELEN FURKAN ORTAPEDIK:
+0 searches have found for Muhtemelen Furkan ortapedik by 2017-08-20 13:20:26.361136
+
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/Muhtemelen_Furkan_ortapedik/Muhtemelen_Furkan_ortapedik_extractedLogs with 0 lines has been saved successfully by 2017-08-20 13:33:00.356431
+0 pairs have been found by 2017-08-20 13:40:49.600258
+2017-08-20 13:40:49.923883: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-20 13:47:49.879426: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-22 will be reading by 2017-08-20 13:47:56.085205
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-23 will be reading by 2017-08-20 13:47:57.068737
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-24 will be reading by 2017-08-20 13:47:57.292383
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-25 will be reading by 2017-08-20 13:47:57.389865
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-26 will be reading by 2017-08-20 13:47:57.479598
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-27 will be reading by 2017-08-20 13:47:57.567078
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-05-28 will be reading by 2017-08-20 13:47:57.662170
+22810658 have been prepared by 2017-08-20 14:08:32.407209
+1. BESIKTAS:
+1971 searches have found for besiktas by 2017-08-20 14:24:28.320879
+3475 products have listed on searches for besiktas by 2017-08-20 14:54:48.453069
+672 views have found for besiktas by 2017-08-20 15:11:57.246670
+189 products have clicked on searches for besiktas by 2017-08-20 15:11:58.508111
+523 cart and payments have found for besiktas by 2017-08-20 15:30:34.459445
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_extractedLogs with 3166 lines has been saved successfully by 2017-08-20 16:05:47.149976
+41756 pairs have been found by 2017-08-20 17:05:10.919458
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 41756 lines has been saved successfully by 2017-08-20 17:05:20.251933
+
+2. KOL SAATI:
+522 searches have found for kol saati by 2017-08-20 17:20:45.304058
+10064 products have listed on searches for kol saati by 2017-08-20 17:52:20.629050
+117 views have found for kol saati by 2017-08-20 18:09:50.600687
+91 products have clicked on searches for kol saati by 2017-08-20 18:09:51.603927
+112 cart and payments have found for kol saati by 2017-08-20 18:27:39.818387
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/kol_saati/kol_saati_extractedLogs with 751 lines has been saved successfully by 2017-08-20 19:04:06.139606
+8672 pairs have been found by 2017-08-20 20:06:07.301271
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/kol_saati/kol_saati_pairs with 8672 lines has been saved successfully by 2017-08-20 20:06:16.506030
+
+3. IPHONE 7:
+3344 searches have found for iphone 7 by 2017-08-20 20:21:20.726205
+6067 products have listed on searches for iphone 7 by 2017-08-20 20:52:43.283424
+966 views have found for iphone 7 by 2017-08-20 21:10:55.888627
+90 products have clicked on searches for iphone 7 by 2017-08-20 21:10:56.842661
+149 cart and payments have found for iphone 7 by 2017-08-20 21:29:34.399071
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7/iphone_7_extractedLogs with 4459 lines has been saved successfully by 2017-08-20 22:05:35.527411
+24618 pairs have been found by 2017-08-20 23:05:10.236615
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7/iphone_7_pairs with 24618 lines has been saved successfully by 2017-08-20 23:05:18.857163
+
+4. IPHONE 7 KILIF:
+1119 searches have found for iphone 7 kilif by 2017-08-20 23:20:14.331443
+4026 products have listed on searches for iphone 7 kilif by 2017-08-20 23:52:24.054785
+1172 views have found for iphone 7 kilif by 2017-08-21 00:09:45.434100
+256 products have clicked on searches for iphone 7 kilif by 2017-08-21 00:09:46.475169
+209 cart and payments have found for iphone 7 kilif by 2017-08-21 00:27:54.277257
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:01:07.918829: Running on osldevptst02
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:03:02.600894: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs does not exist!!!
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7_kilif/iphone_7_kilif_extractedLogs with 2500 lines has been saved successfully by 2017-08-21 01:04:41.005598
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/kol_saati/kol_saati_pairs does not exist!!!
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7/iphone_7_pairs does not exist!!!
+2017-08-21 01:05:04.012106: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:12:01.352953: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 41756 labeledPairs will be reading by 2017-08-21 01:12:12.847011
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:14:09.338894: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 41756 labeledPairs will be reading by 2017-08-21 01:14:20.010446
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:17:27.052598: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 41756 labeledPairs will be reading by 2017-08-21 01:17:37.969365
+469 products have been found in database to train by 2017-08-21 01:21:29.437719
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_products with 469 lines has been saved successfully by 2017-08-21 01:22:41.084493
+train instances is being generated by 2017-08-21 01:22:41.754691
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:25:51.855632: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 41756 labeledPairs will be reading by 2017-08-21 01:26:03.402989
+469 products have been found in database to train by 2017-08-21 01:29:53.095133
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_products with 469 lines has been saved successfully by 2017-08-21 01:31:04.790639
+train instances is being generated by 2017-08-21 01:31:05.055880
+4708 instances have been scaled by 2017-08-21 01:31:37.470400
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:39:09.994234: Running on osldevptst02
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-21 01:39:57.669578: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_pairs with 41756 labeledPairs will be reading by 2017-08-21 01:40:08.591030
+469 products have been found in database to train by 2017-08-21 01:44:01.816381
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/besiktas/besiktas_products with 469 lines has been saved successfully by 2017-08-21 01:45:14.350592
+train instances is being generated by 2017-08-21 01:45:14.435800
+4708 instances have been scaled by 2017-08-21 01:45:48.717483
+4708 train instances have been generated by 2017-08-21 01:45:51.469658
+3764 instances have been selected to be trained 2017-08-21 01:45:55.573660
+944 instances have been selected to be tested 2017-08-21 01:45:57.212005
+
+Model has been trained on TrainData by 2017-08-21 01:46:11.491976
+The learned weights:
+[0.0514039995854, 0.15011937235, -0.396702657668, 0.737808448786, -0.0786005998638, -0.328534500891, 0.461991617972, -0.111822283144, 0.0, 0.121056337105, 0.185577586178, 0.0629304444329, -0.348158792088, 0.21702839511]
+
+
+Model has been evaluated on TrainData by 2017-08-21 01:46:15.255064
+The result accuracy is %79.065
+
+
+Model has been evaluated on TestData by 2017-08-21 01:46:18.993714
+The result accuracy is %78.284
+
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/kol_saati/kol_saati_pairs with 8672 labeledPairs will be reading by 2017-08-21 01:46:19.437340
+472 products have been found in database to train by 2017-08-21 01:50:08.998980
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/kol_saati/kol_saati_products with 472 lines has been saved successfully by 2017-08-21 01:51:20.486990
+train instances is being generated by 2017-08-21 01:51:20.487457
+2136 instances have been scaled by 2017-08-21 01:51:54.407186
+2136 train instances have been generated by 2017-08-21 01:51:55.632024
+1715 instances have been selected to be trained 2017-08-21 01:51:57.729004
+421 instances have been selected to be tested 2017-08-21 01:51:58.751133
+
+Model has been trained on TrainData by 2017-08-21 01:52:09.579425
+The learned weights:
+[0.110462855052, 0.48033605865, 0.0907250287901, 0.672548169455, -0.0657438730237, -0.276960065083, 0.525779060542, 0.324338003366, 0.0, -0.0538098147, -0.149008263537, -0.45781406069, -0.386641385447, 0.0]
+
+
+Model has been evaluated on TrainData by 2017-08-21 01:52:11.651815
+The result accuracy is %68.163
+
+
+Model has been evaluated on TestData by 2017-08-21 01:52:13.524126
+The result accuracy is %69.121
+
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7/iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-21 01:52:14.162553
+177 products have been found in database to train by 2017-08-21 01:56:01.181372
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7/iphone_7_products with 177 lines has been saved successfully by 2017-08-21 01:57:10.205817
+train instances is being generated by 2017-08-21 01:57:10.206184
+3978 instances have been scaled by 2017-08-21 01:57:42.698278
+3978 train instances have been generated by 2017-08-21 01:57:44.175998
+3202 instances have been selected to be trained 2017-08-21 01:57:46.901811
+776 instances have been selected to be tested 2017-08-21 01:57:48.220718
+
+Model has been trained on TrainData by 2017-08-21 01:57:58.372601
+The learned weights:
+[-0.156010916474, 0.00231908727272, -0.914841419769, -0.352554315839, -0.0100321630056, 0.102397831393, 0.455334313274, 0.838029110915, 0.0, 0.0187489550433, 0.0, -0.155462998401, 0.383512022463, 0.0]
+
+
+Model has been evaluated on TrainData by 2017-08-21 01:58:00.775949
+The result accuracy is %83.979
+
+
+Model has been evaluated on TestData by 2017-08-21 01:58:03.007842
+The result accuracy is %85.309
+
+2017-08-21 01:58:03.008335: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+86154 pairs have been found by 2017-08-21 02:13:20.579184
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/iphone_7_kilif/iphone_7_kilif_pairs with 86154 lines has been saved successfully by 2017-08-21 02:13:29.803226
+
+5. STRES CARKI:
+14698 searches have found for stres carki by 2017-08-21 02:31:22.001963
+4823 products have listed on searches for stres carki by 2017-08-21 03:02:00.073240
+10028 views have found for stres carki by 2017-08-21 03:20:30.602980
+1014 products have clicked on searches for stres carki by 2017-08-21 03:20:31.635178
+480 cart and payments have found for stres carki by 2017-08-21 03:38:43.920827
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/stres_carki/stres_carki_extractedLogs with 25206 lines has been saved successfully by 2017-08-21 04:15:02.454296
+492702 pairs have been found by 2017-08-21 05:15:26.173408
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/stres_carki/stres_carki_pairs with 492702 lines has been saved successfully by 2017-08-21 05:15:34.840404
+
+6. NIKE AIR MAX:
+8226 searches have found for nike air max by 2017-08-21 05:30:53.898793
+2936 products have listed on searches for nike air max by 2017-08-21 06:01:26.338273
+2589 views have found for nike air max by 2017-08-21 06:19:10.153390
+553 products have clicked on searches for nike air max by 2017-08-21 06:19:11.180964
+142 cart and payments have found for nike air max by 2017-08-21 06:37:16.435750
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/nike_air_max/nike_air_max_extractedLogs with 10957 lines has been saved successfully by 2017-08-21 07:13:47.449562
+142834 pairs have been found by 2017-08-21 08:13:20.071585
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/nike_air_max/nike_air_max_pairs with 142834 lines has been saved successfully by 2017-08-21 08:13:28.976872
+
+7. TUPPERWARE:
+5774 searches have found for tupperware by 2017-08-21 08:28:52.776014
+6707 products have listed on searches for tupperware by 2017-08-21 09:00:07.267883
+2182 views have found for tupperware by 2017-08-21 09:18:31.785081
+776 products have clicked on searches for tupperware by 2017-08-21 09:18:32.872889
+283 cart and payments have found for tupperware by 2017-08-21 09:36:21.623375
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/tupperware/tupperware_extractedLogs with 8239 lines has been saved successfully by 2017-08-21 10:12:15.566433
+166666 pairs have been found by 2017-08-21 11:12:40.271229
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/tupperware/tupperware_pairs with 166666 lines has been saved successfully by 2017-08-21 11:12:50.109652
+
+8. BUZDOLABI:
+2683 searches have found for buzdolabi by 2017-08-21 11:28:44.139170
+3619 products have listed on searches for buzdolabi by 2017-08-21 12:00:41.452102
+508 views have found for buzdolabi by 2017-08-21 12:18:26.194341
+167 products have clicked on searches for buzdolabi by 2017-08-21 12:18:27.164356
+200 cart and payments have found for buzdolabi by 2017-08-21 12:36:55.016327
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/buzdolabi/buzdolabi_extractedLogs with 3391 lines has been saved successfully by 2017-08-21 13:12:49.035290
+67170 pairs have been found by 2017-08-21 14:12:32.679715
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/buzdolabi/buzdolabi_pairs with 67170 lines has been saved successfully by 2017-08-21 14:12:41.982384
+
+9. VESTEL CAMASIR MAKINESI:
+99 searches have found for vestel camasir makinesi by 2017-08-21 14:27:51.602999
+116 products have listed on searches for vestel camasir makinesi by 2017-08-21 14:58:47.400304
+96 views have found for vestel camasir makinesi by 2017-08-21 15:16:49.292059
+27 products have clicked on searches for vestel camasir makinesi by 2017-08-21 15:16:50.199217
+117 cart and payments have found for vestel camasir makinesi by 2017-08-21 15:36:13.970142
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/vestel_camasir_makinesi/vestel_camasir_makinesi_extractedLogs with 312 lines has been saved successfully by 2017-08-21 16:15:24.850692
+5792 pairs have been found by 2017-08-21 17:18:11.175087
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/vestel_camasir_makinesi/vestel_camasir_makinesi_pairs with 5792 lines has been saved successfully by 2017-08-21 17:18:19.997195
+
+10. SAMSUNG GALAXY J7 PRIME:
+3124 searches have found for samsung galaxy j7 prime by 2017-08-21 17:33:36.981610
+2114 products have listed on searches for samsung galaxy j7 prime by 2017-08-21 18:04:30.561439
+402 views have found for samsung galaxy j7 prime by 2017-08-21 18:22:43.806053
+44 products have clicked on searches for samsung galaxy j7 prime by 2017-08-21 18:22:44.744573
+344 cart and payments have found for samsung galaxy j7 prime by 2017-08-21 18:40:16.583682
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_extractedLogs with 3870 lines has been saved successfully by 2017-08-21 19:16:56.614982
+49338 pairs have been found by 2017-08-21 20:16:45.074630
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_pairs with 49338 lines has been saved successfully by 2017-08-21 20:16:53.711493
+
+11. SAMSUNG:
+1463 searches have found for samsung by 2017-08-21 20:31:53.252095
+7770 products have listed on searches for samsung by 2017-08-21 21:03:27.526517
+374 views have found for samsung by 2017-08-21 21:21:19.910504
+111 products have clicked on searches for samsung by 2017-08-21 21:21:20.912826
+866 cart and payments have found for samsung by 2017-08-21 21:38:51.774322
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/samsung/samsung_extractedLogs with 2703 lines has been saved successfully by 2017-08-21 22:14:17.464864
+26934 pairs have been found by 2017-08-21 23:14:15.098836
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/samsung/samsung_pairs with 26934 lines has been saved successfully by 2017-08-21 23:14:24.253576
+
+12. DIKEY ELEKTRIKLI SUPURGE:
+249 searches have found for dikey elektrikli supurge by 2017-08-21 23:29:52.673389
+348 products have listed on searches for dikey elektrikli supurge by 2017-08-22 00:01:00.858617
+170 views have found for dikey elektrikli supurge by 2017-08-22 00:18:21.829362
+63 products have clicked on searches for dikey elektrikli supurge by 2017-08-22 00:18:22.767434
+153 cart and payments have found for dikey elektrikli supurge by 2017-08-22 00:37:39.820173
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/dikey_elektrikli_supurge/dikey_elektrikli_supurge_extractedLogs with 572 lines has been saved successfully by 2017-08-22 01:13:01.168445
+14684 pairs have been found by 2017-08-22 02:15:50.959445
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/dikey_elektrikli_supurge/dikey_elektrikli_supurge_pairs with 14684 lines has been saved successfully by 2017-08-22 02:15:59.954512
+
+13. JBL HOPARLOR:
+127 searches have found for jbl hoparlor by 2017-08-22 02:32:10.083915
+494 products have listed on searches for jbl hoparlor by 2017-08-22 03:02:35.343069
+77 views have found for jbl hoparlor by 2017-08-22 03:20:46.628801
+32 products have clicked on searches for jbl hoparlor by 2017-08-22 03:20:47.578130
+40 cart and payments have found for jbl hoparlor by 2017-08-22 03:38:59.441882
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/jbl_hoparlor/jbl_hoparlor_extractedLogs with 244 lines has been saved successfully by 2017-08-22 04:16:03.700949
+1712 pairs have been found by 2017-08-22 05:21:13.465577
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/jbl_hoparlor/jbl_hoparlor_pairs with 1712 lines has been saved successfully by 2017-08-22 05:21:23.336734
+
+14. BISIKLET:
+6433 searches have found for bisiklet by 2017-08-22 05:37:00.004312
+17721 products have listed on searches for bisiklet by 2017-08-22 06:08:21.191830
+1239 views have found for bisiklet by 2017-08-22 06:26:19.676502
+287 products have clicked on searches for bisiklet by 2017-08-22 06:26:20.695500
+498 cart and payments have found for bisiklet by 2017-08-22 06:44:29.928610
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/bisiklet/bisiklet_extractedLogs with 8170 lines has been saved successfully by 2017-08-22 07:21:37.306569
+92000 pairs have been found by 2017-08-22 08:21:50.556186
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/bisiklet/bisiklet_pairs with 92000 lines has been saved successfully by 2017-08-22 08:21:59.748354
+
+15. LENOVO K6 NOTE:
+416 searches have found for lenovo k6 note by 2017-08-22 08:37:08.070402
+705 products have listed on searches for lenovo k6 note by 2017-08-22 09:08:54.926402
+257 views have found for lenovo k6 note by 2017-08-22 09:26:34.066715
+41 products have clicked on searches for lenovo k6 note by 2017-08-22 09:26:34.985933
+81 cart and payments have found for lenovo k6 note by 2017-08-22 09:44:45.037348
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/lenovo_k6_note/lenovo_k6_note_extractedLogs with 754 lines has been saved successfully by 2017-08-22 10:20:49.278411
+8982 pairs have been found by 2017-08-22 11:21:22.109769
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/lenovo_k6_note/lenovo_k6_note_pairs with 8982 lines has been saved successfully by 2017-08-22 11:21:31.315735
+
+16. SANDALYE KILIFI:
+1534 searches have found for sandalye kilifi by 2017-08-22 11:36:33.317003
+1046 products have listed on searches for sandalye kilifi by 2017-08-22 12:08:19.923593
+2435 views have found for sandalye kilifi by 2017-08-22 12:25:56.801827
+192 products have clicked on searches for sandalye kilifi by 2017-08-22 12:25:57.741860
+126 cart and payments have found for sandalye kilifi by 2017-08-22 12:44:18.337851
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/sandalye_kilifi/sandalye_kilifi_extractedLogs with 4095 lines has been saved successfully by 2017-08-22 13:21:02.171029
+98412 pairs have been found by 2017-08-22 14:20:45.482776
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/sandalye_kilifi/sandalye_kilifi_pairs with 98412 lines has been saved successfully by 2017-08-22 14:20:54.927530
+
+17. XIAOMI:
+3025 searches have found for xiaomi by 2017-08-22 14:36:33.819390
+3406 products have listed on searches for xiaomi by 2017-08-22 15:07:27.853744
+1049 views have found for xiaomi by 2017-08-22 15:25:32.307787
+73 products have clicked on searches for xiaomi by 2017-08-22 15:25:33.242629
+430 cart and payments have found for xiaomi by 2017-08-22 15:43:57.593936
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/xiaomi/xiaomi_extractedLogs with 4504 lines has been saved successfully by 2017-08-22 16:19:56.790733
+56784 pairs have been found by 2017-08-22 17:19:24.241127
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/secondWeek/xiaomi/xiaomi_pairs with 56784 lines has been saved successfully by 2017-08-22 17:19:33.213274
+
+18. SAMSUNG GALAXY S6:
+305 searches have found for samsung galaxy s6 by 2017-08-22 17:35:08.010346
+1822 products have listed on searches for samsung galaxy s6 by 2017-08-22 18:05:55.020559
+102 views have found for samsung galaxy s6 by 2017-08-22 18:23:03.186267
+19 products have clicked on searches for samsung galaxy s6 by 2017-08-22 18:23:04.116500
+17 cart and payments have found for samsung galaxy s6 by 2017-08-22 18:40:36.593096
