@@ -77,7 +77,7 @@ def august(firstDay, lastDay):
         inputPaths.append(inputPath)
     keywords = ReadyTests.get27Keywords()[:4]
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
+    FinalizedRunners.extractObjectiveLogs(inputPaths, keywords, outputPath)
 
 def trainingTest21():
     import paths, FinalizedRunners, Trainer
