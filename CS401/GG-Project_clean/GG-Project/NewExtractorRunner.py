@@ -94,5 +94,6 @@ def runNewExtractionMethods():
     #may17ExtractionTest(29)
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
-    august(1, 6)
+    #august(1, 6)
+    trainForKeyword('iphone_7' folder = '.', saving = False)
     #trainingTest21()
