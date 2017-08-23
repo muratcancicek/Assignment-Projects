@@ -164,9 +164,12 @@ def printActMan():
     import LumberjackConstants as L
     import paths, PythonVersionHandler, SparkLogFileHandler, SearchExtractor, FinalizedRunners, Sessionizer, SparkLogReader
     extractedPath = 'C:\\Users\\Muratcan\\Desktop\\logs.rtf'
+    extractedPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31'
     logs = FinalizedRunners.getPreparedLogsFromHDFS(extractedPath)
     lo = logs.filter(lambda l: l[L.KEY_MODULE] == L.KEY_MODULE_ITEM) \
     .map(SearchExtractor.refererParserOnLog).map(lambda log: log[L.KEY_REFERER]).map(SearchExtractor.refererParser)
+    print(lo.count())
+    lo = lo.filter(lambda l: 'arama' in l['page'])
     print(lo.count())
     for p in lo.collect(): print(p)
     #keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)  
