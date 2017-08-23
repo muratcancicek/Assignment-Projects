@@ -75,7 +75,7 @@ def august(firstDay, lastDay):
         dateStr = '2017-08-0' + str(day)
         inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()[:4]
+    keywords = ReadyTests.get27Keywords()[1:4]
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     FinalizedRunners.extractObjectiveLogs(inputPaths, keywords, outputPath)
 
@@ -94,6 +94,5 @@ def runNewExtractionMethods():
     #may17ExtractionTest(29)
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
-    #august(1, 6)
-    trainForKeyword('iphone_7' folder = '.', saving = False)
+    august(1, 6)
     #trainingTest21()
