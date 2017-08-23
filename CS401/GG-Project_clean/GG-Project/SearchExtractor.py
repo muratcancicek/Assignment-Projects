@@ -74,22 +74,29 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     import LumberjackConstants as L
     listedIds = searches.flatMap(lambda log: log[L.KEY_ID_LIST]).distinct().map(lambda i: (i, i))
     import PythonVersionHandler
-    PythonVersionHandler.print_high_logging(listedIds.count(), 'products have listed on searches for', keyword, 'by', PythonVersionHandler.nowStr())
+    ls = 0 if listedIds.isEmpty() else listedIds.count()
+    PythonVersionHandler.print_high_logging(ls, 'products have listed on searches for', keyword, 'by', PythonVersionHandler.nowStr())
     viewedProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_ITEM and log[L.KEY_REFERER]['k'] == keyword).map(lambda log: (log[L.KEY_ID], log))
     viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1])
-    PythonVersionHandler.print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
+    vs = 0 if viewedProductLogs.isEmpty() else viewedProductLogs.count()
+    PythonVersionHandler.print_high_logging(vs, 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
     viewedIds = viewedProductLogs.map(lambda kv: (kv[0], kv[0])).distinct()
-    PythonVersionHandler.print_logging(viewedIds.count(), 'products have clicked on searches for', keyword, 'by', PythonVersionHandler.nowStr())
+    vi = 0 if viewedIds.isEmpty() else viewedIds.count()
+    PythonVersionHandler.print_logging(vi, 'products have clicked on searches for', keyword, 'by', PythonVersionHandler.nowStr())
     cartedOrPaidProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_CART or log[L.KEY_MODULE] == L.KEY_MODULE_PAYMENT)
     def singleId(log):
-        import LumberjackConstants as L
-        if isinstance(log[L.KEY_ID], int):
-            return [(log[L.KEY_ID], log)]
-        if isinstance(log[L.KEY_ID], str):
-            if '%7C' in log[L.KEY_ID]:
-                return [(int(i), log) for i in log[L.KEY_ID].split('%7C')]
+        try:
+            import LumberjackConstants as L
+            if isinstance(log[L.KEY_ID], int):
+                return [(log[L.KEY_ID], log)]
+            if isinstance(log[L.KEY_ID], str):
+                if '%7C' in log[L.KEY_ID]:
+                    return [(int(i), log) for i in log[L.KEY_ID].split('%7C')]
+        except TypeError:
+            print(log[L.KEY_ID], 'not iteratable at SearchExtractor line 96')
     cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId))
-    PythonVersionHandler.print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
+    ci = 0 if cartedOrPaidProductLogs.isEmpty() else cartedOrPaidProductLogs.count()
+    PythonVersionHandler.print_logging(ci.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
 def untuple(log):
