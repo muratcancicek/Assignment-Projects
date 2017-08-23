@@ -97,7 +97,7 @@ def extractObjectiveLogs(inputPaths, keywords, outputFolder, filtering = True):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
     logs = logs.map(tp)
-    keywordDict = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
+    keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)
     for keyword in keywordDict:
         searchNProductLogs = keywordDict[keyword]
         snpl = SparkLogFileHandler.sc_().parallelize([])
