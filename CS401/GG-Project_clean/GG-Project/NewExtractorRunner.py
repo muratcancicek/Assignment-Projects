@@ -96,3 +96,7 @@ def runNewExtractionMethods():
     #may17ExtractionTest(31)
     august(1, 6)
     #trainingTest21()
+
+def runNewExtractionMethodsOnJupyter():
+    import ReadyTests2
+    ReadyTests2.printActMan()

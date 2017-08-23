@@ -158,3 +158,20 @@ def printAct(day):
     keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)  
     #sessions = sessionize(keywordDict['iphone 7'])
     #printSessionActions(sessions[0])
+
+def printActMan():
+    keywords = ['iphone 7']
+    import LumberjackConstants as L
+    import paths, PythonVersionHandler, SparkLogFileHandler, SearchExtractor, FinalizedRunners, Sessionizer, SparkLogReader
+    extractedPath = 'C:\\Users\\Muratcan\\Desktop\\logs.rtf'
+    logs = FinalizedRunners.getPreparedLogsFromHDFS(extractedPath)
+    lo = logs.filter(lambda l: l[L.KEY_MODULE] == L.KEY_MODULE_ITEM) \
+    .map(SearchExtractor.refererParserOnLog).map(lambda log: log[L.KEY_REFERER]).map(SearchExtractor.refererParser)
+    print(lo.count())
+    for p in lo.collect(): print(p)
+    #keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)  
+    #(searches, viewedProductLogs, cartedOrPaidProductLogs) = keywordDict['iphone 7']
+    
+    #sessions = Sessionizer.sessionize(keywordDict['iphone 7'])
+    #if len(sessions) > 0:
+    #    SparkLogReader.printSessionActions(sessions[0])

@@ -71,18 +71,19 @@ def specificProductLogs(logs, keywords):
     return logs.filter(isProductLogsFromSearchOrItems)
 
 def productLogsFromBySingleKeyword(searches, productLogs, keyword):
-    import LumberjackConstants as L
+    import SparkLogReader, LumberjackConstants as L
     listedIds = searches.flatMap(lambda log: log[L.KEY_ID_LIST]).distinct().map(lambda i: (i, i))
     import PythonVersionHandler
-    ls = 0 if listedIds.isEmpty() else listedIds.count()
-    PythonVersionHandler.print_high_logging(ls, 'products have listed on searches for', keyword, 'by', PythonVersionHandler.nowStr())
-    viewedProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_ITEM and log[L.KEY_REFERER]['k'] == keyword).map(lambda log: (log[L.KEY_ID], log))
-    viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1])
-    vs = 0 if viewedProductLogs.isEmpty() else viewedProductLogs.count()
-    PythonVersionHandler.print_high_logging(vs, 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_high_logging(listedIds.count(), 'products have listed on searches for', keyword, 'by', PythonVersionHandler.nowStr())
+    SparkLogReader.printSessionActions(productLogs)
+    p = productLogs.collect()
+    for i in p: print(i)
+    viewedProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_ITEM and log[L.KEY_REFERER]['k'] == keyword)#
+    PythonVersionHandler.print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
+    viewedProductLogs = viewedProductLogs.map(lambda log: (log[L.KEY_ID], log))
+    viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1][1])
     viewedIds = viewedProductLogs.map(lambda kv: (kv[0], kv[0])).distinct()
-    vi = 0 if viewedIds.isEmpty() else viewedIds.count()
-    PythonVersionHandler.print_logging(vi, 'products have clicked on searches for', keyword, 'by', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_logging(viewedIds.count(), 'products have clicked on searches for', keyword, 'by', PythonVersionHandler.nowStr())
     cartedOrPaidProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_CART or log[L.KEY_MODULE] == L.KEY_MODULE_PAYMENT)
     def singleId(log):
         try:
@@ -94,9 +95,9 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
                     return [(int(i), log) for i in log[L.KEY_ID].split('%7C')]
         except TypeError:
             print(log[L.KEY_ID], 'not iteratable at SearchExtractor line 96')
+            raise TypeError
     cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId))
-    ci = 0 if cartedOrPaidProductLogs.isEmpty() else cartedOrPaidProductLogs.count()
-    PythonVersionHandler.print_logging(ci, 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
 def untuple(log):
