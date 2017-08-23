@@ -96,7 +96,7 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
             print(log[L.KEY_ID], 'not iteratable at SearchExtractor line 96')
     cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId))
     ci = 0 if cartedOrPaidProductLogs.isEmpty() else cartedOrPaidProductLogs.count()
-    PythonVersionHandler.print_logging(ci.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
+    PythonVersionHandler.print_logging(ci, 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
 def untuple(log):
