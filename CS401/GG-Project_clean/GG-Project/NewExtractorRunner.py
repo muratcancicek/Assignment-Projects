@@ -99,7 +99,7 @@ def trainingTestAll():
     Trainer.setFeatureVector(feature_names)
     keywords = ReadyTests.get27Keywords()[:17]
     for c, keyword in enumerate(keywords): 
-        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
+        PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.replace(' ', '_')
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
         FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
