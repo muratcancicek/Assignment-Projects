@@ -72,7 +72,7 @@ def august(firstDay, lastDay):
     import paths, FinalizedRunners, ReadyTests
     inputPaths =[]
     for day in range(firstDay, lastDay + 1):
-        dateStr = '2017-08-0' + str(day)
+        dateStr = '2017-08-0' + str(day) if day < 10 else '2017-08-' + str(day)
         inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
     keywords = ReadyTests.get27Keywords()
