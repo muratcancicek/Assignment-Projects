@@ -526,3 +526,456 @@ C:\Users\Muratcan\Desktop\logs.rtf will be reading by 2017-08-24 02:11:40.098124
 ########################################################################################
 ########################################################################################
 ########################################################################################
+C:\Users\Muratcan\Desktop\ffff has been read by 2017-08-24 17:37:41.378042
+C:\Users\Muratcan\Desktop\ffff will be reading by 2017-08-24 17:40:32.484278
+7 sessions have been found in total by 2017-08-24 17:45:42.798546
+3 sessions have been found useful by 2017-08-24 17:45:42.800501
+[92mSession begins...[0m
+C:\Users\Muratcan\Desktop\ffff will be reading by 2017-08-24 17:55:15.287370
+7 sessions have been found in total by 2017-08-24 17:55:21.463235
+3 sessions have been found useful by 2017-08-24 17:55:21.466169
+[92mSession begins...[0m
+[95m2017-07-31 20:49:11.605000: Product with id 0 clicked420777f02bf52762f2034e25b4283d93389486c76c212cff7c79c007277a983a not from the searches so far. (Apple iPhone 7 Plus 256GB - Apple Turkiye Garantili for cookie 2.[0m
+[92mCOOKIE CHANGED.[0m
+2017-07-31 20:49:55.040000: Searching, Showing 0 products with order wbm on page 1 for iphone 7 for cookie 1.
+[92mSession end.[0m
+[92mSession begins...[0m
+[95m2017-07-31 13:34:56.841000: Product with id 0 clicked2ced62d939d4c9887eaddb3410c41b6aa4196d6cda89468ed9ff5f30375e9803 not from the searches so far. (Belis 6614 60*120 4 Cekmeceli Citali Besik for cookie 2.[0m
+[95m2017-07-31 18:16:34.506000: Product with id 0 clickedd60c922d033296499301f9666bbd51ec8784ac09a8453bfab996dc1ea805152a not from the searches so far. (Fakir Veyron Oko Toz Torbasiz Elektrikli Supurge KIRMIZI for cookie 2.[0m
+2017-07-31 19:08:37.851000: Searching, Showing 0 products with order wbm on page 1 for kaleci uhlsport for cookie 2.
+[95m2017-07-31 19:08:59.907000: Product with id 0 clickedd42d5c5dceac05a4bab6df4fcb49bb651bf8cb0e3908fe0a3da7bd2fde4c9292 not from the searches so far. (Uhlsport Eliminator Soft Pro Lite - Kaleci Eldiveni 1011032 Ucretsiz Kargo for cookie 2.[0m
+2017-07-31 19:09:06.333000: Searching, Showing 0 products with order wbm on page 1 for kaleci uhlsport for cookie 2.
+[95m2017-07-31 19:09:18.672000: Product with id 0 clicked9ec15a7c20b8b7a2a1635d0c2722e6c9f3db3df678c10fb6f454162c9ba34d43 not from the searches so far. (Uhlsport Eliminator Starter Soft Lite - Kaleci Eldiveni 1011035 Ucretsiz Kargo for cookie 2.[0m
+2017-07-31 19:09:48.314000: Searching, Showing 0 products with order wbm on page 1 for kaleci uhlsport for cookie 2.
+[95m2017-07-31 19:09:55.684000: Product with id 0 clickedd42d5c5dceac05a4bab6df4fcb49bb651bf8cb0e3908fe0a3da7bd2fde4c9292 not from the searches so far. (Uhlsport Eliminator Soft Pro Lite - Kaleci Eldiveni 1011032 Ucretsiz Kargo for cookie 2.[0m
+2017-07-31 19:10:05.435000: Searching, Showing 0 products with order wbm on page 1 for kaleci uhlsport for cookie 2.
+[95m2017-07-31 19:10:12.559000: Product with id 0 clicked79c489cba48e108bbe65582b1df4ab421747b37fdce007cd0a72298f1db3a490 not from the searches so far. (Uhlsport Eliminator Supersoft Lite - Kaleci Eldiveni 1011022-01 Ucretsiz Kargo for cookie 2.[0m
+2017-07-31 19:10:18.081000: Searching, Showing 0 products with order wbm on page 1 for kaleci uhlsport for cookie 2.
+[95m2017-07-31 19:10:26.004000: Product with id 0 clicked9ec15a7c20b8b7a2a1635d0c2722e6c9f3db3df678c10fb6f454162c9ba34d43 not from the searches so far. (Uhlsport Eliminator Starter Soft Lite - Kaleci Eldiveni 1011035 Ucretsiz Kargo for cookie 2.[0m
+2017-07-31 19:10:39.366000: Searching, Showing 0 products with order wbm on page 1 for kaleci uhlsport for cookie 2.
+[92mCOOKIE CHANGED.[0m
+[95m2017-07-31 20:30:58.858000: Product with id 0 clicked6d33ca027e470414300132fd4c9217b5b2146cfa1c41aee3ecca416fbd598c51 not from the searches so far. (4 CEKIRDEKLI%2B2GB RAM%2BANDROID 5.1.1%2BSMART TV BOX%2BTIVINIZI SMART TV YAPIN%2BUSB%2BWIFI%2BAIR MOUSE KEYBOARD for cookie 3.[0m
+[92mCOOKIE CHANGED.[0m
+2017-07-31 20:31:44.332000: Searching, Showing 1 products with order wbm on page 1 for android for cookie 2.
+2017-07-31 20:32:57.976000: Page extended, Showing 1 products with order wbm on page 1 for android tv box for cookie 2.
+[95m2017-07-31 20:33:27.063000: Product with id 0 clicked51f9f9fd7500aafd96878e78561a7864a1fc001479e043c6a03782c89612b69c not from the searches so far. (2017 Model S912 2GB 16GB 8 Cekirdek Android Tv Box 3D H265 4K HDR 10 for cookie 2.[0m
+[95m2017-07-31 20:35:15.518000: Product with id 0 clicked548ad911e64cee8396685891578eb0bea638407afab9d6fed884b0ec04fb176a not from the searches so far. (4 CEKIRDEKLI%2B2GB RAM%2BANDROID 5.1.1%2BSMART TV BOX%2BTIVINIZI SMART TV YAPIN%2BUSB%2BWIFI for cookie 2.[0m
+[92mSession end.[0m
+C:\Users\Muratcan\Desktop\logs.rtf will be reading by 2017-08-24 18:14:30.142425
+1 sessions have been found in total by 2017-08-24 18:14:40.287476
+1 sessions have been found useful by 2017-08-24 18:14:40.288453
+[92mSession begins...[0m
+2017-08-22 16:24:45.538000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:24:54.890000: 2. Product with id 297673310 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:25:17.670000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:25:28.279000: 3. Product with id 298514440 clicked. (Apple iPhone 7 Plus 128 GB Akilli Cep Telefonu for cookie 0.[0m
+2017-08-22 16:25:44.057000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:25:50.303000: 6. Product with id 299919753 clicked. (Apple iPhone 7 32 GB Akilli Cep Telefonu for cookie 0.[0m
+2017-08-22 16:26:16.630000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:26:23.466000: 8. Product with id 299594594 clicked. (Apple Iphone 7 128 GB Kirmizi Renk for cookie 0.[0m
+2017-08-22 16:26:44.713000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:26:48.013000: 9. Product with id 298840198 clicked. (Apple iPhone 7 128GB Akilli Cep Telefonu for cookie 0.[0m
+2017-08-22 16:27:09.864000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:27:39.686000: 12. Product with id 295612179 clicked. (APPLE iPhone 7 128GB MN942TU%2FA Gold - Apple TR Garantilidir for cookie 0.[0m
+[94m2017-08-22 16:28:09.715000: 12. Product with id 295612179 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:28:49.041000: 12. Product with id 295612179 clicked. (APPLE iPhone 7 128GB MN942TU%2FA Gold - Apple TR Garantilidir for cookie 0.[0m
+2017-08-22 16:28:52.619000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:29:05.599000: 10. Product with id 299472050 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-22 16:29:25.544000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:29:34.989000: 13. Product with id 284555859 clicked. (APPLE IPHONE 7 PLUS 32GB BLACK AKILLI TELEFON for cookie 0.[0m
+2017-08-22 16:29:41.580000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:30:01.119000: 17. Product with id 299752941 clicked. (Apple iPhone 7 128GB Gold - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:30:29.462000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:30:39.859000: 13. Product with id 284555859 clicked. (APPLE IPHONE 7 PLUS 32GB BLACK AKILLI TELEFON for cookie 0.[0m
+[94m2017-08-22 16:31:10.991000: 13. Product with id 284555859 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:31:37.030000: 13. Product with id 284555859 clicked. (APPLE IPHONE 7 PLUS 32GB BLACK AKILLI TELEFON for cookie 0.[0m
+2017-08-22 16:31:41.814000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:31:51.146000: 21. Product with id 294957990 clicked. (Apple iPhone 7 Plus 128GB Jet Black Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+[94m2017-08-22 16:32:47.987000: 21. Product with id 294957990 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:33:08.429000: 21. Product with id 294957990 clicked. (Apple iPhone 7 Plus 128GB Jet Black Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:33:13.782000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:33:24.514000: 29. Product with id 296469155 clicked. (IPHONE 7 128 GB KIRMIZI CEP TELEFONU APPLE TURKIYE GARANTILI for cookie 0.[0m
+2017-08-22 16:33:33.986000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:33:37.979000: 27. Product with id 300769695 clicked. (Apple iPhone 7 Plus 32GB Akilli Telefon for cookie 0.[0m
+2017-08-22 16:33:46.903000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:33:52.916000: 38. Product with id 284154743 clicked. (Apple iPhone 7 Plus 256Gb Altin for cookie 0.[0m
+[94m2017-08-22 16:34:08.316000: 38. Product with id 284154743 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:34:14.432000: 38. Product with id 284154743 clicked. (Apple iPhone 7 Plus 256Gb Altin for cookie 0.[0m
+2017-08-22 16:34:19.465000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:34:28.848000: 37. Product with id 291705515 clicked. (Apple iPhone 7 Plus 256Gb Siyah for cookie 0.[0m
+2017-08-22 16:34:37.050000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:34:45.623000: 44. Product with id 296469550 clicked. (IPHONE 7 PLUS 256 GB CEP TELEFONU for cookie 0.[0m
+2017-08-22 16:34:53.832000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:35:06.121000: 45. Product with id 300181647 clicked. (IPHONE 7 128 GB CEP TELEFONU 6 RENK APPLE TURKIYE GARANTILI for cookie 0.[0m
+2017-08-22 16:35:14.028000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:35:17.864000: 35. Product with id 300190014 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-22 16:35:26.956000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:35:32.987000: 21. Product with id 294957990 clicked. (Apple iPhone 7 Plus 128GB Jet Black Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:35:41.150000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:35:51.426000: 4. Product with id 297674194 clicked. (APPLE iPhone 7 32 GB Silver Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+[94m2017-08-22 16:36:04.985000: 4. Product with id 297674194 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:36:09.344000: 4. Product with id 297674194 clicked. (APPLE iPhone 7 32 GB Silver Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:36:11.344000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+2017-08-22 16:40:26.470000: Refreshed, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:40:41.760000: 1. Product with id 297672997 clicked. (APPLE iPhone 7 32 GB Gold Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:40:50.877000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:40:57.082000: 4. Product with id 297674194 clicked. (APPLE iPhone 7 32 GB Silver Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:41:06.413000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:41:17.604000: 11. Product with id 300163265 clicked. (APPLE IPHONE 7 256GB CEP TELEFONU %2A%2A%2AJETBLACK%2A%2A%2A %28APPLE TR GARANTILI%29 for cookie 0.[0m
+[95m2017-08-22 16:41:17.604000: 11. Product with id 300163265 clicked. (APPLE IPHONE 7 256GB CEP TELEFONU %2A%2A%2AJETBLACK%2A%2A%2A %28APPLE TR GARANTILI%29 for cookie 0.[0m
+[94m2017-08-22 16:41:30.295000: 11. Product with id 300163265 added to the cart for cookie 0.[0m
+[94m2017-08-22 16:41:30.295000: 11. Product with id 300163265 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:41:39.794000: 11. Product with id 300163265 clicked. (APPLE IPHONE 7 256GB CEP TELEFONU %2A%2A%2AJETBLACK%2A%2A%2A %28APPLE TR GARANTILI%29 for cookie 0.[0m
+2017-08-22 16:41:41.768000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:41:45.780000: 12. Product with id 295612179 clicked. (APPLE iPhone 7 128GB MN942TU%2FA Gold - Apple TR Garantilidir for cookie 0.[0m
+2017-08-22 16:41:55.706000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:42:02.764000: 14. Product with id 284555842 clicked. (APPLE IPHONE 7 32GB GOLD AKILLI TELEFON for cookie 0.[0m
+2017-08-22 16:42:13.901000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:42:23.541000: 23. Product with id 289077770 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-22 16:42:31.596000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:42:36.528000: 33. Product with id 291705515 clicked. (Apple iPhone 7 Plus 256Gb Siyah for cookie 0.[0m
+[94m2017-08-22 16:42:42.657000: 33. Product with id 291705515 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:42:46.518000: 33. Product with id 291705515 clicked. (Apple iPhone 7 Plus 256Gb Siyah for cookie 0.[0m
+2017-08-22 16:43:03.625000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:43:11.239000: 41. Product with id 300190014 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-22 16:43:18.357000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:43:27.481000: 44. Product with id 267698233 clicked. (APPLE IPHONE 7 PLUS 128GB ROSE GOLD for cookie 0.[0m
+2017-08-22 16:43:39.224000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:43:44.411000: 37. Product with id 282057878 clicked. (Apple iPhone 7 32Gb Gold for cookie 0.[0m
+[94m2017-08-22 16:44:01.786000: 37. Product with id 282057878 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:44:05.560000: 37. Product with id 282057878 clicked. (Apple iPhone 7 32Gb Gold for cookie 0.[0m
+2017-08-22 16:44:07.956000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:44:16.405000: 43. Product with id 294958005 clicked. (Apple iPhone 7 Plus 256GB Silver Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-22 16:44:24.235000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:44:28.791000: 39. Product with id 300542459 clicked. (IPHONE 7 PLUS 128 GB-APPLE TURKIYE GARANTILI%2CADINIZA FATURALI%2CSIFIR%2CKREDI KARTLI SATIS DEGILDIR. for cookie 0.[0m
+2017-08-22 16:44:36.725000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:44:41.552000: 45. Product with id 294809681 clicked. (APPLE IPHONE 7 128GB KIRMIZI AKILLI TELEFON for cookie 0.[0m
+2017-08-22 16:44:50.956000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:44:59.408000: 57. Product with id 300237336 clicked. (Iphone 7 Silver 128 GB%2C 6 Aylik%2C Yaninda 2 tane Iphone 7 orjinal kulakligi ve sarji for cookie 0.[0m
+2017-08-22 16:45:07.656000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-22 16:45:10.629000: 48. Product with id 296469550 clicked. (IPHONE 7 PLUS 256 GB CEP TELEFONU for cookie 0.[0m
+[94m2017-08-22 16:45:31.212000: 48. Product with id 296469550 added to the cart for cookie 0.[0m
+[95m2017-08-22 16:45:34.860000: 48. Product with id 296469550 clicked. (IPHONE 7 PLUS 256 GB CEP TELEFONU for cookie 0.[0m
+2017-08-23 08:43:01.271000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:43:25.398000: 1. Product with id 297673310 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 08:43:39.792000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:43:43.019000: 3. Product with id 298514440 clicked. (Apple iPhone 7 Plus 128 GB Akilli Cep Telefonu for cookie 0.[0m
+2017-08-23 08:43:53.849000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:44:12.923000: 11. Product with id 284555842 clicked. (APPLE IPHONE 7 32GB GOLD AKILLI TELEFON for cookie 0.[0m
+2017-08-23 08:44:23.818000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:44:27.820000: 12. Product with id 284555859 clicked. (APPLE IPHONE 7 PLUS 32GB BLACK AKILLI TELEFON for cookie 0.[0m
+2017-08-23 08:44:38.824000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:44:48.286000: 14. Product with id 299753140 clicked. (Apple iPhone 7 Plus 256GB Telefon - Simsiyah %28MN512TU%2FA%29 for cookie 0.[0m
+[94m2017-08-23 08:45:01.831000: 14. Product with id 299753140 added to the cart for cookie 0.[0m
+[95m2017-08-23 08:45:06: 14. Product with id 299753140 clicked. (Apple iPhone 7 Plus 256GB Telefon - Simsiyah %28MN512TU%2FA%29 for cookie 0.[0m
+2017-08-23 08:45:08.456000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:45:20.533000: 16. Product with id 298518363 clicked. (Apple iPhone 7 Plus 256Gb Simsiyah for cookie 0.[0m
+2017-08-23 08:45:37.389000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:45:43.862000: 21. Product with id 289077770 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-23 08:45:59.507000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:46:09.529000: 22. Product with id 295698790 clicked. (APPLE IPHONE 7 PLUS 128GB JET BLACK for cookie 0.[0m
+2017-08-23 08:46:39.004000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:46:46.855000: 25. Product with id 300237336 clicked. (Iphone 7 Silver 128 GB%2C 6 Aylik%2C Yaninda 2 tane Iphone 7 orjinal kulakligi ve sarji for cookie 0.[0m
+2017-08-23 08:46:56.770000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:47:08.669000: 28. Product with id 295612179 clicked. (APPLE iPhone 7 128GB MN942TU%2FA Gold - Apple TR Garantilidir for cookie 0.[0m
+2017-08-23 08:47:18.126000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:47:24.573000: 27. Product with id 300820461 clicked. (IPHONE 7 PLUS MAT SIYAH 32 GB TEMIZ for cookie 0.[0m
+[94m2017-08-23 08:47:37.207000: 27. Product with id 300820461 added to the cart for cookie 0.[0m
+[95m2017-08-23 08:47:42.091000: 27. Product with id 300820461 clicked. (IPHONE 7 PLUS MAT SIYAH 32 GB TEMIZ for cookie 0.[0m
+2017-08-23 08:47:43.563000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:47:58.336000: 32. Product with id 300768860 clicked. (Apple iPhone 7 32GB Akilli Telefon for cookie 0.[0m
+2017-08-23 08:48:06.775000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:48:15.412000: 40. Product with id 282060939 clicked. (Apple iPhone 7 Special Edition 128GB for cookie 0.[0m
+[94m2017-08-23 08:48:28.590000: 40. Product with id 282060939 added to the cart for cookie 0.[0m
+[95m2017-08-23 08:48:32.825000: 40. Product with id 282060939 clicked. (Apple iPhone 7 Special Edition 128GB for cookie 0.[0m
+2017-08-23 08:48:34.578000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 08:48:48.425000: 4. Product with id 297674194 clicked. (APPLE iPhone 7 32 GB Silver Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 09:44:12.552000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:44:40.988000: 2. Product with id 297672997 clicked. (APPLE iPhone 7 32 GB Gold Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 09:44:56.087000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:45:06.471000: 12. Product with id 299472050 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-23 09:45:18.855000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:45:27.600000: 13. Product with id 284555842 clicked. (APPLE IPHONE 7 32GB GOLD AKILLI TELEFON for cookie 0.[0m
+[94m2017-08-23 09:45:41.558000: 13. Product with id 284555842 added to the cart for cookie 0.[0m
+[95m2017-08-23 09:45:46.054000: 13. Product with id 284555842 clicked. (APPLE IPHONE 7 32GB GOLD AKILLI TELEFON for cookie 0.[0m
+2017-08-23 09:45:47.813000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:46:05.545000: 14. Product with id 284555859 clicked. (APPLE IPHONE 7 PLUS 32GB BLACK AKILLI TELEFON for cookie 0.[0m
+[94m2017-08-23 09:46:31.128000: 14. Product with id 284555859 added to the cart for cookie 0.[0m
+[95m2017-08-23 09:46:36.668000: 14. Product with id 284555859 clicked. (APPLE IPHONE 7 PLUS 32GB BLACK AKILLI TELEFON for cookie 0.[0m
+2017-08-23 09:46:39.270000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:46:53.581000: 15. Product with id 299753143 clicked. (Apple iPhone 7 256GB Cep Telefonu - Siyah %28MN972TU%2FA%29 for cookie 0.[0m
+2017-08-23 09:47:10.588000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:47:14.877000: 11. Product with id 298840198 clicked. (Apple iPhone 7 128GB Akilli Cep Telefonu for cookie 0.[0m
+2017-08-23 09:47:29.582000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:47:37.324000: 10. Product with id 299594594 clicked. (Apple Iphone 7 128 GB Kirmizi Renk for cookie 0.[0m
+2017-08-23 09:47:49.731000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:47:57.150000: 53. Product with id 300190014 clicked. (Iphone 7 128GB Red - MPRL2TU%2FA for cookie 0.[0m
+2017-08-23 09:48:08.400000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:48:11.986000: 44. Product with id 267698233 clicked. (APPLE IPHONE 7 PLUS 128GB ROSE GOLD for cookie 0.[0m
+2017-08-23 09:48:22.348000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:48:26.078000: 37. Product with id 291705515 clicked. (Apple iPhone 7 Plus 256Gb Siyah for cookie 0.[0m
+2017-08-23 09:48:35.592000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:48:46.280000: 1. Product with id 297673310 clicked. (APPLE iPhone 7 32 GB Rose Gold Akilli Telefon Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 09:48:58.397000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:49:09.360000: 48. Product with id 300185370 clicked. (IPhone 7 128GB Jet Black Cep Telefonu for cookie 0.[0m
+[94m2017-08-23 09:49:32.861000: 48. Product with id 300185370 added to the cart for cookie 0.[0m
+[95m2017-08-23 09:49:37.372000: 48. Product with id 300185370 clicked. (IPhone 7 128GB Jet Black Cep Telefonu for cookie 0.[0m
+2017-08-23 09:49:46.947000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:49:52.818000: 42. Product with id 294958009 clicked. (Apple iPhone 7 256GB Gold Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 09:50:03.965000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:50:11.196000: 40. Product with id 282060939 clicked. (Apple iPhone 7 Special Edition 128GB for cookie 0.[0m
+2017-08-23 09:50:23.626000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:50:30.417000: 43. Product with id 294958005 clicked. (Apple iPhone 7 Plus 256GB Silver Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 09:50:44.075000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:50:51.038000: 6. Product with id 300770578 clicked. (Apple iPhone 7 Plus 128GB Akilli Telefon for cookie 0.[0m
+2017-08-23 09:51:02.532000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:51:22.995000: 57. Product with id 299753135 clicked. (Apple iPhone 7 Plus 256GB Telefon - Gumus %28MN4X2TU%2FA%29 for cookie 0.[0m
+2017-08-23 09:51:33.140000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:51:37.770000: 46. Product with id 294228210 clicked. (APPLE IPHONE 7 128GB GOLD for cookie 0.[0m
+2017-08-23 09:51:48.440000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:51:52.350000: 40. Product with id 282060939 clicked. (Apple iPhone 7 Special Edition 128GB for cookie 0.[0m
+[94m2017-08-23 09:52:15.671000: 40. Product with id 282060939 added to the cart for cookie 0.[0m
+[95m2017-08-23 09:52:23.074000: 40. Product with id 282060939 clicked. (Apple iPhone 7 Special Edition 128GB for cookie 0.[0m
+2017-08-23 09:52:25.093000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:52:38.871000: 60. Product with id 299752940 clicked. (Apple iPhone 7 32GB Cep Telefonu - Roze Altin %28MN912TU%2FA%29 for cookie 0.[0m
+2017-08-23 09:52:52.897000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:52:55.967000: 49. Product with id 300799935 clicked. (Siyah IPhone 7 Plus 32 GB for cookie 0.[0m
+2017-08-23 09:53:05.878000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:53:08.617000: 42. Product with id 294958009 clicked. (Apple iPhone 7 256GB Gold Cep Telefonu - Apple Turkiye Garantili for cookie 0.[0m
+2017-08-23 09:53:20.253000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:53:30.962000: 10. Product with id 299594594 clicked. (Apple Iphone 7 128 GB Kirmizi Renk for cookie 0.[0m
+2017-08-23 09:53:42.513000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:53:48.409000: 15. Product with id 299753143 clicked. (Apple iPhone 7 256GB Cep Telefonu - Siyah %28MN972TU%2FA%29 for cookie 0.[0m
+2017-08-23 09:53:58.810000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:54:04.321000: 18. Product with id 298518363 clicked. (Apple iPhone 7 Plus 256Gb Simsiyah for cookie 0.[0m
+2017-08-23 09:54:16.642000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:54:24.439000: 22. Product with id 297838894 clicked. (APPLE IPHONE 7 PLUS 32GB GOLD AKILLI TELEFON for cookie 0.[0m
+2017-08-23 09:54:34.849000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:54:43.149000: 3. Product with id 298514440 clicked. (Apple iPhone 7 Plus 128 GB Akilli Cep Telefonu for cookie 0.[0m
+2017-08-23 09:55:05.164000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:55:14.428000: 37. Product with id 291705515 clicked. (Apple iPhone 7 Plus 256Gb Siyah for cookie 0.[0m
+2017-08-23 09:55:29.408000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:55:33.797000: 33. Product with id 296469155 clicked. (IPHONE 7 128 GB KIRMIZI CEP TELEFONU APPLE TURKIYE GARANTILI for cookie 0.[0m
+2017-08-23 09:55:45.077000: Searching, Showing 60 products with order wbm on page 1 for iphone 7 for cookie 0.
+[95m2017-08-23 09:55:52.130000: 40. Product with id 282060939 clicked. (Apple iPhone 7 Special Edition 128GB for cookie 0.[0m
+[94m2017-08-23 09:56:09.380000: 40. Product with id 282060939 added to the cart for cookie 0.[0m
+[92mSession end.[0m
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 21:13:45.434665: Running on MSI
+2017-08-24 21:13:54.919983: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 21:14:16.378430: Running on MSI
+2017-08-24 21:14:16.379408: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 21:14:21.559808: Running on MSI
+2017-08-24 21:14:21.559808: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 21:14:40.872178: Running on MSI
+2017-08-24 21:14:40.872178: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 21:14:46.213157
+0 products have been found in database to train by 2017-08-24 21:14:54.701803
+train instances is being generated by 2017-08-24 21:14:54.928461
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 21:21:23.380304: Running on MSI
+2017-08-24 21:21:23.381281: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 21:21:25.699448
+177 products have been found in database to train by 2017-08-24 21:21:34.139994
+train instances is being generated by 2017-08-24 21:21:34.168939
+3978 instances have been scaled by 2017-08-24 21:21:40.810378
+3978 train instances have been generated by 2017-08-24 21:21:46.272739
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 21:25:23.931157: Running on MSI
+2017-08-24 21:25:32.154026: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 21:25:37.271876
+177 products have been found in database to train by 2017-08-24 21:25:46.227088
+train instances is being generated by 2017-08-24 21:25:46.295419
+3978 instances have been scaled by 2017-08-24 21:25:53.265195
+3978 train instances have been generated by 2017-08-24 21:25:58.480144
+3181 instances have been selected to be trained 2017-08-24 21:26:17.793242
+797 instances have been selected to be tested 2017-08-24 21:26:17.796177
+
+Model has been trained on TrainData by 2017-08-24 21:26:41.732590
+The learned weights:
+[-0.270762366992, 0.010079460088, -1.19861311053, -0.359957284923, -0.216972902641, 0.156200578671, 0.13109053528, 0.714529035565, 0.0, 0.00156267717801, 0.0, -0.175229005115]
+
+
+Model has been evaluated on TrainData by 2017-08-24 21:26:51.911529
+The result accuracy is %84.282
+
+
+Model has been evaluated on TestData by 2017-08-24 21:27:02.648042
+The result accuracy is %87.077
+
+2017-08-24 21:27:02.651959: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+'photos',  'soldCount',  'feedbackPercentage',  'memberSoldCount',  'memberSegment',  'subtitleFlag',  'brandNew',  'freeCargo',  'dailyOffer',  'windowOptionFlag',  'price',  'productCount'
+'iphone 7',  24618,  177,  3978,  3181,  797,  -0.27076236699193779,  0.010079460087960729,  -1.1986131105261935,  -0.35995728492262385,  -0.21697290264101193,  0.15620057867148454,  0.13109053527958628,  0.71452903556476466,  0.0,  0.0015626771780103594,  0.0,  -0.17522900511519013,  84.28167243005345,  87.07653701380175
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 22:17:04.777999: Running on MSI
+2017-08-24 22:17:12.637844: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 22:17:17.327662
+567 ids have been gathered from the labeled pairs by 2017-08-24 22:17:27.720306
+177 products have been found in database to train by 2017-08-24 22:17:27.722335
+train instances is being generated by 2017-08-24 22:17:27.818950
+3978 instances have been scaled by 2017-08-24 22:17:34.701573
+3978 train instances have been generated by 2017-08-24 22:17:39.886237
+3213 instances have been selected to be trained 2017-08-24 22:17:58.626128
+765 instances have been selected to be tested 2017-08-24 22:17:58.628103
+
+Model has been trained on TrainData by 2017-08-24 22:18:22.262893
+The learned weights:
+[-0.157541767872, 0.0735848991045, -1.21971462275, -0.335520384415, -0.186310499424, 0.195084416144, 0.148912255982, 0.74948666319, 0.0, -0.0321128593009, 0.0, -0.203065448248]
+
+
+Model has been evaluated on TrainData by 2017-08-24 22:18:32.710321
+The result accuracy is %82.446
+
+
+Model has been evaluated on TestData by 2017-08-24 22:18:42.810101
+The result accuracy is %79.739
+
+2017-08-24 22:18:42.815011: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
+iphone 7, 24618, 567, 3978, 3213, 765, -0.15754176787239782, 0.073584899104525037, -1.2197146227495748, -0.33552038441464566, -0.18631049942436176, 0.19508441614369312, 0.14891225598198338, 0.74948666319020774, 0.0, -0.032112859300893547, 0.0, -0.20306544824755549, 82.44631185807657, 79.73856209150327
+
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 22:28:03.618021: Running on MSI
+2017-08-24 22:28:11.574270: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 22:28:16.476098
+567 ids have been gathered from the labeled pairs by 2017-08-24 22:28:26.906116
+177 products have been found in database to train by 2017-08-24 22:28:26.908122
+train instances is being generated by 2017-08-24 22:28:26.994942
+3978 instances have been scaled by 2017-08-24 22:28:33.770064
+3978 train instances have been generated by 2017-08-24 22:28:39.076185
+3200 instances have been selected to be trained 2017-08-24 22:28:58.099511
+778 instances have been selected to be tested 2017-08-24 22:28:58.101467
+
+Model has been trained on TrainData by 2017-08-24 22:29:22.205404
+The learned weights:
+[-0.117460668414, -0.095737844386, -1.16817848027, -0.341519418882, -0.172020204839, 0.102558025636, 0.185843026698, 0.792591934114, 0.0, 0.199343904631, 0.0, -0.153560118556]
+
+
+Model has been evaluated on TrainData by 2017-08-24 22:29:32.479589
+The result accuracy is %84.750
+
+
+Model has been evaluated on TestData by 2017-08-24 22:29:42.536851
+The result accuracy is %84.704
+
+2017-08-24 22:29:42.541739: Features selected for the following trains:
+['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 22:29:44.746776
+567 ids have been gathered from the labeled pairs by 2017-08-24 22:29:54.951133
+177 products have been found in database to train by 2017-08-24 22:29:54.954143
+train instances is being generated by 2017-08-24 22:29:54.996196
+3978 instances have been scaled by 2017-08-24 22:30:01.880611
+3978 train instances have been generated by 2017-08-24 22:30:07.068691
+3175 instances have been selected to be trained 2017-08-24 22:30:26.034020
+803 instances have been selected to be tested 2017-08-24 22:30:26.034995
+
+Model has been trained on TrainData by 2017-08-24 22:30:46.914004
+The learned weights:
+[-0.244127699749, -1.10981831348, -0.509443412143, -0.0738580791393, -0.170698389249, 0.192331159361, 0.220170730896, 0.795339599999, -0.0837250214379]
+
+
+Model has been evaluated on TrainData by 2017-08-24 22:30:57.051412
+The result accuracy is %80.346
+
+
+Model has been evaluated on TestData by 2017-08-24 22:31:07.899641
+The result accuracy is %82.565
+
+2017-08-24 22:31:07.903552: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-24 22:38:28.681477: Running on MSI
+2017-08-24 22:38:36.785514: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 22:38:41.684789
+567 ids have been gathered from the labeled pairs by 2017-08-24 22:38:52.202184
+177 products have been found in database to train by 2017-08-24 22:38:52.204138
+train instances is being generated by 2017-08-24 22:38:52.305205
+3978 instances have been scaled by 2017-08-24 22:38:59.243789
+3978 train instances have been generated by 2017-08-24 22:39:05.363015
+3202 instances have been selected to be trained 2017-08-24 22:39:24.870914
+776 instances have been selected to be tested 2017-08-24 22:39:24.871888
+
+Model has been trained on TrainData by 2017-08-24 22:39:46.919784
+The learned weights:
+[-0.142196344064, 0.0161368717184, -1.15617062371, -0.361554001865, -0.239665459432, 0.19591842377, 0.149609169503, 0.6845589833, 0.0, 0.108884225454, 0.0, -0.191241454568]
+
+
+Model has been evaluated on TrainData by 2017-08-24 22:39:57.474563
+The result accuracy is %84.510
+
+
+Model has been evaluated on TestData by 2017-08-24 22:40:08.978869
+The result accuracy is %86.211
+
+2017-08-24 22:40:08.981351: Features selected for the following trains:
+['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+C:\Users\Muratcan\Desktop\iphone_7_pairs with 24618 labeledPairs will be reading by 2017-08-24 22:40:11.264133
+567 ids have been gathered from the labeled pairs by 2017-08-24 22:40:21.966385
+177 products have been found in database to train by 2017-08-24 22:40:21.969347
+train instances is being generated by 2017-08-24 22:40:22.003536
+3978 instances have been scaled by 2017-08-24 22:40:28.779833
+3978 train instances have been generated by 2017-08-24 22:40:33.861725
+3176 instances have been selected to be trained 2017-08-24 22:40:52.407059
+802 instances have been selected to be tested 2017-08-24 22:40:52.409032
+
+Model has been trained on TrainData by 2017-08-24 22:41:13.917514
+The learned weights:
+[-0.111052343177, -1.10465934252, -0.522973019872, -0.0140166807079, -0.179149644546, 0.2521836931, 0.221241358264, 0.852120432378, -0.0721644591228]
+
+
+Model has been evaluated on TrainData by 2017-08-24 22:41:24.262797
+The result accuracy is %81.455
+
+
+Model has been evaluated on TestData by 2017-08-24 22:41:34.651728
+The result accuracy is %80.673
+
+outputs\outputTable1.csv has been saved successfully by 2017-08-24 22:41:34.658571
+2017-08-24 22:41:34.661532: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
+iphone 7, 24618, 567, 177, 3978, 3202, 776, -0.14219634406362103, 0.016136871718399667, -1.1561706237134097, -0.36155400186517017, -0.23966545943157516, 0.1959184237704287, 0.14960916950340136, 0.68455898330036791, 0.0, 0.1088842254544779, 0.0, -0.19124145456797473, 84.50968144909432, 86.21134020618557
+Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, feedbackPercentage, memberSoldCount, soldCount, memberSegment, subtitleFlag, brandNew, freeCargo, windowOptionFlag, TrainingAccuracy, TestAccuracy
+iphone 7, 24618, 567, 177, 3978, 3176, 802, -0.11105234317688839, -1.1046593425215121, -0.52297301987161326, -0.014016680707870747, -0.17914964454623372, 0.25218369310000233, 0.22124135826443272, 0.85212043237785173, -0.072164459122786337, 81.45465994962217, 80.67331670822942
+

@@ -87,15 +87,29 @@ def trainingTest21():
     keywords = ['besiktas', 'kol_saati', 'iphone_7', 'iphone_7_kilif']
     for keyword in keywords: 
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
-        FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
+        FinalizedRunners.trainForKeyword(keyword, folder, saving = True)
+
+def trainingTestAll():
+    import paths, FinalizedRunners, Trainer, ReadyTests
+    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
+            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
+            'productCount']
+    #feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
+    #        'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+    Trainer.setFeatureVector(feature_names)
+    keywords = ReadyTests.get27Keywords()[:17]
+    for keyword in keywords: 
+        folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
+        FinalizedRunners.trainForKeyword(keyword, folder, saving = True)
 
 def runNewExtractionMethods():
     #trainAllTest()
     #may17ExtractionTest(29)
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
-    august(1, 6)
     #trainingTest21()
+    #august(1, 6)
+    trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2

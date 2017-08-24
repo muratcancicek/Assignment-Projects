@@ -11,7 +11,7 @@ def main(method = None, kill = True):
 
     if method == None:
         import SparkerMethods
-        SparkerMethods.run()
+        SparkerMethods.run(setMaster = True)
     else:
         method()
 

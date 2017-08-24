@@ -34,7 +34,7 @@ def runSpark(setMaster = True):
     sc = addPyFiles(sc, dr)
     SparkLogFileHandler.setSparkContext(sc)
 
-def run(): 
-    runSpark() 
+def run(setMaster = True): 
+    runSpark(setMaster = setMaster) 
     import NewExtractorRunner
     NewExtractorRunner.runNewExtractionMethods()
