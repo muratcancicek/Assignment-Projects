@@ -43,7 +43,7 @@ def parseLog(log):
             else:
                 log['ids'] = [log['ids']]
     for key, value in log.items():            
-       log[key] = convertPossibleType(value)
+        log[key] = convertPossibleType(value)
     if 'timestamp' in log.keys():
         import datetime
         log["time"] = str(datetime.datetime.fromtimestamp(int(log["timestamp"])/ 1e3))

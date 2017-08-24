@@ -163,14 +163,18 @@ def printActMan():
     keywords = ['iphone 7']
     import LumberjackConstants as L
     import paths, PythonVersionHandler, SparkLogFileHandler, SearchExtractor, FinalizedRunners, Sessionizer, SparkLogReader
-    extractedPath = 'C:\\Users\\Muratcan\\Desktop\\logs.rtf'
-   # extractedPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31/part-r-00000.zip'
+    #extractedPath = 'C:\\Users\\Muratcan\\Desktop\\logs.rtf'.filter(lambda l: l[L.KEY_MODULE] == L.KEY_MODULE_ITEM)
+    #extractedPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/logs.rtf'
+    extractedPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31/part-r-00000.gz'
     logs = FinalizedRunners.getPreparedLogsFromHDFS(extractedPath)
-    lo = logs.filter(lambda l: l[L.KEY_MODULE] == L.KEY_MODULE_ITEM) \
-    .map(SearchExtractor.refererParserOnLog).map(lambda log: log[L.KEY_REFERER]).map(SearchExtractor.refererParser)
+    lo = logs.filter(lambda l: L.KEY_MODULE in l.keys())
     print(lo.count())
-    for p in lo.take(10): print(p)
-    lo = lo.filter(lambda l: 'page' in l.keys()).filter(lambda l: 'arama' in l['page'])
+    lo = lo.map(SearchExtractor.refererParserOnLog).map(lambda log: (log[L.KEY_MODULE], log[L.KEY_REFERER])).map(lambda log: (log[0],SearchExtractor.refererParser(log[1])))
+    print(lo.count())
+    #for p in lo.take(10): print(p)
+    lo = lo.filter(lambda l: 'page' in l[1].keys()).filter(lambda l: 'arama' in l[1]['page'])
+    print(lo.count())
+    lo = lo.filter(lambda l: l[0] == L.KEY_MODULE_ITEM)
     print(lo.count())
     for p in lo.collect(): print(p)
     #keywordDict = SearchExtractor.searchNProductLogsByKeywords(logs, keywords)  
@@ -178,4 +182,4 @@ def printActMan():
     
     #sessions = Sessionizer.sessionize(keywordDict['iphone 7'])
     #if len(sessions) > 0:
-    #    SparkLogReader.printSessionActions(sessions[0])
+        #SparkLogReader.printSessionActions(sessions[0])

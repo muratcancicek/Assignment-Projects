@@ -6,17 +6,18 @@ def iriTest():
 
 def isProduct(log):
     import LumberjackConstants as L
-    return log[L.KEY_MODULE] in [L.KEY_MODULE_ITEM, L.KEY_MODULE_CART, L.KEY_MODULE_PAYMENT]
+    return (log[L.KEY_MODULE] in [L.KEY_MODULE_ITEM, L.KEY_MODULE_CART, L.KEY_MODULE_PAYMENT]) if L.KEY_MODULE in log.keys() else False
 
 def isSearch(log):
     import LumberjackConstants as L
-    return log[L.KEY_MODULE] == L.KEY_MODULE_SEARCH and L.KEY_KEYWORD in log.keys()
+    return (log[L.KEY_MODULE] == L.KEY_MODULE_SEARCH and L.KEY_KEYWORD in log.keys()) if L.KEY_MODULE in log.keys() else False
 
 def specificSearches(logs, keywords):
     import LumberjackConstants as L
     searches = logs.filter(isSearch)
     if len(keywords) == 1: 
-        keyword = keywords[0]; return searches.filter(lambda log: L.KEY_ID_LIST in log.keys() and str(log[L.KEY_KEYWORD]).lower() == keyword)
+        keyword = keywords[0]; 
+        return searches.filter(lambda log: L.KEY_ID_LIST in log.keys() and str(log[L.KEY_KEYWORD]).lower() == keyword)
     else:
         return searches.filter(lambda log: L.KEY_ID_LIST in log.keys() and str(log[L.KEY_KEYWORD]).lower() in keywords)
 
@@ -113,6 +114,7 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     import LumberjackConstants as L
     import PythonVersionHandler, SparkLogFileHandler
     PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
+    print('print: ' + str(searches.count()))
     searches = searches.filter(lambda log: log[L.KEY_KEYWORD] == keyword)
     PythonVersionHandler.print_logging(searches.count(), 'searches have found for', keyword, 'by', PythonVersionHandler.nowStr())
     if searches.count() == 0:
