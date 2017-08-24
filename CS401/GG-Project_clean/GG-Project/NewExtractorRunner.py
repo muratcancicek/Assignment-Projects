@@ -103,6 +103,8 @@ def trainingTestAll():
         keyword = keyword.replace(' ', '_')
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
         FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
+    Trainer.printOutputTable()
+    Trainer.saveOutputTable()
 
 def runNewExtractionMethods():
     #trainAllTest()
