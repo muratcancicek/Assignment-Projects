@@ -89,13 +89,8 @@ def trainingTest21():
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
         FinalizedRunners.trainForKeyword(keyword, folder, saving = True)
 
-def trainingTestAll():
+def trainingTestAllLoop(feature_names):
     import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
-    #feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
-    #        'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
-    #        'productCount']
-    feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
-            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
     Trainer.setFeatureVector(feature_names)
     keywords = ReadyTests.get27Keywords()[:17]
     for c, keyword in enumerate(keywords): 
@@ -105,6 +100,16 @@ def trainingTestAll():
         FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
     Trainer.printOutputTable()
     Trainer.saveOutputTable()
+    Trainer.outputTable = []
+
+def trainingTestAll():
+    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
+            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
+            'productCount']
+    trainingTestAllLoop(feature_names)
+    feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
+            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+    trainingTestAllLoop(feature_names)
 
 def runNewExtractionMethods():
     #trainAllTest()
@@ -112,8 +117,8 @@ def runNewExtractionMethods():
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
     #trainingTest21()
-    august(7, 13)
-    #trainingTestAll()
+    #august(7, 13)
+    trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
