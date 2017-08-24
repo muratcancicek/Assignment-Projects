@@ -76,10 +76,7 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     listedIds = searches.flatMap(lambda log: log[L.KEY_ID_LIST]).distinct().map(lambda i: (i, i))
     import PythonVersionHandler
     PythonVersionHandler.print_high_logging(listedIds.count(), 'products have listed on searches for', keyword, 'by', PythonVersionHandler.nowStr())
-    SparkLogReader.printSessionActions(productLogs)
-    p = productLogs.collect()
-    for i in p: print(i)
-    viewedProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_ITEM and log[L.KEY_REFERER]['k'] == keyword)#
+    viewedProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_ITEM and log[L.KEY_REFERER]['k'] == keyword)
     PythonVersionHandler.print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
     viewedProductLogs = viewedProductLogs.map(lambda log: (log[L.KEY_ID], log))
     viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1][1])
@@ -114,7 +111,6 @@ def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
     import LumberjackConstants as L
     import PythonVersionHandler, SparkLogFileHandler
     PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
-    print('print: ' + str(searches.count()))
     searches = searches.filter(lambda log: log[L.KEY_KEYWORD] == keyword)
     PythonVersionHandler.print_logging(searches.count(), 'searches have found for', keyword, 'by', PythonVersionHandler.nowStr())
     if searches.count() == 0:

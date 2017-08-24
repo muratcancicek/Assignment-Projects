@@ -70,14 +70,14 @@ def trainAllTest():
         
 def august(firstDay, lastDay):
     import paths, FinalizedRunners, ReadyTests
-    inputPaths =['hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31']
+    inputPaths =[]
     for day in range(firstDay, lastDay + 1):
         dateStr = '2017-08-0' + str(day)
         inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()[1:4]
+    keywords = ReadyTests.get27Keywords()
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    FinalizedRunners.extractObjectiveLogs(inputPaths, keywords, outputPath)
+    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 
 def trainingTest21():
     import paths, FinalizedRunners, Trainer
@@ -112,8 +112,8 @@ def runNewExtractionMethods():
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
     #trainingTest21()
-    #august(1, 6)
-    trainingTestAll()
+    august(7, 13)
+    #trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
