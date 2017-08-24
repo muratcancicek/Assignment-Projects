@@ -163,8 +163,8 @@ def printActMan():
     keywords = ['iphone 7']
     import LumberjackConstants as L
     import paths, PythonVersionHandler, SparkLogFileHandler, SearchExtractor, FinalizedRunners, Sessionizer, SparkLogReader
-    #extractedPath = 'C:\\Users\\Muratcan\\Desktop\\logs.rtf'
-    extractedPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31/part-r-00000.zip'
+    extractedPath = 'C:\\Users\\Muratcan\\Desktop\\logs.rtf'
+   # extractedPath = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31/part-r-00000.zip'
     logs = FinalizedRunners.getPreparedLogsFromHDFS(extractedPath)
     lo = logs.filter(lambda l: l[L.KEY_MODULE] == L.KEY_MODULE_ITEM) \
     .map(SearchExtractor.refererParserOnLog).map(lambda log: log[L.KEY_REFERER]).map(SearchExtractor.refererParser)
