@@ -162,7 +162,7 @@ def train(labeledPairsPath, productsPath, outputPath = None, saving = True, keyw
     #    return
     ids = labeledPairs.flatMap(lambda i: i[0]).distinct()
     products = getProducts(ids, productsPath)
-    if outputPath == None and saving:
+    if outputPath != None and saving:
         saveSpecificProduct(products, outputPath)
     trainData = generateTrainData(labeledPairs, products)
     if trainData.isEmpty(): 

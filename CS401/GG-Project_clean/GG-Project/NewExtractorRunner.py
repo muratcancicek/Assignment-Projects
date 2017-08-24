@@ -90,7 +90,7 @@ def trainingTest21():
         FinalizedRunners.trainForKeyword(keyword, folder, saving = True)
 
 def trainingTestAll():
-    import paths, FinalizedRunners, Trainer, ReadyTests
+    import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
             'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
             'productCount']
@@ -98,7 +98,9 @@ def trainingTestAll():
     #        'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
     Trainer.setFeatureVector(feature_names)
     keywords = ReadyTests.get27Keywords()[:17]
-    for keyword in keywords: 
+    for c, keyword in enumerate(keywords): 
+        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
+        keyword = keyword.replace(' ', '_')
         folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
         FinalizedRunners.trainForKeyword(keyword, folder, saving = True)
 
