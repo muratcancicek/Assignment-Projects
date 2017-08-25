@@ -114,6 +114,7 @@ def trainingTestAll():
 def bes():
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     keyword = 'besiktas'
+    keyword_name = keyword
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
     logs = getPreparedLogsFromHDFS(outputPath, filtering = True)

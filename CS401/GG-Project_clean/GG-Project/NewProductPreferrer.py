@@ -73,9 +73,10 @@ def trainingInstancesForSingleKeyword(logs):
         PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
         return SparkLogFileHandler.sc_().parallelize([])
     searches = searches.map(Sessionizer.idSetter)
-    viewedProductLogs = viewedProductLogs.map(lambda kv: Sessionizer.idSetter(kv[1]))
-    cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(lambda kv: Sessionizer.idSetter(kv[1][1]))
-    pairs = getLabeledPairs(searches, viewedProductLogs.union(cartedOrPaidProductLogs))
+    #viewedProductLogs = viewedProductLogs.map(Sessionizer.idSetter)#.map(lambda kv: Sessionizer.idSetter(kv[1]))
+    #cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(Sessionizer.idSetter)#.map(lambda kv: Sessionizer.idSetter(kv[1][1]))
+    productLogs = viewedProductLogs.union(cartedOrPaidProductLogs).map(Sessionizer.idSetter)
+    pairs = getLabeledPairs(searches, productLogs)
     if pairs.count() > 0:
         PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found by', PythonVersionHandler.nowStr())
     else:
