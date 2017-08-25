@@ -126,7 +126,12 @@ def bes():
         pairs = pairs.coalesce(24)
         outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
         SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
-        FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
+            
+def besTrain():
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners
+    keyword_name = keyword
+    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
+    FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
 
 def runNewExtractionMethods():
     #trainAllTest()
@@ -136,7 +141,7 @@ def runNewExtractionMethods():
     #trainingTest21()
     #august(7, 13)
     #trainingTestAll()
-    bes()
+    besTrain()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
