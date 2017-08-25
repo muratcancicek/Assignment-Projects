@@ -79,8 +79,9 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
     viewedProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_ITEM and log[L.KEY_REFERER]['k'] == keyword)
     PythonVersionHandler.print_high_logging(viewedProductLogs.count(), 'views have found for', keyword, 'by', PythonVersionHandler.nowStr())
     viewedProductLogs = viewedProductLogs.map(lambda log: (log[L.KEY_ID], log))
-    viewedProductLogs = listedIds.join(viewedProductLogs).map(lambda kv: kv[1][1])
+    viewedProductLogs = listedIds.join(viewedProductLogs)
     viewedIds = viewedProductLogs.map(lambda kv: (kv[0], kv[0])).distinct()
+    viewedProductLogs = viewedProductLogs.map(lambda kv: kv[1][1])
     PythonVersionHandler.print_logging(viewedIds.count(), 'products have clicked on searches for', keyword, 'by', PythonVersionHandler.nowStr())
     cartedOrPaidProductLogs = productLogs.filter(lambda log: log[L.KEY_MODULE] == L.KEY_MODULE_CART or log[L.KEY_MODULE] == L.KEY_MODULE_PAYMENT)
     def singleId(log):
@@ -94,7 +95,7 @@ def productLogsFromBySingleKeyword(searches, productLogs, keyword):
         except TypeError:
             print(log[L.KEY_ID], 'not iteratable at SearchExtractor line 96')
             raise TypeError
-    cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId))
+    cartedOrPaidProductLogs = viewedIds.join(cartedOrPaidProductLogs.flatMap(singleId)).map(lambda kv: kv[1][1])
     PythonVersionHandler.print_logging(cartedOrPaidProductLogs.count(), 'cart and payments have found for', keyword, 'by', PythonVersionHandler.nowStr())
     return viewedProductLogs, cartedOrPaidProductLogs
 
