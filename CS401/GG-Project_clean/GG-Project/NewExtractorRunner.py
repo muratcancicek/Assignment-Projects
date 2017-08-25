@@ -117,8 +117,8 @@ def runNewExtractionMethods():
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
     #trainingTest21()
-    #august(7, 13)
-    trainingTestAll()
+    august(7, 13)
+    #trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
