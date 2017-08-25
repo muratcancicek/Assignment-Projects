@@ -130,7 +130,7 @@ def bes():
 def besTrain():
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners
     keyword = 'besiktas'
-    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
+    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust/' + keyword)
     FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
 
 def runNewExtractionMethods():
