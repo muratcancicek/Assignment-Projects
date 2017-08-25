@@ -75,7 +75,7 @@ def august(firstDay, lastDay):
         dateStr = '2017-08-0' + str(day) if day < 10 else '2017-08-' + str(day)
         inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()
+    keywords = ReadyTests.get27Keywords()[1:]
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 
@@ -139,9 +139,9 @@ def runNewExtractionMethods():
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
     #trainingTest21()
-    #august(7, 13)
+    august(7, 13)
     #trainingTestAll()
-    besTrain()
+    #besTrain()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
