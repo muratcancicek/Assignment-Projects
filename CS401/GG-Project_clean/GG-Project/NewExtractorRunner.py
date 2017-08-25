@@ -110,6 +110,19 @@ def trainingTestAll():
     feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
             'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
     trainingTestAllLoop(feature_names)
+    
+def bes():
+    keyword = 'besiktas'
+    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
+    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
+    logs = getPreparedLogsFromHDFS(outputPath, filtering = True)
+    searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
+    pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
+    if pairs.isEmpty():
+        return
+    else:
+        pairs = pairs.coalesce(24)
+        outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
 
 def runNewExtractionMethods():
     #trainAllTest()
@@ -117,8 +130,9 @@ def runNewExtractionMethods():
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
     #trainingTest21()
-    august(7, 13)
+    #august(7, 13)
     #trainingTestAll()
+    bes()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
