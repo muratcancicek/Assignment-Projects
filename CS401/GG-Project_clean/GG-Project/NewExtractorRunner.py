@@ -125,6 +125,8 @@ def bes():
     else:
         pairs = pairs.coalesce(24)
         outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
+        SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+        FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
 
 def runNewExtractionMethods():
     #trainAllTest()
