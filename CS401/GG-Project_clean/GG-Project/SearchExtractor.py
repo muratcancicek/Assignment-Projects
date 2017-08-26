@@ -105,13 +105,9 @@ def untuple(log):
         else: return log[1]
     else: return log
 
-c = 0
 def searchNProductLogsBySingleKeyword(searches, productLogs, keyword):
-    global c
-    c += 1
     import LumberjackConstants as L
     import PythonVersionHandler, SparkLogFileHandler
-    PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
     searches = searches.filter(lambda log: log[L.KEY_KEYWORD] == keyword)
     PythonVersionHandler.print_logging(searches.count(), 'searches have found for', keyword, 'by', PythonVersionHandler.nowStr())
     if searches.count() == 0:

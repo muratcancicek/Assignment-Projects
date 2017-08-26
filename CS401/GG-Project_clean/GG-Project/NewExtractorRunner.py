@@ -67,17 +67,6 @@ def trainAllTest():
         outputPath = paths.joinPath(paths.specificProductsFolder, keyword + '_products')
         productVectorFolder = outputPath
         Trainer.train(pairsPath, productVectorFolder, outputPath, saving = False)
-        
-def august(firstDay, lastDay):
-    import paths, FinalizedRunners, ReadyTests
-    inputPaths =[]
-    for day in range(firstDay, lastDay + 1):
-        dateStr = '2017-08-0' + str(day) if day < 10 else '2017-08-' + str(day)
-        inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
-        inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()[1:]
-    outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath)
 
 def trainingTest21():
     import paths, FinalizedRunners, Trainer
@@ -132,6 +121,17 @@ def besTrain():
     keyword = 'besiktas'
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust/' + keyword)
     FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
+        
+def august(firstDay, lastDay):
+    import paths, FinalizedRunners, ReadyTests
+    inputPaths =[]
+    for day in range(firstDay, lastDay + 1):
+        dateStr = '2017-08-0' + str(day) if day < 10 else '2017-08-' + str(day)
+        inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
+        inputPaths.append(inputPath)
+    keywords = ReadyTests.get27Keywords()
+    outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
+    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath, pairing = False, doneWords = 7)
 
 def runNewExtractionMethods():
     #trainAllTest()

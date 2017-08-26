@@ -73,11 +73,15 @@ def pairLabellingFromObjectiveLogsTest(inputPaths, keywords, outputFolder, filte
             SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
         PythonVersionHandler.print_logging()
     
-def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering = True):
+def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering = True, pairing = True, doneWords = 0):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
     logs = getPreparedLogsFromHDFS(inputPaths, filtering = filtering)
     logs = logs.map(tp)
-    for keyword in keywords:
+    for c, keyword in enumerate(keywords):
+        PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
+        if c < doneWords:
+            PythonVersionHandler.print_logging(keyword, 'has been already extracted.')
+            continue
         keyword_name = keyword.replace(' ', '_')
         searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
         snpl = SparkLogFileHandler.sc_().parallelize([])
@@ -87,11 +91,12 @@ def pairLabellingFromObjectiveLogs(inputPaths, keywords, outputFolder, filtering
         outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
         SparkLogFileHandler.saveRDDToHDFS(snpl, outputPath)
         pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
-        if pairs.isEmpty():
-            continue
-        else:
-            pairs = pairs.coalesce(24)
-            outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
+        if pairing:
+            if pairs.isEmpty():
+                continue
+            else:
+                pairs = pairs.coalesce(24)
+                outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
     
 def extractObjectiveLogs(inputPaths, keywords, outputFolder, filtering = True):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
