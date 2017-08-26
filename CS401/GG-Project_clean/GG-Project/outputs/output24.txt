@@ -1,0 +1,17 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-23 02:48:36.294374: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-07-31 will be reading by 2017-08-23 02:48:42.518432
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-01 will be reading by 2017-08-23 02:48:43.439515
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-02 will be reading by 2017-08-23 02:48:43.549265
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-03 will be reading by 2017-08-23 02:48:43.644008
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-04 will be reading by 2017-08-23 02:48:43.736591
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-05 will be reading by 2017-08-23 02:48:43.829808
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-06 will be reading by 2017-08-23 02:48:43.927495
+20370436 have been prepared by 2017-08-23 03:03:54.714997
+1. BESIKTAS:
+909 searches have found for besiktas by 2017-08-23 03:14:36.980394
+658 products have listed on searches for besiktas by 2017-08-23 03:35:55.611207
+3 views have found for besiktas by 2017-08-23 03:48:23.541267
+2 products have clicked on searches for besiktas by 2017-08-23 03:48:24.744159

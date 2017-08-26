@@ -1,0 +1,59 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-25 17:25:53.855762: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-07 will be reading by 2017-08-25 17:26:00.015247
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-08 will be reading by 2017-08-25 17:26:01.023702
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-09 will be reading by 2017-08-25 17:26:01.269865
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-10 will be reading by 2017-08-25 17:26:01.372407
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-11 will be reading by 2017-08-25 17:26:01.460110
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-12 will be reading by 2017-08-25 17:26:01.545410
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-13 will be reading by 2017-08-25 17:26:01.642571
+24076078 have been prepared by 2017-08-25 17:46:53.426385
+1. KOL SAATI:
+462 searches have found for kol saati by 2017-08-25 18:02:17.983546
+8282 products have listed on searches for kol saati by 2017-08-25 18:33:23.033969
+181 views have found for kol saati by 2017-08-25 18:50:51.532830
+91 products have clicked on searches for kol saati by 2017-08-25 19:08:18.298386
+1083 cart and payments have found for kol saati by 2017-08-25 19:26:11.448005
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_extractedLogs with 1712 lines has been saved successfully by 2017-08-25 20:02:32.449051
+30618 pairs have been found by 2017-08-25 21:05:18.457034
+2. IPHONE 7:
+3658 searches have found for iphone 7 by 2017-08-25 21:20:54.128831
+6910 products have listed on searches for iphone 7 by 2017-08-25 21:51:42.484915
+1252 views have found for iphone 7 by 2017-08-25 22:09:31.234613
+133 products have clicked on searches for iphone 7 by 2017-08-25 22:27:38.311448
+3099 cart and payments have found for iphone 7 by 2017-08-25 22:45:04.143015
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs with 8009 lines has been saved successfully by 2017-08-25 23:21:03.434142
+67292 pairs have been found by 2017-08-26 00:21:26.413302
+3. IPHONE 7 KILIF:
+1372 searches have found for iphone 7 kilif by 2017-08-26 00:37:24.217369
+7155 products have listed on searches for iphone 7 kilif by 2017-08-26 01:08:37.521339
+1674 views have found for iphone 7 kilif by 2017-08-26 01:26:52.600922
+456 products have clicked on searches for iphone 7 kilif by 2017-08-26 01:45:24.633216
+528 cart and payments have found for iphone 7 kilif by 2017-08-26 02:03:32.836818
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7_kilif/iphone_7_kilif_extractedLogs with 3557 lines has been saved successfully by 2017-08-26 02:40:12.412383
+79576 pairs have been found by 2017-08-26 03:40:03.453164
+4. STRES CARKI:
+1888 searches have found for stres carki by 2017-08-26 03:55:26.841837
+3486 products have listed on searches for stres carki by 2017-08-26 04:27:25.761459
+1433 views have found for stres carki by 2017-08-26 04:45:22.942398
+299 products have clicked on searches for stres carki by 2017-08-26 05:03:49.963457
+230 cart and payments have found for stres carki by 2017-08-26 05:21:56.145161
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/stres_carki/stres_carki_extractedLogs with 3551 lines has been saved successfully by 2017-08-26 05:58:38.556168
+122462 pairs have been found by 2017-08-26 06:58:29.315622
+5. NIKE AIR MAX:
+4129 searches have found for nike air max by 2017-08-26 07:14:32.765627
+1732 products have listed on searches for nike air max by 2017-08-26 07:44:56.551934
+1496 views have found for nike air max by 2017-08-26 08:02:51.625793
+378 products have clicked on searches for nike air max by 2017-08-26 08:21:01.728097
+208 cart and payments have found for nike air max by 2017-08-26 08:38:54.487852
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/nike_air_max/nike_air_max_extractedLogs with 5833 lines has been saved successfully by 2017-08-26 09:15:19.178920
+77596 pairs have been found by 2017-08-26 10:14:48.349517
+6. TUPPERWARE:
+3162 searches have found for tupperware by 2017-08-26 10:30:28.483734
+6578 products have listed on searches for tupperware by 2017-08-26 11:01:32.045410
+2416 views have found for tupperware by 2017-08-26 11:19:44.456879
+801 products have clicked on searches for tupperware by 2017-08-26 11:38:09.558977
+1021 cart and payments have found for tupperware by 2017-08-26 11:56:02.757924
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/tupperware/tupperware_extractedLogs with 6599 lines has been saved successfully by 2017-08-26 12:33:01.609805
