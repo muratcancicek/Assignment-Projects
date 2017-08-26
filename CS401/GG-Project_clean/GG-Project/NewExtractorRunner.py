@@ -131,7 +131,7 @@ def august(firstDay, lastDay):
         inputPaths.append(inputPath)
     keywords = ReadyTests.get27Keywords()
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath, pairing = False, doneWords = 7)
+    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath, pairing = False, doneWords = 9)
 
 def runNewExtractionMethods():
     #trainAllTest()
