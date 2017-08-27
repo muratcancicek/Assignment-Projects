@@ -102,8 +102,8 @@ def trainingTestAll():
     
 def bes():
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
-    keyword = 'iphone_7'
-    keyword_name = keyword
+    keyword = 'iphone 7'
+    keyword_name = keyword.replace(' ', '_')
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
     logs = FinalizedRunners.getPreparedLogsFromHDFS(outputPath, filtering = False)
