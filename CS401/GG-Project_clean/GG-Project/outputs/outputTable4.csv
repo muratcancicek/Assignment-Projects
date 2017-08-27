@@ -1,12 +1,4 @@
 Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
-iphone 7
-Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
-iphone 7
-Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
-iphone 7
-Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
-iphone 7, 97
-Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
-iphone 7, 97, 21, 21, 97, 70, 27, 0.0, 0.19497152751265359, -0.019046054415694319, -0.12908660894167831, 0.0, 0.0, 0.71092452689111929, -0.62003887194506146, 0.19459877011148816, 0.0, 0.0, -0.17769827621791262, 68.57142857142857, 55.55555555555556
-Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, feedbackPercentage, memberSoldCount, soldCount, memberSegment, subtitleFlag, brandNew, freeCargo, windowOptionFlag, TrainingAccuracy, TestAccuracy
-iphone 7, 97, 21, 21, 97, 71, 26, 0.0, -0.49633775979222983, -0.11619734694908516, -0.48194735256293475, 0.0, 0.0, 0.016103467661587007, -0.62872231983093985, 0.0, 71.83098591549296, 65.38461538461539
+iphone 7,97,21,21,97,70,27,0,0.194971528,-0.019046054,-0.129086609,0,0,0.710924527,-0.620038872,0.19459877,0,0,-0.177698276,68.57142857,55.55555556
+Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, feedbackPercentage, memberSoldCount, soldCount, memberSegment, subtitleFlag, brandNew, freeCargo, windowOptionFlag, TrainingAccuracy, TestAccuracy,,,
+iphone 7,97,21,21,97,71,26,0,-0.49633776,-0.116197347,-0.481947353,0,0,0.016103468,-0.62872232,0,71.83098592,65.38461538,,,
