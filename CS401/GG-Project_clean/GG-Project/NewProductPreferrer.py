@@ -67,6 +67,7 @@ def getLabeledPairsOnSinglePage(searchesNProducts):
     searchesNProducts = searchesNProducts.filter(lambda sp: isProductIdOnSearch(sp[1][1], sp[0]))
     searchesNProducts = searchesNProducts.map(lambda sp: (sp[1][1][L.KEY_TIMESTAMP], sp))
     searchesNProducts = searchesNProducts.reduceByKey(lambda x1x2: max(x1x2[0], x1x2[1], key=lambda x: x[0][L.KEY_TIMESTAMP]))
+    print(searchesNProducts.first())
     pairs = searchesNProducts.flatMap(instanceListFromActions)
     pairs = pairs.flatMap(labelPairs)
     return pairs, searchesNProducts
