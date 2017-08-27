@@ -57,3 +57,275 @@ hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/nike_air_max
 801 products have clicked on searches for tupperware by 2017-08-26 11:38:09.558977
 1021 cart and payments have found for tupperware by 2017-08-26 11:56:02.757924
 hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/tupperware/tupperware_extractedLogs with 6599 lines has been saved successfully by 2017-08-26 12:33:01.609805
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-26 13:47:22.121866: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-07 will be reading by 2017-08-26 13:47:28.298922
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-08 will be reading by 2017-08-26 13:47:29.215414
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-09 will be reading by 2017-08-26 13:47:29.311260
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-10 will be reading by 2017-08-26 13:47:29.399760
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-11 will be reading by 2017-08-26 13:47:29.484995
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-12 will be reading by 2017-08-26 13:47:29.571081
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-13 will be reading by 2017-08-26 13:47:29.661415
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-26 13:49:57.690520: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-07 will be reading by 2017-08-26 13:50:03.804921
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-08 will be reading by 2017-08-26 13:50:04.791066
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-09 will be reading by 2017-08-26 13:50:05.034061
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-10 will be reading by 2017-08-26 13:50:05.134450
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-11 will be reading by 2017-08-26 13:50:05.239076
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-12 will be reading by 2017-08-26 13:50:05.334444
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-13 will be reading by 2017-08-26 13:50:05.431559
+24076078 have been prepared by 2017-08-26 14:11:26.480235
+0. BESIKTAS:
+besiktas has been already extracted.
+1. KOL SAATI:
+kol saati has been already extracted.
+2. IPHONE 7:
+iphone 7 has been already extracted.
+3. IPHONE 7 KILIF:
+iphone 7 kilif has been already extracted.
+4. STRES CARKI:
+stres carki has been already extracted.
+5. NIKE AIR MAX:
+nike air max has been already extracted.
+6. TUPPERWARE:
+tupperware has been already extracted.
+7. BUZDOLABI:
+3353 searches have found for buzdolabi by 2017-08-26 14:26:38.583881
+3643 products have listed on searches for buzdolabi by 2017-08-26 14:56:59.858378
+1218 views have found for buzdolabi by 2017-08-26 15:14:14.414749
+307 products have clicked on searches for buzdolabi by 2017-08-26 15:31:32.588264
+1798 cart and payments have found for buzdolabi by 2017-08-26 15:49:19.972190
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/buzdolabi/buzdolabi_extractedLogs with 6356 lines has been saved successfully by 2017-08-26 16:25:50.451796
+226950 pairs have been found by 2017-08-26 17:24:57.461222
+8. VESTEL CAMASIR MAKINESI:
+60 searches have found for vestel camasir makinesi by 2017-08-26 17:40:37.991395
+70 products have listed on searches for vestel camasir makinesi by 2017-08-26 18:12:14.138189
+104 views have found for vestel camasir makinesi by 2017-08-26 18:30:11.469026
+27 products have clicked on searches for vestel camasir makinesi by 2017-08-26 18:48:26.059222
+384 cart and payments have found for vestel camasir makinesi by 2017-08-26 19:06:23.271822
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/vestel_camasir_makinesi/vestel_camasir_makinesi_extractedLogs with 548 lines has been saved successfully by 2017-08-26 19:42:48.585246
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-26 19:43:39.957966: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-07 will be reading by 2017-08-26 19:43:46.000211
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-08 will be reading by 2017-08-26 19:43:46.957799
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-09 will be reading by 2017-08-26 19:43:47.192527
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-10 will be reading by 2017-08-26 19:43:47.289814
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-11 will be reading by 2017-08-26 19:43:47.377196
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-12 will be reading by 2017-08-26 19:43:47.463997
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-13 will be reading by 2017-08-26 19:43:47.560638
+24076078 have been prepared by 2017-08-26 20:04:31.409386
+1. BESIKTAS:
+besiktas has been already extracted.
+2. KOL SAATI:
+kol saati has been already extracted.
+3. IPHONE 7:
+iphone 7 has been already extracted.
+4. IPHONE 7 KILIF:
+iphone 7 kilif has been already extracted.
+5. STRES CARKI:
+stres carki has been already extracted.
+6. NIKE AIR MAX:
+nike air max has been already extracted.
+7. TUPPERWARE:
+tupperware has been already extracted.
+8. BUZDOLABI:
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-26 20:05:54.559219: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-07 will be reading by 2017-08-26 20:06:00.628612
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-26 20:06:29.618037: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-07 will be reading by 2017-08-26 20:06:35.623092
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-08 will be reading by 2017-08-26 20:06:36.571566
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-09 will be reading by 2017-08-26 20:06:36.668909
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-10 will be reading by 2017-08-26 20:06:36.762074
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-11 will be reading by 2017-08-26 20:06:36.849786
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-12 will be reading by 2017-08-26 20:06:36.936981
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/2017-08-13 will be reading by 2017-08-26 20:06:37.045708
+24076078 have been prepared by 2017-08-26 20:27:43.954825
+1. BESIKTAS:
+besiktas has been already extracted.
+2. KOL SAATI:
+kol saati has been already extracted.
+3. IPHONE 7:
+iphone 7 has been already extracted.
+4. IPHONE 7 KILIF:
+iphone 7 kilif has been already extracted.
+5. STRES CARKI:
+stres carki has been already extracted.
+6. NIKE AIR MAX:
+nike air max has been already extracted.
+7. TUPPERWARE:
+tupperware has been already extracted.
+8. BUZDOLABI:
+buzdolabi has been already extracted.
+9. VESTEL CAMASIR MAKINESI:
+vestel camasir makinesi has been already extracted.
+10. SAMSUNG GALAXY J7 PRIME:
+3149 searches have found for samsung galaxy j7 prime by 2017-08-26 20:43:16.159661
+1513 products have listed on searches for samsung galaxy j7 prime by 2017-08-26 21:14:45.536808
+383 views have found for samsung galaxy j7 prime by 2017-08-26 21:33:07.700771
+40 products have clicked on searches for samsung galaxy j7 prime by 2017-08-26 21:51:18.703967
+1290 cart and payments have found for samsung galaxy j7 prime by 2017-08-26 22:09:45.723622
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_extractedLogs with 4820 lines has been saved successfully by 2017-08-26 22:46:50.084386
+11. SAMSUNG:
+1783 searches have found for samsung by 2017-08-26 23:03:12.352801
+7280 products have listed on searches for samsung by 2017-08-26 23:36:04.598376
+1759 views have found for samsung by 2017-08-26 23:54:14.273150
+219 products have clicked on searches for samsung by 2017-08-27 00:12:44.995300
+5636 cart and payments have found for samsung by 2017-08-27 00:31:41.386625
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung/samsung_extractedLogs with 9172 lines has been saved successfully by 2017-08-27 01:09:08.861205
+12. DIKEY ELEKTRIKLI SUPURGE:
+199 searches have found for dikey elektrikli supurge by 2017-08-27 01:24:27.669915
+361 products have listed on searches for dikey elektrikli supurge by 2017-08-27 01:57:22.983449
+213 views have found for dikey elektrikli supurge by 2017-08-27 02:16:16.443952
+72 products have clicked on searches for dikey elektrikli supurge by 2017-08-27 02:35:08.788187
+489 cart and payments have found for dikey elektrikli supurge by 2017-08-27 02:54:22.277226
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/dikey_elektrikli_supurge/dikey_elektrikli_supurge_extractedLogs with 901 lines has been saved successfully by 2017-08-27 03:31:27.398960
+13. JBL HOPARLOR:
+168 searches have found for jbl hoparlor by 2017-08-27 03:47:10.226906
+430 products have listed on searches for jbl hoparlor by 2017-08-27 04:18:40.211748
+183 views have found for jbl hoparlor by 2017-08-27 04:36:34.584583
+50 products have clicked on searches for jbl hoparlor by 2017-08-27 04:54:13.683562
+60 cart and payments have found for jbl hoparlor by 2017-08-27 05:11:53.652673
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/jbl_hoparlor/jbl_hoparlor_extractedLogs with 411 lines has been saved successfully by 2017-08-27 05:48:49.002877
+14. BISIKLET:
+5475 searches have found for bisiklet by 2017-08-27 06:04:41.420906
+16968 products have listed on searches for bisiklet by 2017-08-27 06:36:38.217235
+4019 views have found for bisiklet by 2017-08-27 06:54:32.146131
+479 products have clicked on searches for bisiklet by 2017-08-27 07:12:23.590628
+2698 cart and payments have found for bisiklet by 2017-08-27 07:30:08.611612
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/bisiklet/bisiklet_extractedLogs with 12166 lines has been saved successfully by 2017-08-27 08:07:23.793178
+15. LENOVO K6 NOTE:
+412 searches have found for lenovo k6 note by 2017-08-27 08:22:48.585221
+943 products have listed on searches for lenovo k6 note by 2017-08-27 08:54:26.051779
+270 views have found for lenovo k6 note by 2017-08-27 09:12:26.309978
+43 products have clicked on searches for lenovo k6 note by 2017-08-27 09:30:26.057267
+518 cart and payments have found for lenovo k6 note by 2017-08-27 09:48:27.260791
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/lenovo_k6_note/lenovo_k6_note_extractedLogs with 1200 lines has been saved successfully by 2017-08-27 10:25:05.052346
+16. SANDALYE KILIFI:
+1235 searches have found for sandalye kilifi by 2017-08-27 10:40:23.274670
+1392 products have listed on searches for sandalye kilifi by 2017-08-27 11:12:08.759204
+2111 views have found for sandalye kilifi by 2017-08-27 11:30:00.136382
+185 products have clicked on searches for sandalye kilifi by 2017-08-27 11:47:36.654486
+624 cart and payments have found for sandalye kilifi by 2017-08-27 12:05:31.860070
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/sandalye_kilifi/sandalye_kilifi_extractedLogs with 3969 lines has been saved successfully by 2017-08-27 12:41:52.008801
+17. XIAOMI:
+1821 searches have found for xiaomi by 2017-08-27 12:57:06.364395
+5473 products have listed on searches for xiaomi by 2017-08-27 13:27:31.966415
+856 views have found for xiaomi by 2017-08-27 13:45:17.083857
+116 products have clicked on searches for xiaomi by 2017-08-27 14:02:42.891049
+1521 cart and payments have found for xiaomi by 2017-08-27 14:20:14.289882
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/xiaomi/xiaomi_extractedLogs with 4198 lines has been saved successfully by 2017-08-27 14:56:33.151841
+18. SAMSUNG GALAXY S6:
+329 searches have found for samsung galaxy s6 by 2017-08-27 15:12:29.063863
+882 products have listed on searches for samsung galaxy s6 by 2017-08-27 15:42:53.088516
+267 views have found for samsung galaxy s6 by 2017-08-27 16:00:58.461535
+25 products have clicked on searches for samsung galaxy s6 by 2017-08-27 16:18:23.330434
+162 cart and payments have found for samsung galaxy s6 by 2017-08-27 16:35:53.423200
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_s6/samsung_galaxy_s6_extractedLogs with 758 lines has been saved successfully by 2017-08-27 17:12:23.957649
+19. KIRMIZI CONVERSE:
+6 searches have found for kirmizi converse by 2017-08-27 17:27:29.312314
+138 products have listed on searches for kirmizi converse by 2017-08-27 17:57:55.511481
+32 views have found for kirmizi converse by 2017-08-27 18:15:20.412674
+19 products have clicked on searches for kirmizi converse by 2017-08-27 18:32:52.123782
+3 cart and payments have found for kirmizi converse by 2017-08-27 18:50:25.824171
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kirmizi_converse/kirmizi_converse_extractedLogs with 41 lines has been saved successfully by 2017-08-27 19:26:49.984060
+20. KIZ COCUK ABIYE ELBISE:
+3059 searches have found for kiz cocuk abiye elbise by 2017-08-27 19:41:57.240794
+513 products have listed on searches for kiz cocuk abiye elbise by 2017-08-27 20:12:41.958352
+5507 views have found for kiz cocuk abiye elbise by 2017-08-27 20:30:23.706752
+328 products have clicked on searches for kiz cocuk abiye elbise by 2017-08-27 20:47:56.618244
+747 cart and payments have found for kiz cocuk abiye elbise by 2017-08-27 21:05:31.512306
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-27 21:31:41.853277: Running on osldevptst02
+2017-08-27 21:31:47.979036: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-27 21:33:23.900780: Running on osldevptst02
+2017-08-27 21:33:23.901350: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kiz_cocuk_abiye_elbise/kiz_cocuk_abiye_elbise_extractedLogs with 9312 lines has been saved successfully by 2017-08-27 21:42:14.840444
+21. AVON KADIN PARFUM:
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-27 21:43:44.625509: Running on osldevptst02
+2017-08-27 21:43:44.626235: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-27 21:45:55.898051: Running on osldevptst02
+2017-08-27 21:45:55.898529: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/test34/test_pairs.rtf with 97 labeledPairs will be reading by 2017-08-27 21:45:56.185987
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-27 21:47:41.063192: Running on osldevptst02
+2017-08-27 21:47:41.063754: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/test34/test_pairs.rtf with 97 labeledPairs will be reading by 2017-08-27 21:47:41.268735
+21 ids have been gathered from the labeled pairs by 2017-08-27 21:47:42.427753
+21 products have been found in database to train by 2017-08-27 21:47:42.428126
+train instances is being generated by 2017-08-27 21:47:42.498911
+97 instances have been scaled by 2017-08-27 21:47:43.271120
+97 train instances have been generated by 2017-08-27 21:47:43.712634
+70 instances have been selected to be trained 2017-08-27 21:47:45.026960
+27 instances have been selected to be tested 2017-08-27 21:47:45.028109
+
+Model has been trained on TrainData by 2017-08-27 21:47:59.457543
+The learned weights:
+[0.0, 0.194971527513, -0.0190460544157, -0.129086608942, 0.0, 0.0, 0.710924526891, -0.620038871945, 0.194598770111, 0.0, 0.0, -0.177698276218]
+
+
+Model has been evaluated on TrainData by 2017-08-27 21:48:00.132445
+The result accuracy is %68.571
+
+
+Model has been evaluated on TestData by 2017-08-27 21:48:00.618545
+The result accuracy is %55.556
+
+2017-08-27 21:48:00.620528: Features selected for the following trains:
+['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/test34/test_pairs.rtf with 97 labeledPairs will be reading by 2017-08-27 21:48:00.758151
+21 ids have been gathered from the labeled pairs by 2017-08-27 21:48:01.433890
+21 products have been found in database to train by 2017-08-27 21:48:01.434267
+train instances is being generated by 2017-08-27 21:48:01.434500
+97 instances have been scaled by 2017-08-27 21:48:01.770163
+97 train instances have been generated by 2017-08-27 21:48:02.075349
+71 instances have been selected to be trained 2017-08-27 21:48:03.184920
+26 instances have been selected to be tested 2017-08-27 21:48:03.186059
+
+Model has been trained on TrainData by 2017-08-27 21:48:26.050353
+The learned weights:
+[0.0, -0.496337759792, -0.116197346949, -0.481947352563, 0.0, 0.0, 0.0161034676616, -0.628722319831, 0.0]
+
+
+Model has been evaluated on TrainData by 2017-08-27 21:48:26.684666
+The result accuracy is %71.831
+
+
+Model has been evaluated on TestData by 2017-08-27 21:48:27.271152
+The result accuracy is %65.385
+
+outputs/outputTable4.csv has been saved successfully by 2017-08-27 21:48:27.273326
+2017-08-27 21:48:27.274022: DONE
+########################################################################################
+########################################################################################
+########################################################################################
