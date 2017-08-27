@@ -25,7 +25,12 @@ def pairSearchesNProducts(searches, productLogs):
         subSearches = searches.map(lambda search: (search[id_key], search))
         if productLogs.isEmpty():
             PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
-        productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[L.KEY_ID], kv)))
+            return searchesNProducts
+        pair = productLogs.first()
+        if isinstance(pair, tuple):  
+            productLogs = productLogs.map(lambda kv: (kv[1][1][id_key], (kv[0], kv[1][1])))
+        else:
+            productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[L.KEY_ID], kv)))
         subSearches = subSearches.join(productLogs)
         searchesNProducts = searchesNProducts.union(subSearches)
     searchesNProducts = searchesNProducts.map(lambda sp: sp[1]).filter(lambda sp: sp[0][L.KEY_TIMESTAMP] < sp[1][1][L.KEY_TIMESTAMP])
