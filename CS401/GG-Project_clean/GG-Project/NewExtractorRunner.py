@@ -102,7 +102,7 @@ def trainingTestAll():
     
 def bes():
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
-    keyword = 'besiktas'
+    keyword = 'iphone_7'
     keyword_name = keyword
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
@@ -139,8 +139,9 @@ def runNewExtractionMethods():
     #may17ExtractionTest(30)
     #may17ExtractionTest(31)
     #trainingTest21()
-    august(7, 13)
+    #august(7, 13)
     #trainingTestAll()
+    bes()
     #besTrain()
 
 def runNewExtractionMethodsOnJupyter():
