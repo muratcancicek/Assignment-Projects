@@ -46,7 +46,7 @@ def readProductsFromHDFS(fileName = None):
     #print_(fileName, products.count(), ' products have been read successfully by', nowStr())
     return products
 
-def getProducts(ids, fileName = None):
+def getProducts(ids, fileName = None):  
     products = readProductsFromHDFS(fileName)
     ids = ids.map(lambda i: (i, i))
     featureVector = getFeatureVector()
@@ -133,11 +133,14 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     PythonVersionHandler.print_logging('The result accuracy is %' + '%.3f\n' % (accuracy))
     return labelsAndPreds
 
+lastWeights = []
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     import pyspark.mllib.classification, PythonVersionHandler
     model = pyspark.mllib.classification.SVMWithSGD.train(data, iterations=1000)
     PythonVersionHandler.print_high_logging('\n'+modelName, 'has been trained on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
+    global lastWeights
+    lastWeights = model.weights
     outputTable[-1].extend(model.weights)
     if evaluate:
         evaluateModelOnData(model, data, dataName, modelName)

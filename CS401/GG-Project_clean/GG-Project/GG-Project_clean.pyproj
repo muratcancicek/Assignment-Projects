@@ -25,6 +25,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BotUtil.py" />
+    <Compile Include="feature_selection.py" />
     <Compile Include="LumberjackConstants.py" />
     <Compile Include="LumberjackParser.py" />
     <Compile Include="PythonVersionHandler.py" />

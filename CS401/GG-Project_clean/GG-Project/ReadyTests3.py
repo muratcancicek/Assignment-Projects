@@ -80,7 +80,6 @@ def trainingTest21():
     
 def bes(keyword = 'iphone 7'):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler
-    
     keyword_name = keyword.replace(' ', '_')
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
