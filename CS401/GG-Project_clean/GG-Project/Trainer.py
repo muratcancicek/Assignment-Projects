@@ -49,13 +49,13 @@ def readProductsFromHDFS(fileName = None):
 
 def getReducedVector(vector):
     import pyspark.mllib.linalg 
+    featureVector = getFeatureVector()
     vector = [vector[i] for i in featureVector] 
     return pyspark.mllib.linalg.DenseVector(vector)
 
 def getProducts(ids, fileName = None):  
     products = readProductsFromHDFS(fileName)
     ids = ids.map(lambda i: (i, i))
-    featureVector = getFeatureVector()
     foundProducts = ids.join(products).map(lambda p: (p[1][0], getReducedVector(p[1][1])))
     import PythonVersionHandler
     if PythonVersionHandler.LOGGING:
