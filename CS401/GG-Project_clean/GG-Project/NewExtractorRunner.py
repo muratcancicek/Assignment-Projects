@@ -19,15 +19,37 @@ def extractPairs():
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
     Trainer.setFeatureVector(feature_names)
-    keywords = ReadyTests.get27Keywords()[:22]
+    keywords = ReadyTests.get27Keywords()[22:23]
     done = ['basiktas', 'iphone 7']
     for c, keyword in enumerate(keywords): 
         if keyword in done or c in [0, 2]: 
             continue
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         trainTesting(keyword)
-    Trainer.saveOutputTable()
+    #Trainer.saveOutputTable()
+    #Trainer.printOutputTable()
+
+def trainingTestAllLoop(feature_names):
+    import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
+    Trainer.setFeatureVector(feature_names)
+    keywords = ReadyTests.get27Keywords()[:22]
+    for c, keyword in enumerate(keywords): 
+        PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
+        keyword = keyword.replace(' ', '_')
+        folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
+        FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
     Trainer.printOutputTable()
+    Trainer.saveOutputTable()
+    Trainer.outputTable = []
+
+def trainingTestAll():
+    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
+            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
+            'productCount']
+    trainingTestAllLoop(feature_names)
+    feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
+            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+    trainingTestAllLoop(feature_names)
         
 def extractPeriod(firstDay, lastDay):
     import paths, FinalizedRunners, ReadyTests
