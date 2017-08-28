@@ -62,6 +62,8 @@ def selectFeaturesForKeyword(keyword, threshold = 0.47):
     Trainer.setFeatureVector(featureList)
     trainData, testData, weights, accuracy = getTrainedWeights(keyword)
     removedFeatures = []
+    accuracies = [accuracy]
+    weightsRow = list(weights)
     while (not isImportant(weights, threshold = threshold)) and len(weights) > 1:
         index, featureList, removedFeature = eliminate(weights, featureList)
         removedFeatures.append(removedFeature)
@@ -74,13 +76,46 @@ def selectFeaturesForKeyword(keyword, threshold = 0.47):
         testData = testData.map(getReducedVector)
         model = Trainer.trainPairWiseData(trainData, dataName = 'TrainData')
         accuracy = Trainer.evaluateModelOnData(model, testData, dataName = 'TestData')
+        accuracies.append(accuracy)
         weights = list(model.weights)
+        weightsRow.append('X')
+        weightsRow.extend(weights)
     PythonVersionHandler.print_('Keyword: ' + keyword)
     PythonVersionHandler.print_('Selected features: ' + str(featureList))
     PythonVersionHandler.print_('Following features have reduced by order: ' + str(removedFeatures))
+    PythonVersionHandler.print_('Accuracies from each step: ' + str(accuracies))
+    row = [keyword]
+    row.extend(featureList)
+    row.append('X')
+    row.extend(removedFeatures)
+    row.extend(accuracies)
+    return row, weightsRow
 
 def selectFeaturesForAllKeywords():
+    outputTable = []
     import  ReadyTests2 as rt
     keywords = rt.get27Keywords()
     for keyword in keywords:
-        selectFeaturesForKeyword(keyword)
+        row, weightsRow = selectFeaturesForKeyword(keyword)
+        outputTable.append(row)
+        outputTable.append(weightsRow)
+    saveFeaturesTable(outputTable)
+
+def getOutputTable(outputTable):
+    s = ''
+    for r in outputTable:
+        s += str(r).replace('\'', '')[1:-1] + '\n'
+    return s
+
+def saveFeaturesTable(outputTable):
+    import os, paths
+    c = 0
+    fileName = paths.joinPath(paths.joinPath('outputs', 'feature_selection'), 'feature_selectionTable' + str(c) + '.csv')
+    while os.path.isfile(fileName):
+        c += 1
+        fileName = paths.joinPath(paths.joinPath('outputs', 'feature_selection'), 'feature_selectionTable' + str(c) + '.csv')
+    f = open(fileName, 'w')
+    f.write(getOutputTable(outputTable))
+    f.close()
+    import PythonVersionHandler
+    PythonVersionHandler.print_(fileName, 'has been saved successfully by', PythonVersionHandler.nowStr())
