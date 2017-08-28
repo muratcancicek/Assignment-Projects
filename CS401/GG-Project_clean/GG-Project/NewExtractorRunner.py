@@ -12,7 +12,7 @@ def trainTesting(keyword = 'iphone 7'):
         pairs = pairs.coalesce(24)
         outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs')
         SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
-        FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
+        FinalizedRunners.trainForKeyword(keyword, outputFolder + '/' + keyword_name, saving = True)
         
 def extractPairs():
     import paths, PythonVersionHandler, Trainer, ReadyTests
