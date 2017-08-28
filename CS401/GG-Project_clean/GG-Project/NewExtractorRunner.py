@@ -22,8 +22,8 @@ def extractPairs():
     keywords = ReadyTests.get27Keywords()[22:23]
     done = ['basiktas', 'iphone 7']
     for c, keyword in enumerate(keywords): 
-        if keyword in done or c in [0, 2]: 
-            continue
+        #if keyword in done or c in [0, 2]: 
+        #    continue
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         trainTesting(keyword)
     #Trainer.saveOutputTable()
