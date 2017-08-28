@@ -187,10 +187,10 @@ def printOutputTable():
 def saveOutputTable():
     import os, paths
     c = 0
-    fileName = paths.joinPath('outputs', 'outputTable' + str(c) + '.csv')
+    fileName = paths.joinPath(paths.joinPath('outputs', 'tables'), 'outputTable' + str(c) + '.csv')
     while os.path.isfile(fileName):
         c += 1
-        fileName = paths.joinPath('outputs', 'outputTable' + str(c) + '.csv')
+        fileName = paths.joinPath(paths.joinPath('outputs', 'tables'), 'outputTable' + str(c) + '.csv')
     f = open(fileName, 'w')
     f.write(getOutputTable())
     f.close()
