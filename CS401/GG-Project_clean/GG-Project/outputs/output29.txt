@@ -1,0 +1,861 @@
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:17:42.657853: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:17:49.969252
+8009 have been prepared by 2017-08-28 02:17:53.434418
+3658 searches have found for iphone 7 by 2017-08-28 02:17:54.604371
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:17:58.630212
+1252 views have found for iphone 7 by 2017-08-28 02:17:59.455409
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:18:02.287138
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:18:04.976785
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:24:04.417896: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:24:11.749817
+8009 have been prepared by 2017-08-28 02:24:15.790159
+3658 searches have found for iphone 7 by 2017-08-28 02:24:17.275212
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:24:22.007724
+1252 views have found for iphone 7 by 2017-08-28 02:24:23.074284
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:24:26.458971
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:24:28.978654
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:26:18.333649: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:26:25.887071
+8009 have been prepared by 2017-08-28 02:26:29.649629
+3658 searches have found for iphone 7 by 2017-08-28 02:26:30.890481
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:26:34.900888
+1252 views have found for iphone 7 by 2017-08-28 02:26:35.911844
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:26:38.623128
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:26:41.662516
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:27:51.721980: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:27:58.927780
+8009 have been prepared by 2017-08-28 02:28:02.709148
+3658 searches have found for iphone 7 by 2017-08-28 02:28:03.910558
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:28:08.836904
+1252 views have found for iphone 7 by 2017-08-28 02:28:10.051455
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:28:13.214853
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:28:15.914939
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:34:19.118704: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:34:26.574654
+8009 have been prepared by 2017-08-28 02:34:30.491699
+3658 searches have found for iphone 7 by 2017-08-28 02:34:31.708317
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:34:35.814764
+1252 views have found for iphone 7 by 2017-08-28 02:34:36.973686
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:34:39.941875
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:34:42.631548
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:37:39.898390: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:37:47.162347
+8009 have been prepared by 2017-08-28 02:37:51.057305
+3658 searches have found for iphone 7 by 2017-08-28 02:37:52.243197
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:37:56.682902
+1252 views have found for iphone 7 by 2017-08-28 02:37:57.723322
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:38:00.938450
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:38:03.604243
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:43:55.897004: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:44:03.475301
+8009 have been prepared by 2017-08-28 02:44:07.444414
+3658 searches have found for iphone 7 by 2017-08-28 02:44:08.607183
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:44:12.895661
+1252 views have found for iphone 7 by 2017-08-28 02:44:13.933102
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:44:16.769221
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:44:19.446906
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 02:48:23.026585: Running on osldevptst02
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_extractedLogs has been read by 2017-08-28 02:48:30.229002
+8009 have been prepared by 2017-08-28 02:48:34.287086
+3658 searches have found for iphone 7 by 2017-08-28 02:48:35.492073
+6910 products have listed on searches for iphone 7 by 2017-08-28 02:48:42.292884
+1252 views have found for iphone 7 by 2017-08-28 02:48:43.115528
+133 products have clicked on searches for iphone 7 by 2017-08-28 02:48:46.471551
+3209 cart and payments have found for iphone 7 by 2017-08-28 02:48:49.570323
+66002 pairs have been found by 2017-08-28 02:49:44.725993
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7/iphone_7_pairs with 66002 lines has been saved successfully by 2017-08-28 02:49:55.161095
+2017-08-28 02:49:55.161679: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 03:12:14.923681: Running on osldevptst02
+2017-08-28 03:12:21.471273: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 03:13:26.528107: Running on osldevptst02
+2017-08-28 03:13:32.696151: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+1. BESIKTAS:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/besiktas/besiktas_extractedLogs has been read by 2017-08-28 03:13:33.897749
+1919 have been prepared by 2017-08-28 03:13:37.098098
+1264 searches have found for besiktas by 2017-08-28 03:13:37.730748
+3591 products have listed on searches for besiktas by 2017-08-28 03:13:41.706229
+348 views have found for besiktas by 2017-08-28 03:13:42.110072
+183 products have clicked on searches for besiktas by 2017-08-28 03:13:44.433409
+331 cart and payments have found for besiktas by 2017-08-28 03:13:46.539825
+49970 pairs have been found by 2017-08-28 03:14:26.793873
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 03:17:31.672389: Running on osldevptst02
+2017-08-28 03:17:37.939716: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+2. KOL SAATI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_extractedLogs has been read by 2017-08-28 03:17:39.127202
+1712 have been prepared by 2017-08-28 03:17:42.385799
+462 searches have found for kol saati by 2017-08-28 03:17:42.953597
+8282 products have listed on searches for kol saati by 2017-08-28 03:17:46.203390
+167 views have found for kol saati by 2017-08-28 03:17:46.568254
+91 products have clicked on searches for kol saati by 2017-08-28 03:17:48.839502
+1145 cart and payments have found for kol saati by 2017-08-28 03:17:51.250931
+40096 pairs have been found by 2017-08-28 03:18:35.676160
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_pairs with 40096 lines has been saved successfully by 2017-08-28 03:18:45.498212
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 03:21:17.309854: Running on osldevptst02
+2017-08-28 03:21:22.916628: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+2. KOL SAATI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_extractedLogs has been read by 2017-08-28 03:21:23.814358
+1712 have been prepared by 2017-08-28 03:21:26.486965
+462 searches have found for kol saati by 2017-08-28 03:21:26.933328
+8282 products have listed on searches for kol saati by 2017-08-28 03:21:29.951449
+167 views have found for kol saati by 2017-08-28 03:21:30.265238
+91 products have clicked on searches for kol saati by 2017-08-28 03:21:32.310791
+1145 cart and payments have found for kol saati by 2017-08-28 03:21:36.947690
+38266 pairs have been found by 2017-08-28 03:22:05.131750
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 03:22:52.176019: Running on osldevptst02
+2017-08-28 03:22:58.229710: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+2. KOL SAATI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_extractedLogs has been read by 2017-08-28 03:22:59.217269
+1712 have been prepared by 2017-08-28 03:23:02.564397
+462 searches have found for kol saati by 2017-08-28 03:23:03.214728
+8282 products have listed on searches for kol saati by 2017-08-28 03:23:06.584447
+167 views have found for kol saati by 2017-08-28 03:23:07.058169
+91 products have clicked on searches for kol saati by 2017-08-28 03:23:09.583196
+1145 cart and payments have found for kol saati by 2017-08-28 03:23:12.053979
+36570 pairs have been found by 2017-08-28 03:23:49.163868
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_pairs with 36570 lines has been saved successfully by 2017-08-28 03:23:59.156034
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_pairs with 36570 labeledPairs will be reading by 2017-08-28 03:23:59.887780
+557 ids have been gathered from the labeled pairs by 2017-08-28 03:27:48.891710
+543 products have been found in database to train by 2017-08-28 03:27:48.892138
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kol_saati/kol_saati_products with 543 lines has been saved successfully by 2017-08-28 03:29:00.012092
+train instances is being generated by 2017-08-28 03:29:00.092625
+35682 instances have been scaled by 2017-08-28 03:29:34.455842
+35682 train instances have been generated by 2017-08-28 03:29:37.510495
+32170 instances have been selected to be trained 2017-08-28 03:29:45.107308
+3512 instances have been selected to be tested 2017-08-28 03:29:45.107660
+
+Model has been trained on TrainData by 2017-08-28 03:30:03.860995
+The learned weights:
+[0.828032925945, 0.526104379497, -0.386120999237, 0.299198363609, 0.559492851635, 0.295027461381, 0.0569106555329, -0.0779257850525, -0.530637876708, 0.173890564695, -0.0143132950354, -0.168569110775]
+
+
+Model has been evaluated on TrainData by 2017-08-28 03:30:08.794145
+The result accuracy is %79.885
+
+
+Model has been evaluated on TestData by 2017-08-28 03:30:12.934565
+The result accuracy is %79.841
+
+4. IPHONE 7 KILIF:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7_kilif/iphone_7_kilif_extractedLogs has been read by 2017-08-28 03:30:12.970833
+3557 have been prepared by 2017-08-28 03:30:13.602046
+1372 searches have found for iphone 7 kilif by 2017-08-28 03:30:14.028935
+7155 products have listed on searches for iphone 7 kilif by 2017-08-28 03:30:15.655859
+1657 views have found for iphone 7 kilif by 2017-08-28 03:30:16.092864
+456 products have clicked on searches for iphone 7 kilif by 2017-08-28 03:30:18.019112
+560 cart and payments have found for iphone 7 kilif by 2017-08-28 03:30:19.998950
+96152 pairs have been found by 2017-08-28 03:31:06.690691
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7_kilif/iphone_7_kilif_pairs with 96152 lines has been saved successfully by 2017-08-28 03:31:16.261237
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7_kilif/iphone_7_kilif_pairs with 96152 labeledPairs will be reading by 2017-08-28 03:31:17.485132
+2252 ids have been gathered from the labeled pairs by 2017-08-28 03:35:01.717197
+2208 products have been found in database to train by 2017-08-28 03:35:01.717653
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/iphone_7_kilif/iphone_7_kilif_products with 2208 lines has been saved successfully by 2017-08-28 03:36:12.603440
+train instances is being generated by 2017-08-28 03:36:12.603905
+95120 instances have been scaled by 2017-08-28 03:36:47.318748
+95120 train instances have been generated by 2017-08-28 03:36:52.230606
+85536 instances have been selected to be trained 2017-08-28 03:37:05.460069
+9584 instances have been selected to be tested 2017-08-28 03:37:05.460503
+
+Model has been trained on TrainData by 2017-08-28 03:37:26.535190
+The learned weights:
+[-0.310823737973, -0.468803834828, 0.129501879558, 0.139490217136, 0.639519284788, -0.219234704772, 0.0557294328006, 0.0751653104615, -0.761472806652, 0.346290957316, -0.451266436855, -0.0391012967173]
+
+
+Model has been evaluated on TrainData by 2017-08-28 03:37:34.776805
+The result accuracy is %70.044
+
+
+Model has been evaluated on TestData by 2017-08-28 03:37:43.103058
+The result accuracy is %69.773
+
+5. STRES CARKI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/stres_carki/stres_carki_extractedLogs has been read by 2017-08-28 03:37:43.137681
+3551 have been prepared by 2017-08-28 03:37:43.729769
+1888 searches have found for stres carki by 2017-08-28 03:37:44.119576
+3486 products have listed on searches for stres carki by 2017-08-28 03:37:45.311740
+1433 views have found for stres carki by 2017-08-28 03:37:45.662137
+299 products have clicked on searches for stres carki by 2017-08-28 03:37:47.711377
+248 cart and payments have found for stres carki by 2017-08-28 03:37:49.735547
+115024 pairs have been found by 2017-08-28 03:38:31.909445
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/stres_carki/stres_carki_pairs with 115024 lines has been saved successfully by 2017-08-28 03:38:41.566376
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/stres_carki/stres_carki_pairs with 115024 labeledPairs will be reading by 2017-08-28 03:38:43.066920
+1551 ids have been gathered from the labeled pairs by 2017-08-28 03:42:28.158604
+1465 products have been found in database to train by 2017-08-28 03:42:28.158992
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/stres_carki/stres_carki_products with 1465 lines has been saved successfully by 2017-08-28 03:43:39.974208
+train instances is being generated by 2017-08-28 03:43:39.974590
+113018 instances have been scaled by 2017-08-28 03:44:15.304355
+113018 train instances have been generated by 2017-08-28 03:44:20.423843
+101747 instances have been selected to be trained 2017-08-28 03:44:33.359815
+11271 instances have been selected to be tested 2017-08-28 03:44:33.360064
+
+Model has been trained on TrainData by 2017-08-28 03:45:01.571840
+The learned weights:
+[0.210193500766, -0.2993480543, -0.878967641746, 0.213017848032, 0.59822698398, -0.259112030448, 0.092572639676, -0.164704065859, -0.612054286239, -0.0290546320666, -0.00899380079968, -0.10362861774]
+
+
+Model has been evaluated on TrainData by 2017-08-28 03:45:11.291076
+The result accuracy is %67.171
+
+
+Model has been evaluated on TestData by 2017-08-28 03:45:19.890799
+The result accuracy is %66.613
+
+6. NIKE AIR MAX:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/nike_air_max/nike_air_max_extractedLogs has been read by 2017-08-28 03:45:19.918206
+5833 have been prepared by 2017-08-28 03:45:20.724329
+4129 searches have found for nike air max by 2017-08-28 03:45:21.300676
+1732 products have listed on searches for nike air max by 2017-08-28 03:45:23.551315
+1496 views have found for nike air max by 2017-08-28 03:45:24.085094
+378 products have clicked on searches for nike air max by 2017-08-28 03:45:26.232245
+212 cart and payments have found for nike air max by 2017-08-28 03:45:28.350978
+51568 pairs have been found by 2017-08-28 03:46:12.119712
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/nike_air_max/nike_air_max_pairs with 51568 lines has been saved successfully by 2017-08-28 03:46:21.567164
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/nike_air_max/nike_air_max_pairs with 51568 labeledPairs will be reading by 2017-08-28 03:46:22.399360
+1093 ids have been gathered from the labeled pairs by 2017-08-28 03:50:04.262781
+1003 products have been found in database to train by 2017-08-28 03:50:04.263296
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/nike_air_max/nike_air_max_products with 1003 lines has been saved successfully by 2017-08-28 03:51:14.648216
+train instances is being generated by 2017-08-28 03:51:14.648640
+43900 instances have been scaled by 2017-08-28 03:51:49.088350
+43900 train instances have been generated by 2017-08-28 03:51:51.814834
+39502 instances have been selected to be trained 2017-08-28 03:51:59.430354
+4398 instances have been selected to be tested 2017-08-28 03:51:59.430747
+
+Model has been trained on TrainData by 2017-08-28 03:52:10.288189
+The learned weights:
+[-0.162520586096, 0.209477727968, -0.0648876955982, -0.369184246855, 0.263312288433, -0.28945380561, 0.0507912566392, -0.00909851496699, -0.851160845582, -0.140914731863, -0.383393018405, -0.268438598794]
+
+
+Model has been evaluated on TrainData by 2017-08-28 03:52:15.060631
+The result accuracy is %69.546
+
+
+Model has been evaluated on TestData by 2017-08-28 03:52:19.688896
+The result accuracy is %70.077
+
+7. TUPPERWARE:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/tupperware/tupperware_extractedLogs has been read by 2017-08-28 03:52:19.725323
+6599 have been prepared by 2017-08-28 03:52:20.671875
+3162 searches have found for tupperware by 2017-08-28 03:52:21.310551
+6578 products have listed on searches for tupperware by 2017-08-28 03:52:24.270776
+2416 views have found for tupperware by 2017-08-28 03:52:24.955512
+801 products have clicked on searches for tupperware by 2017-08-28 03:52:27.220109
+1157 cart and payments have found for tupperware by 2017-08-28 03:52:29.463676
+127702 pairs have been found by 2017-08-28 03:53:15.313661
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/tupperware/tupperware_pairs with 127702 lines has been saved successfully by 2017-08-28 03:53:25.726658
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/tupperware/tupperware_pairs with 127702 labeledPairs will be reading by 2017-08-28 03:53:27.313629
+3248 ids have been gathered from the labeled pairs by 2017-08-28 03:57:13.727626
+2781 products have been found in database to train by 2017-08-28 03:57:13.727944
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/tupperware/tupperware_products with 2781 lines has been saved successfully by 2017-08-28 03:58:27.229015
+train instances is being generated by 2017-08-28 03:58:27.229421
+115982 instances have been scaled by 2017-08-28 03:59:03.983782
+115982 train instances have been generated by 2017-08-28 03:59:09.499272
+104604 instances have been selected to be trained 2017-08-28 03:59:24.690171
+11378 instances have been selected to be tested 2017-08-28 03:59:24.690428
+
+Model has been trained on TrainData by 2017-08-28 03:59:38.483948
+The learned weights:
+[-0.27487010395, -0.0448715835179, -0.141989268956, -0.189816079452, 0.411925057803, -0.326114574466, 0.0455178253895, -0.296563015185, 0.0, -0.276511065629, -0.27365609174, -0.0926743762521]
+
+
+Model has been evaluated on TrainData by 2017-08-28 03:59:48.398849
+The result accuracy is %62.378
+
+
+Model has been evaluated on TestData by 2017-08-28 03:59:58.301039
+The result accuracy is %62.665
+
+8. BUZDOLABI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/buzdolabi/buzdolabi_extractedLogs has been read by 2017-08-28 03:59:58.334306
+6356 have been prepared by 2017-08-28 03:59:59.213455
+3353 searches have found for buzdolabi by 2017-08-28 03:59:59.829631
+3643 products have listed on searches for buzdolabi by 2017-08-28 04:00:01.818370
+1205 views have found for buzdolabi by 2017-08-28 04:00:02.459736
+307 products have clicked on searches for buzdolabi by 2017-08-28 04:00:04.398433
+1798 cart and payments have found for buzdolabi by 2017-08-28 04:00:06.475223
+160232 pairs have been found by 2017-08-28 04:01:01.662393
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/buzdolabi/buzdolabi_pairs with 160232 lines has been saved successfully by 2017-08-28 04:01:11.365877
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/buzdolabi/buzdolabi_pairs with 160232 labeledPairs will be reading by 2017-08-28 04:01:12.946974
+1126 ids have been gathered from the labeled pairs by 2017-08-28 04:05:00.074790
+1073 products have been found in database to train by 2017-08-28 04:05:00.075256
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/buzdolabi/buzdolabi_products with 1073 lines has been saved successfully by 2017-08-28 04:06:11.320662
+train instances is being generated by 2017-08-28 04:06:11.321008
+157518 instances have been scaled by 2017-08-28 04:06:47.803445
+157518 train instances have been generated by 2017-08-28 04:06:53.371622
+141582 instances have been selected to be trained 2017-08-28 04:07:10.008676
+15936 instances have been selected to be tested 2017-08-28 04:07:10.009116
+
+Model has been trained on TrainData by 2017-08-28 04:07:27.309544
+The learned weights:
+[-0.311907069574, 0.646695938423, -0.223742134294, 0.0953994468374, 0.021814699983, -0.0760754895385, -0.0787678168624, -0.145297193295, -0.148366062671, 0.640742672787, -0.58588969277, -0.119827441134]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:07:38.381398
+The result accuracy is %79.475
+
+
+Model has been evaluated on TestData by 2017-08-28 04:07:48.388894
+The result accuracy is %79.104
+
+9. VESTEL CAMASIR MAKINESI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/vestel_camasir_makinesi/vestel_camasir_makinesi_extractedLogs has been read by 2017-08-28 04:07:48.416400
+548 have been prepared by 2017-08-28 04:07:49.154756
+60 searches have found for vestel camasir makinesi by 2017-08-28 04:07:49.352390
+70 products have listed on searches for vestel camasir makinesi by 2017-08-28 04:07:50.302951
+104 views have found for vestel camasir makinesi by 2017-08-28 04:07:50.509597
+27 products have clicked on searches for vestel camasir makinesi by 2017-08-28 04:07:52.039099
+386 cart and payments have found for vestel camasir makinesi by 2017-08-28 04:07:53.586656
+15608 pairs have been found by 2017-08-28 04:08:23.679421
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/vestel_camasir_makinesi/vestel_camasir_makinesi_pairs with 15608 lines has been saved successfully by 2017-08-28 04:08:30.076178
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/vestel_camasir_makinesi/vestel_camasir_makinesi_pairs with 15608 labeledPairs will be reading by 2017-08-28 04:08:30.497339
+61 ids have been gathered from the labeled pairs by 2017-08-28 04:12:01.956871
+60 products have been found in database to train by 2017-08-28 04:12:01.957178
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/vestel_camasir_makinesi/vestel_camasir_makinesi_products with 60 lines has been saved successfully by 2017-08-28 04:13:08.610627
+train instances is being generated by 2017-08-28 04:13:08.611025
+14988 instances have been scaled by 2017-08-28 04:13:41.111007
+14988 train instances have been generated by 2017-08-28 04:13:42.930337
+13467 instances have been selected to be trained 2017-08-28 04:13:47.711098
+1521 instances have been selected to be tested 2017-08-28 04:13:47.711427
+
+Model has been trained on TrainData by 2017-08-28 04:14:03.544549
+The learned weights:
+[0.463125661891, 0.596702662687, 0.202874270081, 0.0618646121957, -0.299216872197, -0.172648274054, 0.0, 0.0, -0.450547538542, -0.132229131868, 1.33527989013, 0.552858050475]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:14:06.493487
+The result accuracy is %86.842
+
+
+Model has been evaluated on TestData by 2017-08-28 04:14:09.601003
+The result accuracy is %86.325
+
+10. SAMSUNG GALAXY J7 PRIME:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_extractedLogs has been read by 2017-08-28 04:14:09.631565
+4820 have been prepared by 2017-08-28 04:14:10.393843
+3149 searches have found for samsung galaxy j7 prime by 2017-08-28 04:14:10.834304
+1513 products have listed on searches for samsung galaxy j7 prime by 2017-08-28 04:14:12.193108
+381 views have found for samsung galaxy j7 prime by 2017-08-28 04:14:12.653400
+40 products have clicked on searches for samsung galaxy j7 prime by 2017-08-28 04:14:14.520190
+1304 cart and payments have found for samsung galaxy j7 prime by 2017-08-28 04:14:19.474185
+49934 pairs have been found by 2017-08-28 04:15:02.612498
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_pairs with 49934 lines has been saved successfully by 2017-08-28 04:15:11.947688
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_pairs with 49934 labeledPairs will be reading by 2017-08-28 04:15:12.623533
+135 ids have been gathered from the labeled pairs by 2017-08-28 04:18:55.940165
+127 products have been found in database to train by 2017-08-28 04:18:55.940599
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_j7_prime/samsung_galaxy_j7_prime_products with 127 lines has been saved successfully by 2017-08-28 04:20:06.269109
+train instances is being generated by 2017-08-28 04:20:06.269394
+45126 instances have been scaled by 2017-08-28 04:20:39.710586
+45126 train instances have been generated by 2017-08-28 04:20:42.319890
+40586 instances have been selected to be trained 2017-08-28 04:20:49.660882
+4540 instances have been selected to be tested 2017-08-28 04:20:49.661191
+
+Model has been trained on TrainData by 2017-08-28 04:21:30.064801
+The learned weights:
+[0.522365332587, 0.99154529663, 0.285857914755, -0.3961791178, -0.109013248955, 0.623575195623, -0.179891241216, 1.18488246546, -0.361840746798, -0.0688308826211, -0.717558556025, 0.255361176755]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:21:34.984155
+The result accuracy is %78.805
+
+
+Model has been evaluated on TestData by 2017-08-28 04:21:39.427821
+The result accuracy is %79.295
+
+11. SAMSUNG:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung/samsung_extractedLogs has been read by 2017-08-28 04:21:39.461890
+9172 have been prepared by 2017-08-28 04:21:40.404588
+1783 searches have found for samsung by 2017-08-28 04:21:41.147334
+7280 products have listed on searches for samsung by 2017-08-28 04:21:42.880216
+1753 views have found for samsung by 2017-08-28 04:21:43.665022
+219 products have clicked on searches for samsung by 2017-08-28 04:21:45.632033
+5742 cart and payments have found for samsung by 2017-08-28 04:21:47.913069
+229188 pairs have been found by 2017-08-28 04:22:48.442309
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung/samsung_pairs with 229188 lines has been saved successfully by 2017-08-28 04:22:56.862039
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung/samsung_pairs with 229188 labeledPairs will be reading by 2017-08-28 04:22:58.896392
+634 ids have been gathered from the labeled pairs by 2017-08-28 04:26:14.890051
+565 products have been found in database to train by 2017-08-28 04:26:14.890316
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung/samsung_products with 565 lines has been saved successfully by 2017-08-28 04:27:13.402387
+train instances is being generated by 2017-08-28 04:27:13.402871
+214834 instances have been scaled by 2017-08-28 04:27:46.208736
+214834 train instances have been generated by 2017-08-28 04:27:52.495105
+193474 instances have been selected to be trained 2017-08-28 04:28:10.564454
+21360 instances have been selected to be tested 2017-08-28 04:28:10.564801
+
+Model has been trained on TrainData by 2017-08-28 04:28:26.102776
+The learned weights:
+[0.191035593783, 0.532138197144, -0.600559360255, -0.554936217823, 0.247490833651, 0.832252881909, 0.24400216782, -0.119951876154, -0.199841996793, -0.503852756694, -0.237753359161, 0.634922826857]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:28:37.252133
+The result accuracy is %77.396
+
+
+Model has been evaluated on TestData by 2017-08-28 04:28:48.132648
+The result accuracy is %77.711
+
+12. DIKEY ELEKTRIKLI SUPURGE:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/dikey_elektrikli_supurge/dikey_elektrikli_supurge_extractedLogs has been read by 2017-08-28 04:28:48.160100
+901 have been prepared by 2017-08-28 04:28:48.545382
+199 searches have found for dikey elektrikli supurge by 2017-08-28 04:28:48.724711
+361 products have listed on searches for dikey elektrikli supurge by 2017-08-28 04:28:49.514834
+213 views have found for dikey elektrikli supurge by 2017-08-28 04:28:49.744126
+72 products have clicked on searches for dikey elektrikli supurge by 2017-08-28 04:28:51.071077
+493 cart and payments have found for dikey elektrikli supurge by 2017-08-28 04:28:52.369015
+38616 pairs have been found by 2017-08-28 04:29:18.305985
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/dikey_elektrikli_supurge/dikey_elektrikli_supurge_pairs with 38616 lines has been saved successfully by 2017-08-28 04:29:24.590013
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/dikey_elektrikli_supurge/dikey_elektrikli_supurge_pairs with 38616 labeledPairs will be reading by 2017-08-28 04:29:25.082657
+194 ids have been gathered from the labeled pairs by 2017-08-28 04:32:10.568302
+184 products have been found in database to train by 2017-08-28 04:32:10.568646
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/dikey_elektrikli_supurge/dikey_elektrikli_supurge_products with 184 lines has been saved successfully by 2017-08-28 04:32:59.697433
+train instances is being generated by 2017-08-28 04:32:59.697739
+38088 instances have been scaled by 2017-08-28 04:33:23.744205
+38088 train instances have been generated by 2017-08-28 04:33:25.111732
+34394 instances have been selected to be trained 2017-08-28 04:33:28.918151
+3694 instances have been selected to be tested 2017-08-28 04:33:28.918399
+
+Model has been trained on TrainData by 2017-08-28 04:33:50.424556
+The learned weights:
+[-0.314593802167, 0.645052829962, 0.0817491318368, 0.183663783863, 0.00900167063883, -0.32456613675, -0.394877852059, 0.437644787196, -0.228893816863, -0.0483496863039, -1.31843436385, -0.373391146262]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:33:54.774713
+The result accuracy is %75.647
+
+
+Model has been evaluated on TestData by 2017-08-28 04:33:58.312695
+The result accuracy is %74.391
+
+13. JBL HOPARLOR:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/jbl_hoparlor/jbl_hoparlor_extractedLogs has been read by 2017-08-28 04:33:58.337872
+411 have been prepared by 2017-08-28 04:33:58.744781
+168 searches have found for jbl hoparlor by 2017-08-28 04:33:59.050280
+430 products have listed on searches for jbl hoparlor by 2017-08-28 04:33:59.981662
+183 views have found for jbl hoparlor by 2017-08-28 04:34:00.218437
+50 products have clicked on searches for jbl hoparlor by 2017-08-28 04:34:01.882254
+60 cart and payments have found for jbl hoparlor by 2017-08-28 04:34:03.601429
+5206 pairs have been found by 2017-08-28 04:34:38.172441
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/jbl_hoparlor/jbl_hoparlor_pairs with 5206 lines has been saved successfully by 2017-08-28 04:34:47.866788
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/jbl_hoparlor/jbl_hoparlor_pairs with 5206 labeledPairs will be reading by 2017-08-28 04:34:48.220950
+209 ids have been gathered from the labeled pairs by 2017-08-28 04:38:37.632977
+206 products have been found in database to train by 2017-08-28 04:38:37.633285
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/jbl_hoparlor/jbl_hoparlor_products with 206 lines has been saved successfully by 2017-08-28 04:39:45.731321
+train instances is being generated by 2017-08-28 04:39:45.731671
+5102 instances have been scaled by 2017-08-28 04:40:18.594215
+5102 train instances have been generated by 2017-08-28 04:40:19.930120
+4043 instances have been selected to be trained 2017-08-28 04:40:22.924283
+1059 instances have been selected to be tested 2017-08-28 04:40:22.924583
+
+Model has been trained on TrainData by 2017-08-28 04:40:34.856101
+The learned weights:
+[-0.217953307273, 0.472770904273, 0.0400577298972, -0.698461401222, 0.752301779067, -0.125355287972, 0.0, -0.155688060473, -0.432618580706, -0.064666221041, -0.376346897832, 0.0022147060733]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:40:36.647213
+The result accuracy is %80.213
+
+
+Model has been evaluated on TestData by 2017-08-28 04:40:38.462557
+The result accuracy is %78.848
+
+14. BISIKLET:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/bisiklet/bisiklet_extractedLogs has been read by 2017-08-28 04:40:38.499672
+12166 have been prepared by 2017-08-28 04:40:39.757418
+5475 searches have found for bisiklet by 2017-08-28 04:40:40.522096
+16968 products have listed on searches for bisiklet by 2017-08-28 04:40:43.122417
+3993 views have found for bisiklet by 2017-08-28 04:40:44.159166
+479 products have clicked on searches for bisiklet by 2017-08-28 04:40:46.726864
+2744 cart and payments have found for bisiklet by 2017-08-28 04:40:49.386018
+319370 pairs have been found by 2017-08-28 04:41:42.424219
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/bisiklet/bisiklet_pairs with 319370 lines has been saved successfully by 2017-08-28 04:41:54.066902
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/bisiklet/bisiklet_pairs with 319370 labeledPairs will be reading by 2017-08-28 04:41:57.258586
+2531 ids have been gathered from the labeled pairs by 2017-08-28 04:45:42.925898
+2424 products have been found in database to train by 2017-08-28 04:45:42.926150
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/bisiklet/bisiklet_products with 2424 lines has been saved successfully by 2017-08-28 04:47:03.193810
+train instances is being generated by 2017-08-28 04:47:03.194132
+317722 instances have been scaled by 2017-08-28 04:47:43.360898
+317722 train instances have been generated by 2017-08-28 04:47:53.371924
+286124 instances have been selected to be trained 2017-08-28 04:48:20.380538
+31598 instances have been selected to be tested 2017-08-28 04:48:20.380780
+
+Model has been trained on TrainData by 2017-08-28 04:48:43.940264
+The learned weights:
+[-0.358582980106, 0.725125404409, -0.099053631902, 0.0326844675797, 0.0556509650332, -0.286594080389, -0.0264692946123, -0.00210335402969, 0.386001581806, 0.0889440495625, -0.885145877097, 0.0140547634771]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:49:03.035347
+The result accuracy is %76.710
+
+
+Model has been evaluated on TestData by 2017-08-28 04:49:20.803088
+The result accuracy is %76.730
+
+15. LENOVO K6 NOTE:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/lenovo_k6_note/lenovo_k6_note_extractedLogs has been read by 2017-08-28 04:49:20.830674
+1200 have been prepared by 2017-08-28 04:49:21.319050
+412 searches have found for lenovo k6 note by 2017-08-28 04:49:21.586622
+943 products have listed on searches for lenovo k6 note by 2017-08-28 04:49:22.394132
+270 views have found for lenovo k6 note by 2017-08-28 04:49:22.608760
+43 products have clicked on searches for lenovo k6 note by 2017-08-28 04:49:24.270085
+536 cart and payments have found for lenovo k6 note by 2017-08-28 04:49:25.860445
+21342 pairs have been found by 2017-08-28 04:50:01.199706
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/lenovo_k6_note/lenovo_k6_note_pairs with 21342 lines has been saved successfully by 2017-08-28 04:50:09.894387
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/lenovo_k6_note/lenovo_k6_note_pairs with 21342 labeledPairs will be reading by 2017-08-28 04:50:10.411933
+333 ids have been gathered from the labeled pairs by 2017-08-28 04:53:37.495940
+326 products have been found in database to train by 2017-08-28 04:53:37.496244
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/lenovo_k6_note/lenovo_k6_note_products with 326 lines has been saved successfully by 2017-08-28 04:54:28.142343
+train instances is being generated by 2017-08-28 04:54:28.142770
+19248 instances have been scaled by 2017-08-28 04:54:52.008828
+19248 train instances have been generated by 2017-08-28 04:54:53.083520
+17254 instances have been selected to be trained 2017-08-28 04:54:55.977768
+1994 instances have been selected to be tested 2017-08-28 04:54:55.978155
+
+Model has been trained on TrainData by 2017-08-28 04:55:07.813644
+The learned weights:
+[-0.268560172793, -0.0430923403757, -0.0592578664867, 1.10274096441, -0.228427128746, 0.238361662552, 0.178953153712, 0.667984868546, -0.07051907134, 0.105365233128, -0.554841641177, 0.331260345356]
+
+
+Model has been evaluated on TrainData by 2017-08-28 04:55:09.680655
+The result accuracy is %77.420
+
+
+Model has been evaluated on TestData by 2017-08-28 04:55:11.541547
+The result accuracy is %78.285
+
+16. SANDALYE KILIFI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/sandalye_kilifi/sandalye_kilifi_extractedLogs has been read by 2017-08-28 04:55:11.571919
+3969 have been prepared by 2017-08-28 04:55:12.097697
+1235 searches have found for sandalye kilifi by 2017-08-28 04:55:12.372718
+1392 products have listed on searches for sandalye kilifi by 2017-08-28 04:55:13.234619
+2110 views have found for sandalye kilifi by 2017-08-28 04:55:13.498542
+185 products have clicked on searches for sandalye kilifi by 2017-08-28 04:55:14.723322
+780 cart and payments have found for sandalye kilifi by 2017-08-28 04:55:16.105947
+89110 pairs have been found by 2017-08-28 04:55:41.788842
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/sandalye_kilifi/sandalye_kilifi_pairs with 89110 lines has been saved successfully by 2017-08-28 04:55:48.123136
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/sandalye_kilifi/sandalye_kilifi_pairs with 89110 labeledPairs will be reading by 2017-08-28 04:55:48.942146
+682 ids have been gathered from the labeled pairs by 2017-08-28 04:58:44.075868
+599 products have been found in database to train by 2017-08-28 04:58:44.076272
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/sandalye_kilifi/sandalye_kilifi_products with 599 lines has been saved successfully by 2017-08-28 04:59:56.854695
+train instances is being generated by 2017-08-28 04:59:56.855144
+66076 instances have been scaled by 2017-08-28 05:00:31.900546
+66076 train instances have been generated by 2017-08-28 05:00:34.993646
+59457 instances have been selected to be trained 2017-08-28 05:00:45.060097
+6619 instances have been selected to be tested 2017-08-28 05:00:45.060353
+
+Model has been trained on TrainData by 2017-08-28 05:00:59.408565
+The learned weights:
+[-0.417967563935, 0.141211226166, 0.608875523455, 0.426463645992, 0.497548735229, 0.206738909793, 0.00422062893673, -0.1048120934, -1.12098351217, 0.233342712283, 0.0201732393194, 0.182807746938]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:01:05.846988
+The result accuracy is %75.471
+
+
+Model has been evaluated on TestData by 2017-08-28 05:01:11.939446
+The result accuracy is %76.371
+
+17. XIAOMI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/xiaomi/xiaomi_extractedLogs has been read by 2017-08-28 05:01:11.964016
+4198 have been prepared by 2017-08-28 05:01:12.633791
+1821 searches have found for xiaomi by 2017-08-28 05:01:13.081138
+5473 products have listed on searches for xiaomi by 2017-08-28 05:01:14.486079
+856 views have found for xiaomi by 2017-08-28 05:01:14.915571
+116 products have clicked on searches for xiaomi by 2017-08-28 05:01:17.046275
+1537 cart and payments have found for xiaomi by 2017-08-28 05:01:19.065924
+99594 pairs have been found by 2017-08-28 05:02:01.518796
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/xiaomi/xiaomi_pairs with 99594 lines has been saved successfully by 2017-08-28 05:02:11.600266
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/xiaomi/xiaomi_pairs with 99594 labeledPairs will be reading by 2017-08-28 05:02:12.608556
+563 ids have been gathered from the labeled pairs by 2017-08-28 05:05:53.891487
+531 products have been found in database to train by 2017-08-28 05:05:53.891851
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/xiaomi/xiaomi_products with 531 lines has been saved successfully by 2017-08-28 05:07:04.752584
+train instances is being generated by 2017-08-28 05:07:04.752965
+94252 instances have been scaled by 2017-08-28 05:07:41.580753
+94252 train instances have been generated by 2017-08-28 05:07:45.336864
+84652 instances have been selected to be trained 2017-08-28 05:07:57.268095
+9600 instances have been selected to be tested 2017-08-28 05:07:57.268412
+
+Model has been trained on TrainData by 2017-08-28 05:08:13.565872
+The learned weights:
+[-0.33630107013, 0.344916261092, 0.194690554052, -0.0318459276894, -0.121596746911, 0.101323529034, -0.000431046201833, -0.024834206156, -0.801795883904, -0.291325425385, 0.591479670403, 0.671469004531]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:08:21.577618
+The result accuracy is %73.364
+
+
+Model has been evaluated on TestData by 2017-08-28 05:08:29.035269
+The result accuracy is %72.573
+
+18. SAMSUNG GALAXY S6:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_s6/samsung_galaxy_s6_extractedLogs has been read by 2017-08-28 05:08:29.062404
+758 have been prepared by 2017-08-28 05:08:29.471722
+329 searches have found for samsung galaxy s6 by 2017-08-28 05:08:29.758570
+882 products have listed on searches for samsung galaxy s6 by 2017-08-28 05:08:31.016085
+267 views have found for samsung galaxy s6 by 2017-08-28 05:08:31.276674
+25 products have clicked on searches for samsung galaxy s6 by 2017-08-28 05:08:33.010399
+162 cart and payments have found for samsung galaxy s6 by 2017-08-28 05:08:34.536444
+3446 pairs have been found by 2017-08-28 05:09:10.393729
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_s6/samsung_galaxy_s6_pairs with 3446 lines has been saved successfully by 2017-08-28 05:09:19.660846
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_s6/samsung_galaxy_s6_pairs with 3446 labeledPairs will be reading by 2017-08-28 05:09:20.018517
+########################################################################################
+########################################################################################
+########################################################################################
+2017-08-28 05:13:02.523575: Running on osldevptst02
+59 ids have been gathered from the labeled pairs by 2017-08-28 05:13:05.110216
+48 products have been found in database to train by 2017-08-28 05:13:05.110513
+2017-08-28 05:13:18.756618: Features selected for the following trains:
+['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
+1. ADIDAS:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/adidas/adidas_extractedLogs has been read by 2017-08-28 05:13:21.669408
+2102 have been prepared by 2017-08-28 05:13:33.174407
+1667 searches have found for adidas by 2017-08-28 05:13:35.371903
+5298 products have listed on searches for adidas by 2017-08-28 05:13:44.406552
+200 views have found for adidas by 2017-08-28 05:13:45.210235
+101 products have clicked on searches for adidas by 2017-08-28 05:13:57.368736
+241 cart and payments have found for adidas by 2017-08-28 05:14:09.827928
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/samsung_galaxy_s6/samsung_galaxy_s6_products with 48 lines has been saved successfully by 2017-08-28 05:14:17.856678
+train instances is being generated by 2017-08-28 05:14:17.857119
+2906 instances have been scaled by 2017-08-28 05:14:50.272518
+2906 train instances have been generated by 2017-08-28 05:14:51.545565
+2333 instances have been selected to be trained 2017-08-28 05:14:55.397229
+573 instances have been selected to be tested 2017-08-28 05:14:55.397696
+17088 pairs have been found by 2017-08-28 05:15:29.739066
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/adidas/adidas_pairs with 17088 lines has been saved successfully by 2017-08-28 05:15:40.560167
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/adidas/adidas_pairs with 17088 labeledPairs will be reading by 2017-08-28 05:15:41.214944
+
+Model has been trained on TrainData by 2017-08-28 05:17:01.680858
+The learned weights:
+[0.622427387675, 0.0120860322406, 0.170008878088, -1.93216452778, -0.222395071861, 0.00473956006762, -1.10791671537, -0.12983405067, 0.0, 0.448278775914, 0.264645685092, 0.312622316612]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:17:12.384332
+The result accuracy is %88.727
+
+
+Model has been evaluated on TestData by 2017-08-28 05:17:22.207044
+The result accuracy is %89.180
+
+19. KIRMIZI CONVERSE:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kirmizi_converse/kirmizi_converse_extractedLogs has been read by 2017-08-28 05:17:22.271181
+41 have been prepared by 2017-08-28 05:17:23.697182
+6 searches have found for kirmizi converse by 2017-08-28 05:17:25.054919
+138 products have listed on searches for kirmizi converse by 2017-08-28 05:17:29.229128
+32 views have found for kirmizi converse by 2017-08-28 05:17:30.578732
+19 products have clicked on searches for kirmizi converse by 2017-08-28 05:17:40.960822
+3 cart and payments have found for kirmizi converse by 2017-08-28 05:17:52.554979
+823 ids have been gathered from the labeled pairs by 2017-08-28 05:19:38.352608
+797 products have been found in database to train by 2017-08-28 05:19:38.353084
+990 pairs have been found by 2017-08-28 05:20:44.312308
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/adidas/adidas_products with 797 lines has been saved successfully by 2017-08-28 05:20:59.924113
+train instances is being generated by 2017-08-28 05:21:00.313858
+16102 instances have been scaled by 2017-08-28 05:21:36.602022
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kirmizi_converse/kirmizi_converse_pairs with 990 lines has been saved successfully by 2017-08-28 05:21:36.705487
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kirmizi_converse/kirmizi_converse_pairs with 990 labeledPairs will be reading by 2017-08-28 05:21:37.078454
+16102 train instances have been generated by 2017-08-28 05:21:39.096094
+14484 instances have been selected to be trained 2017-08-28 05:21:55.503516
+1618 instances have been selected to be tested 2017-08-28 05:21:55.503925
+
+Model has been trained on TrainData by 2017-08-28 05:22:39.955966
+The learned weights:
+[0.0585607269023, 0.11071981916, -0.467855666823, -0.182544804597, -0.0605615197948, 0.519200191367, -0.154336823392, 0.257038722697, -0.826971837139, -0.46199876253, 0.129895038889, -0.109498398058]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:22:50.573018
+The result accuracy is %75.318
+
+
+Model has been evaluated on TestData by 2017-08-28 05:23:01.126416
+The result accuracy is %76.205
+
+2017-08-28 05:23:01.127238: DONE
+########################################################################################
+########################################################################################
+########################################################################################
+61 ids have been gathered from the labeled pairs by 2017-08-28 05:25:31.583344
+60 products have been found in database to train by 2017-08-28 05:25:31.583781
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kirmizi_converse/kirmizi_converse_products with 60 lines has been saved successfully by 2017-08-28 05:26:39.696961
+train instances is being generated by 2017-08-28 05:26:39.697334
+988 instances have been scaled by 2017-08-28 05:27:11.615991
+988 train instances have been generated by 2017-08-28 05:27:12.556255
+769 instances have been selected to be trained 2017-08-28 05:27:15.399170
+219 instances have been selected to be tested 2017-08-28 05:27:15.399415
+
+Model has been trained on TrainData by 2017-08-28 05:27:28.753438
+The learned weights:
+[0.745844039385, 0.36920555881, -0.881046807146, 0.059182692036, -0.131924253751, -0.781705090429, 0.248050433671, -0.517592634033, -0.374244417072, 0.21029924739, -0.633303897628, 0.71841501356]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:27:30.668733
+The result accuracy is %98.830
+
+
+Model has been evaluated on TestData by 2017-08-28 05:27:32.305138
+The result accuracy is %98.174
+
+20. KIZ COCUK ABIYE ELBISE:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kiz_cocuk_abiye_elbise/kiz_cocuk_abiye_elbise_extractedLogs has been read by 2017-08-28 05:27:32.340001
+9312 have been prepared by 2017-08-28 05:27:33.207678
+3059 searches have found for kiz cocuk abiye elbise by 2017-08-28 05:27:33.921638
+513 products have listed on searches for kiz cocuk abiye elbise by 2017-08-28 05:27:35.858331
+5506 views have found for kiz cocuk abiye elbise by 2017-08-28 05:27:36.571611
+328 products have clicked on searches for kiz cocuk abiye elbise by 2017-08-28 05:27:38.672255
+781 cart and payments have found for kiz cocuk abiye elbise by 2017-08-28 05:27:41.070157
+254170 pairs have been found by 2017-08-28 05:28:33.592892
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kiz_cocuk_abiye_elbise/kiz_cocuk_abiye_elbise_pairs with 254170 lines has been saved successfully by 2017-08-28 05:28:43.526207
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kiz_cocuk_abiye_elbise/kiz_cocuk_abiye_elbise_pairs with 254170 labeledPairs will be reading by 2017-08-28 05:28:46.764985
+406 ids have been gathered from the labeled pairs by 2017-08-28 05:32:35.280944
+392 products have been found in database to train by 2017-08-28 05:32:35.281236
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kiz_cocuk_abiye_elbise/kiz_cocuk_abiye_elbise_products with 392 lines has been saved successfully by 2017-08-28 05:33:46.815066
+train instances is being generated by 2017-08-28 05:33:46.815507
+248436 instances have been scaled by 2017-08-28 05:34:25.463646
+248436 train instances have been generated by 2017-08-28 05:34:33.730186
+223412 instances have been selected to be trained 2017-08-28 05:34:59.667557
+25024 instances have been selected to be tested 2017-08-28 05:34:59.667924
+
+Model has been trained on TrainData by 2017-08-28 05:35:16.622066
+The learned weights:
+[-0.0571063522333, 0.561037526838, -0.270563706299, 0.275296577751, 0.0710210042388, -0.131892971675, 0.0106987931372, -0.280529835223, -1.07547761696, 0.527103647356, 0.218122123259, 0.0676100785332]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:35:33.331394
+The result accuracy is %79.256
+
+
+Model has been evaluated on TestData by 2017-08-28 05:35:49.594924
+The result accuracy is %78.912
+
+21. AVON KADIN PARFUM:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/avon_kadin_parfum/avon_kadin_parfum_extractedLogs has been read by 2017-08-28 05:35:49.620711
+231 have been prepared by 2017-08-28 05:35:50.279959
+21 searches have found for avon kadin parfum by 2017-08-28 05:35:50.498030
+410 products have listed on searches for avon kadin parfum by 2017-08-28 05:35:51.265329
+9 views have found for avon kadin parfum by 2017-08-28 05:35:51.534557
+8 products have clicked on searches for avon kadin parfum by 2017-08-28 05:35:53.295826
+203 cart and payments have found for avon kadin parfum by 2017-08-28 05:35:54.980168
+6976 pairs have been found by 2017-08-28 05:36:31.042824
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/avon_kadin_parfum/avon_kadin_parfum_pairs with 6976 lines has been saved successfully by 2017-08-28 05:36:41.499190
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/avon_kadin_parfum/avon_kadin_parfum_pairs with 6976 labeledPairs will be reading by 2017-08-28 05:36:41.903188
+65 ids have been gathered from the labeled pairs by 2017-08-28 05:40:29.689341
+64 products have been found in database to train by 2017-08-28 05:40:29.689638
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/avon_kadin_parfum/avon_kadin_parfum_products with 64 lines has been saved successfully by 2017-08-28 05:41:24.704926
+train instances is being generated by 2017-08-28 05:41:24.705353
+6936 instances have been scaled by 2017-08-28 05:41:57.050804
+6936 train instances have been generated by 2017-08-28 05:41:58.051366
+5556 instances have been selected to be trained 2017-08-28 05:42:01.035267
+1380 instances have been selected to be tested 2017-08-28 05:42:01.035626
+
+Model has been trained on TrainData by 2017-08-28 05:42:13.487299
+The learned weights:
+[-0.60694126624, 1.1159488503, -0.593054090354, -0.77064665626, 0.0545159250079, 0.0, 0.0, 0.0, -0.0545159250079, -0.596564299573, 0.0354336441786, 0.0496106278383]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:42:15.335816
+The result accuracy is %93.341
+
+
+Model has been evaluated on TestData by 2017-08-28 05:42:17.154485
+The result accuracy is %94.058
+
+22. KAMP CADIRI:
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kamp_cadiri/kamp_cadiri_extractedLogs has been read by 2017-08-28 05:42:17.178802
+3671 have been prepared by 2017-08-28 05:42:17.904243
+1889 searches have found for kamp cadiri by 2017-08-28 05:42:18.300350
+1712 products have listed on searches for kamp cadiri by 2017-08-28 05:42:19.778941
+950 views have found for kamp cadiri by 2017-08-28 05:42:20.155511
+276 products have clicked on searches for kamp cadiri by 2017-08-28 05:42:21.981764
+832 cart and payments have found for kamp cadiri by 2017-08-28 05:42:23.883781
+115686 pairs have been found by 2017-08-28 05:43:05.076390
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kamp_cadiri/kamp_cadiri_pairs with 115686 lines has been saved successfully by 2017-08-28 05:43:14.930228
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kamp_cadiri/kamp_cadiri_pairs with 115686 labeledPairs will be reading by 2017-08-28 05:43:16.443599
+1190 ids have been gathered from the labeled pairs by 2017-08-28 05:47:04.234870
+1116 products have been found in database to train by 2017-08-28 05:47:04.235145
+hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/weekAugust/kamp_cadiri/kamp_cadiri_products with 1116 lines has been saved successfully by 2017-08-28 05:48:17.649086
+train instances is being generated by 2017-08-28 05:48:17.649452
+114590 instances have been scaled by 2017-08-28 05:48:52.683811
+114590 train instances have been generated by 2017-08-28 05:48:57.111753
+103048 instances have been selected to be trained 2017-08-28 05:49:09.969205
+11542 instances have been selected to be tested 2017-08-28 05:49:09.969566
+
+Model has been trained on TrainData by 2017-08-28 05:49:21.839376
+The learned weights:
+[-0.40379155559, -0.313245708822, -0.131569219036, 0.390936066544, 0.399600788415, 0.141631629599, -0.00634410644678, 0.0753888913111, -0.502904848855, 0.466319396417, -0.335700898111, -0.0931215624503]
+
+
+Model has been evaluated on TrainData by 2017-08-28 05:49:30.507049
+The result accuracy is %74.080
+
+
+Model has been evaluated on TestData by 2017-08-28 05:49:38.918143
+The result accuracy is %73.696
+
+outputs/outputTable5.csv has been saved successfully by 2017-08-28 05:49:38.921235
+Keyword, LabeledPairs, LabeledProducts, FoundProducts, FoundPairs, TrainingPairs, TestPairs, photos, soldCount, feedbackPercentage, memberSoldCount, memberSegment, subtitleFlag, brandNew, freeCargo, dailyOffer, windowOptionFlag, price, productCount, TrainingAccuracy, TestAccuracy
+kol_saati, 36570, 557, 543, 35682, 32170, 3512, 0.82803292594504452, 0.5261043794968393, -0.38612099923656951, 0.29919836360936292, 0.55949285163507068, 0.29502746138116381, 0.056910655532891256, -0.077925785052498892, -0.53063787670783447, 0.1738905646950577, -0.014313295035444984, -0.16856911077517117, 79.88498601181225, 79.84054669703872
+iphone_7_kilif, 96152, 2252, 2208, 95120, 85536, 9584, -0.31082373797284774, -0.46880383482755417, 0.12950187955846923, 0.13949021713574788, 0.63951928478783748, -0.21923470477189669, 0.055729432800593795, 0.075165310461486057, -0.76147280665153683, 0.34629095731645776, -0.45126643685452406, -0.039101296717252598, 70.04419191919192, 69.77253756260434
+stres_carki, 115024, 1551, 1465, 113018, 101747, 11271, 0.2101935007656606, -0.29934805429968109, -0.87896764174646336, 0.21301784803189297, 0.59822698398003071, -0.25911203044780506, 0.092572639676045343, -0.16470406585858932, -0.61205428623872093, -0.029054632066579905, -0.0089938007996757524, -0.10362861773997914, 67.17053082646171, 66.6134327033981
+nike_air_max, 51568, 1093, 1003, 43900, 39502, 4398, -0.16252058609612538, 0.20947772796765196, -0.064887695598176892, -0.36918424685543211, 0.26331228843291488, -0.2894538056098131, 0.050791256639152023, -0.0090985149669891366, -0.85116084558192018, -0.14091473186256093, -0.3833930184048091, -0.26843859879439957, 69.5458457799605, 70.07730786721237
+tupperware, 127702, 3248, 2781, 115982, 104604, 11378, -0.274870103950352, -0.044871583517920692, -0.14198926895632444, -0.18981607945173112, 0.41192505780294247, -0.32611457446569514, 0.045517825389458928, -0.29656301518524936, 0.0, -0.27651106562867783, -0.27365609174036437, -0.092674376252128862, 62.37811173568888, 62.664791703287044
+buzdolabi, 160232, 1126, 1073, 157518, 141582, 15936, -0.31190706957374736, 0.6466959384231411, -0.22374213429365225, 0.095399446837366619, 0.021814699983046328, -0.076075489538541638, -0.078767816862430534, -0.14529719329519111, -0.1483660626707545, 0.64074267278687858, -0.58588969276968184, -0.11982744113355248, 79.47549829780621, 79.1039156626506
+vestel_camasir_makinesi, 15608, 61, 60, 14988, 13467, 1521, 0.46312566189083698, 0.59670266268671979, 0.20287427008055761, 0.061864612195717213, -0.29921687219673054, -0.17264827405399219, 0.0, 0.0, -0.4505475385415777, -0.13222913186843221, 1.3352798901292346, 0.55285805047522807, 86.84190985371649, 86.32478632478633
+samsung_galaxy_j7_prime, 49934, 135, 127, 45126, 40586, 4540, 0.52236533258743945, 0.99154529663002366, 0.2858579147551078, -0.39617911779981951, -0.10901324895454537, 0.62357519562304697, -0.17989124121645372, 1.1848824654627168, -0.36184074679847383, -0.068830882621094894, -0.71755855602479068, 0.25536117675546011, 78.80549943330212, 79.29515418502203
+samsung, 229188, 634, 565, 214834, 193474, 21360, 0.19103559378261437, 0.53213819714354182, -0.60055936025483103, -0.55493621782314717, 0.24749083365053001, 0.83225288190884372, 0.24400216782023684, -0.119951876153783, -0.19984199679321998, -0.50385275669448781, -0.23775335916091972, 0.63492282685714974, 77.3959291687772, 77.71067415730337
+dikey_elektrikli_supurge, 38616, 194, 184, 38088, 34394, 3694, -0.31459380216692923, 0.64505282996154867, 0.081749131836838823, 0.18366378386314172, 0.0090016706388330956, -0.32456613674977702, -0.39487785205878362, 0.43764478719580757, -0.22889381686262075, -0.048349686303872132, -1.3184343638497262, -0.3733911462618964, 75.64691515962086, 74.39090416892257
+jbl_hoparlor, 5206, 209, 206, 5102, 4043, 1059, -0.21795330727257525, 0.47277090427274693, 0.040057729897223282, -0.6984614012220699, 0.75230177906728535, -0.12535528797246021, 0.0, -0.15568806047317568, -0.4326185807060417, -0.064666221040969155, -0.37634689783167802, 0.0022147060733024374, 80.2127133316844, 78.84796978281398
+bisiklet, 319370, 2531, 2424, 317722, 286124, 31598, -0.35858298010607287, 0.72512540440897633, -0.099053631902014494, 0.032684467579679383, 0.055650965033202195, -0.28659408038862155, -0.026469294612323925, -0.0021033540296926888, 0.38600158180594318, 0.088944049562453595, -0.88514587709673487, 0.01405476347709469, 76.71009771986971, 76.72953984429394
+lenovo_k6_note, 21342, 333, 326, 19248, 17254, 1994, -0.26856017279280847, -0.043092340375738052, -0.059257866486749272, 1.1027409644137971, -0.22842712874601223, 0.23836166255163768, 0.17895315371248158, 0.66798486854568351, -0.070519071339959549, 0.1053652331276483, -0.55484164117742496, 0.33126034535645249, 77.41972875854874, 78.28485456369107
+sandalye_kilifi, 89110, 682, 599, 66076, 59457, 6619, -0.41796756393465467, 0.14121122616626389, 0.60887552345503038, 0.42646364599174641, 0.49754873522944615, 0.20673890979317125, 0.0042206289367301359, -0.10481209339986519, -1.1209835121673286, 0.23334271228266798, 0.020173239319418858, 0.18280774693771484, 75.47134904216493, 76.37105302915849
+xiaomi, 99594, 563, 531, 94252, 84652, 9600, -0.33630107012956562, 0.34491626109165185, 0.19469055405234822, -0.031845927689436539, -0.12159674691088017, 0.10132352903422903, -0.00043104620183315829, -0.02483420615595865, -0.80179588390404011, -0.29132542538546746, 0.59147967040279525, 0.67146900453126823, 73.36388980768322, 72.57291666666667
+samsung_galaxy_s6, 3446, 59, 48, 2906, 2333, 573, 0.62242738767486672, 0.012086032240566041, 0.17000887808775142, -1.9321645277818487, -0.22239507186084659, 0.0047395600676202604, -1.1079167153689782, -0.12983405067046733, 0.0, 0.44827877591351784, 0.2646456850915363, 0.31262231661171314, 88.72696099442777, 89.17975567190227
+kirmizi_converse, 990, 61, 60, 988, 769, 219, 0.74584403938487953, 0.36920555880956346, -0.88104680714579953, 0.059182692036033595, -0.13192425375081968, -0.78170509042884151, 0.24805043367088642, -0.51759263403281364, -0.37424441707203726, 0.21029924738951603, -0.63330389762809836, 0.71841501356004955, 98.8296488946684, 98.17351598173516
+kiz_cocuk_abiye_elbise, 254170, 406, 392, 248436, 223412, 25024, -0.057106352233333345, 0.56103752683795693, -0.27056370629918969, 0.27529657775076238, 0.071021004238751156, -0.13189297167460753, 0.010698793137162693, -0.28052983522299518, -1.0754776169644147, 0.52710364735630988, 0.21812212325903191, 0.067610078533219625, 79.25581436986376, 78.91224424552429
+avon_kadin_parfum, 6976, 65, 64, 6936, 5556, 1380, -0.606941266239855, 1.1159488503040513, -0.59305409035399026, -0.77064665626019591, 0.054515925007925556, 0.0, 0.0, 0.0, -0.054515925007925556, -0.59656429957341195, 0.0354336441785605, 0.0496106278383142, 93.3405327573794, 94.05797101449275
+kamp_cadiri, 115686, 1190, 1116, 114590, 103048, 11542, -0.40379155558962138, -0.31324570882243696, -0.13156921903558935, 0.39093606654383461, 0.39960078841452557, 0.14163162959933967, -0.0063441064467816416, 0.075388891311089543, -0.50290484885452891, 0.46631939641714953, -0.33570089811091675, -0.093121562450276502, 74.08004036953653, 73.69606653959453
+
+2017-08-28 05:49:38.923124: DONE
+########################################################################################
+########################################################################################
+########################################################################################
