@@ -29,7 +29,7 @@ def extractPairs():
 def trainingTestAllLoop(feature_names):
     import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
     Trainer.setFeatureVector(feature_names)
-    keywords = ReadyTests.get27Keywords()[:23]
+    keywords = ReadyTests.get27Keywords()
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.replace(' ', '_')
@@ -60,8 +60,8 @@ def extractPeriod(firstDay, lastDay):
 
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
-    extractPairs()
-    #trainingTestAll()
+    #extractPairs()
+    trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
