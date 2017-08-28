@@ -45,7 +45,7 @@ def selectWeights(weights):
 def eliminate(weights, features):
     index, _ = selectWeights(weights)
     features.pop(index)
-    return features
+    return index, features
 
 def getTrainedWeights(keyword):
     import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
@@ -57,12 +57,19 @@ def getTrainedWeights(keyword):
 
 def selectFeaturesForKeyword(keyword):
     import Trainer
+    from pyspark.mllib.regression import LabeledPoint
     featureList = Trainer.featuresList[:-2]
     Trainer.setFeatureVector(featureList)
     trainData, testData, weights = getTrainedWeights(keyword)
     while not isImportant(weights):
-        featureList = eliminate(weights, featureList)
+        index, featureList = eliminate(weights, featureList)
         Trainer.setFeatureVector(featureList)
+        def getReducedVector(lp):
+            newFeatures = lp.features
+            newFeatures.pop(index)
+            return LabeledPoint(lp.label, newFeatures)
+        trainData = trainData.map(getReducedVector)
+        testData = testData.map(getReducedVector)
         model = Trainer.trainPairWiseData(trainData, dataName = 'TrainData')
         Trainer.evaluateModelOnData(model, testData, dataName = 'TestData')
         weights = list(model.weights)
