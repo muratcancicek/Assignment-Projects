@@ -19,7 +19,7 @@ def extractPairs():
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
     Trainer.setFeatureVector(feature_names)
-    keywords = ReadyTests.get27Keywords()[22:23]
+    keywords = ReadyTests.get27Keywords()[2:3]
     done = ['basiktas', 'iphone 7']
     for c, keyword in enumerate(keywords): 
         #if keyword in done or c in [0, 2]: 
@@ -63,8 +63,8 @@ def extractPeriod(firstDay, lastDay):
 
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
-    #extractPairs()
-    trainingTestAll()
+    extractPairs()
+    #trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
