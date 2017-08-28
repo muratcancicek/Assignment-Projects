@@ -55,7 +55,7 @@ def getTrainedWeights(keyword):
 
 def selectFeaturesForKeyword(keyword):
     import Trainer
-    featureList = Trainer.featuresList
+    featureList = Trainer.featuresList[:-2]
     weights = getTrainedWeights(keyword)
     while not isImportant(weights):
         featureList = eliminate(weights, featureList)
