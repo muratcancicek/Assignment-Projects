@@ -63,11 +63,11 @@ def selectFeaturesForKeyword(keyword):
     while not isImportant(weights):
         featureList = eliminate(weights, featureList)
         Trainer.setFeatureVector(featureList)
-        model = trainPairWiseData(trainData, dataName = 'TrainData')
-        evaluateModelOnData(model, testData, dataName = 'TestData')
+        model = Trainer.trainPairWiseData(trainData, dataName = 'TrainData')
+        Trainer.evaluateModelOnData(model, testData, dataName = 'TestData')
         weights = list(model.weights)
     print('Keyword: ' + keyword)
-    print('Selected features: ' + featureList)
+    print('Selected features: ' + str(featureList))
 
 def selectFeaturesForAllKeywords():
     import  ReadyTests2 as rt
