@@ -49,8 +49,9 @@ def getTrainedWeights(keyword):
     import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
     keyword = keyword.replace(' ', '_')
     folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'weekAugust'), keyword)
+    #folder = 'C:\\Users\\Muratcan\\Desktop'
     FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
-    return Trainer.lastWeights
+    return list(Trainer.lastWeights)
 
 def selectFeaturesForKeyword(keyword):
     import Trainer
