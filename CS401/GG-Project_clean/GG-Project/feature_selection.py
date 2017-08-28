@@ -44,8 +44,8 @@ def selectWeights(weights):
 
 def eliminate(weights, features):
     index, _ = selectWeights(weights)
-    features.pop(index)
-    return index, features
+    removedFeature = features.pop(index)
+    return index, features, removedFeature
 
 def getTrainedWeights(keyword):
     import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
@@ -56,14 +56,16 @@ def getTrainedWeights(keyword):
     return trainData, testData, list(model.weights)
 
 def selectFeaturesForKeyword(keyword, threshold = 0.47):
-    import Trainer
+    import Trainer, PythonVersionHandler
     from pyspark.mllib.regression import LabeledPoint
     featureList = Trainer.featuresList[:-2]
     Trainer.setFeatureVector(featureList)
     trainData, testData, weights = getTrainedWeights(keyword)
     accuracy = 100
+    removedFeatures = []
     while (not isImportant(weights, threshold = threshold)) and len(weights) > 1:
-        index, featureList = eliminate(weights, featureList)
+        index, featureList, removedFeature = eliminate(weights, featureList)
+        removedFeatures.append(removedFeature)
         Trainer.setFeatureVector(featureList)
         def getReducedVector(lp):
             newFeatures = list(lp.features)
@@ -74,8 +76,9 @@ def selectFeaturesForKeyword(keyword, threshold = 0.47):
         model = Trainer.trainPairWiseData(trainData, dataName = 'TrainData')
         accuracy = Trainer.evaluateModelOnData(model, testData, dataName = 'TestData')
         weights = list(model.weights)
-    print('Keyword: ' + keyword)
-    print('Selected features: ' + str(featureList))
+    PythonVersionHandler.print_('Keyword: ' + keyword)
+    PythonVersionHandler.print_('Selected features: ' + str(featureList))
+    PythonVersionHandler.print_('Following features have reduced by order: ' + str(featureList))
 
 def selectFeaturesForAllKeywords():
     import  ReadyTests2 as rt
