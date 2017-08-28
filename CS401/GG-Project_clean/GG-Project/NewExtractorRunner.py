@@ -36,7 +36,7 @@ def trainingTestAllLoop(feature_names):
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.replace(' ', '_')
-        folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'secondWeek'), keyword)
+        folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'weekAugust'), keyword)
         FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
     Trainer.printOutputTable()
     Trainer.saveOutputTable()
