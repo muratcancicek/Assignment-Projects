@@ -65,7 +65,7 @@ def selectFeaturesForKeyword(keyword):
         index, featureList = eliminate(weights, featureList)
         Trainer.setFeatureVector(featureList)
         def getReducedVector(lp):
-            newFeatures = lp.features
+            newFeatures = list(lp.features)
             newFeatures.pop(index)
             return LabeledPoint(lp.label, newFeatures)
         trainData = trainData.map(getReducedVector)
