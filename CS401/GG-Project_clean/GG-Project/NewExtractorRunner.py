@@ -32,7 +32,7 @@ def extractPairs():
 def trainingTestAllLoop(feature_names):
     import paths, PythonVersionHandler, FinalizedRunners, Trainer, ReadyTests
     Trainer.setFeatureVector(feature_names)
-    keywords = ReadyTests.get27Keywords()[:22]
+    keywords = ReadyTests.get27Keywords()[:23]
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         keyword = keyword.replace(' ', '_')
@@ -44,11 +44,10 @@ def trainingTestAllLoop(feature_names):
 
 def trainingTestAll():
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
-            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
-            'productCount']
+            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
     trainingTestAllLoop(feature_names)
-    feature_names = ['photos', 'feedbackPercentage', 'memberSoldCount', 'soldCount',
-            'memberSegment', 'subtitleFlag', 'brandNew', 'freeCargo', 'windowOptionFlag']
+    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount',
+            'memberSegment', 'brandNew', 'freeCargo', 'windowOptionFlag']
     trainingTestAllLoop(feature_names)
         
 def extractPeriod(firstDay, lastDay):
