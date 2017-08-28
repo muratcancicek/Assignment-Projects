@@ -63,8 +63,8 @@ def extractPeriod(firstDay, lastDay):
 
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
-    extractPairs()
-    #trainingTestAll()
+    #extractPairs()
+    trainingTestAll()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
