@@ -58,10 +58,14 @@ def extractPeriod(firstDay, lastDay):
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath, pairing = False, doneWords = 9)
 
+def selection():
+    import feature_selection
+    feature_selection.selectFeaturesForAllKeywords()
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
     #extractPairs()
     trainingTestAll()
+    selection()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2

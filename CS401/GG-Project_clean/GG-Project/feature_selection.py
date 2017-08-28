@@ -30,7 +30,7 @@ def getMinimumValuedWeightIndex(list):
 
 def isImportant(weights, threshold = 0.47):
     index = getMinimumValuedWeightIndex(weights)
-    if weights[index] > threshold: # Similarity issue is ignored. Working on it.
+    if weights[index] > threshold or -weights[index] > threshold: # Similarity issue is ignored. Working on it.
         return True
     else: return False
 
