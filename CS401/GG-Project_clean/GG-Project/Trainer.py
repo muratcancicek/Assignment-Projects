@@ -132,7 +132,7 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     outputTable[-1].append(accuracy)
     PythonVersionHandler.print_high_logging('\n'+modelName, 'has been evaluated on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_logging('The result accuracy is %' + '%.3f\n' % (accuracy))
-    return labelsAndPreds
+    return accuracy
 
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     import pyspark.mllib.classification, PythonVersionHandler

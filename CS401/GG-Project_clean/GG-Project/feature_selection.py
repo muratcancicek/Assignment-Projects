@@ -55,13 +55,14 @@ def getTrainedWeights(keyword):
     trainData, testData, model = FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
     return trainData, testData, list(model.weights)
 
-def selectFeaturesForKeyword(keyword):
+def selectFeaturesForKeyword(keyword, threshold = 0.47):
     import Trainer
     from pyspark.mllib.regression import LabeledPoint
     featureList = Trainer.featuresList[:-2]
     Trainer.setFeatureVector(featureList)
     trainData, testData, weights = getTrainedWeights(keyword)
-    while not isImportant(weights):
+    accuracy = 100
+    while (not isImportant(weights, threshold = threshold)) and len(weights) > 1:
         index, featureList = eliminate(weights, featureList)
         Trainer.setFeatureVector(featureList)
         def getReducedVector(lp):
@@ -71,7 +72,7 @@ def selectFeaturesForKeyword(keyword):
         trainData = trainData.map(getReducedVector)
         testData = testData.map(getReducedVector)
         model = Trainer.trainPairWiseData(trainData, dataName = 'TrainData')
-        Trainer.evaluateModelOnData(model, testData, dataName = 'TestData')
+        accuracy = Trainer.evaluateModelOnData(model, testData, dataName = 'TestData')
         weights = list(model.weights)
     print('Keyword: ' + keyword)
     print('Selected features: ' + str(featureList))
