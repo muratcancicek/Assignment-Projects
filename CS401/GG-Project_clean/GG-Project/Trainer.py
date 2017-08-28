@@ -10,7 +10,7 @@ outputTable = []
 def addColumnTitles(feature_names = None):
     titles = ['Keyword', 'LabeledPairs', 'LabeledProducts', 'FoundProducts', 'FoundPairs', 'TrainingPairs', 'TestPairs']
     if feature_names == None:
-        feature_names = list(features.keys())
+        feature_names = featuresList
     titles = titles + feature_names + ['TrainingAccuracy', 'TestAccuracy']
     outputTable.append(titles)
 
