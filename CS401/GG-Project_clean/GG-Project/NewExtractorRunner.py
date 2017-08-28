@@ -15,7 +15,7 @@ def trainTesting(keyword = 'iphone 7'):
         FinalizedRunners.trainForKeyword(keyword, outputFolder, saving = True)
         
 def extractPairs():
-    import paths, PythonVersionHandler, Trainer, ReadyTests2
+    import paths, PythonVersionHandler, Trainer, ReadyTests
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price', 'productCount']
     Trainer.setFeatureVector(feature_names)
