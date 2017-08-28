@@ -134,14 +134,12 @@ def evaluateModelOnData(model, data, dataName = 'Data', modelName = 'Model'):
     PythonVersionHandler.print_logging('The result accuracy is %' + '%.3f\n' % (accuracy))
     return labelsAndPreds
 
-lastWeights = []
 def trainPairWiseData(data, dataName = 'Data', modelName = 'Model', evaluate = True):
     import pyspark.mllib.classification, PythonVersionHandler
     model = pyspark.mllib.classification.SVMWithSGD.train(data, iterations=1000)
     PythonVersionHandler.print_high_logging('\n'+modelName, 'has been trained on', dataName, 'by', PythonVersionHandler.nowStr())
     PythonVersionHandler.print_('The learned weights:\n' + str(model.weights).replace(',', ', ') + '\n')
     global lastWeights
-    lastWeights = model.weights
     outputTable[-1].extend(model.weights)
     if evaluate:
         evaluateModelOnData(model, data, dataName, modelName)
@@ -174,6 +172,7 @@ def train(labeledPairsPath, productsPath, outputPath = None, saving = True, keyw
     trainData, testData = splitDataScientifically(trainData)
     model = trainPairWiseData(trainData, dataName = 'TrainData')
     evaluateModelOnData(model, testData, dataName = 'TestData')
+    return trainData, testData, model
 
 def getOutputTable():
     s = ''

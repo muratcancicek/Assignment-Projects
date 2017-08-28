@@ -130,4 +130,4 @@ def trainForKeyword(keyword, folder = 'allWeek', saving = False):
         productVectorFolder = paths.newProductVectorFolder
     else:
         productVectorFolder = outputPath
-    Trainer.train(pairsPath, productVectorFolder, outputPath, saving = saving, keyword = keyword)
+    return Trainer.train(pairsPath, productVectorFolder, outputPath, saving = saving, keyword = keyword)

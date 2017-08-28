@@ -52,18 +52,20 @@ def getTrainedWeights(keyword):
     keyword = keyword.replace(' ', '_')
     folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'weekAugust'), keyword)
     #folder = 'C:\\Users\\Muratcan\\Desktop'
-    FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
-    return list(Trainer.lastWeights)
+    trainData, testData, model = FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
+    return trainData, testData, list(model.weights)
 
 def selectFeaturesForKeyword(keyword):
     import Trainer
     featureList = Trainer.featuresList[:-2]
     Trainer.setFeatureVector(featureList)
-    weights = getTrainedWeights(keyword)
+    trainData, testData, weights = getTrainedWeights(keyword)
     while not isImportant(weights):
         featureList = eliminate(weights, featureList)
         Trainer.setFeatureVector(featureList)
-        weights = getTrainedWeights(keyword)
+        model = trainPairWiseData(trainData, dataName = 'TrainData')
+        evaluateModelOnData(model, testData, dataName = 'TestData')
+        weights = list(model.weights)
     print('Keyword: ' + keyword)
     print('Selected features: ' + featureList)
 
