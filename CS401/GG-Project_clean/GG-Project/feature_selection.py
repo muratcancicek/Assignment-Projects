@@ -25,7 +25,8 @@ def getAbsValuedList(list):
     return new_list
 
 def getMinimumValuedWeightIndex(list):
-    return list.index(min(getAbsValuedList(list)))
+    v = min(getAbsValuedList(list)) 
+    return list.index(v) if v in list else list.index(-v)
 
 def isImportant(weights, threshold = 0.47):
     index = getMinimumValuedWeightIndex(weights)
@@ -34,7 +35,8 @@ def isImportant(weights, threshold = 0.47):
     else: return False
 
 def getExtractedWeights(weights):
-    return getMinimumValuedWeightIndex(weights), weights.pop(getMinimumValuedWeightIndex(weights))
+    i = getMinimumValuedWeightIndex(weights)
+    return i, weights.pop(i)
 
 def selectWeights(weights):
     index, rfe_weights = getExtractedWeights(weights)
