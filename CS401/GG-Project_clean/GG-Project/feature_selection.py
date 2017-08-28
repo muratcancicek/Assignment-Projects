@@ -52,16 +52,15 @@ def getTrainedWeights(keyword):
     keyword = keyword.replace(' ', '_')
     folder = paths.joinPath(paths.joinPath(paths.HDFSRootFolder, 'weekAugust'), keyword)
     #folder = 'C:\\Users\\Muratcan\\Desktop'
-    trainData, testData, model = FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
-    return trainData, testData, list(model.weights)
+    trainData, testData, model, accuracy = FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
+    return trainData, testData, list(model.weights), accuracy
 
 def selectFeaturesForKeyword(keyword, threshold = 0.47):
     import Trainer, PythonVersionHandler
     from pyspark.mllib.regression import LabeledPoint
     featureList = Trainer.featuresList[:-2]
     Trainer.setFeatureVector(featureList)
-    trainData, testData, weights = getTrainedWeights(keyword)
-    accuracy = 100
+    trainData, testData, weights, accuracy = getTrainedWeights(keyword)
     removedFeatures = []
     while (not isImportant(weights, threshold = threshold)) and len(weights) > 1:
         index, featureList, removedFeature = eliminate(weights, featureList)
@@ -78,10 +77,10 @@ def selectFeaturesForKeyword(keyword, threshold = 0.47):
         weights = list(model.weights)
     PythonVersionHandler.print_('Keyword: ' + keyword)
     PythonVersionHandler.print_('Selected features: ' + str(featureList))
-    PythonVersionHandler.print_('Following features have reduced by order: ' + str(featureList))
+    PythonVersionHandler.print_('Following features have reduced by order: ' + str(removedFeatures))
 
 def selectFeaturesForAllKeywords():
     import  ReadyTests2 as rt
-    keywords = rt.get27Keywords()[:23] # todo for all keywords case,
+    keywords = rt.get27Keywords()
     for keyword in keywords:
         selectFeaturesForKeyword(keyword)

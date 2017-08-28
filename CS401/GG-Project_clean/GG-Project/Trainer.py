@@ -171,8 +171,8 @@ def train(labeledPairsPath, productsPath, outputPath = None, saving = True, keyw
         return 
     trainData, testData = splitDataScientifically(trainData)
     model = trainPairWiseData(trainData, dataName = 'TrainData')
-    evaluateModelOnData(model, testData, dataName = 'TestData')
-    return trainData, testData, model
+    accuracy = evaluateModelOnData(model, testData, dataName = 'TestData')
+    return trainData, testData, model, accuracy
 
 def getOutputTable():
     s = ''
