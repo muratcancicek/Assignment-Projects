@@ -64,7 +64,7 @@ def selection():
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
     #extractPairs()
-    trainingTestAll()
+    #trainingTestAll()
     selection()
 
 def runNewExtractionMethodsOnJupyter():

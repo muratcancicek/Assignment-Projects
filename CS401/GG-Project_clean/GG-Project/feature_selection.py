@@ -91,16 +91,6 @@ def selectFeaturesForKeyword(keyword, threshold = 0.223):
     row.extend(accuracies)
     return row, weightsRow
 
-def selectFeaturesForAllKeywords():
-    outputTable = []
-    import  ReadyTests2 as rt
-    keywords = rt.get27Keywords()
-    for keyword in keywords:
-        row, weightsRow = selectFeaturesForKeyword(keyword)
-        outputTable.append(row)
-        outputTable.append(weightsRow)
-    saveFeaturesTable(outputTable)
-
 def getOutputTable(outputTable):
     s = ''
     for r in outputTable:
@@ -119,3 +109,14 @@ def saveFeaturesTable(outputTable):
     f.close()
     import PythonVersionHandler
     PythonVersionHandler.print_(fileName, 'has been saved successfully by', PythonVersionHandler.nowStr())
+
+def selectFeaturesForAllKeywords():
+    outputTable = []
+    import PythonVersionHandler, ReadyTests2 as rt
+    keywords = rt.get27Keywords()
+    for keyword in keywords:
+        row, weightsRow = selectFeaturesForKeyword(keyword)
+        outputTable.append(row)
+        outputTable.append(weightsRow)
+    saveFeaturesTable(outputTable)
+    PythonVersionHandler.print_(getOutputTable(outputTable))
