@@ -112,7 +112,7 @@ def saveFeaturesTable(outputTable):
 
 def selectFeaturesForAllKeywords():
     outputTable = []
-    import PythonVersionHandler, ReadyTests2 as rt
+    import PythonVersionHandler, ReadyTests as rt
     keywords = rt.get27Keywords()
     for keyword in keywords:
         row, weightsRow = selectFeaturesForKeyword(keyword)
