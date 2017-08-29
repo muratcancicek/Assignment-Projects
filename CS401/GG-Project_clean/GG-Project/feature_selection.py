@@ -55,7 +55,7 @@ def getTrainedWeights(keyword):
     trainData, testData, model, accuracy = FinalizedRunners.trainForKeyword(keyword, folder, saving = False)
     return trainData, testData, list(model.weights), accuracy
 
-def selectFeaturesForKeyword(keyword, threshold = 0.47):
+def selectFeaturesForKeyword(keyword, threshold = 0.223):
     import Trainer, PythonVersionHandler
     from pyspark.mllib.regression import LabeledPoint
     featureList = Trainer.featuresList[:-2]
