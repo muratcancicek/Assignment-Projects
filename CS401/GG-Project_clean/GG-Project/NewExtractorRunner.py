@@ -84,6 +84,7 @@ def extendedPairs(keyword = 'iphone 7'):
 
 def extendedProductExtraction(keyword = 'iphone 7'):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler, Trainer
+    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     keyword_name = keyword.replace(' ', '_')
     outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
     pairs = Trainer.readLabeledPairs(outputPath)
@@ -96,7 +97,7 @@ def extendedProductExtraction(keyword = 'iphone 7'):
 
 def extractExtendedPairs():
     import paths, PythonVersionHandler, Trainer, ReadyTests
-    keywords = ReadyTests.get27Keywords()
+    keywords = ReadyTests.get27Keywords()[2:]
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         extendedPairs(keyword)
@@ -106,8 +107,9 @@ def runNewExtractionMethods():
     #extractPairs()
     #trainingTestAll()
     #selection()
-    #extendedPairs(keyword = 'besiktas')
-    extendedProductExtraction(keyword = 'besiktas')
+    #extendedPairs(keyword = 'kol saati')
+    #extendedProductExtraction(keyword = 'besiktas')
+    extractExtendedPairs()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
