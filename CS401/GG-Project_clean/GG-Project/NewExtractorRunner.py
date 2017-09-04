@@ -93,7 +93,6 @@ def extendedProductExtraction(keyword = 'iphone 7'):
     products = Trainer.getProducts(ids, productVectorFolder)
     Trainer.saveSpecificProduct(products, productsPath)
 
-
 def extractExtendedPairs():
     import paths, PythonVersionHandler, Trainer, ReadyTests
     keywords = ReadyTests.get27Keywords()
@@ -101,6 +100,24 @@ def extractExtendedPairs():
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         extendedPairs(keyword)
 
+def t(keyword = 'iphone 7'):
+    import Trainer
+    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
+                     'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
+    Trainer.setFeatureVector(feature_names)
+    keyword_name = keyword.replace(' ', '_')
+    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
+    pairs = Trainer.readLabeledPairs(outputPath)
+    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
+    Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
+
+def extractExtendedPairs():
+    import paths, PythonVersionHandler, Trainer, ReadyTests
+    keywords = ReadyTests.get27Keywords()
+    for c, keyword in enumerate(keywords): 
+        PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
+        extendedPairs(keyword)
+    
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
     #extractPairs()
