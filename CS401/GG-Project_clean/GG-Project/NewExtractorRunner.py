@@ -82,6 +82,18 @@ def extendedPairs(keyword = 'iphone 7'):
         products = Trainer.getProducts(ids, productVectorFolder)
         Trainer.saveSpecificProduct(products, productsPath)
 
+def extendedProductExtraction(keyword = 'iphone 7'):
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler, Trainer
+    keyword_name = keyword.replace(' ', '_')
+    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
+    pairs = Trainer.readLabeledPairs(outputPath)
+    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
+    ids = pairs.flatMap(lambda i: i[0]).distinct()
+    productVectorFolder = paths.newProductVectorFolder3
+    products = Trainer.getProducts(ids, productVectorFolder)
+    Trainer.saveSpecificProduct(products, productsPath)
+
+
 def extractExtendedPairs():
     import paths, PythonVersionHandler, Trainer, ReadyTests
     keywords = ReadyTests.get27Keywords()
@@ -94,7 +106,8 @@ def runNewExtractionMethods():
     #extractPairs()
     #trainingTestAll()
     #selection()
-    extendedPairs(keyword = 'besiktas')
+    #extendedPairs(keyword = 'besiktas')
+    extendedProductExtraction(keyword = 'besiktas')
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2

@@ -1,9 +1,13 @@
-features = {'photos': 0, 'soldCount': 1, 'feedbackPercentage': 2, 'memberSoldCount': 3, 'memberSegment': 4, 
-            'subtitleFlag': 5, 'brandNew': 6, 'freeCargo': 7, 'dailyOffer': 8, 'windowOptionFlag': 9, 'price': 10,
-            'productCount': 11, 'hasphotos': 12, 'feedbackPercantageBlock': 13}
+#features = {'photos': 0, 'soldCount': 1, 'feedbackPercentage': 2, 'memberSoldCount': 3, 'memberSegment': 4, 
+#            'subtitleFlag': 5, 'brandNew': 6, 'freeCargo': 7, 'dailyOffer': 8, 'windowOptionFlag': 9, 'price': 10,
+#            'productCount': 11, 'hasphotos': 12, 'feedbackPercantageBlock': 13}
+#featuresList = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
+#            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
+#            'productCount', 'hasphotos', 'feedbackPercantageBlock']
 featuresList = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
-            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'price',
-            'productCount', 'hasphotos', 'feedbackPercantageBlock']
+            'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'hasphotos', 
+            'feedbackPercantageBlock', 'sameDay']
+features = {fn: i for i, fn in enumerate(featuresList)}
 featureVector = None
 
 outputTable = []
