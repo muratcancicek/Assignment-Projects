@@ -61,7 +61,7 @@ def getProducts(ids, fileName = None):
         return pyspark.mllib.linalg.DenseVector(vector)
     foundProducts = ids.join(products).map(lambda p: (p[1][0], getReducedVector(p[1][1])))
     import PythonVersionHandler
-    if PythonVersionHandler.LOGGING:
+    if PythonVersionHandler.LOGGING and len(outputTable) > 0:
         ic = ids.count()
         fc = foundProducts.count()
         PythonVersionHandler.print_logging(ic, 'ids have been gathered from the labeled pairs by', PythonVersionHandler.nowStr())
@@ -75,7 +75,7 @@ def readLabeledPairs(path):
     import paths, PythonVersionHandler, SparkLogFileHandler
     labeledPairs = SparkLogFileHandler.sc_().textFile(path)
     labeledPairs = labeledPairs.map(eval)
-    if PythonVersionHandler.LOGGING:
+    if PythonVersionHandler.LOGGING and len(outputTable) > 0:
         lc = labeledPairs.count()
         PythonVersionHandler.print_logging(path, 'with', lc, 'labeledPairs will be reading by', PythonVersionHandler.nowStr())
         outputTable[-1].append(lc)
