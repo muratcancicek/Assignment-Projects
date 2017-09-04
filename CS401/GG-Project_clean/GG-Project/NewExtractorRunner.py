@@ -101,23 +101,26 @@ def extractExtendedPairs():
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
         extendedPairs(keyword)
 
-def t(keyword = 'iphone 7'):
-    import Trainer
+def trainExtendedPairs(keyword = 'iphone 7'):
+    import Trainer, paths
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
     Trainer.setFeatureVector(feature_names)
+    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     keyword_name = keyword.replace(' ', '_')
     outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
     pairs = Trainer.readLabeledPairs(outputPath)
     productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
     Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
 
-def extractExtendedPairs():
+def trainExtendedPairsLoop():
     import paths, PythonVersionHandler, Trainer, ReadyTests
     keywords = ReadyTests.get27Keywords()
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
-        extendedPairs(keyword)
+        trainExtendedPairs(keyword)
+    Trainer.saveOutputTable()
+    Trainer.printOutputTable()
     
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
@@ -126,7 +129,8 @@ def runNewExtractionMethods():
     #selection()
     #extendedPairs(keyword = 'kol saati')
     #extendedProductExtraction(keyword = 'besiktas')
-    extractExtendedPairs()
+    #extractExtendedPairs()
+    trainExtendedPairsLoop()
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
