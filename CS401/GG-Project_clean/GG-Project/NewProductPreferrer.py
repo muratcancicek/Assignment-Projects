@@ -90,21 +90,25 @@ def pairSearchesNPrevious(searchesNProducts, pairedSearchesNProducts):
     return searchesNPrevious
 
 def isSearchPrevious(sp):
+    import LumberjackConstants as L
     return sp[0][0][L.KEY_TIMESTAMP] > sp[1][0][L.KEY_TIMESTAMP] and sp[0][0][L.KEY_PAGENUM] > sp[1][0][L.KEY_PAGENUM]\
            and not isProductIdOnSearch(sp[0][1][1], sp[1][0])
 
 def getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts):
     searchesNPrevious = pairSearchesNPrevious(searchesNProducts, pairedSearchesNProducts)
     searchesNPrevious = searchesNPrevious.filter(isSearchPrevious) 
-    searchesNPrevious = searchesNPrevious.map(lambda sp: (sp[1][0], sp[0][1][1]))
+    searchesNPrevious = searchesNPrevious.map(lambda sp: (sp[1][0], sp[0][1]))
     pairs = searchesNPrevious.flatMap(instanceListFromPrevious)
     pairs = pairs.flatMap(labelPairs)
     return pairs
 
 def getLabeledPairs(searches, productLogs):
+    import PythonVersionHandler
     searchesNProducts = pairSearchesNProducts(searches, productLogs)
     pairs1, pairedSearchesNProducts = getLabeledPairsOnSinglePage(searchesNProducts)
+    PythonVersionHandler.print_logging(pairs1.count(), 'pairs have been found on the same pages by', PythonVersionHandler.nowStr())
     pairs2 = getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts)
+    PythonVersionHandler.print_logging(pairs2.count(), 'pairs have been found on previous pages by', PythonVersionHandler.nowStr())
     return pairs1.union(pairs2)#
 
 def trainingInstancesForSingleKeyword(logs):
@@ -117,7 +121,7 @@ def trainingInstancesForSingleKeyword(logs):
     productLogs = viewedProductLogs.union(cartedOrPaidProductLogs).map(Sessionizer.idSetter)
     pairs = getLabeledPairs(searches, productLogs)
     if pairs.count() > 0:
-        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found by', PythonVersionHandler.nowStr())
+        PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found in total by', PythonVersionHandler.nowStr())
     else:
         PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
     return pairs
