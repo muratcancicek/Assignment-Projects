@@ -70,6 +70,7 @@ filteredLogsFromMayFolder = joinPath(HDFSRootFolder, 'filteredLogsFromMay')
 labeledPairsMayFromMayFolder = joinPath(HDFSRootFolder, 'labeledPairs')
 specificProductsFolder = joinPath(HDFSRootFolder, 'specificProducts')
 newProductVectorFolder = joinPath(HDFSRootFolder, 'product/vector')
+newProductVectorFolder3 = joinPath(HDFSRootFolder, 'product3/vector')
 HDFSDataFolder = joinPath(HDFSRootFolder, 'data')
 
 searchLogsFolder = 'hdfs://osldevptst01.host.gittigidiyor.net:8020/user/root/searchlogs/'

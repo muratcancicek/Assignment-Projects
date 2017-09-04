@@ -61,11 +61,40 @@ def extractPeriod(firstDay, lastDay):
 def selection():
     import feature_selection
     feature_selection.selectFeaturesForAllKeywords()
+
+def extendedPairs(keyword = 'iphone 7'):
+    import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler, Trainer
+    keyword_name = keyword.replace(' ', '_')
+    outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
+    inputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
+    logs = FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
+    searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
+    pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
+    if pairs.isEmpty():
+        return
+    else:
+        pairs = pairs.coalesce(24)
+        outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
+        SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+        productOutputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
+        ids = pairs.flatMap(lambda i: i[0]).distinct()
+        productVectorFolder = paths.newProductVectorFolder3
+        products = Trainer.getProducts(ids, productsPath)
+        Trainer.saveSpecificProduct(products, productOutputPath)
+
+def extractExtendedPairs():
+    import paths, PythonVersionHandler, Trainer, ReadyTests
+    keywords = ReadyTests.get27Keywords()
+    for c, keyword in enumerate(keywords): 
+        PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
+        extendedPairs(keyword)
+
 def runNewExtractionMethods():
     #extractPeriod(7, 13)
     #extractPairs()
     #trainingTestAll()
-    selection()
+    #selection()
+    extendedPairs(keyword = 'besiktas')
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2

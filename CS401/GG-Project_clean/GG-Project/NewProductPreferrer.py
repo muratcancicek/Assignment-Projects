@@ -37,7 +37,7 @@ def pairSearchesNProducts(searches, productLogs):
     searchesNProducts = searchesNProducts.map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
     return searchesNProducts
 
-def instanceListFromActions(sp):
+def instanceListFromActions(sp, productOnPage = True):
     import LumberjackConstants as L
     if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_CART:
         coefficient = KEY_CART_COEFFICIENT
@@ -46,14 +46,19 @@ def instanceListFromActions(sp):
     else:
         coefficient = KEY_PRODUCT_COEFFICIENT
     if isinstance(sp[1][1][L.KEY_ID], int):
-        return coefficient * [(sp[1][1][L.KEY_ID], sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(sp[1][1][L.KEY_ID])])]
+        l = sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(sp[1][1][L.KEY_ID])] if productOnPage else sp[0][L.KEY_ID_LIST]
+        return coefficient * [(sp[1][1][L.KEY_ID], l)]
     else:
         processedIds = [int(i) for i in sp[1][1][L.KEY_ID].split('%7C')]
         s = []
         for pid in processedIds:
             if pid in sp[0][L.KEY_ID_LIST]:
-                s.extend(coefficient * [(pid, sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(pid)])])
+                l = sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(pid)] if productOnPage else sp[0][L.KEY_ID_LIST]
+                s.extend(coefficient * [(pid, l)])
         return s
+
+def instanceListFromPrevious(sp):
+    return instanceListFromActions(sp, productOnPage = False)
 
 def labelPairs(s):
     pairs = []
@@ -66,28 +71,41 @@ def getLabeledPairsOnSinglePage(searchesNProducts):
     import LumberjackConstants as L
     searchesNProducts = searchesNProducts.filter(lambda sp: isProductIdOnSearch(sp[1][1], sp[0]))
     searchesNProducts = searchesNProducts.map(lambda sp: (sp[1][1][L.KEY_TIMESTAMP], sp))
-    searchesNProducts = searchesNProducts.reduceByKey(lambda x1, x2: max(x1, x2, key=lambda x: x[0][L.KEY_TIMESTAMP]))
-    pairs = searchesNProducts.map(lambda sp: sp[1]).flatMap(instanceListFromActions)
+    searchesNProducts = searchesNProducts.reduceByKey(lambda x1, x2: max(x1, x2, key=lambda x: x[0][L.KEY_TIMESTAMP])).map(lambda sp: sp[1])
+    pairs = searchesNProducts.flatMap(instanceListFromActions)
     pairs = pairs.flatMap(labelPairs)
     return pairs, searchesNProducts
 
-def previous(spsp):
-    ((search1, p), (search, p)) = spsp
+def pairSearchesNPrevious(searchesNProducts, pairedSearchesNProducts):
+    import LumberjackConstants as L, PythonVersionHandler, SparkLogFileHandler
+    endingSearches = pairedSearchesNProducts.filter(lambda sp: sp[0][L.KEY_PAGENUM] > 1)
+    searchesNPrevious = SparkLogFileHandler.sc_().parallelize([])
+    for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.KEY_SESSION_ID]:
+        subSearches = endingSearches.map(lambda kv: (kv[0][id_key], kv))
+        previousSearches = searchesNProducts.map(lambda sp: (sp[0][id_key], sp))
+        subSearches = subSearches.join(previousSearches)
+        searchesNPrevious = searchesNPrevious.union(subSearches)
+    searchesNPrevious = searchesNPrevious.map(lambda sp: sp[1]).map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
+    searchesNPrevious = searchesNPrevious.filter(lambda sp: sp[0][1][1][L.KEY_ID] == sp[1][1][1][L.KEY_ID])
+    return searchesNPrevious
+
+def isSearchPrevious(sp):
+    return sp[0][0][L.KEY_TIMESTAMP] > sp[1][0][L.KEY_TIMESTAMP] and sp[0][0][L.KEY_PAGENUM] > sp[1][0][L.KEY_PAGENUM]\
+           and not isProductIdOnSearch(sp[0][1][1], sp[1][0])
 
 def getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts):
-    import LumberjackConstants as L
-    searchesNProducts = searchesNProducts.filter(lambda sp: not isProductIdOnSearch(sp[1][1], sp[0]))
-    searchesNProducts = searchesNProducts.map(lambda sp: (sp[1][1][L.KEY_TIMESTAMP], sp))
-    pairedSearchesNProducts = pairedSearchesNProducts.map(lambda sp: (sp[1][1][L.KEY_TIMESTAMP], sp))
-    searchesNProducts = searchesNProducts.join(pairedSearchesNProducts).map(lambda sp: sp[1])
-    searchesNProducts = searchesNProducts.filter(previous)
-
+    searchesNPrevious = pairSearchesNPrevious(searchesNProducts, pairedSearchesNProducts)
+    searchesNPrevious = searchesNPrevious.filter(isSearchPrevious) 
+    searchesNPrevious = searchesNPrevious.map(lambda sp: (sp[1][0], sp[0][1][1]))
+    pairs = searchesNPrevious.flatMap(instanceListFromPrevious)
+    pairs = pairs.flatMap(labelPairs)
+    return pairs
 
 def getLabeledPairs(searches, productLogs):
     searchesNProducts = pairSearchesNProducts(searches, productLogs)
     pairs1, pairedSearchesNProducts = getLabeledPairsOnSinglePage(searchesNProducts)
-    #pairs2 = getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts)
-    return pairs1#.union(pairs2)
+    pairs2 = getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts)
+    return pairs1.union(pairs2)#
 
 def trainingInstancesForSingleKeyword(logs):
     import PythonVersionHandler, SparkLogFileHandler, Sessionizer
@@ -96,8 +114,6 @@ def trainingInstancesForSingleKeyword(logs):
         PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
         return SparkLogFileHandler.sc_().parallelize([])
     searches = searches.map(Sessionizer.idSetter)
-    #viewedProductLogs = viewedProductLogs.map(Sessionizer.idSetter)#.map(lambda kv: Sessionizer.idSetter(kv[1]))
-    #cartedOrPaidProductLogs = cartedOrPaidProductLogs.map(Sessionizer.idSetter)#.map(lambda kv: Sessionizer.idSetter(kv[1][1]))
     productLogs = viewedProductLogs.union(cartedOrPaidProductLogs).map(Sessionizer.idSetter)
     pairs = getLabeledPairs(searches, productLogs)
     if pairs.count() > 0:
