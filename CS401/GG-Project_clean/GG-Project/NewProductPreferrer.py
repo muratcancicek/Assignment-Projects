@@ -82,6 +82,7 @@ def labelPairs(s):
 
 def getLabeledPairsOnSinglePage(searchesNProducts, onlyFollowings = False, AllPageButId = False):
     import LumberjackConstants as L, PythonVersionHandler
+    PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
     searchesNProducts = searchesNProducts.filter(lambda sp: isProductIdOnSearch(sp[1][1], sp[0]))
     searchesNProducts = searchesNProducts.map(lambda sp: (sp[1][1][L.KEY_TIMESTAMP], sp))
     PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
