@@ -65,8 +65,8 @@ def selection():
 def getLabeledPairsAndProductsPath(outputFolder, keyword, onlyFollowings = False, AllPageButId = False):
     keyword_name = keyword.replace(' ', '_')
     extension = '_extended'
-    if onlyFollowings: extension + '_onlyFollowings'
-    if AllPageButId: extension + '_allPage'
+    if onlyFollowings: extension = extension + '_onlyFollowings'
+    if AllPageButId: extension = extension + '_allPage'
     import paths
     pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
     productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
