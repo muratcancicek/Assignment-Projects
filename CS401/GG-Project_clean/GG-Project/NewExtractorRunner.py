@@ -108,7 +108,7 @@ def trainExtendedPairs(keyword = 'iphone 7'):
     Trainer.setFeatureVector(feature_names)
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     keyword_name = keyword.replace(' ', '_')
-    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
+    pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
     pairs = Trainer.readLabeledPairs(outputPath)
     productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
     Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
