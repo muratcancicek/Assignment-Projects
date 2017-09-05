@@ -56,7 +56,7 @@ def idListFromPage(id, sp, productOnPage = True, onlyFollowings = False, AllPage
         elif AllPageButId:
             idList.extend(sp[0][L.KEY_ID_LIST][index+1:])
     else:
-         index = sp[0][L.KEY_ID_LIST]
+         idList = sp[0][L.KEY_ID_LIST]
     return getCoefficientForAction(sp) * [(id, idList)]
 
 def instanceListFromActions(sp, productOnPage = True, onlyFollowings = False, AllPageButId = False):
