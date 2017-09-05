@@ -37,28 +37,41 @@ def pairSearchesNProducts(searches, productLogs):
     searchesNProducts = searchesNProducts.map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
     return searchesNProducts
 
-def instanceListFromActions(sp, productOnPage = True):
+def getCoefficientForAction(sp):
     import LumberjackConstants as L
     if sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_CART:
-        coefficient = KEY_CART_COEFFICIENT
+        return KEY_CART_COEFFICIENT
     elif sp[1][1][L.KEY_MODULE] == L.KEY_MODULE_PAYMENT:
-        coefficient = KEY_PAYMENT_COEFFICIENT
+        return KEY_PAYMENT_COEFFICIENT
     else:
-        coefficient = KEY_PRODUCT_COEFFICIENT
+        return KEY_PRODUCT_COEFFICIENT
+
+def idListFromPage(id, sp, productOnPage = True, onlyFollowings = False, AllPageButId = False):
+    import LumberjackConstants as L
+    if productOnPage:
+        index = sp[0][L.KEY_ID_LIST].index(id)
+        idList = sp[0][L.KEY_ID_LIST][:index]
+        if onlyFollowings:
+            idList.extend(sp[0][L.KEY_ID_LIST][index+1:index+10])
+        elif AllPageButId:
+            idList.extend(sp[0][L.KEY_ID_LIST][index+1:])
+    else:
+         index = sp[0][L.KEY_ID_LIST]
+    return getCoefficientForAction(sp) * [(id, idList)]
+
+def instanceListFromActions(sp, productOnPage = True, onlyFollowings = False, AllPageButId = False):
+    import LumberjackConstants as L
+    def idListGetter(id):
+        return idListFromPage(id, sp, productOnPage = productOnPage, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     if isinstance(sp[1][1][L.KEY_ID], int):
-        l = sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(sp[1][1][L.KEY_ID])] if productOnPage else sp[0][L.KEY_ID_LIST]
-        return coefficient * [(sp[1][1][L.KEY_ID], l)]
+        idList = idListGetter(sp[1][1][L.KEY_ID])
     else:
         processedIds = [int(i) for i in sp[1][1][L.KEY_ID].split('%7C')]
-        s = []
+        idList = []
         for pid in processedIds:
             if pid in sp[0][L.KEY_ID_LIST]:
-                l = sp[0][L.KEY_ID_LIST][:sp[0][L.KEY_ID_LIST].index(pid)] if productOnPage else sp[0][L.KEY_ID_LIST]
-                s.extend(coefficient * [(pid, l)])
-        return s
-
-def instanceListFromPrevious(sp):
-    return instanceListFromActions(sp, productOnPage = False)
+                idList.extend(idListGetter(pid))
+    return idList
 
 def labelPairs(s):
     pairs = []
@@ -67,12 +80,13 @@ def labelPairs(s):
         pairs.append(((i, s[0]), 0))
     return pairs
 
-def getLabeledPairsOnSinglePage(searchesNProducts):
+def getLabeledPairsOnSinglePage(searchesNProducts, onlyFollowings = False, AllPageButId = False):
     import LumberjackConstants as L
     searchesNProducts = searchesNProducts.filter(lambda sp: isProductIdOnSearch(sp[1][1], sp[0]))
     searchesNProducts = searchesNProducts.map(lambda sp: (sp[1][1][L.KEY_TIMESTAMP], sp))
     searchesNProducts = searchesNProducts.reduceByKey(lambda x1, x2: max(x1, x2, key=lambda x: x[0][L.KEY_TIMESTAMP])).map(lambda sp: sp[1])
-    pairs = searchesNProducts.flatMap(instanceListFromActions)
+    instances = lambda sp: instanceListFromActions(sp, productOnPage = True, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
+    pairs = searchesNProducts.flatMap(instances)
     pairs = pairs.flatMap(labelPairs)
     return pairs, searchesNProducts
 
@@ -98,20 +112,21 @@ def getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts):
     searchesNPrevious = pairSearchesNPrevious(searchesNProducts, pairedSearchesNProducts)
     searchesNPrevious = searchesNPrevious.filter(isSearchPrevious) 
     searchesNPrevious = searchesNPrevious.map(lambda sp: (sp[1][0], sp[0][1]))
-    pairs = searchesNPrevious.flatMap(instanceListFromPrevious)
+    instances = lambda sp: instanceListFromActions(sp, productOnPage = False)
+    pairs = searchesNPrevious.flatMap(instances)
     pairs = pairs.flatMap(labelPairs)
     return pairs
 
-def getLabeledPairs(searches, productLogs):
+def getLabeledPairs(searches, productLogs, onlyFollowings = False, AllPageButId = False):
     import PythonVersionHandler
     searchesNProducts = pairSearchesNProducts(searches, productLogs)
     pairs1, pairedSearchesNProducts = getLabeledPairsOnSinglePage(searchesNProducts)
     PythonVersionHandler.print_logging(pairs1.count(), 'pairs have been found on the same pages by', PythonVersionHandler.nowStr())
     pairs2 = getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts)
     PythonVersionHandler.print_logging(pairs2.count(), 'pairs have been found on previous pages by', PythonVersionHandler.nowStr())
-    return pairs1.union(pairs2)#
+    return pairs1.union(pairs2)
 
-def trainingInstancesForSingleKeyword(logs):
+def trainingInstancesForSingleKeyword(logs, onlyFollowings = False, AllPageButId = False):
     import PythonVersionHandler, SparkLogFileHandler, Sessionizer
     (searches, viewedProductLogs, cartedOrPaidProductLogs) = logs
     if searches.isEmpty() or (viewedProductLogs.isEmpty() and cartedOrPaidProductLogs.isEmpty()):
@@ -119,7 +134,7 @@ def trainingInstancesForSingleKeyword(logs):
         return SparkLogFileHandler.sc_().parallelize([])
     searches = searches.map(Sessionizer.idSetter)
     productLogs = viewedProductLogs.union(cartedOrPaidProductLogs).map(Sessionizer.idSetter)
-    pairs = getLabeledPairs(searches, productLogs)
+    pairs = getLabeledPairs(searches, productLogs, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     if pairs.count() > 0:
         PythonVersionHandler.print_logging(pairs.count(), 'pairs have been found in total by', PythonVersionHandler.nowStr())
     else:
@@ -127,14 +142,14 @@ def trainingInstancesForSingleKeyword(logs):
     return pairs
 
 c = 0
-def trainingInstancesByKeywords(keywordDict):
+def trainingInstancesByKeywords(keywordDict, onlyFollowings = False, AllPageButId = False):
     trainingInstancesDict = {}
     import PythonVersionHandler
     global c
     for keyword in keywordDict:
         c += 1
         PythonVersionHandler.print_logging(str(c)+'.', keyword.upper() + ':')
-        trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword])
+        trainingInstancesDict[keyword] = trainingInstancesForSingleKeyword(keywordDict[keyword], onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
         PythonVersionHandler.print_logging(trainingInstancesDict[keyword].count(), 'pairs have been labeled by', PythonVersionHandler.nowStr())
         PythonVersionHandler.print_logging()
     c = 0

@@ -82,47 +82,53 @@ def extendedPairs(keyword = 'iphone 7'):
         products = Trainer.getProducts(ids, productVectorFolder)
         Trainer.saveSpecificProduct(products, productsPath)
 
-def extendedProductExtraction(keyword = 'iphone 7'):
+def extendedProductExtraction(keyword = 'iphone 7', onlyFollowings = False, AllPageButId = False):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler, Trainer
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     keyword_name = keyword.replace(' ', '_')
-    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
+    extension = '_extended'
+    if onlyFollowings: extension + '_onlyFollowings'
+    elif AllPageButId: extension + '_allPage'
+    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
     pairs = Trainer.readLabeledPairs(outputPath)
-    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
+    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
     ids = pairs.flatMap(lambda i: i[0]).distinct()
     PythonVersionHandler.print_logging(ids.count(), 'ids have been gathered from the labeled pairs by', PythonVersionHandler.nowStr())
     productVectorFolder = paths.newProductVectorFolder3
     products = Trainer.getProducts(ids, productVectorFolder)
     Trainer.saveSpecificProduct(products, productsPath)
 
-def extractExtendedPairs():
+def extractExtendedPairs(onlyFollowings = False, AllPageButId = False, doneWords = 0):
     import paths, PythonVersionHandler, Trainer, ReadyTests
     keywords = ReadyTests.get27Keywords()
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
-        if c < 6:
+        if c < doneWords:
             PythonVersionHandler.print_logging('Extended pairs have already been extracted for', keyword)
             continue
-        extendedPairs(keyword)
+        extendedPairs(keyword, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
 
-def trainExtendedPairs(keyword = 'iphone 7'):
+def trainExtendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButId = False):
     import Trainer, paths
     feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
     Trainer.setFeatureVector(feature_names)
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     keyword_name = keyword.replace(' ', '_')
-    pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
-    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
+    extension = '_extended'
+    if onlyFollowings: extension + '_onlyFollowings'
+    elif AllPageButId: extension + '_allPage'
+    pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
+    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
     productVectorFolder = paths.newProductVectorFolder3
     Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
 
-def trainExtendedPairsLoop():
+def trainExtendedPairsLoop(onlyFollowings = False, AllPageButId = False):
     import paths, PythonVersionHandler, Trainer, ReadyTests
     keywords = ReadyTests.get27Keywords()
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
-        trainExtendedPairs(keyword)
+        trainExtendedPairs(keyword, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     Trainer.saveOutputTable()
     Trainer.printOutputTable()
     
@@ -133,8 +139,10 @@ def runNewExtractionMethods():
     #selection()
     #extendedPairs(keyword = 'kol saati')
     #extendedProductExtraction(keyword = 'besiktas')
-    extractExtendedPairs()
-    trainExtendedPairsLoop()
+    extractExtendedPairs(AllPageButId = True)
+    trainExtendedPairsLoop(AllPageButId = True)
+    extractExtendedPairs(onlyFollowings = True)
+    trainExtendedPairsLoop(onlyFollowings = True)
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
