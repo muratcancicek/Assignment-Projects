@@ -50,19 +50,19 @@ def idListFromPage(id, sp, productOnPage = True, onlyFollowings = False, AllPage
     import LumberjackConstants as L
     if productOnPage:
         index = sp[0][L.KEY_ID_LIST].index(id)
-        idList = sp[0][L.KEY_ID_LIST][:index]
         if onlyFollowings:
-            idList.extend(sp[0][L.KEY_ID_LIST][index+1:index+10])
+            idList = sp[0][L.KEY_ID_LIST][:index] + sp[0][L.KEY_ID_LIST][index+1:index+10]
         elif AllPageButId:
-            idList.extend(sp[0][L.KEY_ID_LIST][index+1:])
+            idList = sp[0][L.KEY_ID_LIST][:index] + sp[0][L.KEY_ID_LIST][index+1:]
+        else:
+            idList = sp[0][L.KEY_ID_LIST][:index]
     else:
          idList = sp[0][L.KEY_ID_LIST]
     return getCoefficientForAction(sp) * [(id, idList)]
 
 def instanceListFromActions(sp, productOnPage = True, onlyFollowings = False, AllPageButId = False):
     import LumberjackConstants as L
-    def idListGetter(id):
-        return idListFromPage(id, sp, productOnPage = productOnPage, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
+    idListGetter = lambda id: idListFromPage(id, sp, productOnPage = productOnPage, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     if isinstance(sp[1][1][L.KEY_ID], int):
         idList = idListGetter(sp[1][1][L.KEY_ID])
     else:

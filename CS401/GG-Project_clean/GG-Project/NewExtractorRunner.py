@@ -67,6 +67,7 @@ def getLabeledPairsAndProductsPath(outputFolder, keyword, onlyFollowings = False
     extension = '_extended'
     if onlyFollowings: extension + '_onlyFollowings'
     elif AllPageButId: extension + '_allPage'
+    import paths
     pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
     productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
     return pairsPath, productsPath
@@ -112,9 +113,6 @@ def extractExtendedPairs(onlyFollowings = False, AllPageButId = False, doneWords
 
 def trainExtendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButId = False):
     import Trainer, paths
-    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
-                     'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
-    Trainer.setFeatureVector(feature_names)
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     pairsPath, productsPath = getLabeledPairsAndProductsPath(outputFolder, keyword, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     productVectorFolder = paths.newProductVectorFolder3
@@ -122,6 +120,9 @@ def trainExtendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButI
 
 def trainExtendedPairsLoop(onlyFollowings = False, AllPageButId = False):
     import paths, PythonVersionHandler, Trainer, ReadyTests
+    feature_names = ['photos', 'soldCount', 'feedbackPercentage', 'memberSoldCount', 'memberSegment', 
+                     'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
+    Trainer.setFeatureVector(feature_names)
     keywords = ReadyTests.get27Keywords()
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
@@ -130,10 +131,11 @@ def trainExtendedPairsLoop(onlyFollowings = False, AllPageButId = False):
     Trainer.printOutputTable()
     
 def runNewExtractionMethods():
-    extractExtendedPairs(AllPageButId = True)
-    trainExtendedPairsLoop(AllPageButId = True)
-    extractExtendedPairs(onlyFollowings = True)
-    trainExtendedPairsLoop(onlyFollowings = True)
+    extendedPairs('besiktas', AllPageButId = True)
+    #extractExtendedPairs(AllPageButId = True)
+    #trainExtendedPairsLoop(AllPageButId = True)
+    #extractExtendedPairs(onlyFollowings = True)
+    #trainExtendedPairsLoop(onlyFollowings = True)
     
 def runNewExtractionMethods_old():
     #extractPeriod(7, 13)
