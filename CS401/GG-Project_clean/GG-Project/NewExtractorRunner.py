@@ -62,36 +62,38 @@ def selection():
     import feature_selection
     feature_selection.selectFeaturesForAllKeywords()
 
-def extendedPairs(keyword = 'iphone 7'):
+def getLabeledPairsAndProductsPath(onlyFollowings = False, AllPageButId = False):
+    keyword_name = keyword.replace(' ', '_')
+    extension = '_extended'
+    if onlyFollowings: extension + '_onlyFollowings'
+    elif AllPageButId: extension + '_allPage'
+    pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
+    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
+    return pairsPath, productsPath
+
+def extendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButId = False):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler, Trainer
     keyword_name = keyword.replace(' ', '_')
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     inputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_extractedLogs')
     logs = FinalizedRunners.getPreparedLogsFromHDFS(inputPath, filtering = False)
     searchNProductLogs = SearchExtractor.searchNProductLogsForSingleKeyword(logs, keyword)
-    pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs)
+    pairs = NewProductPreferrer.trainingInstancesForSingleKeyword(searchNProductLogs, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     if pairs.isEmpty():
         return
-    else:
-        pairs = pairs.coalesce(24)
-        outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
-        SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
-        productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
-        ids = pairs.flatMap(lambda i: i[0]).distinct()
-        productVectorFolder = paths.newProductVectorFolder3
-        products = Trainer.getProducts(ids, productVectorFolder)
-        Trainer.saveSpecificProduct(products, productsPath)
+    pairs = pairs.coalesce(24)
+    outputPath, productsPath = getLabeledPairsAndProductsPath(onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
+    SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
+    ids = pairs.flatMap(lambda i: i[0]).distinct()
+    PythonVersionHandler.print_logging(ids.count(), 'ids have been gathered from the labeled pairs by', PythonVersionHandler.nowStr())
+    productVectorFolder = paths.newProductVectorFolder3
+    products = Trainer.getProducts(ids, productVectorFolder)
+    Trainer.saveSpecificProduct(products, productsPath)
 
 def extendedProductExtraction(keyword = 'iphone 7', onlyFollowings = False, AllPageButId = False):
     import paths, SparkLogFileHandler, SearchExtractor, FinalizedRunners, NewProductPreferrer, PythonVersionHandler, Trainer
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    keyword_name = keyword.replace(' ', '_')
-    extension = '_extended'
-    if onlyFollowings: extension + '_onlyFollowings'
-    elif AllPageButId: extension + '_allPage'
-    outputPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
     pairs = Trainer.readLabeledPairs(outputPath)
-    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
     ids = pairs.flatMap(lambda i: i[0]).distinct()
     PythonVersionHandler.print_logging(ids.count(), 'ids have been gathered from the labeled pairs by', PythonVersionHandler.nowStr())
     productVectorFolder = paths.newProductVectorFolder3
@@ -114,12 +116,7 @@ def trainExtendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButI
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
     Trainer.setFeatureVector(feature_names)
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    keyword_name = keyword.replace(' ', '_')
-    extension = '_extended'
-    if onlyFollowings: extension + '_onlyFollowings'
-    elif AllPageButId: extension + '_allPage'
-    pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs' + extension)
-    productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products' + extension)
+    pairsPath, productsPath = getLabeledPairsAndProductsPath(onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     productVectorFolder = paths.newProductVectorFolder3
     Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
 
@@ -133,16 +130,19 @@ def trainExtendedPairsLoop(onlyFollowings = False, AllPageButId = False):
     Trainer.printOutputTable()
     
 def runNewExtractionMethods():
+    extractExtendedPairs(AllPageButId = True)
+    trainExtendedPairsLoop(AllPageButId = True)
+    extractExtendedPairs(onlyFollowings = True)
+    trainExtendedPairsLoop(onlyFollowings = True)
+    
+def runNewExtractionMethods_old():
     #extractPeriod(7, 13)
     #extractPairs()
     #trainingTestAll()
     #selection()
     #extendedPairs(keyword = 'kol saati')
     #extendedProductExtraction(keyword = 'besiktas')
-    extractExtendedPairs(AllPageButId = True)
-    trainExtendedPairsLoop(AllPageButId = True)
-    extractExtendedPairs(onlyFollowings = True)
-    trainExtendedPairsLoop(onlyFollowings = True)
+    pass
 
 def runNewExtractionMethodsOnJupyter():
     import ReadyTests2
