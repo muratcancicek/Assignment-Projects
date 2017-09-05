@@ -97,9 +97,12 @@ def extendedProductExtraction(keyword = 'iphone 7'):
 
 def extractExtendedPairs():
     import paths, PythonVersionHandler, Trainer, ReadyTests
-    keywords = ReadyTests.get27Keywords()[2:]
+    keywords = ReadyTests.get27Keywords()
     for c, keyword in enumerate(keywords): 
         PythonVersionHandler.print_logging(str(c+1)+'.', keyword.upper() + ':')
+        if c < 6:
+            PythonVersionHandler.print_logging('Extended pairs have already been extracted for', keyword)
+            continue
         extendedPairs(keyword)
 
 def trainExtendedPairs(keyword = 'iphone 7'):
@@ -130,7 +133,7 @@ def runNewExtractionMethods():
     #selection()
     #extendedPairs(keyword = 'kol saati')
     #extendedProductExtraction(keyword = 'besiktas')
-    #extractExtendedPairs()
+    extractExtendedPairs()
     trainExtendedPairsLoop()
 
 def runNewExtractionMethodsOnJupyter():
