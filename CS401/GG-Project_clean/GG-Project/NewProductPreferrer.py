@@ -33,8 +33,12 @@ def pairSearchesNProducts(searches, productLogs):
             productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[L.KEY_ID], kv)))
         subSearches = subSearches.join(productLogs)
         searchesNProducts = searchesNProducts.union(subSearches)
+        PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
+    PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
     searchesNProducts = searchesNProducts.map(lambda sp: sp[1]).filter(lambda sp: sp[0][L.KEY_TIMESTAMP] < sp[1][1][L.KEY_TIMESTAMP])
+    PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
     searchesNProducts = searchesNProducts.map(lambda sp: str(sp)).distinct().map(lambda sp: eval(sp))
+    PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
     return searchesNProducts
 
 def getCoefficientForAction(sp):
@@ -123,6 +127,7 @@ def getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts):
 def getLabeledPairs(searches, productLogs, onlyFollowings = False, AllPageButId = False):
     import PythonVersionHandler
     searchesNProducts = pairSearchesNProducts(searches, productLogs)
+    PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
     pairs1, pairedSearchesNProducts = getLabeledPairsOnSinglePage(searchesNProducts)
     PythonVersionHandler.print_logging(pairs1.count(), 'pairs have been found on the same pages by', PythonVersionHandler.nowStr())
     pairs2 = getLabeledPairsOnPreviousPages(searchesNProducts, pairedSearchesNProducts)
