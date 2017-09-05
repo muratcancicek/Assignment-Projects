@@ -90,6 +90,7 @@ def extendedProductExtraction(keyword = 'iphone 7'):
     pairs = Trainer.readLabeledPairs(outputPath)
     productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
     ids = pairs.flatMap(lambda i: i[0]).distinct()
+    PythonVersionHandler.print_logging(ids.count(), 'ids have been gathered from the labeled pairs by', PythonVersionHandler.nowStr())
     productVectorFolder = paths.newProductVectorFolder3
     products = Trainer.getProducts(ids, productVectorFolder)
     Trainer.saveSpecificProduct(products, productsPath)
@@ -109,8 +110,8 @@ def trainExtendedPairs(keyword = 'iphone 7'):
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
     keyword_name = keyword.replace(' ', '_')
     pairsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_pairs_extended')
-    pairs = Trainer.readLabeledPairs(outputPath)
     productsPath = paths.joinPath(outputFolder, keyword_name + '/' + keyword_name + '_products_extended')
+    productVectorFolder = paths.newProductVectorFolder3
     Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
 
 def trainExtendedPairsLoop():
