@@ -62,7 +62,7 @@ def selection():
     import feature_selection
     feature_selection.selectFeaturesForAllKeywords()
 
-def getLabeledPairsAndProductsPath(onlyFollowings = False, AllPageButId = False):
+def getLabeledPairsAndProductsPath(keyword, onlyFollowings = False, AllPageButId = False):
     keyword_name = keyword.replace(' ', '_')
     extension = '_extended'
     if onlyFollowings: extension + '_onlyFollowings'
@@ -82,7 +82,7 @@ def extendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButId = F
     if pairs.isEmpty():
         return
     pairs = pairs.coalesce(24)
-    outputPath, productsPath = getLabeledPairsAndProductsPath(onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
+    outputPath, productsPath = getLabeledPairsAndProductsPath(keyword, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     SparkLogFileHandler.saveRDDToHDFS(pairs, outputPath)
     ids = pairs.flatMap(lambda i: i[0]).distinct()
     PythonVersionHandler.print_logging(ids.count(), 'ids have been gathered from the labeled pairs by', PythonVersionHandler.nowStr())
@@ -116,7 +116,7 @@ def trainExtendedPairs(keyword = 'iphone 7', onlyFollowings = False, AllPageButI
                      'subtitleFlag', 'brandNew', 'freeCargo', 'dailyOffer', 'windowOptionFlag', 'sameDay']
     Trainer.setFeatureVector(feature_names)
     outputFolder = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    pairsPath, productsPath = getLabeledPairsAndProductsPath(onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
+    pairsPath, productsPath = getLabeledPairsAndProductsPath(keyword, onlyFollowings = onlyFollowings, AllPageButId = AllPageButId)
     productVectorFolder = paths.newProductVectorFolder3
     Trainer.train(pairsPath, productVectorFolder, keyword = keyword)
 
