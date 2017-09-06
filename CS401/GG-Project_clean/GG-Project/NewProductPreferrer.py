@@ -28,6 +28,7 @@ def pairSearchesNProducts(searches, productLogs):
             PythonVersionHandler.print_logging('0 pairs have been found by', PythonVersionHandler.nowStr())
             return searchesNProducts 
         productLogsWithId = productLogs.map(lambda kv: (kv[id_key], (kv[L.KEY_ID], kv)))
+        PythonVersionHandler.print_high_logging(productLogsWithId.count(), '= productLogsWithID')
         subSearches = subSearches.join(productLogsWithId)
         PythonVersionHandler.print_high_logging(subSearches.count(), '= subsearches')
         searchesNProducts = searchesNProducts.union(subSearches)
