@@ -54,9 +54,9 @@ def extractPeriod(firstDay, lastDay):
         dateStr = '2017-08-0' + str(day) if day < 10 else '2017-08-' + str(day)
         inputPath = paths.joinPath(paths.searchLogsFolder, dateStr)
         inputPaths.append(inputPath)
-    keywords = ReadyTests.get27Keywords()
+    keywords = ['balik']# ReadyTests.get27Keywords()
     outputPath = paths.joinPath(paths.HDFSRootFolder, 'weekAugust')
-    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath, pairing = False, doneWords = 9)
+    FinalizedRunners.pairLabellingFromObjectiveLogs(inputPaths, keywords, outputPath, pairing = False, doneWords = 0)
 
 def selection():
     import feature_selection
@@ -131,7 +131,8 @@ def trainExtendedPairsLoop(onlyFollowings = False, AllPageButId = False):
     Trainer.printOutputTable()
     
 def runNewExtractionMethods():
-    extendedPairs('besiktas', AllPageButId = True)
+    extractPeriod(13, 13)
+    #extendedPairs('besiktas', AllPageButId = True)
     #extractExtendedPairs(AllPageButId = True)
     #trainExtendedPairsLoop(AllPageButId = True)
     #extractExtendedPairs(onlyFollowings = True)
