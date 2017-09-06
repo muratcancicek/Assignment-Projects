@@ -21,6 +21,7 @@ def isProductIdOnSearch(productLog, search):
 def pairSearchesNProducts(searches, productLogs):
     import PythonVersionHandler, SparkLogFileHandler, LumberjackConstants as L
     searchesNProducts = SparkLogFileHandler.sc_().parallelize([])
+    PythonVersionHandler.print_high_logging(searches.count(), '= searches', productLogs.count(), '= Products')
     for id_key in [L.KEY_PERSISTENT_COOKIE,L.KEY_USER_ID_FROM_COOKIE,L.KEY_USER_ID,L.KEY_SESSION_ID]:
         subSearches = searches.map(lambda search: (search[id_key], search))
         if productLogs.isEmpty():
@@ -32,6 +33,7 @@ def pairSearchesNProducts(searches, productLogs):
         else:
             productLogs = productLogs.map(lambda kv: (kv[id_key], (kv[L.KEY_ID], kv)))
         subSearches = subSearches.join(productLogs)
+        PythonVersionHandler.print_high_logging(subSearches.count(), '= subsearches')
         searchesNProducts = searchesNProducts.union(subSearches)
         PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
     PythonVersionHandler.print_high_logging(searchesNProducts.count(), '= searchesNProducts')
