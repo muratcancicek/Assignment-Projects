@@ -131,7 +131,7 @@ def trainExtendedPairsLoop(onlyFollowings = False, AllPageButId = False):
     Trainer.printOutputTable()
     
 def runNewExtractionMethods():
-    extractPeriod(13, 13)
+    extractPeriod(7, 13)
     #extendedPairs('besiktas', AllPageButId = True)
     #extractExtendedPairs(AllPageButId = True)
     #trainExtendedPairsLoop(AllPageButId = True)
